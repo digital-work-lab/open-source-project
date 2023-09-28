@@ -1,0 +1,30 @@
+/* @theme ub-theme */
+
+@import 'default';
+
+
+:root {
+    background-image: url("background.png");
+}
+
+section {
+  padding: 50px;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  height: 20px;
+  
+}
+
+header {
+  top: 30px;
+}
+
+footer {
+  bottom: 30px;
+}
+

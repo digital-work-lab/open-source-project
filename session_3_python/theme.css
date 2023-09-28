@@ -1,0 +1,73 @@
+/* @theme ub-theme */
+
+@import 'default';
+
+
+:root {
+    background-image: url("figures/background.jpg");
+    background-size: 100% 100%;
+}
+
+section {
+  padding: 50px;
+  font-size: 20px;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  height: 20px;
+  
+}
+
+header {
+  left: 140px;
+  top: 20px;
+}
+
+footer {
+  bottom: 30px;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+
+section.lead h1 {
+  /* font-size: 86px; */
+  /* letter-spacing: 15px; */
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* lead for first page */
+section.lead h2 {
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+section.lead header,
+footer {
+  color: transparent;
+  
+}
+
+section.lead::after {
+  color: transparent;
+}
+
+/* pages */
+section::after {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  height: 10px;
+  bottom:5px;
+
+  color:black;
+}

@@ -1,0 +1,1 @@
+link to the example page, the contributing guidelines and the FAQ

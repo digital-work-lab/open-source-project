@@ -1,0 +1,291 @@
+\documentclass[12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\fancyhf{}
+\pagestyle{fancy}
+
+\fancyhead[R]{Prof. Dr. Guido Schryen\\Institute für
+  Wirtschaftsinformatik\\Universität Regensburg}
+\fancyhead[L]{Theoretische Informatik\\WS 2016/17}
+%\renewcommand{\headrulewidth}{0.5pt}
+
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+
+\begin{document}
+~
+\medskip 
+    \begin{center}
+      \textbf{\large{Lösung zu Theoretische Informatik\\Blatt 1}}\\
+    \end{center}
+
+\section*{Aufgabe 1}
+
+\begin{enumerate}[a)]
+\item Aus welchen Komponenten besteht ein deterministischer endlicher Automat
+(DEA)?
+
+\begin{itemize}
+\item    Zustände: $Q$
+\item    Eingabesymbole: $\Sigma$
+\item    Übergangsfunktion: $\delta$
+\item    Startzustand: $q_0$
+\item    Menge F mit finalen Zuständen, wobei $F \subseteq Q$ (Teilmenge)
+\end{itemize}
+    $A=(Q,\Sigma,\delta,q_0,F)$\\
+
+\item Was bedeutet in diesem Zusammenhang \textsl{deterministisch} und
+\textsl{endlich}?
+
+    \textsl{endlich}: der DEA hat eine endliche Menge an Zuständen.\\
+    \textsl{deterministisch}: der DEA kann sich immer nur in einem Zustand befinden.
+    
+\item Was versteht man unter der Sprache eines DEA?
+
+    $L(A)$, die Sprache von $A$, ist die Menge der Zeichenreihen $w$, die von einem Startzustand $q_0$ in einen akzeptieren Zustand führen. (Hopcroft, S.79)
+\item Was versteht man unter einem Alphabet?\\
+  Ein endliche, nicht leere Menge von Symbolen.
+\end{enumerate}
+
+\section*{Aufgabe 2}
+\begin{enumerate}[a)]
+\item Zeichnen Sie das Übergangsdiagramm eines DEA der alle Zeichenreihen
+akzeptiert, in denen das Zeichen 1 mindestens drei mal vorkommt. Für
+Eingabezeichen steht das binäre Alphabet \{0,1\} zur Verfügung.
+
+\begin{tikzpicture}[
+	shorten >=1pt,
+	node distance=3cm,
+	state/.append style={minimum size=3em},
+	thick,
+	on grid,
+	auto] 
+   \node[state, initial] 		(q_0)   			{$q_0$}; 
+   \node[state] 			(q_1) [right=of q_0] 	{$q_1$}; 
+   \node[state] 			(q_2) [right=of q_1] 	{$q_2$}; 
+   \node[state, accepting]	(q_3) [right=of q_2] 	{$q_3$};
+   \path[->, every loop/.style={in=65,out=115,looseness=5}] 	
+   (q_0) 	edge [loop above] 	node {0} (q_0)
+   		edge 			node {1} (q_1)
+   (q_1)	edge [loop above] 	node {0} (q_1)
+   		edge 			node {1} (q_2)
+   (q_2)	edge [loop above] 	node {0} (q_2)
+   		edge 			node {1} (q_3)
+   (q_3)	edge [loop above] 	node {0,1} (q_3);
+\end{tikzpicture}
+
+
+
+\item Geben Sie die dazugehörige Übergangstabelle an.\\
+
+\begin{tabular}{c|cc}
+& 0 & 1\\\hline
+$\rightarrow q_0$ & $q_0$ & $q_1$\\
+$q_1$ & $q_1$ & $q_2$\\
+$q_2$ & $q_2$ & $q_3$\\
+$*q_3$ & $q_3$ & $q_3$\\
+\end{tabular}
+
+\end{enumerate}
+
+\section*{Aufgabe 3}
+\begin{enumerate}[a)]
+\item Zeichnen Sie das Übergangsdiagramm eines DEA der alle Zeichenreihen
+akzeptiert, in denen die Zeichenreihe 111 mindestens einmal vorkommt. Für
+Eingabezeichen steht das binäre Alphabet \{0,1\} zur Verfügung.
+
+\begin{tikzpicture}[
+	shorten >=1pt,
+	node distance=3cm,
+	state/.append style={minimum size=3em},
+	thick,
+	on grid,
+	auto] 
+   \node[state, initial] 		(q_0)   			{$q_0$}; 
+   \node[state] 			(q_1) [right=of q_0] 	{$q_1$}; 
+   \node[state] 			(q_2) [right=of q_1] 	{$q_2$}; 
+   \node[state, accepting]	(q_3) [right=of q_2] 	{$q_3$};
+   \path[->, every loop/.style={in=65,out=115,looseness=5}] 	
+   (q_0) 	edge [loop above] 	node {0} (q_0)
+   		edge 			node {1} (q_1)
+   (q_1)	edge	 [bend left=30, in=140]	node [swap] {0} (q_0)
+   		edge 			node {1} (q_2)
+   (q_2)	edge [bend left=30, in=120] 	node [swap] {0} (q_0)
+   		edge 			node {1} (q_3)
+   (q_3)	edge [loop] 		node {0,1} (q_3);
+\end{tikzpicture}
+
+\item Geben Sie die dazugehörige Übergangstabelle an.\\\medskip
+\begin{tabular}{c|cc}
+& 0 & 1\\\hline
+$\rightarrow q_0$ & $q_0$ & $q_1$\\
+$q_1$ & $q_0$ & $q_2$\\
+$q_2$ & $q_0$ & $q_3$\\
+$*q_3$ & $q_3$ & $q_3$\\
+\end{tabular}
+\end{enumerate}
+
+\section*{Aufgabe 4}
+\begin{enumerate}[a)]
+\item Zeichnen Sie das Übergangsdiagramm eines DEA der alle Zeichenreihen
+akzeptiert, die eine gerade Zahl an Einsen enthalten und mit der 11 enden. Für Eingabezeichen steht das binäre Alphabet
+\{0,1\} zur Verfügung. 
+
+\begin{tikzpicture}[
+	shorten >=1pt,
+	node distance=4cm,
+	state/.append style={minimum size=3em},
+	thick,
+	on grid,
+	auto] 
+   \node[state, initial] 		(q_0)   			{$q_0$}; 
+   \node[state] 			(q_1) [right=of q_0] 	{$q_1$}; 
+   \node[state] 			(q_2) [above right=of q_0] 	{$q_2$}; 
+   \node[state, accepting]	(q_3) [right=of q_1] 	{$q_3$};
+   \path[->, every loop/.style={in=65,out=115,looseness=5}] 	
+   (q_0) 	edge [loop above] 	node {0} (q_0)
+   		edge 			node {1} (q_1)
+   (q_1)	edge				node [swap] {0} (q_2)
+   		edge [bend left=10]	node {1} (q_3)
+   (q_2)	edge [loop above] 	node {0} (q_2)
+   		edge 			node [swap] {1} (q_0)
+   (q_3)	edge	 [bend left=10]	node {1} (q_1)
+   		edge	 [bend left=35]	node {0} (q_0);
+\end{tikzpicture}
+
+\item Geben Sie die dazugehörige Übergangstabelle an.\\\medskip
+\end{enumerate}
+
+\begin{tabular}{c|cc}
+& 0 & 1\\\hline
+$\rightarrow q_0$ & $q_0$ & $q_1$\\
+$q_1$ & $q_2$ & $q_3$\\
+$q_2$ & $q_2$ & $q_0$\\
+$*q_3$ & $q_0$ & $q_1$
+\end{tabular}
+
+\section*{Aufgabe 5}
+\begin{enumerate}[a)]
+\item Zeichnen Sie das Übergangsdiagramm eines DEA der alle Zeichenreihen
+akzeptiert, die eine durch 5 teilbare Anzahl von Nullen und eine durch 3
+teilbare Anzahl von Einsen hat. Für Eingabezeichen steht das binäre Alphabet $\{0,1\}$ zur Verfügung.\\\medskip
+
+\begin{tikzpicture}[
+	shorten >=1pt,
+	node distance=2.7cm,
+	state/.append style={minimum size=1cm},
+	thick,
+	on grid,
+	auto] 
+   \node[state, initial, accepting] (q_0)   		{$q_0$}; 
+   \node[state] 			(q_1) [right=of q_0] 	{$q_1$}; 
+   \node[state] 			(q_2) [right=of q_1] 	{$q_2$}; 
+   \node[state] 			(q_3) [right=of q_2] 	{$q_3$}; 
+   \node[state] 			(q_4) [right=of q_3] 	{$q_4$}; 
+   
+   \node[state]			(q_5) [below=of q_0]  {$q_5$}; 
+   \node[state] 			(q_6) [right=of q_5] 	{$q_6$}; 
+   \node[state] 			(q_7) [right=of q_6] 	{$q_7$}; 
+   \node[state] 			(q_8) [right=of q_7] 	{$q_8$}; 
+   \node[state] 			(q_9) [right=of q_8] 	{$q_9$};
+   
+   \node[state] 			(q_10) [below=of q_5]{$q_{10}$}; 
+   \node[state] 			(q_11) [right=of q_10] {$q_{11}$}; 
+   \node[state] 			(q_12) [right=of q_11] {$q_{12}$}; 
+   \node[state] 			(q_13) [right=of q_12] {$q_{13}$}; 
+   \node[state] 			(q_14) [right=of q_13] {$q_{14}$};
+   
+   \path[->, every loop/.style={in=65,out=115,looseness=5}] 	
+   (q_0) 	edge 		 	node {0} 					(q_1)
+   		edge 			node {1} 					(q_5)
+   (q_1) 	edge 		 	node {0} 					(q_2)
+   		edge 			node [yshift=-.25cm] {1} 		(q_6)
+   (q_2) 	edge 		 	node {0} 					(q_3)
+   		edge 			node [swap, yshift=-.10cm] {1} 	(q_7)
+   (q_3) 	edge 		 	node {0} 					(q_4)
+   		edge 			node [swap, yshift=-.25cm] {1} 	(q_8)
+   (q_4) 	edge [bend right]	node [swap] {0} 			(q_0)
+   		edge 			node {1} 					(q_9)
+		
+   (q_5) 	edge 		 	node {0} 					(q_6)
+   		edge 			node {1} 					(q_10)
+   (q_6) 	edge 		 	node [xshift=.2cm] {0} 		(q_7)
+   		edge 			node [swap] {1} 			(q_11)
+   (q_7) 	edge 		 	node [xshift=.2cm] {0} 		(q_8)
+   		edge 			node [swap]{1} 				(q_12)		
+   (q_8) 	edge 		 	node [xshift=.1cm] {0} 		(q_9)
+   		edge 			node [swap]{1} 				(q_13)
+   (q_9) 	edge [bend right=32]node [xshift=1.5cm, yshift=.40cm] {0} (q_5)
+   		edge 			node {1} 					(q_14)
+		
+   (q_10) 	edge 		 	node {0} 					(q_11)
+   		edge [bend left=40]	node {1}	 				(q_0)
+   (q_11) 	edge 		 	node {0} 					(q_12)
+   		edge [bend right]	node [xshift=.35cm, yshift=-1.05cm] {1} (q_1)
+   (q_12) 	edge 		 	node {0} 					(q_13)
+   		edge [bend right]	node [xshift=.35cm, yshift=-1.05cm]  {1} (q_2)
+   (q_13) 	edge 		 	node {0} 					(q_14)
+   		edge [bend right]	node [xshift=.35cm, yshift=-1.05cm]  {1} (q_3)
+   (q_14) 	edge [bend left]		node {0}					(q_10)
+   		edge [bend right=40]node [swap] {1} 			(q_4);							
+\end{tikzpicture}
+
+%3x5 Zustände (3 Zeilen, 5 Spalten). $q_0$ und F ist links oben. Wenn 1 eingegeben wird, die Zeile erhöht,
+%ggf. zurück zu Zeile 1. Wenn 0 eingegeben wird, wird die Spalte erhöht,
+%ggf. zurück zu Spalte 1.
+
+\end{enumerate}
+
+
+\section*{Aufgabe 6 - Vorstellung am 22.10.2014}
+Zeichnen Sie einen endlichen Automaten, der gültige Uhrzeiten einer Digitaluhr erkennt. Geben Sie die zugehörige Übergangstabelle an.  \underline{\textbf{Beispiel:}} 23:46, 05:53, oder 12:00.
+\\\medskip
+
+
+\begin{tikzpicture}[
+	shorten >=1pt,
+	node distance=2.5cm,
+	state/.append style={minimum size=3em},
+	thick,
+	on grid,
+	auto] 
+   \node[state, initial] 		(q_0)   			{$q_0$}; 
+   \node[state] 			(q_1) [right=of q_0] 	{$q_1$};
+	\node[state] 			  (q_2) [above=of q_1] 	{$q_2$};
+   \node[state] 			(q_3) [right=of q_1] 	{$q_3$}; 
+   \node[state]				(q_4) [right=of q_3] 	{$q_4$};
+	 \node[state] 			(q_5) [right=of q_4] 	{$q_5$};
+	 \node[state, accepting] 			(q_6) [right=of q_5] 	{$q_6$};
+   \path[->, every loop/.style={in=65,out=115,looseness=5}] 	
+   (q_0) edge 			node {0,1} (q_1)
+				 edge 			node {2} (q_2)
+   (q_1) edge 			node {0...9} (q_3)
+	 (q_2) edge 			node {0...3} (q_3)
+   (q_3) edge 			node {:} (q_4)
+   (q_4) edge 			node {0...5} (q_5)
+	 (q_5) edge 			node {0...9} (q_6);
+\end{tikzpicture}
+\\\medskip
+
+Übergangstabelle:
+\\\medskip
+
+
+\begin{tabular}{c|cccccc}
+& 0,1 & 2 & 3 & 4,5 & 6...9 & :\\\hline
+$\rightarrow q_0$ & $q_1$ & $q_2$ & - & - & - & - \\
+$q_1$ & $q_3$ & $q_3$ & $q_3$ & $q_3$& $q_3$ & - \\
+$q_2$ & $q_3$ & $q_3$ & $q_3$ & - & - & - \\
+$q_3$ & - & - & - & - & - & $q_4$ \\
+$q_4$ & $q_5$ & $q_5$ & $q_5$ & $q_5$ & - & - \\
+$q_5$ & $q_6$ & $q_6$ & $q_6$ & $q_6$ & $q_6$ & - \\
+$*q_6$ & - & - & - & - & - & - \\
+\end{tabular}
+
+
+
+
+\end{document}

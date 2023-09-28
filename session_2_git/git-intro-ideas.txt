@@ -1,0 +1,28 @@
+- cheat-sheets drucken/verteilen, interaktiv erarbeiten
+https://training.github.com/
+replace most of the "make changes" by gitk/git gui
+
+for git exercises/lecture: application/exercise: show cli/graphical user interfaces and ask students to make sense of what's displayed (working directory/index/version)
+-> move elements on the blackboard (what does that mean?)
+-> e.g., when a file is staged/stashed
+-> clarify that on github, there are no staged/unstaged changes (no working directory, no index, just the git repo/versions)
+"Generally, a git bare repository contains an extension of .git. In this repository you cannot commit any changes hence it cannot keep a track of the changes made in your files. But you can definitely push, pull, fetch or clone from it. In other words, you can use any git commands applicable to a remote repository."
+
+git add -p
+
+git works for line-based text. Don't feed it binaries, avoid tabular data, ignore files.
+
+project: check branches (e.g., grobid), active / ahead/behind
+
+pre-commit run -a
+
+-> continuous integration (tests that will tell you if there's anything that should be fixed)
+
+
+TODO:
+- mention possibility to ignore:
+# type: ignore
+#pylint: disable=...
+
+
+At the end of the group sessions: short individual sessions to make plans on how to split the work

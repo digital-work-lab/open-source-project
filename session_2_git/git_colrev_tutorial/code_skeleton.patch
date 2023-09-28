@@ -1,0 +1,128 @@
+From fdd9e749fc7ca5aa367d341b8a6bc73a2b3c7d58 Mon Sep 17 00:00:00 2001
+From: Gerit Wagner <gerit.wagner@uni-bamberg.de>
+Date: Fri, 7 Apr 2023 11:59:01 +0200
+Subject: [PATCH] code skeleton: slr_uploader
+
+---
+ colrev/ops/built_in/data/slr_uploader.md |  8 ++
+ colrev/ops/built_in/data/slr_uploader.py | 93 ++++++++++++++++++++++++
+ 2 files changed, 101 insertions(+)
+ create mode 100644 colrev/ops/built_in/data/slr_uploader.md
+ create mode 100644 colrev/ops/built_in/data/slr_uploader.py
+
+diff --git a/colrev/ops/built_in/data/slr_uploader.md b/colrev/ops/built_in/data/slr_uploader.md
+new file mode 100644
+index 00000000..baa21238
+--- /dev/null
++++ b/colrev/ops/built_in/data/slr_uploader.md
+@@ -0,0 +1,8 @@
++# Data: Enter DataEndpoint
++
++Note: This document is currently under development. It will contain the following elements.
++
++- description
++- example
++
++## Links
+diff --git a/colrev/ops/built_in/data/slr_uploader.py b/colrev/ops/built_in/data/slr_uploader.py
+new file mode 100644
+index 00000000..2dbe5f03
+--- /dev/null
++++ b/colrev/ops/built_in/data/slr_uploader.py
+@@ -0,0 +1,93 @@
++#! /usr/bin/env python
++"""A convenience package to upload the data to systematic-review-datasets"""
++from __future__ import annotations
++
++from dataclasses import dataclass
++
++import zope.interface
++from dataclasses_jsonschema import JsonSchemaMixin
++
++import colrev.env.package_manager
++import colrev.env.utils
++import colrev.record
++
++if False:  # pylint: disable=using-constant-test
++    from typing import TYPE_CHECKING
++
++    if TYPE_CHECKING:
++        import colrev.ops.data
++
++# pylint: disable=unused-argument
++
++
++@zope.interface.implementer(colrev.env.package_manager.DataPackageEndpointInterface)
++@dataclass
++class SLRUpload(JsonSchemaMixin):
++    """Class to upload the data to systematic-review-datasets"""
++
++    ci_supported: bool = False
++
++    settings_class = colrev.env.package_manager.DefaultSettings
++
++    def __init__(
++        self,
++        *,
++        data_operation: colrev.ops.data.Data,
++        settings: dict,
++    ) -> None:
++        # Set default values (if necessary)
++        if "version" not in settings:
++            settings["version"] = "0.1.0"
++        if "auto_push" not in settings:
++            settings["auto_push"] = True
++
++        self.settings = self.settings_class.load_settings(data=settings)
++        self.review_manager = data_operation.review_manager
++
++    def get_default_setup(self) -> dict:
++        """Get the default setup"""
++        slr_endpoint_details = {
++            "endpoint": "colrev.slr_upload",
++            "version": "0.1",
++            "auto_push": True,
++        }
++
++        return slr_endpoint_details
++
++    def update_data(
++        self,
++        data_operation: colrev.ops.data.Data,
++        records: dict,
++        synthesized_record_status_matrix: dict,
++        silent_mode: bool,
++    ) -> None:
++        """Update the data to systematic-review-datasets"""
++
++        # TODO : implement the code here.
++
++    def update_record_status_matrix(
++        self,
++        data_operation: colrev.ops.data.Data,
++        synthesized_record_status_matrix: dict,
++        endpoint_identifier: str,
++    ) -> None:
++        """Update the record_status_matrix"""
++
++        # Note : automatically set all to True / synthesized
++        for syn_id in synthesized_record_status_matrix:
++            synthesized_record_status_matrix[syn_id][endpoint_identifier] = True
++
++    def get_advice(
++        self,
++        review_manager: colrev.review_manager.ReviewManager,
++    ) -> dict:
++        """Get advice on the next steps (for display in the colrev status)"""
++
++        data_endpoint = "Data operation [slr-uploader data endpoint]: "
++
++        advice = {"msg": f"{data_endpoint}", "detailed_msg": "TODO"}
++        return advice
++
++
++if __name__ == "__main__":
++    pass
+-- 
+2.40.0
+

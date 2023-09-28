@@ -1,0 +1,69 @@
+diff --git a/colrev/dataset.py b/colrev/dataset.py
+index 3860745d..78231d31 100644
+--- a/colrev/dataset.py
++++ b/colrev/dataset.py
+@@ -16,6 +16,7 @@ from typing import TYPE_CHECKING
+ 
+ import git
+ import pybtex.errors
++import requests
+ from git.exc import GitCommandError
+ from git.exc import InvalidGitRepositoryError
+ from pybtex.database import Person
+@@ -446,6 +447,7 @@ class Dataset:
+         file_path: Optional[Path] = None,
+         load_str: Optional[str] = None,
+         header_only: bool = False,
++        skip_notification: bool = False,
+     ) -> dict:
+         """Load the records
+ 
+@@ -462,8 +464,9 @@ class Dataset:
+         }
+         """
+ 
+-        if self.review_manager.notified_next_operation is None:
+-            raise colrev_exceptions.ReviewManagerNotNofiedError()
++        if not skip_notification:
++            if self.review_manager.notified_next_operation is None:
++                raise colrev_exceptions.ReviewManagerNotNofiedError()
+ 
+         pybtex.errors.set_strict_mode(False)
+         if header_only:
+@@ -492,6 +495,18 @@ class Dataset:
+ 
+         return records_dict
+ 
++    def load_records_from_api(
++        self,
++        *,
++        api_path: str,
++    ) -> dict:
++        """TODO"""
++
++        records = requests.get(api_path, headers={})
++        # Hm... we don't get a dictionary as a return:
++        print(records)
++        input("Stop here. The previous code should work before we continue")
++
+     @classmethod
+     def parse_bibtex_str(
+         cls,
+@@ -674,7 +689,7 @@ class Dataset:
+     def format_records_file(self) -> bool:
+         """Format the records file"""
+         quality_model = self.review_manager.get_qm()
+-        records = self.load_records_dict()
++        records = self.load_records_dict(skip_notification=True)
+         for record_dict in records.values():
+             if "colrev_status" not in record_dict:
+                 print(f'Error: no status field in record ({record_dict["ID"]})')
+@@ -710,7 +725,7 @@ class Dataset:
+                 working_tree=True,
+             )
+         else:
+-            records = self.load_records_dict()
++            records = self.load_records_dict(skip_notification=True)
+             records = {
+                 ID: record
+                 for ID, record in records.items()
