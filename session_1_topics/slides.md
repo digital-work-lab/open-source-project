@@ -9,7 +9,7 @@ theme: ub-theme
 
 # WI-Project: Open-Source Project with Git and Python
 
-Junioprofessur für Digital Work
+Juniorprofessur für Digital Work
 
 <!--
 Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
@@ -21,9 +21,9 @@ Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
 
 - Prof. Dr. Gerit Wagner
 - At Bamberg University since October, 2022
-- Active coding in Git, Python, and R since 2014
-- My latest and most significant project: CoLRev
+- I work with Git, Python, and R since 2014
 - I enjoy coding, solving programming puzzles, and building tools that are useful for others
+- My latest and most significant project: **CoLRev**
 
 ![bg right:50% width:550px](coding_experience.png)
 
@@ -36,23 +36,52 @@ Enjoyment/challenge/making an impact: that's what I want you to experience in th
 
 ---
 
-# Agenda
+# What you will learn (I): Python
 
-1. Organization and topics (**today**)
-2. Introduction to git (April 25)
-3. Introduction to Python (May 2)
-4. Individual hacking sessions (May-June)
-5. Pull request and presentation (July 10-14)
+- Write Python code
+- Contribute to a public package
+- Python is the leading programming language in several rankings, including the [TIOBE Index](https://www.tiobe.com/tiobe-index/) and the [PYPL (PopularitY of Programming Language)](https://pypl.github.io/PYPL.html) ranking
+- Job requirements for **Data Scientists**, **Full-stack Software Engineers**, **DevOps Engineers**, or **Data Engineers** commonly include Python ([1](https://de.indeed.com/jobs?q=Python))
+
+![bg right:45% width:450px](chris-ried-ieic5Tq8YMk-unsplash.jpg)
+
+<!-- 
+not throw-away code!
+
+https://unsplash.com/de/fotos/ieic5Tq8YMk
+-->
 
 ---
 
-# What you will learn
+# What you will learn (II): Git/GitHub
 
-- Use git/GitHub for versioning and collaboration
-- Write code in Python
-- Make a first contribution to an Open-Source project
+- Use git and GitHub for versioning and collaboration
+- Git quickly established itself as the most popular version control system
+- As a prominent example, Microsoft has acquired GitHub and moved the source code of Windows to git ([1](https://www.golem.de/news/gvfs-windows-team-nutzt-fast-vollstaendig-git-1705-128039.html))
+- Many companies have public GitHub programs and share parts of their work as Open-Source (e.g., [Google](https://github.com/google), [Meta](https://github.com/facebook), [AirBnB](https://github.com/airbnb)) 
+
+![bg right:40% width:350px](git-diffusion.png)
 
 <!-- 
+Ask students why Google, AirBnB etc. would publish code?
+-> Open Source works better
+-> Identify and attract talent (they may be very picky)
+-->
+
+---
+
+# What you will learn (III): Open-Sourcing
+
+- Work with the Open-Source workflows of GitHub
+- Make a first contribution to an Open-Source project
+- Adopt the role of a maintainer and review code of your peers
+- Take the opportunity to create and present your [Developer Portfolio](https://sean-coughlin.medium.com/market-yourself-with-a-killer-github-readme-cf529264453)
+
+![bg right:35% width:350px](github-contributors.png)
+
+<!-- 
+https://sean-coughlin.medium.com/market-yourself-with-a-killer-github-readme-cf529264453
+
 Git und Pyhton kurz erkären/motivieren
 
 Github platform: tests, continuous integration, forks, ...
@@ -60,15 +89,52 @@ Github platform: tests, continuous integration, forks, ...
 
 ---
 
+# The project: CoLRev
+
+Collaborative Literature Reviews (CoLRev) is an open-source environment for collaborative literature reviews. It integrates with differerent synthesis tools, takes care of the data, and facilitates Git-based collaboration.
+
+The following features stand out:
+
+- An open and extensible environment based on shared data and process standards
+- Builds on git and its transparent collaboration model for the entire literature review process
+- Offers a self-explanatory, fault-tolerant, and configurable user workflow
+
+![bg right:30% width:300px](colrev-logo.png)
+
+<!-- 
+Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
+
+Wer hat schon mal eine Literaturübersicht geschrieben?
+
+Command line!
+
+git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
+
+-->
+
+---
+
+# Agenda
+
+1. Organization and topics (**today**)
+2. Introduction to git (October 20)
+3. Introduction to Python (October 24 and 26)
+4. Individual hacking sessions (November-January)
+5. Pull request (December 20)
+6. Code review and presentation (TBA)
+
+---
+
 # Expectations
 
-- Programming experience (courses: IIS-EBAS-B, DSG-EiAPS-B, AI-AuD-B, DSG-JaP-B)
-- Learning Git and Python
+- Bring programming experience (courses: IIS-EBAS-B, DSG-EiAPS-B, AI-AuD-B, DSG-JaP-B)
+- Learn Git and Python
+- Do not use generative AI such as ChatGPT (risk of copyright infringement)
 - Embrace the challenge and adopt a problem solving mindset
+- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
 - Take full responsibility to set up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
-- Do not use generative AI such as ChatGPT (copyright infringement when publishing results as Open-Source code)
-
+- Reach out and schedule individual hacking sesisons via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
 <!--
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
@@ -91,12 +157,12 @@ small teams, everyone is expected to program and contribute - with git, we see c
 
 # How groups will form
 
-You are not automatically assigned to a group. You assign yourself to a group when you contribute code following these steps:
-- Step 1: **Signal your intent** to contribute by joining the issue discussion on Github (by April 24, for two topics at most).
-- Step 2: **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that no more than 5 people will be accepted per group.
-- Step 3: **Officially sign up for a seminar group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de). Your participation will be confirmed and your account will be linked to the project issue.
+You **assign yourself to a group** when you contribute code following these steps:
+1. **Signal your intent** to contribute by joining the issue discussion on Github (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestone/7), before the **Git Session**, for two topics at most).
+2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that no more than 5 people will be accepted per group.
+3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de). Your participation will be confirmed and your account will be linked to the project issue.
 
-The group assignment based on actual code contribution is intended to ensure that **all group members make a fair contribution to the project**. It is at the instructors discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
+We require actual code contributions to ensure that **all group members make a fair contribution to the project**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
 
 <!-- 
 Sie haben es selbst in der Hand - Sie können sich bei dem Thema einbringen, das Sie interessiert!
@@ -132,28 +198,18 @@ ASK: how many ISM (Java not mandatory) and WI?
 
 ---
 
-# The project: CoLRev
+# Evaluation criteria
 
-Collaborative Literature Reviews (CoLRev) is an open-source environment for collaborative literature reviews. It integrates with differerent synthesis tools, takes care of the data, and facilitates Git-based collaboration.
-
-The following features stand out:
-
-- An open and extensible environment based on shared data and process standards
-- Builds on git and its transparent collaboration model for the entire literature review process
-- Offers a self-explanatory, fault-tolerant, and configurable user workflow
-
-![bg left:30% width:400px](colrev-logo.png)
+- Organize as a team, following Open-Source principles (e.g., create atomic commits; use branches and pull requests; review, discuss, revise, and test your code)
+- Be able to explain the code contribution of the team as a whole
+- Each team member: Make a concise and high-quality contribution to the code. This is a **necessary condition to pass the course**. We review code contributions at the end.
+- Contribute your code to the CoLRev project and have your code merged
+- Attend your presentation session and contribute to the code review
 
 <!-- 
-Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
-
-Wer hat schon mal eine Literaturübersicht geschrieben?
-
-Command line!
-
-git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
-
+Presentations Expectations: length/format, show code, demonstrate rationales/alternatives, potential extensions, summarize challenges (how could they be addressed/prevented in upcoming student projects)
 -->
+
 ---
 
 # Finding things in an Open Source project
@@ -167,9 +223,9 @@ Form groups of three and try to find the following information in 10 minutes:
 3. What's the license and where can we find information on how to contribute to the project?
 4. What information should be provided for bug reports, where can I open a feature request?
 5. How many issues are open vs. closed? How many pull requests are open vs. closed?
-6. How long to workflows with tests or code formatting run, when did the last one fail?
+6. How long do workflows with tests or code formatting run, when did the last one fail?
 7. What is "unpaywall" used for in the project?
-8. Where can we find the features planned for milestone v0.10.0 (due August 1st)?
+8. Where can we find the features planned for milestone v0.12.0 (due March 1st)?
 
 <!-- 
 "Schnitzeljagd" - auf Zeit
@@ -204,7 +260,8 @@ Show the issues/the good-first-issue (and the code-markers)
 # CoLRev: Demo and Topics
 
 An overview of the [process](https://colrev.readthedocs.io/en/latest/manual/operations.html) and the [worfklow](https://colrev.readthedocs.io/en/latest/manual/workflow.html) are available in the documentation.
-
+A brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
+<!-- 
 The topics cover:
 
 - [API-based information retrieval](https://github.com/CoLRev-Environment/colrev/issues/120)
@@ -216,8 +273,8 @@ The topics cover:
 - [Data validation based on domain-specific rules](https://github.com/CoLRev-Environment/colrev/issues/109)
 
 - [Analytics dashboards](https://github.com/CoLRev-Environment/colrev/issues/130)
+ -->
 
-A brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
 
 <!-- 
 
@@ -233,11 +290,9 @@ Demonstrate workflow
 
 -->
 
----
+**Find a topic**
 
-# Find a topic
-
-- Go to [milestone v0.10.0](https://github.com/CoLRev-Ecosystem/colrev/milestone/5) and read the open issues (available topics).
+- Go to [milestone v0.12.0](https://github.com/CoLRev-Ecosystem/colrev/milestone/7) and read the open issues (available topics).
 - Find others who are interested in the same topic.
 - Ask questions.
 
@@ -257,37 +312,19 @@ TODO : emphasize parallels to git -->
 
 ---
 
-# Evaluation criteria
-
-- Organize as a team, following Open-Source principles (e.g., create atomic commits; use branches and pull requests; review, discuss, revise, and test your code)
-- Be able to explain the code contribution of the team as a whole
-- Make a concise and high-quality contribution to the code
-- Contribute your code to the CoLRev project and have your code merged
-- Attend your presentation session and contribute to the discussions
-
-<!-- 
-Presentations Expectations: length/format, show code, demonstrate rationales/alternatives, potential extensions, summarize challenges (how could they be addressed/prevented in upcoming student projects)
--->
-
----
-
-# Administrative details
-
-- No registration via Flexnow (Scheine)
-
-- [VC link](https://vc.uni-bamberg.de/course/view.php?id=61245) (password: mooj2ieL)
-
-- Development environment: VirtualBox [dev setup](https://github.com/geritwagner/dev-setup), [download link](https://gigamove.rwth-aachen.de/de/download/0124f27bae3a53276aa6c239b789d4ed)
-
----
-
 # Next session
 
-- April 25
-- Set up your programming environment. Git, Python (>3.7), an editor, Docker, and CoLRev are required.
+- Friday, October 20th
+- Sign up for our [VC course](https://vc.uni-bamberg.de/course/view.php?id=64616) (password: shaiChi4)
 - Create a GitHub account, start exploring issues, and team up
+- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html)) and in the VC course
 
-<!-- 
+
+![bg right:36% width:300px](VC-WS2324-QR.png)
+
+<!--
+Installation/Setup starten, ggf. beim nächsten Termin schon Fragen stellen
+
 We need the programming environment next time.
 You can use the VirtualBox image or try to set it up on a local machine.
 You have to take responsibility for your environment (we cannot offer a lot of support).

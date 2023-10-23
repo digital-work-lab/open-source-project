@@ -1,0 +1,69 @@
+diff --git a/colrev/dataset.py b/colrev/dataset.py
+index a31ac51b..b1df94b4 100644
+--- a/colrev/dataset.py
++++ b/colrev/dataset.py
+@@ -17,6 +17,7 @@ from typing import TYPE_CHECKING
+ 
+ import git
+ import pybtex.errors
++import requests
+ from git.exc import GitCommandError
+ from git.exc import InvalidGitRepositoryError
+ from pybtex.database import Person
+@@ -454,6 +455,7 @@ class Dataset:
+         file_path: Optional[Path] = None,
+         load_str: Optional[str] = None,
+         header_only: bool = False,
++        skip_notification: bool = False,
+     ) -> dict:
+         """Load the records
+ 
+@@ -470,8 +472,9 @@ class Dataset:
+         }
+         """
+ 
+-        if self.review_manager.notified_next_operation is None:
+-            raise colrev_exceptions.ReviewManagerNotNofiedError()
++        if not skip_notification:
++            if self.review_manager.notified_next_operation is None:
++                raise colrev_exceptions.ReviewManagerNotNofiedError()
+ 
+         pybtex.errors.set_strict_mode(False)
+         if header_only:
+@@ -502,6 +505,18 @@ class Dataset:
+ 
+         return records_dict
+ 
++    def load_records_from_api(
++        self,
++        *,
++        api_path: str,
++    ) -> dict:
++        """TODO"""
++
++        records = requests.get(api_path, headers={})
++        # Hm... we don't get a dictionary as a return:
++        print(records)
++        input("Stop here. The previous code should work before we continue")
++
+     @classmethod
+     def parse_bibtex_str(
+         cls,
+@@ -762,7 +777,7 @@ class Dataset:
+                 working_tree=True,
+             )
+         else:
+-            records = self.load_records_dict()
++            records = self.load_records_dict(skip_notification=True)
+             records = {
+                 ID: record
+                 for ID, record in records.items()
+@@ -907,7 +922,7 @@ class Dataset:
+             records = {}
+ 
+         if len(records) == 0:
+-            records = self.load_records_dict()
++            records = self.load_records_dict(skip_notification=True)
+ 
+         id_list = list(records.keys())
+ 

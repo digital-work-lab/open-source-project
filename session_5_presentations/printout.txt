@@ -1,0 +1,32 @@
+
+Abschlusspräsentationen
+- gute Abschlussquote
+- komplexes Projekt (git/pre-commit hooks/Python/Python pakete/CoLRev/...)
+- entsprechende Kompetenzen werden in der Bewertung berücksichtigt.
+- Bewertung des praktischen Teils macht 70% aus
+- Alle Gruppen haben im praktischen Teil sehr gut (1, ...) abgeschnitten
+- Das schöne ist, dass Ihre Arbeit dem CoLRev Projekt zu Gute kommt und nicht einfach nur archiviert wird.
+- Sie waren in der ersten Runde dabei. Für die nächsten Runden setzen wir schon Verbesserungen um - insbesondere bietet das RZ eine performantere Alternative für die VMs.
+
+- Modus: 20 Minuten Präsentation, 10 Minuten Diskussion (auch zwischen den Gruppen: versuchen Sie, den Beitrag zu verstehen)
+
+
+- SearchSources
+- JournalIndex
+- Dashboard
+
+
+Ende:
+- Scheine: liegen ab Dienstag im Sekretariat bereit (VC-Reminder)
+- Aufnahme in die Contributor-Liste: opt out?
+- Evaluation: sollten Sie per Mail erhalten. Bitte nehmen Sie teil und nutzen Sie den Freitext, um festzuhalten, was gut funktioniert hat und wo wir noch verbessern können.
+
+
+Evaluation bei ungleichen Beiträgen:
+- SearchSource und Dashboard-Gruppen
+- CT/LT: reinbitten, ggf. austreten
+- Gruppe ohne "underperformer": zur Gruppenleistung beigetragen?
+- "underperformer" allein:
+	- Über Codeanalyse und Gruppeneinschätzung informieren
+	- Codeanalyse verifizieren (Gelegenheit, konkrete Links nachzureichen) - möchten Sie die Möglichkeit nutzen?
+	- Weiteres vorgehen: wir entscheiden über die Bewertung.
