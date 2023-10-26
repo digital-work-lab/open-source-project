@@ -63,7 +63,7 @@ Notice: when creating the run() method, the jif_labeler_instance switches to "se
 -->
 ---
 
-To use the CoLRev infrastructure, take a look at the [API reference](https://colrev.readthedocs.io/en/latest/foundations/api.html) and find the classes and methods that can be used to load and save records.
+To use the CoLRev infrastructure, take a look at the [API reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and find the classes and methods that can be used to load and save records.
 
 <!-- 
 go to API reference
