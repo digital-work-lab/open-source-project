@@ -3,6 +3,7 @@ marp: true
 header: 'Projekt'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
+paginate: true
 ---
 
 <!-- paginate: true -->

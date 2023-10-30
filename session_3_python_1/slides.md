@@ -83,6 +83,21 @@ Our focus: using the programming language to build things (not to understand the
 
 ---
 
+## Overview of the tutorial
+
+In this session (2x90 min), we will:
+
+- [ ] Create and run a python package command
+- [ ] Create and modify a dictionary data structure
+- [ ] Use an external library to read BibTeX recrods (as dicts)
+
+In the following session (2x90 min), we will:
+
+- [ ] Refactor to object-oriented code
+- [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
+- [ ] Save changes and create commit
+
+---
 
 For the tutorial, we switch to the `tutorial_python` branch:
 

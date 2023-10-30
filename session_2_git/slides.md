@@ -467,13 +467,11 @@ gitk
 ```
 
 - Check which files were added and modified by the last commit
-- Check the code that was modified (increase and decrease lines of context in gitk)
-
-The next page provides an overview of gitk (other Git GUIs have similar interface elements).
+- Check the code that was modified (increase and decrease lines of context in gitk). The next page provides an overview of gitk (other Git GUIs have similar interface elements).
 
 ---
 
-![width:900px center](material/gitk-illustration_explained.png)
+![width:1100px center](material/gitk-illustration_explained.png)
 
 **Note**: More details about concepts like branches and head are provided in part 2 of this session.
 

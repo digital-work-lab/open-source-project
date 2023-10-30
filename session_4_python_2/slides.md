@@ -22,6 +22,22 @@ paginate: true
 
 ---
 
+## Overview of the tutorial
+
+In the last session, we:
+
+- [x] Created and run a python package command
+- [x] Created and modify a dictionary data structure
+- [x] Used an external library to read BibTeX recrods (as dicts)
+
+In this session (2x90 min), we will:
+
+- [ ] Refactor to object-oriented code
+- [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
+- [ ] Save changes and create commit
+
+---
+
 # Object-oriented programming and extending a Python package (CoLRev)
 
 To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:
