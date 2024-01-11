@@ -1,6 +1,14 @@
 # WI-Projekt "Open-Source Projekt"
 
-Before the beginning of the term (march or september): check whether this course was mentioned/promoted in the last newsletter by the Fachschaft WIAI
+## Course promotion
+
+Before the beginning of the term (march or september): 
+- inform students from other DW courses (e.g. intro to digital work) about this project via VC message
+- check whether this course was mentioned/promoted in the march/september newsletter by Fachschaft WIAI (Link to VC course: https://vc.uni-bamberg.de/course/view.php?id=284#section-4)
+- check whether this course can be found in the VC, use the following syntax: "WI-Projekt-B: course name"
+- check whether this course can be found in UnivIS, use the following syntax: "WI-Projekt-B: course name" and add tags (Schlagwörter) "WI-Projekt, WI-Projekte"
+
+## Git
 
 Before the git session: check whether the rec_dict patch applies!
 git session: transfer questions: concentrate before the break!
