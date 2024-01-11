@@ -1,5 +1,6 @@
 # WI-Projekt "Open-Source Projekt"
 
+Before the beginning of the term (march or september): check whether this course was mentioned/promoted in the last newsletter by the Fachschaft WIAI
 
 Before the git session: check whether the rec_dict patch applies!
 git session: transfer questions: concentrate before the break!
