@@ -1,26 +1,22 @@
 run : slides
 
-watch: 11-futures/lecture-slides.html
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=$LANG -p 37717:37717 marpteam/marp-cli -w 11-futures/lecture-slides.md
-
-
-slides: session_1_topics/slides.html session_2_git/slides.html session_3_python_1/slides.html session_4_python_2/slides.html session_5_presentations/slides.html
+slides: output/01_topics.html output/02_git.html output/03_python_1.html output/04_python_2.html output/05_presentations.html
 
 UID := $(shell id -u)
 GID := $(shell id -g)
 LANG := "en_CA.UTF-8"
 
-session_1_topics/slides.html: session_1_topics/slides.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli session_1_topics/slides.md --theme-set assets/theme.css --html --allow-local-files -o session_1_topics/slides.html
+output/01_topics.html: 01-topics.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 01-topics.md --theme-set assets/template/theme.css --html --allow-local-files -o output/01_topics.html
 
-session_2_git/slides.html: session_2_git/slides.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli session_2_git/slides.md --theme-set assets/theme.css --html --allow-local-files -o session_2_git/slides.html
+output/02_git.html: 02-git.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 02-git.md --theme-set assets/template/theme.css --html --allow-local-files -o output/02_git.html
 
-session_3_python_1/slides.html: session_3_python_1/slides.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli session_3_python_1/slides.md --theme-set assets/theme.css --html --allow-local-files -o session_3_python_1/slides.html
+output/03_python_1.html: 03-python_1.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 03-python_1.md --theme-set assets/template/theme.css --html --allow-local-files -o output/03_python_1.html
 
-session_4_python_2/slides.html: session_4_python_2/slides.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli session_4_python_2/slides.md --theme-set assets/theme.css --html --allow-local-files -o session_4_python_2/slides.html
+output/04_python_2.html: 04-python_2.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 04-python_2.md --theme-set assets/template/theme.css --html --allow-local-files -o output/04_python_2.html
 
-session_5_presentations/slides.html: session_5_presentations/slides.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli session_5_presentations/slides.md --theme-set assets/theme.css --html --allow-local-files -o session_5_presentations/slides.html
+output/05_presentations.html: 05-presentations.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 05-presentations.md --theme-set assets/template/theme.css --html --allow-local-files -o output/05_presentations.html

@@ -89,7 +89,7 @@ In this session (2x90 min), we will:
 
 - [ ] Create and run a python package command
 - [ ] Create and modify a dictionary data structure
-- [ ] Use an external library to read BibTeX recrods (as dicts)
+- [ ] Use an external library to read BibTeX records (as dicts)
 
 In the following session (2x90 min), we will:
 

@@ -122,7 +122,9 @@ git as an inspiration: rapid adoption (not because there were shiny interfaces, 
 3. Introduction to Python (October 24 and 26)
 4. Individual hacking sessions (November-January)
 5. Pull request (December 20)
-6. Code review and presentation (TBA)
+6. Code review and presentation (TBA) *
+
+* We will evaluate the code and indivdual contributions four days before the code review session.
 
 ---
 

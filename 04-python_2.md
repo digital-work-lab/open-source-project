@@ -28,7 +28,7 @@ In the last session, we:
 
 - [x] Created and run a python package command
 - [x] Created and modify a dictionary data structure
-- [x] Used an external library to read BibTeX recrods (as dicts)
+- [x] Used an external library to read BibTeX records (as dicts)
 
 In this session (2x90 min), we will:
 
