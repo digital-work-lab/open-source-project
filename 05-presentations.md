@@ -6,25 +6,12 @@ theme: ub-theme
 paginate: true
 ---
 
-# Projekt: Präsentationen
+# WI-Project: Open-Source Development
+
+## The Review Session
 
 ---
 <!-- paginate: true -->
-
-1. [Overview](#2)
-
-**TODO**
-
-- code to pull the fork
-
-Noten?!
-
-- Scheine   
-- Opt-out if you do not want to be added as a contributor (on GitHub)
-- Evaluation
-- Offers: theses related to CoLRev (programming), using CoLRev for theses
-
----
 
 # The Review Session
 
@@ -37,12 +24,12 @@ As a group, your goals are:
 3. Debug and improve the code (if necessary)
 4. Document your asessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
 
-
-<!-- 
+<!--
 Each group gives a short summary of the contribution. Groups are then assigned to a selected pull request.
 
 Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/)
 -->
+
 ---
 
 # The Process
@@ -56,21 +43,23 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
     - Opportunity to talk to the contributors
     - Stage 3 (5 min)
 4. Short summary of the code review (2 min)
-5. Concluding feedback
+
+![bg right:30% width:300px](../assets/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg)
 
 ---
 
-<!-- 
-projekt am ende:
-- github copilot demonstrieren (ausprobieren!)
-- weitere Python ressources mitgeben (zB. how to build a ... with python) https://github.com/codecrafters-io/build-your-own-x?ref=hackernoon.com
-- Abschlussarbeiten: bei Interesse gerne
+# Feedback
 
-- Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)
-
-- Anything you would change/improve in the topic assignment procedure? Who thought it was too tough? Who liked it?
--->
+- On the code contribution
+- On the [project](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html#osd-ws2324)
 
 ---
 
 # Summary
+
+- Grades will be entered in Flexnow
+- You will be added as a contributor on GitHub (to opt out, send me an e-mail)
+- Reach out if you are interested in writing a thesis in the context of CoLRev (programming)
+- If you enjoyed the project, please help us spread the word and recommend our project
+
+![bg right:40% width:400px](../assets/Thank-you.jpg)

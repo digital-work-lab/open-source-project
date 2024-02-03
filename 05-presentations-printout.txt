@@ -1,32 +1,50 @@
 
-Abschlusspräsentationen
+# Introduction:
+
+- Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)
 - gute Abschlussquote
 - komplexes Projekt (git/pre-commit hooks/Python/Python pakete/CoLRev/...)
+- Summarize best practices: code formatters, working in pull-requests, ...
 - entsprechende Kompetenzen werden in der Bewertung berücksichtigt.
 - Bewertung des praktischen Teils macht 70% aus
 - Alle Gruppen haben im praktischen Teil sehr gut (1, ...) abgeschnitten
 - Das schöne ist, dass Ihre Arbeit dem CoLRev Projekt zu Gute kommt und nicht einfach nur archiviert wird.
-- Sie waren in der ersten Runde dabei. Für die nächsten Runden setzen wir schon Verbesserungen um - insbesondere bietet das RZ eine performantere Alternative für die VMs.
 
-- Modus: 20 Minuten Präsentation, 10 Minuten Diskussion (auch zwischen den Gruppen: versuchen Sie, den Beitrag zu verstehen)
+# Setup:
+
+- Maintainer tasks: review PRs, but also take ownership for the project as a whole (guidelines for documentation, code quality, scope, contributors, community)
+
+# Review session
+
+- Group: use the beamer
+- "think-aloud work"
+- Timer: 15 - 10 - 5
+
+# Concluding Feedback
+
+My feedback (code review) for students: results of code review (if any)
+- separate file (demonstrate cursor)
+
+Feedback session: Ask students for reflection and potential improvements
+
+- Anything you would change/improve in the topic assignment procedure? Who thought it was too tough? Who liked it?
+- How to use Git more effectively?
+- Should I encourage students to use Cursor/GitHub copilot?
 
 
-- SearchSources
-- JournalIndex
-- Dashboard
+
+# After the session:
+
+IMPORTANT: ask student / group separately for individual (under) performance
+	Evaluation bei ungleichen Beiträgen:
+	- HIWI: reinbitten, ggf. austreten
+	- Gruppe ohne "underperformer": zur Gruppenleistung beigetragen?
+	- "underperformer" allein:
+		- Über Codeanalyse und Gruppeneinschätzung informieren
+		- Codeanalyse verifizieren (Gelegenheit, konkrete Links nachzureichen) - möchten Sie die Möglichkeit nutzen?
+		- Weiteres vorgehen: wir entscheiden über die Bewertung.
 
 
-Ende:
-- Scheine: liegen ab Dienstag im Sekretariat bereit (VC-Reminder)
-- Aufnahme in die Contributor-Liste: opt out?
-- Evaluation: sollten Sie per Mail erhalten. Bitte nehmen Sie teil und nutzen Sie den Freitext, um festzuhalten, was gut funktioniert hat und wo wir noch verbessern können.
+# Backup/Notes
 
-
-Evaluation bei ungleichen Beiträgen:
-- SearchSource und Dashboard-Gruppen
-- CT/LT: reinbitten, ggf. austreten
-- Gruppe ohne "underperformer": zur Gruppenleistung beigetragen?
-- "underperformer" allein:
-	- Über Codeanalyse und Gruppeneinschätzung informieren
-	- Codeanalyse verifizieren (Gelegenheit, konkrete Links nachzureichen) - möchten Sie die Möglichkeit nutzen?
-	- Weiteres vorgehen: wir entscheiden über die Bewertung.
+- weitere Python ressources mitgeben (zB. how to build a ... with python) https://github.com/codecrafters-io/build-your-own-x?ref=hackernoon.com
