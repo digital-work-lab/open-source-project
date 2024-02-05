@@ -20,6 +20,14 @@
 - "think-aloud work"
 - Timer: 15 - 10 - 5
 
+## Notes on the process (overall: completed in 50-60 minutes)
+
+- If some of the students do not actively contribute, ask the group to switch (inactive students taking the lead on the laptop)
+- Fetch/switch: clone from the right remote (forked) repository
+- Remember to run pip install -e . (to actually execute code from the other group)
+
+**TODO**: should be completed in groups of two
+
 # Concluding Feedback
 
 My feedback (code review) for students: results of code review (if any)

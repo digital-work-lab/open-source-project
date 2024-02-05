@@ -319,7 +319,7 @@ Note: Pfeil-nach-oben-Taste oder bash alias nutzen!
 - To debug code, check whether variables have the expected values (use assert statements)
 - When exceptions are thrown, read the Traceback:
 
-![width:650px center](figures/python-exception-trace.png)
+![width:650px center](../assets/python-exception-trace.png)
 
 <!-- 
 small examples: clarify the "big goal" and start with small steps

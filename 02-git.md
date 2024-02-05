@@ -54,7 +54,7 @@ https://librarycarpentry.org/lc-git/
 
 # Git: Distributed version control
 
-![bg right:35% width:300px](material/git_distributed.png)
+![bg right:35% width:300px](../assets/git_distributed.png)
 
 Advantages:
 
@@ -146,7 +146,7 @@ Note: demonstrate on the whiteboard
 -->
 
 
-![width:700px center](material/git-commit.png)
+![width:700px center](../assets/git-commit.png)
 
 <!--
 Author/date/message
@@ -178,7 +178,7 @@ Break
 Branches are useful to develop features, test code, or fix bugs without interferring with the main branch
  - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository -->
 
-![bg right:35% width:400px](material/git-branch-intro.png)
+![bg right:35% width:400px](../assets/git-branch-intro.png)
 
 ---
 
@@ -201,7 +201,7 @@ Complete the first two levels on branching, merging, and navigating in the git t
 **NOTE**: You can type "undo" when you made a mistake.
 
 
-![width:600px center](material/git-branching-tutorial.png)
+![width:600px center](../assets/git-branching-tutorial.png)
 
 <!-- 
 
@@ -216,7 +216,7 @@ ESC to skip explanation
 
 To continue practicing, create the following tree, which resembles a typical setup of git branches.
 
-![width:400px center](material/git-branches.png)
+![width:400px center](../assets/git-branches.png)
 
 <!-- 
 git commit
@@ -249,7 +249,7 @@ git merge dev
 
 # The three sections of Git
 
-![bg right:45% width:550px](material/git-areas.png)
+![bg right:45% width:550px](../assets/git-areas.png)
 
 Files can reside in three states:
 
@@ -471,7 +471,7 @@ gitk
 
 ---
 
-![width:1100px center](material/gitk-illustration_explained.png)
+![width:1100px center](../assets/gitk-illustration_explained.png)
 
 **Note**: More details about concepts like branches and head are provided in part 2 of this session.
 
@@ -628,7 +628,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 <!-- Case 1: I own the remote repository, e.g., on GitHub -->
 
-![bg right:30% width:300px](material/git-remote.png)
+![bg right:30% width:300px](../assets/git-remote.png)
 
 ---
 
@@ -641,7 +641,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 - Contributors can open a **pull request** to signal to maintainers that code from the fork can be merged
 - Pull requests are used for code review, and improvements before code is accepted or rejected
 
-![bg right:45% width:500px](material/git-remote-fork.png)
+![bg right:45% width:500px](../assets/git-remote-fork.png)
 
 <!-- https://edav.info/github.html#st-pr-on-another-repo-with-branching -->
 
@@ -653,7 +653,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 - In some cases, **branches must be selected explicitly**: pull requests, or pulling new branches
 - In other cases, git automatically selects branches, i.e., it remembers the typical branch to pull or push
 
-![bg right:45% width:500px](material/git-remote-branch.png)
+![bg right:45% width:500px](../assets/git-remote-branch.png)
 
 ---
 
@@ -738,7 +738,7 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 
 ---
 
-![width:800px center](material/git-commit-initial.png)
+![width:800px center](../assets/git-commit-initial.png)
 
 Note: `git cat-file -p sha` shows the contents of a git object.
 

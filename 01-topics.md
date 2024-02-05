@@ -26,7 +26,7 @@ Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
 - I enjoy coding, solving programming puzzles, and building tools that are useful for others
 - My latest and most significant project: **CoLRev**
 
-![bg right:50% width:550px](coding_experience.png)
+![bg right:50% width:550px](../assets/coding_experience.png)
 
 <!--
 You wee when I took vacation
@@ -44,7 +44,7 @@ Enjoyment/challenge/making an impact: that's what I want you to experience in th
 - Python is the leading programming language in several rankings, including the [TIOBE Index](https://www.tiobe.com/tiobe-index/) and the [PYPL (PopularitY of Programming Language)](https://pypl.github.io/PYPL.html) ranking
 - Job requirements for **Data Scientists**, **Full-stack Software Engineers**, **DevOps Engineers**, or **Data Engineers** commonly include Python ([1](https://de.indeed.com/jobs?q=Python))
 
-![bg right:45% width:450px](chris-ried-ieic5Tq8YMk-unsplash.jpg)
+![bg right:45% width:450px](../assets/chris-ried-ieic5Tq8YMk-unsplash.jpg)
 
 <!-- 
 not throw-away code!
@@ -61,7 +61,7 @@ https://unsplash.com/de/fotos/ieic5Tq8YMk
 - As a prominent example, Microsoft has acquired GitHub and moved the source code of Windows to git ([1](https://www.golem.de/news/gvfs-windows-team-nutzt-fast-vollstaendig-git-1705-128039.html))
 - Many companies have public GitHub programs and share parts of their work as Open-Source (e.g., [Google](https://github.com/google), [Meta](https://github.com/facebook), [AirBnB](https://github.com/airbnb)) 
 
-![bg right:40% width:350px](git-diffusion.png)
+![bg right:40% width:350px](../assets/git-diffusion.png)
 
 <!-- 
 Ask students why Google, AirBnB etc. would publish code?
@@ -78,7 +78,7 @@ Ask students why Google, AirBnB etc. would publish code?
 - Adopt the role of a maintainer and review code of your peers
 - Take the opportunity to create and present your [Developer Portfolio](https://sean-coughlin.medium.com/market-yourself-with-a-killer-github-readme-cf529264453)
 
-![bg right:35% width:350px](github-contributors.png)
+![bg right:35% width:350px](../assets/github-contributors.png)
 
 <!-- 
 https://sean-coughlin.medium.com/market-yourself-with-a-killer-github-readme-cf529264453
@@ -100,7 +100,7 @@ The following features stand out:
 - Builds on git and its transparent collaboration model for the entire literature review process
 - Offers a self-explanatory, fault-tolerant, and configurable user workflow
 
-![bg right:30% width:300px](colrev-logo.png)
+![bg right:30% width:300px](../assets/colrev-logo.png)
 
 <!-- 
 Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
@@ -323,7 +323,7 @@ TODO : emphasize parallels to git -->
 - **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html)) and in the VC course
 
 
-![bg right:36% width:300px](VC-WS2324-QR.png)
+![bg right:36% width:300px](../assets/VC-WS2324-QR.png)
 
 <!--
 Installation/Setup starten, ggf. beim nächsten Termin schon Fragen stellen
