@@ -6,10 +6,16 @@ description: "Welcome"
 permalink: /
 ---
 
-# Open Source Project
+# The Open Source Project
 
-# Infos on topic and process (making an impact/contributing to an open source project)
-
+| No. | Session | Link to Slides |
+|-------------|---------|----------------|
+| 01 | Topics | [Session Slides](output/01_topics.html){: target="_blank"} |
+| 02 | Git | [Session Slides](output/02_git.html){: target="_blank"} |
+| 03 | Python 1 | [Session Slides](output/03_python_1.html){: target="_blank"} |
+| 04 | Python 2 | [Session Slides](output/04_python_2.html){: target="_blank"} |
+| 05 | Git Setup | [Session Slides](output/05_git_setup.html){: target="_blank"} |
+| 06 | Presentations | [Session Slides](output/06_presentations.html){: target="_blank"} |
 
 ## Instructor
 
