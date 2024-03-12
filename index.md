@@ -8,14 +8,15 @@ permalink: /
 
 # The Open Source Project
 
-| No. | Session | Link to Slides |
-|-------------|---------|----------------|
-| 01 | Topics | [Session Slides](output/01_topics.html){: target="_blank"} |
-| 02 | Git | [Session Slides](output/02_git.html){: target="_blank"} |
-| 03 | Python 1 | [Session Slides](output/03_python_1.html){: target="_blank"} |
-| 04 | Python 2 | [Session Slides](output/04_python_2.html){: target="_blank"} |
-| 05 | Git Setup | [Session Slides](output/05_git_setup.html){: target="_blank"} |
-| 06 | Presentations | [Session Slides](output/06_presentations.html){: target="_blank"} |
+| No. | Session | Date and Location | Slides |
+|-----|---------|------------------|--------|
+| 01  | Organization and topics | 17. April, 12.15-13.45 (WE5 3.004) | [Slides](output/01_topics.html){: target="_blank"} |
+| 02  | Introduction to Git | 26. April, 12.15-15.45 (WE5 1.003) | [Slides](output/02_git.html){: target="_blank"} |
+| 03  | Introduction to Python (I) | 30. April, 8.15-11.45 (WE5 1.003) | [Slides](output/03_python_1.html){: target="_blank"} |
+| 04  | Introduction to Python (II) | 3. Mai, 8.15-11.45 (WE5 2.005) | [Slides](output/04_python_2.html){: target="_blank"} |
+| 05  | Best practices | 15. Mai, 10.15-11.45 (WE5 4.014) | [Slides](output/05_best_practice.html){: target="_blank"} |
+| 06  | Individual hacking sessions | [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online) | - |
+| 07  | Code review and presentation | TBA |[Slides](output/06_presentations.html){: target="_blank"} |
 
 ## Instructor
 

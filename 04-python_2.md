@@ -150,7 +150,7 @@ later: show debugging
 Introductory:
 
 - [Python challenges](https://pythonprinciples.com/challenges/)
-- [Python CheatSheets](https://quickref.me/python)
+- Python CheatSheets [1](https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8), [2](https://quickref.me/python)
 - [11 tips for Python beginners](https://realpython.com/python-beginner-tips/)
 - [PEP 8 — the Style Guide for Python Code ](https://pep8.org/)
 

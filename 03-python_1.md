@@ -334,5 +334,4 @@ python debuggers/plugins (for regular Python programming / special cases like me
 
 # Next session
 
-- October 26
 - Make plans on how to split and distribute tasks: which CoLRev-objects or libraries will be needed, which steps are required?

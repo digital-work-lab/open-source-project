@@ -1,6 +1,6 @@
 run : slides
 
-slides: output/01_topics.html output/02_git.html output/03_python_1.html output/04_python_2.html output/05_git_setup.html output/06_presentations.html
+slides: output/01_topics.html output/02_git.html output/03_python_1.html output/04_python_2.html output/05_best_practice.html output/06_presentations.html
 
 UID := $(shell id -u)
 GID := $(shell id -g)
@@ -18,8 +18,8 @@ output/03_python_1.html: 03-python_1.md assets/template/theme.css
 output/04_python_2.html: 04-python_2.md assets/template/theme.css
 	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 04-python_2.md --theme-set assets/template/theme.css --html --allow-local-files -o output/04_python_2.html
 
-output/05_git_setup.html: 05-git_setup.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 05-git_setup.md --theme-set assets/template/theme.css --html --allow-local-files -o output/05_git_setup.html
+output/05_best_practice.html: 05-best_practice.md assets/template/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 05-best_practice.md --theme-set assets/template/theme.css --html --allow-local-files -o output/05_best_practice.html
 
 output/06_presentations.html: 06-presentations.md assets/template/theme.css
 	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 06-presentations.md --theme-set assets/template/theme.css --html --allow-local-files -o output/06_presentations.html

@@ -117,12 +117,16 @@ git as an inspiration: rapid adoption (not because there were shiny interfaces, 
 
 # Agenda
 
+Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/)
+
 1. Organization and topics (**today**)
-2. Introduction to git (October 20)
-3. Introduction to Python (October 24 and 26)
-4. Individual hacking sessions (November-January)
-5. Pull request (December 20)
-6. Code review and presentation (TBA) *
+2. Introduction to Git
+3. Introduction to Python (I)
+4. Introducation to Python (II)
+5. Best practices
+6. Individual hacking sessions
+7. Pull request
+8. Code review and presentation*
 
 * We will evaluate the code and indivdual contributions four days before the code review session.
 
@@ -320,8 +324,7 @@ TODO : emphasize parallels to git -->
 - Friday, October 20th
 - Sign up for our [VC course](https://vc.uni-bamberg.de/course/view.php?id=64616) (password: shaiChi4)
 - Create a GitHub account, start exploring issues, and team up
-- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html)) and in the VC course
-
+- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html))
 
 ![bg right:36% width:300px](../assets/VC-WS2324-QR.png)
 

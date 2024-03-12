@@ -8,9 +8,9 @@ paginate: true
 
 # WI-Project: Open-Source Development
 
-## Git and Setup Session
+## Best Practice Session
 
 ---
 <!-- paginate: true -->
 
-TODO
+TODO: Git and Setup Session
