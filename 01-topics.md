@@ -126,9 +126,9 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 5. Best practices
 6. Individual hacking sessions
 7. Pull request
-8. Code review and presentation*
+8. Code review session (*)
 
-* We will evaluate the code and indivdual contributions four days before the code review session.
+(*) We will evaluate the code and indivdual contributions four days before the code review session.
 
 ---
 
@@ -166,7 +166,7 @@ small teams, everyone is expected to program and contribute - with git, we see c
 
 You **assign yourself to a group** when you contribute code following these steps:
 1. **Signal your intent** to contribute by joining the issue discussion on Github (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestone/7), before the **Git Session**, for two topics at most).
-2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that no more than 5 people will be accepted per group.
+2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 6 people** will be accepted per group.
 3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de). Your participation will be confirmed and your account will be linked to the project issue.
 
 We require actual code contributions to ensure that **all group members make a fair contribution to the project**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.

@@ -735,7 +735,6 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 - Create a pull request (available in the original repository, not the fork)
 - Assign the maintainer and respond to feedback
 
-
 ---
 
 ![width:800px center](../assets/git-commit-initial.png)

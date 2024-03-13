@@ -16,7 +16,7 @@ permalink: /
 | 04  | Introduction to Python (II) | 3. Mai, 8.15-11.45 (WE5 2.005) | [Slides](output/04_python_2.html){: target="_blank"} |
 | 05  | Best practices | 15. Mai, 10.15-11.45 (WE5 4.014) | [Slides](output/05_best_practice.html){: target="_blank"} |
 | 06  | Individual hacking sessions | [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online) | - |
-| 07  | Code review and presentation | TBA |[Slides](output/06_presentations.html){: target="_blank"} |
+| 07  | Code review session | TBA |[Slides](output/06_presentations.html){: target="_blank"} |
 
 ## Instructor
 
