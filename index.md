@@ -8,7 +8,7 @@ permalink: /
 
 # The Open Source Project
 
-## April 15-21
+## Week 1: April 15-21
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
@@ -16,7 +16,7 @@ permalink: /
 
 - Read the [open issues](https://github.com/CoLRev-Environment/colrev/milestone/8){: target="_blank"} and contribute to the discussion to find a potential group.
 
-## April 22-28
+## Week 2: April 22-28
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
