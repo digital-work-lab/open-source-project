@@ -28,15 +28,28 @@ Tasks to complete in this week:
 
 - Set up your programming environment (see [instructions](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
 
-## Week X: ...
+## Week 3: April 29 - May 5
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
 | 03  | Introduction to Python (I) | 30. April, 8.15-11.45 (WE5 1.003) | [Slides](output/03_python_1.html){: target="_blank"} |
 | 04  | Introduction to Python (II) | 3. Mai, 8.15-11.45 (WE5 2.005) | [Slides](output/04_python_2.html){: target="_blank"} |
+
+## Week 5: May 13-19
+
+| No. | Session | Date and Location | Slides |
+|-----|---------|------------------|--------|
 | 05  | Best practices | 15. Mai, 10.15-11.45 (WE5 4.014) | [Slides](output/05_best_practice.html){: target="_blank"} |
-| 06  | Individual hacking sessions | [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online) | - |
-| 07  | Code review session | TBA |[Slides](output/06_presentations.html){: target="_blank"} |
+
+## Weeks 6-11: May 20 - June 30
+
+- Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
+
+## Week 12: July 1-7
+
+| No. | Session | Date and Location | Slides |
+|-----|---------|------------------|--------|
+| 06  | Code review session | TBA |[Slides](output/06_presentations.html){: target="_blank"} |
 
 ## Instructor
 
@@ -52,7 +65,6 @@ My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving progr
 
 <!-- 
 You can read more about my work [here](docs/instructor.html).
-
 
 slides
 resources and links
