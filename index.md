@@ -8,9 +8,18 @@ permalink: /
 
 # The Open Source Project
 
+## April 15-21
+
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
 | 01  | Organization and topics | 17. April, 12.15-13.45 (WE5 3.004) | [Slides](output/01_topics.html){: target="_blank"} |
+
+- Read the [open issues](https://github.com/CoLRev-Environment/colrev/milestone/8){: target="_blank"} and contribute to the discussion to find a potential group.
+
+## April 22-28
+
+| No. | Session | Date and Location | Slides |
+|-----|---------|------------------|--------|
 | 02  | Introduction to Git | 26. April, 12.15-15.45 (WE5 1.003) | [Slides](output/02_git.html){: target="_blank"} |
 | 03  | Introduction to Python (I) | 30. April, 8.15-11.45 (WE5 1.003) | [Slides](output/03_python_1.html){: target="_blank"} |
 | 04  | Introduction to Python (II) | 3. Mai, 8.15-11.45 (WE5 2.005) | [Slides](output/04_python_2.html){: target="_blank"} |
