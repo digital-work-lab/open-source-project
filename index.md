@@ -17,8 +17,8 @@ permalink: /
 Tasks to complete in this week:
 
 - Sign up for the [VC course room](TODO) (passwords are distributed during the live session and available upon request).
-- Create a [GitHub account](https://github.com/signup){: target="_blank"}
-- Read the [open issues](https://github.com/CoLRev-Environment/colrev/milestone/8){: target="_blank"} and contribute to the discussion to find a potential group.
+- Create a [GitHub account](https://github.com/signup){: target="_blank"}.
+- Read the open issues for the relevant milestone and contribute to the discussion to find a potential group. You can find the relevant milestone and issues in the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, in the *Issues* / *Milestones* section.
 
 ## Week 2: April 22-28
 
