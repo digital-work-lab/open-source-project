@@ -27,9 +27,9 @@ Each part starts with the **concepts** before the **practice** session.
 
 **To start**
 
-- Form groups of three students
+- Form groups of three to four students
 - Work through the following pages
-- Create a "cheat sheet" summarizing the main commands
+- Create a "cheat sheet" summarizing the main commands and commands that **you** found usefull
 
 <!-- **Part 3**: Remote collaboration (60 min) -->
 
@@ -134,7 +134,7 @@ Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separat
 
 # Commits
 
-- A **commit** refers to a snapshot of the whole project directory, including the metadata and the tree (all files and non-empty directories)
+- A **commit** refers to a snapshot of the whole project directory, including the meta data and the tree (all files and non-empty directories)
 - Commits are created in a **sequence**, with every commit pointing to its parent commit(s)
 - Commits are identified by the **sha-1** fingerprint of their content, e.g., `98ca9`, `34ac2`, or `f30ab`
 - They are created by the **git commit** command
@@ -197,6 +197,7 @@ Before starting your work, it is essential to decide which branch you want to wo
 To practice git branching, we use the [learn-git-branching](https://learngitbranching.js.org/?locale=de_DE) tutorial.
 
 Complete the first two levels on branching, merging, and navigating in the git tree.
+<!-- LT: maybe mention they can practice the whole tutorial afterwards for practice -->
 
 **NOTE**: You can type "undo" when you made a mistake.
 
