@@ -37,24 +37,7 @@ Enjoyment/challenge/making an impact: that's what I want you to experience in th
 
 ---
 
-# What you will learn (I): Python
-
-- Write Python code
-- Contribute to a public package
-- Python is the leading programming language in several rankings, including the [TIOBE Index](https://www.tiobe.com/tiobe-index/) and the [PYPL (PopularitY of Programming Language)](https://pypl.github.io/PYPL.html) ranking
-- Job requirements for **Data Scientists**, **Full-stack Software Engineers**, **DevOps Engineers**, or **Data Engineers** commonly include Python ([1](https://de.indeed.com/jobs?q=Python))
-
-![bg right:45% width:450px](../assets/chris-ried-ieic5Tq8YMk-unsplash.jpg)
-
-<!-- 
-not throw-away code!
-
-https://unsplash.com/de/fotos/ieic5Tq8YMk
--->
-
----
-
-# What you will learn (II): Git/GitHub
+# What you will learn (I): Git/GitHub
 
 - Use git and GitHub for versioning and collaboration
 - Git quickly established itself as the most popular version control system
@@ -67,6 +50,23 @@ https://unsplash.com/de/fotos/ieic5Tq8YMk
 Ask students why Google, AirBnB etc. would publish code?
 -> Open Source works better
 -> Identify and attract talent (they may be very picky)
+-->
+
+---
+
+# What you will learn (II): Python
+
+- Write Python code
+- Contribute to a public package
+- Python is the leading programming language in several rankings, including the [TIOBE Index](https://www.tiobe.com/tiobe-index/) and the [PYPL (PopularitY of Programming Language)](https://pypl.github.io/PYPL.html) ranking
+- Job requirements for **Data Scientists**, **Full-stack Software Engineers**, **DevOps Engineers**, or **Data Engineers** commonly include Python ([1](https://de.indeed.com/jobs?q=Python))
+
+![bg right:45% width:450px](../assets/chris-ried-ieic5Tq8YMk-unsplash.jpg)
+
+<!-- 
+not throw-away code!
+
+https://unsplash.com/de/fotos/ieic5Tq8YMk
 -->
 
 ---
@@ -117,32 +117,21 @@ git as an inspiration: rapid adoption (not because there were shiny interfaces, 
 
 # Agenda
 
+**Insert timeline figure**
 Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/)
 
-1. Organization and topics (**today**)
-2. Introduction to Git
-3. Introduction to Python (I)
-4. Introducation to Python (II)
-5. Best practices
-6. Individual hacking sessions
-7. Pull request
-8. Code review session (*)
+Week 1: Organization and topics (**today**)
+Week 2: Introduction to Git
+Week 3: Introduction to Python (I)
+Week 3: Introducation to Python (II)
+Week 5: Best practices
+Week 6-11: Individual hacking sessions
+Week 11: Pull request
+Week 12: Code review session (*)
 
 (*) We will evaluate the code and indivdual contributions four days before the code review session.
 
 ---
-
-# Expectations
-
-- Bring programming experience (courses: IIS-EBAS-B, DSG-EiAPS-B, AI-AuD-B, DSG-JaP-B)
-- Learn Git and Python
-- Do not use generative AI such as ChatGPT (risk of copyright infringement)
-- Embrace the challenge and adopt a problem solving mindset
-- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
-- Take full responsibility to set up your programming environment
-- Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
-- Reach out and schedule individual hacking sesisons via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
-
 <!--
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
 
@@ -159,8 +148,6 @@ contribution: you are expected to make that contribution (know what you do, be a
 small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight
 
 -->
-
----
 
 # How groups will form
 
@@ -208,10 +195,13 @@ ASK: how many ISM (Java not mandatory) and WI?
 # Evaluation criteria
 
 - Organize as a team, following Open-Source principles (e.g., create atomic commits; use branches and pull requests; review, discuss, revise, and test your code)
+- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
 - Be able to explain the code contribution of the team as a whole
 - Each team member: Make a concise and high-quality contribution to the code. This is a **necessary condition to pass the course**. We review code contributions at the end.
+- Embrace the challenge and adopt a problem solving mindset
 - Contribute your code to the CoLRev project and have your code merged
 - Attend your presentation session and contribute to the code review
+- Do not use generative AI such as ChatGPT (risk of copyright infringement)
 
 <!-- 
 Presentations Expectations: length/format, show code, demonstrate rationales/alternatives, potential extensions, summarize challenges (how could they be addressed/prevented in upcoming student projects)
