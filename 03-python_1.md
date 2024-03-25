@@ -37,7 +37,7 @@ https://github.com/dirediredock/PythonWorkshop
 
 # Groups
 
-- Form groups of three, discuss your solutions, and solve problems together.
+- Form groups of three to four, discuss your solutions, and solve problems together.
 
 <!-- 
 FIRST: Who has a working machine?
@@ -87,7 +87,7 @@ Our focus: using the programming language to build things (not to understand the
 
 In this session (2x90 min), we will:
 
-- [ ] Create and run a python package command
+- [ ] Create and run a Python package command
 - [ ] Create and modify a dictionary data structure
 - [ ] Use an external library to read BibTeX records (as dicts)
 
@@ -97,6 +97,7 @@ In the following session (2x90 min), we will:
 - [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
 - [ ] Save changes and create commit
 
+<!-- LT: wieso sind da die eckigen Klammern? -->
 ---
 
 For the tutorial, we switch to the `tutorial_python` branch:
