@@ -9,24 +9,11 @@ paginate: true
 # Projekt: Einführung in Python (2)
 
 ---
-
-# Learning objectives:
-
-- Familiarize with Python syntax
-- Learn good debugging and development practices
-- Understand how to extend a Python package (CoLRev)
-
-# Groups
-
-- Form groups of three, discuss your solutions, and solve problems together.
-
----
-
 ## Overview of the tutorial
 
 In the last session, we:
 
-- [x] Created and run a python package command
+- [x] Created and run a Python package command
 - [x] Created and modify a dictionary data structure
 - [x] Used an external library to read BibTeX records (as dicts)
 
@@ -69,7 +56,7 @@ git reset --hard 4f164f40615485e7c8df9459d758df04519756f4
 ```
 
 <!-- 
-Imporant: try to program using objects (instead of procedural programming)
+Important: try to program using objects (instead of procedural programming)
 
 if record["journal"] == "MIS Quarterly":
 KeyError: 'journal'
@@ -169,7 +156,7 @@ check:
 
 # Next: Hacking sessions (per group)
 
-- November - January
+- May - June
 - Make plans on how to split and distribute tasks.
 - Consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10)
 
