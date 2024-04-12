@@ -37,3 +37,14 @@ Checkout the solution:
 ```
 git reset --hard bd6f13032980617998e4374c1895cf314d7b1f0f
 ```
+Use the typical CoLRev environments (objects), switch to an existing CoLRev project:
+```
+cd ..
+git clone git@github.com:CoLRev-Environment/example.git
+cd example
+colrev status
+```
+To checkout the solution:
+```
+git reset --hard 4f164f40615485e7c8df9459d758df04519756f4
+```
