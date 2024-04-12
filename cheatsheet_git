@@ -67,4 +67,11 @@ Clone the repository:
 git clone URL 
 ```
 
-Conventions: git messages, avoid large commits, do not commit code in comments or "todo" files (hints: git add -p ...)
+Git conventions: 
+git commit messages:
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+
+avoid large commits
+do not commit code in comments or "todo" files (hints: git add -p ...)
