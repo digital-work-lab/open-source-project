@@ -96,8 +96,6 @@ In the following session (2x90 min), we will:
 - [ ] Refactor to object-oriented code
 - [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
 - [ ] Save changes and create commit
-
-<!-- LT: wieso sind da die eckigen Klammern? -->
 ---
 
 For the tutorial, we switch to the `tutorial_python` branch:
