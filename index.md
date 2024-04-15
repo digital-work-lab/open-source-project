@@ -16,7 +16,7 @@ permalink: /
 
 Tasks to complete in this week:
 
-- Sign up for the [VC course room](TODO) (passwords are distributed during the live session and available upon request).
+- Sign up for the [VC course room](https://vc.uni-bamberg.de/course/view.php?id=67998) (passwords are distributed during the live session and available upon request).
 - Create a [GitHub account](https://github.com/signup){: target="_blank"}.
 - To [find a group](https://digital-work-lab.github.io/open-source-project/output/01_topics.html#9){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the *Issues* / *Milestones* section).
 
