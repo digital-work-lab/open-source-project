@@ -96,8 +96,9 @@ Collaborative Literature Reviews (CoLRev) is an open-source environment for coll
 The following features stand out:
 
 - Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval and preparation, and synthesis
-- An open and extensible environment based on shared data and process standards
+- An open platform based on shared data and process standards
 - Builds on git and its transparent collaboration model for the entire literature review process
+- Focus: command-line interface
 
 ![bg right:30% width:300px](../assets/colrev-logo.png)
 
@@ -109,7 +110,6 @@ Wer hat schon mal eine Literaturübersicht geschrieben?
 Command line!
 
 git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
-
 -->
 
 ---
@@ -134,10 +134,10 @@ git as an inspiration: rapid adoption (not because there were shiny interfaces, 
 }
 </style>
 
-![width:650px center](../assets/agenda.png)
+![width:750px center](../assets/agenda.png)
 <!-- Note: agenda.pptx in git-collaboration repository -->
 
-Notes: Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/). We will evaluate the code and indivdual contributions four days before the code review session.
+Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/). We will evaluate the code four days before the code review session.
 
 <!--
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
@@ -257,7 +257,7 @@ Go to the [CoLRev project repository](https://github.com/CoLRev-Ecosystem/colrev
 
 Form groups of three and try to find the following information in 10 minutes:
 
-1. How many commits, contributors, and downloads does the project have? What's the test test coverage?
+1. How many commits, contributors, and downloads does the project have? What's the test coverage?
 2. Where is the documentation and how can I install CoLRev?
 3. What's the license and where can we find information on how to contribute to the project?
 4. What information should be provided for bug reports, where can I open a feature request?
