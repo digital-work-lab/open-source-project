@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Introduction to Digital Work'
+header: 'Introduction to Git'
 theme: ub-theme
 paginate: true
 ---

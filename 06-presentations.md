@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Projekt'
+header: 'Open-Source Project: Code Review Session'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true

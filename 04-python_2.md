@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Projekt'
+header: 'Introduction to Python'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
