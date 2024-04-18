@@ -45,7 +45,7 @@ Tasks to complete in this week:
 
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
-{: .note }
+{: .highlight }
 **Submission (code evaluation)**: June 26
 
 ## Week 12: July 1-7
