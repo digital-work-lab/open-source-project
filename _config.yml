@@ -12,6 +12,14 @@ gh_edit_repository: 'https://github.com/digital-work-lab/open-source-project'
 gh_edit_branch: 'main'
 gh_edit_view_mode: 'tree'
 
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Info
+    color: yellow
+
 exclude: ['session_5_presentations']
 
 logo: "/assets/images/open-source-project.png"
