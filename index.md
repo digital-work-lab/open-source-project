@@ -45,7 +45,8 @@ Tasks to complete in this week:
 
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
-{: .note } **Submission (code evaluation)**: June 26
+{: .note }
+**Submission (code evaluation)**: June 26
 
 ## Week 12: July 1-7
 
@@ -61,7 +62,7 @@ Tasks to complete in this week:
 *Assistant Professor of Information Systems*  
 *Otto-Friedrich Universität Bamberg*
 
-My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, you can contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev). 
+My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev). 
 
 <br style="clear:both">
 
