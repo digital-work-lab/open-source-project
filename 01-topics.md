@@ -8,6 +8,8 @@ paginate: true
 
 <!-- paginate: true -->
 
+<!-- _class: centered -->
+
 # WI-Project: Open-Source Project with Git and Python
 
 Juniorprofessur für Digital Work

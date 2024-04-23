@@ -7,13 +7,15 @@ paginate: true
 
 <!-- _class: lead -->
 
+<!-- _class: centered -->
+
 # Introduction to Git
 
 ---
 
-# Introduction to Git
+# Learning objectives
 
-**Learning objective**: Understand and use git to develop software in teams.
+Understand and use git to develop software in teams.
 
 <!-- **Preconditions**: 
 - Git installed, username and email set (using the [software carpentry tutorial](https://librarycarpentry.org/lc-git/02-getting-started/index.html))
@@ -600,7 +602,7 @@ Do you see any challenges?
 - Try to reproduce the situation
 (stash) -->
 
-2. Git provides the option to editing prior commits using an interactive rebase, such as the **git rebase -i**. How would that affect the following commits?
+2. Git provides the option to edit prior commits using an interactive rebase, such as the **git rebase -i**. How would that affect the following commits?
 
 <!-- 
 git questions: understand linearized git history displayed on github / reading gitk DAG

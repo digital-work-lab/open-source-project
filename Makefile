@@ -1,25 +1,36 @@
-run : slides
-
-slides: output/01_topics.html output/02_git.html output/03_python_1.html output/04_python_2.html output/05_best_practice.html output/06_presentations.html
-
 UID := $(shell id -u)
 GID := $(shell id -g)
 LANG := "en_CA.UTF-8"
 
-output/01_topics.html: 01-topics.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 01-topics.md --theme-set assets/template/theme.css --html --allow-local-files -o output/01_topics.html
+LATEX_REF_DOC = --template /assets/basic.tex
 
-output/02_git.html: 02-git.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 02-git.md --theme-set assets/template/theme.css --html --allow-local-files -o output/02_git.html
+PANDOC_CALL = docker run --rm \
+	--volume "`pwd`:/data" \
+	--volume "$(shell readlink -f ./assets)":/assets/ \
+	--user $(shell id -u):$(shell id -g) \
+	pandoc/ubuntu-latex
 
-output/03_python_1.html: 03-python_1.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 03-python_1.md --theme-set assets/template/theme.css --html --allow-local-files -o output/03_python_1.html
+SLIDES_LIST := $(patsubst %.md,%,$(wildcard [0-9][0-9]*.md))
 
-output/04_python_2.html: 04-python_2.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 04-python_2.md --theme-set assets/template/theme.css --html --allow-local-files -o output/04_python_2.html
+TEACHING_NOTES_LIST := $(patsubst teaching_notes/%.md,%,$(wildcard teaching_notes/[0-9][0-9]*.md))
 
-output/05_best_practice.html: 05-best_practice.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 05-best_practice.md --theme-set assets/template/theme.css --html --allow-local-files -o output/05_best_practice.html
+# Define a rule to build all slides
+slides: lecture_slides teaching_notes
 
-output/06_presentations.html: 06-presentations.md assets/template/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli 06-presentations.md --theme-set assets/template/theme.css --html --allow-local-files -o output/06_presentations.html
+lecture_slides: $(addprefix output/,$(addsuffix .html,$(SLIDES_LIST)))
+
+# Define a rule to build all teaching notes
+teaching_notes: $(addprefix output/teaching_notes/,$(addsuffix .html,$(TEACHING_NOTES_LIST)))
+
+# Define a pattern rule for building a slide
+output/%.html: %.md assets/theme.css
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli $< --theme-set assets/theme.css --html --allow-local-files -o $@
+
+
+# Define a pattern rule for building a teaching note
+output/teaching_notes/%.html: teaching_notes/%.md assets/theme.css
+	$(PANDOC_CALL) \
+        $< \
+        --filter pandoc-crossref \
+        --citeproc \
+        --output $@
