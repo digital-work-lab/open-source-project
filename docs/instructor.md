@@ -65,11 +65,11 @@ VC post (28.04.24)
 
 ## Week 4
 
-VC post (05.05.24)
+VC post (06.05.24)
 
 > Liebe Studierende,
 >
-> zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepstet wurde herunterzuladen und auszufüllen.
+> zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepostet wurde herunterzuladen und auszufüllen.
 >
 > Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese im PDF Format wieder hochzuladen.
 >
