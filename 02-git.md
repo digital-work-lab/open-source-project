@@ -737,8 +737,6 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 - Create a pull request (available in the original repository, not the fork)
 - Assign the maintainer and respond to feedback
 
----
-
 ![width:800px center](../assets/git-commit-initial.png)
 
 Note: `git cat-file -p sha` shows the contents of a git object.
@@ -755,10 +753,8 @@ du -hs .
 for branch in alpha{1..500}; do git checkout -b $branch; done;
 du -hs .
 
--->
 
 
-<!-- 
 TBD: maybe use the hierarchy of evidence to clarify the challenges of assessing technology (almost no "scientific evidence", but overwhelming adoption in the industry...)
 
 Start with a picture of files and directories
@@ -770,4 +766,16 @@ Asynchronous editing (e.g., last-saved-replaces, Locks /Sharepoint, git)
 Git-demo (tech or organizational perspective?)
 
 mention johnny decimal?
-->
+-->
+
+---
+
+# Project organization
+
+- Select a team leader who creates the fork and invites group members
+- Plan how tasks could be completed in separate branches
+- Regularly check whether branches should be synchronized (merged)
+
+**Task**: complete one merge between branches until **May 10th**.
+
+Note: we will distribute a survey asking for the current state of your project after the merge. Your input will help us prepare the best practice session.

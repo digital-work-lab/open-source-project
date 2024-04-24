@@ -65,13 +65,17 @@ VC post (28.04.24)
 
 ## Week 4
 
-VC post (06.05.24)
+Reminder for merge: 08.05. (linking to resources)
+
+Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+
+VC post (10.05.24)
 
 > Liebe Studierende,
 >
 > zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepostet wurde herunterzuladen und auszufüllen.
 >
-> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese im PDF Format wieder hochzuladen.
+> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.5 auszufüllen und im PDF Format hochzuladen.
 >
 > Somit können wir die Session noch an mögliche Problem von Ihnen anpassen.
 >
@@ -81,7 +85,6 @@ VC post (06.05.24)
 >
 > Ihr Digital Work Team
 > 
-Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx)
 
 ## Week 5
 
