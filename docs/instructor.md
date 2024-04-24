@@ -88,9 +88,9 @@ VC post (10.05.24)
 
 ## Week 5
 
-## Week 8
+## Week 7
 
-VC post (03.06.24)
+VC post (27.05.24)
 
 > Liebe Studierende,
 >
