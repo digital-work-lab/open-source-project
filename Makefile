@@ -29,6 +29,7 @@ output/%.html: %.md assets/theme.css
 
 # Define a pattern rule for building a teaching note
 output/teaching_notes/%.html: teaching_notes/%.md assets/theme.css
+	mkdir -p output/teaching_notes && \
 	$(PANDOC_CALL) \
         $< \
         --filter pandoc-crossref \
