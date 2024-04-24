@@ -40,7 +40,7 @@ VC post (24.04.24)
 > 
 > Ein einfaches “I would like to work on this issue 🙋” wäre ausreichend.
 > 
-> Bei Fragen kann ich gerne weiterhelfen.
+> Bei Fragen können wir gerne weiterhelfen.
 > 
 > Mit besten Grüßen
 > 
