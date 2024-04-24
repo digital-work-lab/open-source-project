@@ -46,7 +46,9 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: clone marp-cli
-        run: docker pull marpteam/marp-cli
+        run: |
+          docker pull marpteam/marp-cli
+          docker pull pandoc/ubuntu-latex
       - name: make slides
         run: make -B slides
       - name: Copy output to _site/output
