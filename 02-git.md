@@ -51,7 +51,6 @@ https://swcarpentry.github.io/git-novice/
 https://librarycarpentry.org/lc-git/
 -->
 
-
 ---
 
 # Git: Distributed version control
@@ -130,6 +129,8 @@ Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separat
 
 ---
 
+<!-- _class: centered -->
+
 # Part 1: Branching
 
 ---
@@ -146,7 +147,6 @@ Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separat
 Note: demonstrate on the whiteboard
 
 -->
-
 
 ![width:700px center](../assets/git-commit.png)
 
@@ -191,7 +191,6 @@ Before starting your work, it is essential to decide which branch you want to wo
 - Commits are added to the current branch, as indicated by the **HEAD** pointer
 - The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
 
-
 ---
 
 # Practice: Branching
@@ -202,7 +201,6 @@ Complete the first two levels on branching, merging, and navigating in the git t
 <!-- LT: maybe mention they can practice the whole tutorial afterwards for practice -->
 
 **NOTE**: You can type "undo" when you made a mistake.
-
 
 ![width:600px center](../assets/git-branching-tutorial.png)
 
@@ -245,6 +243,8 @@ git merge dev
 -->
 
 ---
+
+<!-- _class: centered -->
 
 # Part 2: Committing
 
@@ -454,9 +454,6 @@ In the following, we work with patches to save time while creating changes that 
 
 **Check**: The commands did not produce any error messages.
 
--->
-<!-- 
-
 For the next steps, download the code for [colrev](https://github.com/CoLRev-Ecosystem/colrev) as a zip file (through the `Code` button), extract the files and move them to your `colrev_project` directory*. Add all changes and create a new version. -->
 
 ---
@@ -474,7 +471,7 @@ gitk
 
 ---
 
-![width:1100px center](../assets/gitk-illustration_explained.png)
+![width:1000px center](../assets/gitk-illustration_explained.png)
 
 **Note**: More details about concepts like branches and head are provided in part 2 of this session.
 
@@ -614,6 +611,8 @@ Illustrate on the whiteboard : new/alternative commit with the same parent, all 
 -->
 
 ---
+
+<!-- _class: centered -->
 
 # Part 3: Collaborating
 
