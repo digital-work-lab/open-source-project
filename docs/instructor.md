@@ -57,7 +57,7 @@ VC post (28.04.24)
 > 
 > Wenn Sie sich im Vorfeld noch mit der Python-Syntax vertraut machen möchten, finden Sie hier ein gutes Tutorial: https://www.learnpython.org/. Der "Learn the Basics" Teil bietet einen guten und interaktiven Überblick.
 > 
-> Wir freue uns auf die Dienstag-Session mit Ihnen!
+> Wir freue uns auf die kommende Session mit Ihnen!
 > 
 > Beste Grüße & ein schönes Wochenende
 > 
