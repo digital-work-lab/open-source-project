@@ -36,7 +36,7 @@ VC post (24.04.24)
 > 
 > wir möchten Sie nochmals kurz daran erinnern, dass bis Montag (29.4.) noch eine unverbindliche Anmeldung für das Projekt möglich ist.
 >
->  Ihr Interesse an den Teilthemen können Sie wie folgt im Diskussionsfeeds siganalisieren (https://github.com/CoLRev-Environment/colrev/milestone/8).
+>  Ihr Interesse an den Teilthemen können Sie wie folgt im Diskussionsfeeds signalisieren (https://github.com/CoLRev-Environment/colrev/milestone/8).
 > 
 > Ein einfaches “I would like to work on this issue 🙋” wäre ausreichend.
 > 
