@@ -13,6 +13,16 @@ paginate: true
 
 ---
 
+# Check-in: Group formation
+
+- [Milestone v0.13.0](https://github.com/CoLRev-Environment/colrev/milestone/8)
+- Anyone not yet part of an issue discussion?
+- Challenges related to the setup?
+
+![bg right width:500px](../assets/group-formation.png)
+
+---
+
 # Learning objectives
 
 Understand and use git to develop software in teams.
@@ -31,7 +41,7 @@ Each part starts with the **concepts** before the **practice** session.
 
 - Form groups of three to four students
 - Work through the following pages
-- Create a "cheat sheet" summarizing the main commands and commands that **you** found usefull
+- Create a **cheat sheet** summarizing the main commands and commands that you found usefull
 
 <!-- **Part 3**: Remote collaboration (60 min) -->
 
@@ -65,7 +75,7 @@ Advantages:
 - Efficient data management for versions and branches
 - Scalable collaboration mechanisms for large teams and complex projects
 
-Disadvantages:
+Caveats:
 
 - Need to learn and understand the system
 - Not built for binary files or large media files
@@ -592,7 +602,7 @@ TODO : how to test/demonstrate undoing an error?
 
 # Transfer challenges I 
 
-1. Consider how the **git switch** command (or the revert/pull/checkout commands). How do they affect the working directory?
+1. Consider how the **git switch** command affect the three git areas (or the revert/pull/checkout commands). How do they affect the working directory?
 
 <!--
 Do you see any challenges?
@@ -643,7 +653,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 - Contributors can open a **pull request** to signal to maintainers that code from the fork can be merged
 - Pull requests are used for code review, and improvements before code is accepted or rejected
 
-![bg right:45% width:500px](../assets/git-remote-fork.png)
+![bg right:40% width:450px](../assets/git-remote-fork.png)
 
 <!-- https://edav.info/github.html#st-pr-on-another-repo-with-branching -->
 
@@ -767,6 +777,14 @@ Git-demo (tech or organizational perspective?)
 
 mention johnny decimal?
 -->
+
+---
+
+<!-- _class: centered -->
+
+# Survey
+
+Please share your feedback to help us improve!
 
 ---
 

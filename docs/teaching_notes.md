@@ -10,7 +10,7 @@ nav_order: 1
 {: .highlight }
 The teaching notes include materials for the instructor and teaching assistants.
 
-## Week 1
+## Week 1: Introduction, topics, and groups
 
 VC post:
 
@@ -28,7 +28,7 @@ VC post:
 > 
 > Gerit Wagner
 
-## Week 2
+## Week 2: Introduction to Git
 
 VC post (24.04.24)
 
@@ -47,7 +47,7 @@ VC post (24.04.24)
 > Ihr Digital Work Team
 
 
-## Week 3
+## Week 3: Introduction to Python
 
 VC post (28.04.24)
 
@@ -63,7 +63,7 @@ VC post (28.04.24)
 > 
 > Ihr Digital Work Team
 
-## Week 4
+## Week 4: Group work (no session)
 
 Reminder for merge: 08.05. (linking to resources)
 
@@ -86,7 +86,7 @@ VC post (10.05.24)
 > Ihr Digital Work Team
 > 
 
-## Week 5
+## Week 5: Best practice session
 
 ## Week 7
 
@@ -115,7 +115,7 @@ VC post (23.06.24)
 >
 > Ihr Digital Work Team
 
-## Week 12
+## Week 12: Code review session
 
 <!-- 
 Liebe Studierende,
