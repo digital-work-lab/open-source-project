@@ -43,9 +43,8 @@ Each part starts with the **concepts** before the **practice** session.
 - Work through the following pages
 - Create a **cheat sheet** summarizing the main commands and commands that you found usefull
 
-<!-- **Part 3**: Remote collaboration (60 min) -->
+<!-- **Part 3**: Remote collaboration (60 min) 
 
-<!--
 Goal: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
 
 groups: help each other!
@@ -80,69 +79,20 @@ Caveats:
 - Need to learn and understand the system
 - Not built for binary files or large media files
 
-<!-- 
-- most prevalent version control system, rapid adoption over the last decade
-- large tech companies use git (e.g., Windows migrated)
-- if you want to develop software today, there is no way around git.
-
-you wouldn't want to version binary/media files.
-
-no need to connect to a central server: can create versions, branches etc. (share if we decide to do so)
-
-
-Create a cheat sheet
-
-
-Examples:
-https://github.com/git/git
-https://github.com/tensorflow/tensorflow
-
-
-
-# DEMO
-
-figure displaying the git commit content (tree, ...): show at the end of practice session 1 (not at the beginning)
-
-
-**TODO : interactively develop the conceptual chart at the blackboard (explain to students which operations lead to transitions between the states)**
-
-Highlight: we focus on local repositories only in this part!
-
-ASK for concentration
-
-- How should a versioning system look like? - area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [AREAS AUFZEICHNEN]
-- Zusätzlich gibt es noch eine Staging Area [IN DER MITTE  EINZEICHNEN]. 
-- Stellen Sie sich jetzt vor, dass wir unser Git-Projekt angelegt haben, es gibt also das working directory und das git directory. Und wir haben jetzt verschiedene Dateien erstellt, zB. Programmcode, tests, dokumentation, und notizen. [ADD FILES TO WORKING DIRECTORY].
-- Die erste Frage, die sich stellt ist: wie lege ich eine neue Version an? Wir wollen also den Programmcode und die Tests in der neuen Version haben. Die Dokumentation ist noch nicht fertig und die Notizen sollen auch nicht in die Version. Und da kommt die Staging Area ins Spiel. Alles was in die nächste Version aufgenommen werden soll muss vorher in die Staging area, sozusagen markiert für die nächste Version bzw. den nächsten Commit.
-- Also: alle Dateien sind erst einmal im Working directory und Sie können auswählen, was Sie in die Staging Area übernehmen. Das ist der "git add ..." befehl. Sie geben also "git add code.py" und "git add tests.py" ein und dann wandert die aktuelle Version der ausgewählten Dateien in die Staging area [KOPIE DER DATEIEN VERSCHIEBEN und GIT ADD AUF PFEIL SCHREIBEN].
-- Um dann einen Commit aus den Dateien in der Staging Area zu erstellen geben wir einfach "git commit" ein [DATEIEN IN EINEN COMMIT KOMBINIEREN]. So einfach ist der Ablauf. Sie sehen, dass die STAGING AREA wieder leer ist und dass Sie die gleichen Dateien immer noch im Working Directory haben. Also gibt es jetzt keinen Unterschied zwischen den drei Bereichen.
-- Sehen wir uns noch einmal die Staging Area an. Wofür ist die Staging Area nützlich? Ich könnte ja auch einfach sagen dass die Dateien gleich committed werden sollen. [IDEEN?] - die Staging Area gibt uns die Möglichkeit, Dateiänderungen gezielt auszuwählen. Wir hatten hier zB. auch die Notizen und die unfertige Dokumentation. Die liegen im gleichen Ordner, sollen aber nicht in den nächsten Commit. Wenn wir git add ... ausführen haben wir also die Möglichkeit, einzelne Dateien in die Staging Area aufzunehmen. Gerade bei Programmierprojekten probiert man ja häufig verschiedene Implementierungen aus und manche funktionieren und andere funktionieren nicht. Und wenn Sie beim Programmieren den Moment haben, wo Sie sagen - Yess! jetzt funktioniert es endlich! Dann sagen fügen Sie Ihre Änderungen in die Staging Area ein. Also git add.
-- Dann kümmern sie sich vielleicht um die Codeformatierung, die zugehörigen Tests und die Dokumentation und fügen das auch step-by-step in die Staging area ein. Dh. wenn Sie an einer bestimmten Funktionalität arbeiten können Sie auch gut ein paar Stunden die Staging Area befüllen. Und wenn Sie dann das Gefühl haben - jetzt ist es perfekt, jetzt funktioniert es zuverlässig, die Tests und die Doku passt, dann gehen Sie auf git commit. Die Staging Area kann Ihnen also helfen, Code mit hoher Qualität zu schreiben. Außerdem wird es so auch viel einfacher, Dateiänderungen, die nicht zu dem Problem gehören, im working directory zu belassen und nicht in die neue Version aufzunehmen.
-- Wir haben uns also die drei Bereiche angesehen und wie man Dateiänderungen in die Staging area übernimmt und einen neuen Commit anlegt. Gibt es dazu Fragen?
-- Als nächstes sehen wir uns die entgegengesetzte Richtung an.
-- Wenn Sie Änderungen im Working directory haben, die Sie nicht mehr brauchen sagen Sie einfach "git restore file". Dann bekommen Sie die Version, die aktuell in der Staging Area liegt. Wenn Sie Änderungen in der Staging Area zurücksetzen möchten, geben Sie "git restore --staged file" ein. Dann bekommen Sie den letzten aktuellen Versionsstand aus dem git repository und die Änderungen aus der Staging Area sind nur noch im Working Directory. [PFEILE UND OPERATIONS EINZEICHNEN].
-- Jetzt kennen wir hier die Operationen in beide Richtungen: git add und commit bzw. git restore und git restore --staged.
-- Sehen wir uns das Git repository, also die Versionshistorie genauer an.
-- Wir hatten den ersten Commit schon einmal angelegt und wenn wir jetzt weiter entwickeln können wir einen weiteren Commit anlegen. In jedem Commit wird auch immer gleich festgehalten, welcher Commit der Vorgänger war. Also der "Parent" commit. Wenn Sie einen Git Client nutzen, dann wird Ihnen zu jedem Commit typischerweise nicht der vollständige Inhalt angezeigt, sondern die Änderungen, also das Delta zum Vorgänger. Das sehen Sie bspw. auf Github [zeigen]. Sie sehen auch, dass Git sehr viele Versionen effizient verwalten kann.
-
-Recap: d.h. wir haben jetzt gesehen, dass Dateien oder Dateiänderungen in drei Zuständen sein können: im Working Directory, in der Staging area, und im Git repository. Sie kennen die Operationen, mit denen wir Änderungen für die nächste Version markieren können und die neue Version anlegen können (git add und commit).
-Wir haben uns auch den entgegengesetzten Weg angesehen - git restore und git restore --staged.
-
-Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
-Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
-Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separaten Entwicklungszweigen. Ich kann einen Branch für meine USB-Treiber aufmachen, Sie arbeiten separate am Transportprotokoll. Die Änderungen werden immer nur in unserem Branch hinzugefügt und betreffen die anderen Entwickler nicht (ILLUSTRIEREN: ich habe einen usb-drivers branch, Sie einen transport-protocol branch, meine Änderungen werden hier hinzugefügt, Ihre Änderungen hier). 
-- Branches sind lokal und effizient (um einen Branch anzulegen speichert Git eine Zeile - alte Versionskontrollsysteme haben gleich das gesamt Projekt kopiert)
-- Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
-- Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
-
--->
-
 ---
 
 <!-- _class: centered -->
 
 # Part 1: Branching
 
+<!-- 
+Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
+Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
+Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separaten Entwicklungszweigen. Ich kann einen Branch für meine USB-Treiber aufmachen, Sie arbeiten separate am Transportprotokoll. Die Änderungen werden immer nur in unserem Branch hinzugefügt und betreffen die anderen Entwickler nicht (ILLUSTRIEREN: ich habe einen usb-drivers branch, Sie einen transport-protocol branch, meine Änderungen werden hier hinzugefügt, Ihre Änderungen hier). 
+- Branches sind lokal und effizient (um einen Branch anzulegen speichert Git eine Zeile - alte Versionskontrollsysteme haben gleich das gesamt Projekt kopiert)
+- Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
+- Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
+-->
 ---
 
 # Commits
@@ -257,6 +207,54 @@ git merge dev
 <!-- _class: centered -->
 
 # Part 2: Committing
+
+<!-- 
+- most prevalent version control system, rapid adoption over the last decade
+- large tech companies use git (e.g., Windows migrated)
+- if you want to develop software today, there is no way around git.
+
+you wouldn't want to version binary/media files.
+
+no need to connect to a central server: can create versions, branches etc. (share if we decide to do so)
+
+Create a cheat sheet
+
+Examples:
+https://github.com/git/git
+https://github.com/tensorflow/tensorflow
+
+
+
+# DEMO
+
+figure displaying the git commit content (tree, ...): show at the end of practice session 1 (not at the beginning)
+
+
+**TODO : interactively develop the conceptual chart at the blackboard (explain to students which operations lead to transitions between the states)**
+
+Highlight: we focus on local repositories only in this part!
+
+ASK for concentration
+
+- How should a versioning system look like? - area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [AREAS AUFZEICHNEN]
+- Zusätzlich gibt es noch eine Staging Area [IN DER MITTE  EINZEICHNEN]. 
+- Stellen Sie sich jetzt vor, dass wir unser Git-Projekt angelegt haben, es gibt also das working directory und das git directory. Und wir haben jetzt verschiedene Dateien erstellt, zB. Programmcode, tests, dokumentation, und notizen. [ADD FILES TO WORKING DIRECTORY].
+- Die erste Frage, die sich stellt ist: wie lege ich eine neue Version an? Wir wollen also den Programmcode und die Tests in der neuen Version haben. Die Dokumentation ist noch nicht fertig und die Notizen sollen auch nicht in die Version. Und da kommt die Staging Area ins Spiel. Alles was in die nächste Version aufgenommen werden soll muss vorher in die Staging area, sozusagen markiert für die nächste Version bzw. den nächsten Commit.
+- Also: alle Dateien sind erst einmal im Working directory und Sie können auswählen, was Sie in die Staging Area übernehmen. Das ist der "git add ..." befehl. Sie geben also "git add code.py" und "git add tests.py" ein und dann wandert die aktuelle Version der ausgewählten Dateien in die Staging area [KOPIE DER DATEIEN VERSCHIEBEN und GIT ADD AUF PFEIL SCHREIBEN].
+- Um dann einen Commit aus den Dateien in der Staging Area zu erstellen geben wir einfach "git commit" ein [DATEIEN IN EINEN COMMIT KOMBINIEREN]. So einfach ist der Ablauf. Sie sehen, dass die STAGING AREA wieder leer ist und dass Sie die gleichen Dateien immer noch im Working Directory haben. Also gibt es jetzt keinen Unterschied zwischen den drei Bereichen.
+- Sehen wir uns noch einmal die Staging Area an. Wofür ist die Staging Area nützlich? Ich könnte ja auch einfach sagen dass die Dateien gleich committed werden sollen. [IDEEN?] - die Staging Area gibt uns die Möglichkeit, Dateiänderungen gezielt auszuwählen. Wir hatten hier zB. auch die Notizen und die unfertige Dokumentation. Die liegen im gleichen Ordner, sollen aber nicht in den nächsten Commit. Wenn wir git add ... ausführen haben wir also die Möglichkeit, einzelne Dateien in die Staging Area aufzunehmen. Gerade bei Programmierprojekten probiert man ja häufig verschiedene Implementierungen aus und manche funktionieren und andere funktionieren nicht. Und wenn Sie beim Programmieren den Moment haben, wo Sie sagen - Yess! jetzt funktioniert es endlich! Dann sagen fügen Sie Ihre Änderungen in die Staging Area ein. Also git add.
+- Dann kümmern sie sich vielleicht um die Codeformatierung, die zugehörigen Tests und die Dokumentation und fügen das auch step-by-step in die Staging area ein. Dh. wenn Sie an einer bestimmten Funktionalität arbeiten können Sie auch gut ein paar Stunden die Staging Area befüllen. Und wenn Sie dann das Gefühl haben - jetzt ist es perfekt, jetzt funktioniert es zuverlässig, die Tests und die Doku passt, dann gehen Sie auf git commit. Die Staging Area kann Ihnen also helfen, Code mit hoher Qualität zu schreiben. Außerdem wird es so auch viel einfacher, Dateiänderungen, die nicht zu dem Problem gehören, im working directory zu belassen und nicht in die neue Version aufzunehmen.
+- Wir haben uns also die drei Bereiche angesehen und wie man Dateiänderungen in die Staging area übernimmt und einen neuen Commit anlegt. Gibt es dazu Fragen?
+- Als nächstes sehen wir uns die entgegengesetzte Richtung an.
+- Wenn Sie Änderungen im Working directory haben, die Sie nicht mehr brauchen sagen Sie einfach "git restore file". Dann bekommen Sie die Version, die aktuell in der Staging Area liegt. Wenn Sie Änderungen in der Staging Area zurücksetzen möchten, geben Sie "git restore --staged file" ein. Dann bekommen Sie den letzten aktuellen Versionsstand aus dem git repository und die Änderungen aus der Staging Area sind nur noch im Working Directory. [PFEILE UND OPERATIONS EINZEICHNEN].
+- Jetzt kennen wir hier die Operationen in beide Richtungen: git add und commit bzw. git restore und git restore --staged.
+- Sehen wir uns das Git repository, also die Versionshistorie genauer an.
+- Wir hatten den ersten Commit schon einmal angelegt und wenn wir jetzt weiter entwickeln können wir einen weiteren Commit anlegen. In jedem Commit wird auch immer gleich festgehalten, welcher Commit der Vorgänger war. Also der "Parent" commit. Wenn Sie einen Git Client nutzen, dann wird Ihnen zu jedem Commit typischerweise nicht der vollständige Inhalt angezeigt, sondern die Änderungen, also das Delta zum Vorgänger. Das sehen Sie bspw. auf Github [zeigen]. Sie sehen auch, dass Git sehr viele Versionen effizient verwalten kann.
+
+Recap: d.h. wir haben jetzt gesehen, dass Dateien oder Dateiänderungen in drei Zuständen sein können: im Working Directory, in der Staging area, und im Git repository. Sie kennen die Operationen, mit denen wir Änderungen für die nächste Version markieren können und die neue Version anlegen können (git add und commit).
+Wir haben uns auch den entgegengesetzten Weg angesehen - git restore und git restore --staged.
+
+-->
 
 ---
 
@@ -532,7 +530,7 @@ It is ok to combine functionality, tests, and docs that belong together in one c
 
 To create atomic commits, you may need to **add specific lines of code that should go into a commit**, leaving other changes in the working directory.
 
-The changes are provided in the `rec_dict.patch` file, which must be placed in the project's working directory. To apply it, run:
+The changes are provided in the [`rec_dict.patch`](../assets/rec_dict.patch) file, which must be placed in the project's working directory. To apply it, run:
 
 ```
 git apply rec_dict.patch                # Suggests to rename the method but also introduces unrelated changes.
@@ -602,7 +600,7 @@ TODO : how to test/demonstrate undoing an error?
 
 # Transfer challenges I 
 
-1. Consider how the **git switch** command affect the three git areas (or the revert/pull/checkout commands). How do they affect the working directory?
+1. Consider how the **git switch** (or the revert/pull/checkout) command affects the git areas. How does it affect the working directory?
 
 <!--
 Do you see any challenges?
@@ -619,6 +617,27 @@ Illustrate on the whiteboard : new/alternative commit with the same parent, all 
 - Refer to the slide on commits
 - Maybe even illustrate 
 -->
+
+---
+
+# Illustration: Git Merge
+
+Setting: Two authors working on the same document ([paper.md](../assets/paper.md)).
+
+1. Setup the code skeleton
+2. Write different parts of the same document
+
+  - git checkout -b author_1 (add introduction)
+  - git switch main & git checkout -b author_2 (add background)
+  - git switch main & git merge author_1 (fast forward)
+  - git merge author_2 (merge commit, no conflict)
+
+3. Edit the same part (remember to merge both branches with main)
+
+  - case 1: conflicting contents that contradict each other
+  - case 2: conflicting contents that need to be resolved
+
+<!-- Note: It can be instructive to go through this merge exercise at home. -->
 
 ---
 
@@ -659,6 +678,12 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 ---
 
+# Fork, invite, clone, and pull-request on GitHub
+
+![bg center width:600px](../assets/fork-invite-clone-pull.png)
+
+---
+
 # Remotes and branches
 
 - Most remote operations, including pull, push, pull requests refer to branches
@@ -667,6 +692,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 ![bg right:45% width:500px](../assets/git-remote-branch.png)
 
+<!-- 
 ---
 
 # Practice session
@@ -674,7 +700,6 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 The open-source collaboration game: [link](https://github.com/geritwagner/open-source-collaboration-game)
 
 
-<!-- 
 DEMO (go back to the commit slide)
 - parents: lines of development
 - branches: two commits have the same parent
