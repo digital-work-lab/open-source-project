@@ -165,9 +165,10 @@ small teams, everyone is expected to program and contribute - with git, we see c
 You **assign yourself to a group** when you contribute code following these steps:
 1. **Signal your intent** to contribute by joining the issue discussion on Github (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestone/8), before the **Git Session**, for two topics at most).
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 6 people** will be accepted per group.
-3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de). Your participation will be confirmed and your account will be linked to the project issue.
+3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
+<!-- Your participation will be confirmed and your account will be linked to the project issue. -->
 
-We require actual code contributions to ensure that **all group members make a fair contribution to the project**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
+This process ensures that **all group members make a fair contribution**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
 
 <!-- 
 Sie haben es selbst in der Hand - Sie können sich bei dem Thema einbringen, das Sie interessiert!
