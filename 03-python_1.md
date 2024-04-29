@@ -6,6 +6,10 @@ theme: ub-theme
 paginate: true
 ---
 
+<!-- _class: lead -->
+
+<!-- _class: centered -->
+
 # Projekt: Einführung in Python (1)
 
 <!--
@@ -83,8 +87,11 @@ Our focus: using the programming language to build things (not to understand the
 
 ---
 
-## Overview of the tutorial
+# Overview
 
+![width:700px center](../assets/python_overview_1.PNG)
+
+<!-- 
 In this session (2x90 min), we will:
 
 - [ ] Create and run a Python package command
@@ -96,6 +103,8 @@ In the following session (2x90 min), we will:
 - [ ] Refactor to object-oriented code
 - [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
 - [ ] Save changes and create commit
+ -->
+
 ---
 
 For the tutorial, we switch to the `tutorial_python` branch:
@@ -156,7 +165,7 @@ colrev status
 
 ---
 
-# Step 1: Set up an entrypoint
+# Python packages: Setting up entrypoints
 
 We implement a simple version of CoLRev that should be available through a separate command:
 
@@ -167,7 +176,6 @@ colrev run
 - Check the last commit and the changes that were introduced. Which function does our new `run` command call?
 - Create the `run` module (module: file containing Python code) and the function that should be called. The function should print `Start simple colrev run`. Note that calling `colrev.ops.run.main()` means that colrev will try to import and run the `main()` function in the `colrev/ops/run.py` module. Check the other functions in the `ui_cli/cli.py` and the other modules in the `colrev/colrev` directory if necessary.
 - Create a commit once the command works.
-
 
 <!-- 
 
@@ -182,7 +190,13 @@ Goal: orientation/read code, try to figure out things
 
 ---
 
-## Data types
+# Overview
+
+![width:700px center](../assets/python_overview_2.PNG)
+
+---
+
+# Data types
 
 Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTex format):
 
@@ -201,7 +215,7 @@ Note: You can find the syntax for Python dictionaries (and many other data types
 
 ---
 
-## Changing data
+# Changing data
 
 Next, we need a field indicating the record's status throughout the [process](https://colrev.readthedocs.io/en/latest/manual/operations.html).
 
@@ -226,7 +240,13 @@ clarify state transitions
 -->
 ---
 
-## Finding and adding external libraries
+# Overview
+
+![width:700px center](../assets/python_overview_3.PNG)
+
+---
+
+# Finding and adding external libraries
 
 Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.
 
@@ -258,7 +278,7 @@ pip install -e .[dev]
 
 ---
 
-## Using external libraries
+# Using external libraries
 
 Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/) and figure out how to load a BibTeX file. An example `records.bib` file is provided in the VC course.
 
@@ -331,6 +351,8 @@ python debuggers/plugins (for regular Python programming / special cases like me
 
 ---
 
-# Next session
+# Next steps
 
-- Make plans on how to split and distribute tasks: which CoLRev-objects or libraries will be needed, which steps are required?
+- Read the [package development](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html) documentation.
+- Study code of related CoLRev packages.
+- Take notes on the CoLRev-objects or libraries that will be needed?
