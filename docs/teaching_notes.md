@@ -52,6 +52,10 @@ VC post (24.04.24)
 
 ## Week 3: Introduction to Python
 
+Facilitate issue discussions (students forming groups), e.g., with posts like this:
+
+> Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
+
 VC post (28.04.24)
 
 > Liebe Studierende,
