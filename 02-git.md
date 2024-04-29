@@ -684,6 +684,16 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 ---
 
+# Work in a forked repository
+
+![bg right:50% width:500px](../assets/fork-sync.png)
+
+- In the fork, it is recommended to create working branches instead of committing to the `main` branch.
+- It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
+- Syncing changes may be necessary to get bugfixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
+
+---
+
 # Remotes and branches
 
 - Most remote operations, including pull, push, pull requests refer to branches
@@ -817,6 +827,7 @@ Please share your feedback to help us improve!
 
 - Select a team leader who creates the fork and invites group members
 - Plan how tasks could be completed in separate branches
+- Avoid working on the `main` branch and synchronize it regularly with the original repository
 - Regularly check whether branches should be synchronized (merged)
 
 **Task**: complete one merge between branches until **May 10th**.
