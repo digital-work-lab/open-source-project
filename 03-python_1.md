@@ -28,6 +28,12 @@ https://github.com/dirediredock/PythonWorkshop
 
 ---
 
+# Project: Fork best practice
+
+- Updated best practice for forks: [slide-33](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33)
+
+---
+
 # Learning objectives:
 
 - Familiarize with Python syntax

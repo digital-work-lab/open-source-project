@@ -51,7 +51,6 @@ groups: help each other!
 
 -> cheatsheet: how you would internalize it. Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
 
-
 GW: Write the slide numbers on the board and help students who have not reached that number
 
 we work with the cli!
@@ -93,6 +92,7 @@ Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separat
 - Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
 - Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
 -->
+
 ---
 
 # Commits
@@ -222,7 +222,6 @@ Create a cheat sheet
 Examples:
 https://github.com/git/git
 https://github.com/tensorflow/tensorflow
-
 
 
 # DEMO
