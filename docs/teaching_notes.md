@@ -56,7 +56,7 @@ VC post (28.04.24)
 
 > Liebe Studierende,
 > 
-> zur Vorbereitung unserer Session am Dienstag möchten wir Sie kurz erinnern, dass Sie eine eingerichtete Programmierumgebung benötigen. Wie auf den letzten Slides aus der ersten Session beschrieben, sollten Git, Python und ColRev installiert sein. Der Befehl "colrev init --example" sollte ohne Fehler ausgeführt werden. Es wäre gut, wenn Sie dies auf Ihrer virtuellen Maschine bzw. Ihrem Arbeitsgrät oder einem CIP-Pool Rechner ausprobieren. Bei Fragen helfen wir gerne weiter.
+> zur Vorbereitung unserer Session am Dienstag möchten wir Sie kurz erinnern, dass Sie eine eingerichtete Programmierumgebung benötigen. Wie auf den letzten Slides aus der ersten Session beschrieben, sollten Git, Python und ColRev installiert sein. Der Befehl "colrev init --example" sollte ohne Fehler ausgeführt werden. Es wäre gut, wenn Sie dies auf Ihrem Arbeitsgrät, auf GitHub Codespaces oder einem CIP-Pool Rechner ausprobieren. Bei Fragen helfen wir gerne weiter.
 > 
 > Wenn Sie sich im Vorfeld noch mit der Python-Syntax vertraut machen möchten, finden Sie hier ein gutes Tutorial: https://www.learnpython.org/. Der "Learn the Basics" Teil bietet einen guten und interaktiven Überblick.
 > 
