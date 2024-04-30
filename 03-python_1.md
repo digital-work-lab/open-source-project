@@ -28,9 +28,12 @@ https://github.com/dirediredock/PythonWorkshop
 
 ---
 
-# Project: Fork best practice
+# Project: Groups, forks and setup
 
-- Updated best practice for forks: [slide-33](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33)
+- Groups formed in the issue feeds
+- Forks were created. Note: we added best practices for forks: [slide-33](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33)
+- Further questions related to the GitHub setup?
+- Setup completed?
 
 ---
 
@@ -61,35 +64,7 @@ FIRST: Who has a working machine?
 - Python is an interpreted language: no need to compile (build jars) before running
 - Uses indentation instead of brackets to separate blocks (such as if statements)
 - Is strongly, dynamically typed
-- Provides access to many packages, covering machine learning, data science, web scraping, etc.
-
-<!--
-
-Java: compile the jar file 
-Python: continuously developed
-
-strongly typed:
-- Explicit conversion required
-- Python fails at runtime when asked to multiply/divide strings and strings. If you need the numbers stored inside a string variable, you need to cast it explicitly (`int_var = int("99")`).
-- dynamically typed: typing information is only evaluated when running code (e.g., string * string in if-statement that is not evaluated does not fail)
-
-Example:
-Java: 
-int count = 2;
-Python:
-count = 2
-word = "test"
-count*word = "testtest"
-word+count: TypeError
-word+str(count) + "test2"
-if False:
-  cound+word # not problem - never executed (only evaluated at runtime)
-
-Remember: call-by-value/call-by-reference
-
-Our focus: using the programming language to build things (not to understand the programming language)
-
--->
+- Provides access to many packages on [PyPI](https://pypi.org/), covering machine learning, data science, web scraping, etc.
 
 ---
 
@@ -113,15 +88,15 @@ In the following session (2x90 min), we will:
 
 ---
 
-For the tutorial, we switch to the `tutorial_python` branch:
+For the tutorial, we switch to the `tutorial_2024_04` branch:
 
 ```
 git clone https://github.com/CoLRev-Environment/colrev
 cd colrev
 pip install -e .[dev]
 git fetch
-git checkout tutorial_python
-git reset --hard ab3715e85fb0219081ff60f6e4918953066bfe6a
+git checkout tutorial_2024_04
+git reset --hard dd37b302cb9f55ee951afe8ae00c779cfa279875
 ```
 
 - As the session progresses, you can checkout the current commits.
@@ -144,15 +119,24 @@ You will have all the code available to go over again / after this session
 
 ---
 
-# Important
+# Writing and running Python code
 
+![width:700px center](../assets/python_code_run.PNG)
+
+<!-- 
 - Create a separate **project directory** to run the colrev commands.
 - To modify colrev functionality, switch to the **colrev package directory**.
 
-<!-- 
 Remember: cd ..., mkdir ... (open two shells)
 -->
 
+---
+
+# Python packages
+
+![width:700px center](../assets/python_package.PNG)
+
+<!--
 ---
 
 To run a Python script, simply run
@@ -167,7 +151,7 @@ When a Python package (such as CoLRev) is installed, you can call it directly th
 colrev status
 ```
 
-<!-- Note : you can call installed python packages from any directory. scripts must be called by their relative/absolute path -->
+ Note : you can call installed python packages from any directory. scripts must be called by their relative/absolute path -->
 
 ---
 
@@ -237,7 +221,7 @@ $\hspace{8cm}$
 
 To checkout the solution, run:
 ```
-git reset --hard b4a3ea9575e39cf239398ee771b10cf232990ca5
+git reset --hard 057af9ecd64758ec547ee5cf7c5e8182425aacd3
 ```
 
 <!-- To reset, run: 
@@ -278,7 +262,7 @@ Check the changes and create a commit.
 
 To checkout the solution, run:
 ```
-git reset --hard eb2ac2739be6c325fca18e045600f7736c8b5950
+git reset --hard dc573522be679bf462bd9cf3ef934088daaaf4a4
 pip install -e .[dev]
 ```
 
@@ -286,7 +270,7 @@ pip install -e .[dev]
 
 # Using external libraries
 
-Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/) and figure out how to load a BibTeX file. An example `records.bib` file is provided in the VC course.
+Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/) and figure out how to load a BibTeX file (**important : use v1!**). An example `records.bib` file is available [here](../assets/records.bib).
 
 Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file. Remember to store the `records.bib` in the **project directory**. 
 
@@ -296,7 +280,7 @@ Create a commit, and try to resolve linting errors (if any). We will address the
 
 To checkout the solution, run:
 ```
-git reset --hard a520919bc8d02bd29ef11ae88c385007b0fcf585
+git reset --hard c46ee8fd02d2d6dca8cc70db073a8b0701df328e
 ```
 
 <!-- 
@@ -326,7 +310,7 @@ pre-commit run --all
 
 To checkout the solution, run:
 ```
-git reset --hard bd6f13032980617998e4374c1895cf314d7b1f0f
+git reset --hard ecb832b60875df8acd13ac8b5f892272d42895c3
 ```
 
 <!-- 
@@ -338,8 +322,8 @@ Note: Pfeil-nach-oben-Taste oder bash alias nutzen!
 # Best practices
 
 - Carefully read tutorials, vignettes, and code examples (e.g., on GitHub) 
-- Start with code examples, try whether they work, and extend them
-- Use code linters to ensure high code quality
+- Start with small code segments, try whether they work (git-add), and extend them
+- Use code linters to ensure high code quality (run `pre-commit run --all`)
 - Add or commit working code frequently
 - To debug code, check whether variables have the expected values (use assert statements)
 - When exceptions are thrown, read the Traceback:
@@ -361,4 +345,4 @@ python debuggers/plugins (for regular Python programming / special cases like me
 
 - Read the [package development](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html) documentation.
 - Study code of related CoLRev packages.
-- Take notes on the CoLRev-objects or libraries that will be needed?
+- Take notes on the CoLRev-objects or libraries that will be needed.
