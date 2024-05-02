@@ -322,13 +322,13 @@ Note: Pfeil-nach-oben-Taste oder bash alias nutzen!
 # Best practices
 
 - Carefully read tutorials, vignettes, and code examples (e.g., on GitHub) 
-- Start with small code segments, try whether they work (git-add), and extend them
-- Use code linters to ensure high code quality (run `pre-commit run --all`)
+- Start with small code segments, try whether they work, and extend them
 - Add or commit working code frequently
+- Use code linters to ensure high code quality (run `pre-commit run --all`)
 - To debug code, check whether variables have the expected values (use assert statements)
 - When exceptions are thrown, read the Traceback:
 
-![width:650px center](../assets/python-exception-trace.png)
+![width:500px center](../assets/python-exception-trace.png)
 
 <!-- 
 small examples: clarify the "big goal" and start with small steps
