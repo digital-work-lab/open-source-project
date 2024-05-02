@@ -70,7 +70,7 @@ FIRST: Who has a working machine?
 
 # Overview
 
-![width:700px center](../assets/python_overview_1.PNG)
+![width:800px center](../assets/python_overview_1.PNG)
 
 <!-- 
 In this session (2x90 min), we will:
@@ -86,36 +86,6 @@ In the following session (2x90 min), we will:
 - [ ] Save changes and create commit
  -->
 
----
-
-For the tutorial, we switch to the `tutorial_2024_04` branch:
-
-```
-git clone https://github.com/CoLRev-Environment/colrev
-cd colrev
-pip install -e .[dev]
-git fetch
-git checkout tutorial_2024_04
-git reset --hard dd37b302cb9f55ee951afe8ae00c779cfa279875
-```
-
-- As the session progresses, you can checkout the current commits.
-- Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
-
-<!-- 
-All: update colrev and reinstall with pip!
-
-explain editable installation:
-pip3 install -e .
-
-git reset --hard HEAD~5 && git pull
-
-Remember: what does the command do?
-
-Note: you can also continue with your version and do the reset --hard at any time.
-
-You will have all the code available to go over again / after this session
--->
 
 ---
 
@@ -155,6 +125,36 @@ colrev status
 
 ---
 
+For the tutorial, we switch to the `tutorial_2024_04` branch:
+
+```
+git clone https://github.com/CoLRev-Environment/colrev
+cd colrev
+pip install -e .[dev]
+git fetch
+git checkout tutorial_2024_04
+git reset --hard dd37b302cb9f55ee951afe8ae00c779cfa279875
+```
+
+- As the session progresses, you can checkout the current commits.
+- Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
+
+<!-- 
+All: update colrev and reinstall with pip!
+
+explain editable installation:
+pip3 install -e .
+
+git reset --hard HEAD~5 && git pull
+
+Remember: what does the command do?
+
+Note: you can also continue with your version and do the reset --hard at any time.
+
+You will have all the code available to go over again / after this session
+-->
+---
+
 # Python packages: Setting up entrypoints
 
 We implement a simple version of CoLRev that should be available through a separate command:
@@ -182,7 +182,7 @@ Goal: orientation/read code, try to figure out things
 
 # Overview
 
-![width:700px center](../assets/python_overview_2.PNG)
+![width:800px center](../assets/python_overview_2.PNG)
 
 ---
 
@@ -232,7 +232,7 @@ clarify state transitions
 
 # Overview
 
-![width:700px center](../assets/python_overview_3.PNG)
+![width:800px center](../assets/python_overview_3.PNG)
 
 ---
 

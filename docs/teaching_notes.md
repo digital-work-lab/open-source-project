@@ -52,6 +52,19 @@ VC post (24.04.24)
 
 ## Week 3: Introduction to Python
 
+Prepare the `tutorial_YYYY_MM` branch and update the commit-ids in the slides:
+
+```
+git branch tutorial_YYYY_MM
+git switch tutorial_OLD
+# get commit-ids
+git switch tutorial_YYYY_MM
+git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fbb618e92e2b67751e34c
+# when the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
+```
+
+Use the [teaching notes](../output/teaching_notes/03_python_1.html))
+
 Facilitate issue discussions (students forming groups), e.g., with posts like this:
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?

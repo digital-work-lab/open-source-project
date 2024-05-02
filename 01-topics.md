@@ -357,12 +357,14 @@ TODO : emphasize parallels to git -->
 # Until next session
 
 - Sign up for our [VC course](https://vc.uni-bamberg.de/course/view.php?id=67998) (password: shaiChi4)
-- Create a GitHub account, start exploring issues, and team up
+- Create a GitHub account (using your student e-mail address), start exploring issues, and team up
 - **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html))
 
 ![bg right:36% width:300px](../assets/VC-WS2324-QR.png)
 
 <!--
+Student e-mail address: wegen Codespaces Kontingent
+
 Installation/Setup starten, ggf. beim nächsten Termin schon Fragen stellen
 
 -> codespaces for mac users

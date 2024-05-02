@@ -20,7 +20,7 @@ Install package:
 ```
 pip install "bibtexparser"
 ```
-Aadd it as a dependency of CoLRev:
+Add it as a dependency of CoLRev:
 ```
 poetry add "bibtexparser"
 ```

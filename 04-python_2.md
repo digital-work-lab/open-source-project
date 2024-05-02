@@ -6,11 +6,18 @@ theme: ub-theme
 paginate: true
 ---
 
+<!-- _class: lead -->
+
+<!-- _class: centered -->
+
 # Projekt: Einführung in Python (2)
 
 ---
 ## Overview of the tutorial
 
+![width:800px center](../assets/python_overview_4.PNG)
+
+<!-- 
 In the last session, we:
 
 - [x] Created and run a Python package command
@@ -22,10 +29,11 @@ In this session (2x90 min), we will:
 - [ ] Refactor to object-oriented code
 - [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
 - [ ] Save changes and create commit
+-->
 
 ---
 
-# Object-oriented programming and extending a Python package (CoLRev)
+# Object-oriented programming and extending a Python package
 
 To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:
 
@@ -154,9 +162,8 @@ check:
 
 ---
 
-# Next: Hacking sessions (per group)
+# Next: Best practice and hacking sessions (per group)
 
-- May - June
 - Make plans on how to split and distribute tasks.
 - Consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10)
 
