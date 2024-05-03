@@ -36,9 +36,37 @@ if True:
 
 <!-- https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121#:~:text=Python%20is%20both%20a%20strongly,is%20determined%20only%20during%20runtime. -->
 
+
+Our focus: using the programming language to build things (not to understand the programming language)
+
+# Important
+
+Students should not set up their machines during the session.
+Ask students to complete the tutorial on github codespaces
+
+setup for the data directory:
+```
+shell:
+cd ..
+mkdir data
+Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
+open two separate shells
+```
+
+# Creating dictionaries
+
+Additional challenge: use the constants as keys (package development docs)
+
+# JIF labeler:
+
 Remember:
 
 - Call-by-value: for "simple data types" (str, int, float)
 - Call-by-reference: for mutable objects (list, dict, object)
 
-Our focus: using the programming language to build things (not to understand the programming language)
+Show input() when iterating over the results
+
+Google
+- "mypy no-untyped-def"
+- "mypy no-untyped-def"
+- "pylint missing-function-docstring"

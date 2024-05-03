@@ -185,8 +185,9 @@ check:
 
 # Next: Best practice and hacking sessions (per group)
 
-- Make plans on how to split and distribute tasks.
-- Consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10)
+- Read [CEP-002](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html) on SearchSources, and raise questions in the issue feed (if any)
+- Take notes on key challenges and questions (for the best practice session)
+- Attend consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10) (May 27-31: e-mail/remote only)
 
 <!-- 
 Pair-programming
