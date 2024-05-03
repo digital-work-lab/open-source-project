@@ -35,6 +35,9 @@ Tasks to complete in this week:
 | 03  | Introduction to Python (I) | 30. April, 8.15-11.45 (WE5 1.003) | [Slides](output/03-python_1.html){: target="_blank"} |
 | 04  | Introduction to Python (II) | 3. Mai, 8.15-11.45 (WE5 2.005) | [Slides](output/04-python_2.html){: target="_blank"} |
 
+{: .highlight }
+**Create a merge**: May 10
+
 ## Week 5: May 13-19
 
 | No. | Session | Date and Location | Slides |
