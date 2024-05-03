@@ -20,7 +20,7 @@ To use the typical CoLRev environments (objects), we switch to an existing CoLRe
 
 ```
 cd ..
-git clone git@github.com:CoLRev-Environment/example.git
+git clone https://github.com/CoLRev-Environment/example.git
 cd example
 colrev status
 ```
