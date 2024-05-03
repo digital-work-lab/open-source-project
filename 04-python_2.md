@@ -19,7 +19,7 @@ paginate: true
 To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:
 
 ```
-cd ..
+cd ~
 git clone https://github.com/CoLRev-Environment/example.git
 cd example
 colrev status
