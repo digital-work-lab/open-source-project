@@ -57,7 +57,7 @@ Prepare the `tutorial_YYYY_MM` branch and update the commit-ids in the slides:
 ```
 git branch tutorial_YYYY_MM
 git switch tutorial_OLD
-# get commit-ids
+# get commit-ids (first and last)
 git switch tutorial_YYYY_MM
 git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fbb618e92e2b67751e34c
 # when the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser

@@ -65,7 +65,7 @@ Note: Also adapt the path of the records to `data/records.bib`. This is where Co
 
 To checkout the solution, run:
 ```
-git reset --hard ccf789dd39ff2a1d96fdbc2d1d70612e042594e7
+git reset --hard 19f283870f7abf20f7e52e1783b94cc6bcf330a6
 ```
 
 <!-- 
@@ -101,7 +101,7 @@ Note: Remember to import the required modules. Test your code, run the linters, 
 
 To checkout the solution, run:
 ```
-git reset --hard 7bba8808a18b4d07d4534a38ff8039e471a61dc3
+git reset --hard 34a59a63e0d02fa49d1963dda6f065a66e3be2cd
 ```
 
 <!-- 
@@ -116,7 +116,7 @@ Before completing the task, we need to implement two changes:
 
 To checkout the solution, run:
 ```
-git reset --hard 1783811c4fde5d0d3a701ec604ead78bf776f81e
+git reset --hard 0ae830b4c77d7a19d3beb7bc6b7485d3d871dbe9
 ```
 
 <!--
@@ -136,7 +136,7 @@ Review the commit and its content.
 
 To checkout the solution, run:
 ```
-git reset --hard b5c3bbee1e3d9dcb85b4e0a65e39c003409c59bc
+git reset --hard 402d602b91e4eff1cdd1499a5fbd7b5bf816d743
 ```
 
 <!-- 

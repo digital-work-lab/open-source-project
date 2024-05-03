@@ -133,7 +133,7 @@ cd colrev
 pip install -e .[dev]
 git fetch
 git checkout tutorial_2024_04
-git reset --hard dd37b302cb9f55ee951afe8ae00c779cfa279875
+git reset --hard ca9902e666518af1d33a368adf055c9809004433
 ```
 
 - As the session progresses, you can checkout the current commits.
@@ -221,7 +221,7 @@ $\hspace{8cm}$
 
 To checkout the solution, run:
 ```
-git reset --hard 057af9ecd64758ec547ee5cf7c5e8182425aacd3
+git reset --hard 6eb40fe1ac3a21c9be1b4d891525b6c5d78719f3
 ```
 
 <!-- To reset, run: 
@@ -262,7 +262,7 @@ Check the changes and create a commit.
 
 To checkout the solution, run:
 ```
-git reset --hard dc573522be679bf462bd9cf3ef934088daaaf4a4
+git reset --hard 6b357d3cc5838e1c29ca908e5470dfd36335b9a2
 pip install -e .[dev]
 ```
 
@@ -280,7 +280,7 @@ Create a commit, and try to resolve linting errors (if any). We will address the
 
 To checkout the solution, run:
 ```
-git reset --hard c46ee8fd02d2d6dca8cc70db073a8b0701df328e
+git reset --hard ff2a044d2d0e535ea8814d31c962eae4eee64075
 ```
 
 <!-- 
@@ -294,15 +294,14 @@ colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argum
 -->
 ---
 
-Next, we would like to create a function, which adds a `journal_impact_factor` field based on the following table:
+Next, we would like to create a function, which adds the `journal_impact_factor` based on the following table:
 
-| journal | JIF |
-| ------- | ---|
-| MIS Quarterly | 8.3|
+| journal | journal_impact_factor |
+| ------- | ----------------------|
+| MIS Quarterly |              8.3|
 | Information & Management | 10.3 |
 
-
-Add your changes to the staging area and run the pre-commit hooks:
+Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
 
 ```
 pre-commit run --all
@@ -310,7 +309,7 @@ pre-commit run --all
 
 To checkout the solution, run:
 ```
-git reset --hard ecb832b60875df8acd13ac8b5f892272d42895c3
+git reset --hard def8cd6113b9a7ded7a0d6abfd828c7735373197
 ```
 
 <!-- 
