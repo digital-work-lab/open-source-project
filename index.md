@@ -8,6 +8,10 @@ permalink: /
 
 # The Open Source Project
 
+**TODO : Infos on topic and process (making an impact/contributing to an open source project)**
+
+TODO : no registration required.
+
 ## Week 1: April 15-21
 
 | No. | Session | Date and Location | Slides |
