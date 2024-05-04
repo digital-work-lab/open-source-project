@@ -32,7 +32,13 @@ git status                                   # See which files were changed
 git add .                                    # Add all changes
 git commit -m 'Add code'                     # Create the first commit (version of the project)
 ```
-To analyze the specific changes, open `gitk`:
+To view the last commits run:
+```
+git log
+git log --graph				 			# view log as graph
+git log --graph --abbrev-commit --pretty=oneline --decorate	# view log as a pretty and compact looking graph
+```
+To analyze the specific changes, open `gitk` (GUI requires Tk windowing toolkit):
 ```
 gitk
 ```
