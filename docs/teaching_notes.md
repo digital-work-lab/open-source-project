@@ -63,9 +63,9 @@ git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fb
 # when the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
 ```
 
-Use the [teaching notes](../output/teaching_notes/03_python_1.html))
+Use the [teaching notes](../output/teaching_notes/03_python_1.html)
 
-Facilitate issue discussions (students forming groups), e.g., with posts like this:
+Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
 
