@@ -63,6 +63,8 @@ git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fb
 # when the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
 ```
 
+Keep a copy of branch (assign a `tutorial_backup` branch to the last commit)
+
 Use the [teaching notes](../output/teaching_notes/03_python_1.html)
 
 Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
@@ -109,6 +111,8 @@ VC post (10.05.24)
 > 
 
 ## Week 5: Best practice session
+
+TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../teaching_notes/cheatsheet_python.md), [colrev package development](../teaching_notes/cheatsheet_colrev.md)) available?
 
 ## Week 7
 

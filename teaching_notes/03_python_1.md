@@ -55,7 +55,7 @@ open two separate shells
 
 # Creating dictionaries
 
-Additional challenge: use the constants as keys (package development docs)
+Optional additional challenge: use the constants as keys (package development docs)
 
 # JIF labeler:
 
@@ -64,9 +64,24 @@ Remember:
 - Call-by-value: for "simple data types" (str, int, float)
 - Call-by-reference: for mutable objects (list, dict, object)
 
+```
+# Starting point: add_journal_impact_factor(record: dict) changes the values of the dictionary outside the function (without an explicit return/assignment)
+
+def change_journal(journal: str) -> None:
+  journal = "Nature"
+
+journal = "MIS Quarterly"
+change_journal(journal)
+print(journal) # prints MIS Quarterly (not nature) due to call-by-value for simple/immutable data types in Python
+```
+
 Show input() when iterating over the results
 
 Google
 - "mypy no-untyped-def"
 - "mypy no-untyped-def"
 - "pylint missing-function-docstring"
+
+Explain difference between positional and keyword arguments
+
+Note: it can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
