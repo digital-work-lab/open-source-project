@@ -28,6 +28,20 @@ VC post:
 > 
 > Gerit Wagner
 
+VC post (advertise the project in the lecture):
+
+> Liebe Studierende,
+> 
+> ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.
+> 
+> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 24.10.2023, 08:00 – 12:00 Uhr (WE5/04.003), Donnerstag, 26.10.2023, 14:00 – 18:00 Uhr (WE5/02.020)). Schicken Sie mir bei Interesse gerne eine E-Mail.
+> 
+> Alles Gute für das WS 23/24!
+> 
+> Mit besten Grüßen
+> 
+> Gerit Wagner
+
 ## Week 2: Introduction to Git
 
 **In preparation of the session**: check wheter the `rec_dict.patch` applies (`git diff > rec_dict.patch`)

@@ -13,9 +13,32 @@ paginate: true
 ---
 <!-- paginate: true -->
 
+# Work status
+
+- As a team, do you know where and how to contribute your code (modules, classes to use or create)?
+- Are you confident with your setup (fork, local development, running your code, executing pre-commit hooks to improve code quality)?
+    - What was particularly helpful (insights you can share with the other teams)?
+    - What are the challenges we can discuss?
+- How did you distribute tasks in the team (who works on what, which branches did you create, does regular sync work for you)?
+
+---
+
+# Focus sessions
+
+- Items for the focus sessions can be suggested in the interim project assessment survey
+
+<!-- 
+---
+
 # Best practices and conventions
 
+
+**Goal: Facilitate the practical application of git-commands/Python coding from previous sessions, including coordination in the team, do not overwhelm students with too many new commands on top**
+
+
+
 - Based on student feedback
+
 - pre-commit hooks (code quality) and tests (check whether it runs on all branches)
 - Commit practices (atomic, no unrelated materials)
 - Remember to sync regularly between remotes/origin and your fork
@@ -38,3 +61,5 @@ Plan: 45 min
 Fragen: 30-40 min
 
 Test and practice merge/merge conflict
+
+-->

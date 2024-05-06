@@ -1,4 +1,12 @@
 
+Codespaces:
+
+shell:
+cd ..
+mkdir data
+Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
+open two separate shells
+
 
 
 # Python
