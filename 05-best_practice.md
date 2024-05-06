@@ -11,6 +11,16 @@ paginate: true
 ## Best Practice Session
 
 ---
+
+# Learning objectives
+
+- Facilitate the practical application of git-commands and Python coding from previous sessions
+- Discuss whether the teams encountered any challenges and how they can be addressed
+- Our focus is on helping teams organize their work effectively
+- We encourage you to share challenges, errors or lessons learned
+- We do not introduce new commands (except when you ask for them or when they are useful for your work)
+
+---
 <!-- paginate: true -->
 
 # Work status
@@ -33,7 +43,6 @@ paginate: true
 # Best practices and conventions
 
 
-**Goal: Facilitate the practical application of git-commands/Python coding from previous sessions, including coordination in the team, do not overwhelm students with too many new commands on top**
 
 
 
