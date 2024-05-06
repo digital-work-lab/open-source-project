@@ -14,11 +14,15 @@ paginate: true
 
 # Learning objectives
 
-- Facilitate the practical application of git-commands and Python coding from previous sessions
+Our objectives for today are to
+
 - Discuss whether the teams encountered any challenges and how they can be addressed
-- Our focus is on helping teams organize their work effectively
-- We encourage you to share challenges, errors or lessons learned
-- We do not introduce new commands (except when you ask for them or when they are useful for your work)
+- Facilitate the practical application of Git commands and Python coding from previous sessions
+
+The focus is on **helping teams organize their work effectively**. To this end, we
+
+- Encourage you to share challenges, errors or lessons learned
+- Do not introduce new commands, except when you ask for them or when they are useful for your work
 
 ---
 <!-- paginate: true -->
