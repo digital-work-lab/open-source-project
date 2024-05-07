@@ -103,9 +103,22 @@ VC post (28.04.24)
 
 ## Week 4: Group work (no session)
 
+Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+
+
+VC post (08.05.24)
 Reminder for merge: 08.05. (linking to resources)
 
-Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+> Liebe Studierende,
+>
+> hier noch eine Erinnerung an den Merge, den Sie bis zum 10. Mai durch führen sollen.
+>
+> Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die best practice Session für den 15. Mai bestmöglichst gestalten zu können.
+>
+> Wir werden am 10. Mai noch eine Umfrage in den VC stellen (weitere Informationen folgen noch), wo Sie uns Informationen zu den Schwierigkeiten im bisherigen Projekt Verlauf geben, um die best practice Session so hilfreich wie es nur geht für Sie zu gestalten.
+>
+> Viele Grüße und weiterhin viel Erfolg im Projekt,
+> Laureen Thurner
 
 VC post (10.05.24)
 
