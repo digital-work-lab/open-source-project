@@ -113,9 +113,9 @@ Reminder for merge: 08.05. (linking to resources)
 >
 > hier noch eine Erinnerung an den Merge, den Sie bis zum 10. Mai durch führen sollen.
 >
-> Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die best practice Session für den 15. Mai bestmöglichst gestalten zu können.
+> Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die Best Practice Session am 15. Mai bestmöglichst gestalten zu können.
 >
-> Wir werden am 10. Mai noch eine Umfrage in den VC stellen (weitere Informationen folgen noch), wo Sie uns Informationen zu den Schwierigkeiten im bisherigen Projekt Verlauf geben, um die best practice Session so hilfreich wie es nur geht für Sie zu gestalten.
+> Wir werden am 10. Mai noch eine Umfrage in den VC stellen (weitere Informationen folgen noch), wo Sie uns Informationen zu den Schwierigkeiten im bisherigen Projekt Verlauf geben.
 >
 > Viele Grüße und weiterhin viel Erfolg im Projekt,
 > Laureen Thurner
@@ -126,9 +126,9 @@ VC post (10.05.24)
 >
 > zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepostet wurde herunterzuladen und auszufüllen.
 >
-> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.5 auszufüllen und im PDF Format hochzuladen.
+> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.5 im PDF Format hochzuladen.
 >
-> Somit können wir die Session noch an mögliche Problem von Ihnen anpassen.
+> Somit können wir in der Session gezielt auf Ihre Fragen und Herausforderungen eingehen.
 >
 > Wir freuen uns auf die nächste Session mit Ihnen am 15. Mai!
 >
