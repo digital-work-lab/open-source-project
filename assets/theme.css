@@ -10,7 +10,7 @@
 
 section {
   padding: 50px;
-  font-size: 24px;
+  font-size: 20px;
   justify-content: flex-start;
   padding-top: 120px;
 }
@@ -79,3 +79,4 @@ section::after {
 
   color:black;
 }
+
