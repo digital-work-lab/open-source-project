@@ -44,7 +44,6 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 <!--
 Packages directory: see https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
 Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-level README datei: nein, das mache ich als Maintainer. Anpassung der package-README-Datei ist Teil der Aufgabe (Dokumentation))
-
 -->
 
 ---
@@ -91,6 +90,7 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 
 <!-- 
 Discuss where students searched, how to proceed (do not provide easy solutions)
+Ask students to explain how they currently understand the task, where they would search
 Read
 - https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
 - https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html
@@ -104,12 +104,47 @@ Gesamtverständnis: CoLRev (?)
 - How did you distribute tasks in the team (who works on what, which branches did you create, does regular sync work for you)?
 
 <!-- 
-
 Task-Splitting strategy
-- Skeleton
+- Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning, and calling the script using __name__ == "main")
 - trying options
 - Split: search / load / add_endpoint
 - docs
+-->
+
+---
+
+# Merging strategies
+
+```
+git clone https://github.com/CoLRev-Environment/colrev && cd colrev
+
+# Repeat the following steps with different merge options
+git checkout main
+git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
+git checkout 108d278e8d01a65c5128c4a880247f0272896059
+git branch -D quality_model_docs && git switch -c quality_model_docs
+
+# Option 1: merge commit (or fast forward)
+git switch main
+git merge quality_model_docs
+
+# Option 2: squash
+git switch main
+git merge --squash quality_model_docs
+git commit -n -m 'update docs for quality_model'
+
+# Option 3: rebase
+git switch quality_model_docs
+git rebase main
+git switch main
+git merge quality_model_docs
+```
+<!-- 
+Note: 
+- compare between your colleagues (one completes a merge, the other a squash, the next a rebase)
+- write down which commits are in each branch
+
+Note: all options are available for pull requests on Github.
 -->
 
 ---
