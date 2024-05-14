@@ -172,25 +172,43 @@ Note: all options are available for pull requests on Github.
 
 # Which merge strategy should we select?
 
-Merge commits:
+Recommended branch setup in your fork:
 
-- Always merge ``remotes/origin/main`` into ``remotes/fork/main``. Do not commit directly to ``remotes/fork/main``. This will ensure that you will always have fast-forward merges.
-- Always use merge (commits) when you work on shared branches.
+1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed.
+2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``.
+3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``).
 
-Squash: 
+<!--
+This will ensure that you will always have fast-forward merges.
+It will also keep the upstream/origin work separate from your work (in the feature branch)
 
-- If you have worked on a single coherent task, which involved different commits.
+Merging into shared branches:
 
-Rebase:
+- Merge (commit) from ``remotes/fork/main`` into shared branch.
+-->
 
-- As "the last merge into the target branch", creating a linear history without merge commits.
-- Do not rebase shared feature branches.
+When tasks are distributed and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+
+- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
+- Once the branch is online, use merge commits
+
+Merging into a target branch, i.e., your shared feature branch:
+
+- Squash if you have worked on a single coherent task, which should be combined in a single commit
+- Rebase if you would like to preserve a simple linear history
+- Merge commit otherwise
+
+<!-- 
+Note: later merge into ``remotes/origin/main`` will be decided by the maintainer
+-->
 
 ---
 
 # Open questions?
 
-<!-- 
+<!--
+Groups to "fix" main: OSF, Unpaywall, 
+
 Remember: 
 - Challenging task
 - We recognize your efforts working in a complex environment
