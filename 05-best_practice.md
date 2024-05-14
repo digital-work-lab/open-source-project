@@ -53,6 +53,7 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 - Why are there errors in my environment?
 - How does CoLRev work?
 - How can we organize and split tasks?
+- How should we select merging strategies?
 
 ---
 
@@ -86,11 +87,21 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 
 # Work status: Where to contribute
 
+- Understanding of CoLRev
+
+    - User workflow (starting point: [video](https://colrev.readthedocs.io/en/latest/))
+    - Architecture (starting point: [API chart and reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev))
+    - Package development and SearchSources (starting point: [package development resources](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html))
+
 - As a team, do you know where and how to contribute your code (modules, classes to use or create)?
 
 <!-- 
 Discuss where students searched, how to proceed (do not provide easy solutions)
 Ask students to explain how they currently understand the task, where they would search
+Key task: self-organizing, understanding code
+
+Encouragement: all the complexity (git, python, colrev) you have managed so far already contributes to your grade (you have to stretch, but we support you, and no group has failed to deliver so far)
+
 Read
 - https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
 - https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html
@@ -109,6 +120,15 @@ Task-Splitting strategy
 - trying options
 - Split: search / load / add_endpoint
 - docs
+
+
+def search(self, options):
+    options = {"query": "term"}
+    print('Started search')
+
+
+if __name__ == "main":
+    search()
 -->
 
 ---
@@ -122,7 +142,8 @@ git clone https://github.com/CoLRev-Environment/colrev && cd colrev
 git checkout main
 git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git checkout 108d278e8d01a65c5128c4a880247f0272896059
-git branch -D quality_model_docs && git switch -c quality_model_docs
+git branch -D quality_model_docs
+git switch -c quality_model_docs
 
 # Option 1: merge commit (or fast forward)
 git switch main
@@ -149,6 +170,24 @@ Note: all options are available for pull requests on Github.
 
 ---
 
+# Which merge strategy should we select?
+
+Merge commits:
+
+- Always merge ``remotes/origin/main`` into ``remotes/fork/main``. Do not commit directly to ``remotes/fork/main``. This will ensure that you will always have fast-forward merges.
+- Always use merge (commits) when you work on shared branches.
+
+Squash: 
+
+- If you have worked on a single coherent task, which involved different commits.
+
+Rebase:
+
+- As "the last merge into the target branch", creating a linear history without merge commits.
+- Do not rebase shared feature branches.
+
+---
+
 # Open questions?
 
 <!-- 
@@ -168,9 +207,6 @@ Remember:
 ---
 
 # Best practices and conventions
-
-
-
 
 
 - Based on student feedback
