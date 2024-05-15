@@ -29,7 +29,7 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 ---
 
-# Quick questions
+# Quick warm-up questions
 
 **Do we have to change the README.md?**
 - You do not have to change the top-level README.md file, but you have to update README.md files in subdirectories to document your work.
@@ -62,14 +62,14 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 - Errors may be raised only in specific settings, i.e., versions of operating systems, Python, package managers, dependencies, and CoLRev
 - What we do to identify and fix errors: 
 
-    - Run [matrix tests](https://github.com/CoLRev-Environment/colrev/actions/workflows/tests.yml) covering two operating systems, four Python versions, and the latest version of CoLRev with the pip and poetry package manager (latest vs. fixed dependencies)
+    - Run [matrix tests](https://github.com/CoLRev-Environment/colrev/actions/workflows/tests.yml) covering 16 different environments
     - Reduce dependencies
     - Fix errors that are reported
 
 - What you can do to avoid errors:
 
     - Use supported environments, such as GitHub Codespaces or Ubuntu
-    - Avoid "cutting-edge" versions (of operating systems and Python)
+    - Avoid cutting-edge versions (of operating systems and Python)
     - Report errors
 
 ![bg right:37% width:550px](../assets/sources-of-errors.png)
@@ -78,10 +78,12 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 
 # Work status: Environment setup
 
-- Are you confident with your setup (fork, local development, running your code, executing pre-commit hooks to improve code quality)?
+Are you confident with your setup, including the fork, local development, running your code, executing pre-commit hooks to improve code quality?
 
-    - What was particularly helpful (insights you can share with the other teams)?
-    - What are the challenges we can discuss?
+Summarize the work status per group:
+
+- What are the challenges we can discuss?
+- What was particularly helpful? Are there any insights you can share with the other teams?
 
 ---
 
@@ -89,47 +91,18 @@ Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-lev
 
 - Understanding of CoLRev
 
-    - User workflow (starting point: [video](https://colrev.readthedocs.io/en/latest/))
-    - Architecture (starting point: [API chart and reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev))
-    - Package development and SearchSources (starting point: [package development resources](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html))
+    - **User workflow**: Start with the [video](https://colrev.readthedocs.io/en/latest/) and check ``gitk`` after each step
+    - **Architecture**: Starting point: [API chart and reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
+    - **Package development and SearchSources**: Starting point: [package development resources](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html)
 
-- As a team, do you know where and how to contribute your code (modules, classes to use or create)?
-
-<!-- 
-Discuss where students searched, how to proceed (do not provide easy solutions)
-Ask students to explain how they currently understand the task, where they would search
-Key task: self-organizing, understanding code
-
-Encouragement: all the complexity (git, python, colrev) you have managed so far already contributes to your grade (you have to stretch, but we support you, and no group has failed to deliver so far)
-
-Read
-- https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
-- https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html
-Gesamtverständnis: CoLRev (?)
--->
+- As a team, do you know where and how to contribute your code, i.e., the modules, classes to use or create?
 
 ---
 
 # Work status: How to organize tasks
 
-- How did you distribute tasks in the team (who works on what, which branches did you create, does regular sync work for you)?
-
-<!-- 
-Task-Splitting strategy
-- Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning, and calling the script using __name__ == "main")
-- trying options
-- Split: search / load / add_endpoint
-- docs
-
-
-def search(self, options):
-    options = {"query": "term"}
-    print('Started search')
-
-
-if __name__ == "main":
-    search()
--->
+- How did you distribute tasks in the team?
+- Who works on what, which branches did you create, does regular sync work for you?
 
 ---
 
@@ -204,18 +177,11 @@ Note: later merge into ``remotes/origin/main`` will be decided by the maintainer
 
 ---
 
+<!-- _class: centered -->
+
 # Open questions?
 
 <!--
-Groups to "fix" main: OSF, Unpaywall, 
-
-Remember: 
-- Challenging task
-- We recognize your efforts working in a complex environment
-- We are here to help
-- All groups completed their projects successfully in the last projects
-
-
 
 # Ideas for Project Planning
 
