@@ -6,6 +6,8 @@ theme: ub-theme
 paginate: true
 ---
 
+<!-- _class: centered -->
+
 # WI-Project: Open-Source Development
 
 ## The Review Session
@@ -34,15 +36,15 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 
 # The Process
 
-1. Groups are assigned to pull requests
-2. Short summary presentation of the code contribution (2 min)
+1. Group is assigned to a pull requests
+2. Short summary presentation of the code contribution
 3. Review session:
-    - Stage 1 (15 min)
-    - Opportunity to talk to the contributors
+    - Stage 1 (10 min)
+    - Opportunity to ask questions
     - Stage 2 (10 min)
-    - Opportunity to talk to the contributors
-    - Stage 3 (5 min)
-4. Short summary of the code review (2 min)
+    - Opportunity to ask questions
+    - Stage 3 (10 min)
+4. Short summary of the code review (2-5 min)
 
 ![bg right:30% width:300px](../assets/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg)
 
@@ -51,7 +53,10 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 # Feedback
 
 - On the code contribution
-- On the [project](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html#osd-ws2324)
+- On the project
+<!-- https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html#osd-ws2324 -->
+
+![bg right:50% width:350px](../assets/feedback.jpg)
 
 ---
 
@@ -59,7 +64,13 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 
 - Grades will be entered in Flexnow
 - You will be added as a contributor on GitHub (to opt out, send me an e-mail)
-- Reach out if you are interested in writing a thesis in the context of CoLRev (programming)
+- Reach out if you are interested in writing a thesis in the context of CoLRev (see [topics](https://digital-work-lab.github.io/theses/docs/topics.html) with programming label)
 - If you enjoyed the project, please help us spread the word and recommend our project
 
-![bg right:40% width:400px](../assets/Thank-you.jpg)
+![bg right:50% width:400px](../assets/Thank-you.jpg)
+
+<!-- 
+---
+
+TEST: [ask a question](https://github.com/digital-work-lab/open-source-project/issues/new)
+-->
