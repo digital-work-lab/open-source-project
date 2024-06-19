@@ -55,7 +55,7 @@ Tasks to complete in this week:
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
-| 06  | Code review session | 9.7.2024, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
+| 06  | Code review session | 9.7.2024, 9-15.00, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
 ## Instructor
 
