@@ -168,6 +168,8 @@ VC post (23.06.24)
 >
 > Unter der Abgabe meinen wir folgendes:
 > - pull request
+> Präsentatopn dienstag 9.7 von 9-15 Uhr
+> VC Umfrage zu slots (1h pro gruppe plus 15min pause)
 > 
 > Beste Grüße und Viel Erfolg beim Endspurt
 >
