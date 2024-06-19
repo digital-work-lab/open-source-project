@@ -164,11 +164,13 @@ VC post (23.06.24)
 
 > Liebe Studierende,
 >
-> wir möchten Sie nochmals an die Abgabe am 26. Juni hinweisen.
+> ich möchten Sie nochmals an die Abgabe am 26. Juni hinweisen.
 >
-> Beste Grüße und weiterhin Viel Erfolg beim Projekt
+> Unter der Abgabe meinen wir folgendes:
+> 
+> Beste Grüße und Viel Erfolg beim Endspurt
 >
-> Ihr Digital Work Team
+> Laureen Thurner
 
 ## Week 12: Code review session
 
