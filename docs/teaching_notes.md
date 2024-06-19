@@ -167,6 +167,7 @@ VC post (23.06.24)
 > ich möchten Sie nochmals an die Abgabe am 26. Juni hinweisen.
 >
 > Unter der Abgabe meinen wir folgendes:
+> - pull request
 > 
 > Beste Grüße und Viel Erfolg beim Endspurt
 >
