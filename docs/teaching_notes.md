@@ -166,10 +166,12 @@ VC post (23.06.24)
 >
 > ich möchten Sie nochmals an die Abgabe am 26. Juni hinweisen.
 >
-> Unter der Abgabe meinen wir folgendes:
-> - pull request
-> Präsentatopn dienstag 9.7 von 9-15 Uhr
-> VC Umfrage zu slots (1h pro gruppe plus 15min pause)
+> Als "Abgabe" haben Sie nur den pull request zu machen.
+>
+> Zudem haben wir den Präsentationstermin festgelegt, dieser wir am 09.Juli 2024 statt finden.
+> Die Uhrezit können Sie selbst in einer Umfrage in der netsprechenden Woche hier im VC buchen.
+> Wir würden Sie bitten, dass nur einer im Team einen Slot bucht, sonst gehen sich die Termine nicht aus.
+> Die Präsentation wird ca. 1h dauern.
 > 
 > Beste Grüße und Viel Erfolg beim Endspurt
 >
