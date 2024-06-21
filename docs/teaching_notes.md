@@ -169,7 +169,7 @@ VC post (23.06.24)
 > Als "Abgabe" haben Sie nur den pull request zu machen.
 >
 > Zudem haben wir den Präsentationstermin festgelegt, dieser wir am 09.Juli 2024 statt finden.
-> Die Uhrezit können Sie selbst in einer Umfrage in der netsprechenden Woche hier im VC buchen.
+> Die Uhrzeit können Sie selbst in einer Umfrage in dieser Woche hier im VC buchen.
 > Wir würden Sie bitten, dass nur einer im Team einen Slot bucht, sonst gehen sich die Termine nicht aus.
 > Die Präsentation wird ca. 1h dauern.
 > 
