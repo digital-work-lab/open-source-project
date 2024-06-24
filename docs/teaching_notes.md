@@ -163,18 +163,13 @@ VC post (27.05.24)
 VC post (23.06.24)
 
 > Liebe Studierende,
->
-> ich möchten Sie nochmals an die Abgabe am 26. Juni hinweisen.
->
-> Als "Abgabe" haben Sie nur den pull request zu machen.
->
-> Zudem haben wir den Präsentationstermin festgelegt, dieser wir am 09.Juli 2024 statt finden.
-> Die Uhrzeit können Sie selbst in einer Umfrage in dieser Woche hier im VC buchen.
-> Wir würden Sie bitten, dass nur einer im Team einen Slot bucht, sonst gehen sich die Termine nicht aus.
-> Die Präsentation wird ca. 1h dauern.
 > 
-> Beste Grüße und Viel Erfolg beim Endspurt
->
+> ich möchte Sie kurz an die Abgabe am 26. Juni erinnern. Um Ihren Code einzureichen, müssten Sie wie besprochen einen Pull Request erstellen.
+> 
+> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am 09. Juli 2024 statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
+> 
+> Beste Grüße und viel Erfolg beim Endspurt
+> 
 > Laureen Thurner
 
 ## Week 12: Code review session
