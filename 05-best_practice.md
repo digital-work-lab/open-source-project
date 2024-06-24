@@ -29,6 +29,17 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 ---
 
+# Questions and work status
+
+- Warm-up questions
+- Why are there errors in my environment?
+- How does CoLRev work?
+- How can we organize and split tasks?
+- How should we select merging strategies?
+- Open issues
+
+---
+
 # Quick warm-up questions
 
 **Do we have to change the README.md?**
@@ -45,15 +56,6 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 Packages directory: see https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
 Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-level README datei: nein, das mache ich als Maintainer. Anpassung der package-README-Datei ist Teil der Aufgabe (Dokumentation))
 -->
-
----
-
-# Complex questions and work status
-
-- Why are there errors in my environment?
-- How does CoLRev work?
-- How can we organize and split tasks?
-- How should we select merging strategies?
 
 ---
 

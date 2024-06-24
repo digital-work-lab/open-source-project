@@ -403,7 +403,7 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 ---
 
-Sh***! We just committed changes containing a an error 🤯
+Sh***! We just committed changes containing an error 🤯
 
 To undo the last commit, we can simply run:
 
@@ -467,7 +467,7 @@ For the next steps, download the code for [colrev](https://github.com/CoLRev-Eco
 
 Let's see the changes that were committed in the project.
 
-To analyze the specific changes, open `gitk`:
+To analyze the specific changes, open `gitk` (or another Git GUI):
 
 ```
 gitk
@@ -479,8 +479,6 @@ gitk
 ---
 
 ![width:1000px center](../assets/gitk-illustration_explained.png)
-
-**Note**: More details about concepts like branches and head are provided in part 2 of this session.
 
 <!-- 
 gitk.png screenshot + add explanations similar to https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/

@@ -21,7 +21,7 @@ In this session, you will **adopt the perspective of a maintainer**, i.e., a gat
 
 As a group, your goals are:
 
-1. Download the code from the pull request (fork) to your local machine
+1. Download the code from the pull request (fork) to your local machine or codespace
 2. Test whether the code works as expected
 3. Debug and improve the code (if necessary)
 4. Document your asessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
@@ -60,12 +60,30 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 
 ---
 
-# Summary
+# Summary (I)
 
-- Grades will be entered in Flexnow
 - You will be added as a contributor on GitHub (to opt out, send me an e-mail)
-- Reach out if you are interested in writing a thesis in the context of CoLRev (see [topics](https://digital-work-lab.github.io/theses/docs/topics.html) with programming label)
-- If you enjoyed the project, please help us spread the word and recommend our project
+- Consider mentioning the contribution in your CV:
+
+**Open-Source Contributions**
+CoLRev - An open-source environment for Collaborative Literature Reviews
+
+- Role: Contributor/Developer
+- Date: 2024
+- Description: Contributed to the development of CoLRev, an open-source environment designed to facilitate collaborative literature reviews. Implemented the package extension *unpaywall* (insert your project).
+- Repository: [CoLRev on GitHub](https://github.com/CoLRev-Environment/colrev)
+- DOI: 10.5281/zenodo.11668338
+
+---
+
+# Summary (II)
+
+- Grades will be entered in Flexnow.
+- We supervise theses in the context of CoLRev (see [topics](https://digital-work-lab.github.io/theses/docs/topics.html) with programming label) - reach out if you are interested!
+- If you enjoyed the project, please help us spread the word and recommend our project!
+
+**Thank you for your contribution!**
+Remember - your work helps researchers. Many have already commended CoLRev, including Guy Paré, Piers Steel, and Blair Wang 🎉 🙌 🎊
 
 ![bg right:50% width:400px](../assets/Thank-you.jpg)
 
