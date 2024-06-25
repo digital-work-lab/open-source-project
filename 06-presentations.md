@@ -37,14 +37,15 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 # The Process
 
 1. Group is assigned to a pull requests
-2. Short summary presentation of the code contribution
-3. Review session:
+2. Review session:
     - Stage 1 (10 min)
     - Opportunity to ask questions
     - Stage 2 (10 min)
     - Opportunity to ask questions
     - Stage 3 (10 min)
-4. Short summary of the code review (2-5 min)
+3. Short summary of the code review (2-5 min)
+
+<!-- 2. Short summary presentation of the code contribution -->
 
 ![bg right:30% width:300px](../assets/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg)
 
@@ -78,12 +79,12 @@ CoLRev - An open-source environment for Collaborative Literature Reviews
 
 # Summary (II)
 
+**Thank you for your contribution!**
+Remember - your work helps researchers. Many have already commended CoLRev, including Guy Paré, Piers Steel, and Blair Wang 🎉 🙌 🎊
+
 - Grades will be entered in Flexnow.
 - We supervise theses in the context of CoLRev (see [topics](https://digital-work-lab.github.io/theses/docs/topics.html) with programming label) - reach out if you are interested!
 - If you enjoyed the project, please help us spread the word and recommend our project!
-
-**Thank you for your contribution!**
-Remember - your work helps researchers. Many have already commended CoLRev, including Guy Paré, Piers Steel, and Blair Wang 🎉 🙌 🎊
 
 ![bg right:50% width:400px](../assets/Thank-you.jpg)
 
