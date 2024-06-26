@@ -25,5 +25,7 @@ exclude: ['session_5_presentations']
 logo: "/assets/images/open-source-project.png"
 
 aux_links:
+  "Repository":
+    - "https://github.com/digital-work-lab/open-source-project"
   "Feedback":
     - "https://github.com/digital-work-lab/handbook/issues"
