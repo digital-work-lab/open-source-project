@@ -172,6 +172,31 @@ VC post (23.06.24)
 > 
 > Laureen Thurner
 
+
+> Updates, Evaluation und bevorstehende Termine für unser Projekt
+> 
+> Liebe Studierende,
+> 
+> vielen Dank für Ihre Arbeit am Projekt und die Pull-Requests. Ich habe zum Abschluss jew. ein paar Verbesserungsvorschläge gemacht, die schnell umsetzbar sein sollten und teilweise schon erledigt wurden.
+> 
+> Zur Erinnerung: Die letzte Session findet am 9. Juli mit dem Code-Review statt. Fast alle Gruppen haben bereits einen Termin über VC gebucht.
+> 
+> Die Evaluation des WI-Projekts sollten Sie per E-Mail erhalten haben. Wir hoffen sehr, dass Sie mit dem Projekt zufrieden waren und dass Sie sich an der Evaluation beteiligen.
+> 
+> Parallel dazu haben wir Verbesserungsvorschläge für das kommende Semester im folgenden Issue gesammelt:
+> 
+> https://github.com/digital-work-lab/open-source-project/issues/8.
+> 
+> Ich lade Sie herzlich ein, weitere Ideen und Vorschläge dort zu ergänzen.
+> 
+> Heute findet zudem die Choose-a-Chair Messe statt, bei der wir die Möglichkeit haben, persönlich ins Gespräch zu kommen, zum Beispiel über Abschlussarbeiten und unseren neuen "Call-for-Theses":
+> 
+> https://digital-work-lab.github.io/theses/docs/topics.html
+> 
+> Mit besten Grüßen
+> 
+> Gerit Wagner
+
 ## Week 12: Code review session
 
 - If students test the code in Codespaces, the workspace should be started early.
