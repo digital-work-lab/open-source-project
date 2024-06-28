@@ -202,6 +202,7 @@ VC post (23.06.24)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
 - To add students as contributors, comment on the pull-request: ``@all-contributors please add @student_github_id for code.`` (see [example](https://github.com/CoLRev-Environment/colrev/pull/199))
+- Add student contributors to the [hall of fame](hall_of_fame.html)
 - Remind students to complete the evaluation.
 
 <!-- 
