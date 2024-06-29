@@ -199,6 +199,7 @@ VC post (23.06.24)
 
 ## Week 12: Code review session
 
+- Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
 - To add students as contributors, comment on the pull-request: ``@all-contributors please add @student_github_id for code.`` (see [example](https://github.com/CoLRev-Environment/colrev/pull/199))
