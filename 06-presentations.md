@@ -51,11 +51,28 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
 
 ---
 
+<!-- _class: centered -->
+
+
+# Short break
+
+![width:500px center](../assets/game_completed.jpg)
+
+---
+
 # Feedback
+
+Our feedback for you
 
 - On the code contribution
 - On the project
 <!-- https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html#osd-ws2324 -->
+
+Your feedback for us
+
+- Let us know how we can improve
+- We have a [GitHub issue](https://github.com/digital-work-lab/open-source-project/issues/8) to document and track improvements
+- You should have received the evaluation survey
 
 ![bg right:50% width:350px](../assets/feedback.jpg)
 
