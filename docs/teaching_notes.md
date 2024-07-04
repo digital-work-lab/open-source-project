@@ -199,6 +199,7 @@ VC post (23.06.24)
 
 ## Week 12: Code review session
 
+- Prepare [evaluation sheets](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/evaluation_project)
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
@@ -206,6 +207,29 @@ VC post (23.06.24)
 - Add student contributors to the [hall of fame](hall_of_fame.html)
 - Remind students to complete the evaluation.
 - Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8) in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html) - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html), mention our teaching cases, and encourage students to contribute their feedback
+
+
+> Liebe Studierende,
+> 
+> ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
+> 
+> https://digital-work-lab.github.io/open-source-project/output/06-presentations.html
+> 
+> Grundsätzlich ist die Idee, die Maintainer-Perspektive einzunehmen und Ihr Wissen aus dem Projekt auf ein sehr ähnliches Thema zu übertragen.
+> 
+> Idealerweise können Sie dabei Ihre erworbenen Kenntnisse (Git, Python, CoLRev) zeigen und durch den Perspektivwechsel ergänzen. Zudem können Sie am Ende konstruktive Vorschläge zur Verbesserung des zugelosten Projekts einbringen. Die entsprechende Zuordnung der Gruppen/Pull-Request geben wir in der Session bekannt.
+> 
+> Wir begleiten die Session, indem wir bei Bedarf Tipps geben oder Fragen stellen. Die Session findet im ISM Labor 1.094 statt. Die Zuordnung der Gruppen zu Terminen wurde über die VC-Abstimmung abgeschlossen:
+> 
+> -  9.00 - 10.00 Uhr: XXXXXXXXXXXXXXXXXx
+> 
+> Es wäre hilfreich, wenn Sie einen HDMI-fähigen Laptop bzw. einen entsprechenden Adapter mitbringen.
+> 
+> Ich freue mich auf den erfolgreichen Projektabschluss mit Ihnen!
+> 
+> Mit besten Grüßen
+> 
+> Gerit Wagner
 
 <!-- 
 Liebe Studierende,
