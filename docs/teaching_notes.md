@@ -107,6 +107,7 @@ VC post (28.04.24)
 
 Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
 
+TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
 VC post (08.05.24)
 Reminder for merge: 08.05. (linking to resources)
