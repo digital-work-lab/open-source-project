@@ -204,7 +204,7 @@ VC post (23.06.24)
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
-- To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199)):
+- To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199)) and merge them into the feature branch (pull request) instead of main:
 
 ```
 @all-contributors
