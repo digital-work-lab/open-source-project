@@ -28,5 +28,17 @@ Student contributors to the Open-Source project [CoLRev](https://github.com/CoLR
 - Peteer98
 - LouisLangenhan
 - user123projekt
+- koljarinne
+- k-schnickmann
+- edensarrival
+- U1TIM4T3
+- annaglr
+- 0xmtyset
+- tobiaspffl
+- CelinaSchwarz
+- QuynhMaiNguyen
+- pmao0907
+- MingxinJiang
+- JohannesDiel
 
 See complete overview of [contributors](https://github.com/CoLRev-Environment/colrev/graphs/contributors){: target="_blank"}.
