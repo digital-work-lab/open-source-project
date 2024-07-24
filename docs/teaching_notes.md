@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Teaching notes"
-has_toc: true
-nav_order: 1
+nav_exclude: true
+nav_order: 3
 ---
 
 # Teaching notes

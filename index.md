@@ -6,7 +6,7 @@ description: "Welcome"
 permalink: /
 ---
 
-# The Open Source Project
+# The Open-Source Project
 
 <!-- 
 **TODO : Infos on topic and process (making an impact/contributing to an open source project)**
@@ -17,29 +17,9 @@ TODO : same title in all systems: WI-Project Open-Source Development??
 
 -->
 
-## Basic information
+Welcome to the Open-Source Project! You can find all information about this project in our [syllabus](docs/syllabus.html). The outline for sessions and tasks is below:
 
-| Field | Value |
-|-----|-------|
-| Title | Digital-Work-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik |
-| Semester | WS 2024/25 |
-| Degree program | Bachelor (WI, ISM, ...) |
-| Instructor | Gerit Wagner |
-| Prerequisites | TODO|
-| VC | [https://vc.uni-bamberg.de/course/view.php?id=67998](https://vc.uni-bamberg.de/course/view.php?id=67998) |
-
-<img src="assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
-
-**Gerit Wagner**  
-*Assistant Professor of Information Systems*  
-*Otto-Friedrich Universität Bamberg*
-
-My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev). 
-
-<br style="clear:both">
-
-
-## Course outline
+<!-- ## Course outline -->
 
 ### Week 1: April 15-21
 
@@ -90,6 +70,7 @@ Tasks to complete in this week:
 |-----|---------|------------------|--------|
 | 06  | Code review session | 9.7.2024, 9-15.00, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
+Upon completion, we celebrate the accomplishments of our students in the [hall of fame](docs/hall_of_fame.html) and the official [list of contributors](https://github.com/CoLRev-Environment/colrev?tab=readme-ov-file#contributors){: target="_blank"} 🎉 🍾 🎈
 
 <!-- 
 You can read more about my work [here](docs/instructor.html).
