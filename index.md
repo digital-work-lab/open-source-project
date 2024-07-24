@@ -8,7 +8,40 @@ permalink: /
 
 # The Open Source Project
 
-## Week 1: April 15-21
+<!-- 
+**TODO : Infos on topic and process (making an impact/contributing to an open source project)**
+
+TODO : no registration required.
+
+TODO : same title in all systems: WI-Project Open-Source Development??
+
+-->
+
+## Basic information
+
+| Field | Value |
+|-----|-------|
+| Title | Digital-Work-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik |
+| Semester | WS 2024/25 |
+| Degree program | Bachelor (WI, ISM, ...) |
+| Instructor | Gerit Wagner |
+| Prerequisites | TODO|
+| VC | [https://vc.uni-bamberg.de/course/view.php?id=67998](https://vc.uni-bamberg.de/course/view.php?id=67998) |
+
+<img src="assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
+
+**Gerit Wagner**  
+*Assistant Professor of Information Systems*  
+*Otto-Friedrich Universität Bamberg*
+
+My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev). 
+
+<br style="clear:both">
+
+
+## Course outline
+
+### Week 1: April 15-21
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
@@ -20,7 +53,7 @@ Tasks to complete in this week:
 - Create a [GitHub account](https://github.com/signup){: target="_blank"}.
 - To [find a group](https://digital-work-lab.github.io/open-source-project/output/01-topics.html#8){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the *Issues* / *Milestones* section).
 
-## Week 2: April 22-28
+### Week 2: April 22-28
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
@@ -28,7 +61,7 @@ Tasks to complete in this week:
 
 - Set up your programming environment (see [instructions](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
 
-## Week 3: April 29 - May 5
+### Week 3: April 29 - May 5
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
@@ -38,36 +71,25 @@ Tasks to complete in this week:
 {: .highlight }
 **Create a merge**: May 10
 
-## Week 5: May 13-19
+### Week 5: May 13-19
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
 | 05  | Best practices | 15. Mai, 10.15-11.45 (WE5 4.014) | [Slides](output/05-best_practice.html){: target="_blank"} |
 
-## Weeks 6-11: May 20 - June 30
+### Weeks 6-11: May 20 - June 30
 
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
 {: .highlight }
 **Submission (code evaluation)**: June 26
 
-## Week 12: July 1-7
+### Week 12: July 1-7
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
 | 06  | Code review session | 9.7.2024, 9-15.00, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
-## Instructor
-
-<img src="assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
-
-**Gerit Wagner**  
-*Assistant Professor of Information Systems*  
-*Otto-Friedrich Universität Bamberg*
-
-My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev). 
-
-<br style="clear:both">
 
 <!-- 
 You can read more about my work [here](docs/instructor.html).
