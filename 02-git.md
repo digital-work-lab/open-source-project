@@ -23,6 +23,33 @@ paginate: true
 
 ---
 
+# Git: A distributed version control system
+
+Advantages:
+
+- Every repository has a full version history
+- Most operations run locally
+- Reliable data handling, ensuring integrity and availability
+- Efficient data management for versions and branches
+- Scalable collaboration mechanisms for large teams and complex projects
+
+Caveats:
+
+- Need to learn and understand the system
+- Not built for binary files or large media files
+
+![bg right:35% width:300px](../assets/git_logo.png)
+
+---
+
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
+
 # Learning objectives
 
 Understand and use git to develop software in teams.
@@ -37,11 +64,15 @@ Understand and use git to develop software in teams.
 
 Each part starts with the **concepts** before the **practice** session.
 
-**To start**
+In the practice sessions:
 
-- Form groups of three to four students
-- Work through the following pages
-- Create a **cheat sheet** summarizing the main commands and commands that you found usefull
+- Form groups of two to three students
+- Work through the exercises
+- Create a **cheat sheet** summarizing the key commands
+
+![bg right:45% width:620px](../assets/reorder.png)
+
+> \* Note: This session is based on our [unique and peer-reviewed approach](https://digital-work-lab.github.io/rethink-git-teaching/).
 
 <!-- **Part 3**: Remote collaboration (60 min) 
 
@@ -58,25 +89,6 @@ we work with the cli!
 https://swcarpentry.github.io/git-novice/
 https://librarycarpentry.org/lc-git/
 -->
-
----
-
-# Git: Distributed version control
-
-![bg right:35% width:300px](../assets/git_distributed.png)
-
-Advantages:
-
-- Every repository has a full version history
-- Most operations run locally
-- Reliable data handling, ensuring integrity and availability
-- Efficient data management for versions and branches
-- Scalable collaboration mechanisms for large teams and complex projects
-
-Caveats:
-
-- Need to learn and understand the system
-- Not built for binary files or large media files
 
 ---
 
@@ -97,18 +109,27 @@ Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separat
 
 # Commits
 
-- A **commit** refers to a snapshot of the whole project directory, including the meta data and the tree (all files and non-empty directories)
-- Commits are created in a **sequence**, with every commit pointing to its parent commit(s)
-- Commits are identified by the **sha-1** fingerprint of their content, e.g., `98ca9`, `34ac2`, or `f30ab`
-- They are created by the **git commit** command
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
 
-<!-- 
+- A **commit** refers to a snapshot (version) of the whole project directory, including the meta data and files
+- Commits are identified by the **SHA** fingerprint of their meta data and content\*, e.g., `98ca9`
+- Commits are created in a sequence, with every commit pointing to its **parent** commit(s)
+- The **tree** object contains all files (and non-empty directories); it is identified by a SHA hash
+- Commits are created by the **git commit** command
 
+<!--
 Note: demonstrate on the whiteboard
-
 -->
 
-![width:700px center](../assets/git-commit.png)
+![bg right:45% width:230px center](../assets/git-commit.png)
+
+> \* If any of the meta data or content changes, the SHA will be completely different.
 
 <!--
 Author/date/message
@@ -129,27 +150,33 @@ Break
 
 ---
 
-# Branches
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
 
-- Development typically focuses on the **main** development **branch**, which often contains the latest stable version of the project
-- Separate **branches** can split from a given commit at any time, using the **git branch** command
-- Branches can be **merged** to integrate the contents, resulting in commits with two parents
+# The DAG, branches, and HEAD
+
+- Commits form a **directed acyclic Graph (DAG)**, i.e., all commits can have one or more children, and one or more parents (except for the first commit, which has no parent). Closed directed cycles are not allowed.
+- With the **git branch \<branch-name\>** command, a separate line of commits can be started, i.e., one where different lines of commits are developed from the same parent. The branch pointer typically points at the latest commit in the line.
+- With the **git switch \<branch-name\>** command, we can select the branch on which we want to work. Switch effectively moves the HEAD pointer, which points to a particular branch and indicates where new commits are be added.
+- With the **git merge \<other-branch\>** command, separate lines of commits can be brought together, i.e., creating a commit with two parents. The *merge commit* integrates the contents from the *\<other-branch\>* into the branch that is currently selected. The *\<other-branch\>* is not changed. 
+
+<!-- - Development typically focuses on the **main branch**, which often contains the latest stable version of the project -->
+
+> Note: Arrows point from children to parent commits.
 
 <!--
+- The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
+
 - Commits and their parent links form a directed acyclic graph (DAG)
 Branches are useful to develop features, test code, or fix bugs without interferring with the main branch
  - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository -->
 
-![bg right:35% width:400px](../assets/git-branch-intro.png)
-
----
-
-# HEAD
-
-Before starting your work, it is essential to decide which branch you want to work on!
-
-- Commits are added to the current branch, as indicated by the **HEAD** pointer
-- The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
+![bg right:32% width:300px](../assets/git-dag.png)
 
 ---
 
@@ -160,9 +187,10 @@ To practice git branching, we use the [learn-git-branching](https://learngitbran
 Complete the first two levels on branching, merging, and navigating in the git tree.
 <!-- LT: maybe mention they can practice the whole tutorial afterwards for practice -->
 
-**NOTE**: You can type "undo" when you made a mistake.
 
 ![width:600px center](../assets/git-branching-tutorial.png)
+
+**NOTE**: You can type "undo" when you made a mistake.
 
 <!-- 
 
@@ -266,8 +294,6 @@ Files can reside in three states:
 - **Untracked**/**Modified**: you have created or changed the file in the *working directory*, but have not committed it to your database yet.
 - **Staged**: you have marked a modified file to be in the next commit.
 - **Committed**: the file (changes) are stored in your database (the `.git` directory).
-
-**Commit: a snapshot version of the whole project.**
 
 <!-- 
 Note: there are very few reasons to checkout a commit
