@@ -83,7 +83,7 @@ TODO : add updated criteria
 ## Materials (access) and resources
 
 - Slides are available on the [main page](https://digital-work-lab.github.io/open-source-project/).
-- Another important resource is the [documentation of CoLRev](https://colrev.readthedocs.io/en/latest/), in particular the [environment setup](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html) and the [package development](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html) pages.
+- Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/), in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html) and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html) pages.
 
 <div class="references">
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>

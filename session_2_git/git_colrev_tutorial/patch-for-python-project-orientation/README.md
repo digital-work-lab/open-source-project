@@ -16,7 +16,7 @@ https://github.com/CoLRev-Environment/colrev
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/colrev)
 [![License](https://img.shields.io/github/license/CoLRev-Ecosystem/colrev.svg)](https://github.com/CoLRev-Environment/colrev/releases/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![Documentation Status](https://readthedocs.org/projects/colrev/badge/?version=latest)](https://colrev.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/colrev/badge/?version=latest)](https://colrev-environment.github.io/colrev/?badge=latest)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/CoLRev-Ecosystem/colrev/tests.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/CoLRev-Ecosystem/colrev/main.svg)](https://results.pre-commit.ci/latest/github/CoLRev-Ecosystem/colrev/main)
 ![Coverage](https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/coverage.svg)
@@ -42,7 +42,7 @@ The following features stand out:
 - Operates a model for data quality, record identification, content curation, and reuse
 - Enables typological and methodological pluralism throughout the process
 
-See the [statements of development status](https://colrev.readthedocs.io/en/latest/foundations/roadmap.html) and [documentation](https://colrev.readthedocs.io/en/latest/) for more details. A brief overview presented at ESMARConf2023 is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
+See the [statements of development status](https://colrev-environment.github.io/colrev/dev_docs/dev_status.html) and [documentation](https://colrev-environment.github.io/colrev/) for more details. A brief overview presented at ESMARConf2023 is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
 
 ## Contributing, changes, and releases
 

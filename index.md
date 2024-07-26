@@ -39,7 +39,7 @@ Tasks to complete in this week:
 |-----|---------|------------------|--------|
 | 02  | Introduction to Git | 26. April, 12.15-15.45 (WE5 1.003) | [Slides](output/02-git.html){: target="_blank"} |
 
-- Set up your programming environment (see [instructions](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
+- Set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
 
 ### Week 3: April 29 - May 5
 

@@ -85,7 +85,7 @@ Notice: when creating the run() method, the jif_labeler_instance switches to "se
 
 # Using CoLRev infrastructure
 
-To use the CoLRev infrastructure, take a look at the [API reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and find the classes and methods that can be used to load and save records.
+To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and find the classes and methods that can be used to load and save records.
 
 <!-- 
 go to API reference
@@ -188,7 +188,7 @@ check:
 
 # Next: Best practice and hacking sessions (per group)
 
-- Read the CoLRev-Enhancement Prposal on SearchSources [CEP-002](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html), and raise questions in the issue feed (if any)
+- Read the CoLRev-Enhancement Proposal on SearchSources [CEP-002](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html), and raise questions in the issue feed (if any)
 - Take notes on key challenges and questions (for the best practice session)
 - Attend consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10) (May 27-31: e-mail/remote only)
 

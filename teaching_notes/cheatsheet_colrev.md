@@ -2,7 +2,7 @@
 
 1. Verify that commands are executed in the right environment
 
-Currently, we recommend Linux machines, the Windows-Subsystem for Linux, or GitHub codespaces (see https://colrev.readthedocs.io/en/latest/dev_docs/setup.html)
+Currently, we recommend Linux machines, the Windows-Subsystem for Linux, or GitHub codespaces (see https://colrev-environment.github.io/colrev/dev_docs/setup.html)
 All directories must be set up in the same environment and commands (colrev ..., git ...) must be run in this environment.
 
 2. Set up separate data and colrev directory

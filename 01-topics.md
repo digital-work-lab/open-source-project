@@ -301,7 +301,7 @@ Show the issues/the good-first-issue (and the code-markers)
 
 # CoLRev: Demo and Topics
 
-An overview of the [process](https://colrev.readthedocs.io/en/latest/manual/operations.html) and the [worfklow](https://colrev.readthedocs.io/en/latest/manual/workflow.html) are available in the documentation.
+An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [worfklow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
 A brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
 <!-- 
 The topics cover:
@@ -358,8 +358,7 @@ TODO : emphasize parallels to git -->
 
 - Sign up for our [VC course](https://vc.uni-bamberg.de/course/view.php?id=67998) (password: shaiChi4)
 - Create a GitHub account (using your student e-mail address), start exploring issues, and team up
-- Attend the [Gitroduction course](https://vc.uni-bamberg.de/course/view.php?id=59200) offered by Leonie Fidler and Johannes Manner (voluntary)
-- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev.readthedocs.io/en/latest/dev_docs/setup.html))
+- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
 
 ![bg right:36% width:300px](../assets/VC-WS2324-QR.png)
 

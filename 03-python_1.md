@@ -207,7 +207,7 @@ Note: You can find the syntax for Python dictionaries (and many other data types
 
 # Changing data
 
-Next, we need a field indicating the record's status throughout the [process](https://colrev.readthedocs.io/en/latest/manual/operations.html).
+Next, we need a field indicating the record's status throughout the [process](https://colrev-environment.github.io/colrev/manual/operations.html).
 
 Add a `colrev_status` field to the dictionary, and set its value to `md_imported`. Create a commit once the command prints the following:
 
@@ -342,7 +342,7 @@ python debuggers/plugins (for regular Python programming / special cases like me
 
 # Next steps
 
-- Read the [package development](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html) documentation.
+- Read the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html) documentation.
 - Study code of related CoLRev packages.
 - Take notes on the CoLRev-objects or libraries that will be needed.
 

@@ -53,7 +53,7 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 - Ask the team lead to invite you to the fork (see [step 2](https://digital-work-lab.github.io/open-source-project/output/02-git.html#32)).
 
 <!--
-Packages directory: see https://colrev.readthedocs.io/en/latest/dev_docs/packages.html
+Packages directory: see https://colrev-environment.github.io/colrev/dev_docs/packages.html
 Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-level README datei: nein, das mache ich als Maintainer. Anpassung der package-README-Datei ist Teil der Aufgabe (Dokumentation))
 -->
 
@@ -93,9 +93,9 @@ Summarize the work status per group:
 
 - Understanding of CoLRev
 
-    - **User workflow**: Start with the [video](https://colrev.readthedocs.io/en/latest/) and check ``gitk`` after each step
-    - **Architecture**: Starting point: [API chart and reference](https://colrev.readthedocs.io/en/latest/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
-    - **Package development and SearchSources**: Starting point: [package development resources](https://colrev.readthedocs.io/en/latest/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev.readthedocs.io/en/latest/foundations/cep/cep003_search_sources.html)
+    - **User workflow**: Start with the [video](https://colrev-environment.github.io/colrev/) and check ``gitk`` after each step
+    - **Architecture**: Starting point: [API chart and reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
+    - **Package development and SearchSources**: Starting point: [package development resources](https://colrev-environment.github.io/colrev/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html)
 
 - As a team, do you know where and how to contribute your code, i.e., the modules, classes to use or create?
 
