@@ -19,6 +19,9 @@ callouts:
   deliverable:
     title: Deliverable
     color: yellow
+  feedback:
+    title: Student feedback
+    color: blue
 
 exclude: ['session_5_presentations']
 

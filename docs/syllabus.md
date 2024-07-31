@@ -24,6 +24,8 @@ At the beginning of the project, three block events are planned: (1) an overview
 - **Registration**: If you are interested, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend to participate in the project after the 3rd semester. The following courses are required: DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software, DSG-JaP-B Java Programmierung.
 
+{: .feedback }
+TODO
 
 ## Instructor: Prof. Dr. Gerit Wagner
 
