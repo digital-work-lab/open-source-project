@@ -60,8 +60,6 @@ Mention CV
 
 ## Course outline
 
-<img src="../assets/agenda.png" style="height: 400px;">
-
 Dates, rooms, materials, and todos are listed on the 
 
 {: .text-center}
@@ -69,7 +67,27 @@ Dates, rooms, materials, and todos are listed on the
 
 ## Assessment (Grading)
 
-TODO : add updated criteria
+Code: Functionality
+
+- ... (validating input parameters) and tests
+
+Code: Quality
+
+- ...
+- Python code quality/pre-commit hooks (conventions, add an overview at the end of Python session 2)
+- Documentation
+
+Process
+- Open-source
+- Proper use of Git (conventions)
+- ...
+- Ability to read and understand Python code
+
+Not required: ...
+
+Deliverables are summarized on the [main page](../index.html)
+
+Each deliverable is an opportunity to demonstrate your proficiency with Git, Python, and CoLRev.
 
 ## Student responsibilities (possibly a “how to succeed” section)
 

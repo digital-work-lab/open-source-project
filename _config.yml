@@ -16,8 +16,8 @@ callouts:
   warning:
     title: Warning
     color: red
-  highlight:
-    title: Info
+  deliverable:
+    title: Deliverable
     color: yellow
 
 exclude: ['session_5_presentations']
