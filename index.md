@@ -67,11 +67,7 @@ Tasks to complete in this week:
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
 {: .deliverable }
-**Create the pull request**: TODO
-
-
-{: .deliverable }
-**Submission (code evaluation)**: June 26
+**Create the pull request**: TODO (code is evaluated on TODO)
 
 ### Week 12: July 1-7
 
