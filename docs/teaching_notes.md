@@ -200,6 +200,9 @@ VC post (23.06.24)
 
 ## Week 12: Code review session
 
+
+See [code review session notes](code_review_session.html)
+
 - Prepare [evaluation sheets](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/evaluation_project)
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
