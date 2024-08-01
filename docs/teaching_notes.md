@@ -95,7 +95,7 @@ VC post (28.04.24)
 >
 > Die eingerichtete Programmierumgebung muss bis zum ersten Python Termin funktionsfähig sein, sonst können wir in den folgenden zwei Sessions nicht richtig arbeiten, deshalb bitten wir Sie frühzeitig damit anzufangen und das Angebot des Lehrsthls anzunehmen.
 > 
-> Wenn Sie sich im Vorfeld noch mit der Python-Syntax vertraut machen möchten, finden Sie hier ein gutes Tutorial: https://www.learnpython.org/. Der "Learn the Basics" Teil bietet einen guten und interaktiven Überblick.
+> Wenn Sie sich im Vorfeld noch mit der Python-Syntax vertraut machen möchten, finden Sie hier ein gutes Tutorial: https://www.codecademy.com/learn/learn-python-3
 > 
 > Wir freue uns auf die kommende Session mit Ihnen!
 > 
