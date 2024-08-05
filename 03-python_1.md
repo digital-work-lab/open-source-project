@@ -66,6 +66,9 @@ FIRST: Who has a working machine?
 - Is strongly, dynamically typed
 - Provides access to many packages on [PyPI](https://pypi.org/), covering machine learning, data science, web scraping, etc.
 - Python is actively developed with new versions introducing changes in functionality and old versions no longer receiving security updates
+  - Python 3.6 (2016): [Introduction of f-strings](https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/)
+  - Python 3.7 (2018): [Dictionaries are now ordered](https://www.geeksforgeeks.org/are-python-dictionaries-ordered/)
+  - ...
 
 ---
 
