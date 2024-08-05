@@ -65,6 +65,7 @@ FIRST: Who has a working machine?
 - Uses indentation instead of brackets to separate blocks (such as if statements)
 - Is strongly, dynamically typed
 - Provides access to many packages on [PyPI](https://pypi.org/), covering machine learning, data science, web scraping, etc.
+- Python is actively developed with new versions introducing changes in functionality and old versions no longer receiving security updates
 
 ---
 
