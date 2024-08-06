@@ -25,7 +25,8 @@ At the beginning of the project, three block events are planned: (1) an overview
 - **Prerequisites**: We recommend to participate in the project after the 3rd semester. The following courses are required: DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software, DSG-JaP-B Java Programmierung.
 
 {: .feedback }
-TODO
+"I liked the fact that we were able to work very freely and independently on our problem as a group, but that we were always able to make appointments with Prof. Wagner at very short notice if we had problems or questions. We were always able to make appointments with Prof. Wagner at very short notice. This gave me the impression that we were working we were working WITH the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."
+"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life."
 
 ## Instructor: Prof. Dr. Gerit Wagner
 
