@@ -1,4 +1,5 @@
 # Open-Source Project (WI-Projekt)
 
-Before the git session: check whether the rec_dict patch applies!
-git session: transfer questions: concentrate before the break!
+See [project page](https://digital-work-lab.github.io/open-source-project/) and [syllabus](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html).
+
+TODO : license

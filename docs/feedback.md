@@ -19,4 +19,8 @@ We are delighted to share the feedback from students who have participated in ou
 - "We were always able to make appointments with Prof. Wagner at very short notice. This gave me the impression that we were working we were working WITH the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."
 - "The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life."
 
-Note: the feedback is translated based on the [evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations).
+Note: the feedback is translated based on the [evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"}.
+
+## How Our Students Continue to Be Involved
+
+Some have decided to build on the project and write their thesis in the context of CoLRev (see [overview](https://digital-work-lab.github.io/theses/docs/completed.html){: target="_blank"}), including Albert Borchardt, Katharina Maria Ernst, Luca Ossendorf, and Robert Theis.
