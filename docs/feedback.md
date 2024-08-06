@@ -7,6 +7,9 @@ nav_order:  2
 
 # Feedback
 
+## What Our Students Are Saying
+
+We are delighted to share the feedback from students who have participated in our open source project in previous semesters. Their experiences and insights help us continually improve and ensure a valuable learning journey for all.
 
 - "Thank you very much for the project! It was really great to get to know the CoLRev project and to learn a lot about working with Git and programming in Python. I would definitely recommend the project. As for suggestions for improvement, I agree that working with the virtual machine was sometimes challenging. On the other hand, it was also interesting to get to know it."
 - "A great project where you could learn a lot if you wanted to."
