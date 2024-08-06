@@ -24,10 +24,6 @@ At the beginning of the project, three block events are planned: (1) an overview
 - **Registration**: If you are interested, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend to participate in the project after the 3rd semester. The following courses are required: DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software, DSG-JaP-B Java Programmierung.
 
-{: .feedback }
-"I liked the fact that we were able to work very freely and independently on our problem as a group, but that we were always able to make appointments with Prof. Wagner at very short notice if we had problems or questions. We were always able to make appointments with Prof. Wagner at very short notice. This gave me the impression that we were working we were working WITH the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."
-"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life."
-
 ## Instructor: Prof. Dr. Gerit Wagner
 
 <img src="../assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
@@ -40,7 +36,7 @@ My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving progr
 
 <br style="clear:both">
 
-TODO : availability/expectation to use regular hacking sessions, + VC
+I use the calendly tool to schedule meetings. It gives you an up-to-date overview of available slots in my schedule, and your reservations are immediately added to my calendar (no need to go back and forth via e-mail). We can meet in person or online, whatever works best for you.
 
 {: .text-center}
 [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
@@ -61,6 +57,10 @@ TODO:
 
 Mention CV
 
+{: .feedback }
+"I liked the fact that we were able to work very freely and independently on our problem as a group, but that we were always able to make appointments with Prof. Wagner at very short notice if we had problems or questions. This gave me the impression that we were working we were working WITH the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."<br>
+"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life."
+
 ## Course outline
 
 Dates, rooms, materials, and todos are listed on the 
@@ -68,43 +68,82 @@ Dates, rooms, materials, and todos are listed on the
 {: .text-center}
 [Main page](../index.html){: .btn .btn-green}
 
-## Assessment (Grading)
+## Assessment and grading criteria
 
-Code: Functionality
+## Code: Functionality
 
-- ... (validating input parameters) and tests
+### Correctness
+- Validating input parameters.
+- Correctly implementing the specified features and functionalities.
+- Handling edge cases appropriately.
 
-Code: Quality
+### Testing
+- Unit tests covering all critical parts of the code.
+- Integration tests where applicable.
+- Use of continuous integration tools to ensure all tests pass on new commits.
 
-- ...
-- Python code quality/pre-commit hooks (conventions, add an overview at the end of Python session 2)
-- Documentation
+## Code: Quality
 
-Process
-- Open-source
-- Proper use of Git (conventions)
-- ...
-- Ability to read and understand Python code
+### Code Style and Conventions
+- Adherence to PEP 8 guidelines.
+- Proper use of Git conventions for commit messages and branching.
 
-Not required: ...
+### Documentation
+- Detailed docstrings for all functions and classes.
+- README and other project documentation explaining the setup, usage, and contribution guidelines.
+- Documentation of any external libraries or resources used.
+
+### Code Structure and Readability
+- Logical organization of code into modules and functions.
+- Use of meaningful variable and function names.
+- Clear and concise comments explaining complex sections.
+
+## Process: Open-Source Practices
+
+### Proper Use of Git
+- Regular and meaningful commits.
+- Use of branches for feature development and bug fixes.
+- Clear and descriptive pull requests with proper documentation.
+
+### Open-Source Contribution
+- Properly addressing and incorporating feedback from code reviews.
+- Participating in the community by reviewing others' code and providing constructive feedback.
+- Maintaining an active and professional presence in project discussions and issues.
+
+### Code Review
+- Ability to explain and defend your code.
+- Responding to and incorporating feedback from the review session.
+
+## Additional Guidelines
+
+- **Problem-Solving Mindset**: Embrace challenges and approach problems methodically, making use of available resources and seeking help when necessary.
+- **Preparation and Responsibility**: Be well-prepared for meetings and reviews, understand your code, and be able to explain your approach and decisions.
+- **Ethical Considerations**: Avoid the use of generative AI tools like ChatGPT for coding tasks to prevent potential copyright issues and ensure the originality of your work.
+- **Open-Source Approach**: Work publicly, communicate in English, and create a professional profile on platforms like GitHub.
+
+<!-- Not required: ... -->
 
 Deliverables are summarized on the [main page](../index.html)
 
 Each deliverable is an opportunity to demonstrate your proficiency with Git, Python, and CoLRev.
 
-## Student responsibilities (possibly a “how to succeed” section)
+## Student responsibilities
+
+<!-- (possibly a “how to succeed” section) -->
 
 - Embrace the challenge and adopt a problem solving mindset
 - Take full responsibility to set up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
-- Do not use generative AI such as ChatGPT (risk of copyright infringement)
+- Do not use generative AI such as ChatGPT because you would risk copyright infringement
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
 - Reach out and schedule individual hacking sesisons via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
-## Materials (access) and resources
+## Materials
 
 - Slides are available on the [main page](https://digital-work-lab.github.io/open-source-project/).
 - Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/), in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html) and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html) pages.
+
+# References
 
 <div class="references">
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
