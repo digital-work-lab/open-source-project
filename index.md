@@ -63,22 +63,23 @@ Tasks to complete in this week:
 |-----|---------|------------------|--------|
 | 05  | Best practices | 13. November, 14.00-16.00 (WE5 01.003) | [Slides](output/05-best_practice.html){: target="_blank"} |
 
-### Weeks 6-11: May 20 - June 30 (???)
+### Weeks 6-11: November 18 - January 12
 
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
 {: .deliverable }
-![tasks logo](assets/iconmonstr-clipboard-5.svg)**Create the pull request**: TODO (code is evaluated on TODO)
+![tasks logo](assets/iconmonstr-clipboard-5.svg)**Create the pull request**: December 20 (code is evaluated on December January 12)
 
-### Week 12: July 1-7 (???)
+### Week 12: January 13-17
 
 | No. | Session | Date and Location | Slides |
 |-----|---------|------------------|--------|
-| 06  | Code review session | 9.7.2024, 9-15.00, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
+| 06  | Code review session | **TBA**, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
+### Week 13: January 20-24
 
 {: .deliverable }
-![tasks logo](assets/iconmonstr-clipboard-5.svg)**Implement the feedback provided in the pull request**: TODO
+![tasks logo](assets/iconmonstr-clipboard-5.svg)**Implement the feedback provided in the pull request**: January 24
 
 Upon completion, we celebrate the accomplishments of our students in the [hall of fame](docs/hall_of_fame.html) and the official [list of contributors](https://github.com/CoLRev-Environment/colrev?tab=readme-ov-file#contributors){: target="_blank"} 🎉 🍾 🎈
 
