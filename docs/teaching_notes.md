@@ -220,6 +220,7 @@ please add @student_github_id for code.
 - Remind students to complete the evaluation.
 - Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8) in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html) - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html), mention our teaching cases, and encourage students to contribute their feedback
 
+- For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
 
 > Liebe Studierende,
 > 
