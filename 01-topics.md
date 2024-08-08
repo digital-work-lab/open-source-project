@@ -267,18 +267,26 @@ Long, J. (2009). Open source software development experiences on the students' r
 
 # Evaluation criteria
 
-- Organize as a team, following Open-Source principles (e.g., create atomic commits; use branches and pull requests; review, discuss, revise, and test your code)
-- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
-- Be able to explain the code contribution of the team as a whole
-- Each team member: Make a concise and high-quality contribution to the code. This is a **necessary condition to pass the course**. We review code contributions at the end.
-- Embrace the challenge and adopt a problem solving mindset
-- Contribute your code to the CoLRev project and have your code merged
-- Attend your presentation session and contribute to the code review
-- Do not use generative AI such as ChatGPT (risk of copyright infringement)
+**Code: Functionality**
 
-<!-- 
-Presentations Expectations: length/format, show code, demonstrate rationales/alternatives, potential extensions, summarize challenges (how could they be addressed/prevented in upcoming student projects)
--->
+- Correctly implementing the specified features and functionalities, validating input parameters, and handling edge cases appropriately.
+- Unit tests covering critical parts of the code.
+
+**Code: Quality**
+
+- Adherence to Python coding standards, as suggested by pylint and the pre-commit hoooks defined in the repository.
+- Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
+- Appropriate code structure and readability, with a logical organization of code into modules and functions, use of meaningful variable and function names, and clear and concise comments explaining complex sections.
+
+**Process: Open-Source Practices**
+
+- Proper use of Git conventions for commit messages and branching.
+- Clear and descriptive pull requests with proper documentation.
+- Properly addressing and incorporating feedback from code reviews.
+- Code review: Participating in the community by reviewing others' code and providing constructive feedback.
+- Ability to explain and defend your code.
+- Responding to and incorporating feedback from the review session.
+- Maintaining an active and professional presence in project discussions and issues.
 
 ---
 
