@@ -35,7 +35,7 @@ Advantages:
 
 Caveats:
 
-- Need to learn and understand the system
+- Need to learn and understand the underlying model
 - Not built for binary files or large media files
 
 ![bg right:35% width:300px](../assets/git_logo.png)

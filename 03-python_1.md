@@ -10,7 +10,7 @@ paginate: true
 
 <!-- _class: centered -->
 
-# Projekt: Einführung in Python (1)
+# Project: Introduction to Python (1)
 
 <!--
 ---
