@@ -236,6 +236,34 @@ small teams, everyone is expected to program and contribute - with git, we see c
 
 ---
 
+---
+
+# How this project can be great for your studies
+
+- The value of Open Source Software (OSS) development experiences is increasingly recognized as a significant indicator of a candidate's capabilities in technology and software development.
+- According to Long (2009) in the Journal of Information Technology Education: Research, OSS contributions are noteworthy on resumes and play a crucial role in hiring and promotion decisions.
+- Employers view OSS experiences as strong evidence of a candidate's:
+  - Practical skills
+  - Problem-solving abilities
+  - Collaborative spirit
+- This project demonstrate:
+  - A commitment to the craft beyond formal education
+  - Real-world skills
+  - The ability to contribute to and manage complex projects
+- OSS experiences are increasingly valued during promotions, with employees who have demonstrated their abilities through OSS projects seen as more capable and ready for advanced responsibilities
+- This project can be referenced in your CV after absolving the project
+
+<!--
+"In the realm of technology and software development, the value of Open Source Software (OSS) development experiences has been increasingly recognized as a significant indicator of a candidate's capabilities. According to Long (2009) in the Journal of Information Technology Education: Research, OSS contributions are not only noteworthy on resumes but also play a crucial role in hiring and promotion decisions. Employers view these experiences as strong evidence of a candidate's practical skills, problem-solving abilities, and collaborative spirit.
+
+Long's research highlights that OSS development experiences can substantially enhance a candidate's attractiveness to potential employers. This is because such experiences demonstrate a commitment to the craft beyond formal education, showcasing real-world skills and the ability to contribute to and manage complex projects. Employers often perceive these contributions as indicators of a candidate's initiative, technical proficiency, and familiarity with industry-standard practices.
+
+Furthermore, OSS experiences are increasingly valued during promotions. Employees who have demonstrated their ability through OSS projects are seen as more capable and ready for advanced responsibilities. This recognition underscores the growing importance of OSS contributions in the professional landscape, affirming that these experiences can indeed make a significant difference in career advancement."
+
+Long, J. (2009). Open source software development experiences on the students' resumes: Do they count?-Insights from the employers' perspectives. Journal of Information Technology Education: Research, 8(1), 229-242.
+-->
+---
+
 
 # Evaluation criteria
 
