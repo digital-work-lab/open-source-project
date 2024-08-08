@@ -12,6 +12,9 @@ gh_edit_repository: 'https://github.com/digital-work-lab/open-source-project'
 gh_edit_branch: 'main'
 gh_edit_view_mode: 'tree'
 
+mermaid:
+  version: "9.1.3"
+
 callouts:
   warning:
     title: Warning

@@ -17,3 +17,12 @@ xychart-beta
     y-axis "Indicator (1-5)" 1 --> 5
     line [4.4, 4.3, 4.9]
 ```
+
+{: .text-center}
+```mermaid
+xychart-beta
+    title "Participation"
+    x-axis [SS23, WS2324, SS24]
+    y-axis "Number of students" 0 --> 20
+    line [14, 3, 12]
+```
