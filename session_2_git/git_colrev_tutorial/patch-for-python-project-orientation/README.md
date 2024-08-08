@@ -16,7 +16,7 @@ https://github.com/CoLRev-Environment/colrev
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/colrev)
 [![License](https://img.shields.io/github/license/CoLRev-Ecosystem/colrev.svg)](https://github.com/CoLRev-Environment/colrev/releases/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![Documentation Status](https://readthedocs.org/projects/colrev/badge/?version=latest)](https://colrev-environment.github.io/colrev/?badge=latest)
+![Documentation Status](https://img.shields.io/github/actions/workflow/status/CoLRev-Ecosystem/colrev/documentation.yml?label=documentation)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/CoLRev-Ecosystem/colrev/tests.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/CoLRev-Ecosystem/colrev/main.svg)](https://results.pre-commit.ci/latest/github/CoLRev-Ecosystem/colrev/main)
 ![Coverage](https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/coverage.svg)

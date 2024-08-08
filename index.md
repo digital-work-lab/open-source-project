@@ -32,7 +32,7 @@ Welcome to the Open-Source Project! You can find all information about this proj
 
 Tasks to complete in this week:
 
-- Sign up for the [VC course room](https://vc.uni-bamberg.de/course/search.php?search=Digital-Work-Projekt-B) (passwords are distributed during the first session).
+- Sign up for the [VC course room](https://vc.uni-bamberg.de/course/search.php?search=Digital-Work-Projekt-B){: target="_blank"} (passwords are distributed during the first session).
 - Create a [GitHub account](https://github.com/signup){: target="_blank"}.
 - To [find a group](https://digital-work-lab.github.io/open-source-project/output/01-topics.html#8){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the *Issues* / *Milestones* section).
 
@@ -82,16 +82,3 @@ Tasks to complete in this week:
 ![tasks logo](assets/iconmonstr-clipboard-5.svg)**Implement the feedback provided in the pull request**: January 24
 
 Upon completion, we celebrate the accomplishments of our students in the [hall of fame](docs/hall_of_fame.html) and the official [list of contributors](https://github.com/CoLRev-Environment/colrev?tab=readme-ov-file#contributors){: target="_blank"} 🎉 🍾 🎈
-
-<!-- 
-You can read more about my work [here](docs/instructor.html).
-
-slides
-resources and links
-instructor
-
-TBD: include a picture?
-TODO : make group fotos and publish
-
-objectives: mention tools and open synthesis?
--->
