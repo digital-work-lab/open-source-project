@@ -34,9 +34,9 @@ VC post (advertise the project in the lecture):
 > 
 > ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.
 > 
-> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 24.10.2023, 08:00 – 12:00 Uhr (WE5/04.003), Donnerstag, 26.10.2023, 14:00 – 18:00 Uhr (WE5/02.020)). Schicken Sie mir bei Interesse gerne eine E-Mail.
+> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003), Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)). Schicken Sie mir bei Interesse gerne eine E-Mail.
 > 
-> Alles Gute für das WS 23/24!
+> Alles Gute für das WS 24/25!
 > 
 > Mit besten Grüßen
 > 
@@ -47,11 +47,11 @@ VC post (advertise the project in the lecture):
 **In preparation of the session**: check wheter the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 
 
-VC post (24.04.24)
+VC post (21.10.25)
 
 > Liebe Studierende,
 > 
-> wir möchten Sie daran erinnern, dass Sie bis Montag (29.4.) einen Kommentar in den Issue-Feeds hinterlassen.
+> wir möchten Sie daran erinnern, dass Sie bis Montag (28.10.24) einen Kommentar in den Issue-Feeds hinterlassen.
 >
 > Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeeds signalisieren: https://github.com/CoLRev-Environment/colrev/milestone/8.
 > 
@@ -85,7 +85,7 @@ Create a list of topics and students (first/second choice) and facilitate issue 
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
 
-VC post (28.04.24)
+VC post (21.10.24)
 
 > Liebe Studierende,
 > 
@@ -109,12 +109,12 @@ Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC
 
 TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
-VC post (08.05.24)
-Reminder for merge: 08.05. (linking to resources)
+VC post (10.11.24)
+Reminder for merge: 10.11. (linking to resources)
 
 > Liebe Studierende,
 >
-> hier noch eine Erinnerung an den Merge, den Sie bis zum 10. Mai durch führen sollen.
+> hier noch eine Erinnerung an den Merge, den Sie bis zum 10. November durch führen sollen.
 >
 > Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die Best Practice Session am 15. Mai bestmöglichst gestalten zu können.
 >
@@ -123,17 +123,17 @@ Reminder for merge: 08.05. (linking to resources)
 > Viele Grüße und weiterhin viel Erfolg im Projekt,
 > Laureen Thurner
 
-VC post (10.05.24)
+VC post (10.11.24)
 
 > Liebe Studierende,
 >
 > zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepostet wurde herunterzuladen und auszufüllen.
 >
-> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.5 im PDF Format hochzuladen.
+> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.11 im PDF Format hochzuladen.
 >
 > Somit können wir in der Session gezielt auf Ihre Fragen und Herausforderungen eingehen.
 >
-> Wir freuen uns auf die nächste Session mit Ihnen am 15. Mai!
+> Wir freuen uns auf die nächste Session mit Ihnen am 13. November!
 >
 > Beste Grüße und eine erfolgreiche Woche
 >
@@ -146,7 +146,7 @@ TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../t
 
 ## Week 7
 
-VC post (27.05.24)
+VC post (27.11.24)
 
 > Liebe Studierende,
 >
@@ -159,15 +159,17 @@ VC post (27.05.24)
 > Ihr Digital Work Team
 
 
-## Week 11
+## Week 10
 
-VC post (23.06.24)
+VC post (16.12.24)
 
 > Liebe Studierende,
 > 
-> ich möchte Sie kurz an die Abgabe am 26. Juni erinnern. Um Ihren Code einzureichen, müssten Sie wie besprochen einen Pull Request erstellen.
+> ich möchte Sie kurz an die Abgabe am 20. Dezember erinnern. Um Ihren Code einzureichen, müssten Sie wie besprochen einen Pull Request erstellen.
 > 
-> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am 09. Juli 2024 statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
+> Dieser Code kann nach dem erstellen des Pull Requests noch geändert werden bis spätestens 12. Januar, ab diesem Zeitpunkt werden Änderungen nicht mehr evaluiert.
+>
+> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am TBA statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
 > 
 > Beste Grüße und viel Erfolg beim Endspurt
 > 
