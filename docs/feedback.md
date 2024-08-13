@@ -7,7 +7,7 @@ nav_order:  4
 
 # Feedback
 
-## What Our Students Are Saying
+## What Our Students Say
 
 We are delighted to share the feedback from students who have participated in our open source project in previous semesters. Their experiences and insights help us continually improve and ensure a valuable learning journey for all.
 
