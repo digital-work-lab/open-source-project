@@ -26,8 +26,8 @@ Welcome to the Open-Source Project! You can find all information about this proj
 
 ### Week 1: October 14-18
 
-| No. | Session | Date and Location | Slides |
-|-----|---------|------------------|--------|
+| No. | Session | Date and Location | Materials |
+|-----|---------|-------------------|-----------|
 | 01  | Organization and topics | 16. October, 14.00-16.00 (WE5 01.003) | [Slides](output/01-topics.html){: target="_blank"} |
 
 Tasks to complete in this week:
@@ -41,16 +41,16 @@ Tasks to complete in this week:
 
 ### Week 2: October 21-25
 
-| No. | Session | Date and Location | Slides |
-|-----|---------|------------------|--------|
-| 02  | Introduction to Git | 23. October, 14.00-18.00 (WE5 01.003) | [Slides](output/02-git.html){: target="_blank"} |
+| No. | Session | Date and Location | Materials |
+|-----|---------|-------------------|-----------|
+| 02  | Introduction to Git | 23. October, 14.00-18.00 (WE5 01.003) | [Slides](output/02-git.html){: target="_blank"}, [Notebook](notebooks/git_branching.html){: target="_blank"} |
 
 - Set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
 
 ### Week 3: October 28 - November 1
 
-| No. | Session | Date and Location | Slides |
-|-----|---------|------------------|--------|
+| No. | Session | Date and Location | Materials |
+|-----|---------|-------------------|-----------|
 | 03  | Introduction to Python (I) | 28. Ocotber, 8.00-12.00 (WE5 1.003) | [Slides](output/03-python_1.html){: target="_blank"} |
 | 04  | Introduction to Python (II) | 30. October, 14.00-18.00 (WE5 1.003) | [Slides](output/04-python_2.html){: target="_blank"} |
 
@@ -59,8 +59,8 @@ Tasks to complete in this week:
 
 ### Week 5: November 11-15
 
-| No. | Session | Date and Location | Slides |
-|-----|---------|------------------|--------|
+| No. | Session | Date and Location | Materials |
+|-----|---------|-------------------|-----------|
 | 05  | Best practices | 13. November, 14.00-16.00 (WE5 01.003) | [Slides](output/05-best_practice.html){: target="_blank"} |
 
 ### Weeks 6-11: November 18 - January 12
@@ -72,8 +72,8 @@ Tasks to complete in this week:
 
 ### Week 12: January 13-17
 
-| No. | Session | Date and Location | Slides |
-|-----|---------|------------------|--------|
+| No. | Session | Date and Location | Materials |
+|-----|---------|-------------------|-----------|
 | 06  | Code review session | **TBA**, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
 ### Week 13: January 20-24
