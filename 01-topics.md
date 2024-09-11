@@ -392,7 +392,6 @@ TODO : emphasize parallels to git -->
 
 # Until next session
 
-- Sign up for our [VC course](https://vc.uni-bamberg.de/course/search.php?search=Digital-Work-Projekt-B) (password: shaiChi4)
 - Create a GitHub account (using your student e-mail address), start exploring issues, and team up
 - Set up a Codespace for the Git and Python sessions (**TODO : link with instructions**)
 - **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
