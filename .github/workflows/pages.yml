@@ -49,6 +49,14 @@ jobs:
         run: |
           docker pull marpteam/marp-cli
           docker pull pandoc/ubuntu-latex
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Jupyter
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter
       - name: make slides
         run: make -B slides
       - name: Copy output to _site/output
