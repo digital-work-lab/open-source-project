@@ -54,10 +54,6 @@ blockquote {
 
 Understand and use git to develop software in teams.
 
-<!-- **Preconditions**: 
-- Git installed, username and email set (using the [software carpentry tutorial](https://librarycarpentry.org/lc-git/02-getting-started/index.html))
-- SSH setup for Github (using the [software carpentry tutorial](https://librarycarpentry.org/lc-git/03-sharing/index.html)). The `ssh -T git@github.com` command runs successfully. -->
-
 **Part 1**: Branching
 **Part 2**: Committing
 **Part 3**: Collaborating
@@ -68,13 +64,13 @@ In the practice sessions:
 
 - Form groups of two to three students
 - Work through the exercises
-- Create a **cheat sheet** summarizing the key commands
+- Create a *cheat sheet* summarizing the key commands
 
 ![bg right:45% width:620px](../assets/reorder.png)
 
 > \* Note: This session is based on our [unique and peer-reviewed approach](https://digital-work-lab.github.io/rethink-git-teaching/).
 
-<!-- **Part 3**: Remote collaboration (60 min) 
+<!--
 
 Goal: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
 
@@ -124,7 +120,21 @@ blockquote {
 - Commits are created by the **git commit** command
 
 <!--
-Note: demonstrate on the whiteboard
+
+    Demo:
+    - setup a git repository, create a file (explain the working directory), add the changes (explain the staging area), create a commit
+    - inspect the commit (the internal git objects / history):
+    git log
+    - commit ID (sha)
+    - HEAD points to the main branch. (aha)
+    git cat-file -p ENTER_COMMIT
+    - go through the information (if any of that information changes, the fingerprint of the commit changes)
+    - you see that git handles all objects (files, trees, commits) by their fingerprint.
+    git cat-file -p (TREE)
+    git cat-file -p (FILE)
+
+    - if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
+
 -->
 
 ![bg right:45% width:230px center](../assets/git-commit.png)
@@ -164,6 +174,7 @@ blockquote {
 - With the **git branch \<branch-name\>** command, a separate line of commits can be started, i.e., one where different lines of commits are developed from the same parent. The branch pointer typically points at the latest commit in the line.
 - With the **git switch \<branch-name\>** command, we can select the branch on which we want to work. Switch effectively moves the HEAD pointer, which points to a particular branch and indicates where new commits are be added.
 - With the **git merge \<other-branch\>** command, separate lines of commits can be brought together, i.e., creating a commit with two parents. The *merge commit* integrates the contents from the *\<other-branch\>* into the branch that is currently selected. The *\<other-branch\>* is not changed. 
+- Per default, Git sets up a branch named "main".
 
 <!-- - Development typically focuses on the **main branch**, which often contains the latest stable version of the project -->
 
@@ -285,15 +296,34 @@ Wir haben uns auch den entgegengesetzten Weg angesehen - git restore und git res
 
 ---
 
-# The three sections of Git
+# The working directory and .git repository
 
-![bg right:45% width:550px](../assets/git-areas.png)
+All working file contents reside in the working directory; staged and committed file contents are stored in the `.git` directory (a subfolder of the working directory).
 
-Files can reside in three states:
+Git allows us to stage (select) specific file contents for the next commit.
 
-- **Untracked**/**Modified**: you have created or changed the file in the *working directory*, but have not committed it to your database yet.
-- **Staged**: you have marked a modified file to be in the next commit.
-- **Committed**: the file (changes) are stored in your database (the `.git` directory).
+- With **git add \<file-name\>**, contents of an *untracked or modified* file are copied to the `.git` repository and added to the staging area, i.e., explicitly marked for inclusion in the next commit.
+- With **git commit**, *staged* files contents are included in a *commit*.
+
+The **git init** command creates the `.git` directory.
+
+![bg right:38% width:500px](../assets/git-areas-1.png)
+
+---
+
+# The three states of a file
+
+Files in the working directory can reside in three states:
+
+- New files are initially **untracked**, i.e., Git does not include new files in commits without explicit instruction.
+- With *git add*, file contents are staged and the file is tracked. Given that the file in the working directory is identical with the staged file contents, the file is **unmodified**.
+- When users change a file, it becomes **modified**, i.e., the file in the working directory differs from the file contents in the staging area.
+- With *git add*, the file contents are staged again, and the file becomes **unmodified**.
+- With *git rm*, files are no longer tracked.
+
+Note: *git add* and *git rm* do not change the contents of the file in the working directory.
+
+![bg right:38% width:500px](../assets/git-areas-2.png)
 
 <!-- 
 Note: there are very few reasons to checkout a commit
@@ -304,6 +334,38 @@ Hogbin-Westby:
 - working directory: what can be seen (in the file explorer)
 - staging area: the difference of what is stored and what is seen (WHAT HAS BEEN MARKED FOR THE NEXT COMMIT)
 - repository: what is stored
+-->
+
+---
+
+# Resetting changes
+
+To undo changes that are not yet committed, it is important to understand whether they are staged or unstaged:
+
+- If changes are not yet staged, the file is currently *modified*. A **git restore \<file-name\>** replaces the file in the working directory with the staged version. As a result, the file is *unmodified* because it corresponds to the staged file.
+- If the file is currently *unmodified*, a **git restore --staged \<file-name\>**, Git discards the staged changes by using the last committed version. The file contents in the working directory do not change, but the file becomes *modified* because it differs from the staged version.
+
+![bg right:38% width:500px](../assets/git-reset.png)
+
+<!-- 
+TODO : better explain this with a git graph displayed like here:
+
+https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard
+
+# Undoing committed changes
+
+Clean working directory required!
+
+To **undo committed changes**, there several options (some are available in gitk):
+
+- Revert the commit, i.e., create a new commit to undo changes: `git revert COMMIT_SHA --no-edit`
+- Undo the commit and leave the changes in the staging area: `git reset --soft COMMIT_SHA` (*)
+- Stage changes, and run `git commit --amend` to modify the last commit (*)
+
+If you have the time, try the different undo operations in the session.
+
+(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
+
 -->
 
 ---
@@ -670,23 +732,40 @@ Setting: Two authors working on the same document ([paper.md](../assets/paper.md
 
 ---
 
-# Remote collaboration
- 
-- To collaborate, a remote repository is needed (named origin)
+# Collaborating
+
+- The distributed model of Git means that every repository has a full version history, (almost) all operations can be completed locally, and every repository can be developed autonomously.
+- To collaborate, a *remote* repository is needed, initially named "origin"
 - If the remote repository exists, the **git clone** command retrieves a local copy
-- If the remote repository does not exist, you have to add the remote origin and push the repository
-- To retrieve changes, use the **git pull** command
-- To share changes, use the **git push** command
+- To create a remote repository (named "origin"), and push a specific branch:
 
-This model works if you are a maintainer of the remote/origin, i.e., if you have write access.
+```
+git remote add origin REMOTE-URL
+git push origin main
+```
 
-<!-- Case 1: I own the remote repository, e.g., on GitHub -->
+<!-- - If the remote repository does not exist, you have to add the remote origin and push the repository -->
 
 ![bg right:30% width:300px](../assets/git-remote.png)
 
 ---
 
-# Forks
+# Collaborating on branches
+
+- To retrieve changes, use the **git pull** command
+- To share changes, use the **git push** command
+
+- Most remote operations, including pull, push, pull requests refer to branches
+- In some cases, **branches must be selected explicitly**, and in other cases, git automatically selects branches, i.e., it remembers the typical branch to pull or push
+
+
+![bg right:40% width:300px](../assets/git-remote-branch.png)
+
+---
+
+# Collaborating with forks
+
+This model works if you are a maintainer of the remote/origin, i.e., if you have write access.
 
 - In Open-Source projects, write-access is restricted to a few maintainers
 - At the same time, it should be possible to integrate contributions from the community
@@ -695,9 +774,14 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 - Contributors can open a **pull request** to signal to maintainers that code from the fork can be merged
 - Pull requests are used for code review, and improvements before code is accepted or rejected
 
-![bg right:40% width:450px](../assets/git-remote-fork.png)
+<!-- 
 
-<!-- https://edav.info/github.html#st-pr-on-another-repo-with-branching -->
+- In the fork, it is recommended to create working branches instead of committing to the `main` branch.
+- It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
+- Syncing changes may be necessary to get bugfixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
+-->
+
+![bg right:40% width:450px](../assets/git-remote-fork.png)
 
 ---
 
@@ -821,6 +905,9 @@ du -hs .
 for branch in alpha{1..500}; do git checkout -b $branch; done;
 du -hs .
 
+Challenge:
+Write yourself a Git!
+https://wyag.thb.lt/
 
 
 TBD: maybe use the hierarchy of evidence to clarify the challenges of assessing technology (almost no "scientific evidence", but overwhelming adoption in the industry...)
@@ -830,10 +917,6 @@ Start with a picture of files and directories
 
 provide an overview of synchronous editing (live in the same editor, e.g., Word/atom?)
 Asynchronous editing (e.g., last-saved-replaces, Locks /Sharepoint, git)
-
-Git-demo (tech or organizational perspective?)
-
-mention johnny decimal?
 -->
 
 ---
