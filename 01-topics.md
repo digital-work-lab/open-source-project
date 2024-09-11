@@ -390,13 +390,28 @@ TODO : emphasize parallels to git -->
 
 ---
 
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
+
+# Setup
+
+- Create a GitHub account (using your student e-mail address)
+- Set up a Codespace for the Git and Python sessions (**TODO : show during the session and link instructions**)
+- Test: `colrev init`
+- If you encounter problems, reach out after the session or before next session and we will help you.
+
+> \* Optional: **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
+
+---
+
 # Until next session
 
-- Create a GitHub account (using your student e-mail address), start exploring issues, and team up
-- Set up a Codespace for the Git and Python sessions (**TODO : link with instructions**)
-- **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
-
-![bg right:36% width:300px](../assets/QR-VC.png)
+- Start exploring issues, and team up
 
 <!--
 Student e-mail address: wegen Codespaces Kontingent
