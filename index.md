@@ -24,7 +24,7 @@ Welcome to the Open-Source Project! You can find all information about this proj
 
  ## Course outline -->
 
-### Finding the topic (Week 1, October 14-18)
+### Week 1: Finding the topic
 
 | No. | Session | Date and Location | Materials |
 |-----|---------|-------------------|-----------|
@@ -38,7 +38,7 @@ Tasks to complete in this week:
 {: .deliverable }
 ![tasks logo](assets/iconmonstr-clipboard-5.svg)**Set up a Codespace for the Git and Python sessions**: May 10
 
-### Introduction to Git (Week 2, October 21-25)
+### Week 2: Introduction to Git
 
 | No. | Session | Date and Location | Materials |
 |-----|---------|-------------------|-----------|
@@ -46,7 +46,7 @@ Tasks to complete in this week:
 
 - Set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
 
-### Introduction to Python (Week 3, October 28 - November 1)
+### Week 3: Introduction to Python
 
 | No. | Session | Date and Location | Materials |
 |-----|---------|-------------------|-----------|
@@ -56,26 +56,26 @@ Tasks to complete in this week:
 {: .deliverable }
 ![tasks logo](assets/iconmonstr-clipboard-5.svg)**Contribute code to a fork, create branches and synchronize with upstream**: May 10
 
-### Git and coding best practices (Week 5, November 11-15)
+### Week 5: Git and coding best practices
 
 | No. | Session | Date and Location | Materials |
 |-----|---------|-------------------|-----------|
 | 05  | Best practices | 13. November, 14.00-16.00 (WE5 01.003) | [Slides](output/05-best_practice.html){: target="_blank"} |
 
-### Group work and hacking sessions (Weeks 6-11, November 18 - January 12)
+### Weeks 6-11: Group work and hacking sessions
 
 - Individual hacking sessions, upon [Appointment](https://calendly.com/gerit-wagner/30min){: target="_blank"} (WE5 1.081 or online)
 
 {: .deliverable }
 ![tasks logo](assets/iconmonstr-clipboard-5.svg)**Create the pull request**: December 20 (code is evaluated on December January 12)
 
-### Code review (Week 12, January 13-17)
+### Week 12: Code review
 
 | No. | Session | Date and Location | Materials |
 |-----|---------|-------------------|-----------|
 | 06  | Code review session | **TBA**, ISM Labor 1.094 |[Slides](output/06-presentations.html){: target="_blank"} |
 
-### Project completion (Week 13, January 20-24)
+### Week 13: Project completion
 
 {: .deliverable }
 ![tasks logo](assets/iconmonstr-clipboard-5.svg)**Implement the feedback provided in the pull request**: January 24
