@@ -18,7 +18,6 @@ nav_order: 1
 - **Degree program**: Bachelor's in Information Systems, International Information Systems Management, and Applied Computer Science. Participation is also possible for degree programs such as Software Systems Science or Computing in the Humanities (Master's) (after consultation with the examination board)
 - **Format**: In-person sessions at the beginning, followed by group work, and a code review session towards the end.
 - **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
-- **VC**: [link](https://vc.uni-bamberg.de/course/search.php?search=Digital-Work-Projekt-B){: target="_blank"}
 - **Registration**: If you are interested, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend to participate in the project after the 3rd semester. The following courses are required: DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software, DSG-JaP-B Java Programmierung.
 
