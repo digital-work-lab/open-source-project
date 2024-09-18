@@ -11,15 +11,15 @@ permalink: /
 Welcome to the Open-Source Project! You can find all information about this project in our [syllabus](docs/syllabus.html).
 The outline for sessions and tasks is below:
 
-| Week | Session                     | Date and Location                      | Deliverables                                                                                                 |
-| ---- | --------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1    | Finding the topic           | 16. October, 14.00-16.00 (WE5 01.003)  | Set up a Codespace for the Git and Python sessions: May 10                                                   |
-| 2    | Introduction to Git         | 23. October, 14.00-18.00 (WE5 01.003)  |                                                                                                              |
-| 3    | Introduction to Python (I)  | 28. Ocotber, 8.00-12.00 (WE5 1.003)    |                                                                                                              |
-| 4    | Introduction to Python (II) | 30. October, 14.00-18.00 (WE5 1.003)   |                                                                                                              |
-| 5    | Best practices              | 13. November, 14.00-16.00 (WE5 01.003) |                                                                                                              |
-| 6-11 | Group work                  | Hacking sessions see calendly          |                                                                                                              |
-| 12   | Code review session         | **TBA**, ISM Labor 1.094               |                                                                                                              |
+| Week | Session                      Date and Location                      | Deliverables                                                                                                 |
+| ---- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1    | Finding the topic          <br>  16. October, 14.00-16.00 (WE5 01.003)  | Set up a Codespace for the Git and Python sessions: May 10                                                   |
+| 2    | Introduction to Git        <br>  23. October, 14.00-18.00 (WE5 01.003)  |                                                                                                              |
+| 3    | Introduction to Python (I) <br>  28. Ocotber, 8.00-12.00 (WE5 1.003)    |                                                                                                              |
+| 4    | Introduction to Python (II) <br> 30. October, 14.00-18.00 (WE5 1.003)   |                                                                                                              |
+| 5    | Best practices             <br>  13. November, 14.00-16.00 (WE5 01.003) |                                                                                                              |
+| 6-11 | Group work               <br>    Hacking sessions see calendly          |                                                                                                              |
+| 12   | Code review session     <br>     **TBA**, ISM Labor 1.094               |                                                                                                              |
 
 
 ## Week 1: Finding the topic
