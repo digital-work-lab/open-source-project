@@ -24,7 +24,7 @@ teaching_notes: $(addprefix output/teaching_notes/,$(addsuffix .html,$(TEACHING_
 
 # Define a pattern rule for building a slide
 output/%.html: %.md assets/theme.css
-	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli $< --theme-set assets/theme.css --html --allow-local-files -o $@
+	docker run --rm --init -v "$(PWD)":/home/marp/app/ -e LANG=${LANG} -e MARP_USER="${UID}:${GID}" marpteam/marp-cli:v3.4.0 $< --theme-set assets/theme.css --html --allow-local-files -o $@
 
 # Define a pattern rule for building a teaching note
 output/teaching_notes/%.html: teaching_notes/%.md assets/theme.css
