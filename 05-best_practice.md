@@ -111,25 +111,25 @@ Summarize the work status per group:
 # Merging strategies
 
 ```
+# To clone the repository and set up the quality_model_docs branch 
 git clone https://github.com/CoLRev-Environment/colrev && cd colrev
-
-# Repeat the following steps with different merge options
-git checkout main
-git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git checkout 108d278e8d01a65c5128c4a880247f0272896059
-git branch -D quality_model_docs
 git switch -c quality_model_docs
 
 # Option 1: merge commit (or fast forward)
 git switch main
+git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git merge quality_model_docs
 
 # Option 2: squash
 git switch main
+git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git merge --squash quality_model_docs
 git commit -n -m 'update docs for quality_model'
 
 # Option 3: rebase
+git switch main
+git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git switch quality_model_docs
 git rebase main
 git switch main

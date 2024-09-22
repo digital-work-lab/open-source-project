@@ -32,6 +32,10 @@ if __name__ == "main":
     search()
 ```
 
+# Merging strategies
+
+- Ask students to complete the commands and draw each Git graph on paper (with commit ID and message)
+
 # Encouragement
 
 Remember: 
