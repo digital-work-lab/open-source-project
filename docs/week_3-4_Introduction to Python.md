@@ -2,20 +2,15 @@
 layout: default
 title: "Week 1: Topics"
 has_toc: true
-nav_order: 2
+nav_order: 4
 ---
 
-# Week 1: Topics
+## Week 3: Introduction to Python
 
-
-| No. | Session                 | Date and Location                     | Materials                                           |
-| --- | ----------------------- | ------------------------------------- | --------------------------------------------------- |
-| 01  | Organization and topics | 16. October, 14.00-16.00 (WE5 01.003) | [Slides](output/01-topics.html){: target="_blank"} |
-
-Tasks to complete in this week:
-
-- Create a [GitHub account](https://github.com/signup){: target="_blank"}.
-- To [find a group](https://digital-work-lab.github.io/open-source-project/output/01-topics.html#8){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the _Issues_ / _Milestones_ section).
+| No. | Session                     | Date and Location                    | Materials                                             |
+| --- | --------------------------- | ------------------------------------ | ----------------------------------------------------- |
+| 03  | Introduction to Python (I)  | 28. Ocotber, 8.00-12.00 (WE5 1.003)  | [Slides](output/03-python_1.html){: target="_blank"} |
+| 04  | Introduction to Python (II) | 30. October, 14.00-18.00 (WE5 1.003) | [Slides](output/04-python_2.html){: target="_blank"} |
 
 {: .deliverable }
-![tasks logo](assets/iconmonstr-clipboard-5.svg)**Set up a Codespace for the Git and Python sessions**: May 10
+![tasks logo](assets/iconmonstr-clipboard-5.svg)**Contribute code to a fork, create branches and synchronize with upstream**: May 10
