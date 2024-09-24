@@ -2,7 +2,7 @@
 layout: default
 title: "Week 1: Topics"
 has_toc: true
-nav_order: 2
+nav_order: 6
 ---
 
 ## Weeks 6-11: Group work and hacking sessions
