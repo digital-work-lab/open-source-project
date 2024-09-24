@@ -2,20 +2,13 @@
 layout: default
 title: "Week 1: Topics"
 has_toc: true
-nav_order: 2
+nav_order: 3
 ---
 
-# Week 1: Topics
+## Week 2: Introduction to Git
 
+| No. | Session             | Date and Location                     | Materials                                                                                                      |
+| --- | ------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| 02  | Introduction to Git | 23. October, 14.00-18.00 (WE5 01.003) | [Slides](output/02-git.html){: target="_blank"}, [Notebook](notebooks/git_branching.html){: target="_blank"} |
 
-| No. | Session                 | Date and Location                     | Materials                                           |
-| --- | ----------------------- | ------------------------------------- | --------------------------------------------------- |
-| 01  | Organization and topics | 16. October, 14.00-16.00 (WE5 01.003) | [Slides](output/01-topics.html){: target="_blank"} |
-
-Tasks to complete in this week:
-
-- Create a [GitHub account](https://github.com/signup){: target="_blank"}.
-- To [find a group](https://digital-work-lab.github.io/open-source-project/output/01-topics.html#8){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the _Issues_ / _Milestones_ section).
-
-{: .deliverable }
-![tasks logo](assets/iconmonstr-clipboard-5.svg)**Set up a Codespace for the Git and Python sessions**: May 10
+- Set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
