@@ -13,13 +13,13 @@ The outline for sessions and tasks is below:
 
 | Week | Session                     | Date and Location                      |
 | ---- | --------------------------- | -------------------------------------- | 
-| 1    | [Finding the topic](docs/week_1_topic.html)           | 16. October, 14.00-16.00 (WE5 01.003)  |
-| 2    | Introduction to Git         | 23. October, 14.00-18.00 (WE5 01.003)  |
-| 3    | Introduction to Python (I)  | 28. Ocotber, 8.00-12.00 (WE5 1.003)    |
-| 4    | Introduction to Python (II) | 30. October, 14.00-18.00 (WE5 1.003)   |
-| 5    | Best practices              | 13. November, 14.00-16.00 (WE5 01.003) |
-| 6-11 | Group work                  | Hacking sessions see calendly          |
-| 12   | Code review session         | **TBA**, ISM Labor 1.094               |
+| 1    | [Finding the topic](docs/week_1_topic.html)        | 16. October, 14.00-16.00 (WE5 01.003)  |
+| 2    | [Introduction to Git]()          | 23. October, 14.00-18.00 (WE5 01.003)  |
+| 3    | [Introduction to Python (I)]()   | 28. Ocotber, 8.00-12.00 (WE5 1.003)    |
+| 4    | [Introduction to Python (II)]()  | 30. October, 14.00-18.00 (WE5 1.003)   |
+| 5    | [Best practices]()               | 13. November, 14.00-16.00 (WE5 01.003) |
+| 6-11 | [Group work]()                   | Hacking sessions see calendly          |
+| 12   | [Code review session]()        | **TBA**, ISM Labor 1.094               |
 
 
 | Date            | Deliverable                                                                           |
