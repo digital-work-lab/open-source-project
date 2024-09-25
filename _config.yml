@@ -13,7 +13,7 @@ gh_edit_branch: 'main'
 gh_edit_view_mode: 'tree'
 
 mermaid:
-  version: "10.9.0"
+  version: "11.1.0"
 
 callouts:
   warning:
@@ -25,6 +25,12 @@ callouts:
   feedback:
     title: Student feedback
     color: blue
+  objective:
+    title: Learning objective
+    color: blue
+  see_also:
+    title: See also
+    color: green
 
 exclude: ['session_5_presentations']
 
