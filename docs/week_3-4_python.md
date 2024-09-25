@@ -13,4 +13,4 @@ nav_order: 4
 | 04  | Introduction to Python (II) | 30. October, 14.00-18.00 (WE5 1.003) | [Slides](output/04-python_2.html){: target="_blank"} |
 
 {: .deliverable }
-![tasks logo](assets/iconmonstr-clipboard-5.svg)**Contribute code to a fork, create branches and synchronize with upstream**: May 10
+![tasks logo](../assets/iconmonstr-clipboard-5.svg)**Contribute code to a fork, create branches and synchronize with upstream**: May 10
