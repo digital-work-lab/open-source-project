@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Week 3: Python"
+nav_exclude: true
+has_toc: true
+---
+
+# Week 3: Python (Teaching notes)
+
 
 Codespaces:
 

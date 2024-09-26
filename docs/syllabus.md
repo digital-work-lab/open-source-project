@@ -18,7 +18,7 @@ nav_order: 1
 - **Degree program**: Bachelor's in Information Systems, International Information Systems Management, and Applied Computer Science. Participation is also possible for degree programs such as Software Systems Science or Computing in the Humanities (Master's) (after consultation with the examination board)
 - **Format**: In-person sessions at the beginning, followed by group work, and a code review session towards the end.
 - **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
-- **Registration**: If you are interested, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
+- **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend to participate in the project after the 3rd semester. The following courses are required: DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software, DSG-JaP-B Java Programmierung.
 
 In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies. Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%. As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git. Today, Git is an integral part of scaling extensive and highly distributed software development projects.
