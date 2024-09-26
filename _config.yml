@@ -22,6 +22,8 @@ callouts:
   deliverable:
     title: Deliverable
     color: yellow
+  info:
+    color: yellow
   feedback:
     title: Student feedback
     color: blue
