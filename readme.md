@@ -1,12 +1,15 @@
 # The Open-Source Project
 
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/open-source-project/pages.yml?label=documentation)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
+![Offered at: Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20at-Otto--Friedrich--Universit%C3%A4t%20Bamberg-blue)
 
-WI-Project at Otto-Friedrich University Bamberg.
+Welcome! The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich Universität Bamberg.
+You can find more information on the following pages:
 
-- [project page](https://digital-work-lab.github.io/open-source-project/)
-- [syllabus](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-- [teaching notes](https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html)
+- [Project page](https://digital-work-lab.github.io/open-source-project/)
+- [Syllabus](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+- [Teaching notes](https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html)
 
 ## Feedback
 
