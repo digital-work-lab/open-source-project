@@ -14,3 +14,6 @@ nav_order: 4
 
 {: .deliverable }
 ![tasks logo](../assets/iconmonstr-clipboard-5.svg)**Contribute code to a fork, create branches and synchronize with upstream**: May 10
+
+
+[![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
