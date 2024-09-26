@@ -66,7 +66,6 @@ The detailed course outline is available on the [main page](../index.html). We c
 - Overview of Git and version control practices.
 - Tasks: Set up your programming environment as per CoLRev documentation.
 
-
 **Week 3, Session 03 and 04: Introduction to Python (I, II)**
 
 - Basics of Python programming and advanced Python concepts related to Python package development and CoLRev.
@@ -139,7 +138,7 @@ possibly a “how to succeed” section
 
 - **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package. This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance. Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
 
-- **Safety and Inclusiveness**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued. We create a positive learning atmosphere, encouraging questions and contributions from everyone. We encourage diversity and actively work to ensure that every student has equal opportunities to succeed and contribute.
+- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued. We create a positive learning atmosphere, encouraging questions and contributions from everyone. We encourage diversity and actively work to ensure that every student has equal opportunities to succeed and contribute.
 
 - **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently. This ensures that students are aware of how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts. In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
 
