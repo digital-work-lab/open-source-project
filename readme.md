@@ -1,5 +1,7 @@
 # The Open-Source Project
 
+![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/open-source-project/pages.yml?label=documentation)
+
 WI-Project at Otto-Friedrich University Bamberg.
 
 - [project page](https://digital-work-lab.github.io/open-source-project/)

@@ -58,7 +58,7 @@ Previous participants loved the project (see [evaluations](docs/evaluations.html
 
 My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}. 
 
-<img src="../assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
+<img src="assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 180px; float: left; padding-right: 10px;">
 
 **Gerit Wagner**  
 *Assistant Professor of Information Systems*  
