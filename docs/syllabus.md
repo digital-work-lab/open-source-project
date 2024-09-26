@@ -154,4 +154,6 @@ possibly a “how to succeed” section
 <div class="references">
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
     <p>Luciano, R. (2015). Fluent Python: Clear, Concise, and Effective Programming. O'Reilly Media.</p>
+    <p>Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
 </div>
+
