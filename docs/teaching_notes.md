@@ -13,9 +13,9 @@ has_toc: true
 
 TODO: link
 
-- [teaching-notes git](week_2_git_teaching_notes.html)
-- [teaching-notes Pyhton](week_3_python_teaching_notes.html)
-- [teaching-notes Best-practices](week_5_best_practices_teaching_notes.html)
+- [Session notes: Git](week_2_git_teaching_notes.html)
+- [Session notes: Pyhton](week_3_python_teaching_notes.html)
+- [Session notes: Best-practices](week_5_best_practices_teaching_notes.html)
 
 ## Week 1: Introduction, topics, and groups
 
