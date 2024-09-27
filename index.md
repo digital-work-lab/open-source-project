@@ -62,6 +62,6 @@ My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving progr
 
 **Gerit Wagner**  
 *Assistant Professor of Information Systems*  
-*Otto-Friedrich Universität Bamberg*
+*Otto-Friedrich-Universität Bamberg*
 
 <br style="clear:both">
