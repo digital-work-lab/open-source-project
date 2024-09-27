@@ -14,7 +14,7 @@ You can find all information about this project in our [syllabus](docs/syllabus.
 
 {: .info }
 > **Info**
-> We are currently updating the contents. The dates and times for the sessions are final for the winter semester 2024/25.
+> We are currently updating the contents for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
 
 ## Participate
 
