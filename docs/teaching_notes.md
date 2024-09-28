@@ -11,7 +11,7 @@ has_toc: true
 > **Info**
 > The teaching notes include materials for the instructor and teaching assistants.
 
-- [Session notes: Topics](/home/gerit/ownCloud/data/teaching/open-source-project/docs/week_1_teaching_notes.html)
+- [Session notes: Topics](docs/week_1_teaching_notes.html)
 - [Session notes: Git](week_2_git_teaching_notes.html)
 - [Session notes: Pyhton](week_3_python_teaching_notes.html)
 - [Session notes: Best-practices](week_5_best_practices_teaching_notes.html)
