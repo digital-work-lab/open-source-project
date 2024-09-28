@@ -231,29 +231,26 @@ Clear message:
 contribution: you are expected to make that contribution (know what you do, be able to explain it - you cannot use generative AI like ChatGPT because you will have to submit the code under the MIT license.)
 
 small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight
-
 -->
 
 ---
 
----
-
-# How this project can be great for your studies
+# How this project may benefit you
 
 - The value of Open Source Software (OSS) development experiences is increasingly recognized as a significant indicator of a candidate's capabilities in technology and software development.
-- According to Long (2009) in the Journal of Information Technology Education: Research, OSS contributions are noteworthy on resumes and play a crucial role in hiring and promotion decisions.
+- According to Long (2009, *Journal of Information Technology Education: Research*), OSS contributions are noteworthy on resumes and play a crucial role in hiring and promotion decisions.
 - Employers view OSS experiences as strong evidence of a candidate's:
   - Practical skills
   - Problem-solving abilities
   - Collaborative spirit
+- You can add this project to your CV!
+
+<!--
 - This project demonstrate:
   - A commitment to the craft beyond formal education
   - Real-world skills
   - The ability to contribute to and manage complex projects
-- OSS experiences are increasingly valued during promotions, with employees who have demonstrated their abilities through OSS projects seen as more capable and ready for advanced responsibilities
-- This project can be referenced in your CV after absolving the project
 
-<!--
 "In the realm of technology and software development, the value of Open Source Software (OSS) development experiences has been increasingly recognized as a significant indicator of a candidate's capabilities. According to Long (2009) in the Journal of Information Technology Education: Research, OSS contributions are not only noteworthy on resumes but also play a crucial role in hiring and promotion decisions. Employers view these experiences as strong evidence of a candidate's practical skills, problem-solving abilities, and collaborative spirit.
 
 Long's research highlights that OSS development experiences can substantially enhance a candidate's attractiveness to potential employers. This is because such experiences demonstrate a commitment to the craft beyond formal education, showcasing real-world skills and the ability to contribute to and manage complex projects. Employers often perceive these contributions as indicators of a candidate's initiative, technical proficiency, and familiarity with industry-standard practices.
@@ -269,23 +266,19 @@ Long, J. (2009). Open source software development experiences on the students' r
 
 **Code: Functionality**
 
-- Correctly implementing the specified features and functionalities, validating input parameters, and handling edge cases appropriately.
+- Correct implemention of the specified features and functionalities, validating input parameters, and handling edge cases.
 - Unit tests covering critical parts of the code.
 
 **Code: Quality**
 
 - Adherence to Python coding standards, as suggested by pylint and the pre-commit hoooks defined in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
-- Appropriate code structure and readability, with a logical organization of code into modules and functions, use of meaningful variable and function names, and clear and concise comments explaining complex sections.
+- Code structure and readability.
 
 **Process: Open-Source Practices**
 
-- Proper use of Git conventions for commit messages and branching.
-- Clear and descriptive pull requests with proper documentation.
-- Properly addressing and incorporating feedback from code reviews.
-- Code review: Participating in the community by reviewing others' code and providing constructive feedback.
-- Ability to explain and defend your code.
-- Responding to and incorporating feedback from the review session.
+- Proper use of Git conventions for commit messages, branching, and pull requests.
+- Participating in the community by reviewing others' code, providing constructive feedback, and incorporating feedback.
 - Maintaining an active and professional presence in project discussions and issues.
 
 ---
@@ -370,7 +363,7 @@ Demonstrate workflow
 
 **Find a topic**
 
-- Go to [milestone v0.13.0](https://github.com/CoLRev-Environment/colrev/milestone/8) and read the open issues (available topics).
+- Go to the upcoming [milestone](https://github.com/CoLRev-Environment/colrev/milestones) and read the open issues (available topics).
 - Find others who are interested in the same topic.
 - Ask questions.
 
@@ -398,20 +391,17 @@ blockquote {
 }
 </style>
 
-# Setup
-
-- Create a GitHub account (using your student e-mail address)
-- Set up a Codespace for the Git and Python sessions (**TODO : show during the session and link instructions**)
-- Test: `colrev init`
-- If you encounter problems, reach out after the session or before next session and we will help you.
-
-> \* Optional: **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
-
----
-
 # Until next session
 
 - Start exploring issues, and team up
+
+Setup
+
+- Create a GitHub account (using your student e-mail address)
+- Test Codespaces for the Git and Python sessions: [Instructions](https://digital-work-lab.github.io/open-source-project/docs/week_1_topic.html#codespace-setup)
+- If you encounter problems, reach out after the session or before next session and we will help you.
+
+> \* Optional: **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
 
 <!--
 Student e-mail address: wegen Codespaces Kontingent
@@ -426,3 +416,22 @@ You have to take responsibility for your environment (we cannot offer a lot of s
 The instructions are online and you can make suggestions for improvements (if any).
 
 -->
+
+---
+
+# We value your feedback and suggestions
+
+We encourage you to share your feedback and suggestions on this slide deck:
+
+<a href="https://github.com/digital-work-lab/open-source-project/edit/main/01-topics.md" target="_blank">
+  <img src="../assets/iconmonstr-pencil-lined.svg" alt="Edit" width="32" height="32"> Suggest specific changes by directly modifying the content
+</a>
+<br>
+<a href="https://github.com/digital-work-lab/open-source-project/issues/new" target="_blank">
+  <img src="../assets/iconmonstr-info-12.svg" alt="New Issue" width="32" height="32"> Provide feedback by submitting an issue
+</a>
+<br>
+
+Your feedback plays a crucial role in helping us align with our core goals of **impact in research, teaching, and practice**. By contributing your suggestions, you help us further our commitment to **rigor**, **openness** and **participation**. Together, we can continuously enhance our work by contributing to **continuous learning** and collaboration across our community.
+
+Visit this <a href="https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html" target="_blank">page</a> to learn more about our goals:  🚀 🛠️ ♻️ 🙏 🧑‍🎓️ . 

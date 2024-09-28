@@ -39,8 +39,8 @@ The outline for sessions is below:
 
 | Deliverable                                                                           | Date            |
 | ------------------------------------------------------------------------------------- | --------------- |
+| Familiarize with Codespaces for the Git and Python sessions                           | October 22      |
 | Contribute to issue discussions to form teams                                         | October 22      |
-| Set up a Codespace for the Git and Python sessions                                    | October 22      |
 | Contribute code to a fork, create branches and synchronize with upstream              | November 10     |
 | Create the pull request (code is evaluated on January 12)                             | December 20     |
 | Implement the feedback provided in the pull request                                   | January 24      |
