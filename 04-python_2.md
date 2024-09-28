@@ -190,7 +190,7 @@ check:
 
 - Read the CoLRev-Enhancement Proposal on SearchSources [CEP-002](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html), and raise questions in the issue feed (if any)
 - Take notes on key challenges and questions (for the best practice session)
-- Attend consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10) (May 27-31: e-mail/remote only)
+- Attend consultation sessions: schedule a session via [calendly](https://calendly.com/gerit-wagner/30min?month=2023-10)
 
 <!-- 
 Pair-programming

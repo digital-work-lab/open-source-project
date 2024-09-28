@@ -1,5 +1,13 @@
+---
+layout: default
+title: "Week 5: Code review session (teaching notes)"
+has_toc: true
+nav_exclude: true
+---
 
-# Introduction:
+# Week 12: Code review session (teaching notes)
+
+## Introduction:
 
 - Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)
 - gute Abschlussquote
@@ -10,17 +18,17 @@
 - Alle Gruppen haben im praktischen Teil sehr gut (1, ...) abgeschnitten
 - Das schöne ist, dass Ihre Arbeit dem CoLRev Projekt zu Gute kommt und nicht einfach nur archiviert wird.
 
-# Setup:
+## Setup:
 
 - Maintainer tasks: review PRs, but also take ownership for the project as a whole (guidelines for documentation, code quality, scope, contributors, community)
 
-# Review session
+## Review session
 
 - Group: use the beamer
 - "think-aloud work"
 - Timer: 15 - 10 - 5
 
-## Notes on the process (overall: completed in 50-60 minutes)
+### Notes on the process (overall: completed in 50-60 minutes)
 
 - If some of the students do not actively contribute, ask the group to switch (inactive students taking the lead on the laptop)
 - Fetch/switch: clone from the right remote (forked) repository
@@ -28,7 +36,7 @@
 
 **TODO**: should be completed in groups of two
 
-# Concluding Feedback
+## Concluding Feedback
 
 My feedback (code review) for students: results of code review (if any)
 - separate file (demonstrate cursor)
@@ -41,7 +49,7 @@ Feedback session: Ask students for reflection and potential improvements
 
 
 
-# After the session:
+## After the session:
 
 IMPORTANT: ask student / group separately for individual (under) performance
 	Evaluation bei ungleichen Beiträgen:
@@ -53,6 +61,6 @@ IMPORTANT: ask student / group separately for individual (under) performance
 		- Weiteres vorgehen: wir entscheiden über die Bewertung.
 
 
-# Backup/Notes
+## Backup/Notes
 
 - weitere Python ressources mitgeben (zB. how to build a ... with python) https://github.com/codecrafters-io/build-your-own-x?ref=hackernoon.com

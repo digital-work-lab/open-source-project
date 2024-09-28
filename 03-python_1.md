@@ -31,7 +31,7 @@ https://github.com/dirediredock/PythonWorkshop
 # Project: Groups, forks and setup
 
 - Groups formed in the issue feeds
-- Forks were created. Note: we added best practices for forks: [slide-33](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33)
+- Forks were created.
 - Further questions related to the GitHub setup?
 - Setup completed?
 
