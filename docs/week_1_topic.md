@@ -32,6 +32,6 @@ You will also need the GitHub account to contribute to issue discussions, create
 All information on how to do that will be covered in the following sessions.
 
 {: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg)Contribute to the issue discussions to form teams.
+![tasks logo](../assets/iconmonstr-clipboard-5.svg) Contribute to the issue discussions to form teams ([deadline](../index.html#deliverables)).
 
 To [find a group](https://digital-work-lab.github.io/open-source-project/output/01-topics.html#8){: target="_blank"}, read the open issues for the relevant milestone and contribute to the discussion (navigate to the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, and the _Issues_ / _Milestones_ section).

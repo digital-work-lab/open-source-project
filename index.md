@@ -8,13 +8,11 @@ permalink: /
 
 # The Open-Source Project
 
-[![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html){: target="_blank"}
-[![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html){: target="_blank"}
-[![5 Stars](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html){: target="_blank"}
+[![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+[![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+[![5 Stars](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html)
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
-
-
 
 Welcome!
 The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich Universität Bamberg.
@@ -24,9 +22,8 @@ You can find all information about this project in our [syllabus](docs/syllabus.
 {: .info }
 > **Info**
 > We are currently updating the contents for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
--->
 
-<!-- 
+
 [![Completion Rate](https://img.shields.io/badge/Completion%20Rate-95%25-brightgreen)](https://example.com){: target="_blank"}
 
 [![5 Stars](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://example.com){: target="_blank"}
@@ -43,7 +40,7 @@ We look forward to meeting you!
 ## Goals
 
 - **Hands-on experience** as a [contributor to a real open-source project](docs/hall_of_fame.html).
-- **Collaborative teamwork** using modern open-source workflows (branching, pull requests) through Git and GitHub.
+- **Collaborative teamwork** using modern open-source workflows through Git and GitHub.
 - **Python coding** with emphasis on **code quality** and **continuous integration** tools.
 - **Contribute to real Python libraries** and complete a **code review** process.
 
