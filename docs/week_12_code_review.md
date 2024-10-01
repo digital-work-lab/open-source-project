@@ -35,7 +35,7 @@ During this stage, we will oversee the process to help you finish the project by
 This may involve determining which revisions are essential and which can be skipped.
 
 {: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg)Implement the feedback provided in the pull request.
+![tasks logo](../assets/iconmonstr-clipboard-5.svg) Implement the feedback provided in the pull request ([deadline](../index.html#deliverables)).
 
 Upon completion, we celebrate the accomplishments of our students in the [hall of fame](docs/hall_of_fame.html) and the official [list of contributors](https://github.com/CoLRev-Environment/colrev?tab=readme-ov-file#contributors){: target="_blank"} 🎉 🍾 🎈
 

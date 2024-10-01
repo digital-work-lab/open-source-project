@@ -15,7 +15,7 @@ paginate: true
 
 # Check-in: Group formation
 
-- [Milestone v0.13.0](https://github.com/CoLRev-Environment/colrev/milestone/8)
+- [Milestone](https://github.com/CoLRev-Environment/colrev/milestones)
 - Anyone not yet part of an issue discussion?
 - Challenges related to the setup?
 
@@ -120,21 +120,19 @@ blockquote {
 - Commits are created by the **git commit** command
 
 <!--
+Demo:
+- setup a git repository, create a file (explain the working directory), add the changes (explain the staging area), create a commit
+- inspect the commit (the internal git objects / history):
+git log
+- commit ID (sha)
+- HEAD points to the main branch. (aha)
+git cat-file -p ENTER_COMMIT
+- go through the information (if any of that information changes, the fingerprint of the commit changes)
+- you see that git handles all objects (files, trees, commits) by their fingerprint.
+git cat-file -p (TREE)
+git cat-file -p (FILE)
 
-    Demo:
-    - setup a git repository, create a file (explain the working directory), add the changes (explain the staging area), create a commit
-    - inspect the commit (the internal git objects / history):
-    git log
-    - commit ID (sha)
-    - HEAD points to the main branch. (aha)
-    git cat-file -p ENTER_COMMIT
-    - go through the information (if any of that information changes, the fingerprint of the commit changes)
-    - you see that git handles all objects (files, trees, commits) by their fingerprint.
-    git cat-file -p (TREE)
-    git cat-file -p (FILE)
-
-    - if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
-
+- if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
 -->
 
 ![bg right:45% width:230px center](../assets/git-commit.png)
@@ -193,53 +191,9 @@ Branches are useful to develop features, test code, or fix bugs without interfer
 
 # Practice: Branching
 
-To practice git branching, we use the [learn-git-branching](https://learngitbranching.js.org/?locale=de_DE) tutorial.
+Open the notebook for practicing Git branching:
 
-Complete the first two levels on branching, merging, and navigating in the git tree.
-<!-- LT: maybe mention they can practice the whole tutorial afterwards for practice -->
-
-
-![width:600px center](../assets/git-branching-tutorial.png)
-
-**NOTE**: You can type "undo" when you made a mistake.
-
-<!-- 
-
--> afterwards: branching challenge : post challenge on the blackboard/add nodes/branchnames, after a while: erase the instructions (select commit/create branch)
--> for the challenge: use branch-names only (don't checkout individual commits into main)
-
-ESC to skip explanation
-
--->
-
----
-
-To continue practicing, create the following tree, which resembles a typical setup of git branches.
-
-![width:400px center](../assets/git-branches.png)
-
-<!-- 
-git commit
-git commit
-git checkout c1
-git checkout-b hotfix
-git commit
-git checkout main
-git merge hotfix
-git checkout c1
-git checkout -b dev
-git commit
-git commit
-git checkout c6
-git checkout -b feature
-git commit
-git commit
-git checkout dev
-git merge feature
-git checkout main
-git merge dev
-
--->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
 ---
 
@@ -291,7 +245,6 @@ ASK for concentration
 
 Recap: d.h. wir haben jetzt gesehen, dass Dateien oder Dateiänderungen in drei Zuständen sein können: im Working Directory, in der Staging area, und im Git repository. Sie kennen die Operationen, mit denen wir Änderungen für die nächste Version markieren können und die neue Version anlegen können (git add und commit).
 Wir haben uns auch den entgegengesetzten Weg angesehen - git restore und git restore --staged.
-
 -->
 
 ---
@@ -370,316 +323,11 @@ If you have the time, try the different undo operations in the session.
 
 ---
 
-<!-- 
-TBD/do not cover?
+# Practice: Committing
 
-    Demo:
-    - setup a git repository, create a file (explain the working directory), add the changes (explain the staging area), create a commit
-    - inspect the commit (the internal git objects / history):
-    git log
-    - commit ID (sha)
-    - HEAD points to the main branch. (aha)
-    git cat-file -p ENTER_COMMIT
-    - go through the information (if any of that information changes, the fingerprint of the commit changes)
-    - you see that git handles all objects (files, trees, commits) by their fingerprint.
-    git cat-file -p (TREE)
-    git cat-file -p (FILE)
+Open the notebook for practicing Git committing:
 
-    - if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
-
----
--->
-
-In this part, we work with an existing project. To download the example, open the `Git bash` (which should start at ``W:>``, your personal directory on the file server), and run the following commands:
-
-```shell
-git clone https://github.com/CoLRev-Environment/colrev
-cd colrev                     # Enter the directory of the colrev project
-```
-
-**Check**: The clone command should print something like the following (with different numbers):
-
-```
-Cloning into 'colrev'...
-remote: Counting objects: 100% (125/125), done.
-remote: Total 22225 (delta 41), reused 54 (delta 27), pack-reused 22100
-Receiving objects: 100% (22225/22225), 10.11 MiB | 2.37 MiB/s, done.
-Resolving deltas: 100% (18519/18519), done.
-```
-**Note**: You do not have to enter the explanation after the hashtag (#). To create an empty git project, you would run ``git init``.
-
----
-
-Next, we check the current status of the project:
-
-```shell
-git status
-```
-
-This command provides an overview of the current state of the project and the files in the three sections. Therefore, you will need to run ``git status`` regularly.
-
-**Check**: It should print something like the following:
-
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-```
-
-The last line indicates that there are no changes in the staging area (nothing to commit). The working directory has the same content as the last version in the git respository (working tree clean).
-
----
-
-Take a look at the files and directories that were retrieved as part of the CoLRev project.
-
-Git stores its data in the `.git` directory. It can be instructive to explore how git handles data internally, but keep in mind that manual changes in the `.git` directory may break the repository.
-
-**Note**: If you work on your own machine and Git is not yet configured, you need to run ``git config --global user.name "John Doe"`` and ``git config --global user.email johndoe@example.com`` to configure your user name and email.
-
-
-<!-- 
-We start with the setup of a git repository
-
-Start with the slide, after 2 minutes: ask who has already completed the step/who needs help
-Then: proceed: step-by-step with the following slides
--->
-
----
-
-Next, we modify files (state: **untracked**/**modified**), mark them to be in the next commit (state: **staged**) and create the first version (state: **commited**). This corresponds to the three sections of a git project.
-
-- Open the `README.md` file and add your name to the list of contributors (`# Contributors` section).
-
-```
-git status              # Check the `git status` between each command
-```
-
-- Open the `CONTRIBUTING.md` file and change it.
-
-**Check**: The `git status` should now show two files with changes in the working directory (state: **modified**).
-
----
-
-We decide that the changes in the `README.md` file should be staged for the next commit. The changes in the `CONTRIBUTING.md` file are no longer needed. Use the commands suggested by `git status` to accomplish this.
-
-**Check**: The `git status` should now display 
-
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	modified:   README.md
-
-```
-
-This means that changes in the README.md are **staged** (to be committed).
-
----
-
-To create the commit, we run
-
-```
-git commit -m 'add contributor'
-```
-
-The `-m 'add contributor'` adds a short summary message, which is expected for every commit.
-
-**Check**: `git status` should reflect your expected state of files in the three git sections.
-
----
-
-Sh***! We just committed changes containing an error 🤯
-
-To undo the last commit, we can simply run:
-
-```
-git reset --soft HEAD~1
-```
-
-You should now have the `README.md` file in the staging area again.
-
-**Note**: the `HEAD~1` refers to the last commit.
-
-**Check**: Run `git status` to see the changes.
-
----
-
-We decide to discard our changes. Use the commands suggested by `git status` to do that.
-
-**Check**: The git status should show the following:
-
-```
-On branch main
-nothing to commit, working tree clean
-```
-
-<!-- 
-```
-                              # Manually create a REAMDE.md file in the project.
-git status                    # Should show the README.md file as "untracked"
-git add README.md             # Add the README.md file using the `git add` operation
-git status                    # Should show the README.md file as a change "to be committed" (staged)
-                              # Download the MIT license file from https://choosealicense.com/licenses/mit/
-                              # Save it as `LICENSE` (filename) and 
-git add .                     # add all changes to the staging area
-git status                    # Should now show two files "to be committed" (staged)
-
-git commit -m 'Initial comit' # Create the first commit (version of the project)
-git status                    # Should show a clean working directory and staging area
-```
-
----
-
--->
-<!-- 
-
-Instead of modifying the files manually, we can also apply patches (i.e., files containing changes):
-
-```
-git apply ../git-tutorial-example/setup.patch
-git status                                   # See which files were changed
-git add .                                    # Add all changes
-git commit -m 'Add code'                     # Create the first commit (version of the project)
-```
-
-In the following, we work with patches to save time while creating changes that resemble a software development project. 
-
-**Check**: The commands did not produce any error messages.
-
-For the next steps, download the code for [colrev](https://github.com/CoLRev-Ecosystem/colrev) as a zip file (through the `Code` button), extract the files and move them to your `colrev_project` directory*. Add all changes and create a new version. -->
-
----
-
-Let's see the changes that were committed in the project.
-
-To analyze the specific changes, open `gitk` (or another Git GUI):
-
-```
-gitk
-```
-
-- Check which files were added and modified by the last commit
-- Check the code that was modified (increase and decrease lines of context in gitk). The next page provides an overview of gitk (other Git GUIs have similar interface elements).
-
----
-
-![width:1000px center](../assets/gitk-illustration_explained.png)
-
-<!-- 
-gitk.png screenshot + add explanations similar to https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/
--> highlight that versions are identified by their commit-ID/sha-fingerprint
-
-TODO : create another version and check how gitk displays the unstaged/staged changes
- -->
-
-<!-- 
----
-
-Go to the [colrev](https://github.com/CoLRev-Ecosystem/colrev) project on GitHub and explore the version history.
-- Navigate to `commits` and check which files were modified in the most recent version
-- From the [main page](https://github.com/CoLRev-Ecosystem/colrev), navigate to `colrev/dataset.py` and click on `Blame` to see what revision and author last modified specific lines of code
-
-**Check**: When was the `load_records_dict` function last modified?
-
-Note : patches allow us to work with more substantial examples in the following
--->
-
----
-
-It is good practice to create **atomic commits**, i.e., small changes that belong together. One should avoid large commits that modify many unrelated parts of the code base and pursue different objectives.
-
-Analyze the following commits and discuss which ones are atomic and which ones combine changes that do not belong together (i.e., should be in separate commits):
-
- - [commit 1](https://github.com/CoLRev-Environment/colrev/commit/a0c9043784f9342136d2ab214513688769669199)
- - [commit 2](https://github.com/CoLRev-Environment/colrev/commit/5288e92083b6df546d7c8fd590df3e968a909114)
- - [commit 3](https://github.com/CoLRev-Environment/colrev/commit/ba08d4242f48ec96b4fa8cfd053ee3781e32231f)
- - [commit 4](https://github.com/CoLRev-Environment/colrev/commit/ce9850f805a140692866970c92557833e6befa0b)
- - [commit 5](https://github.com/CoLRev-Environment/colrev/commit/93fc7e851d2ba3fc95cc3190b6b71dc4a907c96b)
-
-Also check the commit message (short summary at the beginning). Does the message clearly summarize the changes?
-
-<!-- 
-Solution:
-- commit 1: atomic, ok.
-- commit 2: relatively atomic, a few changes beyond compute_language(). may be improved.
-- commit 3: many files changed. changes not related to each other. message refers to refactoring and testing, but the commit also adds functionality.
-- commit 4: many files changed, but the changes belong together. ok.
-- commit 5: atomic, ok.
-It is ok to combine functionality, tests, and docs that belong together in one commit!
--->
-
----
-
-To create atomic commits, you may need to **add specific lines of code that should go into a commit**, leaving other changes in the working directory.
-
-The changes are provided in the [`rec_dict.patch`](../assets/rec_dict.patch) file, which must be placed in the project's working directory. To apply it, run:
-
-```
-git apply rec_dict.patch                # Suggests to rename the method but also introduces unrelated changes.
-git status                              # Different files were modified by the patch
-gitk                                    # Check the changes that were introduced by the patch
-```
-
-In the following, we would like to add *only* the changes in lines related to the `load_records_dict` method and the `skip_notification` parameter (using `-p` for a partial `git add`):
-
-```
-git add -p colrev/dataset.py            # Add specific lines of code from the colrev/dataset.py
-                                        # using y/n to add or skip (confirming with ENTER)
-gitk                                    # Check whether the correct lines were added
-```
-
-Create a commit containing the relevant changes. Afterwards, discard the remaining changes.
-
-
-<!--
-**Check**: The working directory should be clean again.
- TODO : link to good commit messages
-
-git diff > rec_dict.patch
- 
- -->
-
----
-
-When writing code, we can make mistakes, or we may need to undo or modify previous changes. To undo changes, it is important to understand whether they are unstaged, staged, or committed.
-
-To **undo unstaged or staged changes**, `git status` suggests the corresponding operations (`git restore <file>` and `git restore --staged <file>`). To see how `git restore` works:
-
-- Modify the `README.md` file and add the changes to the staging area
-- Undo the staged changes
-- Undo the unstaged changes
-
-**Check**: The working directory should be clean again.
-
----
-
-To **undo committed changes**, there several options (some are available in gitk):
-
-- Revert the commit, i.e., create a new commit to undo changes: `git revert COMMIT_SHA --no-edit`
-- Undo the commit and leave the changes in the staging area: `git reset --soft COMMIT_SHA` (*)
-- Stage changes, and run `git commit --amend` to modify the last commit (*)
-
-If you have the time, try the different undo operations in the session.
-
-(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
-
-<!-- 
-HEAD~
-shorthand for
-HEAD~1
-
-TODO : how to test/demonstrate undoing an error?
--> This would be important to practice!!!
-
-**SEE HOGBIN-WESTBY CHAPTER**
-
----
-
-**TODO**: include examples for undoing changes
--->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
 ---
 
@@ -705,24 +353,11 @@ Illustrate on the whiteboard : new/alternative commit with the same parent, all 
 
 ---
 
-# Illustration: Git Merge
+# Practice: Merges
 
-Setting: Two authors working on the same document ([paper.md](../assets/paper.md)).
+Open the notebook for practicing Git merges:
 
-1. Setup the code skeleton
-2. Write different parts of the same document
-
-  - git checkout -b author_1 (add introduction)
-  - git switch main & git checkout -b author_2 (add background)
-  - git switch main & git merge author_1 (fast forward)
-  - git merge author_2 (merge commit, no conflict)
-
-3. Edit the same part (remember to merge both branches with main)
-
-  - case 1: conflicting contents that contradict each other
-  - case 2: conflicting contents that need to be resolved
-
-<!-- Note: It can be instructive to go through this merge exercise at home. -->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
 ---
 

@@ -108,44 +108,16 @@ Summarize the work status per group:
 
 ---
 
-# Merging strategies
 
-```
-# To clone the repository and set up the quality_model_docs branch 
-git clone https://github.com/CoLRev-Environment/colrev && cd colrev
-git checkout 108d278e8d01a65c5128c4a880247f0272896059
-git switch -c quality_model_docs
+# Practice: Git merging strategies
 
-# Option 1: merge commit (or fast forward)
-git switch main
-git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
-git merge quality_model_docs
+Start our development environment on GitHub Codespaces
 
-# Option 2: squash
-git switch main
-git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
-git merge --squash quality_model_docs
-git commit -n -m 'update docs for quality_model'
-
-# Option 3: rebase
-git switch main
-git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
-git switch quality_model_docs
-git rebase main
-git switch main
-git merge quality_model_docs
-```
-<!-- 
-Note: 
-- compare between your colleagues (one completes a merge, the other a squash, the next a rebase)
-- write down which commits are in each branch
-
-Note: all options are available for pull requests on Github.
--->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
 ---
 
-# Which merge strategy should we select?
+# Which branching / merging strategy should we select?
 
 Recommended branch setup in your fork:
 

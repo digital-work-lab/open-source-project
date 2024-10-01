@@ -8,6 +8,8 @@ permalink: /
 
 # The Open-Source Project
 
+<br>
+
 [![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![5 Stars](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html)
@@ -39,10 +41,10 @@ We look forward to meeting you!
 
 ## Goals
 
-- **Hands-on experience** as a [contributor to a real open-source project](docs/hall_of_fame.html).
+- **Hands-on experience** as a contributor to a real open-source project.
 - **Collaborative teamwork** using modern open-source workflows through Git and GitHub.
 - **Python coding** with emphasis on **code quality** and **continuous integration** tools.
-- **Contribute to real Python libraries** and complete a **code review** process.
+- **Contribute to real Python package** and complete a **code review** process.
 
 ## Outline
 
@@ -65,17 +67,6 @@ The outline for sessions is below:
 | Contribute code to a fork, create branches and synchronize with upstream              | November 10     |
 | Create the pull request (code is evaluated on January 12)                             | December 20     |
 | Implement the feedback provided in the pull request                                   | January 24      |
-
-<!-- 
-## Goals
-
-After participating in the open-source project, you will have gained hands-on experience as a [contributor to a real open-source project](docs/hall_of_fame.html).
-You will have worked collaboratively in a team, using state-of-the-art open-source workflows such as branching and pull requests, all managed through Git and GitHub.
-By coding in Python, you will apply code quality tools and continuous integration processes to maintain high standards.
-Additionally, you'll learn how to contribute to actual Python libraries and complete a code review.
-While this may sound like a lot, you will gain a tremendous sense of accomplishment.
-Previous participants loved the project (see [evaluations](docs/evaluations.html) and [feedback](docs/feedback.html)), and many even went on to pursue a Bachelor's thesis in this area.
- -->
 
 ## Instructor
 

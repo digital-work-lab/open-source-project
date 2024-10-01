@@ -14,7 +14,6 @@ In this session, our goal is to understand how to use Git to develop software in
 
 In the session, we will start with the concepts and iterate between the slides and the Jupyter notebooks.
 
-
 {: .text-center}
 ```mermaid
 flowchart LR
@@ -25,7 +24,7 @@ flowchart LR
 In this session, we have covered the fundamentals of Git, including branching, committing, and collaborating, which are essential for effective teamwork in projects like the colrev Python package. Next week, we will dive into learning Python, where you will apply the Git commands you learned today to manage your Python scripts. Be prepared to commit different changes in your scripts, ensuring you can track and manage your progress using Git's powerful version control features.
 
 {: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg) To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)
+![tasks logo](../assets/iconmonstr-clipboard-5.svg) To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)  ([deadline](../index.html#deliverables)).
 
 ## Materials
 

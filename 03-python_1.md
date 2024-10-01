@@ -76,11 +76,7 @@ FIRST: Who has a working machine?
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python)
 
----
-
-# Overview
-
-![width:800px center](../assets/python_overview_1.PNG)
+![width:700px center](../assets/python_overview_1.PNG)
 
 <!-- 
 In this session (2x90 min), we will:
@@ -96,10 +92,10 @@ In the following session (2x90 min), we will:
 - [ ] Save changes and create commit
  -->
 
-
 ---
 
 # Writing and running Python code
+
 
 ![width:700px center](../assets/python_code_run.PNG)
 
