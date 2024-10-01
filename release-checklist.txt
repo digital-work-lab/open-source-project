@@ -1,0 +1,6 @@
+# Release Checklist
+
+- Run `git tag -s $VERSION` (format: "0.9.1").
+- Run `git push` and wait for the GitHub actions to complete successfully.
+
+Tag `WiSe2024/25` at the end of the semester.
