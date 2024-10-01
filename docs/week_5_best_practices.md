@@ -11,6 +11,9 @@ In this session, we learn essential Git and coding best practices.
 This will help your ability to write clean, maintainable code and use Git effectively for version control.
 The session also includes practical examples and guidelines that will help you develop better workflows for collaborative coding projects.
 
+{: .objective }
+> In the two sessions, our goal is to facilitate the group-work phase by emphasizing how to organize code contributions within the team, adhere to best programming practices, and address any challenges that arise.
+
 ## Materials
 
 [![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"}

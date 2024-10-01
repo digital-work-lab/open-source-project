@@ -15,6 +15,13 @@ We have prepared for both scenarios: for those who finish early, there are optio
 These aren't mandatory but can help you start thinking about your upcoming project work.
 If you have any questions during or after the sessions, we're here to assist. We've also provided additional resources for further practice.
 
+{: .objective }
+> In the two sessions, our goals are to
+> 
+> - Familiarize with the Python syntax, including control flows, data structures, and object-oriented programming
+> - Understand how to use other Python modules and libraries
+> - Prepare for extending the functionality of the CoLRev package
+
 ## Materials: Session 1
 
 [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"}

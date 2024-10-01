@@ -10,6 +10,9 @@ nav_order: 7
 In this session, we ask you to review the code of another group, i.e., their pull request.
 You will adopt the perspective of a **maintainer**, i.e., a gatekeeper who takes responsibility for an open-source project by screening, improving, and integrating code contributions.
 
+{: .objective }
+> The objective is to develop the ability to collaboratively review code contributions by downloading, testing, and debugging code, while providing constructive and respectful feedback in GitHub pull requests.
+
 As a group, your goals are to:
 
 - Download the code from the pull request (fork) to your local machine or codespace
