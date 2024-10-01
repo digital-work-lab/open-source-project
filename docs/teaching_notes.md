@@ -17,6 +17,11 @@ has_toc: true
 - [Session notes: Best-practices](week_5_best_practices_teaching_notes.html)
 - [Session notes: Code review session](week_12_code_review_teaching_notes.html)
 
+## Preparation
+
+- [ ] Update dates and rooms for sessions
+- [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
+
 ## Week 1: Introduction, topics, and groups
 
 VC post:

@@ -936,6 +936,6 @@ Please share your feedback to help us improve!
 - Avoid working on the `main` branch and synchronize it regularly with the original repository
 - Regularly check whether branches should be synchronized (merged)
 
-**Task**: complete one merge between branches until **May 10th**.
+**Task**: complete one merge between branches.
 
 Note: we will distribute a survey asking for the current state of your project after the merge. Your input will help us prepare the best practice session.
