@@ -20,8 +20,10 @@ To make an appointment, simply schedule a meeting using the Calendly tool:
 [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
 {: .text-center}
 
-{: .info }
-> We expect you to try hard to solve the challenges yourself. Struggling with errors is part of the process. At the same time, if you continue to struggle with the same error for more than three days, please make an appointment and let's see how to solve it. We are here to help and make sure that you achieve steady progress throughout the group work phase.
+We expect you to try hard to solve the challenges yourself.
+Struggling with errors is part of the process.
+At the same time, if you continue to struggle with the same error for more than three days, please make an appointment and let's see how to solve it.
+We are here to help and make sure that you achieve steady progress throughout the group work phase.
 
 We encourage you to open the pull request early.
 You can still work on your branch and the pull request will automatically reflect the latest changes of that (online) branch.
