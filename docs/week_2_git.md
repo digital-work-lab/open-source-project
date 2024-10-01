@@ -10,11 +10,7 @@ nav_order: 3
 Learning Git, especially branching, committing, and collaborating, is essential for effective group work when contributing to the colrev Python package. Git enables multiple contributors to work on different parts of the project simultaneously through branching, allowing for experimentation without affecting the main codebase. By committing regularly, team members maintain a history of their changes, making it easier to track progress and revert mistakes. Collaboration features, like pull requests and merging, streamline the process of integrating code from different contributors while minimizing conflicts. Mastering these Git skills ensures smooth, organized teamwork and enhances the quality of contributions to the colrev package.
 
 {: .objective }
-> In this session, our goal is to understand how to use Git to develop software in teams by covering the three areas:
->
->- Branching
->- Committing
->- Collaborating
+In this session, our goal is to understand how to use Git to develop software in teams by covering the areas of branching, committing, and collaborating.
 
 In the session, we will start with the concepts and iterate between the slides and the Jupyter notebooks.
 

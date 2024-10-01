@@ -12,9 +12,11 @@ Welcome!
 The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich Universität Bamberg.
 You can find all information about this project in our [syllabus](docs/syllabus.html).
 
+<!-- 
 {: .info }
 > **Info**
 > We are currently updating the contents for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
+-->
 
 ## Participate
 
@@ -26,14 +28,14 @@ We look forward to meeting you!
 
 The outline for sessions is below:
 
-| Week | Session                                                     | Date and Time                                         | Location                  |
-| ---- | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------- |
-| 1    | [Finding the topic](docs/week_1_topic.html)                 | October 16, 14.00-16.00                               | WE5 1.003                 |
-| 2    | [Introduction to Git](docs/week_2_git.html)                 | October 23, 14.00-18.00                               | WE5 1.003                 |
-| 3    | [Introduction to Python I and II](docs/week_3_python.html)  | Ocotber 28, 8.00-12.00  <br> October 30, 14.00-18.00  | WE5 1.003  <br> WE5 1.003 |
-| 5    | [Best practices](docs/week_5_best_practices.html)           | November 13, 14.00-16.00                              | WE5 1.003                 |
-| 6-11 | [Group work](docs/week_6-11_group_work.html)                | Hacking sessions                                      | WE5 1.081 or online       |
-| 12   | [Code review session](docs/week_12_code_review.html)        | **TBA**                                               | ISM Labor 1.094           |
+| Week | Session                                              | Date and Time                                         | Location                  |
+| ---- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------- |
+| 1    | [Finding the topic](docs/week_1_topic.html)          | October 16, 14.00-16.00                               | WE5 1.003                 |
+| 2    | [Introduction to Git](docs/week_2_git.html)          | October 23, 14.00-18.00                               | WE5 1.003                 |
+| 3    | [Introduction to Python](docs/week_3_python.html)    | Ocotber 28, 8.00-12.00  <br> October 30, 14.00-18.00  | WE5 1.003  <br> WE5 1.003 |
+| 5    | [Best practices](docs/week_5_best_practices.html)    | November 13, 14.00-16.00                              | WE5 1.003                 |
+| 6-11 | [Group work](docs/week_6-11_group_work.html)         | Hacking sessions                                      | WE5 1.081 or online       |
+| 12   | [Code review session](docs/week_12_code_review.html) | **TBA**                                               | ISM Labor 1.094           |
 
 ## Deliverables
 

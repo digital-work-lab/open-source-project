@@ -18,7 +18,7 @@ The session also includes practical examples and guidelines that will help you d
 
 [![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"}
 
-{: .highlight }
+{: .info }
 > **Checklist**
 >
 > - Do we have a directory for the project data that is separate from the `colrev` directory?
