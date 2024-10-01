@@ -18,11 +18,14 @@ If you have any questions during or after the sessions, we're here to assist. We
 {: .objective }
 > In the two sessions, our goals are to
 > 
-> - Familiarize with the Python syntax, including control flows, data structures, and object-oriented programming
+> - Familiarize with the Python syntax
 > - Understand how to use other Python modules and libraries
 > - Prepare for extending the functionality of the CoLRev package
 
-## Materials: Session 1
+## Materials
+
+<!-- 
+: Session 1
 
 [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"}
 
@@ -33,6 +36,12 @@ If you have any questions during or after the sessions, we're here to assist. We
 [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"}
 
 [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
+-->
+
+| Session       | Slides                                                                                                  | Notebook                                                                                                     |
+|---------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} |
+| Session 2     | [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} |
 
 
 After you have used CoLRev in the last notebook, it is instructive to create a project and run through the operations to understand how CoLRev works.
