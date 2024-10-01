@@ -16,7 +16,9 @@ The session also includes practical examples and guidelines that will help you d
 
 ## Materials
 
-[![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"}
+| Session                | Slides                                                                                                                                  | Notebook |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Best practice session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"} | NA       |
 
 {: .info }
 > **Checklist**

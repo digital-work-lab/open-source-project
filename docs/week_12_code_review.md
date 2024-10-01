@@ -24,7 +24,9 @@ Keep in mind that your review should be constructive and respectful, encouraging
 
 ## Materials
 
-[![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"}
+| Session              | Slides                                                                                                                                | Notebook |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Code review session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} | NA       |
 
 ## Project completion in week 13
 

@@ -29,9 +29,10 @@ In this session, we have covered the fundamentals of Git, including branching, c
 
 ## Materials
 
-[![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"}
+| Session      | Slides                                                                                                                        | Notebook |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|----------|
+| Git session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"} |
 
-[![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"}
 
 {: .see_also }
 
