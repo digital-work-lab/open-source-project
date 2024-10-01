@@ -5,7 +5,7 @@ has_toc: true
 nav_order: 6
 ---
 
-## Weeks 6-11: Group work and hacking sessions
+# Weeks 6-11: Group work and hacking sessions
 
 In weeks 6 to 11, the groups focus on completing their project work.
 We offer hacking sessions to discuss current progress and help solve challenges.

@@ -5,7 +5,7 @@ has_toc: true
 nav_order: 7
 ---
 
-## Week 12: Code review
+# Week 12: Code review
 
 In this session, we ask you to review the code of another group, i.e., their pull request.
 You will adopt the perspective of a **maintainer**, i.e., a gatekeeper who takes responsibility for an open-source project by screening, improving, and integrating code contributions.
@@ -26,7 +26,8 @@ Keep in mind that your review should be constructive and respectful, encouraging
 ## Project completion in week 13
 
 After receiving the review, please incorporate the feedback to ensure your contribution is merged and the project is completed.
-During this stage, we will oversee the process to help you finish the project by week 13. This may involve determining which revisions are essential and which can be skipped.
+During this stage, we will oversee the process to help you finish the project by week 13.
+This may involve determining which revisions are essential and which can be skipped.
 
 {: .deliverable }
 ![tasks logo](../assets/iconmonstr-clipboard-5.svg)Implement the feedback provided in the pull request.

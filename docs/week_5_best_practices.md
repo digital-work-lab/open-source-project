@@ -5,8 +5,20 @@ has_toc: true
 nav_order: 5
 ---
 
-## Week 5: Git and coding best practices
+# Week 5: Git and coding best practices
+
+In this session, we learn essential Git and coding best practices.
+This will help your ability to write clean, maintainable code and use Git effectively for version control.
+The session also includes practical examples and guidelines that will help you develop better workflows for collaborative coding projects.
 
 ## Materials
 
 [![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"}
+
+{: .highlight }
+> **Checklist**
+>
+> - Do we have a directory for the project data that is separate from the `colrev` directory?
+> - What is our plan to split work across branches?
+> - Do the pre-commit hooks pass?
+> - Can the working branches be merged? Should they be synchronized?

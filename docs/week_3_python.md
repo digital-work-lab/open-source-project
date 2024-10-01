@@ -5,7 +5,7 @@ has_toc: true
 nav_order: 4
 ---
 
-## Week 3: Introduction to Python
+# Week 3: Introduction to Python
 
 In the two Python sessions, we will start to program in Python and explore the CoLRev Python package.
 You do not have to bring prior experience with Python, but we assume that you are familiar with an object-orient programming language (like Java or C).
