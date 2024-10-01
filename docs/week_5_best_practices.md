@@ -1,14 +1,12 @@
 ---
 layout: default
-title: "Week 1: Topics"
+title: "Week 5: Best practices"
 has_toc: true
 nav_order: 5
 ---
 
 ## Week 5: Git and coding best practices
 
-| No. | Session        | Date and Location                      | Materials                                                  |
-| --- | -------------- | -------------------------------------- | ---------------------------------------------------------- |
-| 05  | Best practices | 13. November, 14.00-16.00 (WE5 01.003) | [Slides](output/05-best_practice.html){: target="_blank"} |
+## Materials
 
-
+[![View Slides](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"}

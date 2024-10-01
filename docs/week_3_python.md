@@ -17,13 +17,13 @@ If you have any questions during or after the sessions, we're here to assist. We
 
 ## Materials: Session 1
 
-[![View Slides Part 1](https://img.shields.io/badge/View-Slides-Part-1-orange?logo=html5)](../output/03-python_1.html){: target="_blank"}
+[![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"}
 
 [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
 
 ## Materials: Session 2
 
-[![View Slides Part 2](https://img.shields.io/badge/View-Slides-Part-2-orange?logo=html5)](../output/04-python_2.html){: target="_blank"}
+[![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"}
 
 [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
 
