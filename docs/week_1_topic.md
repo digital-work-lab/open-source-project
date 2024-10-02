@@ -17,9 +17,9 @@ We look forward to meeting you!
 
 ## Materials
 
-| Session               | Slides                                                                                                                             | Notebook |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Introduction session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/01-topics_1.html){: target="_blank"} | NA       |
+| Session               | Slides                                                                                                                           | Notebook |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|----------|
+| Introduction session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/01-topics.html){: target="_blank"} | NA       |
 
 Tasks to complete in this week:
 
