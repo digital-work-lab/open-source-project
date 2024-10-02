@@ -15,7 +15,7 @@ nav_order: 1
 
 - **Title**: Digital-Work-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik
 - **Credits**: 6 ECTS (180h)
-- **Degree program**: Bachelor's in Information Systems, International Information Systems Management, and Applied Computer Science. Participation is also possible for degree programs such as Software Systems Science or Computing in the Humanities (Master's) (after consultation with the examination board)
+- **Degree program**: Bachelor's in Information Systems, International Information Systems Management, and Applied Computer Science. Participation is also possible for degree programs such as Software Systems Science or Computing in the Humanities (Master's, module group A2) (after consultation with the examination board)
 - **Format**: In-person sessions at the beginning, followed by group work, and a code review session towards the end.
 - **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
