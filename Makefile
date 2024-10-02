@@ -15,7 +15,7 @@ SLIDES_LIST := $(patsubst %.md,%,$(wildcard [0-9][0-9]*.md))
 TEACHING_NOTES_LIST := $(patsubst teaching_notes/%.md,%,$(wildcard teaching_notes/[0-9][0-9]*.md))
 
 # Define a rule to build all slides
-slides: lecture_slides teaching_notes notebooks
+slides: lecture_slides teaching_notes
 
 lecture_slides: $(addprefix output/,$(addsuffix .html,$(SLIDES_LIST)))
 
@@ -34,10 +34,3 @@ output/teaching_notes/%.html: teaching_notes/%.md assets/theme.css
         --filter pandoc-crossref \
         --citeproc \
         --output $@
-
-# Define a rule to convert Jupyter notebooks to HTML
-notebooks: $(patsubst notebooks/%.ipynb,notebooks/%.html,$(wildcard notebooks/*.ipynb))
-
-# Rule to convert .ipynb to .html using nbconvert
-notebooks/%.html: notebooks/%.ipynb
-	jupyter nbconvert --to html $<
