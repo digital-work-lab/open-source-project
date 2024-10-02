@@ -1,2 +1,0 @@
-
-Link to the FAQ

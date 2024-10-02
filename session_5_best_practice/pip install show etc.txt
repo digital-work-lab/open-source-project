@@ -1,5 +1,0 @@
-pip install .
-pip install /home/gerit/ownCloud/projects/CoLRev/bib-dedupe
-
-pip list / pip show
--> create a slide to explain

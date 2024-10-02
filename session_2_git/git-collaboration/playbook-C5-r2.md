@@ -1,1 +1,0 @@
-The contributing guidelines shoudl be linked from the index page (after the goals)
