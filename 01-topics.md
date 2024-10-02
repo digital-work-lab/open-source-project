@@ -12,7 +12,11 @@ paginate: true
 
 # WI-Project: Open-Source Project with Git and Python
 
-Juniorprofessur für Digital Work
+Prof. Dr. Gerit Wagner
+Fakultät Wirtschaftsinformatik und Angewandte Informatik
+Otto-Friedrich-Universität Bamberg
+
+![center width:150px](../assets/qr-open-source-project.png)
 
 <!--
 Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
