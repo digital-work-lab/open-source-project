@@ -12,9 +12,8 @@ permalink: /
 
 [![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-[![Prerequisites](https://img.shields.io/badge/Prerequisites-EiAPS%20B%20&%20JaP%20B-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-[![Language](https://img.shields.io/badge/Language-Sessions:%20German,%20Materials:%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-
+[![Prerequisites](https://img.shields.io/badge/Prerequisites-EiAPS%20&%20JaP-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+[![Language](https://img.shields.io/badge/Language-Sessions%20in%20German,%20Materials%20in%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Evaluations](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html)
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
