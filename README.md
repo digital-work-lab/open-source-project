@@ -20,6 +20,14 @@ Feedback and suggestions for improvement are always welcome. Please open issues 
 
 To reuse the materials, you can copy individual elements or [fork](https://github.com/digital-work-lab/open-source-project/fork) the repository.
 
+## Pedagogical Foundations
+
+Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". *Journal of Information Systems Education*, 36(1). (see [summary](https://digital-work-lab.github.io/rethink-git-teaching/))
+
+## Citation
+
+Wagner, G., Thurner, L., Tang, C., and Ott, S. (2024). The Open-Source Project. Zenodo. https://doi.org/10.5281/zenodo.13871275
+
 ## License
 
 The contents are licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
