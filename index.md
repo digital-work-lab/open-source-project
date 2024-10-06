@@ -17,6 +17,7 @@ permalink: /
 [![Delivery](https://img.shields.io/badge/Delivery-Sessions%20on--site%20,%20Group--work%20anywhere-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
 [![Evaluations](https://img.shields.io/badge/Rating-★★★★★%20(4.5%20/%205)-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html)
+![Completion](https://img.shields.io/badge/Enrollment-Completed%20by%2029-green)]
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 [![GitHub stars](https://img.shields.io/github/stars/digital-work-lab/open-source-project.svg?style=social&label=Star)](https://github.com/digital-work-lab/open-source-project/stargazers)
