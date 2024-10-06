@@ -20,6 +20,7 @@ has_toc: true
 ## Preparation
 
 - [ ] Update dates and rooms for sessions
+- [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
 
 ## Week 1: Introduction, topics, and groups
