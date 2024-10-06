@@ -86,7 +86,7 @@ https://unsplash.com/de/fotos/ieic5Tq8YMk
 ![bg right:35% width:350px](../assets/github-contributors.png)
 
 <!-- 
-https://sean-coughlin.medium.com/market-yourself-with-a-killer-github-readme-cf529264453
+https://blog.seancoughlin.me/market-yourself-with-a-killer-github-readme
 
 Git und Pyhton kurz erkären/motivieren
 
