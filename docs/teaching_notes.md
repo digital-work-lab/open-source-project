@@ -241,7 +241,7 @@ please add @student_github_id for code.
 > 
 > ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
 > 
-> https://digital-work-lab.github.io/open-source-project/output/06-presentations.html
+> https://digital-work-lab.github.io/open-source-project/output/06-code_review.html
 > 
 > Grundsätzlich ist die Idee, die Maintainer-Perspektive einzunehmen und Ihr Wissen aus dem Projekt auf ein sehr ähnliches Thema zu übertragen.
 > 
