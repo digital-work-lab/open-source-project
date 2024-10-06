@@ -1,4 +1,4 @@
-name: Lychee links
+name: Link checker
 
 on:
   repository_dispatch:
