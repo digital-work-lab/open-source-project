@@ -5,7 +5,7 @@
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/open-source-project/pages.yml?label=documentation)
 [![DOI](https://zenodo.org/badge/697812022.svg)](https://doi.org/10.5281/zenodo.13871275)
 
-Welcome! The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich Universität Bamberg.
+Welcome! The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
 You can find more information on the following pages:
 
 - [Project page](https://digital-work-lab.github.io/open-source-project/)

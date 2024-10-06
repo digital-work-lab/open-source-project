@@ -23,7 +23,7 @@ permalink: /
 [![GitHub stars](https://img.shields.io/github/stars/digital-work-lab/open-source-project.svg?style=social&label=Star)](https://github.com/digital-work-lab/open-source-project/stargazers)
 
 Welcome!
-The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich Universität Bamberg.
+The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
 You can find all information about this project in our [syllabus](docs/syllabus.html).
 
 <!-- 
