@@ -7,14 +7,32 @@ has_toc: true
 
 # Week 3: Python (Teaching notes)
 
+# Preparation
 
-Codespaces:
+```
+git checkout tutorial_python
+git rebase -i HEAD~16
+# edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml / poetry update to update poetry.lock
+git rebase main
+git push -f
+```
 
-shell:
-cd ..
-mkdir data
-Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
-open two separate shells
+- update git-commit-shas?
+- checkout tutorial2 branch (tutorial branch should be available as a backup)
+
+- before switching to tutorial/after the tutorial:
+run pip3 install -e . (to take code from the right repository)
+
+- print the diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate my life-coding)
+-. At the end: run pip install e in your project (otherwise, you will run the tutorial Version. 
+
+
+# Short group sessions
+
+- who forked/leads
+- clear announcement for overbooked groups
+
+ask: who has a working machine? -> form groups around them!
 
 
 

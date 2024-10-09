@@ -7,6 +7,10 @@ nav_exclude: true
 
 # Week 12: Code review session (teaching notes)
 
+# Preparation
+
+Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/evaluation)
+
 ## Introduction:
 
 - Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)
