@@ -270,12 +270,12 @@ Long, J. (2009). Open source software development experiences on the students' r
 
 **Code: Functionality**
 
-- Correct implemention of the specified features and functionalities, validating input parameters, and handling edge cases.
+- Correct implemention of the specified features in a CLI interface, which validates input parameters.
 - Unit tests covering critical parts of the code.
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as suggested by pylint and the pre-commit hoooks defined in the repository.
+- Adherence to Python coding standards, as defined in the pre-commit hoooks defined in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
 - Code structure and readability.
 
@@ -293,14 +293,15 @@ Go to the [CoLRev project repository](https://github.com/CoLRev-Ecosystem/colrev
 
 Form groups of three and try to find the following information in 10 minutes:
 
-1. How many commits, contributors, and downloads does the project have? What's the test coverage?
-2. Where is the documentation and how can I install CoLRev?
-3. What's the license and where can we find information on how to contribute to the project?
-4. What information should be provided for bug reports, where can I open a feature request?
-5. How many issues are open vs. closed? How many pull requests are open vs. closed?
-6. How long do workflows with tests or code formatting run, when did the last one fail?
-7. What is "unpaywall" used for in the project?
-8. Where can we find the features planned for milestone v0.12.0 (due March 1st)?
+1. How many commits, contributors, and downloads does the project have? What is the test coverage?
+2. How does CoLRev compare to related tools? Which tool would you choose and why?
+3. Where is the documentation and how can I install CoLRev?
+4. What is the license and where can we find information on how to contribute to the project?
+5. What information should be provided for bug reports, where can I open a feature request?
+6. How many issues are open vs. closed? How many pull requests are open vs. closed?
+7. How long do workflows with tests or code formatting run, when did the last one fail?
+8. What is "unpaywall" used for in the project?
+9. Where can we find the features planned for the next milestone?
 
 <!-- 
 "Schnitzeljagd" - auf Zeit
