@@ -11,7 +11,7 @@ has_toc: true
 > **Info**
 > The teaching notes include materials for the instructor and teaching assistants.
 
-- [Session notes: Topics](docs/week_1_teaching_notes.html)
+- [Session notes: Topics](week_1_teaching_notes.html)
 - [Session notes: Git](week_2_git_teaching_notes.html)
 - [Session notes: Pyhton](week_3_python_teaching_notes.html)
 - [Session notes: Best-practices](week_5_best_practices_teaching_notes.html)
@@ -220,7 +220,7 @@ VC post (16.12.24)
 
 See [code review session notes](code_review_session.html)
 
-- Prepare [evaluation sheets](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/evaluation_project)
+- Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation)
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
