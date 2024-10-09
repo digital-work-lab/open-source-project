@@ -88,9 +88,22 @@ Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
 open two separate shells
 ```
 
+# Entrypoint
+
+- Explain `__main__`
+
+-> commit: pre-commit hooks!
+-> explain later (they do some formatting and warn us if there are code quality issues)
+
+Goal: orientation/read code, try to figure out things
+
 # Creating dictionaries
 
 Optional additional challenge: use the constants as keys (package development docs)
+
+# External libraries
+
+after 2-3 minutes: write BibtexParser on the blackboard
 
 # JIF labeler:
 
@@ -120,3 +133,41 @@ Google
 Explain difference between positional and keyword arguments
 
 Note: it can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
+
+Pylint example.
+
+example:
+************* Module colrev.ops.built_in.search_sources.aisel
+colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+
+
+# Python session 2 (end)
+
+run the pre-commit hooks a few times to illustrate the typing information
+
+## Object-oriented programming
+
+Important: try to program using objects (instead of procedural programming)
+
+if record["journal"] == "MIS Quarterly":
+KeyError: 'journal'
+-> if statement (better: if "jounal" not in record: return)
+
+Notice: when creating the run() method, the jif_labeler_instance switches to "self".
+
+## Using CoLRev infrastructure
+
+go to API reference
+navigate through the classes / dataset
+
+
+TBD:
+  - search: run an api-search example, examine the commit message (settings changed! -> reference implementation)
+-> we add a query -> docs: interface definitions: searchsource.add_endpoint(), run_search()
+  -> see interfaces (standardized function parameters/names)
+  - where to find the built_in reference implementation (docs/architecture and directories), how to add/remove in the settings
+  -> see package_endpoint definitions (package_manager, docs)
+
+  continue: prep/validation
+
+  continue to data: show advice?
