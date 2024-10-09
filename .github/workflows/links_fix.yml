@@ -1,0 +1,102 @@
+name: Link checker
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+  schedule:
+    - cron: '10 2 * * 3'
+
+jobs:
+  externalLinkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+
+      - name: Create Issue From File
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
+  internalLinkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Setup git
+        run: |
+          git config --global user.name "Links Fixer"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global url.https://github.com/.insteadOf git://github.com/
+      - name: Set branch name
+        run: |
+          echo "BRANCH_NAME=link-fix-$(date '+%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+          echo ${{ env.BRANCH_NAME }}
+      - name: Switch to branch ${{ env.BRANCH_NAME }}
+        run: |
+          git checkout -b ${{ env.BRANCH_NAME }}
+      - name: Fix links
+        run: |
+          python .github/workflows/link_fix.py
+        continue-on-error: false
+
+      # Check if broken_links.md exists before creating the issue
+      - name: Check for broken links file
+        id: broken_links
+        run: |
+          if [ -f ./broken_links.md ]; then
+            echo "Broken links file found"
+            echo "found=true" >> $GITHUB_ENV
+          else
+            echo "Broken links file not found"
+            echo "found=false" >> $GITHUB_ENV
+          fi
+        continue-on-error: false
+
+      # Create issue if the broken_links.md file exists
+      - name: Create Issue From File
+        if: env.found == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken internal links report
+          content-filepath: ./broken_links.md
+          labels: report, automated issue
+
+      - name: Determine if changes have been made
+        id: changed
+        run: |
+          rm -f broken_links.md
+          echo "has_changes=$(git status --porcelain | wc -l | awk '{print $1}')" >> $GITHUB_OUTPUT
+        continue-on-error: false
+        
+      - name: Commit changes if any
+        if: steps.changed.outputs.has_changes != '0'
+        run: |
+          git commit -a -m 'Fix links'
+          git push --set-upstream origin ${{ env.BRANCH_NAME }}
+
+      - name: Delete branch if no changes
+        if: steps.changed.outputs.has_changes == '0'
+        run: |
+          git checkout main && git branch -D ${{ env.BRANCH_NAME }}
+
+      - name: Create pull request
+        if: steps.changed.outputs.has_changes != '0'
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: "${{ env.BRANCH_NAME }}"
+          destination_branch: "main"
+          pr_title: "Fix links"
+          pr_body: |
+            *Fixed links*
+
