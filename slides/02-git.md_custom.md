@@ -17,11 +17,11 @@ To collaborate with your team, you need a remote repository with shared access. 
 - ``git pull`` to retrieve changes from the remote repository
 - ``git push`` to provide changes to the remote repository
 
-For the following tasks, you need ot [sign-up for Github](https://github.com/join).
+For the following tasks, you need ot [sign-up for Github](https://github.com/join){: target="_blank"}.
 
 ---
 
-Go to Github and [create a new remote repository](https://github.com/new): Enter ``test-repo`` as the name and press ``Create Repository``.
+Go to Github and [create a new remote repository](https://github.com/new){: target="_blank"}: Enter ``test-repo`` as the name and press ``Create Repository``.
 
 Now, we should be able to follow the instructions and push our local repository to the remote:
 
@@ -48,7 +48,7 @@ cat ~/.ssh/id_                                      # Instead of pressing ENTER,
 ssh-ed25519 AAAC3NZ****************SdH11lYh gerit.wagner@uni-bamberg.de
 ```
 
-Next, add the ssh key in your GitHub settings (see [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)).
+Next, add the ssh key in your GitHub settings (see [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account){: target="_blank"}).
 
 <!--
 ask: do you know about symmetric/asymmetric (public/private) keys? -->
