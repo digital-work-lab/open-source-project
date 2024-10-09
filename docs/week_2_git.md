@@ -34,8 +34,11 @@ In this session, we have covered the fundamentals of Git, including branching, c
 
 
 {: .see_also }
+> ## Additional Materials
+>
+> - An explanation of [Internal Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
-## Supporting Materials and Pedagogical Foundations
+## Pedagogical Foundations
 
 The foundations for the Git session are based on our recent paper (Wagner and Thurner 2025), which is peer-reviewed, based on pedagogical theory, and publicly accessible (see [link](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}).
 
