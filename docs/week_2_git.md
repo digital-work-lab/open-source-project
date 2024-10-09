@@ -34,8 +34,6 @@ In this session, we have covered the fundamentals of Git, including branching, c
 
 
 {: .see_also }
-> ## Additional Materials
->
 > - An explanation of [Internal Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 ## Pedagogical Foundations
