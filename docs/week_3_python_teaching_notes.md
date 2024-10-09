@@ -17,6 +17,8 @@ git rebase main
 git push -f
 ```
 
+Solution note: [sheet](../assets/python-tutorial-notes.odt)
+
 - update git-commit-shas?
 - checkout tutorial2 branch (tutorial branch should be available as a backup)
 
