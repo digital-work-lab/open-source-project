@@ -121,9 +121,9 @@ Start our development environment on GitHub Codespaces
 
 Recommended branch setup in your fork:
 
-1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed.
-2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``.
-3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``).
+1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
+2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
+3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
 
 <!--
 This will ensure that you will always have fast-forward merges.
