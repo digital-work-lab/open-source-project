@@ -7,8 +7,8 @@ All directories must be set up in the same environment and commands (colrev ...,
 
 2. Set up separate data and colrev directory
 
-Data directory: either an empty directory or a directory containing the `settings.json` file (see [example](https://github.com/CoLRev-Environment/example))
-CoLRev directory: contains the `pyproject.toml` file (see [colrev](https://github.com/CoLRev-Environment/colrev))
+Data directory: either an empty directory or a directory containing the `settings.json` file (see [example](https://github.com/CoLRev-Environment/example){: target="_blank"})
+CoLRev directory: contains the `pyproject.toml` file (see [colrev](https://github.com/CoLRev-Environment/colrev){: target="_blank"})
 
 ls/cd/...
 visual-studio code...
