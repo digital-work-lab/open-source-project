@@ -9,7 +9,7 @@ nav_exclude: true
 
 # Preparation
 
-Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/evaluation)
+Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/evaluation){: target="_blank"}
 
 ## Introduction:
 

@@ -220,11 +220,11 @@ VC post (16.12.24)
 
 See [code review session notes](code_review_session.html)
 
-- Prepare [evaluation sheets](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/evaluation_project)
+- Prepare [evaluation sheets](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/evaluation_project){: target="_blank"}
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
 - If students test the code in Codespaces, the workspace should be started early.
 - If projects require access tokens (API keys), provide them to the group
-- To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199)) and merge them into the feature branch (pull request) instead of main:
+- To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199){: target="_blank"}) and merge them into the feature branch (pull request) instead of main:
 
 ```
 @all-contributors
@@ -235,7 +235,7 @@ please add @student_github_id for code.
 - Run `colrev env --update_package_list` and update documentation before merging
 - Add student contributors to the [hall of fame](hall_of_fame.html)
 - Remind students to complete the evaluation.
-- Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8) in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html) - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html), mention our teaching cases, and encourage students to contribute their feedback
+- Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"} in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
 
 - For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
 - Ask students: interested in observing the merge and release process?

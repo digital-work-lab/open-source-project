@@ -7,7 +7,7 @@ nav_exclude: true
 
 # Week 1: Topics (Teaching notes)
 
-Briefly show/explain the [page](https://digital-work-lab.github.io/open-source-project/)
+Briefly show/explain the [page](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
 
 Mention our comprehensive improvement efforts. We already have very good evaluations, but we stretch to improve even more!
 
