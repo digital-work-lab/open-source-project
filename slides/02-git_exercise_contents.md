@@ -135,7 +135,7 @@ In the following, we work with patches to save time while creating changes that 
 
 **Check**: The commands did not produce any error messages.
 
-For the next steps, download the code for [colrev](https://github.com/CoLRev-Ecosystem/colrev) as a zip file (through the `Code` button), extract the files and move them to your `colrev_project` directory*. Add all changes and create a new version. -->
+For the next steps, download the code for [colrev](https://github.com/CoLRev-Ecosystem/colrev){: target="_blank"} as a zip file (through the `Code` button), extract the files and move them to your `colrev_project` directory*. Add all changes and create a new version. -->
 
 ---
 
@@ -164,9 +164,9 @@ TODO : create another version and check how gitk displays the unstaged/staged ch
 <!-- 
 ---
 
-Go to the [colrev](https://github.com/CoLRev-Ecosystem/colrev) project on GitHub and explore the version history.
+Go to the [colrev](https://github.com/CoLRev-Ecosystem/colrev){: target="_blank"} project on GitHub and explore the version history.
 - Navigate to `commits` and check which files were modified in the most recent version
-- From the [main page](https://github.com/CoLRev-Ecosystem/colrev), navigate to `colrev/dataset.py` and click on `Blame` to see what revision and author last modified specific lines of code
+- From the [main page](https://github.com/CoLRev-Ecosystem/colrev){: target="_blank"}, navigate to `colrev/dataset.py` and click on `Blame` to see what revision and author last modified specific lines of code
 
 **Check**: When was the `load_records_dict` function last modified?
 
