@@ -34,6 +34,14 @@ Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-
 
 ### Notes on the process (overall: completed in 50-60 minutes)
 
+How to pull remote branch from somebody else's repo
+
+```
+git remote add coworker git://path/to/coworkers/repo.git
+git fetch coworker
+git checkout --track coworker/foo
+```
+
 - If some of the students do not actively contribute, ask the group to switch (inactive students taking the lead on the laptop)
 - Fetch/switch: clone from the right remote (forked) repository
 - Remember to run pip install -e . (to actually execute code from the other group)
