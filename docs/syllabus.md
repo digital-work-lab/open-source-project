@@ -93,7 +93,7 @@ The detailed course outline is available on the [main page](../index.html). We c
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as suggested by pylint and the pre-commit hoooks defined in the repository.
+- Adherence to Python coding standards, as suggested by pylint and the pre-commit hooks defined in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
 - Appropriate code structure and readability, with a logical organization of code into modules and functions, use of meaningful variable and function names, and clear and concise comments explaining complex sections.
 

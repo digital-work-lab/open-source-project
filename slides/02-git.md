@@ -346,7 +346,7 @@ Do you see any challenges?
 git questions: understand linearized git history displayed on github / reading gitk DAG
 
 Illustrate on the whiteboard : new/alternative commit with the same parent, all following commits are applied on top of the new commit
-- commit shas change!
+- commit SHAs change!
 - Refer to the slide on commits
 - Maybe even illustrate 
 -->

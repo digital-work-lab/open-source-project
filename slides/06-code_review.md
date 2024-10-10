@@ -24,7 +24,7 @@ As a group, your goals are:
 1. Download the code from the pull request (fork) to your local machine or codespace
 2. Test whether the code works as expected
 3. Debug and improve the code (if necessary)
-4. Document your asessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
+4. Document your assessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
 
 <!--
 Each group gives a short summary of the contribution. Groups are then assigned to a selected pull request.

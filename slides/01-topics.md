@@ -275,7 +275,7 @@ Long, J. (2009). Open source software development experiences on the students' r
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as defined in the pre-commit hoooks defined in the repository.
+- Adherence to Python coding standards, as defined in the pre-commit hooks defined in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
 - Code structure and readability.
 

@@ -59,7 +59,7 @@ VC post (advertise the project in the lecture):
 
 ## Week 2: Introduction to Git
 
-**In preparation of the session**: check wheter the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+**In preparation of the session**: check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 
 
 VC post (21.10.25)

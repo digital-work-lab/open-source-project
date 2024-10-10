@@ -11,7 +11,7 @@ nav_exclude: true
 
 - Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)
 - gute Abschlussquote
-- komplexes Projekt (git/pre-commit hooks/Python/Python pakete/CoLRev/...)
+- komplexes Projekt (git/pre-commit hooks/Python/Python Pakete/CoLRev/...)
 - Summarize best practices: code formatters, working in pull-requests, ...
 - entsprechende Kompetenzen werden in der Bewertung berücksichtigt.
 - Bewertung des praktischen Teils macht 70% aus

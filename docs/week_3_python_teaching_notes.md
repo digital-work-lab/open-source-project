@@ -19,7 +19,7 @@ git push -f
 
 Solution note: [sheet](../assets/python-tutorial-notes.odt)
 
-- update git-commit-shas?
+- update git-commit SHAs?
 - checkout tutorial2 branch (tutorial branch should be available as a backup)
 
 - before switching to tutorial/after the tutorial:
@@ -153,7 +153,7 @@ Important: try to program using objects (instead of procedural programming)
 
 if record["journal"] == "MIS Quarterly":
 KeyError: 'journal'
--> if statement (better: if "jounal" not in record: return)
+-> if statement (better: if "journal" not in record: return)
 
 Notice: when creating the run() method, the jif_labeler_instance switches to "self".
 
