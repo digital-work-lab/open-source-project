@@ -5,7 +5,6 @@ Zenodo
 doi
 https
 zenodo
-Ocotber
 Foto
 Kipphan
 nav
