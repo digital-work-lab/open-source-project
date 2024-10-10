@@ -97,7 +97,7 @@ Github platform: tests, continuous integration, forks, ...
 
 # The project: CoLRev
 
-Collaborative Literature Reviews (CoLRev) is an open-source environment for collaborative literature reviews. It integrates with differerent synthesis tools, takes care of the data, and facilitates Git-based collaboration.
+Collaborative Literature Reviews (CoLRev) is an open-source environment for collaborative literature reviews. It integrates with different synthesis tools, takes care of the data, and facilitates Git-based collaboration.
 
 The following features stand out:
 
@@ -217,7 +217,7 @@ ASK: how many ISM (Java not mandatory) and WI?
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT (risk of copyright infringement)
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
-- Reach out and schedule individual hacking sesisons via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
+- Reach out and schedule individual hacking sessions via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
 <!--
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
@@ -270,7 +270,7 @@ Long, J. (2009). Open source software development experiences on the students' r
 
 **Code: Functionality**
 
-- Correct implemention of the specified features in a CLI interface, which validates input parameters.
+- Correct implementation of the specified features in a CLI interface, which validates input parameters.
 - Unit tests covering critical parts of the code.
 
 **Code: Quality**
@@ -335,7 +335,7 @@ Show the issues/the good-first-issue (and the code-markers)
 
 # CoLRev: Demo and Topics
 
-An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [worfklow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
+An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [workflow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
 A brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
 <!-- 
 The topics cover:

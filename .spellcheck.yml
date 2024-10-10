@@ -25,3 +25,5 @@ matrix:
     sources:
       - '*.md'
       - 'docs/**/*.md'
+      - 'slides/**/*.md'
+      - 'teaching_notes/**/*.md'

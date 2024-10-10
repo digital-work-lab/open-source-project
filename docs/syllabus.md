@@ -129,7 +129,7 @@ possibly a “how to succeed” section
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT because you would risk copyright infringement
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
-- Reach out and schedule individual hacking sesisons via [calendly](https://calendly.com/gerit-wagner/30min){: target="_blank"} to discuss challenges and get feedback
+- Reach out and schedule individual hacking sessions via [calendly](https://calendly.com/gerit-wagner/30min){: target="_blank"} to discuss challenges and get feedback
 -->
 
 ## Teaching approach
