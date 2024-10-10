@@ -31,7 +31,7 @@ If you have any questions during or after the sessions, we're here to assist. We
 
 
 After you have used CoLRev in the last notebook, it is instructive to create a project and run through the operations to understand how CoLRev works.
-To do this, we recommend to start a Codespace from the fork of your group.
+To do this, we recommend starting a Codespace from the fork of your group.
 You will also need to create a separate project directory in the Codespace (as explained in the notebooks).
 Try to run the operations presented in the [asciinema recording](https://colrev-environment.github.io/colrev/){: target="_blank"} in the CoLRev documentation and analyze how the data in the project (Git) repository changes.
 
