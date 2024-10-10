@@ -47,6 +47,8 @@ If you would like to participate, please attend the introductory session.
 Details regarding registration and topic assignment will be announced during this session.
 We look forward to meeting you!
 
+To sign up for our e-mails: [![Course Registration](https://img.shields.io/badge/Sign%20up%20-Click%20Here-blue)](mailto:laureen.thurner@uni-bamberg.de?cc=lt@web.de&subject=Course%20Registration&body=I%20would%20like%20to%20register%20for%20the%20open-source%20project.)
+
 ## Goals
 
 - **Hands-on experience** as a contributor to a real open-source project.
