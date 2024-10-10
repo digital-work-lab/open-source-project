@@ -14,7 +14,7 @@ nav_order:  9
 > Your feedback is voluntary and anonymous.
 > There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
 > So please feel free to be open and honest in your responses.
-> Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html) (♻️), and we highly value your opinions.
+> Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"} (♻️), and we highly value your opinions.
 > 
 > Thank you for your time and honest feedback!
 
