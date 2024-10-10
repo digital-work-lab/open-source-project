@@ -26,3 +26,10 @@ xychart-beta
     y-axis "Number of students" 0 --> 20
     line [14, 3, 12]
 ```
+
+
+We kindly invite you to participate in the upcoming course evaluation. Your feedback is completely voluntary and anonymous, so please feel free to be open and honest in your responses. Your participation helps us improve the quality of our courses, and we highly value your opinions.
+
+Please rest assured that your responses will remain confidential, and there is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
+
+Thank you for your time and honest feedback!
