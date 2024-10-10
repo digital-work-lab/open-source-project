@@ -12,20 +12,6 @@ Learning Git, especially branching, committing, and collaborating, is essential 
 {: .objective }
 In this session, our goal is to understand how to use Git to develop software in teams by covering the areas of branching, committing, and collaborating.
 
-In the session, we will start with the concepts and iterate between the slides and the Jupyter notebooks.
-
-{: .text-center}
-```mermaid
-flowchart LR
-    slides["<a href="../output/02-git.html" target="_blank">Slides</a> illustrating the concepts"] ---> notebooks["<a href="https://codespaces.new/digital-work-lab/practice-git" target="_blank">Notebooks</a> for practice"]
-    notebooks --> slides
-```
-
-In this session, we have covered the fundamentals of Git, including branching, committing, and collaborating, which are essential for effective teamwork in projects like the CoLRev Python package. Next week, we will dive into learning Python, where you will apply the Git commands you learned today to manage your Python scripts. Be prepared to commit different changes in your scripts, ensuring you can track and manage your progress using Git's powerful version control features.
-
-{: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg) To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)  ([deadline](../index.html#deliverables)).
-
 ## Materials
 
 | Session      | Slides                                                                                                                        | Notebook |
@@ -35,6 +21,11 @@ In this session, we have covered the fundamentals of Git, including branching, c
 
 {: .see_also }
 > - An explanation of [Internal Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects){: target="_blank"}
+
+In this session, we have covered the fundamentals of Git, including branching, committing, and collaborating, which are essential for effective teamwork in projects like the CoLRev Python package. Next week, we will dive into learning Python, where you will apply the Git commands you learned today to manage your Python scripts. Be prepared to commit different changes in your scripts, ensuring you can track and manage your progress using Git's powerful version control features.
+
+{: .deliverable }
+![tasks logo](../assets/iconmonstr-clipboard-5.svg) To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)  ([deadline](../index.html#deliverables)).
 
 ## Pedagogical Foundations
 

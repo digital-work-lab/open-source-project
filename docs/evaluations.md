@@ -27,7 +27,7 @@ xychart-beta
     line [14, 3, 12]
 ```
 
-{: .highlight }
+{: .info }
 > We kindly invite you to participate in the upcoming course evaluation.
 > Your feedback is completely voluntary and anonymous, so please feel free to be open and honest in your responses.
 > Your participation helps us improve the quality of our courses, and we highly value your opinions.
