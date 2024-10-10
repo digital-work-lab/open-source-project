@@ -26,7 +26,7 @@ At the same time, if you continue to struggle with the same error for more than 
 We are here to help and make sure that you achieve steady progress throughout the group work phase.
 
 We encourage you to open the pull request early.
-You can still work on your branch and the pull request will automatically reflect the latest changes of that (online) branch.
+You can still work on your branch, and the pull request will automatically reflect the latest changes to that (online) branch.
 In fact, starting pull requests early is good practice to allow for some time for code review and improvements.
 
 {: .deliverable }
