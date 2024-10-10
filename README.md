@@ -1,4 +1,6 @@
-<img alt="Project Logo" src="https://raw.githubusercontent.com/digital-work-lab/open-source-project/main/assets/images/open-source-project.png">
+<p align="center">
+    <img alt="Project Logo" src="https://raw.githubusercontent.com/digital-work-lab/open-source-project/main/assets/images/open-source-project.png" width="600px">
+</p>
 
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
