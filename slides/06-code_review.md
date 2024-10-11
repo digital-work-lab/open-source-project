@@ -26,12 +26,6 @@ As a group, your goals are:
 3. Debug and improve the code (if necessary)
 4. Document your assessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
 
-<!--
-Each group gives a short summary of the contribution. Groups are then assigned to a selected pull request.
-
-Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/)
--->
-
 ---
 
 # The Process
@@ -45,14 +39,11 @@ Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best
     - Stage 3 (10 min)
 3. Short summary of the code review (2-5 min)
 
-<!-- 2. Short summary presentation of the code contribution -->
-
 ![bg right:30% width:300px](../assets/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg)
 
 ---
 
 <!-- _class: centered -->
-
 
 # Short break
 
@@ -66,7 +57,6 @@ Our feedback for you
 
 - On the code contribution
 - On the project
-<!-- https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html#osd-ws2324 -->
 
 Your feedback for us
 
@@ -104,12 +94,6 @@ Remember - your work helps researchers. Many have already commended CoLRev, incl
 - If you enjoyed the project, please help us spread the word and recommend our project!
 
 ![bg right:50% width:400px](../assets/Thank-you.jpg)
-
-<!-- 
----
-
-TEST: [ask a question](https://github.com/digital-work-lab/open-source-project/issues/new)
--->
 
 ---
 

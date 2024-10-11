@@ -52,11 +52,6 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 **How can I get access rights to create branches in the fork?**
 - Ask the team lead to invite you to the fork (see [step 2](https://digital-work-lab.github.io/open-source-project/output/02-git.html#32)).
 
-<!--
-Packages directory: see https://colrev-environment.github.io/colrev/dev_docs/packages.html
-Anpassung der README-Datei Teil der Aufgabe? (vermutlich bezogen auf die top-level README datei: nein, das mache ich als Maintainer. Anpassung der package-README-Datei ist Teil der Aufgabe (Dokumentation))
--->
-
 ---
 
 # Work status: Environment setup
@@ -108,7 +103,6 @@ Summarize the work status per group:
 
 ---
 
-
 # Practice: Git merging strategies
 
 Start our development environment on GitHub Codespaces
@@ -154,45 +148,6 @@ Note: later merge into ``remotes/origin/main`` will be decided by the maintainer
 <!-- _class: centered -->
 
 # Open questions?
-
-<!--
-
-# Ideas for Project Planning
-
-- Show how to use issues/pull requests/wikis in forks
-- Suggest to open pull requests early (to discuss, coordinate...)
-
----
-
-# Best practices and conventions
-
-
-- Based on student feedback
-
-- pre-commit hooks (code quality) and tests (check whether it runs on all branches)
-- Commit practices (atomic, no unrelated materials)
-- Remember to sync regularly between remotes/origin and your fork
-
-- Option: ask students to refactor their code in parallel (e.g., docstrings, variable naming, typing, breaking down methods) and merge (start from new branches)
-Notes:
-
-- A walk-through explaining colrev search and SearchSources (showing the changes in settings and records retrieved), and guidelines in testing code would be helpful.
-- Refresh skills related to Git, gitk, fork, using of branches/pull-requests, issues, and merging.
-- Additional resources (e.g., links to interactive tutorials)
-- Explanations for gitk and Linux shell commands (ls, cs, ...)
-- Workflow utilities (such as storing custom commands in bash_aliases) may be helpful.
-
-Use [colrev-template](https://github.com/CoLRev-Environment/colrev-template) in GitHub codespaces
-Plan: 45 min
-
--> continue with the setup in https://github.com/CoLRev-Environment/colrev  (including alias etc.)
-Plan: 45 min
-
-Fragen: 30-40 min
-
-Test and practice merge/merge conflict
-
--->
 
 ---
 
