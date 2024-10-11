@@ -37,6 +37,13 @@ run pip3 install -e . (to take code from the right repository)
 ask: who has a working machine? -> form groups around them!
 
 
+# Learning objectives:
+
+highlight:
+
+- Use google/Stackoverflow on any error/challenge that comes up!
+- Using Code quality checkers and tests
+
 
 # Python
 
@@ -143,6 +150,14 @@ example:
 colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
 
 
+# Best practices
+
+small examples: clarify the "big goal" and start with small steps
+linters: already installed
+
+Code highlighting (visual studio): functions yellow, variables light blue, instances blue, classes green, strings orange
+python debuggers/plugins (for regular Python programming / special cases like memory usage or distributed systems)
+
 # Python session 2 (end)
 
 run the pre-commit hooks a few times to illustrate the typing information
@@ -173,3 +188,14 @@ TBD:
   continue: prep/validation
 
   continue to data: show advice?
+
+
+# Next: Best practice and hacking sessions (per group)
+
+Pair-programming
+
+which CoLRev-objects or libraries will be needed, which steps are required
+
+- Create a fork for the team, give access to team members, and add a note to the issue feed
+- All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
+- Check the resources provided with the issue, discuss the project, and make plans

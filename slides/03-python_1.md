@@ -12,20 +12,6 @@ paginate: true
 
 # Project: Introduction to Python (1)
 
-<!--
----
-
-# Short group sessions
-
-- who forked/leads
-- clear announcement for overbooked groups
-
-ask: who has a working machine? -> form groups around them!
-
-https://github.com/dirediredock/PythonWorkshop
-
--->
-
 ---
 
 # Project: Groups, forks and setup
@@ -43,18 +29,9 @@ https://github.com/dirediredock/PythonWorkshop
 - Learn good debugging and development practices
 - Understand how to extend a Python package (CoLRev)
 
-<!--
-- Use google/Stackoverflow on any error/challenge that comes up!
-- Using Code quality checkers and tests
--->
-
 # Groups
 
 - Form groups of three to four, discuss your solutions, and solve problems together.
-
-<!-- 
-FIRST: Who has a working machine?
--->
 
 ---
 
@@ -78,20 +55,6 @@ FIRST: Who has a working machine?
 
 ![width:700px center](../assets/python_overview_1.PNG)
 
-<!-- 
-In this session (2x90 min), we will:
-
-- [ ] Create and run a Python package command
-- [ ] Create and modify a dictionary data structure
-- [ ] Use an external library to read BibTeX records (as dicts)
-
-In the following session (2x90 min), we will:
-
-- [ ] Refactor to object-oriented code
-- [ ] Switch to a real CoLRev project and load the records using the CoLRev classes
-- [ ] Save changes and create commit
- -->
-
 ---
 
 # Writing and running Python code
@@ -99,35 +62,11 @@ In the following session (2x90 min), we will:
 
 ![width:700px center](../assets/python_code_run.PNG)
 
-<!-- 
-- Create a separate **project directory** to run the colrev commands.
-- To modify colrev functionality, switch to the **colrev package directory**.
-
-Remember: cd ..., mkdir ... (open two shells)
--->
-
 ---
 
 # Python packages
 
 ![width:700px center](../assets/python_package.PNG)
-
-<!--
----
-
-To run a Python script, simply run
-
-```
-python script.py
-```
-
-When a Python package (such as CoLRev) is installed, you can call it directly through the cli (providing parameters if necessary):
-
-```
-colrev status
-```
-
- Note : you can call installed python packages from any directory. scripts must be called by their relative/absolute path -->
 
 ---
 
@@ -145,20 +84,6 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 - As the session progresses, you can checkout the current commits.
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 
-<!-- 
-All: update colrev and reinstall with pip!
-
-explain editable installation:
-pip3 install -e .
-
-git reset --hard HEAD~5 && git pull
-
-Remember: what does the command do?
-
-Note: you can also continue with your version and do the reset --hard at any time.
-
-You will have all the code available to go over again / after this session
--->
 ---
 
 # Best practices
@@ -171,15 +96,6 @@ You will have all the code available to go over again / after this session
 - When exceptions are thrown, read the Traceback:
 
 ![width:500px center](../assets/python-exception-trace.png)
-
-<!-- 
-small examples: clarify the "big goal" and start with small steps
-linters: already installed
-
-
-Code highlighting (visual studio): functions yellow, variables light blue, instances blue, classes green, strings orange
-python debuggers/plugins (for regular Python programming / special cases like memory usage or distributed systems)
--->
 
 ---
 
