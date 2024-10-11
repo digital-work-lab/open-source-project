@@ -67,7 +67,7 @@ The outline for sessions is below:
 | 3    | [Introduction to Python](docs/week_3_python.html)    | October 28, 8.00-12.00  <br> October 30, 14.00-18.00  | WE5 1.003  <br> WE5 1.003 |
 | 5    | [Best practices](docs/week_5_best_practices.html)    | November 13, 14.00-16.00                              | WE5 1.003                 |
 | 6-11 | [Group work](docs/week_6-11_group_work.html)         | Hacking sessions                                      | WE5 1.081 or online       |
-| 12   | [Code review session](docs/week_12_code_review.html) | **TBA**                                               | ISM Labor 1.094           |
+| 12   | [Code review session](docs/week_12_code_review.html) | **TBA** (CW 3)                                        | ISM Labor 1.094           |
 
 ## Deliverables
 

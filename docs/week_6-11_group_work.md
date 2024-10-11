@@ -30,4 +30,4 @@ You can still work on your branch, and the pull request will automatically refle
 In fact, starting pull requests early is good practice to allow for some time for code review and improvements.
 
 {: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg) Create the pull request ([deadline](../index.html#deliverables)).
+![tasks logo](../assets/iconmonstr-clipboard-5.svg) Create the pull request ([deadline](../index.html#deliverables)). We will evaluate the code four days before the code review session.
