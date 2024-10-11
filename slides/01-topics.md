@@ -428,7 +428,7 @@ The instructions are online and you can make suggestions for improvements (if an
 
 We encourage you to share your feedback and suggestions on this slide deck:
 
-<a href="https://github.com/digital-work-lab/open-source-project/edit/main/01-topics.md" target="_blank">
+<a href="https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md" target="_blank">
   <img src="../assets/iconmonstr-pencil-lined.svg" alt="Edit" width="32" height="32"> Suggest specific changes by directly modifying the content
 </a>
 <br>

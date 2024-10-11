@@ -581,7 +581,7 @@ Note: we will distribute a survey asking for the current state of your project a
 
 We encourage you to share your feedback and suggestions on this slide deck:
 
-<a href="https://github.com/digital-work-lab/open-source-project/edit/main/02-git.md" target="_blank">
+<a href="https://github.com/digital-work-lab/open-source-project/edit/main/slides/02-git.md" target="_blank">
   <img src="../assets/iconmonstr-pencil-lined.svg" alt="Edit" width="32" height="32"> Suggest specific changes by directly modifying the content
 </a>
 <br>
