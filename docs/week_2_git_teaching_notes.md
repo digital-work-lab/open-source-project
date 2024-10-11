@@ -167,7 +167,7 @@ If you have the time, try the different undo operations in the session.
 
 ## Optional (???) Practice session
 
-The open-source collaboration game: [link](https://github.com/geritwagner/open-source-collaboration-game)
+The open-source collaboration game: [link](https://github.com/geritwagner/open-source-collaboration-game){: target="_blank"}
 
 
 DEMO (go back to the commit slide)
