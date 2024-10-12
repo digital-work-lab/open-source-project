@@ -35,19 +35,28 @@ jobs:
           fi
         continue-on-error: false
 
-      - name: Find existing comment
-        id: find_comment
-        uses: peter-evans/find-comment@v3
+      # Find an existing issue with the title "Assets report"
+      - name: Find existing issue
+        id: find_issue
+        uses: peter-evans/find-issue@v2
         with:
-          issue-number: 1  # Replace with your issue number
-          comment-author: 'github-actions[bot]'
-          body-includes: "Assets report"  # Keyword to identify the comment
+          title: "Assets report"
+          state: "open"
 
-      - name: Create or update comment
+      # Create new issue if no existing issue is found
+      - name: Create new issue if not found
+        if: steps.find_issue.outputs.number == ''
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Assets report
+          content-filepath: ./dangling_assets.md
+          labels: report, automated issue
+
+      # Update existing issue if found
+      - name: Update existing issue
+        if: steps.find_issue.outputs.number != ''
         uses: peter-evans/create-or-update-comment@v4
         with:
-          issue-number: 1  # Replace with your issue number
-          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          issue-number: ${{ steps.find_issue.outputs.number }}
           body-path: ./dangling_assets.md
           edit-mode: replace
-        if: env.found == 'true'
