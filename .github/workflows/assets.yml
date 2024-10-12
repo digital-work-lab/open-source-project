@@ -18,6 +18,10 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
 
+      - name: Set up GitHub CLI
+        run: |
+          sudo apt-get install -y gh
+
       - name: Identify dangling assets
         run: |
           python .github/workflows/check-assets.py
@@ -35,28 +39,27 @@ jobs:
           fi
         continue-on-error: false
 
-      # Find an existing issue with the title "Assets report"
-      - name: Find existing issue
+      - name: Search for existing "Assets report" issue
         id: find_issue
-        uses: peter-evans/find-issue@v2
-        with:
-          title: "Assets report"
-          state: "open"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Set the token
+        run: |
+          gh issue list --state open --search "Assets report" --json number --jq '.[0].number' > issue_number.txt || echo "" > issue_number.txt
+          issue_number=$(cat issue_number.txt)
+          echo "Issue number: $issue_number"
+          echo "issue_number=$issue_number" >> $GITHUB_ENV
 
-      # Create new issue if no existing issue is found
       - name: Create new issue if not found
-        if: steps.find_issue.outputs.number == ''
+        if: env.issue_number == ''
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Assets report
           content-filepath: ./dangling_assets.md
           labels: report, automated issue
 
-      # Update existing issue if found
       - name: Update existing issue
-        if: steps.find_issue.outputs.number != ''
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          issue-number: ${{ steps.find_issue.outputs.number }}
-          body-path: ./dangling_assets.md
-          edit-mode: replace
+        if: env.issue_number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Set the token
+        run: |
+          gh issue edit ${{ env.issue_number }} --body-file ./dangling_assets.md
