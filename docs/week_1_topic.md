@@ -28,7 +28,7 @@ Tasks to complete in this week:
 
 We will need the GitHub account for the Git and Python sessions.
 In these sessions, we use [GitHub Codespaces](https://github.com/features/codespaces){: target="_blank"} as a state-of-the-art development environment.
-You will also need the GitHub account to contribute to issue discussions, create a fork for your project and ultimately have your work reviewed and merged.
+You will also need the GitHub account to contribute to issue discussions, create a fork for your project, and ultimately have your work reviewed and merged.
 All information on how to do that will be covered in the following sessions.
 
 {: .deliverable }

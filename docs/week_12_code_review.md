@@ -15,10 +15,10 @@ You will adopt the perspective of a **maintainer**, i.e., a gatekeeper who takes
 
 As a group, your goals are to:
 
-- Download the code from the pull request (fork) to your local machine or codespace
+- Download the code from the pull request (fork) to your local machine or Codespace
 - Test whether the code works as expected
 - Debug and improve the code (if necessary)
-- Document your assessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
+- Document your assessment in the pull request on GitHub and suggest merging, revising, or rejecting the contribution
 
 Keep in mind that your review should be constructive and respectful, encouraging the contributors to revise their work and continue to be part of the community.
 
