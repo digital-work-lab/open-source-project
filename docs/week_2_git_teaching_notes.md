@@ -73,7 +73,7 @@ Development typically focuses on the **main branch**, which often contains the l
 - The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
 
 - Commits and their parent links form a directed acyclic graph (DAG)
-Branches are useful to develop features, test code, or fix bugs without interferring with the main branch
+Branches are useful to develop features, test code, or fix bugs without interfering with the main branch
  - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository 
 
  ## Part 2: Committing
