@@ -28,7 +28,7 @@ Keep in mind that your review should be constructive and respectful, encouraging
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Code review session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} | NA       |
 
-Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/)
+Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/){: target="_blank"}
 
 ## Project completion in week 13
 

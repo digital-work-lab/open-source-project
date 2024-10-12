@@ -76,7 +76,7 @@ Notes:
 - Explanations for gitk and Linux shell commands (ls, cs, ...)
 - Workflow utilities (such as storing custom commands in bash_aliases) may be helpful.
 
-Use [colrev-template](https://github.com/CoLRev-Environment/colrev-template) in GitHub codespaces
+Use [colrev-template](https://github.com/CoLRev-Environment/colrev-template){: target="_blank"} in GitHub codespaces
 Plan: 45 min
 
 -> continue with the setup in https://github.com/CoLRev-Environment/colrev  (including alias etc.)
