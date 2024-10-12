@@ -88,15 +88,15 @@ blockquote {
 }
 </style>
 
-- A **commit** refers to a snapshot (version) of the whole project directory, including the meta data and files
-- Commits are identified by the **SHA** fingerprint of their meta data and content\*, e.g., `98ca9`
+- A **commit** refers to a snapshot (version) of the whole project directory, including the metadata and files
+- Commits are identified by the **SHA** fingerprint of their metadata and content\*, e.g., `98ca9`
 - Commits are created in a sequence, with every commit pointing to its **parent** commit(s)
 - The **tree** object contains all files (and non-empty directories); it is identified by a SHA hash
 - Commits are created by the **git commit** command
 
 ![bg right:45% width:230px center](../assets/git-commit.png)
 
-> \* If any of the meta data or content changes, the SHA will be completely different.
+> \* If any of the metadata or content changes, the SHA will be completely different.
 
 ---
 
@@ -112,7 +112,7 @@ blockquote {
 
 - Commits form a **directed acyclic Graph (DAG)**, i.e., all commits can have one or more children, and one or more parents (except for the first commit, which has no parent). Closed directed cycles are not allowed.
 - With the **git branch \<branch-name\>** command, a separate line of commits can be started, i.e., one where different lines of commits are developed from the same parent. The branch pointer typically points at the latest commit in the line.
-- With the **git switch \<branch-name\>** command, we can select the branch on which we want to work. Switch effectively moves the HEAD pointer, which points to a particular branch and indicates where new commits are be added.
+- With the **git switch \<branch-name\>** command, we can select the branch on which we want to work. Switch effectively moves the HEAD pointer, which points to a particular branch and indicates where new commits are added.
 - With the **git merge \<other-branch\>** command, separate lines of commits can be brought together, i.e., creating a commit with two parents. The *merge commit* integrates the contents from the *\<other-branch\>* into the branch that is currently selected. The *\<other-branch\>* is not changed. 
 - Per default, Git sets up a branch named "main".
 
@@ -156,7 +156,7 @@ The **git init** command creates the `.git` directory.
 Files in the working directory can reside in three states:
 
 - New files are initially **untracked**, i.e., Git does not include new files in commits without explicit instruction.
-- With *git add*, file contents are staged and the file is tracked. Given that the file in the working directory is identical with the staged file contents, the file is **unmodified**.
+- With *git add*, file contents are staged, and the file is tracked. Given that the file in the working directory is identical with the staged file contents, the file is **unmodified**.
 - When users change a file, it becomes **modified**, i.e., the file in the working directory differs from the file contents in the staging area.
 - With *git add*, the file contents are staged again, and the file becomes **unmodified**.
 - With *git rm*, files are no longer tracked.
@@ -280,7 +280,7 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 - In the fork, it is recommended to create working branches instead of committing to the `main` branch.
 - It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
-- Syncing changes may be necessary to get bugfixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
+- Syncing changes may be necessary to get bug fixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
 
 ---
 
@@ -308,7 +308,7 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 
 <!-- pull --rebase (we discussed interactive rebase before) -->
 
-- GitHub offers the possibility to edit files directly. Are all of the three git areas available in this setting?
+- GitHub offers the possibility to edit files directly. Are all three git areas available in this setting?
 
 ---
 

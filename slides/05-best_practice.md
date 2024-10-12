@@ -128,7 +128,7 @@ Merging into shared branches:
 - Merge (commit) from ``remotes/fork/main`` into shared branch.
 -->
 
-When tasks are distributed and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
 
 - Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
 - Once the branch is online, use merge commits

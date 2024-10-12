@@ -23,7 +23,7 @@ Otto-Friedrich-Universität Bamberg
 # Your instructor
 
 - Prof. Dr. Gerit Wagner
-- At Bamberg University since October, 2022
+- At Bamberg University since October 2022
 - I work with Git, Python, and R since 2014
 - I enjoy coding, solving programming puzzles, and building tools
 - My latest and most significant project: **CoLRev**
@@ -96,10 +96,10 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 
 # How groups will form
 
-You **assign yourself to a group** when you contribute code following these steps:
-1. **Signal your intent** to contribute by joining the issue discussion on Github (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestones), before the **Git Session**, for two topics at most).
+You **assign yourself to a group** when you contribute code, following these steps:
+1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestones), before the **Git Session**, for two topics at most).
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 6 people** will be accepted per group.
-3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your Github-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
+3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
 This process ensures that **all group members make a fair contribution**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
 
@@ -107,12 +107,12 @@ This process ensures that **all group members make a fair contribution**. It is 
 
 # How you can make the project a success
 
-- Embrace the challenge and adopt a problem solving mindset
+- Embrace the challenge and adopt a problem-solving mindset
 - Take full responsibility to set up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT (risk of copyright infringement)
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
-- Reach out and schedule individual hacking sessions via [calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
+- Reach out and schedule individual hacking sessions via [Calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
 ---
 
@@ -157,8 +157,8 @@ Form groups of three and try to find the following information in 10 minutes:
 
 1. How many commits, contributors, and downloads does the project have? What is the test coverage?
 2. How does CoLRev compare to related tools? Which tool would you choose and why?
-3. Where is the documentation and how can I install CoLRev?
-4. What is the license and where can we find information on how to contribute to the project?
+3. Where is the documentation, and how can I install CoLRev?
+4. What is the license, and where can we find information on how to contribute to the project?
 5. What information should be provided for bug reports, where can I open a feature request?
 6. How many issues are open vs. closed? How many pull requests are open vs. closed?
 7. How long do workflows with tests or code formatting run, when did the last one fail?
@@ -196,7 +196,7 @@ Setup
 
 - Create a GitHub account (using your student e-mail address)
 - Test Codespaces for the Git and Python sessions: [Instructions](https://digital-work-lab.github.io/open-source-project/docs/week_1_topic.html#codespace-setup)
-- If you encounter problems, reach out after the session or before next session and we will help you.
+- If you encounter problems, reach out after the session or before the next session and we will help you.
 
 Team formation
 

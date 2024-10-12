@@ -21,10 +21,10 @@ In this session, you will **adopt the perspective of a maintainer**, i.e., a gat
 
 As a group, your goals are:
 
-1. Download the code from the pull request (fork) to your local machine or codespace
+1. Download the code from the pull request (fork) to your local machine or Codespace
 2. Test whether the code works as expected
 3. Debug and improve the code (if necessary)
-4. Document your assessment in the pull request on GitHub and suggest to merge, revise, or reject the contribution
+4. Document your assessment in the pull request on GitHub and suggest merging, revising, or rejecting the contribution
 
 ---
 
@@ -70,7 +70,7 @@ Your feedback for us
 
 # Summary (I)
 
-- You will be added as a contributor on GitHub (to opt out, send me an e-mail)
+- You will be added as a contributor on GitHub (to opt out, e-mail me)
 - Consider mentioning the contribution in your CV:
 
 **Open-Source Contributions**
@@ -89,7 +89,7 @@ CoLRev - An open-source environment for Collaborative Literature Reviews
 **Thank you for your contribution!**
 Remember - your work helps researchers. Many have already commended CoLRev, including Guy Paré, Piers Steel, and Blair Wang 🎉 🙌 🎊
 
-- Grades will be entered in Flexnow.
+- Grades will be entered in FlexNow.
 - We supervise theses in the context of CoLRev (see [topics](https://digital-work-lab.github.io/theses/docs/topics.html) with programming label) - reach out if you are interested!
 - If you enjoyed the project, please help us spread the word and recommend our project!
 
