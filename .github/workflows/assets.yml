@@ -1,0 +1,47 @@
+name: Asset checker
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+  schedule:
+    - cron: '10 2 * * 3'
+
+jobs:
+
+  assetChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Identify dangling assets
+        run: |
+          python .github/workflows/check-assets.py
+        continue-on-error: false
+
+      # Check if dangling_assets.md exists before creating the issue
+      - name: Check for dangling_assets file
+        id: dangling_assets
+        run: |
+          if [ -f ./dangling_assets.md ]; then
+            echo "Dangling assets file found"
+            echo "found=true" >> $GITHUB_ENV
+          else
+            echo "Dangling assets file not found"
+            echo "found=false" >> $GITHUB_ENV
+          fi
+        continue-on-error: false
+
+      # Create issue if the dangling_assets.md file exists
+      - name: Create Issue From File
+        if: env.found == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Assets report
+          content-filepath: ./dangling_assets.md
+          labels: report, automated issue
+
