@@ -12,18 +12,17 @@ on:
     - cron: '10 2 * * 3'
 
 jobs:
-
   assetChecker:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
+
       - name: Identify dangling assets
         run: |
           python .github/workflows/check-assets.py
         continue-on-error: false
 
-      # Check if dangling_assets.md exists before creating the issue
       - name: Check for dangling_assets file
         id: dangling_assets
         run: |
@@ -36,12 +35,19 @@ jobs:
           fi
         continue-on-error: false
 
-      # Create issue if the dangling_assets.md file exists
-      - name: Create Issue From File
-        if: env.found == 'true'
-        uses: peter-evans/create-issue-from-file@v5
+      - name: Find existing comment
+        id: find_comment
+        uses: peter-evans/find-comment@v3
         with:
-          title: Assets report
-          content-filepath: ./dangling_assets.md
-          labels: report, automated issue
+          issue-number: 1  # Replace with your issue number
+          comment-author: 'github-actions[bot]'
+          body-includes: "Assets report"  # Keyword to identify the comment
 
+      - name: Create or update comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: 1  # Replace with your issue number
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          body-path: ./dangling_assets.md
+          edit-mode: replace
+        if: env.found == 'true'
