@@ -105,6 +105,27 @@ This process ensures that **all group members make a fair contribution**. It is 
 
 ---
 
+# Evaluation criteria
+
+**Code: Functionality**
+
+- Correct implementation of the specified features in a CLI interface, which validates input parameters.
+- Unit tests covering critical parts of the code.
+
+**Code: Quality**
+
+- Adherence to Python coding standards, as defined in the pre-commit hooks defined in the repository.
+- Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
+- Code structure and readability.
+
+**Process: Open-Source Practices**
+
+- Proper use of Git conventions for commit messages, branching, and pull requests.
+- Participating in the community by reviewing others' code, providing constructive feedback, and incorporating feedback.
+- Maintaining an active and professional presence in project discussions and issues.
+
+---
+
 # How you can make the project a success
 
 - Embrace the challenge and adopt a problem-solving mindset
@@ -125,27 +146,6 @@ This process ensures that **all group members make a fair contribution**. It is 
   - Problem-solving abilities
   - Collaborative spirit
 - You can add this project to your CV!
-
----
-
-# Evaluation criteria
-
-**Code: Functionality**
-
-- Correct implementation of the specified features in a CLI interface, which validates input parameters.
-- Unit tests covering critical parts of the code.
-
-**Code: Quality**
-
-- Adherence to Python coding standards, as defined in the pre-commit hooks defined in the repository.
-- Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
-- Code structure and readability.
-
-**Process: Open-Source Practices**
-
-- Proper use of Git conventions for commit messages, branching, and pull requests.
-- Participating in the community by reviewing others' code, providing constructive feedback, and incorporating feedback.
-- Maintaining an active and professional presence in project discussions and issues.
 
 ---
 

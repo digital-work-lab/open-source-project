@@ -7,35 +7,51 @@ nav_exclude: true
 
 # Week 1: Topics (Teaching notes)
 
+| Time (min) | Duration  | Topic                                                                          | Additional materials                           |
+|------------|-----------|--------------------------------------------------------------------------------|------------------------------------------------|
+| 0-10       | 10        | [Intro and instructor background](#intro)                                      |                                                |
+| 10-25      | 15        | [What you will learn](#what-you-will-learn)                                    |                                                |
+| 25-30      | 5         | [The project: CoLRev](#the-project-colrev)                                     |                                                |
+| 30-40      | 10        | [Agenda, groups, criteria](#agenda-groups-criteria)                            |                                                |
+| 40-50      | 10        | [How to make the project a success](#how-to-success)                           |                                                |
+| 50-80      | 30        | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
+| 80-90      | 10        | [Next steps](#next-steps)                                                      |                                                |
+
+{: .objective }
+> In this session, our goal is to familiarize with open-source projects on GitHub.
+
+## Intro and instructor <a id="intro"></a>
+
 Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
 
-## Instructor
+Instructor
 
-You wee when I took vacation
-It takes 10 years to become good at something
-Git/Python/R: for my research projects
-Enjoyment/challenge/making an impact: that's what I want you to experience in this project.
+- You wee when I took vacation
+- It takes 10 years to become good at something
+- Git/Python/R: for my research projects
+- Enjoyment/challenge/making an impact: that's what I want you to experience in this project.
 
-## What you will learn (I): Git/GitHub
+## What you will learn <a id="what-you-will-learn"></a>
+
+**Git/GitHub**
 
 Ask students why Google, AirBnB etc. would publish code?
--> Open Source works better
--> Identify and attract talent (they may be very picky)
 
-# What you will learn (II): Python
+- Open Source works better
+- Identify and attract talent (they may be very picky)
 
-highlight: not throw-away code!
+**Python**
 
-## What you will learn (III): Open-Sourcing
+- Highlight: not throw-away code!
 
-https://blog.seancoughlin.me/market-yourself-with-a-killer-github-readme
+**Open-Sourcing**
 
-Git und Pyhton kurz erkären/motivieren
+- Git und Pyhton kurz erkären/motivieren
+- Github platform: tests, continuous integration, forks, ...
 
-Github platform: tests, continuous integration, forks, ...
+<!-- https://blog.seancoughlin.me/market-yourself-with-a-killer-github-readme -->
 
-
-# The project: CoLRev
+## The project: CoLRev <a id="the-project-colrev"></a>
 
 Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
 
@@ -45,7 +61,7 @@ Command line!
 
 git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
 
-# Agenda
+## Agenda <a id="agenda-groups-criteria"></a>
 
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
 
@@ -61,15 +77,12 @@ contribution: you are expected to make that contribution (know what you do, be a
 
 small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight
 
-
-# How groups will form
+**How groups will form**
 
 Your participation will be confirmed and your account will be linked to the project issue.
 Sie haben es selbst in der Hand - Sie können sich bei dem Thema einbringen, das Sie interessiert!
 
 the next sessions will also serve as a group forming session
-
-
 
 projekt: gruppenfindung:
 
@@ -94,8 +107,7 @@ DB: alle mitnehmen? LT: quote erforderlich? (WI/ISM)
 ASK: how many ISM (Java not mandatory) and WI?
 -> maybe require a certain number of ISM students per group?
 
-
-# How you can make the project a success
+## How you can make the project a success <a id="how-to-success"></a>
 
 Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
 
@@ -113,7 +125,7 @@ contribution: you are expected to make that contribution (know what you do, be a
 
 small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight
 
-# Finding things in an Open Source project
+## Finding things in an Open Source project <a id="orientation-in-open-source-projects"></a>
 
 "Schnitzeljagd" - auf Zeit
 -> bei der Programmierung wichtig: Bibliotheken schnell einschätzen.
@@ -137,10 +149,9 @@ Show architecture graph
 
 Show the issues/the good-first-issue (and the code-markers)
 
-
 -> the topics (features of 0.10.0): what we will look at later.
 
-# CoLRev: Demo and Topics
+**CoLRev: Demo and Topics**
 
 Show that each issue has specific pointers to the code, mention that I am available to answer questions, provide feedback in the hacking sessions
 
@@ -161,9 +172,11 @@ Explore the issues, try to understand them, identify those that you would be int
 Then we can answer questions
 TODO : also ask who would be interested in topic 1, 2, 3... (to give an overview of the topics that are highly popular)
 
+Briefly show/explain the [page](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
 
-# Until next session
+Mention our comprehensive improvement efforts. We already have very good evaluations, but we stretch to improve even more!
 
+## Until next session <a id="next-steps"></a>v
 
 Student e-mail address: wegen Codespaces Kontingent
 
@@ -175,12 +188,5 @@ We need the programming environment next time.
 You can use the VirtualBox image or try to set it up on a local machine.
 You have to take responsibility for your environment (we cannot offer a lot of support).
 The instructions are online and you can make suggestions for improvements (if any).
-
-
-# Conclusion
-
-Briefly show/explain the [page](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
-
-Mention our comprehensive improvement efforts. We already have very good evaluations, but we stretch to improve even more!
 
 https://github.com/digital-work-lab/open-source-project/issues/8
