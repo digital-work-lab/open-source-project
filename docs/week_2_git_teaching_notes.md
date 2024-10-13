@@ -7,7 +7,7 @@ nav_exclude: true
 
 # Week 2: Git (Teaching notes)
 
-Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce)
+Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce){: target="_blank"}
 
 Note: when explaining the git committing, it could be helpful to illustrate the process
 -> git add creates git objects from files/trees, git commit adds the time/author/predecessor
