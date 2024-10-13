@@ -11,11 +11,16 @@ has_toc: true
 > **Info**
 > The teaching notes include materials for the instructor and teaching assistants.
 
-- [Session notes: Topics](week_1_teaching_notes.html)
-- [Session notes: Git](week_2_git_teaching_notes.html)
-- [Session notes: Pyhton](week_3_python_teaching_notes.html)
-- [Session notes: Best-practices](week_5_best_practices_teaching_notes.html)
-- [Session notes: Code review session](week_12_code_review_teaching_notes.html)
+| **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |
+|---------|--------------|-------------------|--------------------------------------|------------------------------------------------------------|
+| 1       | 90 min       | Topics            | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
+| 2       | 180 min      | Git               | [Preparation](#git)                  | [Session notes](week_2_git_teaching_notes.html)            |
+| 3       | 2x180 min    | Python            | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes.html)         |
+| 4       | -            | Group-work        | -                                    |                                                            |
+| 5       | 90 min       | Best Practices    | [Preparation](#best-practices)       | [Session notes](week_5_best_practices_teaching_notes.html) |
+| 6-11    | -            | Group-work        | -                                    |                                                            |
+| 12      | Flexible     | Code Review       | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
+
 
 TBD: [Merging Survey](../assets/Merging_survey.docx)
 
@@ -25,7 +30,7 @@ TBD: [Merging Survey](../assets/Merging_survey.docx)
 - [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
 
-## Week 1: Introduction, topics, and groups
+## Week 1: Introduction, topics, and groups <a id="topics"></a>
 
 VC post:
 
@@ -57,7 +62,7 @@ VC post (advertise the project in the lecture):
 > 
 > Gerit Wagner
 
-## Week 2: Introduction to Git
+## Week 2: Introduction to Git  <a id="git"></a>
 
 **In preparation of the session**: check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 
@@ -79,7 +84,7 @@ VC post (21.10.25)
 > Ihr Digital Work Team
 
 
-## Week 3: Introduction to Python
+## Week 3: Introduction to Python <a id="python"></a>
 
 Prepare the `tutorial_YYYY_MM` branch and update the commit-ids in the slides:
 
@@ -93,8 +98,6 @@ git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fb
 ```
 
 Keep a copy of branch (assign a `tutorial_backup` branch to the last commit)
-
-Use the [teaching notes](../output/teaching_notes/03_python_1.html)
 
 Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
 
@@ -155,7 +158,7 @@ VC post (10.11.24)
 > Ihr Digital Work Team
 > 
 
-## Week 5: Best practice session
+## Week 5: Best practice session  <a id="best-practices"></a>
 
 TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../teaching_notes/cheatsheet_python.md), [colrev package development](../teaching_notes/cheatsheet_colrev.md)) available?
 
@@ -215,10 +218,8 @@ VC post (16.12.24)
 > 
 > Gerit Wagner
 
-## Week 12: Code review session
+## Week 12: Code review session  <a id="code-review"></a>
 
-
-See [code review session notes](code_review_session.html)
 
 - Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
 - Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
