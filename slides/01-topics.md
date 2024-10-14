@@ -190,16 +190,8 @@ blockquote {
 
 # Until next session
 
-Register for our mailings: [here](https://digital-work-lab.github.io/open-source-project/#participate)
-
-Setup
-
+- Register for our mailings: [here](https://digital-work-lab.github.io/open-source-project/#participate)
 - Create a GitHub account (using your student e-mail address)
-- Test Codespaces for the Git and Python sessions: [Instructions](https://digital-work-lab.github.io/open-source-project/docs/week_1_topic.html#codespace-setup)
-- If you encounter problems, reach out after the session or before the next session and we will help you.
-
-Team formation
-
 - Start exploring issues, and team up
 
 > \* Optional: **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
