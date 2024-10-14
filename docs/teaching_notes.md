@@ -68,7 +68,7 @@ VC post (advertise the project in the lecture):
 **In preparation of the session**: 
 
 - [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
-- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf)
+- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
 
 
 VC post (21.10.25)
