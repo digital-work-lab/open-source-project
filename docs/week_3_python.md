@@ -22,13 +22,12 @@ If you have any questions during or after the sessions, we're here to assist. We
 > - Understand how to use other Python modules and libraries
 > - Prepare for extending the functionality of the CoLRev package
 
-## Materials
-
-| Session       | Slides                                                                                                  | Notebook                                                                                                     |
-|---------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Python session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} |
-| Python session 2     | [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} |
-
+| **Materials**       | **Link**                                                                                                  |
+|----------------------|---------------------------------------------------------------------------------------------------------|
+| Slides session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} |
+| Notebook session 1   | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python.pdf){: target="_blank"} |
+| Python session 2     | [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"} |
+| Notebook session 2   | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"} |
 
 After you have used CoLRev in the last notebook, it is instructive to create a project and run through the operations to understand how CoLRev works.
 To do this, we recommend starting a Codespace from the fork of your group.

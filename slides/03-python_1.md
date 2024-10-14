@@ -35,6 +35,16 @@ paginate: true
 
 ---
 
+# Start the Codespace
+
+Open the notebook for practicing Git branching:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python)
+
+The setup can run in the background, while we focus on the concepts.
+
+---
+
 # Python
 
 - Supports multiple paradigms: object-oriented, procedural, or functional
