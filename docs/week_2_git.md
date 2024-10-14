@@ -14,13 +14,17 @@ In this session, our goal is to understand how to use Git to develop software in
 
 ## Materials
 
-| Session      | Slides                                                                                                                        | Notebook |
-|--------------|-------------------------------------------------------------------------------------------------------------------------------|----------|
-| Git session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"} |
+| **Material** | **Links** |
+| ------------ | --------- |
+| Slides | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/View-PDF-orange?logo=adobe)](../output/02-git.pdf){: target="_blank"}
+ |
+| Notebook | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"} |
 
+<!-- 
 
 {: .see_also }
 > - An explanation of [Internal Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects){: target="_blank"}
+-->
 
 In this session, we have covered the fundamentals of Git, including branching, committing, and collaborating, which are essential for effective teamwork in projects like the CoLRev Python package. Next week, we will dive into learning Python, where you will apply the Git commands you learned today to manage your Python scripts. Be prepared to commit different changes in your scripts, ensuring you can track and manage your progress using Git's powerful version control features.
 
