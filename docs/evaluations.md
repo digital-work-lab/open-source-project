@@ -7,6 +7,17 @@ nav_order:  8
 
 # Evaluations
 
+{: .info }
+> **Your Feedback Matters: Help Us Improve!**
+> 
+> We kindly invite you to participate in the upcoming course evaluation.
+> Your feedback is voluntary and anonymous.
+> There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
+> So please feel free to be open and honest in your responses.
+> Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"} (♻️), and we highly value your opinions.
+> 
+> Thank you for your time and honest feedback!
+
 Results from our regular teaching evaluations are available [here](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html){: target="_blank"}.
 
 {: .text-center}
@@ -44,14 +55,3 @@ Note: the feedback is translated based on the [evaluations](https://digital-work
 ## How Our Students Continue to Be Involved
 
 Some have decided to build on the project and write their thesis in the context of CoLRev (see [overview](https://digital-work-lab.github.io/theses/docs/completed.html){: target="_blank"}), including Albert Borchardt, Katharina Maria Ernst, Luca Ossendorf, and Robert Theis.
-
-{: .info }
-> **Your Feedback Matters: Help Us Improve!**
-> 
-> We kindly invite you to participate in the upcoming course evaluation.
-> Your feedback is voluntary and anonymous.
-> There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
-> So please feel free to be open and honest in your responses.
-> Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"} (♻️), and we highly value your opinions.
-> 
-> Thank you for your time and honest feedback!
