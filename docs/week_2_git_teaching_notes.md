@@ -3,6 +3,7 @@ layout: default
 title: "Week 2: Git (teaching notes)"
 has_toc: true
 nav_exclude: true
+search_exclude: true
 ---
 
 # Week 2: Git (Teaching notes)

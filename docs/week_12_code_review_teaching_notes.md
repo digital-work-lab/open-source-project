@@ -3,6 +3,7 @@ layout: default
 title: "Week 5: Code review session (teaching notes)"
 has_toc: true
 nav_exclude: true
+search_exclude: true
 ---
 
 # Week 12: Code review session (teaching notes)

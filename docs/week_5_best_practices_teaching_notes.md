@@ -3,6 +3,7 @@ layout: default
 title: "Week 5: Best practices (teaching notes)"
 has_toc: true
 nav_exclude: true
+search_exclude: true
 ---
 
 # Week 5: Best practices (teaching notes)
