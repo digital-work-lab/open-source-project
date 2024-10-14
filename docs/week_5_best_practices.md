@@ -14,11 +14,9 @@ The session also includes practical examples and guidelines that will help you d
 {: .objective }
 > In the two sessions, our goal is to facilitate the group-work phase by emphasizing how to organize code contributions within the team, adhere to best programming practices, and address any challenges that arise.
 
-## Materials
-
-| Session                | Slides                                                                                                                                  | Notebook |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Best practice session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"} | NA       |
+| **Materials**                | **Link**                                                                                                                                  |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-best_practice.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-best_practice.pdf){: target="_blank"} |
 
 {: .info }
 > **Checklist**

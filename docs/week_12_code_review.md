@@ -22,11 +22,9 @@ As a group, your goals are to:
 
 Keep in mind that your review should be constructive and respectful, encouraging the contributors to revise their work and continue to be part of the community.
 
-## Materials
-
-| Session              | Slides                                                                                                                                | Notebook |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Code review session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} | NA       |
+| **Materials**              | **Link**                                                                                                                                |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/06-code_review.pdf){: target="_blank"} |
 
 Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/){: target="_blank"}
 
