@@ -9,7 +9,7 @@ nav_order: 1
 
 {: .feedback }
 "I liked the fact that we were able to work very freely and independently on our problem as a group, but that we were always able to make appointments with Prof. Wagner at very short notice if we had problems or questions. This gave me the impression that we were working we were working *with* the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."<br><br>
-"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life." \[[more](feedback.html)\]
+"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life." \[[more](evaluations.html)\]
 
 ## Basic information
 
