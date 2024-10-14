@@ -65,7 +65,10 @@ VC post (advertise the project in the lecture):
 
 ## Week 2: Introduction to Git  <a id="git"></a>
 
-**In preparation of the session**: check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+**In preparation of the session**: 
+
+- [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf)
 
 
 VC post (21.10.25)
