@@ -15,11 +15,9 @@ We look forward to meeting you!
 {: .objective }
 > In this session, our goal is to familiarize with open-source projects on GitHub.
 
-## Materials
-
-| Session               | Slides                                                                                                                           | Notebook |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|----------|
-| Introduction session  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/01-topics.html){: target="_blank"} | NA       |
+| **Material**         | **Link**                                                                                                                           |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/01-topics.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/01-topics.pdf){: target="_blank"} |
 
 Tasks to complete in this week:
 

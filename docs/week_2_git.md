@@ -12,12 +12,9 @@ Learning Git, especially branching, committing, and collaborating, is essential 
 {: .objective }
 In this session, our goal is to understand how to use Git to develop software in teams by covering the areas of branching, committing, and collaborating.
 
-## Materials
-
 | **Material** | **Links** |
 | ------------ | --------- |
-| Slides | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/View-PDF-orange?logo=adobe)](../output/02-git.pdf){: target="_blank"}
- |
+| Slides | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/02-git.pdf){: target="_blank"} |
 | Notebook | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"} |
 
 <!-- 
