@@ -23,18 +23,24 @@ search_exclude: true
 
 ## Intro and instructor <a id="intro"></a>
 
-Ask: WI/ISM?, Experience in programming, in git/python, open-source development?
-
-Instructor
+Introduce myself/instructor
 
 - You wee when I took vacation
 - It takes 10 years to become good at something
 - Git/Python/R: for my research projects
 - Enjoyment/challenge/making an impact: that's what I want you to experience in this project.
 
+Learn about students
+
+- Degree program (WI/ISM?)
+- Experience in programming, in git/python, open-source development? - always helpful
+- We "only" need EiAPs and JaP. If you have not completed these, participate in the project in the next semester(s)
+
 ## What you will learn <a id="what-you-will-learn"></a>
 
 **Git/GitHub**
+
+Highlight the rapid diffusion of Git/GitHub and the massive investments to change versioning systems (core infrastructure)
 
 Ask students why Google, AirBnB etc. would publish code?
 
@@ -47,66 +53,86 @@ Ask students why Google, AirBnB etc. would publish code?
 
 **Open-Sourcing**
 
-- Git und Pyhton kurz erkären/motivieren
 - Github platform: tests, continuous integration, forks, ...
+- Roles: developer and maintainer
+- Published code contribution as an opportunity to develop a profile
+- Highlight: your contribution will be public/used by others!
 
 <!-- https://blog.seancoughlin.me/market-yourself-with-a-killer-github-readme -->
 
 ## The project: CoLRev <a id="the-project-colrev"></a>
 
-Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
-
-Wer hat schon mal eine Literaturübersicht geschrieben?
-
-Command line!
-
-git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
+- Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
+- Ask students: who has already completed a literature review?
+- Mention that our approach currently focuses on the command line. What are possible reasons?
+- Git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
 
 ## Agenda <a id="agenda-groups-criteria"></a>
 
-Klar kommunizieren: wenn ihr die Programmiererfahrung/Kurse nicht mitbringt und euch das nicht zutraut, dann belegt das Projekt eher im nächsten Semester.
-
-Highlight: your contribution will be public/used by others!
-
-Ggf. auf Projekt im nächsten Semester verweisen
-
-Clear message:
-- You have to learn git and python. I will provide an introductory session, but you will need to invest more time.
-- you are expected to set up your environment. I am available to answer questions, but I cannot setup individual machines.
-
-contribution: you are expected to make that contribution (know what you do, be able to explain it - you cannot use generative AI like ChatGPT because you will have to submit the code under the MIT license.)
-
-small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight
+- Outline the sessions
+- Highlight that we offer in-person hacking sessions in the main work phase (week 6-11)
+- Very easy to schedule (Calendly), on short notice, online or in-person, whole team or part of it
+- We will discuss the current progress and next steps
+- We will help you solve the challenging tasks (we will not solve them for you)
+- Be prepared for the meeting: be able to explain the problem, describe and evaluate the different options you know
+- The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us!
 
 **How groups will form**
 
-Your participation will be confirmed and your account will be linked to the project issue.
-Sie haben es selbst in der Hand - Sie können sich bei dem Thema einbringen, das Sie interessiert!
+**TODO: continue here**
 
-the next sessions will also serve as a group forming session
+Signal intent
 
-projekt: gruppenfindung:
+Organize
+
+Sign-up
+
+- Your participation will be confirmed and your account will be linked to the project issue.
+
+
+
+The process resembles open-source projects, involving self-selection (instead of fixed assignment to groups), communicating in public issues, creating pull requests
+You can select the topics that you are interested in by contributing code.
+Be aware whether you want to join a highly popular issue or not.
+The next sessions will also serve as a group forming session
+
+The process has worked very well in previous semesters. But we also reserve the right to change group (use fixed assignments) if needed. We will ask for feedback whether the group formation process works or whether there is a need to intervene.
+
+
+
 
 - Generell ansagen: ich mache keine Gruppen am Anfang. Man zeigt, dass man an einem Teiltehma mitarbeitet wernn man zu einem Pull-request beiträgt. Man kann anderen signalisieren, wenn man an einem Thema interessiert ist, indem man einem issue folgt. Man kann also auch strategisch issues wählen, denen keiner folgt. Es ist wichtig, früh zu pushen. Es ist möglich (und empfman ohlen) aber nicht zwingend notwendig, sich in Teams zu treffen.
 -> Regel: wenn man auf einen issue pushed muss man sich ausreichend vorher eingetragen haben, im issue kommunizieren.
-- Ich behalte mir vor, bis zur Python session (willkürlich bzw. in Abstimmung) Gruppen zu verkleinern (bestimmte TeilnehmerInnen zu verpflichten, in andere Themen zu wechseln).
 - Eigene Verantwortung: Gruppen mit mehr als 5 Teilnehmenden sollten vermieden werden, müssten substantiell höhere Erwartungen erfüllen. Jeder TeilnehmerIn ist verpflichtet, mir zu signalisieren, wenn Gruppen zu groß werden.
--> Gruppen in den späteren Sessions bitten, sich zusammenzusetzen (austausch anstoßen)
+
 -> Durchmischung kann durch "Überbuchen" von beliebten Issues getrieben werden (es wird zufällig/von mir ausgewählt, wer wechseln muss)
 -> es bleibt in gewissem Umfang möglich, die Themenauswahl/Gruppenauswahl mit zu beeinflussen (zB. wenn man in kleinen Gruppen auf Themen mit wenig Interessenten geht)
 
 -> Ich setze Anreize, dass Beiträge früh geleistet werden (keine Riesen-Commits kurz vor Schluss), und dass eine gute Abstimmung in der Gruppe erfolgt (Anforderungen), und dass die Gruppenverteilung ausgeglichen ist (nicht Open-Source konform, aber für das Projekt wichtig.)
 
--> Abstimmen mit den Füßen (Open-Source-like)
 
+
+<!-- 
 -> anders als DBs vorschlag (Durchmischung)
-
--> gut erklären, wie sich ein Open-Source Projekt organisiert (issues, transparente Kommunikation, ...)
-
 DB: alle mitnehmen? LT: quote erforderlich? (WI/ISM)
 
 ASK: how many ISM (Java not mandatory) and WI?
 -> maybe require a certain number of ISM students per group?
+-->
+
+## Criteria
+
+Clear message:
+
+- You have to learn git and python. I will provide an introductory session, but you will need to invest more time.
+- You are expected to set up your environment. We are available to answer questions, but we cannot setup individual machines.
+
+Contribution:
+
+- You are expected to make that contribution (know what you do, be able to explain it - you cannot use generative AI like ChatGPT because you will have to submit the code under the MIT license.)
+
+- Form small teams, everyone is expected to program and contribute - with git, we see contributions. - that's a good thing if you tend to pull your weight.
+
 
 ## How you can make the project a success <a id="how-to-success"></a>
 
