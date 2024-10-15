@@ -47,7 +47,7 @@ If you would like to participate, please attend the introductory session.
 Details regarding registration and topic assignment will be announced during this session.
 We look forward to meeting you!
 
-To sign up for our e-mails: [![Course Registration](https://img.shields.io/badge/Sign%20up%20-Click%20Here-blue)](mailto:laureen.thurner@uni-bamberg.de?subject=Registration%20for%20the%20Open-Source%20Project&body=I%20would%20like%20to%20register%20for%20the%20open-source%20project.)
+Sign up for our VC course: [![Course Registration](https://img.shields.io/badge/Sign%20up%20-Click%20Here-blue)](https://vc.uni-bamberg.de/course/view.php?id=70989)
 
 ## Goals
 
