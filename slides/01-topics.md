@@ -116,7 +116,7 @@ This process ensures that **all group members make a fair contribution**. It is 
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as defined in the pre-commit hooks defined in the repository.
+- Adherence to Python coding standards, as defined in the pre-commit hooks in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
 - Code structure and readability.
 
@@ -187,7 +187,6 @@ blockquote {
 
 - Go to the upcoming [milestone](https://github.com/CoLRev-Environment/colrev/milestones) and read the open issues (available topics).
 - Comment on the issues to find others who are interested in the same topic.
-- Ask questions.
 
 **Complete the setup**
 
