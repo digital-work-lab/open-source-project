@@ -86,3 +86,6 @@ Plan: 45 min
 Fragen: 30-40 min
 
 Test and practice merge/merge conflict
+
+
+- Ask students to leave us a star on GitHub

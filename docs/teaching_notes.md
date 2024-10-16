@@ -75,7 +75,7 @@ VC post (21.10.25)
 
 > Liebe Studierende,
 > 
-> wir möchten Sie daran erinnern, dass Sie bis Montag (28.10.24) einen Kommentar in den Issue-Feeds hinterlassen.
+> wir möchten Sie daran erinnern, dass Sie bis zur nächsten Session einen Kommentar in den Issue-Feeds hinterlassen.
 >
 > Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeeds signalisieren: https://github.com/CoLRev-Environment/colrev/milestone/8.
 > 
@@ -107,6 +107,8 @@ Create a list of topics and students (first/second choice) and facilitate issue 
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
 
+<!-- 
+
 VC post (21.10.24)
 
 > Liebe Studierende,
@@ -124,6 +126,8 @@ VC post (21.10.24)
 > Beste Grüße & ein schönes Wochenende
 > 
 > Ihr Digital Work Team
+
+-->
 
 ## Week 4: Group work (no session)
 

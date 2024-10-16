@@ -83,6 +83,10 @@ Ask students why Google, AirBnB etc. would publish code?
 - Be prepared for the meeting: be able to explain the problem, describe and evaluate the different options you know
 - The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us!
 
+**If you are stuck for more than 2 days, schedule a meeting with us.**
+
+Show the Calendly tool (how to book a session)
+
 **How groups will form**
 
 - We do not assign you to groups. **You assign yourself by starting to contribute** (issue discussions and code).
@@ -131,7 +135,7 @@ Small groups web research task ("scavanger hunt")
 
 - Assessing open-source projects and finding things is an important skill.
 
-After 8-10 mins: ask whether students have completed the task (give more time if necessary).
+After 12-15 mins: ask whether students have completed the task (give more time if necessary).
 
 Solutions
 
@@ -145,6 +149,8 @@ Solutions
 - Unpaywall: search in the docs
 - Issues -> Milestones
 
+These are issues that users of CoLRev may ask themselves (or we when we select libraries)
+
 Discuss software selection criteria (for open-source projects) more broadly. What would you look for? Nr commits/issues,... Why?
 
 Discuss / explain the git/open-source community structure
@@ -155,7 +161,7 @@ Study colrev docs
 
 Explore issues in the milestone.
 
-Show that each issue has specific pointers to the code, mention that I am available to answer questions, provide feedback in the hacking sessions
+Show that each issue has specific pointers to the code
 
 Register:
 
@@ -173,4 +179,3 @@ Mention our comprehensive improvement efforts. We already have very good evaluat
 - Show issues (improvement): https://github.com/digital-work-lab/open-source-project/issues/8
 - We invest a lot of effort (show https://github.com/digital-work-lab/open-source-project/graphs/contributors)
 - We even published a Teaching Tip (on Git)
-- Ask students to leave us a star

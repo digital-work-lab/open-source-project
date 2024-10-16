@@ -139,18 +139,6 @@ This process ensures that **all group members make a fair contribution**. It is 
 
 ---
 
-# How this project may benefit you
-
-- The value of Open Source Software (OSS) development experiences is increasingly recognized as a significant indicator of a candidate's capabilities in technology and software development.
-- According to Long (2009, *Journal of Information Technology Education: Research*), OSS contributions are noteworthy on resumes and play a crucial role in hiring and promotion decisions.
-- Employers view OSS experiences as strong evidence of a candidate's:
-  - Practical skills
-  - Problem-solving abilities
-  - Collaborative spirit
-- You can add this project to your CV!
-
----
-
 # Finding things in an Open Source project
 
 Go to the [CoLRev project repository](https://github.com/CoLRev-Ecosystem/colrev).
