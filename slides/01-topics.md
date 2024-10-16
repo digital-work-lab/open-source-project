@@ -57,7 +57,7 @@ Otto-Friedrich-Universität Bamberg
 
 - Work with the Open-Source workflows of GitHub
 - Make a first contribution to a public Open-Source project
-- Adopt the role of a maintainer and review code of your peers
+- Adopt the role of a maintainer and review the code of your peers
 - Have an opportunity to create your *developer portfolio*
 
 ![bg right:35% width:350px](../assets/github-contributors.png)
@@ -70,7 +70,7 @@ Collaborative Literature Reviews (CoLRev) is an open-source environment for coll
 
 The following features stand out:
 
-- Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval and preparation, and synthesis
+- Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval, and preparation, and synthesis
 - An open platform based on shared data and process standards
 - Builds on git and its transparent collaboration model for the entire literature review process
 - Focus: command-line interface
@@ -90,7 +90,7 @@ The following features stand out:
 
 ![width:750px center](../assets/agenda.png)
 
-Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/).
+Dates and rooms are available [online](https://digital-work-lab.github.io/open-source-project/#outline).
 
 ---
 
@@ -98,10 +98,12 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 
 You **assign yourself to a group** when you contribute code, following these steps:
 1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestones), before the **Git Session**, for two topics at most).
-2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 6 people** will be accepted per group.
-3. **Officially sign up for a group** by contributing a non-trivial code part. Contributions of team members must be in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
+2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 5 people** will be accepted per group.
+3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team member's contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
 This process ensures that **all group members make a fair contribution**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
+
+> \* You can only contribute to a group if you have signalled your intent in the issue discussion before.
 
 ---
 
@@ -128,8 +130,9 @@ This process ensures that **all group members make a fair contribution**. It is 
 
 # How you can make the project a success
 
+- Prerequisites: EiAPS and Jap
 - Embrace the challenge and adopt a problem-solving mindset
-- Take full responsibility to set up your programming environment
+- Take full responsibility for setting up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT (risk of copyright infringement)
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
@@ -167,19 +170,6 @@ Form groups of three and try to find the following information in 10 minutes:
 
 ---
 
-# CoLRev: Demo and Topics
-
-An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [workflow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
-A brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
-
-**Find a topic**
-
-- Go to the upcoming [milestone](https://github.com/CoLRev-Environment/colrev/milestones) and read the open issues (available topics).
-- Find others who are interested in the same topic.
-- Ask questions.
-
----
-
 <style>
 blockquote {
     border-top: 0.1em;
@@ -190,11 +180,22 @@ blockquote {
 
 # Until next session
 
-- Register for our mailings: [here](https://digital-work-lab.github.io/open-source-project/#participate)
-- Create a GitHub account (using your student e-mail address)
-- Start exploring issues, and team up
+**Familiarize yourself with the CoLRev documentation**
 
-> \* Optional: **Set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html))
+- An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [workflow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
+
+**Find a topic**
+
+- Go to the upcoming [milestone](https://github.com/CoLRev-Environment/colrev/milestones) and read the open issues (available topics).
+- Comment on the issues to find others who are interested in the same topic.
+- Ask questions.
+
+**Complete the setup**
+
+- Register for VC course: [here](https://digital-work-lab.github.io/open-source-project/#participate)
+- Create a GitHub account (using your student e-mail address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
+
+> Challenge (optional): You can **set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html)). This requires you to install and configure Git, Docker, pre-commit hooks, and venv. It will give you more control over and a deeper understanding of your programming environment.
 
 ---
 
