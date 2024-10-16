@@ -161,7 +161,7 @@ Briefly show/explain the [page](https://digital-work-lab.github.io/open-source-p
 
 Mention our comprehensive improvement efforts. We already have very good evaluations, but we stretch to improve even more!
 
-Show [issue](https://github.com/digital-work-lab/open-source-project/issues/8)
+Show [issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"}
 
 Mention that
 
