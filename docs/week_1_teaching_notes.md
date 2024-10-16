@@ -38,7 +38,7 @@ Learn about students
 
 - Degree program (WI/ISM?)
 - Experience in programming, in git/python, open-source development? - always helpful
-- We "only" need EiAPs and JaP. If you have not completed these, participate in the project in the next semester(s)
+- We "only" need EiAPS and JaP. If you have not completed these, participate in the project in the next semester(s)
 
 ## What you will learn <a id="what-you-will-learn"></a>
 
