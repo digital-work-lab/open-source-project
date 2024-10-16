@@ -10,12 +10,12 @@ search_exclude: true
 
 | Time (min) | Duration  | Topic                                                                          | Additional materials                           |
 |------------|-----------|--------------------------------------------------------------------------------|------------------------------------------------|
-| 0-10       | 10        | [Intro and instructor background](#intro)                                      |                                                |
+| 0-10       | 5         | [Intro and instructor background](#intro)                                      |                                                |
 | 10-25      | 15        | [What you will learn](#what-you-will-learn)                                    |                                                |
 | 25-30      | 5         | [The project: CoLRev](#the-project-colrev)                                     |                                                |
 | 30-40      | 10        | [Agenda, groups, criteria](#agenda-groups-criteria)                            |                                                |
-| 40-50      | 10        | [How to make the project a success](#how-to-success)                           |                                                |
-| 50-80      | 30        | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
+| 40-50      | 5         | [How to make the project a success](#how-to-success)                           |                                                |
+| 50-80      | 40        | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
 | 80-90      | 10        | [Next steps](#next-steps)                                                      |                                                |
 
 {: .objective }
@@ -38,7 +38,7 @@ Learn about students
 
 - Degree program (WI/ISM?)
 - Experience in programming, in git/python, open-source development? - always helpful
-- We "only" need EiAPS and JaP. If you have not completed these, participate in the project in the next semester(s)
+- We "only" need EiAPS and JaP (after the Winter Term of 2024/2025). If you have not completed these, participate in the project in the next semester(s)
 
 ## What you will learn <a id="what-you-will-learn"></a>
 
