@@ -3,3 +3,9 @@
   text-indent: -2em; /* This should match the left margin */
   text-align: justify; /* Justify the text */
 }
+
+@media print {
+  .page-break {
+    page-break-before: always;
+  }
+}
