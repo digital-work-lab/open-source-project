@@ -61,8 +61,6 @@ The setup can run in the background, while we focus on the concepts.
 
 # Start our development environment on GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python)
-
 ![width:700px center](../assets/python_overview_1.PNG)
 
 ---

@@ -218,9 +218,9 @@ Illustrate on the whiteboard : new/alternative commit with the same parent, all 
 
 ---
 
-# Practice: Merges
+# Transfer challenge: Git merge conflicts
 
-Open the notebook for practicing Git merges:
+Open the notebook for practicing the resolution of Git merge conflicts (related to branching and committing):
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
