@@ -30,6 +30,7 @@ TBD: [Merging Survey](../assets/Merging_survey.docx)
 - [ ] Update dates and rooms for sessions
 - [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
+- [ ] Check whether `colrev package --init` works
 
 ## Week 1: Introduction, topics, and groups <a id="topics"></a>
 

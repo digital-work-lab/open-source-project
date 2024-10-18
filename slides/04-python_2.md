@@ -22,6 +22,24 @@ paginate: true
 
 ---
 
+# Package setup
+
+To create a new Python package, you can use package and dependency management tools, such as [Poetry](https://python-poetry.org/) and `poetry init`.
+
+If you work on existing CoLRev packages, you can extend the existing code available in the [internal packages directory](https://github.com/CoLRev-Environment/colrev/tree/main/colrev/packages).
+
+To create a new CoLRev package, navigate to the [internal packages directory](https://github.com/CoLRev-Environment/colrev/tree/main/colrev/packages) and run
+
+```
+colrev package --init
+```
+
+This command assists you in setting up a new CoLRev package interactively.
+
+More information on package development is available in the [documentation](https://colrev-environment.github.io/colrev/dev_docs/packages.html).
+
+---
+
 # Resources
 
 Introductory:
