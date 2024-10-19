@@ -10,13 +10,13 @@ search_exclude: true
 
 | Time (min) | Duration  | Topic                                     | Additional materials                                                                                                             |
 |------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| 0-50       | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))         |
+| 0-50       | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
 | 50-55      | 5         | Break                                     |                                                                                                                                  |
-| 55-105     | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 55-105     | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 105-110    | 5         | Break                                     |                                                                                                                                  |
-| 110-150    | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file)) |
+| 110-150    | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"}) |
 | 150-155    | 5         | Break                                     |                                                                                                                                  |
-| 155-185    | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 155-185    | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 185-195    | 10        | [Wrap-up](#wrap-up)                       | Summary of key takeaways                                                                                                         |
 
 {: .warning }
