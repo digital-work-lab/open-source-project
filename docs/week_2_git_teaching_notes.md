@@ -89,7 +89,7 @@ Branches: pointers (more efficient than referring to sha-comit-ids)
 
 
 {: .info }
-> Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git)
+> Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git){: target="_blank"}
 
 <div class="page-break"></div>
 
@@ -150,7 +150,7 @@ If you have the time, try the different undo operations in the session.
 > The **complex merge conflict** is optional (it can be a *do-at-home* exercise or we can cover it in the best-practice session). Check whether it can be completed in 2:30 h.
 
 {: .info }
-> Notebook: [practice-git / committing](https://github.com/digital-work-lab/practice-git) and [practice-git / merge-conflicts](https://github.com/digital-work-lab/practice-git)
+> Notebook: [practice-git / committing](https://github.com/digital-work-lab/practice-git){: target="_blank"} and [practice-git / merge-conflicts](https://github.com/digital-work-lab/practice-git){: target="_blank"}
 
 <div class="page-break"></div>
 
@@ -161,7 +161,7 @@ If you have the time, try the different undo operations in the session.
 - Syncing changes may be necessary to get bugfixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
 
 {: .info }
-> Notebook: [practice-git / collaborating](https://github.com/digital-work-lab/practice-git)
+> Notebook: [practice-git / collaborating](https://github.com/digital-work-lab/practice-git){: target="_blank"}
 
 
 ### Additional notes
