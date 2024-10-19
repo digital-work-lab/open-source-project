@@ -17,7 +17,13 @@ search_exclude: true
 | 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
 | 02:30          | 5         | Break                                     |                                                                                                                                  |
 | 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
-| 03:05          | 10        | [Wrap-up](#wrap-up)                       | Summary of key takeaways                                                                                                         |
+| 03:05          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                               |
+
+{: .objective }
+> - Goal: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
+> - We work with the cli.
+
+<div class="page-break"></div>
 
 {: .info }
 > - Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce){: target="_blank"}
@@ -25,14 +31,7 @@ search_exclude: true
 > - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
 Create a cheatsheet: how you would internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
 
-{: .objective }
-> - Goal: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
-> - We work with the cli.
-
-
-<div class="page-break"></div>
-
-## Part 1: Branching
+## Part 1: Branching <a id="branching"></a>
 
 Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
 Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
@@ -80,10 +79,21 @@ As soon as we have a git repository, we can see and modify everything in our cop
 Branches are useful to develop features, test code, or fix bugs without interfering with the main branch
 - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository 
 
+- parents: lines of development
+- branches: two commits have the same parent
+- merge: one commit has two parents
+-> DAG (we don't travel back in time - so there are no cycles)
+
+Branches: pointers (more efficient than referring to sha-comit-ids)
+-> allow us to separate development (typically: main/dev/features; but: very flexible)
+
+
 {: .info }
 > Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git)
 
-## Part 2: Committing
+<div class="page-break"></div>
+
+## Part 2: Committing <a id="committing"></a>
 
 **Interactively develop the conceptual chart at the blackboard (explain to students which operations lead to transitions between the states)**
 
@@ -136,13 +146,15 @@ If you have the time, try the different undo operations in the session.
 
 (*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
 
-{: .warning }
-> The **complex merge conflict** is optional (it can be a *do-at-home* exercise or we can cover it in the best-practice session). Check whether it can be completed in 2:30 h.
-
 {: .info }
 > Notebook: [practice-git / committing](https://github.com/digital-work-lab/practice-git) and [practice-git / merge-conflicts](https://github.com/digital-work-lab/practice-git)
 
-## Collaborating
+{: .warning }
+> The **complex merge conflict** is optional (it can be a *do-at-home* exercise or we can cover it in the best-practice session). Check whether it can be completed in 2:30 h.
+
+<div class="page-break"></div>
+
+## Part 3: Collaborating <a id="collaborating"></a>
 
 - In the fork, it is recommended to create working branches instead of committing to the `main` branch.
 - It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
@@ -151,51 +163,14 @@ If you have the time, try the different undo operations in the session.
 {: .info }
 > Notebook: [practice-git / collaborating](https://github.com/digital-work-lab/practice-git)
 
-## Optional (???) Practice session
-
-DEMO (go back to the commit slide)
-- parents: lines of development
-- branches: two commits have the same parent
-- merge: one commit has two parents
--> DAG (we don't travel back in time - so there are no cycles)
-
-Branches: pointers (more efficient than referring to sha-comit-ids)
--> allow us to separate development (typically: main/dev/features; but: very flexible)
-
-git branch (overview) / git checkout -b feature (-b not necessary for existing branches)
--> we can do "git checkout commit-id" (-> "detached head" state - we have not branch/name for the commits that would be created)
-
-git merge
-
-checkout: select a commit or branch and set the working directory accordingly (working directory should be clean)
-
--> HEAD to point to the currently selected branch/commit (easier: commit / merge without selecting the "reference branch")
-
-example: git checkout main, git merge dev
--> merge: shared parent? fast forward? conflicts?
-
--> what would happen if we go to an early commit and change some of its content?
--> the content, the blob/tree-hash change, the commit hash change, the commit-ids of all following commits change
--> AVOID rewriting history (especially when commits/branches are shared)
-
-
-TBD: add reset/revert in demo!?
-
-Important: we think about the version tree DAG.
-The working directory/staging area should be clean (ideally)
-
-Demo/Blackboard: Git branches
-- commits with parents
-- create branches (branch names) 
-
-Demonstrate CLI:
-- git branch (see all/which one is selected - also in git status)
-- Create branch (git branch  dev_feature)
-- switch (HEAD) to dev branch (git switch dev_features)
 
 ### Additional notes
 
 Explain "bullwhip" effect based on this and the previous slide (why rewriting history should be avoided)
+
+-> what would happen if we go to an early commit and change some of its content?
+-> the content, the blob/tree-hash change, the commit hash change, the commit-ids of all following commits change
+-> AVOID rewriting history (especially when commits/branches are shared)
 
 Show the contents of git objects: `git cat-file -p sha`
 
