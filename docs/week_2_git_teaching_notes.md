@@ -10,13 +10,13 @@ search_exclude: true
 
 | Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                             |
 |----------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| 00:00          | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))         |
+| 00:00          | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
 | 00:50          | 5         | Break                                     |                                                                                                                                  |
-| 00:55          | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 00:55          | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 01:45          | 5         | Break                                     |                                                                                                                                  |
-| 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))   |
+| 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
 | 02:30          | 5         | Break                                     |                                                                                                                                  |
-| 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 03:05          | 10        | [Wrap-up](#wrap-up)                       | Summary of key takeaways                                                                                                         |
 
 {: .warning }
