@@ -22,6 +22,7 @@ Results from our regular teaching evaluations are available [here](https://digit
 
 {: .text-center}
 ```mermaid
+%%{init: { "themeVariables": {"xyChart": {"plotColorPalette": "#000000", "plotLineWidth": 4} } }}%%
 xychart-beta
     title "Student rating (overall)"
     x-axis [SS23, WS2324, SS24]
@@ -31,6 +32,7 @@ xychart-beta
 
 {: .text-center}
 ```mermaid
+%%{init: { "themeVariables": {"xyChart": {"plotColorPalette": "#000000", "plotLineWidth": 4} } }}%%
 xychart-beta
     title "Participation"
     x-axis [SS23, WS2324, SS24, WS2425]
