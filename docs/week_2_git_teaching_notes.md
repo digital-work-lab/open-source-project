@@ -22,6 +22,9 @@ search_exclude: true
 {: .warning }
 > The **complex merge conflict** is optional (it can be a *do-at-home* exercise). Check whether it can be completed in 2:30 h.
 
+{: .info }
+> Start the timer at the beginning.
+
 
 The resolving-merge-commits notebook could be moved to the best-practice session (if we run out of time).
 
