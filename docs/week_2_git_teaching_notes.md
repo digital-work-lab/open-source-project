@@ -8,19 +8,19 @@ search_exclude: true
 
 # Week 2: Git (Teaching notes)
 
-| Time (min) | Duration  | Topic                                     | Additional materials                                                                                                             |
-|------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| 0-50       | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))         |
-| 50-55      | 5         | Break                                     |                                                                                                                                  |
-| 55-105     | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
-| 105-110    | 5         | Break                                     |                                                                                                                                  |
-| 110-150    | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file)) |
-| 150-155    | 5         | Break                                     |                                                                                                                                  |
-| 155-185    | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
-| 185-195    | 10        | [Wrap-up](#wrap-up)                       | Summary of key takeaways                                                                                                         |
+| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                             |
+|----------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| 00:00          | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))         |
+| 00:50          | 5         | Break                                     |                                                                                                                                  |
+| 00:55          | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 01:45          | 5         | Break                                     |                                                                                                                                  |
+| 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))   |
+| 02:30          | 5         | Break                                     |                                                                                                                                  |
+| 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file))        |
+| 03:05          | 10        | [Wrap-up](#wrap-up)                       | Summary of key takeaways                                                                                                         |
 
 {: .warning }
-> The complex merge conflict is optional (it can be a *do-at-home* exercise). Check whether it can be completed by 150 min.
+> The **complex merge conflict** is optional (it can be a *do-at-home* exercise). Check whether it can be completed in 2:30 h.
 
 
 The resolving-merge-commits notebook could be moved to the best-practice session (if we run out of time).
