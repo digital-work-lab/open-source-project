@@ -334,11 +334,32 @@ Recommended branch setup in your fork:
 
 <!-- _class: centered -->
 
+---
+
+# Try CoLRev
+
+We have prepared a tutorial for CoLRev:
+
+- [colrev-tutorial](https://github.com/CoLRev-Environment/colrev-tutorial). It contains a notebook (`.devcontainer/tutorial.ipynb `) explaining how to set up a CoLRev repository, complete the different steps, and analyze how the dataset changes. 
+- In addition, a brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
+
+We invite you to work through the notebook before the next session.
+
+---
+
 # Survey
 
 Please share your feedback to help us improve!
 
 ---
+
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
 
 # Project organization
 
@@ -349,7 +370,7 @@ Please share your feedback to help us improve!
 
 **Task**: complete one merge between branches.
 
-Note: we will distribute a survey asking for the current state of your project after the merge. Your input will help us prepare the best practice session.
+> Note: we will distribute a survey asking for the current state of your project after the merge. Your input will help us prepare the best practice session.
 
 ---
 
