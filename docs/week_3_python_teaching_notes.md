@@ -200,3 +200,9 @@ which CoLRev-objects or libraries will be needed, which steps are required
 - Create a fork for the team, give access to team members, and add a note to the issue feed
 - All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
 - Check the resources provided with the issue, discuss the project, and make plans
+
+
+## Resources
+
+- [Python programming for data science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) with Python basics (and **unit tests**)
+- [Welcome to Python Packages](https://py-pkgs.org/)
