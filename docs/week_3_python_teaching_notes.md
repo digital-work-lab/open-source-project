@@ -204,5 +204,5 @@ which CoLRev-objects or libraries will be needed, which steps are required
 
 ## Resources
 
-- [Python programming for data science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) with Python basics (and **unit tests**)
-- [Welcome to Python Packages](https://py-pkgs.org/)
+- [Python programming for data science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html){: target="_blank"} with Python basics (and **unit tests**)
+- [Welcome to Python Packages](https://py-pkgs.org/){: target="_blank"}
