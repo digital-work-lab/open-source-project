@@ -364,6 +364,8 @@ We invite you to work through the notebook before the next session.
 
 Please share your feedback to help us improve!
 
+[Survey on the Git Introduction](https://survey.ism.uni-bamberg.de/index.php/994884?lang=en)
+
 ---
 
 <style>
