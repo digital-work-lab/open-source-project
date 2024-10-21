@@ -28,6 +28,7 @@ search_exclude: true
 {: .info }
 > - Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce){: target="_blank"}
 > - Start the timer at the beginning.
+> - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
 
 Create a cheatsheet: how you would internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
 
@@ -46,8 +47,6 @@ Vorbehalte:
 - muss das zugrunde liegende Modell lernen und verstehen
 - nicht für Binärdateien oder große Mediendateien ausgelegt
 
-Übersetzt mit DeepL.com (kostenlose Version)
-
 
 ## Learning objectives
 
@@ -55,7 +54,7 @@ Vorbehalte:
 Dafür ist diese Session in drei Teile unterteilt.
 - Wir starten mit **branching**, gehen dann zu **comitting** über und am Ende schauen wir uns noch **collaborating** an.
 - Jeder dieser Teile beinhaltet **Konzepte**, die besprochen werden und dazugehörige **Übungsaufgaben**.
-- Am besten wäre es wenn Sie sich in Gruppen mit á 2-3 Personen zusammenfinden, um die Übungsaufgaben zusammen zu bearbeiten.
+
 
 ## Part 1: Branching <a id="branching"></a>
 
