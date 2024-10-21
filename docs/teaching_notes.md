@@ -78,7 +78,7 @@ VC post (21.10.25)
 > 
 > wir möchten Sie daran erinnern, dass Sie bis zur nächsten Session einen Kommentar in den Issue-Feeds hinterlassen.
 >
-> Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeeds signalisieren: https://github.com/CoLRev-Environment/colrev/milestone/8.
+> Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeeds signalisieren: https://github.com/CoLRev-Environment/colrev/milestone/9.
 > 
 > Ein einfaches “I would like to work on this issue 🙋” wäre ausreichend.
 > 
