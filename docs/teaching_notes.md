@@ -32,6 +32,16 @@ TBD: [Merging Survey](../assets/Merging_survey.docx)
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
 - [ ] Check whether `colrev package --init` works
 
+## Student communication
+
+```
+The overlap is a bit unfortunate and it is difficult for me to understand whether you will be able to contribute to the project work if you miss these sessions. At the same time, I would like you to participate in the project, and prior experience with Python and Git certainly helps.
+
+What I would suggest going forward is to check the materials of the sessions (available at https://digital-work-lab.github.io/open-source-project/), and to start finding a team (as described in the slides for the first session). Naturally, we expect everyone, including yourself, to contribute equally to the project.
+
+If you have any questions on the process or materials, please let me know - I am happy to help.
+```
+
 ## Week 1: Introduction, topics, and groups <a id="topics"></a>
 
 VC post:
