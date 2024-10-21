@@ -20,7 +20,7 @@ search_exclude: true
 | 03:05          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                               |
 
 {: .objective }
-> - Goal: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
+> - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
 > - We work with the cli.
 
 <div class="page-break"></div>
@@ -28,8 +28,34 @@ search_exclude: true
 {: .info }
 > - Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce){: target="_blank"}
 > - Start the timer at the beginning.
-> - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
+
 Create a cheatsheet: how you would internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
+
+## Check-in: Group formation
+
+## Git: A distributed version control system
+
+Vorteile:
+- jedes Repository hat einen vollständigen Versionsverlauf
+- meisten Vorgänge laufen lokal ab
+- zuverlässige Datenverarbeitung, die Integrität und Verfügbarkeit gewährleistet
+- effiziente Datenverwaltung für Versionen und Zweige
+- skalierbare Mechanismen zur Zusammenarbeit für große Teams und komplexe Projekte
+
+Vorbehalte:
+- muss das zugrunde liegende Modell lernen und verstehen
+- nicht für Binärdateien oder große Mediendateien ausgelegt
+
+Übersetzt mit DeepL.com (kostenlose Version)
+
+
+## Learning objectives
+
+- Wir wollen heute verstehen, wie man Git zum SOftwareentwickeln in Teams benutzen kann.
+Dafür ist diese Session in drei Teile unterteilt.
+- Wir starten mit **branching**, gehen dann zu **comitting** über und am Ende schauen wir uns noch **collaborating** an.
+- Jeder dieser Teile beinhaltet **Konzepte**, die besprochen werden und dazugehörige **Übungsaufgaben**.
+- Am besten wäre es wenn Sie sich in Gruppen mit á 2-3 Personen zusammenfinden, um die Übungsaufgaben zusammen zu bearbeiten.
 
 ## Part 1: Branching <a id="branching"></a>
 
@@ -190,3 +216,7 @@ Resources:
 - https://swcarpentry.github.io/git-novice/
 - https://librarycarpentry.org/lc-git/
 - Write yourself a Git! (Challenge) https://wyag.thb.lt/
+
+### Until next session
+
+To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)  ([deadline](../index.html#deliverables)).
