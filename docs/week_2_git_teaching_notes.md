@@ -163,6 +163,10 @@ If you have the time, try the different undo operations in the session.
 {: .info }
 > Notebook: [practice-git / collaborating](https://github.com/digital-work-lab/practice-git){: target="_blank"}
 
+### Best practice branching strategy:
+
+This will ensure that you will always have fast-forward merges.
+It will also keep the upstream/origin work separate from your work (in the feature branch)
 
 ### Additional notes
 

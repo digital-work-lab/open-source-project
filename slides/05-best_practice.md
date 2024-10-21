@@ -103,40 +103,6 @@ Summarize the work status per group:
 
 ---
 
-<!--
-# Practice: Git merging strategies
-
-Start our development environment on GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
-
----
-
-This will ensure that you will always have fast-forward merges.
-It will also keep the upstream/origin work separate from your work (in the feature branch)
-
-Merging into shared branches:
-
-- Merge (commit) from ``remotes/fork/main`` into shared branch.
--->
-
-When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
-
-- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
-- Once the branch is online, use merge commits
-
-Merging into a target branch, i.e., your shared feature branch:
-
-- Squash if you have worked on a single coherent task, which should be combined in a single commit
-- Rebase if you would like to preserve a simple linear history
-- Merge commit otherwise
-
-<!-- 
-Note: later merge into ``remotes/origin/main`` will be decided by the maintainer
--->
-
----
-
 <!-- _class: centered -->
 
 # Open questions?

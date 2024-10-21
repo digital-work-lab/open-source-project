@@ -332,6 +332,19 @@ Recommended branch setup in your fork:
 
 ---
 
+When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+
+- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
+- Once the branch is online, use merge commits
+
+Merging into a target branch, i.e., your shared feature branch:
+
+- Squash if you have worked on a single coherent task, which should be combined in a single commit
+- Rebase if you would like to preserve a simple linear history
+- Merge commit otherwise
+
+---
+
 <!-- _class: centered -->
 
 ---
