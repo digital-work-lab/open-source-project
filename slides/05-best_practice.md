@@ -103,6 +103,22 @@ Summarize the work status per group:
 
 ---
 
+# Best practices
+
+- Follow the [branching strategy](https://digital-work-lab.github.io/open-source-project/output/02-git.html#25)
+- [Search](https://github.com/search), [read](https://www.turing.com/kb/start-reading-code-the-right-way) and understand your code and the code in related projects
+- Check and fix code quality regularly (at least: before creating a commit):
+
+```
+pre-commit run --all
+```
+
+- Carefully select changes (`git add -p`) and review changes before creating a commit
+- Commit often
+- Synchronize regularly in your fork and with `remotes/upstream`
+
+---
+
 <!-- _class: centered -->
 
 # Open questions?
