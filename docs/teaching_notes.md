@@ -8,10 +8,6 @@ search_exclude: true
 
 # Teaching notes
 
-{: .info }
-> **Info**
-> The teaching notes include materials for the instructor and teaching assistants.
-
 | **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |
 |---------|--------------|-------------------|--------------------------------------|------------------------------------------------------------|
 | 1       | 90 min       | Topics            | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
@@ -22,11 +18,11 @@ search_exclude: true
 | 6-11    | -            | Group-work        | -                                    |                                                            |
 | 12      | Flexible     | Code Review       | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
 
-
 TBD: [Merging Survey](../assets/Merging_survey.docx)
 
 ## Preparation
 
+- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/)
 - [ ] Update dates and rooms for sessions
 - [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
