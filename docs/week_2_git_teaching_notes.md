@@ -113,6 +113,8 @@ Branches: pointers (more efficient than referring to sha-commit-ids)
 -> allow us to separate development (typically: main/dev/features; but: very flexible)
 
 
+Explain Codespace/Jupyter notebook
+
 {: .info }
 > Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git){: target="_blank"}
 

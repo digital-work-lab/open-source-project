@@ -138,6 +138,10 @@ Open the notebook for practicing Git branching:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
+<br>
+
+![width:600px center](../assets/codespaces_startup_screenshot.png)
+
 ---
 
 <!-- _class: centered -->
@@ -198,16 +202,16 @@ Open the notebook for practicing Git committing:
 
 # Transfer challenges I 
 
-1. Consider how the **git switch** (or the revert/pull/checkout) command affects the git areas. How does it affect the working directory?
+
+Consider how the **git switch** (or the revert/pull/checkout) command affects the git areas. How does it affect the working directory?
 
 <!--
 Do you see any challenges?
 - Try to reproduce the situation
-(stash) -->
+(stash) 
 
 2. Git provides the option to edit prior commits using an interactive rebase, such as the **git rebase -i**. How would that affect the following commits?
 
-<!-- 
 git questions: understand linearized git history displayed on github / reading gitk DAG
 
 Illustrate on the whiteboard : new/alternative commit with the same parent, all following commits are applied on top of the new commit
@@ -244,7 +248,7 @@ git remote add origin REMOTE-URL
 git push origin main
 ```
 
-> \* If the remote repository does not exist, you have to add the remote origin and push the repository
+> \* If the remote repository does not exist, you have to add the remote origin and push the repository.<br> \* The REMOTE-URL must be an ssh url. Otherwise, changes cannot be pushed.
 
 ![bg right:30% width:300px](../assets/git-remote.png)
 
@@ -292,7 +296,8 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 - It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
 - Syncing changes may be necessary to get bug fixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
 
----
+
+<!-- 
 
 # Remotes and branches
 
@@ -308,44 +313,23 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 - Once a pull request has been opened, how can new changes (commits) be added?
 
-<!-- 
-Note: pull requests are just pointers (like branches/HEAD, they move with the branch)
- -->
-
 - Assume that you discovered a typo in a very old commit. One option would be to run an interactive rebase and fix the typo. Why could such cases of "rewriting history" be problematic in collaborative settings?
 
 - When pulling changes, there are two strategies to handle diverging branches: ``--merge`` or ``--rebase``. How do the results differ between these strategies?
 
-<!-- pull --rebase (we discussed interactive rebase before) -->
+
+
+Note: pull requests are just pointers (like branches/HEAD, they move with the branch)
+ pull --rebase (we discussed interactive rebase before) 
 
 - GitHub offers the possibility to edit files directly. Are all three git areas available in this setting?
+ -->
 
 ---
 
-# Which branching / merging strategy should we select?
+# Practice: Collaborating
 
-Recommended branch setup in your fork:
-
-1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
-2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
-3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
-
----
-
-When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
-
-- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
-- Once the branch is online, use merge commits
-
-Merging into a target branch, i.e., your shared feature branch:
-
-- Squash if you have worked on a single coherent task, which should be combined in a single commit
-- Rebase if you would like to preserve a simple linear history
-- Merge commit otherwise
-
----
-
-<!-- _class: centered -->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
 
 ---
 
