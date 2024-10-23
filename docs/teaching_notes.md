@@ -22,7 +22,7 @@ TBD: [Merging Survey](../assets/Merging_survey.docx)
 
 ## Preparation
 
-- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/)
+- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
 - [ ] Update dates and rooms for sessions
 - [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
