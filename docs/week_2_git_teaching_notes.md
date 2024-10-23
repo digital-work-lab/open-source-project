@@ -58,15 +58,14 @@ Dafür ist diese Session in drei Teile unterteilt.
 
 ## Part 1: Branching <a id="branching"></a>
 
-Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
-Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
-Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separaten Entwicklungszweigen. Ich kann einen Branch für meine USB-Treiber aufmachen, Sie arbeiten separate am Transportprotokoll. Die Änderungen werden immer nur in unserem Branch hinzugefügt und betreffen die anderen Entwickler nicht (ILLUSTRIEREN: ich habe einen usb-drivers branch, Sie einen transport-protocol branch, meine Änderungen werden hier hinzugefügt, Ihre Änderungen hier). 
-
-- Branches sind lokal und effizient (um einen Branch anzulegen speichert Git eine Zeile - alte Versionskontrollsysteme haben gleich das gesamt Projekt kopiert)
-- Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
-- Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
 
 ### Commits
+
+- Snapshot of the whole project
+- Identifying objects with SHA fingerprints
+- Commit: Elements and parents
+
+<!-- 
 
 Demo:
 
@@ -91,10 +90,21 @@ Tree-hash
 - illustrate in a commit-chain (all child commits change - problematic if we want to work on the same tree)
 - internal file handling: get ae9d898d7fa...
 - growth: adding a new commit/branch requires very little additional storage
+-->
 
-Discuss/provide solutions for atomic commits
+**Illustration on the whiteboard**
+
+Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
+Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
+Dafür gibt Git uns die Möglichkeit, mit Branches zu arbeiten, also mit separaten Entwicklungszweigen. Ich kann einen Branch für meine USB-Treiber aufmachen, Sie arbeiten separate am Transportprotokoll. Die Änderungen werden immer nur in unserem Branch hinzugefügt und betreffen die anderen Entwickler nicht (ILLUSTRIEREN: ich habe einen usb-drivers branch, Sie einen transport-protocol branch, meine Änderungen werden hier hinzugefügt, Ihre Änderungen hier). 
+
+- Branches sind lokal und effizient (um einen Branch anzulegen speichert Git eine Zeile - alte Versionskontrollsysteme haben gleich das gesamt Projekt kopiert)
+- Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
+- Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
 
 As soon as we have a git repository, we can see and modify everything in our copy.
+
+Commits can have multiple parents, each commit can have multiple children (branch / merge commits) - but there are no circles!
 
 ### The DAG, branches, and HEAD
 
@@ -195,6 +205,7 @@ If you have the time, try the different undo operations in the session.
 This will ensure that you will always have fast-forward merges.
 It will also keep the upstream/origin work separate from your work (in the feature branch)
 
+<!-- 
 ### Additional notes
 
 Explain "bullwhip" effect based on this and the previous slide (why rewriting history should be avoided)
@@ -217,6 +228,7 @@ Resources:
 - https://swcarpentry.github.io/git-novice/
 - https://librarycarpentry.org/lc-git/
 - Write yourself a Git! (Challenge) https://wyag.thb.lt/
+-->
 
 ### Until the next session
 
