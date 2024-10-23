@@ -8,20 +8,20 @@ search_exclude: true
 
 # Week 2: Git (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                             |
-|----------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                                                |
+|----------------|-----------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 00:00          | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
-| 00:50          | 5         | Break                                     |                                                                                                                                  |
+| 00:50          | 5         | Break                                     |                                                                                                                                                     |
 | 00:55          | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
-| 01:45          | 5         | Break                                     |                                                                                                                                  |
+| 01:45          | 5         | Break                                     |                                                                                                                                                     |
 | 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
-| 02:30          | 5         | Break                                     |                                                                                                                                  |
+| 02:30          | 5         | Break                                     |                                                                                                                                                     |
 | 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
-| 03:05          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                               |
+| 03:05          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
 {: .objective }
-> - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do and how the changes and commands are situated in the three areas)
-> - We work with the cli.
+> - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas)
+> - We work with the CLI.
 
 <div class="page-break"></div>
 
@@ -30,7 +30,7 @@ search_exclude: true
 > - Start the timer at the beginning.
 > - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
 
-Create a cheatsheet: how you would internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
+Create a cheatsheet: how would you internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
 
 ## Check-in: Group formation
 
@@ -47,14 +47,14 @@ Vorbehalte:
 - muss das zugrunde liegende Modell lernen und verstehen
 - nicht für Binärdateien oder große Mediendateien ausgelegt
 
-
 ## Learning objectives
 
-- Wir wollen heute verstehen, wie man Git zum SOftwareentwickeln in Teams benutzen kann.
-Dafür ist diese Session in drei Teile unterteilt.
-- Wir starten mit **branching**, gehen dann zu **comitting** über und am Ende schauen wir uns noch **collaborating** an.
-- Jeder dieser Teile beinhaltet **Konzepte**, die besprochen werden und dazugehörige **Übungsaufgaben**.
+- Wir wollen heute verstehen, wie man Git für die Softwareentwicklung in Teams benutzen kann.
 
+Dafür ist diese Session in drei Teile unterteilt.
+
+- Wir starten mit **branching**, gehen dann zu **committing** über und am Ende schauen wir uns noch **collaborating** an.
+- Jeder dieser Teile beinhaltet **Konzepte**, die besprochen werden und dazugehörige **Übungsaufgaben**.
 
 ## Part 1: Branching <a id="branching"></a>
 
@@ -87,10 +87,10 @@ Author/date/message
 Parent(s)
 Tree-hash
 
--> file handling based on hashes/fingerprints. if one bit changes, the hash changes completely
--> illustrate in a commit-chain (all child commits change - problematic if we want to work on the same tree)
--> internal file handling: get ae9d898d7fa...
--> growth: adding a new commit/branch requires very little additional storage
+- file handling based on hashes/fingerprints. If one Bit changes, the hash changes completely
+- illustrate in a commit-chain (all child commits change - problematic if we want to work on the same tree)
+- internal file handling: get ae9d898d7fa...
+- growth: adding a new commit/branch requires very little additional storage
 
 Discuss/provide solutions for atomic commits
 
@@ -101,7 +101,7 @@ As soon as we have a git repository, we can see and modify everything in our cop
 - Development typically focuses on the **main branch**, which often contains the latest stable version of the project
 - The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
 - Commits and their parent links form a directed acyclic graph (DAG)
-Branches are useful to develop features, test code, or fix bugs without interfering with the main branch
+Branches are useful for developing features, testing code, or fixing bugs without interfering with the main branch
 - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository 
 
 - parents: lines of development
@@ -109,7 +109,7 @@ Branches are useful to develop features, test code, or fix bugs without interfer
 - merge: one commit has two parents
 -> DAG (we don't travel back in time - so there are no cycles)
 
-Branches: pointers (more efficient than referring to sha-comit-ids)
+Branches: pointers (more efficient than referring to sha-commit-ids)
 -> allow us to separate development (typically: main/dev/features; but: very flexible)
 
 
@@ -120,13 +120,13 @@ Branches: pointers (more efficient than referring to sha-comit-ids)
 
 ## Part 2: Committing <a id="committing"></a>
 
-**Interactively develop the conceptual chart at the blackboard (explain to students which operations lead to transitions between the states)**
+**Interactively develop the conceptual chart on the blackboard (explain to students which operations lead to transitions between the states)**
 
 Highlight: we focus on local repositories only in this part!
 
 ASK for concentration
 
-- How should a versioning system look like? - area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [AREAS AUFZEICHNEN]
+- How should a versioning system look like? - Area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [AREAS AUFZEICHNEN]
 - Zusätzlich gibt es noch eine Staging Area [IN DER MITTE  EINZEICHNEN]. 
 - Stellen Sie sich jetzt vor, dass wir unser Git-Projekt angelegt haben, es gibt also das working directory und das git directory. Und wir haben jetzt verschiedene Dateien erstellt, zB. Programmcode, tests, dokumentation, und notizen. [ADD FILES TO WORKING DIRECTORY].
 - Die erste Frage, die sich stellt ist: wie lege ich eine neue Version an? Wir wollen also den Programmcode und die Tests in der neuen Version haben. Die Dokumentation ist noch nicht fertig und die Notizen sollen auch nicht in die Version. Und da kommt die Staging Area ins Spiel. Alles was in die nächste Version aufgenommen werden soll muss vorher in die Staging area, sozusagen markiert für die nächste Version bzw. den nächsten Commit.
@@ -216,6 +216,6 @@ Resources:
 - https://librarycarpentry.org/lc-git/
 - Write yourself a Git! (Challenge) https://wyag.thb.lt/
 
-### Until next session
+### Until the next session
 
 To prepare for the next sessions, please set up your programming environment (see [instructions](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} in the CoLRev documentation)  ([deadline](../index.html#deliverables)).
