@@ -99,9 +99,9 @@ blockquote {
 </style>
 
 - A **commit** refers to a snapshot (version) of the whole project directory, including the metadata and files
-- Commits are identified by the **SHA** fingerprint of their metadata and content\*, e.g., `98ca9`
-- Commits are created in a sequence, with every commit pointing to its **parent** commit(s)
 - The **tree** object contains all files (and non-empty directories); it is identified by a SHA hash
+- Commits are created in a sequence, with every commit pointing to its **parent** commit(s)
+- Commits are identified by the **SHA** fingerprint of their metadata and content\*, e.g., `98ca9`
 - Commits are created by the **git commit** command
 
 ![bg right:45% width:230px center](../assets/git-commit.png)
@@ -286,6 +286,8 @@ This model works if you are a maintainer of the remote/origin, i.e., if you have
 
 ![bg center width:600px](../assets/fork-invite-clone-pull.png)
 
+> (3.) You only need to *clone* the repository explicitly if you work in a local setup. If you start a Codespace, this is done automatically.
+
 ---
 
 # Work in a forked repository
@@ -366,10 +368,6 @@ blockquote {
 - Plan how tasks could be completed in separate branches
 - Avoid working on the `main` branch and synchronize it regularly with the original repository
 - Regularly check whether branches should be synchronized (merged)
-
-**Task**: complete one merge between branches.
-
-> Note: we will distribute a survey asking for the current state of your project after the merge. Your input will help us prepare the best practice session.
 
 ---
 
