@@ -29,14 +29,10 @@ run pip3 install -e . (to take code from the right repository)
 - print the diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate my life-coding)
 -. At the end: run pip install e in your project (otherwise, you will run the tutorial Version. 
 
-
 # Short group sessions
 
 - who forked/leads
 - clear announcement for overbooked groups
-
-ask: who has a working machine? -> form groups around them!
-
 
 # Learning objectives:
 

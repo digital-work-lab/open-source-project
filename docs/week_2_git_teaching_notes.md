@@ -10,14 +10,14 @@ search_exclude: true
 
 | Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                                                |
 |----------------|-----------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 00:00          | 50        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
-| 00:50          | 5         | Break                                     |                                                                                                                                                     |
-| 00:55          | 50        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
-| 01:45          | 5         | Break                                     |                                                                                                                                                     |
-| 01:50          | 40        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
-| 02:30          | 5         | Break                                     |                                                                                                                                                     |
-| 02:35          | 30        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
-| 03:05          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
+| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
+| 01:30          | 5         | Break                                     |                                                                                                                                                     |
+| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
+| 02:15          | 5         | Break                                     |                                                                                                                                                     |
+| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
+| 02:45          | 5         | Break                                     |                                                                                                                                                     |
+| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
+| 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
 {: .objective }
 > - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas)
@@ -34,36 +34,23 @@ Create a cheatsheet: how would you internalize it? Ask yourself: if you were to 
 
 ## Check-in: Group formation
 
-## Git: A distributed version control system
-
-Vorteile:
-- jedes Repository hat einen vollständigen Versionsverlauf
-- meisten Vorgänge laufen lokal ab
-- zuverlässige Datenverarbeitung, die Integrität und Verfügbarkeit gewährleistet
-- effiziente Datenverwaltung für Versionen und Zweige
-- skalierbare Mechanismen zur Zusammenarbeit für große Teams und komplexe Projekte
-
-Vorbehalte:
-- muss das zugrunde liegende Modell lernen und verstehen
-- nicht für Binärdateien oder große Mediendateien ausgelegt
+Check whether students are forming groups, whether there are any challenges.
 
 ## Learning objectives
 
-- Wir wollen heute verstehen, wie man Git für die Softwareentwicklung in Teams benutzen kann.
+Today, we want to understand how to use Git for software development in teams.
+This session is divided into three parts.
 
-Dafür ist diese Session in drei Teile unterteilt.
-
-- Wir starten mit **branching**, gehen dann zu **committing** über und am Ende schauen wir uns noch **collaborating** an.
-- Jeder dieser Teile beinhaltet **Konzepte**, die besprochen werden und dazugehörige **Übungsaufgaben**.
+- We’ll start with **branching**, then move on to **committing**, and finally, we'll look at **collaborating**.
+- Each of these parts includes **concepts** that will be discussed, along with **related exercises**.
 
 ## Part 1: Branching <a id="branching"></a>
-
 
 ### Commits
 
 - Snapshot of the whole project
 - Identifying objects with SHA fingerprints
-- Commit: Elements and parents
+- Commit: Contents (tree), Metadata (message, author/committer, date, parent) and SHA
 
 <!-- 
 
@@ -80,11 +67,8 @@ git cat-file -p ENTER_COMMIT
 git cat-file -p (TREE)
 git cat-file -p (FILE)
 
-- if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
 
-Author/date/message
-Parent(s)
-Tree-hash
+- if git handles everything through fingerprints, it checks whether the file or tree is already in the database.
 
 - file handling based on hashes/fingerprints. If one Bit changes, the hash changes completely
 - illustrate in a commit-chain (all child commits change - problematic if we want to work on the same tree)
@@ -93,6 +77,8 @@ Tree-hash
 -->
 
 **Illustration on the whiteboard**
+
+Working in parallel (not just in the linear history)
 
 Wenn wir uns jetzt ein größeres Softwareprojekt vorstellen, also beispielsweise den Linux-Kernel, dann werden da fast im Sekundentakt neue Versionen angelegt. Wenn wir da bei einer linearen Versionsgeschichte bleiben, dann wird das schnell chaotisch.
 Beispiel: Ich ändere die USB-Treiber, Sie Ändern ein Transportprotokoll, und Sie arbeiten an einem neuen Dateisystem. Wenn das wahllos durcheinander läuft dann gibt es Abhängigkeiten und Fehler, die wir vermeiden wollen. Idealerweise wollen wir an unserem Code arbeiten, ohne, dass jemand anders uns da Änderungen einfügt, die gar nichts mit unserer Arbeit zu tun haben.
