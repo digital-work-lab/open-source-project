@@ -8,6 +8,8 @@ search_exclude: true
 
 # Week 3: Python (Teaching notes)
 
+Start the codespaces on Github
+
 # Preparation
 
 ```
