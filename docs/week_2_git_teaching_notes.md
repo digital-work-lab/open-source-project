@@ -112,6 +112,7 @@ Branches: pointers (more efficient than referring to sha-commit-ids)
 
 
 Explain Codespace/Jupyter notebook
+Furthermore explain where to find what in the jupyter Notebook
 
 {: .info }
 > Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git){: target="_blank"}
