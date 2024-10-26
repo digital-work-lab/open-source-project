@@ -26,7 +26,6 @@ search_exclude: true
 <div class="page-break"></div>
 
 {: .info }
-> - Prep [Pingo survey](https://pingo.coactum.de/events/659109/surveys/670b7003cb008d0001b0e7ce){: target="_blank"}
 > - Start the timer at the beginning.
 > - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
 

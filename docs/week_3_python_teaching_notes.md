@@ -8,7 +8,21 @@ search_exclude: true
 
 # Week 3: Python (Teaching notes)
 
+| Time (start)   | Duration  | Topic                                | Additional materials                                                                                            |
+|----------------|-----------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| 00:00          | 20        | Session 1: [Introduction](#intro)    | Concepts                                                                                                        |
+| 00:20          | 80        | Session 1: [Notebook 1](#notebook_1) | [notebook 1](https://github.com/digital-work-lab/practice-python?tab=readme-ov-file){: target="_blank"})        |
+| 01:40          | 10        | Session 1: [Wrap-up](#wrap-up)       |                                                                                                                 |
+| 00:00          | 20        | Session 2: [Introduction](#intro_2)  | Concepts                                                                                                        |
+| 00:20          | 80        | Session 2: [Notebook 2](#notebook_2) | [notebook 2](https://github.com/digital-work-lab/practice-python?tab=readme-ov-file){: target="_blank"})        |
+| 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                                                                 |
+
+{: .objective }
+> - **Goal**: TODO
+
 Start the codespaces on Github
+
+<div class="page-break"></div>
 
 # Preparation
 
@@ -43,6 +57,7 @@ highlight:
 - Use google/Stackoverflow on any error/challenge that comes up!
 - Using Code quality checkers and tests
 
+Discuss take-home exercise (collaborating)?
 
 # Python
 
@@ -198,7 +213,6 @@ which CoLRev-objects or libraries will be needed, which steps are required
 - Create a fork for the team, give access to team members, and add a note to the issue feed
 - All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
 - Check the resources provided with the issue, discuss the project, and make plans
-
 
 ## Resources
 
