@@ -919,3 +919,7 @@ dieser
 Softwareentwicklung
 instagram
 jupyter
+Universit
+img
+svg
+yml
