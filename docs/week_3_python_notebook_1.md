@@ -69,7 +69,7 @@ git fetch
 git checkout tutorial_python
 -->
 
-As a first step, we install the package dependency manager **Poetry**:
+As a first step, we install the package dependency manager **Poetry**, which will be used in [part 3](#libraries):
 
 ```
 pip install poetry
@@ -174,7 +174,6 @@ pip install bibtexparser
 
 
 ```python
-pip install poetry
 poetry add bibtexparser
 ```
 
