@@ -120,8 +120,8 @@ open two separate shells
 
 - Explain `__main__`
 
--> commit: pre-commit hooks!
--> explain later (they do some formatting and warn us if there are code quality issues)
+- commit: pre-commit hooks!
+- explain later (they do some formatting and warn us if there are code quality issues)
 
 Goal: orientation/read code, try to figure out things
 
@@ -129,7 +129,7 @@ Goal: orientation/read code, try to figure out things
 
 Optional additional challenge: use the constants as keys (package development docs)
 
-![Solution](../assets/python_solution_2.png)
+![Solution](../assets/python_solution_1.png)
 
 # External libraries
 
@@ -140,12 +140,17 @@ after 2-3 minutes: write BibtexParser on the blackboard
 > 
 > Students need to use the old entrypoint (available in the docs menu "Migrating: v1 -> v2").
 
-```Python
+
+```
 # v1
 import bibtexparser
 with open('bibtex.bib') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 ```
+
+![Solution](../assets/python_solution_2.png)
+
+![Solution](../assets/python_solution_3.png)
 
 <!--
 Note: our version (on tutorial_branch) only works with v1.
@@ -186,10 +191,13 @@ Note: it can be helpful to make mistakes on purpose (e.g., indentation, etc.) to
 
 Pylint example.
 
+```
 example:
 ************* Module colrev.ops.built_in.search_sources.aisel
 colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+```
 
+![Solution](../assets/python_solution_4.png)
 
 # Best practices
 
@@ -212,6 +220,8 @@ KeyError: 'journal'
 -> if statement (better: if "journal" not in record: return)
 
 Notice: when creating the run() method, the jif_labeler_instance switches to "self".
+
+![Solution](../assets/python_solution_5.png)
 
 ## Using CoLRev infrastructure
 
