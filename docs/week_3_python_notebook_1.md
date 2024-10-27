@@ -121,14 +121,14 @@ colrev run
 
 **Task**: Create a dictionary containing these data fields and print it when `colrev run` is called.
 
-You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp).
+You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
 
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Challenge (optional)</b>: If you have completed the previous tasks, try to use the CoLRev constants for fields like <code>title</code>, <code>author</code>, etc.. In many cases, using constants like these is preferrable to so called "magic strings".</p>
 
 ### Changing data
 
-Next, we need a field indicating the record's status throughout the [process](https://colrev-environment.github.io/colrev/manual/operations.html).
+Next, we need a field indicating the record's status throughout the [process](https://colrev-environment.github.io/colrev/manual/operations.html){: target="_blank"}.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Add a <code>colrev_status</code> field to the dictionary, and set its value to <code>md_imported</code>. Create a commit once the command prints the following:</p>
 
@@ -237,7 +237,7 @@ In this notebook, we have learned to
 - Install and use external libraries
 - Write modular code by using functions
 
-To continue using your work in the next session, <b>stop</b> your Codespace [here](https://github.com/codespaces).
+To continue using your work in the next session, <b>stop</b> your Codespace [here](https://github.com/codespaces){: target="_blank"}.
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In contrast to deleting a Codespace (which removes all files, changes, settings, etc.), stopping the Codespace preserves the current state of your work and does not consume computational resources.</p>
 
 <img src="img/codespace-stop.gif"  loop="1" width="800"/>
