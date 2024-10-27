@@ -84,7 +84,32 @@ Summarize the work status per group:
 
 ---
 
-# Work status: Where to contribute
+# Which branching / merging strategy should we select?
+
+Recommended branch setup in your fork:
+
+1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
+2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
+3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
+
+<!-- Note: the branching strategy is part of the best-practice session because it is useful when students have already thought about how to organize tasks. In the Git session, it would be too early in the group formation process. -->
+
+---
+
+When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+
+- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
+- Once the branch is online, use merge commits
+
+Merging into a target branch, i.e., your shared feature branch:
+
+- Squash if you have worked on a single coherent task, which should be combined in a single commit
+- Rebase if you would like to preserve a simple linear history
+- Merge commit otherwise
+
+---
+
+# Work status: How to contribute
 
 - Understanding of CoLRev
 
