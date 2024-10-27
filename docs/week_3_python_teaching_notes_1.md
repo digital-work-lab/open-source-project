@@ -1,21 +1,23 @@
 ---
 layout: default
-title: "Week 3: Python"
+title: "Week 3: Python 1"
 nav_exclude: true
 has_toc: true
 search_exclude: true
 ---
 
-# Week 3: Python (Teaching notes)
+# Week 3: Python 1 (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                | Additional materials                                                                                            |
-|----------------|-----------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 00:00          | 20        | Session 1: [Introduction](#intro)    | Concepts                                                                                                        |
-| 00:20          | 80        | Session 1: [Notebook 1](#notebook_1) | [notebook 1](https://github.com/digital-work-lab/practice-python?tab=readme-ov-file){: target="_blank"})        |
-| 01:40          | 10        | Session 1: [Wrap-up](#wrap-up)       |                                                                                                                 |
-| 00:00          | 20        | Session 2: [Introduction](#intro_2)  | Concepts                                                                                                        |
-| 00:20          | 80        | Session 2: [Notebook 2](#notebook_2) | [notebook 2](https://github.com/digital-work-lab/practice-python?tab=readme-ov-file){: target="_blank"})        |
-| 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                                                                 |
+| Time (start)  | Duration  | Topic                             | Additional materials                                             |
+|---------------|-----------|-----------------------------------|------------------------------------------------------------------|
+| 00:00         | 10        | [Group formation](#groups)        |                                                                  |
+| 00:10         | 20        | [Basic concepts](#python-basics)  |                                                                  |
+| 00:30         | 10        | [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
+| 00:40         | 20        | [Data items](#data)               |                                                                  |
+| 01:00         | 10        | Break                             |                                                                  |
+| 01:10         | 30        | [External libraries](#libraries)  |                                                                  |
+| 01:40         | 20        | [Functions](#functions)           |                                                                  |
+| 02:10         | 10        | [Wrap-up](#wrap-up)               |                                                                  |
 
 {: .objective }
 > - Familiarize with Python syntax
@@ -23,7 +25,8 @@ search_exclude: true
 > - Understand how to extend a Python package (CoLRev)
 
 {: .info }
-> Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
+> - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
+> - It is important that students work on Codespaces (not their own machines) to avoid technical setup issues
 
 <div class="page-break"></div>
 
@@ -48,12 +51,12 @@ run pip3 install -e . (to take code from the right repository)
 
 - [ ] Print the teaching notes, including code diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate life-coding)
 
-# Short group sessions
+# Group formation <a id="groups"></a>
 
-- who forked/leads
-- clear announcement for overbooked groups
+- Who forked/leads
+- Clear announcement for overbooked groups
 
-highlight:
+Highlight:
 
 - Use google/Stackoverflow on any error/challenge that comes up!
 - Using Code quality checkers and tests
@@ -62,18 +65,17 @@ Discuss take-home exercise (collaborating)?
 
 <div class="page-break"></div>
 
-# Python
+# Python  <a id="python-basics"></a>
 
-Object-oriented
-Procedural
-Functional
+- Object-oriented
+- Procedural
+- Functional
 
 Interpreted language: unlike Java which requires us to compile the jar file 
 
-
 - Strongly typed: Explicit conversion required
 - Python fails at runtime when asked to multiply/divide strings and strings. If you need the numbers stored inside a string variable, you need to cast it explicitly (`int_var = int("99")`).
-- dynamically typed: typing information is only evaluated when running code (e.g., string * string in if-statement that is not evaluated does not fail)
+- Dynamically typed: typing information is only evaluated when running code (e.g., string * string in if-statement that is not evaluated does not fail)
 
 Example:
 
@@ -100,12 +102,11 @@ if True:
 
 Our focus: using the programming language to build things (not to understand the programming language)
 
-# Important
+{: .warning }
+> It is important to run colrev in a separate data directory.
 
-Students should not set up their machines during the session.
-Ask students to complete the tutorial on github codespaces
+Setup for the data directory:
 
-setup for the data directory:
 ```
 shell:
 cd ..
@@ -114,7 +115,7 @@ Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
 open two separate shells
 ```
 
-# Entrypoint
+# Setup <a id="setup"></a>
 
 - Explain `__main__`
 
@@ -123,7 +124,7 @@ open two separate shells
 
 Goal: orientation/read code, try to figure out things
 
-# Creating dictionaries
+# Data items <a id="data-items"></a>
 
 Optional additional challenge: use the constants as keys (package development docs)
 
@@ -131,7 +132,7 @@ Optional additional challenge: use the constants as keys (package development do
 
 <div class="page-break"></div>
 
-# External libraries
+# External libraries <a id="libraries"></a>
 
 after 2-3 minutes: write BibtexParser on the blackboard
 
@@ -139,7 +140,6 @@ after 2-3 minutes: write BibtexParser on the blackboard
 > **Important: bibtexparser version has changed**
 > 
 > Students need to use the old entrypoint (available in the docs menu "Migrating: v1 -> v2").
-
 
 ```
 # v1
@@ -160,7 +160,7 @@ At some point, we may migrate to v2
 > pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main
  -->
 
-# JIF labeler:
+# Functions <a id="functions"></a>
 
 Remember:
 
@@ -199,59 +199,12 @@ colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argum
 
 ![Solution](../assets/python_solution_4.png)
 
-# Best practices
+# Wrap-up <a id="wrap-up"></a>
 
-small examples: clarify the "big goal" and start with small steps
-linters: already installed
-
-Code highlighting (visual studio): functions yellow, variables light blue, instances blue, classes green, strings orange
-python debuggers/plugins (for regular Python programming / special cases like memory usage or distributed systems)
-
-<div class="page-break"></div>
-
-# Python session 2 (end)
-
-run the pre-commit hooks a few times to illustrate the typing information
-
-## Object-oriented programming
-
-Important: try to program using objects (instead of procedural programming)
-
-if record["journal"] == "MIS Quarterly":
-KeyError: 'journal'
--> if statement (better: if "journal" not in record: return)
-
-Notice: when creating the run() method, the jif_labeler_instance switches to "self".
-
-![Solution](../assets/python_solution_5.png)
-
-## Using CoLRev infrastructure
-
-go to API reference
-navigate through the classes / dataset
-
-
-TBD:
-  - search: run an api-search example, examine the commit message (settings changed! -> reference implementation)
--> we add a query -> docs: interface definitions: searchsource.add_endpoint(), run_search()
-  -> see interfaces (standardized function parameters/names)
-  - where to find the built_in reference implementation (docs/architecture and directories), how to add/remove in the settings
-  -> see package_endpoint definitions (package_manager, docs)
-
-  continue: prep/validation
-
-  continue to data: show advice?
-
-
-# Next: Best practice and hacking sessions (per group)
-
-Pair-programming
-
-which CoLRev-objects or libraries will be needed, which steps are required
-
-- Create a fork for the team, give access to team members, and add a note to the issue feed
-- All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
-- Check the resources provided with the issue, discuss the project, and make plans
+- Small examples: clarify the "big goal" and start with small steps
+- Linters: already installed
+- Code highlighting (visual studio): functions yellow, variables light blue, instances blue, classes green, strings orange
+- Python debuggers/plugins (for regular Python programming / special cases like memory usage or distributed systems)
 
 ## Resources
 

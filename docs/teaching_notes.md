@@ -9,14 +9,15 @@ search_exclude: true
 # Teaching notes
 
 | **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |
-|---------|--------------|-------------------|--------------------------------------|------------------------------------------------------------|
-| 1       | 90 min       | Topics            | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
-| 2       | 180 min      | Git               | [Preparation](#git)                  | [Session notes](week_2_git_teaching_notes.html)            |
-| 3       | 2x180 min    | Python            | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes.html)         |
-| 4       | -            | Group-work        | -                                    |                                                            |
-| 5       | 90 min       | Best Practices    | [Preparation](#best-practices)       | [Session notes](week_5_best_practices_teaching_notes.html) |
-| 6-11    | -            | Group-work        | -                                    |                                                            |
-| 12      | Flexible     | Code Review       | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
+|----------|--------------|------------------|--------------------------------------|------------------------------------------------------------|
+| 1        | 90 min       | Topics           | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
+| 2        | 180 min      | Git              | [Preparation](#git)                  | [Session notes](week_2_git_teaching_notes.html)            |
+| 3        | 180 min      | Python           | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes_1.html)       |
+| 3        | 180 min      | Python           | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes_2.html)       |
+| 4        | -            | Group-work       | -                                    |                                                            |
+| 5        | 90 min       | Best Practices   | [Preparation](#best-practices)       | [Session notes](week_5_best_practices_teaching_notes.html) |
+| 6-11     | -            | Group-work       | -                                    |                                                            |
+| 12       | Flexible     | Code Review      | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
 
 TBD: [Merging Survey](../assets/Merging_survey.docx)
 
