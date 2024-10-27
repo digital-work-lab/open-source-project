@@ -36,7 +36,11 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 ### Switch branch
 
-For the tutorial, we switch to the `tutorial_2024_04` branch:
+Navigate to the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, select the `tutorial_python` branch and start Codespaces.
+
+<!-- 
+
+For the tutorial, we switch to the `tutorial_python` branch:
 
 
 ```python
@@ -56,8 +60,6 @@ code -a /workspaces/colrev
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Navigate to the colrev directory and checkout the tutorial branch with the first commit:</p>
 
-
-```python
 cd /workspaces/colrev
 pip install -e .[dev]
 pre-commit install
@@ -65,8 +67,10 @@ pip install poetry
 colrev install all_internal_packages
 git fetch
 git checkout tutorial_python
+-->
+
+```python
 git reset --hard c9c915792f920e7198fed463ef7199cc84bb2264
-cd /workspaces/practice-python
 ```
 
 <div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
@@ -155,8 +159,6 @@ git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide to use the <a href="https://github.com/sciunto-org/python-bibtexparser">BibtexParser</a> package, which developed actively and available under an Open-Source license.</p>
 
-
-
 ```python
 pip install bibtexparser
 ```
@@ -175,8 +177,6 @@ poetry add bibtexparser
 To checkout the **solution**, run:
 
 
-
-
 ```python
 git reset --hard 859b02536acd0173cc4263a5e97a602826d8051f
 pip install -e .[dev]
@@ -184,7 +184,7 @@ pip install -e .[dev]
 
 ### Using external libraries
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file (<b>important : use v1!</b>). An example <code>records.bib</code> file is available in the <code>practice-python/notebooks/records.bib</code> directory.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file (<b>important : use v1!</b>). An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a></p>
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Instead of defining the dictionary in the <code>run.py</code>, use the bibtexparser to load the <code>records.bib</code> file. Remember to store the <code>records.bib</code> in the <b>project directory</b>. </p>
 
