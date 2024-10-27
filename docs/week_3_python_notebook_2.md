@@ -34,7 +34,7 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 ---
 
-To continue working on your [Codespace](https://github.com/codespaces), resume it as follows:
+To continue working on your [Codespace](https://github.com/codespaces){: target="_blank"}, resume it as follows:
 
 <img src="img/codespace-start.gif"  loop="1" width="800"/>
 
@@ -159,4 +159,4 @@ In this notebook, we have learned to
 - Programmatically use CoLRev
 - Save and commit changes in a CoLRev project
 
-Remember to delete your [codespace](https://github.com/codespaces) after the session.
+Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.
