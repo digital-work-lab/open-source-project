@@ -27,7 +27,7 @@ TBD: [Merging Survey](../assets/Merging_survey.docx)
 - [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
 - [ ] Check whether `colrev package --init` works
-- [ ] Python session: update SHA values and branch name
+- [ ] Python session: [update SHA values and branch name](week_3_python_teaching_notes.html#preparation)
 
 ## Student communication
 

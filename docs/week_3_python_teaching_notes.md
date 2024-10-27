@@ -18,11 +18,12 @@ search_exclude: true
 | 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                                                                 |
 
 {: .objective }
-> - **Goal**: TODO
+> - Familiarize with Python syntax
+> - Learn good debugging and development practices
+> - Understand how to extend a Python package (CoLRev)
 
-Start the codespaces on Github
-
-Run first commands together (colrev install takes long)
+{: .info }
+> Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
 
 <div class="page-break"></div>
 
@@ -36,16 +37,18 @@ git rebase main
 git push -f
 ```
 
-Solution note: [sheet](../assets/python-tutorial-notes.odt)
+- [ ] Update git-commit SHAs in the notebooks
+- [ ] Checkout tutorial2 branch (tutorial branch should be available as a backup)
+- [ ] Test the tutorial in Codespaces
 
-- update git-commit SHAs?
-- checkout tutorial2 branch (tutorial branch should be available as a backup)
-
+<!-- 
 - before switching to tutorial/after the tutorial:
 run pip3 install -e . (to take code from the right repository)
+ -->
 
-- print the diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate my life-coding)
--. At the end: run pip install e in your project (otherwise, you will run the tutorial Version. 
+- [ ] Print the teaching notes, including code diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate life-coding)
+
+Solution note: [sheet](../assets/python-tutorial-notes.odt)
 
 # Short group sessions
 
@@ -125,6 +128,8 @@ Goal: orientation/read code, try to figure out things
 # Creating dictionaries
 
 Optional additional challenge: use the constants as keys (package development docs)
+
+![Solution](../assets/python_solution_2.png)
 
 # External libraries
 
