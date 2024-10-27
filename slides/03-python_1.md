@@ -39,7 +39,9 @@ paginate: true
 
 Open the notebook for practicing Git branching:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python)
+Open the [notebook](https://digital-work-lab.github.io/open-source-project/docs/week_3_python_notebook_1.html) and start the codespace.
+
+<!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python) -->
 
 The setup can run in the background, while we focus on the concepts.
 
