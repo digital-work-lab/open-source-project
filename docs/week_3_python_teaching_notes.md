@@ -22,6 +22,8 @@ search_exclude: true
 
 Start the codespaces on Github
 
+Run first commands together (colrev install takes long)
+
 <div class="page-break"></div>
 
 # Preparation
@@ -127,6 +129,26 @@ Optional additional challenge: use the constants as keys (package development do
 # External libraries
 
 after 2-3 minutes: write BibtexParser on the blackboard
+
+{: .warning }
+> **Important: bibtexparser version has changed**
+> 
+> Students need to use the old entrypoint (available in the docs menu "Migrating: v1 -> v2").
+
+```Python
+# v1
+import bibtexparser
+with open('bibtex.bib') as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+```
+
+<!--
+Note: our version (on tutorial_branch) only works with v1.
+At some point, we may migrate to v2
+> Or install the new version using
+> 
+> pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main
+ -->
 
 # JIF labeler:
 
