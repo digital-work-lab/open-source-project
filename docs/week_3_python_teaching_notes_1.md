@@ -199,6 +199,8 @@ colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argum
 
 ![Solution](../assets/python_solution_4.png)
 
+<div class="page-break"></div>
+
 # Wrap-up <a id="wrap-up"></a>
 
 - Small examples: clarify the "big goal" and start with small steps

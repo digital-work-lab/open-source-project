@@ -923,3 +923,8 @@ Universit
 img
 svg
 yml
+dicts
+Programmatically
+BibTeX
+entrypoints
+bibtexparser

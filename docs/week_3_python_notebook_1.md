@@ -69,6 +69,13 @@ git fetch
 git checkout tutorial_python
 -->
 
+As a first step, we install the package dependency manager **Poetry**:
+
+```
+pip install poetry
+```
+
+
 ```python
 git reset --hard c9c915792f920e7198fed463ef7199cc84bb2264
 ```
@@ -112,7 +119,7 @@ colrev run
 
 ###  Data types
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTex format):</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTeX format):</p>
 
 ```Tex
 @article{Pare2023,
@@ -182,7 +189,10 @@ pip install -e .[dev]
 
 ### Using external libraries
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file (<b>important : use v1!</b>). An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file. An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded.</p>
+
+{: .important }
+> Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Instead of defining the dictionary in the <code>run.py</code>, use the bibtexparser to load the <code>records.bib</code> file. Remember to store the <code>records.bib</code> in the <b>project directory</b>. </p>
 
