@@ -164,7 +164,7 @@ git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.</p>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide to use the <a href="https://github.com/sciunto-org/python-bibtexparser">BibtexParser</a> package, which developed actively and available under an Open-Source license.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide to use the <a href="https://github.com/sciunto-org/python-bibtexparser">BibtexParser</a> package, which is developed actively and available under an Open-Source license.</p>
 
 ```python
 pip install bibtexparser
@@ -174,6 +174,7 @@ pip install bibtexparser
 
 
 ```python
+pip install poetry
 poetry add bibtexparser
 ```
 
@@ -184,6 +185,7 @@ To checkout the **solution**, run:
 
 ```python
 git reset --hard 859b02536acd0173cc4263a5e97a602826d8051f
+cd /workspaces/colrev
 pip install -e .[dev]
 ```
 
