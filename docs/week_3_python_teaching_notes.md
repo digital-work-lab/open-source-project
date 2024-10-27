@@ -48,14 +48,10 @@ run pip3 install -e . (to take code from the right repository)
 
 - [ ] Print the teaching notes, including code diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate life-coding)
 
-Solution note: [sheet](../assets/python-tutorial-notes.odt)
-
 # Short group sessions
 
 - who forked/leads
 - clear announcement for overbooked groups
-
-# Learning objectives:
 
 highlight:
 
@@ -63,6 +59,8 @@ highlight:
 - Using Code quality checkers and tests
 
 Discuss take-home exercise (collaborating)?
+
+<div class="page-break"></div>
 
 # Python
 
@@ -130,6 +128,8 @@ Goal: orientation/read code, try to figure out things
 Optional additional challenge: use the constants as keys (package development docs)
 
 ![Solution](../assets/python_solution_1.png)
+
+<div class="page-break"></div>
 
 # External libraries
 
@@ -206,6 +206,8 @@ linters: already installed
 
 Code highlighting (visual studio): functions yellow, variables light blue, instances blue, classes green, strings orange
 python debuggers/plugins (for regular Python programming / special cases like memory usage or distributed systems)
+
+<div class="page-break"></div>
 
 # Python session 2 (end)
 
