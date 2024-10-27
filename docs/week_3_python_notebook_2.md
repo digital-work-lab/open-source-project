@@ -126,7 +126,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard e131358cfe2008195da32b4e5e539c8f497c2147
+git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
 ```
 
 ## Part 6: Save and commit <a id="save-commit"></a>
@@ -143,7 +143,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard aac3b097c7b002c081633fc132d6081d7b68f2b1
+git reset --hard b3ae06d564773f9db6611deeb3ee0507ea54d6b0
 ```
 
 ---
