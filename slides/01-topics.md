@@ -180,6 +180,7 @@ blockquote {
 
 - Register for VC course: [here](https://digital-work-lab.github.io/open-source-project/#participate)
 - Create a GitHub account (using your student e-mail address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
+- Read [how to use Codespaces](https://digital-work-lab.github.io/open-source-project/docs/codespaces.html)
 
 > Challenge (optional): You can **set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html)). This requires you to install and configure Git, Docker, pre-commit hooks, and venv. It will give you more control over and a deeper understanding of your programming environment.
 
