@@ -18,8 +18,7 @@ paginate: true
 
 - Groups formed in the issue feeds
 - Forks were created.
-- Further questions related to the GitHub setup?
-- Setup completed?
+- Further questions related to GitHub or the setup?
 
 ---
 
@@ -31,15 +30,15 @@ paginate: true
 
 # Groups
 
-- Form groups of three to four, discuss your solutions, and solve problems together.
+- Form groups of three to four, solve the tasks together, and discuss your solutions.
 
 ---
 
 # Start the Codespace
 
-Open the notebook for practicing Git branching:
+Open the[ notebook for practicing Python](https://digital-work-lab.github.io/open-source-project/docs/week_3_python_notebook_1.html).
 
-Open the [notebook](https://digital-work-lab.github.io/open-source-project/docs/week_3_python_notebook_1.html) and start the codespace.
+Start the Codespace in the `tutorial_python` branch of the CoLRev upstream repository.
 
 <!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python) -->
 
@@ -78,6 +77,7 @@ The setup can run in the background, while we focus on the concepts.
 
 ![width:700px center](../assets/python_package.PNG)
 
+<!-- 
 ---
 
 For the tutorial, we switch to the `tutorial_2024_04` branch:
@@ -93,6 +93,7 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 
 - As the session progresses, you can checkout the current commits.
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
+-->
 
 ---
 
@@ -102,7 +103,7 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 - Start with small code segments, try whether they work, and extend them
 - Add or commit working code frequently
 - Use code linters to ensure high code quality (run `pre-commit run --all`)
-- To debug code, check whether variables have the expected values (use assert statements)
+- To debug code, check whether variables have the expected values (use assert or print statements)
 - When exceptions are thrown, read the Traceback:
 
 ![width:500px center](../assets/python-exception-trace.png)
@@ -115,8 +116,7 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 - Study code of related CoLRev packages.
 - Take notes on the CoLRev-objects or libraries that will be needed.
 
-Tip:
-You can use this [tutorial](https://www.codecademy.com/catalog/language/python?g_network=g&g_productchannel=&g_adid=624888211335&g_locinterest=&g_keyword=codecademy%27s%20learn%20python&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-2259230975260&g_ifcreative=&g_campaign=account&g_locphysical=9042755&g_adgroupid=128133971748&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-2259230975260:ag_128133971748:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%27s%20learn%20python&utm_campaign=INTL_Brand_Phrase&utm_content=624888211335&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwzIK1BhAuEiwAHQmU3t-FhdTeqJcFCUfaU1x1cvYdKGfh9vdxz1b8ll5Tl_2wcSc8wgMNhRoCJqoQAvD_BwE) for more insights in Python
+Note: These [tutorials](https://www.codecademy.com/catalog/language/python?g_network=g&g_productchannel=&g_adid=624888211335&g_locinterest=&g_keyword=codecademy%27s%20learn%20python&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-2259230975260&g_ifcreative=&g_campaign=account&g_locphysical=9042755&g_adgroupid=128133971748&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-2259230975260:ag_128133971748:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%27s%20learn%20python&utm_campaign=INTL_Brand_Phrase&utm_content=624888211335&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwzIK1BhAuEiwAHQmU3t-FhdTeqJcFCUfaU1x1cvYdKGfh9vdxz1b8ll5Tl_2wcSc8wgMNhRoCJqoQAvD_BwE) may be helpful to continue practicing Python
 
 ---
 

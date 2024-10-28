@@ -32,16 +32,7 @@ search_exclude: true
 
 # Preparation
 
-```
-git checkout tutorial_python
-git rebase -i HEAD~16
-# edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml / poetry update to update poetry.lock
-git rebase main
-git push -f
-```
-
 - [ ] Update git-commit SHAs in the notebooks
-- [ ] Checkout tutorial2 branch (tutorial branch should be available as a backup)
 - [ ] Test the tutorial in Codespaces
 
 <!-- 
@@ -49,19 +40,10 @@ git push -f
 run pip3 install -e . (to take code from the right repository)
  -->
 
-- [ ] Print the teaching notes, including code diffs (python-tutorial-notes.odt) for the commits on paper (to facilitate life-coding)
-
 # Group formation <a id="groups"></a>
 
 - Who forked/leads
-- Clear announcement for overbooked groups
-
-Highlight:
-
-- Use google/Stackoverflow on any error/challenge that comes up!
-- Using Code quality checkers and tests
-
-Discuss take-home exercise (collaborating)?
+- Facilitate group formation, highight cases where groups are overbooked (ask students to switch)
 
 <div class="page-break"></div>
 
@@ -99,8 +81,12 @@ if True:
 
 <!-- https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121#:~:text=Python%20is%20both%20a%20strongly,is%20determined%20only%20during%20runtime. -->
 
+Highlight:
 
-Our focus: using the programming language to build things (not to understand the programming language)
+- Our focus: using the programming language to build things (not to understand the programming language)
+- Use google/Stackoverflow on any error/challenge that comes up!
+- Using Code quality checkers and tests
+
 
 {: .warning }
 > It is important to run colrev in a separate data directory.

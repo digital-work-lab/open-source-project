@@ -142,16 +142,27 @@ English Version:
 
 ## Week 3: Introduction to Python <a id="python"></a>
 
-Prepare the `tutorial_YYYY_MM` branch and update the commit-ids in the slides:
+Prepare the `tutorial_python` branch and update the commit-ids in the slides:
 
+```
+git checkout tutorial_python
+git rebase -i HEAD~16
+# edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml / poetry update to update poetry.lock
+git rebase main
+git push -f
+```
+
+<!-- 
 ```
 git branch tutorial_YYYY_MM
 git switch tutorial_OLD
 # get commit-ids (first and last)
 git switch tutorial_YYYY_MM
 git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fbb618e92e2b67751e34c
-# when the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
 ```
+ -->
+
+When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
 
 Keep a copy of branch (assign a `tutorial_backup` branch to the last commit)
 
