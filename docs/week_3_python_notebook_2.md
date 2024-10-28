@@ -44,7 +44,7 @@ To continue working on your [Codespace](https://github.com/codespaces){: target=
 
 
 ```python
-cd ..
+cd /workspaces
 git clone https://github.com/CoLRev-Environment/example.git
 code -a /workspaces/example
 ```
@@ -53,7 +53,7 @@ The project directory `example` should now be displayed. Let's navigate to the d
 
 
 ```python
-cd ..example
+cd /workspaces/example
 colrev status
 ```
 
