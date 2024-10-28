@@ -8,11 +8,11 @@ search_exclude: true
 
 # Week 3: Python 2 (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                | Additional materials                                                                                            |
-|----------------|-----------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 00:00          | 20        | Session 2: [Introduction](#intro_2)  | Concepts                                                                                                        |
-| 00:20          | 80        | Session 2: [Notebook 2](#notebook_2) | [notebook 2](https://github.com/digital-work-lab/practice-python?tab=readme-ov-file){: target="_blank"}         |
-| 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                                                                 |
+| Time (start)   | Duration  | Topic                                | Additional materials                                              |
+|----------------|-----------|--------------------------------------|-------------------------------------------------------------------|
+| 00:00          | 20        | Session 2: [Introduction](#intro_2)  | Concepts                                                          |
+| 00:20          | 80        | Session 2: [Notebook 2](#notebook_2) | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
+| 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                   |
 
 {: .objective }
 > - TODO

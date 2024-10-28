@@ -15,7 +15,7 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 ---
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.</p>
+With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.
 
 
 | Part | Label                                   | Time (min) |
@@ -40,7 +40,7 @@ To continue working on your [Codespace](https://github.com/codespaces){: target=
 
 ### Switch to the project directory `example`
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:</p>
+To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:
 
 
 ```python
@@ -57,24 +57,24 @@ cd /workspaces/example
 colrev status
 ```
 
-<div style="border: 2px solid #f44336; padding: 10px; background-color: #ffebee; color: #b71c1c; border-radius: 5px; display: inline-block; width: 800px;">
-    <strong>Important</strong> It is important to run all project-specific commands (<code>colrev ...</code>) in the project directory (in this case, <code>example</code>).
-</div>
+{: .info }
+> **Important**
+> It is important to run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`).
 
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Briefly check the last commits of the project.</p>
+Briefly check the last commits of the project.
 
 ## Part 4. Object-oriented code <a id="object"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I write object-oriented code?"</b></p>
+**"How do I write object-oriented code?"**
 
 ### Object-oriented programming
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the CoLRev infrastructure.</p>
+Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the CoLRev infrastructure.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">As a first step, create the <code>JIFLabeler</code> class, instantiate an object, and add the <code>add_jif()</code> method (based on the <a href="https://www.w3schools.com/python/python_classes.asp">Python objects/methods syntax</a>). Run and revise the code (if necessary).</p>
+As a first step, create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp)). Run and revise the code (if necessary).
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Hint</b> Also adapt the path of the records to <code>data/records.bib</code>. This is where CoLRev projects store the main records file.</p>
+**Hint** Also adapt the path of the records to `data/records.bib`. This is where CoLRev projects store the main records file.
 
 To checkout the **solution**, run:
 
@@ -85,22 +85,19 @@ git reset --hard 4590842765078886554108360b3c3c685ac8b24a
 
 ## Part 5: Programmatic use of CoLRev <a id="colrev"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I use CoLRev infrastructure?"</b></p>
+**"How do I use CoLRev infrastructure?"**
 
 ### Using CoLRev infrastructure
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To use the CoLRev infrastructure, take a look at the <a href="https://colrev-environment.github.io/colrev/dev_docs/api.html">API reference</a> and find the classes and methods that can be used to load and save records.</p>
+To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and find the classes and methods that can be used to load and save records.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Upon instantiating the <code>JIFLabeler</code>, we would like to instantiate a <code>ReviewManager</code> object and keep it as an object variable.</p>
+Upon instantiating the `JIFLabeler`, we would like to instantiate a `ReviewManager` object and keep it as an object variable.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">When calling the <code>main</code> method, the records should be loaded by using the <code>ReviewManager</code>'s dataset methods.</p>
+When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Hint</b>: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.</p>
-
-</details>
+**Hint**: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.
 
 To checkout the **solution**, run:
-
 
 ```python
 git reset --hard 8c9c2b1d26ed5d9e079d5a46c349d73032970075
@@ -110,18 +107,10 @@ git reset --hard 8c9c2b1d26ed5d9e079d5a46c349d73032970075
 
 To improve the code, try to implement these two changes:
 
-
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
- 
-<ul>
-<li>Instead of <code>print()</code> statement, it is recommended to use the <code>ReviewManager</code>'s logger.</li>
-<li>Instead of using the record dicts, it is recommended to work with the <code>Record</code> class and its <code>update_field()</code> method.</li>
-</ul>
-
-</div>
+- Instead of `print()` statement, it is recommended to use the `ReviewManager`'s logger.
+- Instead of using the record dicts, it is recommended to work with the `Record` class and its `update_field()` method.
 
 To checkout the **solution**, run:
-
 
 ```python
 git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
@@ -129,16 +118,15 @@ git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
 
 ## Part 6: Save and commit <a id="save-commit"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I save and commit changes?"</b></p>
+**"How do I save and commit changes?"**
 
 ### Save and commit changes
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Finally, we need to save the records (using the <code>dataset</code> attribute of <code>ReviewManager</code>) and create a commit (using the <code>ReviewManager</code>).</p>
+Finally, we need to save the records (using the `dataset` attribute of `ReviewManager`) and create a commit (using the `ReviewManager`).
 
 Review the commit and its content.
 
 To checkout the **solution**, run:
-
 
 ```python
 git reset --hard b3ae06d564773f9db6611deeb3ee0507ea54d6b0
