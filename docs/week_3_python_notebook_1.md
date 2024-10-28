@@ -109,7 +109,7 @@ colrev run
 <ul>
 <li>Check the last commit and the changes that were introduced. Which function does our new <code>run</code> command call?</li>
 <li> Create the <code>run.py</code> module (module: file containing Python code) and the function that should be called. The function should print <code>Start simple colrev run</code>. Note that calling <code>colrev.ops.run.main()</code> means that colrev will try to import and run the <code>main()</code> function in the <code>/workspaces/colrev/colrev/ops/run.py</code> module.</li> 
-<li>Check the other functions in the <code>/workspaces/colrev/colrev/ui_cli/cli.py</code> and the other modules in the <code>/workspaces/colrev/colrev</code> directory if necessary.</li>
+<li>Check the other functions in the module <code>/workspaces/colrev/colrev/ui_cli/cli.py</code>, and other modules in the <code>/workspaces/colrev/colrev</code> directory if necessary.</li>
 </ul>
 
 </div>
