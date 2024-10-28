@@ -30,7 +30,7 @@ With this notebook, we briefly explain how to work with GitHub Codespaces.
 
 ## GitHub account <a id="account"></a>
 
-For the tutorials and the project, you will need a GitHub account (you may also consider appyling for [GitHub's Student Developer Pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student))
+For the tutorials and the project, you will need a GitHub account (you may also consider appyling for [GitHub's Student Developer Pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student){: target="_blank"})
 
 <img src="img/github-signup.png" width="800"/>
 
@@ -48,12 +48,12 @@ Another is to start the Codespace directly from the repository:
 
 ## Stop a Codespace <a id="delete"></a>
 
-You can **stop** a Codespace to stop consuming computational resources but **keep the data** via the [Codespaces overview](https://github.com/codespaces):
+You can **stop** a Codespace to stop consuming computational resources but **keep the data** via the [Codespaces overview](https://github.com/codespaces){: target="_blank"}:
 
 <img src="img/codespace-stop.png" width="800"/>
 
 ## Delete a Codespace <a id="delete"></a>
 
-You can **delete** a Codespace to stop consuming computational resources and **remove all data** via the [Codespaces overview](https://github.com/codespaces):
+You can **delete** a Codespace to stop consuming computational resources and **remove all data** via the [Codespaces overview](https://github.com/codespaces){: target="_blank"}:
 
 <img src="img/codespace-delete.png" width="800"/>
