@@ -193,7 +193,7 @@ pip install -e .[dev]
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file. An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the <code>records.bib</code> into <code>/workspaces/colrev</code>.</p>
 
-{: .important }
+{: .info }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Instead of defining the dictionary in the <code>run.py</code>, use the bibtexparser to load the <code>records.bib</code> file. Remember to store the <code>records.bib</code> in the <b>project directory</b>. </p>
