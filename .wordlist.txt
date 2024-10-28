@@ -928,3 +928,5 @@ Programmatically
 BibTeX
 entrypoints
 bibtexparser
+pyproject
+toml

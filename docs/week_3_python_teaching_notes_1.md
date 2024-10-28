@@ -44,7 +44,7 @@ run pip3 install -e . (to take code from the right repository)
 # Group formation <a id="groups"></a>
 
 - Who forked/leads
-- Facilitate group formation, highight cases where groups are overbooked (ask students to switch)
+- Facilitate group formation, highlight cases where groups are overbooked (ask students to switch)
 
 <div class="page-break"></div>
 

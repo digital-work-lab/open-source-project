@@ -162,7 +162,7 @@ git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fb
 ```
  -->
 
-When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyprojec.toml, poetry add bibtexparser
+When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
 
 Keep a copy of branch (assign a `tutorial_backup` branch to the last commit)
 
