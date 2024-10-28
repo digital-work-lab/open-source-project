@@ -60,7 +60,7 @@ The setup can run in the background, while we focus on the concepts.
 
 ---
 
-# Start our development environment on GitHub Codespaces
+# What we will learn in the Python session(s)
 
 ![width:700px center](../assets/python_overview_1.PNG)
 
