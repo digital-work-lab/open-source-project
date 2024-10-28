@@ -76,8 +76,6 @@ colrev status
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Hint</b> Also adapt the path of the records to <code>data/records.bib</code>. This is where CoLRev projects store the main records file.</p>
 
-</details>
-
 To checkout the **solution**, run:
 
 
