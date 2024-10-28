@@ -11,7 +11,7 @@ has_toc: true
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!
+We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/codespaces.md" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -24,8 +24,6 @@ With this notebook, we briefly explain how to work with GitHub Codespaces.
 |  3   | [Stop](#stop)                         |
 |  4   | [Delete](#delete)                     |
 
-<br>
-
 ---
 
 ## GitHub account <a id="account"></a>
@@ -36,15 +34,9 @@ For the tutorials and the project, you will need a GitHub account (you may also 
 
 ## Start a Codespace <a id="delete"></a>
 
-There are several ways to start a Codespace.
+A Codespace can be started directly from the GitHub repository (even a selected branch):
 
-One is through a direct link like this one (the repository is already pre-selected in the URL):
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
-
-Another is to start the Codespace directly from the repository:
-
-<img src="img/codessapce-start.gif" width="800"/>
+<img src="img/codespace-start.gif" width="800"/>
 
 ## Stop a Codespace <a id="delete"></a>
 
