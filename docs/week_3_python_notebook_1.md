@@ -66,23 +66,17 @@ colrev run
 
 **Tasks:**
 
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
- 
-<ul>
-<li>Check the last commit and the changes that were introduced. Which function does our new <code>run</code> command call?</li>
-<li> Create the <code>run.py</code> module (module: file containing Python code) and the function that should be called. The function should print <code>Start simple colrev run</code>. Note that calling <code>colrev.ops.run.main()</code> means that colrev will try to import and run the <code>main()</code> function in the <code>/workspaces/colrev/colrev/ops/run.py</code> module.</li> 
-<li>Check the other functions in the module <code>/workspaces/colrev/colrev/ui_cli/cli.py</code>, and other modules in the <code>/workspaces/colrev/colrev</code> directory if necessary.</li>
-</ul>
-
-</div>
+- Check the last commit and the changes that were introduced. Which function does our new `run` command call?
+-  Create the `run.py` module (module: file containing Python code) and the function that should be called. The function should print `Start simple colrev run`. Note that calling `colrev.ops.run.main()` means that colrev will try to import and run the `main()` function in the `/workspaces/colrev/colrev/ops/run.py` module.
+- Check the other functions in the module `/workspaces/colrev/colrev/ui_cli/cli.py`, and other modules in the `/workspaces/colrev/colrev` directory if necessary.
 
 ## Part 2: Data items <a id="data"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I create and modify data items?"</b></p>
+**"How do I create and modify data items?"**
 
 ###  Data types
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTeX format):</p>
+In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTeX format):
 
 ```Tex
 @article{Pare2023,
@@ -97,14 +91,13 @@ colrev run
 
 You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
 
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Challenge (optional)</b>: If you have completed the previous tasks, try to use the CoLRev constants for fields like <code>title</code>, <code>author</code>, etc.. In many cases, using constants like these is preferable to so-called "magic strings".</p>
+**Challenge (optional)**: If you have completed the previous tasks, try to use the CoLRev constants for fields like `title`, `author`, etc.. In many cases, using constants like these is preferable to so-called "magic strings".
 
 ### Changing data
 
 Next, we need a field indicating the record's status throughout the [process](https://colrev-environment.github.io/colrev/manual/operations.html){: target="_blank"}.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Add a <code>colrev_status</code> field to the dictionary, and set its value to <code>md_imported</code>. Create a commit once the command prints the following:</p>
+Add a `colrev_status` field to the dictionary, and set its value to `md_imported`. Create a commit once the command prints the following:
 
 
 ```python
@@ -114,33 +107,32 @@ Start simple colrev run
 
 To checkout the **solution**, run:
 
-
 ```python
 git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
 ```
 
 ## Part 3: External libraries <a id="libraries"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I use external libraries?"</b></p>
+**"How do I use external libraries?"**
 
 ### Finding and adding external libraries
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.</p>
+Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide to use the <a href="https://github.com/sciunto-org/python-bibtexparser">BibtexParser</a> package, which is developed actively and available under an Open-Source license.</p>
+We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser) package, which is developed actively and available under an Open-Source license.
 
 ```python
 pip install bibtexparser
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To add it as a dependency of CoLRev and make it available for users of the CoLRev package, we run</p>
+To add it as a dependency of CoLRev and make it available for users of the CoLRev package, we run
 
 
 ```python
 poetry add bibtexparser
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Check the changes and create a commit.</p>
+<b>Task</b>: Check the changes and create a commit.
 
 To checkout the **solution**, run:
 
@@ -153,21 +145,20 @@ pip install -e .[dev]
 
 ### Using external libraries
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file. An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the <code>records.bib</code> into <code>/workspaces/colrev</code>.</p>
+Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/) and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev`.
 
 {: .info }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Instead of defining the dictionary in the <code>run.py</code>, use the bibtexparser to load the <code>records.bib</code> file. Remember to store the <code>records.bib</code> in the <b>project directory</b>. </p>
+Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file. Remember to store the `records.bib` in the **project directory**.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Afterwards, loop over the records (<code>for ...</code>) and print the title of each record.</p>
+Afterwards, loop over the records (`for ...`) and print the title of each record.
 
 ### Code quality
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Create a commit, and observe how the code quality checks are triggered (<a href="https://pre-commit.com/">pre-commit hooks</a>). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the <a href="https://realpython.com/python-type-checking/">typing</a>-related issues together.</p>
+Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/)). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/)-related issues together.
 
 To checkout the **solution**, run:
-
 
 ```python
 git reset --hard f07be92d3c51ab8421caf57b77895dcb35395709
@@ -175,15 +166,14 @@ git reset --hard f07be92d3c51ab8421caf57b77895dcb35395709
 
 ## Part 4: Functions <a id="functions"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Next, we would like to create a function, which adds the <code>journal_impact_factor</code> based on the following table:</p>
+Next, we would like to create a function, which adds the `journal_impact_factor` based on the following table:
 
-| journal | journal_impact_factor |
-| ------- | ----------------------|
-| MIS Quarterly |              8.3|
-| Information & Management | 10.3 |
+| journal                  | journal_impact_factor |
+| ------------------------ | ----------------------|
+| MIS Quarterly            |                    8.3|
+| Information & Management |                  10.3 |
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Add your changes to the staging area, run the pre-commit hooks, and address the warnings:</p>
-
+Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
 
 ```python
 pre-commit run --all
@@ -210,6 +200,6 @@ In this notebook, we have learned to
 - Write modular code by using functions
 
 To continue using your work in the next session, <b>stop</b> your Codespace [here](https://github.com/codespaces){: target="_blank"}.
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In contrast to deleting a Codespace (which removes all files, changes, settings, etc.), stopping the Codespace preserves the current state of your work and does not consume computational resources.</p>
+In contrast to deleting a Codespace (which removes all files, changes, settings, etc.), stopping the Codespace preserves the current state of your work and does not consume computational resources.
 
 <img src="img/codespace-stop.gif"  loop="1" width="800"/>

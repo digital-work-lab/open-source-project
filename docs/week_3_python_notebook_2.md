@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Week 3: Python notebook 2"
+title: "Python notebook 2"
 parent: "Week 3: Python"
-nav_order: 2
+nav_order: 3
 has_toc: true
 ---
 
