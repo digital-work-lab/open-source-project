@@ -191,7 +191,7 @@ pip install -e .[dev]
 
 ### Using external libraries
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file. An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Go to the <a href="https://bibtexparser.readthedocs.io/">bibtexparser tutorial</a> and figure out how to load a BibTeX file. An example <code>records.bib</code> file is available <a href="../assets/records.bib">here</a>. To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the <code>records.bib</code> into <code>/workspaces/colrev</code>.</p>
 
 {: .important }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
