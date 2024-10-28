@@ -119,7 +119,7 @@ git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
 
 Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.
 
-We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser) package, which is developed actively and available under an Open-Source license.
+We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser){: target="_blank"} package, which is developed actively and available under an Open-Source license.
 
 ```python
 pip install bibtexparser
@@ -145,7 +145,7 @@ pip install -e .[dev]
 
 ### Using external libraries
 
-Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/) and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev`.
+Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target="_blank"} and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev`.
 
 {: .info }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
@@ -156,7 +156,7 @@ Afterwards, loop over the records (`for ...`) and print the title of each record
 
 ### Code quality
 
-Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/)). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/)-related issues together.
+Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/){: target="_blank"}). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/){: target="_blank"}-related issues together.
 
 To checkout the **solution**, run:
 

@@ -72,7 +72,7 @@ Briefly check the last commits of the project.
 
 Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the CoLRev infrastructure.
 
-As a first step, create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp)). Run and revise the code (if necessary).
+As a first step, create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp){: target="_blank"}). Run and revise the code (if necessary).
 
 **Hint** Also adapt the path of the records to `data/records.bib`. This is where CoLRev projects store the main records file.
 
@@ -89,7 +89,7 @@ git reset --hard 4590842765078886554108360b3c3c685ac8b24a
 
 ### Using CoLRev infrastructure
 
-To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and find the classes and methods that can be used to load and save records.
+To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
 
 Upon instantiating the `JIFLabeler`, we would like to instantiate a `ReviewManager` object and keep it as an object variable.
 
