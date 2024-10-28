@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Week 3: Python notebook 2"
-nav_exclude: true
+parent: "Week 3: Python"
+nav_order: 2
 has_toc: true
-search_exclude: true
 ---
 
 # Exercise notebook: Python 2

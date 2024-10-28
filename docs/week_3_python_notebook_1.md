@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Week 3: Python notebook 1"
-nav_exclude: true
+title: "Python notebook 1"
+parent: "Week 3: Python"
+nav_order: 2
 has_toc: true
-search_exclude: true
 ---
 
 # Exercise notebook: Python 1
@@ -15,7 +15,7 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 ---
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">With this notebook, you can familiarize yourself with Python syntax, create and run a Python package command, create and modify a dictionary data structure, and use an external library to read BibTeX records as dictionaries.</p>
+With this notebook, you can familiarize yourself with Python syntax, create and run a Python package command, create and modify a dictionary data structure, and use an external library to read BibTeX records as dictionaries.
 
 | Part | Label                              | Time (min) |
 |------|------------------------------------|------------|
@@ -32,42 +32,11 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 ## Part 1: Setup <a id="setup"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>"How do I write and use Python code?"</b></p>
+**"How do I write and use Python code?"**
 
 ### Switch branch
 
 Navigate to the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, select the `tutorial_python` branch and start Codespaces.
-
-<!-- 
-
-For the tutorial, we switch to the `tutorial_python` branch:
-
-
-```python
-cd /workspaces
-git clone https://github.com/CoLRev-Environment/colrev
-
-```
-
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block;">
-    <strong>Info</strong> The code -a ... command will reopen the codespace window and add the new project to the sidebar. You will have to navigate to this notebook again.</p>
-</div>
-
-
-```python
-code -a /workspaces/colrev
-```
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Navigate to the colrev directory and checkout the tutorial branch with the first commit:</p>
-
-cd /workspaces/colrev
-pip install -e .[dev]
-pre-commit install
-pip install poetry
-colrev install all_internal_packages
-git fetch
-git checkout tutorial_python
--->
 
 As a first step, we install the package dependency manager **Poetry**, which will be used in [part 3](#libraries):
 
@@ -75,32 +44,25 @@ As a first step, we install the package dependency manager **Poetry**, which wil
 pip install poetry
 ```
 
+Next, we reset the state of the repository to the beginning of the tutorial:
 
 ```python
 git reset --hard c9c915792f920e7198fed463ef7199cc84bb2264
 ```
 
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
- 
-<ul>
-<li>As the session progresses, you can checkout the current commits.</li>
-<li>Whenever you see a <code>git reset --hard ...</code> command on the following slides, you can use it to set your repository to the required state (commit).</li>
-</ul>
-
-</div>
+- As the session progresses, you can checkout the current commits
+- Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 
 ### Setting up entrypoints
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We implement a simple version of CoLRev that should be available through a separate command:</p>
-
+We implement a simple version of CoLRev that should be available through a separate command:
 
 ```python
 colrev run
 ```
 
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block;">
-    <strong>Info</strong> The previous command will initially create a <code>ModuleNotFoundError</code>. We will create this module in the next step.
-</div>
+{: .info }
+> The previous command will initially create a `ModuleNotFoundError`. We will create this module in the next step.
 
 **Tasks:**
 

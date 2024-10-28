@@ -19,8 +19,6 @@ search_exclude: true
 | 6-11     | -            | Group-work       | -                                    |                                                            |
 | 12       | Flexible     | Code Review      | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
 
-TBD: [Merging Survey](../assets/Merging_survey.docx)
-
 ## Preparation
 
 - [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
