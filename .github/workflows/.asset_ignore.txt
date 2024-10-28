@@ -29,3 +29,12 @@ assets/python_overview.pptx
 assets/evaluation/paper.pdf
 assets/evaluation/basic.tex
 assets/evaluation/evaluation_sheet.md
+assets/python_solution_4.png
+assets/python_solution_3.png
+assets/python_solution_2.png
+assets/python_solution_5.png
+assets/python_solution_7.png
+assets/records.bib
+assets/python_solution_8.png
+assets/python_solution_1.png
+assets/python_solution_6.png
