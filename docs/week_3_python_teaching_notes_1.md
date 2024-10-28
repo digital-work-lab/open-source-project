@@ -20,13 +20,14 @@ search_exclude: true
 | 02:10         | 10        | [Wrap-up](#wrap-up)               |                                                                  |
 
 {: .objective }
-> - Familiarize with Python syntax
+> - Familiarize with Python syntax (assuming you have taken programming courses before)
 > - Learn good debugging and development practices
 > - Understand how to extend a Python package (CoLRev)
 
 {: .info }
 > - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
 > - It is important that students work on Codespaces (not their own machines) to avoid technical setup issues
+> - Students can ignore the warning displayed when committing (cannot push due to a lack of permissions)
 
 <div class="page-break"></div>
 
