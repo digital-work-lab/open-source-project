@@ -135,7 +135,7 @@ colrev run
 You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
 
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Challenge (optional)</b>: If you have completed the previous tasks, try to use the CoLRev constants for fields like <code>title</code>, <code>author</code>, etc.. In many cases, using constants like these is preferrable to so called "magic strings".</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Challenge (optional)</b>: If you have completed the previous tasks, try to use the CoLRev constants for fields like <code>title</code>, <code>author</code>, etc.. In many cases, using constants like these is preferable to so-called "magic strings".</p>
 
 ### Changing data
 
