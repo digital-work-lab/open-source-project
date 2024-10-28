@@ -110,6 +110,8 @@ open two separate shells
 
 Goal: orientation/read code, try to figure out things
 
+<div class="page-break"></div>
+
 # Data items <a id="data-items"></a>
 
 Optional additional challenge: use the constants as keys (package development docs)
