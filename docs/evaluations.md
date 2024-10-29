@@ -37,7 +37,7 @@ xychart-beta
     title "Participation"
     x-axis [SS23, WS2324, SS24, WS2425]
     y-axis "Number of students" 0 --> 20
-    line [14, 3, 12, 8]
+    line [14, 3, 12, 5]
 ```
 
 ## What Our Students Say
