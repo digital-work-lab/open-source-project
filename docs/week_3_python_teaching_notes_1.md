@@ -8,16 +8,16 @@ search_exclude: true
 
 # Week 3: Python 1 (Teaching notes)
 
-| Time (start)  | Duration  | Topic                             | Additional materials                                             |
-|---------------|-----------|-----------------------------------|------------------------------------------------------------------|
-| 00:00         | 5        | [Group formation](#groups)        |                                                                  |
-| 00:05         | 30        | [Basic concepts](#python-basics)  |                                                                  |
-| 00:35         | 25        | [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
-| 01:00         | 30        | [Data items](#data)               |                                                                  |
-| 01:30         | 15        | Break                             |                                                                  |
-| 01:35         | 30        | [External libraries](#libraries)  |                                                                  |
-| 02:05         | 70        | [Functions](#functions)           |                                                                  |
-| 03:15         | 10        | [Wrap-up](#wrap-up)               |                                                                  |
+| Time (start)  | Duration  | Topic                                     | Additional materials                                             |
+|---------------|-----------|-------------------------------------------|------------------------------------------------------------------|
+| 00:00         | 5         | [Group formation](#groups)                |                                                                  |
+| 00:05         | 30        | [Basic concepts](#python-basics)          |                                                                  |
+| 00:35         | 25        | Part 1: [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
+| 01:00         | 30        | Part 2: [Data items](#data)               |                                                                  |
+| 01:30         | 15        | Break                                     |                                                                  |
+| 01:35         | 30        | Part 3: [External libraries](#libraries)  |                                                                  |
+| 02:05         | 70        | Part 4: [Functions](#functions)           |                                                                  |
+| 03:15         | 10        | [Wrap-up](#wrap-up)                       |                                                                  |
 
 {: .objective }
 > - Familiarize with Python syntax (assuming you have taken programming courses before)
