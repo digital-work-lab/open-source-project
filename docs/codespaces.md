@@ -28,7 +28,7 @@ With this notebook, we briefly explain how to work with GitHub Codespaces.
 
 ## GitHub account <a id="account"></a>
 
-For the tutorials and the project, you will need a GitHub account (you may also consider appyling for [GitHub's Student Developer Pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student){: target="_blank"})
+For the tutorials and the project, you will need a GitHub account (you may also consider applying for [GitHub's Student Developer Pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student){: target="_blank"})
 
 <img src="img/github-signup.png" width="800"/>
 

@@ -24,7 +24,7 @@ search_exclude: true
 
 ## Object-oriented programming <a id="object"></a>
 
-- Encourage studengs to program using objects (instead of procedurally)
+- Encourage students to program using objects (instead of procedurally)
 - Notice: when creating the `run()` method, the jif_labeler_instance switches to "self".
 
 ![Solution](../assets/python_solution_5.png)
