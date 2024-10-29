@@ -28,6 +28,7 @@ search_exclude: true
 > - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
 > - It is important that students work on Codespaces (not their own machines) to avoid technical setup issues
 > - Students can ignore the warning displayed when committing (cannot push due to a lack of permissions)
+> - It can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
 
 <div class="page-break"></div>
 
@@ -151,32 +152,44 @@ At some point, we may migrate to v2
 
 # Functions <a id="functions"></a>
 
-Remember:
+- Students can check whether the key (`journal`) is in the record and whether it matches any of the entries with a journal impact factor.
+
+Explain difference between call-by-value and call-by-reference
 
 - Call-by-value: for "simple data types" (str, int, float)
 - Call-by-reference: for mutable objects (list, dict, object)
 
 ```
-# Starting point: add_journal_impact_factor(record: dict) changes the values of the dictionary outside the function (without an explicit return/assignment)
+# call-by-value
 
 def change_journal(journal: str) -> None:
   journal = "Nature"
 
 journal = "MIS Quarterly"
 change_journal(journal)
-print(journal) # prints MIS Quarterly (not nature) due to call-by-value for simple/immutable data types in Python
+print(journal) # prints MIS Quarterly (not Nature) due to call-by-value for simple/immutable data types in Python
+
+# call-by-reference
+
+def change_journal(record: dict) -> None:
+    record['journal'] = "Nature"
+
+record = {
+  "ID": "Smith1990",
+  "jornal": "MIS Quarterly"
+}
+change_journal(record)
+print(record) # prints Nature because record is passed as an object reference (mutable type in Python) and modified in the function
 ```
 
 Show input() when iterating over the results
+
+Explain difference between positional and keyword arguments
 
 Google
 - "mypy no-untyped-def"
 - "mypy no-untyped-def"
 - "pylint missing-function-docstring"
-
-Explain difference between positional and keyword arguments
-
-Note: it can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
 
 Pylint example.
 

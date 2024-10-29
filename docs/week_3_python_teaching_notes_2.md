@@ -8,14 +8,13 @@ search_exclude: true
 
 # Week 3: Python 2 (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                | Additional materials                                              |
-|----------------|-----------|--------------------------------------|-------------------------------------------------------------------|
-| 00:00          | 20        | Session 2: [Introduction](#intro_2)  | Concepts                                                          |
-| 00:20          | 80        | Session 2: [Notebook 2](#notebook_2) | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
-| 01:40          | 10        | Session 2: [Wrap-up](#wrap-up_2)     |                                                                   |
-
-{: .objective }
-> - TODO
+| Time (start) | Duration | Topic                                           | Additional materials                                              |
+|--------------|----------|-------------------------------------------------|-------------------------------------------------------------------|
+| 00:00        | 30       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
+| 00:30        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
+| 01:00        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
+| 01:10        | 2        | [Wrap-up](#wrap-up)                             |                                                                   |
+| 01:12        | 72       | Overall                                         |                                                                   |
 
 {: .info }
 > Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
@@ -24,25 +23,26 @@ search_exclude: true
 
 # Python session 2
 
-run the pre-commit hooks a few times to illustrate the typing information
+- Run the pre-commit hooks a few times to illustrate the typing information
 
-## Object-oriented programming
+## Object-oriented programming <a id="object"></a>
 
-Important: try to program using objects (instead of procedural programming)
-
-if record["journal"] == "MIS Quarterly":
-KeyError: 'journal'
--> if statement (better: if "journal" not in record: return)
-
-Notice: when creating the run() method, the jif_labeler_instance switches to "self".
+- Encourage studengs to program using objects (instead of procedurally)
+- Notice: when creating the `run()` method, the jif_labeler_instance switches to "self".
 
 ![Solution](../assets/python_solution_5.png)
 
-## Using CoLRev infrastructure
+## Using CoLRev infrastructure <a id="colrev"></a>
 
-go to API reference
-navigate through the classes / dataset
+- Go to API reference
+- Navigate through the classes / dataset
 
+## Save and commit  <a id="save-commit"></a>
+
+- Ask students to analyze the changes that were actually committed
+- Remind students that this is something they should have seen in the CoLRev tutorial.
+
+<!-- 
 
 TBD:
   - search: run an api-search example, examine the commit message (settings changed! -> reference implementation)
@@ -54,19 +54,21 @@ TBD:
   continue: prep/validation
 
   continue to data: show advice?
+-->
 
+## Wrap-up <a id="wrap-up"></a>
 
-# Next: Best practice and hacking sessions (per group)
+**Next: Best practice and hacking sessions (per group)**
 
 Pair-programming
 
-which CoLRev-objects or libraries will be needed, which steps are required
+Which CoLRev-objects or libraries will be needed, which steps are required
 
 - Create a fork for the team, give access to team members, and add a note to the issue feed
 - All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
 - Check the resources provided with the issue, discuss the project, and make plans
 
-## Resources
+## Resources 
 
 - [Python programming for data science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html){: target="_blank"} with Python basics (and **unit tests**)
 - [Welcome to Python Packages](https://py-pkgs.org/){: target="_blank"}
