@@ -37,10 +37,16 @@ search_exclude: true
 - Go to API reference
 - Navigate through the classes / dataset
 
+![Solution](../assets/python_solution_6.png)
+
+![Solution](../assets/python_solution_7.png)
+
 ## Save and commit  <a id="save-commit"></a>
 
 - Ask students to analyze the changes that were actually committed
 - Remind students that this is something they should have seen in the CoLRev tutorial.
+
+![Solution](../assets/python_solution_8.png)
 
 <!-- 
 
