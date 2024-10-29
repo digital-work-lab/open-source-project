@@ -17,13 +17,10 @@ search_exclude: true
 | 01:12        | 72       | Overall                                         |                                                                   |
 
 {: .info }
-> Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
+> - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
+> - Run the pre-commit hooks a few times to illustrate the typing information
 
 <div class="page-break"></div>
-
-# Python session 2
-
-- Run the pre-commit hooks a few times to illustrate the typing information
 
 ## Object-oriented programming <a id="object"></a>
 
@@ -48,30 +45,13 @@ search_exclude: true
 
 ![Solution](../assets/python_solution_8.png)
 
-<!-- 
-
-TBD:
-  - search: run an api-search example, examine the commit message (settings changed! -> reference implementation)
--> we add a query -> docs: interface definitions: searchsource.add_endpoint(), run_search()
-  -> see interfaces (standardized function parameters/names)
-  - where to find the built_in reference implementation (docs/architecture and directories), how to add/remove in the settings
-  -> see package_endpoint definitions (package_manager, docs)
-
-  continue: prep/validation
-
-  continue to data: show advice?
--->
-
 ## Wrap-up <a id="wrap-up"></a>
 
 **Next: Best practice and hacking sessions (per group)**
 
-Pair-programming
-
-Which CoLRev-objects or libraries will be needed, which steps are required
-
+- Suggest pair-programming
+- Which CoLRev-objects or libraries will be needed, which steps are required
 - Create a fork for the team, give access to team members, and add a note to the issue feed
-- All team members: clone the fork (using `git clone git@github.com:CoLRev-Environment/colrev.git`)
 - Check the resources provided with the issue, discuss the project, and make plans
 
 ## Resources 
