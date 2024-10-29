@@ -19,12 +19,12 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 | Part | Label                              | Time (min) |
 |------|------------------------------------|------------|
-|  1   | [Setup](#setup)                    |     10     |
-|  2   | [Data items](#data)                |     20     |
+|  1   | [Setup](#setup)                    |     25     |
+|  2   | [Data items](#data)                |     30     |
 |  3   | [External libraries](#libraries)   |     30     |
-|  4   | [Functions](#functions)            |     18     |
+|  4   | [Functions](#functions)            |     60     |
 |      | [Wrap-up](#wrap-up)                |      2     |
-|      | Overall                            |     80     |
+|      | Overall                            |    174     |
 
 <br>
 
