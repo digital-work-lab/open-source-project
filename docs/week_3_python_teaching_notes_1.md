@@ -10,14 +10,14 @@ search_exclude: true
 
 | Time (start)  | Duration  | Topic                             | Additional materials                                             |
 |---------------|-----------|-----------------------------------|------------------------------------------------------------------|
-| 00:00         | 10        | [Group formation](#groups)        |                                                                  |
-| 00:10         | 20        | [Basic concepts](#python-basics)  |                                                                  |
-| 00:30         | 10        | [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
-| 00:40         | 20        | [Data items](#data)               |                                                                  |
-| 01:00         | 10        | Break                             |                                                                  |
-| 01:10         | 30        | [External libraries](#libraries)  |                                                                  |
-| 01:40         | 20        | [Functions](#functions)           |                                                                  |
-| 02:10         | 10        | [Wrap-up](#wrap-up)               |                                                                  |
+| 00:00         | 5        | [Group formation](#groups)        |                                                                  |
+| 00:05         | 30        | [Basic concepts](#python-basics)  |                                                                  |
+| 00:35         | 25        | [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
+| 01:00         | 30        | [Data items](#data)               |                                                                  |
+| 01:30         | 15        | Break                             |                                                                  |
+| 01:35         | 30        | [External libraries](#libraries)  |                                                                  |
+| 02:05         | 70        | [Functions](#functions)           |                                                                  |
+| 03:15         | 10        | [Wrap-up](#wrap-up)               |                                                                  |
 
 {: .objective }
 > - Familiarize with Python syntax (assuming you have taken programming courses before)
