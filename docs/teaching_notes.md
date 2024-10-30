@@ -196,6 +196,8 @@ Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC
 
 TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
+Note: another option would be to use https://rustpad.io/#GCUiny
+
 VC post (10.11.24)
 Reminder for merge: 10.11. (linking to resources)
 

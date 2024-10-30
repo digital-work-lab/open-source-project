@@ -63,9 +63,10 @@ colrev status
 
 {: .info }
 > **Important**
-> It is important to run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`).
-
-<img src="../assets/codespace-package-vs-project.png"  loop="1" width="800"/>
+> 
+> It is important to modify the code in the Python package directory and run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`):
+> 
+> ![Codespace directories](../assets/codespace-package-vs-project.png)
 
 **Task**: Briefly check the last commits of the project.
 
