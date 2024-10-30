@@ -183,7 +183,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard f07be92d3c51ab8421caf57b77895dcb35395709
+git reset --hard 0487d824ede2d36c4c011bfe46869d2aa9ed016b
 ```
 
 ---

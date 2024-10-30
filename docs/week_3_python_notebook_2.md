@@ -20,11 +20,12 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 
 | Part | Label                                   | Time (min) |
 |------|-----------------------------------------|------------|
-|  4   | [Object-oriented code](#object)         |     10     |
-|  5   | [Programmatic use of CoLRev](#colrev)   |     15     |
-|  6   | [Save and commit changes](#save-commit) |     13     |
-|      | [Wrap-up](#wrap-up)                     |      2     |
-|      | Overall                                 |     40     |
+|      | [Set up the example repository](#setup) |     10     |
+|  4   | [Object-oriented code](#object)         |     30     |
+|  5   | [Programmatic use of CoLRev](#colrev)   |     20     |
+|  6   | [Save and commit changes](#save-commit) |     20     |
+|      | [Wrap-up](#wrap-up)                     |     10     |
+|      | Overall                                 |     90     |
 
 <br>
 
@@ -32,16 +33,19 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 
 <br>
 
----
-
 To continue working on your [Codespace](https://github.com/codespaces){: target="_blank"}, resume it as follows:
 
 <img src="img/codespace-start.gif"  loop="1" width="800"/>
 
-### Switch to the project directory `example`
+To checkout the **starting point** (commit), run:
 
-To use the typical CoLRev environments (objects), we switch to an existing CoLRev project:
+```python
+git reset --hard 0487d824ede2d36c4c011bfe46869d2aa9ed016b
+```
 
+### Clone an existing CoLRev project (`example`) <a id="setup"></a>
+
+To use the typical CoLRev environments (objects), we clone an existing CoLRev project:
 
 ```python
 cd /workspaces
@@ -61,8 +65,9 @@ colrev status
 > **Important**
 > It is important to run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`).
 
+<img src="../assets/codespace-package-vs-project.png"  loop="1" width="800"/>
 
-Briefly check the last commits of the project.
+**Task**: Briefly check the last commits of the project.
 
 ## Part 4. Object-oriented code <a id="object"></a>
 
@@ -72,7 +77,7 @@ Briefly check the last commits of the project.
 
 Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the CoLRev infrastructure.
 
-As a first step, create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp){: target="_blank"}). Run and revise the code (if necessary).
+**Task**: Create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp){: target="_blank"}). Run and revise the code (if necessary).
 
 **Hint** Also adapt the path of the records to `data/records.bib`. This is where CoLRev projects store the main records file.
 
@@ -91,9 +96,7 @@ git reset --hard 4590842765078886554108360b3c3c685ac8b24a
 
 To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
 
-Upon instantiating the `JIFLabeler`, we would like to instantiate a `ReviewManager` object and keep it as an object variable.
-
-When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
+**Task**: Rewrite the code in `run.py` to use CoLRev classes and methods. Upon instantiating the `JIFLabeler`, instantiate a `ReviewManager` object and keep it as an object variable. When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
 
 **Hint**: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.
 
@@ -122,7 +125,7 @@ git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
 
 ### Save and commit changes
 
-Finally, we need to save the records (using the `dataset` attribute of `ReviewManager`) and create a commit (using the `ReviewManager`).
+**Task**: Save the records (using the `dataset` attribute of `ReviewManager`) and create a commit (using the `ReviewManager`).
 
 Review the commit and its content.
 
@@ -140,9 +143,9 @@ git reset --hard b3ae06d564773f9db6611deeb3ee0507ea54d6b0
 
 In this notebook, we have learned to
 
-- Stop and resume your work in a GitHub Codespace
 - Write object-oriented code in Python
-- Programmatically use CoLRev
+- Use CoLRev programmatically
 - Save and commit changes in a CoLRev project
+- Use stop and resume in GitHub Codespaces
 
 Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.
