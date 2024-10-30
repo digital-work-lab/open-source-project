@@ -10,11 +10,11 @@ search_exclude: true
 
 | Time (start) | Duration | Topic                                           | Additional materials                                              |
 |--------------|----------|-------------------------------------------------|-------------------------------------------------------------------|
-| 00:00        | 30       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
-| 00:30        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
-| 01:00        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
-| 01:10        | 2        | [Wrap-up](#wrap-up)                             |                                                                   |
-| 01:12        | 72       | Overall                                         |                                                                   |
+| 00:00        | 60       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
+| 01:00        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
+| 01:30        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
+| 01:40        | 2        | [Wrap-up](#wrap-up)                             |                                                                   |
+| 01:12        | 102       | Overall                                         |                                                                   |
 
 {: .info }
 > - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
@@ -44,6 +44,14 @@ search_exclude: true
 - Remind students that this is something they should have seen in the CoLRev tutorial.
 
 ![Solution](../assets/python_solution_8.png)
+
+## Merging Excercise (moved to later time point)
+
+**Until the 10th of november**
+
+- explain to the students what the merging excercise is about 
+- tell them about the survey and that it is important to fill it out for the best practice session
+- maybe create even a slide for the to look it up again
 
 ## Wrap-up <a id="wrap-up"></a>
 
