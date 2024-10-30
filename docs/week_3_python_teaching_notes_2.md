@@ -45,11 +45,11 @@ search_exclude: true
 
 ![Solution](../assets/python_solution_8.png)
 
-## Merging Excercise (moved to later time point)
+## Merging Exercise (moved to later time point)
 
-**Until the 10th of november**
+**Until the 10th of November**
 
-- explain to the students what the merging excercise is about 
+- explain to the students what the merging exercise is about 
 - tell them about the survey and that it is important to fill it out for the best practice session
 - maybe create even a slide for the to look it up again
 

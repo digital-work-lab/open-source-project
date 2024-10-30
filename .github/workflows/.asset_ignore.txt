@@ -38,3 +38,4 @@ assets/records.bib
 assets/python_solution_8.png
 assets/python_solution_1.png
 assets/python_solution_6.png
+assets/codespace-package-vs-project.png
