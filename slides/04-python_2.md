@@ -42,7 +42,7 @@ More information on package development is available in the [documentation](http
 
 # Resources
 
-Useful links and resources for learning Python are available [here](resources).
+Useful links and resources for learning Python are available [here](../docs/resources).
 
 ---
 
