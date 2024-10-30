@@ -205,9 +205,9 @@ Reminder for merge: 10.11. (linking to resources)
 >
 > hier noch eine Erinnerung an den Merge, den Sie bis zum 10. November durch führen sollen.
 >
-> Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die Best Practice Session am 15. Mai bestmöglichst gestalten zu können.
+> Dieser Merge und Ihre Erfahrung (Schwierigkeiten oder ähnliches) sind wichtig, um die Best Practice Session am 13. November bestmöglichst gestalten zu können.
 >
-> Wir werden am 10. Mai noch eine Umfrage in den VC stellen (weitere Informationen folgen noch), wo Sie uns Informationen zu den Schwierigkeiten im bisherigen Projekt Verlauf geben.
+> Die Umfrage können Sie unter folgenden Link ausfüllen.
 >
 > Viele Grüße und weiterhin viel Erfolg im Projekt,
 >
@@ -219,9 +219,9 @@ English Version:
 >
 > Here is a reminder about the merge that you have to complete by November 10.
 >
-> This merge and your experience (difficulties or similar) are important in order to be able to organize the Best Practice Session on 15 May in the best possible way.
+> This merge and your experience (difficulties or similar) are important in order to be able to organize the Best Practice Session on 13th of November in the best possible way.
 >
-> On May 10, we will post a survey in the VC (more information will follow), where you will provide us with information on the difficulties encountered in the course of the project to date.
+> The Survey can be accessed through this Link.
 >
 > Best wishes and continued success with the project,
 >
@@ -231,9 +231,8 @@ VC post (10.11.24)
 
 > Liebe Studierende,
 >
-> zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die im VC gepostet wurde herunterzuladen und auszufüllen.
+> zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die über diesen Link zur verfügung steht auszufüllen.
 >
-> Nachdem Sie die Umfrage ausgefüllt haben, bitten wir Sie diese bis zum 12.11 im PDF Format hochzuladen.
 >
 > Somit können wir in der Session gezielt auf Ihre Fragen und Herausforderungen eingehen.
 >
@@ -247,9 +246,7 @@ English Version:
 
 > Dear students,
 >
-> In preparation for the Best Practice Session, we would ask you to download and complete the survey posted on the VC.
->
-> Once you have completed the survey, we would ask you to upload it in PDF format by 12.11.
+> In preparation for the Best Practice Session, we would ask you to do the survey under this Link.
 >
 > This will allow us to address your questions and challenges in the session.
 >
