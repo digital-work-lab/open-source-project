@@ -10,11 +10,12 @@ search_exclude: true
 
 | Time (start) | Duration | Topic                                           | Additional materials                                              |
 |--------------|----------|-------------------------------------------------|-------------------------------------------------------------------|
-| 00:00        | 60       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
-| 01:00        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
-| 01:30        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
-| 01:40        | 10       | [Wrap-up](#wrap-up)                             |                                                                   |
-| 01:12        | 110      | Overall                                         |                                                                   |
+| 00:00        | 10       | Set up the example repository                   |                                                                   |
+| 00:10        | 60       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
+| 01:10        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
+| 01:40        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
+| 01:50        | 10       | [Wrap-up](#wrap-up)                             |                                                                   |
+| 02:00        | 110      | Overall                                         |                                                                   |
 
 {: .info }
 > - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
