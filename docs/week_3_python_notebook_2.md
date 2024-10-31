@@ -21,11 +21,11 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 | Part | Label                                   | Time (min) |
 |------|-----------------------------------------|------------|
 |      | [Set up the example repository](#setup) |     10     |
-|  4   | [Object-oriented code](#object)         |     30     |
-|  5   | [Programmatic use of CoLRev](#colrev)   |     20     |
-|  6   | [Save and commit changes](#save-commit) |     20     |
+|  4   | [Object-oriented code](#object)         |     60     |
+|  5   | [Programmatic use of CoLRev](#colrev)   |     30     |
+|  6   | [Save and commit changes](#save-commit) |     10     |
 |      | [Wrap-up](#wrap-up)                     |     10     |
-|      | Overall                                 |     90     |
+|      | Overall                                 |    120     |
 
 <br>
 
