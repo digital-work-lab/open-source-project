@@ -28,6 +28,40 @@ search_exclude: true
 - [ ] Check whether `colrev package --init` works
 - [ ] Python session: [update SHA values and branch name](week_3_python_teaching_notes.html#preparation)
 
+<details markdown="block">
+<summary>Advertising the project</summary>
+
+VC post (advertise the project in the lecture):
+
+> Liebe Studierende,
+> 
+> ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.
+> 
+> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003), Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)). Schicken Sie mir bei Interesse gerne eine E-Mail.
+> 
+> Alles Gute für das WS 24/25!
+> 
+> Mit besten Grüßen
+> 
+> Gerit Wagner
+
+English Version:
+
+> Dear students,
+> 
+> I hope you had a restful time after the exams and that you have returned to the semester safely.
+> 
+> In the current semester (as well as in the coming summer semester) I am offering a WI project in which we work with Python, git and the GitHub open source workflow. If you have not yet taken the WI project, you are welcome to join at short notice. You are already familiar with git and GitHub and the introduction to Python will take place next week (Tuesday, 28.10.2024, 08:00 - 12:00 (WE5/01.003), Thursday, 30.10.2024, 14:00 - 18:00 (WE5/01.003)). Please send me an e-mail if you are interested.
+> 
+> All the best for WS 24/25!
+> 
+> With best regards
+> 
+> Gerit Wagner
+
+</details>
+
+
 ## Student communication
 
 > The overlap is a bit unfortunate and it is difficult for me to understand whether you will be able to contribute to the project work if you miss these sessions. At the same time, I would like you to participate in the project, and prior experience with Python and Git certainly helps.
@@ -37,6 +71,11 @@ search_exclude: true
 > If you have any questions on the process or materials, please let me know - I am happy to help.
 
 ## Week 1: Introduction, topics, and groups <a id="topics"></a>
+
+- [x] Send out mailing 1 before the first session
+
+<details markdown="block">
+<summary>Mailing 1</summary>
 
 VC post:
 
@@ -70,33 +109,7 @@ English Version:
 > 
 > Gerit Wagner
 
-VC post (advertise the project in the lecture):
-
-> Liebe Studierende,
-> 
-> ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.
-> 
-> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003), Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)). Schicken Sie mir bei Interesse gerne eine E-Mail.
-> 
-> Alles Gute für das WS 24/25!
-> 
-> Mit besten Grüßen
-> 
-> Gerit Wagner
-
-English Version:
-
-> Dear students,
-> 
-> I hope you had a restful time after the exams and that you have returned to the semester safely.
-> 
-> In the current semester (as well as in the coming summer semester) I am offering a WI project in which we work with Python, git and the GitHub open source workflow. If you have not yet taken the WI project, you are welcome to join at short notice. You are already familiar with git and GitHub and the introduction to Python will take place next week (Tuesday, 28.10.2024, 08:00 - 12:00 (WE5/01.003), Thursday, 30.10.2024, 14:00 - 18:00 (WE5/01.003)). Please send me an e-mail if you are interested.
-> 
-> All the best for WS 24/25!
-> 
-> With best regards
-> 
-> Gerit Wagner
+</details>
 
 ## Week 2: Introduction to Git  <a id="git"></a>
 
