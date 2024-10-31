@@ -13,11 +13,12 @@ search_exclude: true
 | 00:00        | 60       | Part 4: [Object-oriented code](#object)         | [notebook 2](week_3_python_notebook_2.html){: target="_blank"}    |
 | 01:00        | 30       | Part 5: [Programmatic use of CoLRev](#colrev)   |                                                                   |
 | 01:30        | 10       | Part 6: [Save and commit changes](#save-commit) |                                                                   |
-| 01:40        | 2        | [Wrap-up](#wrap-up)                             |                                                                   |
-| 01:12        | 102       | Overall                                         |                                                                   |
+| 01:40        | 10       | [Wrap-up](#wrap-up)                             |                                                                   |
+| 01:12        | 110      | Overall                                         |                                                                   |
 
 {: .info }
 > - Have students start the codespaces on Github from colrev/tutorial branch (see notebook)
+> - Ask students how they interpret the error messages, articulate the problem, how they would solve the problem, where/how they would search (do not provide solutions)
 > - Run the pre-commit hooks a few times to illustrate the typing information
 
 <div class="page-break"></div>
