@@ -15,9 +15,10 @@ permalink: /
 [![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Prerequisites](https://img.shields.io/badge/Prerequisites-EiAPS%20&%20JaP-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-[![Language](https://img.shields.io/badge/Language-Sessions%20in%20German,%20Materials%20in%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)<br>
-[![Format](https://img.shields.io/badge/Format-Sessions%20on--site%20,%20Group--work%20anywhere-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)<br>
+![Duration](https://img.shields.io/badge/Work%20load-180h%20(6%20ECTS)-blue)<br>
+[![Language](https://img.shields.io/badge/Language-Sessions%20in%20German,%20Materials%20in%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+[![Format](https://img.shields.io/badge/Format-Sessions%20on--site%20,%20Group--work%20anywhere-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)<br>
+<!-- ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue) -->
 [![Evaluations](https://img.shields.io/badge/Rating-★★★★★%20(4.5%20/%205)-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html)
 ![Completion](https://img.shields.io/badge/Enrollment-29%20students-green)
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
