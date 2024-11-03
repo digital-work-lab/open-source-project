@@ -8,6 +8,8 @@ search_exclude: true
 
 # Teaching notes
 
+Based on the [pedagogical concept](pedagogy.html).
+
 | **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |
 |----------|--------------|------------------|--------------------------------------|------------------------------------------------------------|
 | 1        | 90 min       | Topics           | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
