@@ -8,6 +8,7 @@ search_exclude: true
 
 # Teaching notes
 
+{: .info }
 Based on the [pedagogical concept](pedagogy.html).
 
 | **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |

@@ -8,15 +8,20 @@ search_exclude: true
 
 # Pedagogical concept
 
-Summarized in [syllabus/teaching approach](syllabus.html#teaching-approach)
-
 Aimed at achieving the [syllabus/learning objectives](syllabus.html#goal-and-learning-objectives)
 
-## Educational Philosophy or Learning Theory
+Summarized in [syllabus/teaching approach](syllabus.html#teaching-approach)
+
+## Educational Philosophy
+
+TODO
 
 ## Implementation
 
 ![Pedagogical concept](../assets/pedagogical-concept.png)
+
+{: .info }
+> **TODO**: how/where to link these items in the teaching notes?
 
 - Teaching strategies (introductory sessions - transfer-oriented/comlex exercise, regular sessions to ensure continuous progress)
 
