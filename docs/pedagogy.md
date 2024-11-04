@@ -23,7 +23,7 @@ TODO
 {: .info }
 > **TODO**: how/where to link these items in the teaching notes?
 
-- Teaching strategies (introductory sessions - transfer-oriented/comlex exercise, regular sessions to ensure continuous progress)
+- Teaching strategies (introductory sessions - transfer-oriented/complex exercise, regular sessions to ensure continuous progress)
 
 - Contents structure and sequencing (see CONTRIBUTE principles)
 
