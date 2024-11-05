@@ -121,6 +121,8 @@ English Version:
 - [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 - [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
 
+<details markdown="block">
+<summary>Mailing 2</summary>
 
 VC post (21.10.25)
 
@@ -153,6 +155,7 @@ English Version:
 > With best regards
 > 
 > Laureen Thurner
+</details>
 
 ## Week 3: Introduction to Python <a id="python"></a>
 
@@ -213,7 +216,9 @@ Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC
 TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
 Note: another option would be to use https://rustpad.io/#GCUiny
-
+<!--
+<details markdown="block">
+<summary>Mailing 3</summary>
 VC post (10.11.24)
 Reminder for merge: 10.11. (linking to resources)
 
@@ -242,7 +247,11 @@ English Version:
 > Best wishes and continued success with the project,
 >
 > Laureen Thurner
+</details>
+-->
 
+<details markdown="block">
+<summary>Mailing 3</summary>
 VC post (10.11.24)
 
 > Liebe Studierende,
@@ -271,7 +280,7 @@ English Version:
 > Best wishes and have a successful week
 >
 > Laureen Thurner
-
+</details>
 
 ## Week 5: Best practice session  <a id="best-practices"></a>
 
@@ -279,6 +288,8 @@ TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../t
 
 ## Week 7
 
+<details markdown="block">
+<summary>Mailing 4</summary>
 VC post (27.11.24)
 
 > Liebe Studierende,
@@ -302,10 +313,12 @@ English Version:
 > Best regards and continued success with the project
 >
 > Laureen Thurner
-
+</details>
 
 ## Week 10
 
+<details markdown="block">
+<summary>Mailing 5</summary>
 VC post (16.12.24)
 
 > Liebe Studierende,
@@ -333,10 +346,12 @@ English Version:
 > Best regards and good luck with the final spurt
 > 
 > Laureen Thurner
-
+</details>
 
 > Updates, Evaluation und bevorstehende Termine für unser Projekt
 > 
+<details markdown="block">
+<summary>Mailing 6</summary>
 > Liebe Studierende,
 > 
 > vielen Dank für Ihre Arbeit am Projekt und die Pull-Requests. Ich habe zum Abschluss jew. ein paar Verbesserungsvorschläge gemacht, die schnell umsetzbar sein sollten und teilweise schon erledigt wurden.
@@ -382,7 +397,7 @@ English Version:
 > With best regards
 > 
 > Gerit Wagner
-
+</details>
 
 ## Week 12: Code review session  <a id="code-review"></a>
 
@@ -407,6 +422,8 @@ please add @student_github_id for code.
 - For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
 - Ask students: interested in observing the merge and release process?
 
+<details markdown="block">
+<summary>Mailing 6</summary>
 > Liebe Studierende,
 > 
 > ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
@@ -452,7 +469,7 @@ English Version:
 > With best regards
 > 
 > Gerit Wagner
-
+</details>
 
 <!-- 
 Liebe Studierende,
