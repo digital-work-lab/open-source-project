@@ -14,7 +14,7 @@ permalink: /
 ![Course Status](https://img.shields.io/badge/Upcoming%20course-Summer%20semester%202025-green)<br>
 [![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
-[![Prerequisites](https://img.shields.io/badge/Prerequisites-EiAPS%20&%20JaP-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
+[![Prerequisites](https://img.shields.io/badge/Prerequisites-InfEinf%20|%20EiAPS%20&%20JaP-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 ![Duration](https://img.shields.io/badge/Work%20load-180h%20(6%20ECTS)-blue)<br>
 [![Language](https://img.shields.io/badge/Language-Sessions%20in%20German,%20Materials%20in%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Format](https://img.shields.io/badge/Format-Sessions%20on--site%20,%20Group--work%20anywhere-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)<br>
