@@ -118,8 +118,8 @@ English Version:
 
 **In preparation of the session**: 
 
-- [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
-- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
+- [x] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+- [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
 
 <details markdown="block">
 <summary>Mailing 2</summary>
