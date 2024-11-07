@@ -14,8 +14,20 @@ Summarized in [syllabus/teaching approach](syllabus.html#teaching-approach)
 
 ## Educational Philosophy
 
-- Progressivism (Dewey): Promotes experiential, hands-on learning, emphasizing critical thinking and problem-solving. Learning is viewed as a social process, with students collaborating on real-world challenges.
-- Humanism (Rogers, Maslow): Emphasizes self-actualization, emotional well-being, and individual agency. Learning is student-centered, driven by intrinsic motivation, and fosters self-discovery and autonomy. The teacher's role is more of a facilitator or guide, helping learners reach their full potential by creating a supportive environment. Prioritizes developing empathy, self-awareness, and positive self-regard over standardized academic outcomes.
+The educational philosophy guiding this project aligns with progressive and humanistic principles, particularly those outlined by Dewey, Rogers, and Maslow.
+Dewey’s **progressivism** advocates for experiential, hands-on learning, which is central to understanding open-source workflows and version control systems like Git.
+This approach mirrors the collaborative, real-world challenges that students encounter in open-source software projects, where teamwork and practical problem-solving are essential.
+Through such tasks, students actively engage in a social learning process, fostering critical thinking and collaboration.
+
+**Humanism** further informs the project by emphasizing student-centered learning and individual agency.
+In this project’s structure, learners have the autonomy to choose their sub-projects within the CoLRev framework.
+With the instructor serving as a facilitator, students are encouraged to reach their potential in a supportive environment.
+This framework prioritizes intrinsic motivation and self-directed learning, resonating with humanistic ideals of self-actualization and fostering a positive self-concept as students grow more confident in their software development abilities.
+
+The course’s structure—a combination of block sessions, group work, and collaborative hacking sessions—is designed to support students through progressive stages of learning, from introductory overviews to focused project work.
+By understanding Git, Python, and other core tools, students build the foundational skills needed to work within Git-based platforms like GitHub, mirroring industry practices in tech companies.
+The project culminates in a final code review, where students’ contributions are integrated into the larger open-source project, emphasizing the value of their collaborative efforts and technical growth.
+This hands-on experience enables students to not only gain practical skills but also develop a mindset oriented towards problem solving, continuous learning and community-driven improvement.
 
 ## Implementation
 
