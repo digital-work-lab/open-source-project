@@ -56,4 +56,4 @@ Note: the feedback is translated based on the [evaluations](https://digital-work
 
 ## How Our Students Continue to Be Involved
 
-Some have decided to build on the project and write their thesis in the context of CoLRev (see [overview](https://digital-work-lab.github.io/theses/docs/completed.html){: target="_blank"}), including Albert Borchardt, Katharina Maria Ernst, Luca Ossendorf, and Robert Theis.
+Several students have decided to build on the project and write their [thesis](https://digital-work-lab.github.io/theses/){: target="_blank"} in the context of CoLRev.

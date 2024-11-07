@@ -13,7 +13,7 @@ We offer hacking sessions to discuss current progress and help solve challenges.
 {: .objective }
 > The objective for this phase is to work as a team to develop a solution by writing, testing, and documenting code that effectively addresses the problem.
 
-Hacking sessions can be in-person (WE5 1.081) or online.
+Hacking sessions can be in-person ([WE5 1.081](https://www.openstreetmap.org/?mlat=49.903159&mlon=10.869936#map=19/49.903159/10.869936){: target="_blank"}) or online.
 To make an appointment, simply schedule a meeting using the Calendly tool:
 
 {: .text-center}
