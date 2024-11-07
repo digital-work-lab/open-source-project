@@ -1,15 +1,12 @@
 ---
 layout: default
-title: Resources
+title: "Resources"
+parent: "Week 3: Python"
+nav_order: 4
 has_toc: true
-nav_order: 8
 ---
 
-# Resources
-
-This page contains links and resources useful for the project.
-
-## Python
+# Python Resources
 
 Introductory:
 

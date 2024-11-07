@@ -14,7 +14,8 @@ Summarized in [syllabus/teaching approach](syllabus.html#teaching-approach)
 
 ## Educational Philosophy
 
-TODO
+- Progressivism (Dewey): Promotes experiential, hands-on learning, emphasizing critical thinking and problem-solving. Learning is viewed as a social process, with students collaborating on real-world challenges.
+- Humanism (Rogers, Maslow): Emphasizes self-actualization, emotional well-being, and individual agency. Learning is student-centered, driven by intrinsic motivation, and fosters self-discovery and autonomy. The teacher's role is more of a facilitator or guide, helping learners reach their full potential by creating a supportive environment. Prioritizes developing empathy, self-awareness, and positive self-regard over standardized academic outcomes.
 
 ## Implementation
 
