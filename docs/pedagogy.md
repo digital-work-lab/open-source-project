@@ -8,11 +8,7 @@ search_exclude: true
 
 # Pedagogical concept
 
-Aimed at achieving the [syllabus/learning objectives](syllabus.html#goal-and-learning-objectives)
-
-Summarized in [syllabus/teaching approach](syllabus.html#teaching-approach)
-
-## Educational Philosophy
+## Philosophy
 
 The educational philosophy guiding this project aligns with progressive and humanistic principles, particularly those outlined by Dewey, Rogers, and Maslow.
 Dewey’s **progressivism** advocates for experiential, hands-on learning, which is central to understanding open-source workflows and version control systems like Git.
@@ -29,6 +25,14 @@ By understanding Git, Python, and other core tools, students build the foundatio
 The project culminates in a final code review, where students’ contributions are integrated into the larger open-source project, emphasizing the value of their collaborative efforts and technical growth.
 This hands-on experience enables students to not only gain practical skills but also develop a mindset oriented towards problem solving, continuous learning and community-driven improvement.
 
+## Objectives
+
+The teaching objectives are stated in the [syllabus/learning objectives](syllabus.html#goal-and-learning-objectives).
+
+## Approach
+
+The teaching approach is summarized in [syllabus/teaching approach](syllabus.html#teaching-approach).
+
 ## Implementation
 
 ![Pedagogical concept](../assets/pedagogical-concept.png)
@@ -36,32 +40,20 @@ This hands-on experience enables students to not only gain practical skills but 
 {: .info }
 > **TODO**: how/where to link these items in the teaching notes?
 
-- Teaching strategies (introductory sessions - transfer-oriented/complex exercise, regular sessions to ensure continuous progress)
+{: .info }
+> **TODO**: Link details in GitCollaboration
 
-- Contents structure and sequencing (see CONTRIBUTE principles)
-
-- Assessment and feedback (formative, summative)
-
-- Learning environments (physical/virtual, collaboration/communication between students)
-
-- Motivation and engagement (building something that will be used/published)
-
-- Evaluation and reflection (continuous improvement, student reflection)
-
-## Supporting materials
-
+<!-- 
 Own publications
 
 - GitCollaboration, TeaPad
+ -->
 
-<div class="references">
-    <p>Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
-</div>
-
-Additional literature
+## Materials
 
 <div class="references">
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
     <p>Luciano, R. (2015). Fluent Python: Clear, Concise, and Effective Programming. O'Reilly Media.</p>
+    <p>Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
 </div>
 
