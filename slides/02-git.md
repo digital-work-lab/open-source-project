@@ -167,8 +167,6 @@ The **git init** command creates the `.git` directory.
 
 # The three states of a file
 
-**TODO**: simplify this. Working-directory/staging-area/git-repository (also simplify the figure on the next slide)
-
 Files in the working directory can reside in three states:
 
 - New files are initially **untracked**, i.e., Git does not include new files in commits without explicit instruction.
