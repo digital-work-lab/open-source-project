@@ -179,6 +179,9 @@ Encourage students to attend hacking sessions
 
 VC post (27.11.24)
 
+{: .info }
+> TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
+
 > Liebe Studierende,
 >
 > wir möchten Sie nochmals auf das Angebot der Hacking Sessions verweisen.

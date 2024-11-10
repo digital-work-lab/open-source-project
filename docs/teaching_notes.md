@@ -92,9 +92,6 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 ## Week 7
 
-{: .info }
-> TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
-
 - [ ] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
 
 ## Week 10
