@@ -146,7 +146,7 @@ pre-commit run --all
 
 # Open questions?
 
-Raise them directly or add them anonymously below:
+Raise them directly or add them below (anonymously):
 
 <iframe src="https://rustpad.io/#GCUiny" width="100%" height="400px" style="border:none;"></iframe>
 
