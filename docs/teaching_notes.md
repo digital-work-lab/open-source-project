@@ -25,12 +25,7 @@ Based on the [pedagogical concept](pedagogy.html).
 ## Preparation
 
 - [x] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
-- [x] Update dates and rooms for sessions
-- [x] Update the rating average in the badge (change the badge-link on index.md) and participation
-- [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
-- [x] Check whether `pre-commit run --all` runs without errors in Codespaces
-- [x] Check whether `colrev package --init` works
-- [x] Python session: [update SHA values and branch name](week_3_python_teaching_notes.html#preparation)
+- [x] Advertise the project in the leture (other courses) - check if not applicable
 
 <details markdown="block">
 <summary>Advertising the project</summary>
@@ -65,6 +60,11 @@ English Version:
 
 </details>
 
+- [x] Update dates and rooms for sessions
+- [x] Update the rating average in the badge (change the badge-link on index.md) and participation
+- [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
+- [x] Check whether `pre-commit run --all` runs without errors in Codespaces
+- [x] Check whether `colrev package --init` works
 
 ## Student communication
 
@@ -74,7 +74,7 @@ English Version:
 > 
 > If you have any questions on the process or materials, please let me know - I am happy to help.
 
-## Week 1: Introduction, topics, and groups <a id="topics"></a>
+## Week 1: Topics <a id="topics"></a>
 
 - [x] Send out mailing 1 before the first session
 
@@ -115,7 +115,7 @@ English Version:
 
 </details>
 
-## Week 2: Introduction to Git  <a id="git"></a>
+## Week 2: Git  <a id="git"></a>
 
 **In preparation of the session**: 
 
@@ -159,33 +159,26 @@ English Version:
 > Laureen Thurner
 </details>
 
-## Week 3: Introduction to Python <a id="python"></a>
+## Week 3: Python <a id="python"></a>
 
-Prepare the `tutorial_python` branch and update the commit-ids in the slides:
+- [x] Prepare the `tutorial_python` branch and update the commit-SHAs in the notebooks
+
+<details markdown="block">
+<summary>Python prep</summary>
 
 ```
 git checkout tutorial_python
+git branch tutorial_backup
 git rebase -i HEAD~16
 # edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml / poetry update to update poetry.lock
 git rebase main
 git push -f
 ```
 
-<!-- 
-```
-git branch tutorial_YYYY_MM
-git switch tutorial_OLD
-# get commit-ids (first and last)
-git switch tutorial_YYYY_MM
-git cherry-pick ab3715e85fb0219081ff60f6e4918953066bfe6a^..12c2d1730564b99fa11fbb618e92e2b67751e34c
-```
- -->
-
 When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
+</details>
 
-Keep a copy of branch (assign a `tutorial_backup` branch to the last commit)
-
-Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
+- [ ] Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
 
@@ -215,9 +208,6 @@ VC post (21.10.24)
 
 - [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
 - [ ] Send out mailing 3
-
-{: .info }
-> TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
 Note: another option would be to use https://rustpad.io/#GCUiny
 
@@ -287,11 +277,14 @@ English Version:
 > Laureen Thurner
 </details>
 
-## Week 5: Best practice session  <a id="best-practices"></a>
+## Week 5: Best practices <a id="best-practices"></a>
 
 TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../teaching_notes/cheatsheet_python.md), [colrev package development](../teaching_notes/cheatsheet_colrev.md)) available?
 
 ## Week 7
+
+{: .info }
+> TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
 - [ ] Send out mailing 4
 
@@ -408,7 +401,7 @@ English Version:
 > Gerit Wagner
 </details>
 
-## Week 12: Code review session  <a id="code-review"></a>
+## Week 12: Code review <a id="code-review"></a>
 
 - [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
 - [ ] Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
