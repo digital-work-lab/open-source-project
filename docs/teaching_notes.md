@@ -66,7 +66,9 @@ English Version:
 - [x] Check whether `pre-commit run --all` runs without errors in Codespaces
 - [x] Check whether `colrev package --init` works
 
-## Student communication
+
+<details markdown="block">
+<summary>Student communication notes</summary>
 
 > The overlap is a bit unfortunate and it is difficult for me to understand whether you will be able to contribute to the project work if you miss these sessions. At the same time, I would like you to participate in the project, and prior experience with Python and Git certainly helps.
 > 
@@ -74,12 +76,14 @@ English Version:
 > 
 > If you have any questions on the process or materials, please let me know - I am happy to help.
 
+</details>
+
 ## Week 1: Topics <a id="topics"></a>
 
 - [x] Send out mailing 1 before the first session
 
 <details markdown="block">
-<summary>Mailing 1</summary>
+<summary>Mailing 1 (welcome and infos)</summary>
 
 VC post:
 
@@ -117,14 +121,12 @@ English Version:
 
 ## Week 2: Git  <a id="git"></a>
 
-**In preparation of the session**: 
-
 - [x] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 - [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
 - [x] Send out mailing 2
 
 <details markdown="block">
-<summary>Mailing 2</summary>
+<summary>Mailing 2 (reminder: comment on issues)</summary>
 
 VC post (21.10.25)
 
@@ -178,9 +180,14 @@ git push -f
 When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
 </details>
 
-- [ ] Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups), e.g., with posts like this:
+- [x] Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups)
+
+<details markdown="block">
+<summary>Facilitating issue discussions</summary>
 
 > Thank you, @pmao0907 and @MingxinJiang for offering to switch to #360 . This leaves a group of 3 with @CelinaSchwarz , @omanovb and @QuynhMaiNguyen 👍 Can you select a group lead, fork the repository and link your repository in this feed?
+
+</details>
 
 <!-- 
 
@@ -208,8 +215,6 @@ VC post (21.10.24)
 
 - [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
 - [ ] Send out mailing 3
-
-Note: another option would be to use https://rustpad.io/#GCUiny
 
 <!--
 <details markdown="block">
@@ -246,7 +251,7 @@ English Version:
 -->
 
 <details markdown="block">
-<summary>Mailing 3</summary>
+<summary>Mailing 3 (survey covering questions and challenges to be discussed in the session)</summary>
 VC post (10.11.24)
 
 > Liebe Studierende,
@@ -279,7 +284,7 @@ English Version:
 
 ## Week 5: Best practices <a id="best-practices"></a>
 
-TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../teaching_notes/cheatsheet_python.md), [colrev package development](../teaching_notes/cheatsheet_colrev.md)) available?
+- [ ] Review responses from the survey and prepare the session
 
 ## Week 7
 
@@ -289,7 +294,7 @@ TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../t
 - [ ] Send out mailing 4
 
 <details markdown="block">
-<summary>Mailing 4</summary>
+<summary>Mailing 4 (encourage students to attend hacking sessions)</summary>
 VC post (27.11.24)
 
 > Liebe Studierende,
@@ -320,7 +325,7 @@ English Version:
 - [ ] Send out mailing 5
 
 <details markdown="block">
-<summary>Mailing 5</summary>
+<summary>Mailing 5 (reminder for pull-request and code review session)</summary>
 VC post (16.12.24)
 
 > Liebe Studierende,
@@ -350,10 +355,10 @@ English Version:
 > Laureen Thurner
 </details>
 
-- [ ] Send out mailing 6 (updates, course evaluation und upcoming events)
+- [ ] Send out mailing 6
 
 <details markdown="block">
-<summary>Mailing 6</summary>
+<summary>Mailing 6 (updates, course evaluation und upcoming events)</summary>
 > Liebe Studierende,
 > 
 > vielen Dank für Ihre Arbeit am Projekt und die Pull-Requests. Ich habe zum Abschluss jew. ein paar Verbesserungsvorschläge gemacht, die schnell umsetzbar sein sollten und teilweise schon erledigt wurden.
@@ -409,7 +414,7 @@ English Version:
 - [ ] Send out mailing 7
 
 <details markdown="block">
-<summary>Mailing 7</summary>
+<summary>Mailing 7 (information on the code-review session)</summary>
 > Liebe Studierende,
 > 
 > ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
@@ -459,6 +464,11 @@ English Version:
 
 After the session:
 
+- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
+- [ ] Ask students: interested in observing the merge and release process?
+
+Merging pull requests and adding contributors:
+
 - [ ] Merge pull requests. Run `colrev env --update_package_list` and update documentation before merging
 - [ ] To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199){: target="_blank"}) and merge them into the feature branch (pull request) instead of main:
 
@@ -472,13 +482,9 @@ please add @student_github_id for code.
 - [ ] Remind students to complete the evaluation.
 - [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"} in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
 
-- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
-- [ ] Ask students: interested in observing the merge and release process?
-
 <!-- 
-Liebe Studierende,
 
-die Scheine liegen abholbereit im Sekretariat (WE5/01.029) bei Frau Gehringer. Sie können Montag/Mittwoch/Donnerstag zwischen 10 und 13 Uhr bzw. Dienstag zwischen 11 und 13 Uhr abgeholt werden. Die Scheine können bei Herrn Kipphan (WE5/01.078) eingebracht werden (Montag 13-15 Uhr, Mittwoch 9.30-11.30 und 13-15 Uhr).
+Liebe Studierende,
 
 Die ersten Pull-Requests sind gemerged. Sie können gerne einen Blick auf meine abschließenden Änderungen werfen. Sprechen Sie mich bei Interesse an der Nutzung oder Weiterentwicklung von CoLRev, z.B. im Rahmen einer Abschlussarbeit, gerne an!
 
