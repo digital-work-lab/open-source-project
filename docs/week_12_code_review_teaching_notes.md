@@ -8,6 +8,9 @@ search_exclude: true
 
 # Week 12: Code review session (teaching notes)
 
+{: highlight }
+If students test the code in Codespaces, the workspace should be started early.
+
 ## Introduction:
 
 - Key skill: managing complexity (keeping in mind that simple structures are often preferrable to artificial complexity)

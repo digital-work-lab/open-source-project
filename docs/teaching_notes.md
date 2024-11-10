@@ -24,12 +24,13 @@ Based on the [pedagogical concept](pedagogy.html).
 
 ## Preparation
 
-- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
-- [ ] Update dates and rooms for sessions
-- [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
-- [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
-- [ ] Check whether `colrev package --init` works
-- [ ] Python session: [update SHA values and branch name](week_3_python_teaching_notes.html#preparation)
+- [x] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
+- [x] Update dates and rooms for sessions
+- [x] Update the rating average in the badge (change the badge-link on index.md) and participation
+- [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
+- [x] Check whether `pre-commit run --all` runs without errors in Codespaces
+- [x] Check whether `colrev package --init` works
+- [x] Python session: [update SHA values and branch name](week_3_python_teaching_notes.html#preparation)
 
 <details markdown="block">
 <summary>Advertising the project</summary>
@@ -120,6 +121,7 @@ English Version:
 
 - [x] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
 - [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
+- [x] Send out mailing 2
 
 <details markdown="block">
 <summary>Mailing 2</summary>
@@ -211,11 +213,14 @@ VC post (21.10.24)
 
 ## Week 4: Group work (no session)
 
-Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+- [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+- [ ] Send out mailing 3
 
-TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
+{: .info }
+> TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
 Note: another option would be to use https://rustpad.io/#GCUiny
+
 <!--
 <details markdown="block">
 <summary>Mailing 3</summary>
@@ -288,6 +293,8 @@ TBD: Make cheatsheets ([git](../teaching_notes/cheatsheet_git.md), [python](../t
 
 ## Week 7
 
+- [ ] Send out mailing 4
+
 <details markdown="block">
 <summary>Mailing 4</summary>
 VC post (27.11.24)
@@ -316,6 +323,8 @@ English Version:
 </details>
 
 ## Week 10
+
+- [ ] Send out mailing 5
 
 <details markdown="block">
 <summary>Mailing 5</summary>
@@ -348,8 +357,8 @@ English Version:
 > Laureen Thurner
 </details>
 
-> Updates, Evaluation und bevorstehende Termine für unser Projekt
-> 
+- [ ] Send out mailing 6 (updates, course evaluation und upcoming events)
+
 <details markdown="block">
 <summary>Mailing 6</summary>
 > Liebe Studierende,
@@ -366,7 +375,7 @@ English Version:
 > 
 > Ich lade Sie herzlich ein, weitere Ideen und Vorschläge dort zu ergänzen.
 > 
-> Heute findet zudem die Choose-a-Chair Messe statt, bei der wir die Möglichkeit haben, persönlich ins Gespräch zu kommen, zum Beispiel über Abschlussarbeiten und unseren neuen "Call-for-Theses":
+> Heute findet zudem die Choose-a-Chair Messe statt, bei der wir die Möglichkeit haben, persönlich ins Gespräch zu kommen, zum Beispiel über Abschlussarbeiten:
 > 
 > https://digital-work-lab.github.io/theses/docs/topics.html
 > 
@@ -390,7 +399,7 @@ English Version:
 > 
 > I cordially invite you to add further ideas and suggestions there.
 > 
-> > Today is also the Choose-a-Chair fair, where we have the opportunity to talk in person, for example about theses and our new “Call-for-Theses”:
+> > Today is also the Choose-a-Chair fair, where we have the opportunity to talk in person, for example about Bachelor's theses:
 > 
 > https://digital-work-lab.github.io/theses/docs/topics.html
 > 
@@ -401,29 +410,13 @@ English Version:
 
 ## Week 12: Code review session  <a id="code-review"></a>
 
-
-- Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
-- Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
-- If students test the code in Codespaces, the workspace should be started early.
-- If projects require access tokens (API keys), provide them to the group
-- To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199){: target="_blank"}) and merge them into the feature branch (pull request) instead of main:
-
-```
-@all-contributors
-please add @student_github_id for code. 
-please add @student_github_id for code.
-```
-
-- Run `colrev env --update_package_list` and update documentation before merging
-- Add student contributors to the [hall of fame](hall_of_fame.html)
-- Remind students to complete the evaluation.
-- Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"} in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
-
-- For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
-- Ask students: interested in observing the merge and release process?
+- [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
+- [ ] Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
+- [ ] If projects require access tokens (API keys), provide them to the group
+- [ ] Send out mailing 7
 
 <details markdown="block">
-<summary>Mailing 6</summary>
+<summary>Mailing 7</summary>
 > Liebe Studierende,
 > 
 > ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
@@ -470,6 +463,24 @@ English Version:
 > 
 > Gerit Wagner
 </details>
+
+After the session:
+
+- [ ] Merge pull requests. Run `colrev env --update_package_list` and update documentation before merging
+- [ ] To add students as contributors, comment on the pull-request (see [example](https://github.com/CoLRev-Environment/colrev/pull/199){: target="_blank"}) and merge them into the feature branch (pull request) instead of main:
+
+```
+@all-contributors
+please add @student_github_id for code. 
+please add @student_github_id for code.
+```
+
+- [ ] Add student contributors to the [hall of fame](hall_of_fame.html)
+- [ ] Remind students to complete the evaluation.
+- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"} in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
+
+- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
+- [ ] Ask students: interested in observing the merge and release process?
 
 <!-- 
 Liebe Studierende,
