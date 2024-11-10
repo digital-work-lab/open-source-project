@@ -43,8 +43,9 @@ Based on the [pedagogical concept](pedagogy.html).
 
 </details>
 
+<br>
+
 {: .info }
-> **Info**
 > All of the following items must be completed **before the session** unless stated otherwise.
 
 ## Week 1: Topics <a id="topics"></a>
@@ -76,7 +77,7 @@ git push -f
 When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
 </details>
 
-- [x] Create a list of topics and students (first/second choice) and facilitate issue discussions (students forming groups)
+- [x] Create a list of topics and students (first/second choice) and facilitate issue discussions
 
 <details markdown="block">
 <summary>Facilitating issue discussions</summary>
@@ -106,7 +107,7 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 ## Week 12: Code review <a id="code-review"></a>
 
 - [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
-- [ ] Check whether HDMI/... connectors are required (provide them/ask students to bring them to the session)
+- [ ] Check whether connectors (e.g., HDMI) are required and provide them
 - [ ] If projects require access tokens (API keys), provide them to the group
 - [ ] Send out the [code-review-session mailing](mailings.html#code-review-session)
 - [ ] Remind students to complete the evaluation
@@ -119,4 +120,4 @@ After the session:
 After feedback was implemented by the students
 
 - [ ] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
-- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"} in VC, explain our process of [evaluation and improvement](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.02.courses.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
+- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, link in the [improvement section](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
