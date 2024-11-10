@@ -7,6 +7,13 @@ search_exclude: true
 ---
 
 # Mailings
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ## Advertising the project <a id="advertising"></a>
 
