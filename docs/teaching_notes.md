@@ -43,6 +43,10 @@ Based on the [pedagogical concept](pedagogy.html).
 
 </details>
 
+{: .info }
+> **Info**
+> All of the following items must be completed **before the session** unless stated otherwise.
+
 ## Week 1: Topics <a id="topics"></a>
 
 - [x] Send out [welcome and information mailing](mailings.html#welcome) before the first session
