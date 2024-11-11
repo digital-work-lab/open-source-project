@@ -1,12 +1,18 @@
 ---
 layout: default
-title: "Week 5: Code review session (teaching notes)"
+title: "Week 5: Code Review (Teaching Notes)"
 has_toc: true
 nav_exclude: true
 search_exclude: true
 ---
 
-# Week 12: Code review session (teaching notes)
+# Week 12: Code Review (Teaching Notes)
+
+| Time (start) | Duration | Topic                 | Additional materials                                              |
+|--------------|----------|-----------------------|-------------------------------------------------------------------|
+| 00:00        | 10       | Introduction          |                                                                   |
+| 01:10        | 80       | Overall               |                                                                   |
+
 
 {: highlight }
 If students test the code in Codespaces, the workspace should be started early.
@@ -59,18 +65,21 @@ Feedback session: Ask students for reflection and potential improvements
 - How to use Git more effectively?
 - Should I encourage students to use Cursor/GitHub copilot?
 
-
+- Ask students to leave us a star on GitHub
 
 ## After the session:
 
 IMPORTANT: ask student / group separately for individual (under) performance
-	Evaluation bei ungleichen Beiträgen:
-	- HIWI: reinbitten, ggf. austreten
-	- Gruppe ohne "underperformer": zur Gruppenleistung beigetragen?
-	- "underperformer" allein:
-		- Über Codeanalyse und Gruppeneinschätzung informieren
-		- Codeanalyse verifizieren (Gelegenheit, konkrete Links nachzureichen) - möchten Sie die Möglichkeit nutzen?
-		- Weiteres vorgehen: wir entscheiden über die Bewertung.
+
+Evaluation bei ungleichen Beiträgen:
+
+- HIWI: reinbitten, ggf. austreten
+- Gruppe ohne "underperformer": zur Gruppenleistung beigetragen?
+- "underperformer" allein:
+
+	- Über Codeanalyse und Gruppeneinschätzung informieren
+	- Codeanalyse verifizieren (Gelegenheit, konkrete Links nachzureichen) - möchten Sie die Möglichkeit nutzen?
+	- Weiteres vorgehen: wir entscheiden über die Bewertung.
 
 
 ## Backup/Notes

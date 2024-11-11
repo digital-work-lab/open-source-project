@@ -1,29 +1,48 @@
 ---
 layout: default
-title: "Week 5: Best practices (teaching notes)"
+title: "Week 5: Best Practices (Teaching Notes)"
 has_toc: true
 nav_exclude: true
 search_exclude: true
 ---
 
-# Week 5: Best practices (teaching notes)
+# Week 5: Best Practices (Teaching Notes)
 
-## Preparation
+| Time (start) | Duration | Topic                 | Additional materials                                              |
+|--------------|----------|-----------------------|-------------------------------------------------------------------|
+| 00:00        | 10       | Introduction          |                                                                   |
+| 00:10        | 10       | Warm-up questions     |                                                                   |
+| 00:20        | 10       | Environment setup     |                                                                   |
+| 00:30        | 10       | Branching strategy    |                                                                   |
+| 00:40        | 10       | How to organize       |                                                                   |
+| 00:50        | 10       | Best practices        |                                                                   |
+| 01:00        | 10       | Open questions        |                                                                   |
+| 01:10        | 10       | Wrap-up               |                                                                   |
+| 01:10        | 80       | Overall               |                                                                   |
 
-We should take notes on the work status discussion
+{: .info }
+> - We should take notes on the work status discussion
+
+<div class="page-break"></div>
 
 ## Introduction
 
-Verbally (learning objectives): we encourage you to share challenges/errors/lessons-learned (without evaluation or judgment)
+- We encourage you to share challenges/errors/lessons-learned (without evaluation or judgment)
 - we will not hold errors against you - on the contrary, it we recognize it as a contribution if you articulate challenges, or share solutions
 
-## Organizing work
+## Warm-up questions
 
-Discuss where students searched, how to proceed (do not provide easy solutions)
-Ask students to explain how they currently understand the task, where they would search
-Key task: self-organizing, understanding code
+- Discuss where students searched, how to proceed (do not provide easy solutions)
+- Ask students to explain how they currently understand the task, where they would search
+- Key task: facilitate self-organizing, understanding code
 
-## Task-Splitting strategy
+## Environment setup
+
+TBD.
+
+## Branching strategy
+
+Task-Splitting strategy
 
 - Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning, and calling the script using __name__ == "main")
 - trying options
@@ -42,25 +61,11 @@ if __name__ == "main":
     search()
 ```
 
-## Merging strategies
+## How to organize
 
-- Ask students to complete the commands and draw each Git graph on paper (with commit ID and message)
+TBD.
 
-## Encouragement
-
-Remember: 
-
-- Challenging task
-- We recognize your efforts working in a complex environment
-- We are here to help
-- All groups completed their projects successfully in the last projects
-
-## TO DO after the session
-
-Groups to "fix" main (git reset --hard && git push -f): ADD_HERE
-
-
-# Best practices and conventions
+## Best practices
 
 - Based on student feedback
 
@@ -77,15 +82,19 @@ Notes:
 - Explanations for gitk and Linux shell commands (ls, cs, ...)
 - Workflow utilities (such as storing custom commands in bash_aliases) may be helpful.
 
-Use [colrev-template](https://github.com/CoLRev-Environment/colrev-template){: target="_blank"} in GitHub codespaces
-Plan: 45 min
+## Open questions
 
--> continue with the setup in https://github.com/CoLRev-Environment/colrev  (including alias etc.)
-Plan: 45 min
+- See rustpad suggestions
 
-Fragen: 30-40 min
+## Wrap-up
 
-Test and practice merge/merge conflict
+Encouragement (remember):
 
+- Challenging task
+- We recognize your efforts working in a complex environment
+- We are here to help
+- All groups completed their projects successfully in the last projects
 
-- Ask students to leave us a star on GitHub
+## TO DO after the session
+
+Groups to "fix" main (git reset --hard && git push -f): ADD_HERE
