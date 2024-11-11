@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Git collaborating"
+parent: "Week 2: Git"
+nav_order: 4
+has_toc: true
+---
+
 # Exercise notebook: Git collaborating
 
 [![Offered at: Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-the%20Digital%20Work%20Lab%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
