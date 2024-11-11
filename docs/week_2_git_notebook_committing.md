@@ -261,7 +261,7 @@ To analyze the specific changes, open the Git GUI:
 </details>
 
 
-**Optional**: If you have the time, you may check the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+**Optional**: If you have the time, you may check the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/){: target="_blank"} specification.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To create atomic commits, you may need to <b>add specific lines of code that should go into a commit</b>, leaving other changes in the working directory.</p>
 
@@ -320,4 +320,4 @@ In this notebook, we have learned to
 - Undo changes
 - Navigate Visualstudio Code on GitHub Codespaces
 
-Remember to delete your codespace [here](https://github.com/codespaces) (see [instructions](codespaces.ipynb)).
+Remember to delete your codespace [here](https://github.com/codespaces){: target="_blank"} (see [instructions](codespaces.ipynb)).
