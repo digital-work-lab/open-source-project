@@ -285,4 +285,4 @@ In this notebook, we have learned to
 - Prevent merge conflicts from happening
 - Resolve merge conflicts once they occur
 
-Remember to delete your codespace [here](https://github.com/codespaces) (see [instructions](codespaces.ipynb)).
+Remember to delete your codespace [here](https://github.com/codespaces){: target="_blank"} (see [instructions](codespaces.ipynb)).
