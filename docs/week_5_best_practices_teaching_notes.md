@@ -25,6 +25,13 @@ search_exclude: true
 
 <div class="page-break"></div>
 
+Problems with group/team
+
+- no clear roles - which roles should exist?
+- ask for challenges, offer help
+- mention that we will check Git contribution (fair effort of all team members)
+- usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
+
 ## Introduction
 
 - We encourage you to share challenges/errors/lessons-learned (without evaluation or judgment)

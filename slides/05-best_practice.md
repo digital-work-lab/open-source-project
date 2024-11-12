@@ -29,13 +29,36 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 ---
 
+# Challenges in Team Work
+
+- **Which roles should exist?**: Discuss and clarify roles within the team.
+
+- **What are our key challenges?**: As a group, articulate the challenges and let us know - we may be able to help.
+
+- **Do all team members contribute fairly?**: Normally, we give **one grade per group**. We will check individual Git contributions. As a last resort, we can assign different grades for group members, with a **bonus** for those who contribute more.
+
+---
+
+# Questions related to group work
+
+Raise them directly or add them below (anonymously):
+
+<iframe src="https://rustpad.io/#WjqD80" width="100%" height="400px" style="border:none;"></iframe>
+
+---
+
 # Questions and work status
 
-- Warm-up questions
+<!-- - Warm-up questions -->
 - Why are there errors in my environment?
 - How can we organize and split tasks?
 - How should we select merging strategies?
+- Work status: How to contribute?
+- Work status: How to organize tasks?
+- Best practices
 - Open questions
+
+<!-- 
 
 ---
 
@@ -50,6 +73,7 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 **How can I get access rights to create branches in the fork?**
 - Ask the team lead to invite you to the fork (see [step 2](https://digital-work-lab.github.io/open-source-project/output/02-git.html#32)).
+-->
 
 ---
 
