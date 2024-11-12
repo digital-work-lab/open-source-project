@@ -132,7 +132,7 @@ git commit
 
 ## Part 2: Resolving a more realistic merge conflict  <a id="realistic"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">For this task, we focus on a project where Lisa and Ted work on a Python module for a comand-line application. Lisa works on a separate branch and changes <code>print()</code> statements to <code>logging.info()</code>. In parallel, Ted introduces changes to the <code>COLORS</code> variable on main. Both changes affect the same module and even the same lines of code. Let's see how the conflict unfolds and how we can resolve it.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">For this task, we focus on a project where Lisa and Ted work on a Python module for a command-line application. Lisa works on a separate branch and changes <code>print()</code> statements to <code>logging.info()</code>. In parallel, Ted introduces changes to the <code>COLORS</code> variable on main. Both changes affect the same module and even the same lines of code. Let's see how the conflict unfolds and how we can resolve it.</p>
 
 
 ```python
@@ -207,7 +207,7 @@ git status
 <ul>
 <li>Understand whether changes are likely to create merge conflicts</li>
 <li>Communicate with other contributors to understand who is working on which parts of the codebase or read the codebase if there is no personal contact with the other developers</li>
-<li>Avoid problematic changes, such as code formatting and restructuring that affects the whole codebase. Coordinate development if they are neccessary.</li>
+<li>Avoid problematic changes, such as code formatting and restructuring that affects the whole codebase. Coordinate development if they are necessary.</li>
 <li>Avoid long-running branches by merging often</li>
 <li>Create atomic commits</li>
 </ul>

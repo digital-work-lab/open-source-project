@@ -46,7 +46,7 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">In the first part, we will create a simple <b>shared repository</b> setup. Every team member will have access to the same repository, committing directly to <code>main</code>, or creating branches and pull-requests. We will not download the repository, but <a href="https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files">edit the files directly on GitHub</a> instead.</p>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: Select one <b>maintainer</b>, who creates a new remote repository on <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">GitHub</a> and <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects">invites</a> the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a <code>README.md</code> file, chosing a project name and creating a contributor section similar to the following:</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: Select one <b>maintainer</b>, who creates a new remote repository on <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">GitHub</a> and <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects">invites</a> the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a <code>README.md</code> file, choosing a project name and creating a contributor section similar to the following:</p>
 
 <h2 style="margin-bottom: 3px; font-family: monospace; font-size: 1em;">README.md</h2>
 
@@ -68,7 +68,7 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task Contributor C</b>: Create a branch <code>code_of_conduct</code>, adding the <a href="https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> in a file named <code>CODE_OF_CONDUCT.md</code>.</p>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whehter the changes are adequate and merge them using the rebase option.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whether the changes are adequate and merge them using the rebase option.</p>
 
 ## Part 2: Work in a fork <a id="fork"></a>
 

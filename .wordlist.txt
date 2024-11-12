@@ -942,3 +942,16 @@ Maslow
 progressivism
 Einf
 InfEinf
+ok
+VisualStudio
+Reynold
+whitespace
+config
+learnGitBranching
+hotfixes
+Hotfixes
+rebasess
+TeamPlay
+maintainer's
+learngitbranching
+rebases

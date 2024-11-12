@@ -301,7 +301,7 @@ git add -p colrev/dataset.py
 <p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.</p>
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:800px;">
-    <strong>Info</strong> Once you have committed changes, Git takes takes care of the data and it is very hard to lose the data. Uncommited data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
+    <strong>Info</strong> Once you have committed changes, Git takes takes care of the data and it is very hard to lose the data. Uncommitted data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
 </div>
 
 <br>
@@ -318,6 +318,6 @@ In this notebook, we have learned to
 - Create, stage, and commit changes using `git add`, `git commit` and `git restore`
 - Create atomic commits
 - Undo changes
-- Navigate Visualstudio Code on GitHub Codespaces
+- Navigate VisualStudio Code on GitHub Codespaces
 
 Remember to delete your codespace [here](https://github.com/codespaces){: target="_blank"} (see [instructions](codespaces.ipynb)).
