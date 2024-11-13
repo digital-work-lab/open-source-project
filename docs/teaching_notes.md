@@ -90,6 +90,7 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 - [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
 - [ ] Send out the [prep-best-practices mailing](mailings.html#prep-best-practice)
+- [ ] In the issue feeds, ask students to link their fork
 
 ## Week 5: Best practices <a id="best-practices"></a>
 

@@ -17,10 +17,15 @@ paginate: true
 
 # Learning objectives
 
-Our objectives for today are to
+Our objectives for today are discuss and overcome current challenges related to:
 
+- [Technical setup](#technical-setup): Git, Codespaces, and local setup
+- [Programming](#programming): Python, Python packages, and CoLRev
+- [Teamwork](#teamwork): Task distribution, setup of branches in the fork, and roles in the team
+
+<!-- 
 - Discuss current challenges and how they can be addressed
-- Facilitate the practical application of Git commands and Python coding from previous sessions
+- Facilitate the practical application of Git commands and Python coding from previous sessions -->
 
 The focus is on **helping teams organize their work effectively**. To this end, we
 
@@ -29,7 +34,112 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 ---
 
-# Challenges in Team Work
+# Technical setup
+
+- Does everyone have a working setup?
+- Are you working on Codespaces or in a local environment?
+- What are the errors and challenges that came up?
+
+<!-- 
+- What are your best practices for the setup?
+
+Summarize the work status per group:
+
+- What are the challenges we can discuss?
+- What was particularly helpful? Are there any insights you can share with the other teams?
+ -->
+
+---
+
+# Technical setup: Sources of errors
+
+- Errors may be raised only in specific settings, i.e., versions of operating systems, Python, package managers, dependencies, and CoLRev
+- What we do to identify and fix errors: 
+
+    - Run [matrix tests](https://github.com/CoLRev-Environment/colrev/actions/workflows/tests.yml) covering 16 different environments
+    - Reduce dependencies
+    - Fix errors that are reported
+
+- What you can do to avoid errors:
+
+    - Use supported environments, such as GitHub Codespaces
+    - Avoid outdated and cutting-edge versions (of operating systems and Python)
+    - Report errors
+
+![bg right:37% width:550px](../assets/sources-of-errors.png)
+
+---
+
+# Technical setup: Best practices
+
+- Use Codespaces with the pre-installed setup
+- Carefully select changes (`git add -p`) and review changes before creating a commit
+- Commit often
+- Synchronize regularly in your fork and with `remotes/upstream`
+
+---
+
+# Technical setup: Open questions
+
+Raise them directly or add them below (anonymously):
+
+<iframe src="https://rustpad.io/#5YH3Wq" width="100%" height="400px" style="border:none;"></iframe>
+
+---
+
+# Programming
+
+- Are you confident with your programming environment, i.e., do you know how to modify and run your code?
+- Do you know how to execute pre-commit hooks to evaluate and improve code quality?
+- Do you know where and how to contribute your code, i.e., the modules, classes to use or create?
+- Are there any questions related to Python packages or CoLRev?
+
+---
+
+# Programming: Best practices
+
+- [Search](https://github.com/search), [read](https://www.turing.com/kb/start-reading-code-the-right-way) and understand your code and the code in related projects
+- Check and fix code quality regularly (at least: before creating a commit):
+
+```
+pre-commit run --all
+```
+
+- Understanding of CoLRev
+
+    - **User workflow**: Start with the [video](https://colrev-environment.github.io/colrev/) and check ``gitk`` after each step
+    - **Architecture**: Starting point: [API chart and reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
+    - **Package development and SearchSources**: Starting point: [package development resources](https://colrev-environment.github.io/colrev/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html)
+
+
+---
+
+# Programming: Open questions
+
+Raise them directly or add them below (anonymously):
+
+<iframe src="https://rustpad.io/#2Nra6z" width="100%" height="400px" style="border:none;"></iframe>
+
+---
+
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
+
+# Teamwork
+
+- How can we split and distribute tasks?
+- Which branches should we set up?
+- Does everyone contribute fairly? (\*)
+
+> \* Normally, we give **one grade per group**. We will check individual Git contributions. We can assign different grades for group members, with a **bonus** for those who contribute more.
+
+<!-- 
+- Which roles should exist?
 
 - **Which roles should exist?**: Discuss and clarify roles within the team.
 
@@ -37,26 +147,44 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 - **Do all team members contribute fairly?**: Normally, we give **one grade per group**. We will check individual Git contributions. As a last resort, we can assign different grades for group members, with a **bonus** for those who contribute more.
 
+- How did you distribute tasks in the team?
+- Who works on what, which branches did you create, does regular sync work for you?
+-->
+
 ---
 
-# Questions related to group work
+# Teamwork: Best practices (branch setup)
+
+<!-- - Follow the [branching strategy](https://digital-work-lab.github.io/open-source-project/output/02-git.html#25) 
+**Which branching / merging strategy should we select?**
+-->
+
+Recommended branch setup in your fork:
+
+1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
+2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
+3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#work-in-a-forked-repository), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
+
+<!-- Note: the branching strategy is part of the best-practice session because it is useful when students have already thought about how to organize tasks. In the Git session, it would be too early in the group formation process. -->
+
+When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+
+- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
+- Once the branch is online, use merge commits
+
+Merging into a target branch, i.e., your shared feature branch:
+
+- Squash if you have worked on a single coherent task, which should be combined in a single commit
+- Rebase if you would like to preserve a simple linear history
+- Merge commit otherwise
+
+---
+
+# Teamwork: Open questions
 
 Raise them directly or add them below (anonymously):
 
 <iframe src="https://rustpad.io/#WjqD80" width="100%" height="400px" style="border:none;"></iframe>
-
----
-
-# Questions and work status
-
-<!-- - Warm-up questions -->
-- Why are there errors in my environment?
-- How can we organize and split tasks?
-- How should we select merging strategies?
-- Work status: How to contribute?
-- Work status: How to organize tasks?
-- Best practices
-- Open questions
 
 <!-- 
 
@@ -77,101 +205,39 @@ Raise them directly or add them below (anonymously):
 
 ---
 
-# Work status: Environment setup
+# Group work phase
 
-- Errors may be raised only in specific settings, i.e., versions of operating systems, Python, package managers, dependencies, and CoLRev
-- What we do to identify and fix errors: 
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
 
-    - Run [matrix tests](https://github.com/CoLRev-Environment/colrev/actions/workflows/tests.yml) covering 16 different environments
-    - Reduce dependencies
-    - Fix errors that are reported
+After the introductory sessions, the stage is yours.
 
-- What you can do to avoid errors:
+- You have six weeks to complete the project
+- Remember: We are here to support you! 
+- To discuss your plans, current challenges, and next steps, schedule a hacking-session:
 
-    - Use supported environments, such as GitHub Codespaces or Ubuntu
-    - Avoid cutting-edge versions (of operating systems and Python)
-    - Report errors
+<br>
 
-![bg right:37% width:550px](../assets/sources-of-errors.png)
+<div style="text-align: center;">
+  <a href="https://calendly.com/gerit-wagner/30min" 
+     style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;" 
+     target="_blank">
+    Schedule a meeting
+  </a>
+</div>
 
----
+<br><br>
 
-# Work status: Environment setup
+🚀 **Let's build something great together!**
 
-Are you confident with your setup, including the fork, local development, running your code, executing pre-commit hooks to improve code quality?
+![bg right:50% width:500px](../assets/mimi-thian--VHQ0cw2euA-unsplash.jpg)
 
-Summarize the work status per group:
-
-- What are the challenges we can discuss?
-- What was particularly helpful? Are there any insights you can share with the other teams?
-
----
-
-# Which branching / merging strategy should we select?
-
-Recommended branch setup in your fork:
-
-1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
-2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
-3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#33), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
-
-<!-- Note: the branching strategy is part of the best-practice session because it is useful when students have already thought about how to organize tasks. In the Git session, it would be too early in the group formation process. -->
-
----
-
-When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
-
-- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
-- Once the branch is online, use merge commits
-
-Merging into a target branch, i.e., your shared feature branch:
-
-- Squash if you have worked on a single coherent task, which should be combined in a single commit
-- Rebase if you would like to preserve a simple linear history
-- Merge commit otherwise
-
----
-
-# Work status: How to contribute
-
-- Understanding of CoLRev
-
-    - **User workflow**: Start with the [video](https://colrev-environment.github.io/colrev/) and check ``gitk`` after each step
-    - **Architecture**: Starting point: [API chart and reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
-    - **Package development and SearchSources**: Starting point: [package development resources](https://colrev-environment.github.io/colrev/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html)
-
-- As a team, do you know where and how to contribute your code, i.e., the modules, classes to use or create?
-
----
-
-# Work status: How to organize tasks
-
-- How did you distribute tasks in the team?
-- Who works on what, which branches did you create, does regular sync work for you?
-
----
-
-# Best practices
-
-- Follow the [branching strategy](https://digital-work-lab.github.io/open-source-project/output/02-git.html#25)
-- [Search](https://github.com/search), [read](https://www.turing.com/kb/start-reading-code-the-right-way) and understand your code and the code in related projects
-- Check and fix code quality regularly (at least: before creating a commit):
-
-```
-pre-commit run --all
-```
-
-- Carefully select changes (`git add -p`) and review changes before creating a commit
-- Commit often
-- Synchronize regularly in your fork and with `remotes/upstream`
-
----
-
-# Open questions?
-
-Raise them directly or add them below (anonymously):
-
-<iframe src="https://rustpad.io/#GCUiny" width="100%" height="400px" style="border:none;"></iframe>
+> In the last semesters, each group scheduled 3-5 hacking sessions.
 
 ---
 
