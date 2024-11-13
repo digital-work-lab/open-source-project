@@ -101,7 +101,7 @@ You **assign yourself to a group** when you contribute code, following these ste
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 5 people** will be accepted per group.
 3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team member's contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
-This process ensures that **all group members make a fair contribution**. It is at our discretion to adapt the rules if necessary. It is your responsibility to bring up concerns early.
+This process ensures that **all group members contribute fairly**, as typically, **a single grade is given for the entire group**. However, if issues arise, it's essential to raise concerns early. We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
 
 > \* You can only contribute to a group if you have signalled your intent in the issue discussion before.
 
