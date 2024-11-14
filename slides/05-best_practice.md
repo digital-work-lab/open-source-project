@@ -21,7 +21,7 @@ Our objectives for today are discuss and overcome current challenges related to:
 
 - [Technical setup](#technical-setup): Git, Codespaces, and local setup
 - [Programming](#programming): Python, Python packages, and CoLRev
-- [Teamwork](#teamwork): Task distribution, setup of branches in the fork, and roles in the team
+- [Teamwork](#teamwork): Task distribution, fork and branches, and roles in the team
 
 <!-- 
 - Discuss current challenges and how they can be addressed
@@ -31,6 +31,8 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 - Encourage you to share challenges, errors or lessons learned
 - Do not introduce new commands, except when you ask for them or when they are useful for your work
+
+![bg right:33% width:320px](../assets/puzzle.png)
 
 ---
 
