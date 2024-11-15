@@ -52,10 +52,9 @@ Sign up for our VC course: [![Course Registration](https://img.shields.io/badge/
 
 ## Goals
 
-- **Hands-on experience** as a contributor to a real open-source project.
+- **Hands-on experience** as a contributor and maintainer of a real open-source project.
+- **Python coding** with emphasis on Python **packages**, **code quality** and **continuous integration**.
 - **Collaborative teamwork** using modern open-source workflows through Git and GitHub.
-- **Python coding** with emphasis on **code quality** and **continuous integration** tools.
-- **Contribute to real Python package** and complete a **code review** process.
 
 ## Outline
 
