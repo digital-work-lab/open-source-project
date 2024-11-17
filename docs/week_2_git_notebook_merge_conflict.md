@@ -11,7 +11,7 @@ has_toc: true
 [![Offered at: Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-the%20Digital%20Work%20Lab%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<img src="img/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="iconmonstr-certificate-6.svg">pedagogical foundations</a>.
+<img src="img/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
 
 We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_merge_conflicts.ipynb" target="_blank">suggestions</a> on this notebook!
 
