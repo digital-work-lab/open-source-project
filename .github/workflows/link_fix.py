@@ -7,6 +7,9 @@ import re
 # Regular expression to match markdown links that start with http and may or may not have a {...} block
 markdown_link_pattern = re.compile(r'(\[([^\]]+)\]\((http[^\)]+)\))(\{[^}]*\})?')
 
+# Regular expression to match HTML <a> tags with href attributes
+html_link_pattern = re.compile(r'(<a\s+[^>]*href="[^"]+"[^>]*>.*?</a>)')
+
 def append_target_blank_to_links(file_path):
     # Read the content of the file
     content = file_path.read_text(encoding='utf-8')
@@ -35,8 +38,17 @@ def append_target_blank_to_links(file_path):
             # If no {...} block exists, add one with target="_blank"
             return link + '{: target="_blank"}'
 
+    # Function to modify the HTML <a> tag and add target="_blank"
+    def add_target_blank_html(match):
+        tag = match.group(1)  # Full <a> tag
+        if 'target="_blank"' not in tag:
+            # Add target="_blank" to the <a> tag
+            return tag.replace('<a ', '<a target="_blank" ', 1)
+        return tag
+
     # Apply the function to all matches found in the file content
     updated_content = markdown_link_pattern.sub(add_target_blank, content)
+    updated_content = html_link_pattern.sub(add_target_blank_html, updated_content)
     
     # Write back the updated content if changes were made
     if updated_content != content:
