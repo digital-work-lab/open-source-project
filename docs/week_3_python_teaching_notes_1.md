@@ -12,7 +12,7 @@ search_exclude: true
 |---------------|-----------|-------------------------------------------|------------------------------------------------------------------|
 | 00:00         | 5         | [Group formation](#groups)                |                                                                  |
 | 00:05         | 30        | [Basic concepts](#python-basics)          |                                                                  |
-| 00:35         | 25        | Part 1: [Setup](#setup)                   | [notebook 1](week_3_python_notebook_1.html){: target="_blank"}   |
+| 00:35         | 25        | Part 1: [Setup](#setup)                   | notebook 1{: target="_blank"}   |
 | 01:00         | 30        | Part 2: [Data items](#data)               |                                                                  |
 | 01:30         | 15        | Break                                     |                                                                  |
 | 01:35         | 30        | Part 3: [External libraries](#libraries)  |                                                                  |

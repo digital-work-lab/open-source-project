@@ -13,14 +13,14 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 
 | **Week** | **Duration** | **Topic**        | **Preparation**                      | **Session Notes**                                          |
 |----------|--------------|------------------|--------------------------------------|------------------------------------------------------------|
-| 1        | 90 min       | Topics           | [Preparation](#topics)               | [Session notes](week_1_teaching_notes.html)                |
-| 2        | 180 min      | Git              | [Preparation](#git)                  | [Session notes](week_2_git_teaching_notes.html)            |
-| 3        | 180 min      | Python 1         | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes_1.html)       |
-| 3        | 180 min      | Python 2         | [Preparation](#python)               | [Session notes](week_3_python_teaching_notes_2.html)       |
+| 1        | 90 min       | Topics           | [Preparation](#topics)               | Session notes                |
+| 2        | 180 min      | Git              | [Preparation](#git)                  | Session notes            |
+| 3        | 180 min      | Python 1         | [Preparation](#python)               | Session notes       |
+| 3        | 180 min      | Python 2         | [Preparation](#python)               | Session notes       |
 | 4        | -            | Group-work       | -                                    |                                                            |
-| 5        | 90 min       | Best Practices   | [Preparation](#best-practices)       | [Session notes](week_5_best_practices_teaching_notes.html) |
+| 5        | 90 min       | Best Practices   | [Preparation](#best-practices)       | Session notes |
 | 6-11     | -            | Group-work       | -                                    |                                                            |
-| 12       | Flexible     | Code Review      | [Preparation](#code-review)          | [Session notes](week_12_code_review_teaching_notes.html)   |
+| 12       | Flexible     | Code Review      | [Preparation](#code-review)          | Session notes   |
 
 ## Preparation
 
@@ -120,5 +120,5 @@ After the session:
 
 After feedback was implemented by the students
 
-- [ ] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
+- [ ] Merge pull requests and add contributors (see merge-notes)
 - [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, link in the [improvement section](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback

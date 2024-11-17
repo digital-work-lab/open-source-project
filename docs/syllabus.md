@@ -9,7 +9,7 @@ nav_order: 1
 
 {: .feedback }
 "I liked the fact that we were able to work very freely and independently on our problem as a group, but that we were always able to make appointments with Prof. Wagner at very short notice if we had problems or questions. This gave me the impression that we were working we were working *with* the lecturer on the problem and finding the best solution rather than blindly choosing the first solution that came along. In my opinion, working independently on a complex problem is the most important skill that I improved with the help of the project."<br><br>
-"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life." \[[more](evaluations.html)\]
+"The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life." \[more\]
 
 ## Basic information
 
@@ -17,7 +17,7 @@ nav_order: 1
 - **Credits**: 6 ECTS (180h)
 - **Degree program**: Bachelor's in Information Systems, International Information Systems Management, and Applied Computer Science. Participation is also possible for degree programs such as Software Systems Science or Computing in the Humanities (Master's, module group A2) (after consultation with the examination board)
 - **Format**: In-person sessions at the beginning, followed by group work, and a code review session towards the end.
-- **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
+- **Dates, rooms, and tasks**: Listed on the Main page
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend participating in the project after the 3rd semester. The following courses are required: *Inf-Einf-B Einführung in die Informatik* or *DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software*, and *DSG-JaP-B Java Programmierung*.
 
@@ -54,7 +54,7 @@ I use the Calendly tool to schedule meetings. It gives you an up-to-date overvie
 
 ## Course outline
 
-The detailed course outline is available on the [main page](../index.html). We cover the following sessions and work tasks:
+The detailed course outline is available on the main page. We cover the following sessions and work tasks:
 
 **Week 1, Session 01: Organization and Topics**
 
@@ -117,7 +117,7 @@ The detailed course outline is available on the [main page](../index.html). We c
 
 Not required: ... -->
 
-Deliverables are summarized on the [main page](../index.html). Each deliverable is an opportunity to demonstrate your proficiency with Git, Python, and CoLRev.
+Deliverables are summarized on the main page. Each deliverable is an opportunity to demonstrate your proficiency with Git, Python, and CoLRev.
 
 <!-- 
 ## Student responsibilities
