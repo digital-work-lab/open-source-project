@@ -44,9 +44,9 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 ## Part 1: Work in a shared repository <a id="simple"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">In the first part, we will create a simple <b>shared repository</b> setup. Every team member will have access to the same repository, committing directly to <code>main</code>, or creating branches and pull-requests. We will not download the repository, but <a href="https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files">edit the files directly on GitHub</a> instead.</p>
+In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but (edit the files directly on GitHub)[https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files] instead.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: Select one <b>maintainer</b>, who creates a new remote repository on <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">GitHub</a> and <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects">invites</a> the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a <code>README.md</code> file, choosing a project name and creating a contributor section similar to the following:</p>
+**Task**: Select one **maintainer**, who creates a new remote repository on (GitHub)[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository] and (invites)[https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects] the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
 
 <h2 style="margin-bottom: 3px; font-family: monospace; font-size: 1em;">README.md</h2>
 
@@ -58,21 +58,21 @@ Form small groups of 3-5 students and solve the following tasks together.
   <p style="margin: 10px 0; color: black;">Anna Maintainer</p>
 </div>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: Next, each team member edits the <code>README.md</code> directly on GitHub (on the <b>main</b> branch), adding her/his name.</p>
+**Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main**branch), adding her/his name.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">After creating the <code>README.md</code>, the team decides to add more contents, working in parallel branches, and using pull-requests to discuss and integrate the changes.</p>
+After creating the `README.md`, the team decides to add more contents, working in parallel branches, and using pull-requests to discuss and integrate the changes.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task Contributor A</b>: Create a branch <code>license</code>, adding the <a href="https://choosealicense.com/licenses/mit/">MIT License</a> in a file named <code>LICENCSE</code>.</p>
+**Task Contributor A**: Create a branch `license`, adding the (MIT License)[https://choosealicense.com/licenses/mit/] in a file named `LICENCSE`.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task Contributor B</b>: Create a branch <code>contributing</code>, adding the <a href="https://github.com/CoLRev-Environment/colrev/blob/main/CONTRIBUTING.md">contributing guidelines</a> in a file named <code>CONTRIBUTING.md</code>.</p>
+**Task Contributor B**: Create a branch `contributing`, adding the (contributing guidelines)[https://github.com/CoLRev-Environment/colrev/blob/main/CONTRIBUTING.md] in a file named `CONTRIBUTING.md`.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task Contributor C</b>: Create a branch <code>code_of_conduct</code>, adding the <a href="https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> in a file named <code>CODE_OF_CONDUCT.md</code>.</p>
+**Task Contributor C**: Create a branch `code_of_conduct`, adding the (code of conduct)[https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md] in a file named `CODE_OF_CONDUCT.md`.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whether the changes are adequate and merge them using the rebase option.</p>
+Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whether the changes are adequate and merge them using the rebase option.
 
 ## Part 2: Work in a fork <a id="fork"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">In this part, we work with a fork of an existing project. The <a href="https://github.com/CoLRev-Environment/colrev">CoLRev</a> repository serves as the <b>upstream/origin</b>. Your group creates a <b>fork</b> and edits the data on Codespaces (or a local repository).</p>
+In this part, we work with a fork of an existing project. The (CoLRev)[https://github.com/CoLRev-Environment/colrev] repository serves as the **upstream/origin**. Your group creates a **fork**and edits the data on Codespaces (or a local repository).
 
 <img src="img/git-remote-fork.png" style="width: 500px;">
 
@@ -99,19 +99,19 @@ Form small groups of 3-5 students and solve the following tasks together.
   </tbody>
 </table>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 1: Maintainer Forks the Project</b>: The maintainer forks the <a href="https://github.com/CoLRev-Environment/colrev">CoLRev repository</a>, creating their own copy of the project. They invite contributors to collaborate on this fork.</p>
+**Step 1: Maintainer Forks the Project**: The maintainer forks the  (CoLRev repository)[https://github.com/CoLRev-Environment/colrev], creating their own copy of the project. They invite contributors to collaborate on this fork.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 2: Contributors Open the Project in Codespaces</b>: Contributors open the maintainer's forked repository in GitHub Codespaces. This action effectively clones the remote repository to a development environment. Contributors can now work on this forked version directly.</p>
+**Step 2: Contributors Open the Project in Codespaces**: Contributors open the maintainer's forked repository in GitHub Codespaces. This action effectively clones the remote repository to a development environment. Contributors can now work on this forked version directly.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 3: Implement Changes on Branches</b> Contributors create new branches in Codespaces to implement changes. Branching ensures that any new features or bug fixes are isolated from the main codebase until they are fully tested and reviewed.</p>
+**Step 3: Implement Changes on Branches**: Contributors create new branches in Codespaces to implement changes. Branching ensures that any new features or bug fixes are isolated from the main codebase until they are fully tested and reviewed.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 4: Push Changes and Open a Pull Request</b>: Once changes are implemented, contributors push their branch to the remote repository (the fork). After pushing, contributors open a pull request (PR) to propose that the maintainer review and merge their changes into the fork's main branch.</p>
+**Step 4: Push Changes and Open a Pull Request**: Once changes are implemented, contributors push their branch to the remote repository (the fork). After pushing, contributors open a pull request (PR) to propose that the maintainer review and merge their changes into the fork's main branch.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 5: Maintainer Merges Changes to the Fork</b>: The maintainer reviews the pull requests, and if everything looks good, merges the changes into the forked repository's main branch. The fork is now updated with the new contributions.</p>
+**Step 5: Maintainer Merges Changes to the Fork**: The maintainer reviews the pull requests, and if everything looks good, merges the changes into the forked repository's main branch. The fork is now updated with the new contributions.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 6: Synchronize Codespaces with the Main Branch</b>: After the maintainer merges changes, contributors need to sync their Codespace environment with the latest version of the fork's main branch. This ensures that they are working with the most up-to-date version of the project.</p>
+**Step 6: Synchronize Codespaces with the Main Branch**: After the maintainer merges changes, contributors need to sync their Codespace environment with the latest version of the fork's main branch. This ensures that they are working with the most up-to-date version of the project.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Step 7: Maintainer Opens Pull Request to Original Repository</b>: Once the fork has accumulated significant changes, the maintainer opens a pull request from the fork to the original <a href="https://github.com/CoLRev-Environment/colrev">CoLRev repository</a>, proposing that the updates in the fork be integrated into the main project. After review, the pull request is either merged or closed.
+**Step 7: Maintainer Opens Pull Request to Original Repository**: Once the fork has accumulated significant changes, the maintainer opens a pull request from the fork to the original (CoLRev repository)[https://github.com/CoLRev-Environment/colrev ], proposing that the updates in the fork be integrated into the main project. After review, the pull request is either merged or closed.
 
 <!--
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: fit-content;  width: 800px;">

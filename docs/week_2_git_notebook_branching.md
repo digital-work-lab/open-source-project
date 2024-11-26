@@ -41,18 +41,18 @@ With this notebook, you can practice branching in Git.
 
 ## Part 1: Commit, branch, merge, rebase <a id="basics"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We have covered <code>git commit</code>, as well as <code>git branch</code>, <code>git switch</code>, and <code>git merge</code> operations in the lecture.</p>
+We have covered `git commit`, as well as `git branch`, `git switch`, and `git merge` operations in the lecture.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the <a href="https://learngitbranching.js.org/?locale=en_EN">learngitbranching</a> tutorial.</p>
+**Task**: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the (learngitbranching) [https://learngitbranching.js.org/?locale=en_EN] tutorial.
 
 Hints:
 
 - You can always type `undo` to undo the last command
 - You can run `git commit` without specifying a commit message.
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The following commands produce this particular graph:</p>
+The following commands produce this particular graph:
 
 ```text
 1:
@@ -77,7 +77,6 @@ git checkout bugFix
 git rebase main
 
 ```
-</details>
 
 
 <!--
@@ -90,9 +89,9 @@ IFrame('https://learngitbranching.js.org/', width=1400, height=800)
 
 ### Optional Challenge
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">If you have completed Part 1 quickly, you may continue practicing with the following challenge.</p>
+If you have completed Part 1 quickly, you may continue practicing with the following challenge.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: To continue practicing, create the following tree, which resembles a typical setup of git branches. To do this, you can open <a href="https://learngitbranching.js.org/?locale=en_EN">learngitbranching</a> in a separate window.</p>
+**Task**: To continue practicing, create the following tree, which resembles a typical setup of git branches. To do this, you can open (learngitbranching)[https://learngitbranching.js.org/?locale=en_EN] in a separate window.
 
 <img src="img/git-branches.png" style="width: 600px;" alt="Git branches"/>
 
@@ -100,9 +99,9 @@ IFrame('https://learngitbranching.js.org/', width=1400, height=800)
 
 <br>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The following commands produce this particular graph:</p>
+The following commands produce this particular graph:
 
 ```text
 git commit
@@ -126,12 +125,11 @@ git checkout main
 git merge dev
 
 ```
-</details>
 
 
 ## Part 2: Branching strategies <a id="branch"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Analyze the Git graph with the different branches. Explain what happens as the project progresses.</p>
+Analyze the Git graph with the different branches. Explain what happens as the project progresses.
 
 <!--
 - Branching strategies (have students examine repositories with different branching strategies)
@@ -142,33 +140,33 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 <div style="clear:both;"></div>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Solution</b></p>
+**Solution**</b></p>**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- The project has two parallel branches: <b>main</b> and <b>develop</b>. <b>main</b> has stable releases and urgent hotfixes (e.g., to fix bugs).</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- The <b>development</b> branch contains the development activity, more complex tasks are completed in separate <b>feature branches</b> (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the development branch.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- To release new versions, the developers create a branch from <b>develop</b>, do some pre-release work, and eventually merge it into main.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- This setup ensures that the main branch is stable and not affected by untested code.</p>
+- The project has two parallel branches: **main** and **develop**. **main** has stable releases and urgent hotfixes (e.g., to fix bugs).
+- The **development** branch contains the development activity, more complex tasks are completed in separate **feature branches** (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the development branch.
+- To release new versions, the developers create a branch from **develop**, do some pre-release work, and eventually merge it into main.
+- This setup ensures that the main branch is stable and not affected by untested code.
 
 </details>
 
 ## Part 3: Merge methods <a id="merge"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In this part, we focus on different methods to integrate changes from one branch into another (aka. "merge methods").</p>
+In this part, we focus on different methods to integrate changes from one branch into another (aka. "merge methods").
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">When running <code>git merge other-branch</code>, there are two options:</p>
+When running `git merge other-branch`, there are two options:
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- If two branches have <b>not diverged</b>, Git will perform a <b>fast-forward merge</b>:</p>
+- If two branches have <b>not diverged</b>, Git will perform a <b>fast-forward merge</b>:
 
 <img src="img/fast-forward-merge.gif" width="800px">
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- A more common case is when two branches have <b>diverged</b>, i.e., each branch has commits that the other branch does not have. In this case, Git will create a merge commit:</p>
+- A more common case is when two branches have **diverged**, i.e., each branch has commits that the other branch does not have. In this case, Git will create a merge commit:
 
 <img src="img/merge-commit.gif" width="800px">
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In addition to git merge, users also have the option to <b>rebase</b> changes.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">This preserves a <b>linear</b> version history* in the target branch instead of cluttering it with an array of merge commits:</p>
+In addition to git merge, users also have the option to **rebase**changes.
+This preserves a **linear** version history* in the target branch instead of cluttering it with an array of merge commits:
 
 <!-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing -->
 
@@ -182,9 +180,9 @@ Note: GitHub offers these options to merge pull requests:
 <img src="img/github-pull-request.png" width="800px">
 -->
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">There is another option: to <b>squash</b> changes from another branch. This effectively combines all changes from the other branch in a single commit, which is added on top of the target branch.</p>
+There is another option: to **squash** changes from another branch. This effectively combines all changes from the other branch in a single commit, which is added on top of the target branch.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We will now practice the different methods in a real Git repository.</p>
+We will now practice the different methods in a real Git repository.
 
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:800px;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
@@ -192,7 +190,7 @@ Note: GitHub offers these options to merge pull requests:
     <img src="img/codespace-shell.png" width="800"/>
 </div>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Clone the CoLRev repository and set up the <code>quality_model_docs</code> branch, using the following commands.</p>
+**Task**: Clone the CoLRev repository and set up the `quality_model_docs` branch, using the following commands.
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: 800px;">
     <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
@@ -204,9 +202,9 @@ cd /workspaces && git clone https://github.com/CoLRev-Environment/colrev
 code -a /workspaces/colrev
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">After the restart of your Codespace, complete the setup.</p>
+After the restart of your Codespace, complete the setup.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The <b>colrev</b> repository should now be displayed in the Explorer (on the left).</p>
+The **colrev** repository should now be displayed in the Explorer (on the left).
 
 
 ```python
@@ -217,11 +215,11 @@ git switch -c quality_model_docs
 git remote remove origin
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Go through the following options, and run the commands. Take notes on the Git graph, i.e., the structure and IDs of commits, by completing the three Git graphs (you can open the page as a <a href="img/overview-task.pdf">PDF</a>):</p>
+**Task**: Go through the following options, and run the commands. Take notes on the Git graph, i.e., the structure and IDs of commits, by completing the three Git graphs (you can open the page as a <a href="img/overview-task.pdf">PDF</a>):
 
 <img src="img/overview-task.png" width="800"/>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To analyze the specific changes, open the Git GUI:</p>
+To analyze the specific changes, open the Git GUI:
 
 <img src="img/codespace-git-viewer-rebase.png" width="800"/>
 
@@ -234,7 +232,7 @@ git reset --hard  6f4299bdb0551c680a97dbe04b39dee51bcd0556
 git merge quality_model_docs
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Wait until the Git viewer is refreshed to display the merge commit and extract the commit SHAs.</p>
+Wait until the Git viewer is refreshed to display the merge commit and extract the commit SHAs.
 
 ### Option 2: Rebase
 
@@ -258,52 +256,47 @@ git merge --squash quality_model_docs
 git commit -n -m 'update docs for quality_model'
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Compare the three Git graphs and the commit IDs. What are the differences between the three methods in terms of the contents of commits and their metadata?</p>
+**Task**: Compare the three Git graphs and the commit IDs. What are the differences between the three methods in terms of the contents of commits and their metadata?
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+<details>**Check:**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Solution</b></p>
+**Solution**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- In method 1 (merge commit), there is one merge commit with two predecessors.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- In method 3 (squash), all changes from the original quality branch are combined in a single commit, which is added on top of the main branch.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- The contents of the last commit are identical across all three methods.</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">- Each of the new commits has your account as the author, and the current date.</p>
+- In method 1 (merge commit), there is one merge commit with two predecessors.
+- In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.
+- In method 3 (squash), all changes from the original quality branch are combined in a single commit, which is added on top of the main branch.
+- The contents of the last commit are identical across all three methods.
+- Each of the new commits has your account as the author, and the current date.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Note: All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.</p>
+**Note**: All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
 
 <img src="img/overview-task_solution.png" width="800"/>
 
 </details>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Question</b>: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?</p>
+**Question**: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+<details>**Check:**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Answer</b></p>
+**Answer**
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The commit object always contains the commit author and date. If they are different, Git generates a different commit SHA from the content and metadata.</p>
+The commit object always contains the commit author and date. If they are different, Git generates a different commit SHA from the content and metadata.
 
 </details>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Note</b>: You can use the merge methods in a Codespace environment (as you just did), in a local Git repository, and even online on GitHub:</p>
+**Note**: You can use the merge methods in a Codespace environment (as you just did), in a local Git repository, and even online on GitHub:
 
 <img src="img/pull-request-options.png" width="800"/>
 
 ## Wrap-up  <a id="wrap-up"></a>
 
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
+🎉🎈 You have completed the Git branching notebook - good work! 🎈🎉
+
+In this notebook, we have learned
+
+- To create a given Git graph using the `git commit`, `git branch`, `git switch`, and `git merge` commands
+- To explain typical branching strategies
+- The differences between merge commits, rebases, and squashed merges
 
 
-<p>🎉🎈 You have completed the Git branching notebook - good work! 🎈🎉</p>
-
-<p>In this notebook, we have learned</p>
-
-<ul>
-<li>To create a given Git graph using the <code>git commit</code>, <code>git branch</code>, <code>git switch</code>, and <code>git merge</code> commands</li>
-<li>To explain typical branching strategies</li>
-<li>The differences between merge commits, rebases, and squashed merges</li>
-</ul>
-
-</div>
 

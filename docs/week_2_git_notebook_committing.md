@@ -50,7 +50,7 @@ With this notebook, you can practice committing changes in Git.
 
 ## Part 1: Clone the repository <a id="clone"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In this part, we work with an existing project. To download the example, run the following commands:</p>
+In this part, we work with an existing project. To download the example, run the following commands:
 
 
 ```python
@@ -60,7 +60,7 @@ git clone https://github.com/CoLRev-Environment/colrev
 
 <details><summary {style='color:green;font-weight:bold'}>Check</summary>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The clone command should print something like the following (the number of objects may differ):</p>
+The clone command should print something like the following (the number of objects may differ):
 
 ```python
 
@@ -73,9 +73,9 @@ Resolving deltas: 100% (18519/18519), done.
 ```
 </details>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and to check the status.</p>
+The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and to check the status.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Note</b>: To create an empty git project, you would run <code>git init</code>.</p>
+**Note**: To create an empty git project, you would run `git init`.
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:800px;">
     <strong>Info</strong> The code -a ... command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
@@ -88,9 +88,9 @@ code -a /workspaces/colrev
 
 <img src="img/codespace-reopen.png" width="820px"/>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The status command provides an overview of the current state of the project and the files in the three sections. Therefore, you will need to run <code>git status</code> regularly.</p>
+The status command provides an overview of the current state of the project and the files in the three sections. Therefore, you will need to run `git status` regularly.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Note</b>: The comments after the hashtag (#) are ignored.</p>
+**Note**: The comments after the hashtag (#) are ignored.
 
 
 ```python
@@ -120,9 +120,9 @@ nothing to commit, working tree clean
 
 ## Part 2: Create, stage, and commit changes <a id="commit"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Next, we modify files (state: <b>untracked</b>/<b>modified</b>), mark them to be in the next commit (state: <b>staged</b>) and create the first version (state: <b>committed</b>). This corresponds to the three sections of a Git project.</p>
+Next, we modify files (state: **untracked**/**modified**), mark them to be in the next commit (state: **staged**) and create the first version (state: **committed**). This corresponds to the three sections of a Git project.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Open the <code>README.md</code> file in the colrev repository (<code>shift</code> + double click to open in a separate tab) and add your name to the project citation (<code># Citing CoLRev</code> section).</p>
+**Task**: Open the `README.md` file in the colrev repository (`shift` + double click to open in a separate tab) and add your name to the project citation (`# Citing CoLRev`section).
 
 
 ```python
@@ -130,20 +130,17 @@ nothing to commit, working tree clean
 git status
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Open the <code>CONTRIBUTING.md</code> file and change it.</p>
+**Task**: Open the `CONTRIBUTING.md` file and change it.
 
+The `git status` should now show two files with changes in the working directory (state: **modified**)
 
+We decide that the changes in the `README.md` file should be **staged** for the next commit. The changes in the `CONTRIBUTING.md` file are no longer needed.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The <code>git status</code> should now show two files with changes in the working directory (state: <b>modified</b>)</p>
+**Task**: Use the commands suggested by `git status` to accomplish this.
 
+This means that changes in the README.md are **staged** (to be committed).
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide that the changes in the <code>README.md</code> file should be <b>staged</b> for the next commit. The changes in the <code>CONTRIBUTING.md</code> file are no longer needed.</p>
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Use the commands suggested by <code>git status</code> to accomplish this.</p>
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">This means that changes in the README.md are <b>staged</b> (to be committed).</p>
-
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 The `git status` should now display 
 
@@ -157,10 +154,7 @@ Changes to be committed:
 
 ```
 
-</details>
-
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To <b>commit</b> the changes, we run</p>
+To **commit** the changes, we run
 
 
 ```python
@@ -168,9 +162,9 @@ git commit -m 'add contributor'
 ```
 
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The <code>-m 'add contributor'</code> adds a short summary message, which is expected for every commit.</p>
+The `-m 'add contributor'` adds a short summary message, which is expected for every commit.
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 `git status` should reflect your expected state of files in the three Git sections.
 
@@ -178,24 +172,24 @@ git commit -m 'add contributor'
 
 ## Part 3: Undo committed changes <a id="undo"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To undo the last commit, we can simply run:</p>
+To undo the last commit, we can simply run:<
 
 
 ```python
 git reset --soft HEAD~1
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">You should now have the <code>README.md</code> file in the staging area again.</p>
+You should now have the `README.md` file in the staging area again.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Note</b>: the <code>HEAD~1</code> refers to the last commit.</p>
+**Note**: the `HEAD~1` refers to the last commit.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Run <code>git status</code> to see the changes.</p>
+**Task**: Run `git status` to see the changes.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We decide to discard our changes.</p>
+We decide to discard our changes.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Use the commands suggested by <code>git status</code> to do that.</p>
+**Task**: Use the commands suggested by `git status` to do that.
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 The `git status` should show the following:
 
@@ -204,7 +198,6 @@ On branch main
 nothing to commit, working tree clean
 ```
 
-</details>
 
 To analyze the specific changes, open the Git GUI:
 
@@ -212,15 +205,14 @@ To analyze the specific changes, open the Git GUI:
 
 ## Part 4: Create atomic commits <a id="atomic"></a>
 
+It is good practice to create **atomic commits**, i.e., small changes that belong together. One should avoid large commits that modify many unrelated parts of the code base and pursue different objectives.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">It is good practice to create <b>atomic commits</b>, i.e., small changes that belong together. One should avoid large commits that modify many unrelated parts of the code base and pursue different objectives.</p>
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Analyze the following commits and discuss which ones are atomic and which ones combine changes that do not belong together (i.e., should be in separate commits).</p>
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Also check the commit message (short summary at the beginning). Does the message clearly summarize the changes?</p>
+Analyze the following commits and discuss which ones are atomic and which ones combine changes that do not belong together (i.e., should be in separate commits).
+Also check the commit message (short summary at the beginning). Does the message clearly summarize the changes?
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/a0c9043784f9342136d2ab214513688769669199" target="_blank">Commit 1</a>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 **Solution**: Atomic commit, ok.
 
@@ -228,7 +220,7 @@ To analyze the specific changes, open the Git GUI:
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/5288e92083b6df546d7c8fd590df3e968a909114" target="_blank">Commit 2</a>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 **Solution**: Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
 
@@ -236,7 +228,7 @@ To analyze the specific changes, open the Git GUI:
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/ba08d4242f48ec96b4fa8cfd053ee3781e32231f" target="_blank">Commit 3</a>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 **Solution**: Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
 
@@ -244,7 +236,7 @@ To analyze the specific changes, open the Git GUI:
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/ce9850f805a140692866970c92557833e6befa0b" target="_blank">Commit 4</a>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 **Solution**: Many files changed, but the changes belong together. ok.
 
@@ -252,20 +244,19 @@ To analyze the specific changes, open the Git GUI:
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/93fc7e851d2ba3fc95cc3190b6b71dc4a907c96b" target="_blank">Commit 5</a>
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+**Check:**
 
 **Solution**: Atomic commit, ok.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">It is ok to combine functionality, tests, and docs that belong together in one commit!</p>
+It is ok to combine functionality, tests, and docs that belong together in one commit!
 
 </details>
 
-
 **Optional**: If you have the time, you may check the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/){: target="_blank"} specification.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To create atomic commits, you may need to <b>add specific lines of code that should go into a commit</b>, leaving other changes in the working directory.</p>
+To create atomic commits, you may need to **add specific lines of code that should go into a commit**, leaving other changes in the working directory.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The changes are provided in the <code>rec_dict.patch</code> file, which must be placed in the project's working directory. To apply it, run:</p>
+The changes are provided in the `rec_dict.patch` file, which must be placed in the project's working directory. To apply it, run:
 
 
 ```python
@@ -275,9 +266,9 @@ git apply /workspaces/practice-git/notebooks/rec_dict.patch
 git status
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Use the Git GUI to check the changes that were introduced by the patch.</p>
+**Task**: Use the Git GUI to check the changes that were introduced by the patch.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">In the following, we would like to add <b>only</b> the changes in lines related to the <code>load_records_dict</code> method and the <code>skip_notification</code> parameter (using <code>-p</code> for a partial <code>git add</code>):</p>
+In the following, we would like to add **only** the changes in lines related to the `load_records_dict` method and the `skip_notification` parameter (using `-p` for a partial `git add`):
 
 
 ```python
@@ -286,27 +277,25 @@ git status
 git add -p colrev/dataset.py
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><b>Task</b>: Check whether the correct lines were added! Create a commit containing the relevant changes. Afterwards, discard the remaining changes.</p>
+**Task**: Check whether the correct lines were added! Create a commit containing the relevant changes. Afterwards, discard the remaining changes.
 
 ## Part 5: Undo changes (advanced) <a id="undo"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">To <b>undo committed changes</b>, there several options:</p>
+To **undo committed changes**, there several options:
 
 - Revert the commit, i.e., create a new commit to undo changes: `git revert COMMIT_SHA --no-edit`
 - Undo the commit and leave the changes in the staging area: `git reset --soft COMMIT_SHA` (*)
 - Stage changes, and run `git commit --amend` to modify the last commit (*)
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">If you have the time, try the different undo operations in the session.</p>
+If you have the time, try the different undo operations in the session.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.</p>
+(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:800px;">
     <strong>Info</strong> Once you have committed changes, Git takes takes care of the data and it is very hard to lose the data. Uncommitted data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
 </div>
 
 <br>
-
----
 
 ## Wrap-up  <a id="wrap-up"></a>
 
