@@ -45,13 +45,13 @@ With this notebook, you can practice merging and resolving merge conflicts.
     <img src="img/codespace-shell.png" width="800"/>
 </div>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">Git is highly efficient in creating branches and merging them. This is a useful property for software development projects in which programmers implement different features, fix bugs, and refactor the codebase. These changes are typically implemented in separate branches, which are not affected by coding activities in other parts of the codebase (other branches). When developers decide that the work from their branch should be integrated into a target branch (often the main branch), the <code>git merge other_branch_name</code> command starts the merge operation. In this operation, Git uses heuristics to determine whether the changes in both branches are compatible. When developers have changed unrelated parts of the codebase, the branches are merged automatically.</p>
+Git is highly efficient in creating branches and merging them. This is a useful property for software development projects in which programmers implement different features, fix bugs, and refactor the codebase. These changes are typically implemented in separate branches, which are not affected by coding activities in other parts of the codebase (other branches). When developers decide that the work from their branch should be integrated into a target branch (often the main branch), the `git merge other_branch_name` command starts the merge operation. In this operation, Git uses heuristics to determine whether the changes in both branches are compatible. When developers have changed unrelated parts of the codebase, the branches are merged automatically.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">However, if the branches introduce changes to the same parts of the codebase, there is no simple rule to decide which change is kept and which is discarded. In this case, Git creates a <b>merge conflict</b>, indicating that the user has to indicate which changes should be retained.</p>
+However, if the branches introduce changes to the same parts of the codebase, there is no simple rule to decide which change is kept and which is discarded. In this case, Git creates a **merge conflict**, indicating that the user has to indicate which changes should be retained.
 
 ## Part 1: Resolving a simple merge conflict <a id="simple"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">To create and resolve a merge conflict in a simple hello-world project, run the following commands in the (GitHub Codespace) shell below:</p>
+To create and resolve a merge conflict in a simple hello-world project, run the following commands in the (GitHub Codespace) shell below:
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: fit-content;  width: 800px;">
     <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
@@ -69,9 +69,9 @@ git commit -m 'first commit'
 code -a /workspaces/project
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">At this point, the Python script printing a "hello world" statement should be saved in the <code>app.py</code> file and included in the first commit.</p>
+At this point, the Python script printing a "hello world" statement should be saved in the `app.py` file and included in the first commit.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">We will proceed to create and resolve a merge conflict. Two developers will help us: Linda and Reynold. Each modifies the file to print something different. Let's start with Reynold.</p>
+We will proceed to create and resolve a merge conflict. Two developers will help us: Linda and Reynold. Each modifies the file to print something different. Let's start with Reynold.
 
 
 ```python
@@ -83,7 +83,7 @@ git add app.py
 git commit -m 'use a more accurate greeting'
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Next, let's see Linda's contribution.</p>
+Next, let's see Linda's contribution.
 
 
 ```python
@@ -93,14 +93,14 @@ git add app.py
 git commit -m 'include a nice greeting'
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Given that both have modified the same part of the codebase, we expect a merge conflict.</p>
+Given that both have modified the same part of the codebase, we expect a merge conflict.
 
 
 ```python
 git merge bugfix
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Git should now print the following:</p>
+Git should now print the following:
 
 ```bash
 Auto-merging app.py
@@ -108,15 +108,15 @@ CONFLICT (add/add): Merge conflict in app.py
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">To analyze and resolve the conflict, open the <code>app.py</code> file (VisualStudio highlights files with merge conflicts in red). It should highlight the conflicting part as follows:</p>
+To analyze and resolve the conflict, open the `app.py` file (VisualStudio highlights files with merge conflicts in red). It should highlight the conflicting part as follows:
 
 ![Conflict](img/conflict.png)
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Note that there are two areas between the <code><<<<<</code>, the <code>=====</code> and the <code>>>>>>>></code> (the conflict markers).</p>
+Note that there are two areas between the `<<<<<<`, the `=====` and the `>>>>>>>` (the conflict markers).
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">The first section shows the content on your current branch (selected by <code>HEAD</code>). The second section shows the content from the other branch (in this case, <code>bugfix</code>).</p>
+The first section shows the content on your current branch (selected by `HEAD`). The second section shows the content from the other branch (in this case, `bugfix`).
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: To resolve the conflict, select the code parts that should be retained. Remove the surrounding conflict markers. Once completed, complete the merge.</p>
+**Task**: To resolve the conflict, select the code parts that should be retained. Remove the surrounding conflict markers. Once completed, complete the merge.
 
 
 ```python
@@ -124,15 +124,15 @@ git add app.py
 git commit
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">To complete the commit, simply close the commit message.</p>
+To complete the commit, simply close the commit message.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Check the Git history and verify whether the merge commit was created.</p>
+Check the Git history and verify whether the merge commit was created.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">🎉🎈 With these commands, you have solved the first merge conflict! 🎈🎉</p>
+🎉🎈 With these commands, you have solved the first merge conflict! 🎈🎉
 
 ## Part 2: Resolving a more realistic merge conflict  <a id="realistic"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">For this task, we focus on a project where Lisa and Ted work on a Python module for a command-line application. Lisa works on a separate branch and changes <code>print()</code> statements to <code>logging.info()</code>. In parallel, Ted introduces changes to the <code>COLORS</code> variable on main. Both changes affect the same module and even the same lines of code. Let's see how the conflict unfolds and how we can resolve it.</p>
+For this task, we focus on a project where Lisa and Ted work on a Python module for a command-line application. Lisa works on a separate branch and changes `print()`statements to `logging.info()`. In parallel, Ted introduces changes to the `COLORS` variable on main. Both changes affect the same module and even the same lines of code. Let's see how the conflict unfolds and how we can resolve it.
 
 
 ```python
@@ -169,16 +169,11 @@ git apply /workspaces/practice-git/notebooks/replace-color-import.patch
 ```
 
 **Tasks**:
-
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
  
-<ul>
-<li>Analyze the changes using the Git GUI</li>
-<li>Commit the changes</li>
-<li>Merge the logger branch and resolve the conflict, making sure that the changes of Lisa and Ted are retained correctly</li>
-</ul>
+- Analyze the changes using the Git GUI
+- Commit the changes
+- Merge the logger branch and resolve the conflict, making sure that the changes of Lisa and Ted are retained correctly
 
-</div>
 
 
 ```python
@@ -188,7 +183,7 @@ git status
 # Once resolved, create a merge commit as advised in the git status
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">To validate your solution, run the following command to retrieve our solution:</p>
+To validate your solution, run the following command to retrieve our solution:
 
 
 ```python
@@ -196,27 +191,22 @@ cp -f /workspaces/practice-git/cli.py colrev/ui_cli/cli.py
 git status
 ```
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Note: for simplicity, we worked in the same repository. But the merge conflict would be identical if the branches were shared in a remote repository. In fact, if GitHub encounters a merge conflict, it suggests that users download the branches and resolve the merge conflict locally (like we just did).</p>
+Note: for simplicity, we worked in the same repository. But the merge conflict would be identical if the branches were shared in a remote repository. In fact, if GitHub encounters a merge conflict, it suggests that users download the branches and resolve the merge conflict locally (like we just did).
 
 ## Part 3: Understand how to prevent merge conflicts <a id="prevent"></a>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">Although merge conflicts are not necessarily a bad thing, it is recommended to avoid complex merge conflicts. To achieve this, different strategies can be combined:</p>
+Although merge conflicts are not necessarily a bad thing, it is recommended to avoid complex merge conflicts. To achieve this, different strategies can be combined:
 
-<div style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">
- 
-<ul>
-<li>Understand whether changes are likely to create merge conflicts</li>
-<li>Communicate with other contributors to understand who is working on which parts of the codebase or read the codebase if there is no personal contact with the other developers</li>
-<li>Avoid problematic changes, such as code formatting and restructuring that affects the whole codebase. Coordinate development if they are necessary.</li>
-<li>Avoid long-running branches by merging often</li>
-<li>Create atomic commits</li>
-</ul>
 
-</div>
+- Understand whether changes are likely to create merge conflicts
+- Communicate with other contributors to understand who is working on which parts of the codebase or read the codebase if there is no personal contact with the other developers
+- Avoid problematic changes, such as code formatting and restructuring that affects the whole codebase. Coordinate development if they are necessary.
+- Avoid long-running branches by merging often
+- Create atomic commits
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;">When learning Git, this is surprising for many: A branch gives you a completely independent version of the codebase, allowing you to test changes and "do your thing". But to use branches in the most effective way possible, you have to anticipate how your changes will integrate with the work of others.</p>
+When learning Git, this is surprising for many: A branch gives you a completely independent version of the codebase, allowing you to test changes and "do your thing". But to use branches in the most effective way possible, you have to anticipate how your changes will integrate with the work of others.
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify; width: 800px;"><b>Task</b>: To understand whether commits are likely to create merge conflicts, examine the following commits:</p>
+**Task**: To understand whether commits are likely to create merge conflicts, examine the following commits:
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/108d278e" target="_blank">Commit 1</a>
 
