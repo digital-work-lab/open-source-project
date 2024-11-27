@@ -10,7 +10,9 @@ paginate: true
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project with Git and Python
+# WI-Project: Open-Source Project
+
+## Topics
 
 Prof. Dr. Gerit Wagner
 Fakultät Wirtschaftsinformatik und Angewandte Informatik

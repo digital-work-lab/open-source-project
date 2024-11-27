@@ -6,11 +6,19 @@ theme: ub-theme
 paginate: true
 ---
 
-<!-- _class: lead -->
+<!-- paginate: true -->
 
 <!-- _class: centered -->
 
-# Project: Introduction to Python (1)
+## Project: Introduction to Python (1)
+
+## Topics
+
+Prof. Dr. Gerit Wagner
+Fakultät Wirtschaftsinformatik und Angewandte Informatik
+Otto-Friedrich-Universität Bamberg
+
+![center width:150px](../assets/qr-open-source-project.png)
 
 ---
 

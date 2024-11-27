@@ -6,11 +6,19 @@ theme: ub-theme
 paginate: true
 ---
 
+<!-- paginate: true -->
+
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Development
+# WI-Project: Open-Source Project
 
 ## The Review Session
+
+Prof. Dr. Gerit Wagner
+Fakultät Wirtschaftsinformatik und Angewandte Informatik
+Otto-Friedrich-Universität Bamberg
+
+![center width:150px](../assets/qr-open-source-project.png)
 
 ---
 <!-- paginate: true -->

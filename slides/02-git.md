@@ -5,11 +5,19 @@ theme: ub-theme
 paginate: true
 ---
 
-<!-- _class: lead -->
+<!-- paginate: true -->
 
 <!-- _class: centered -->
 
-# Introduction to Git
+# WI-Project: Open-Source Project
+
+## Introduction to Git
+
+Prof. Dr. Gerit Wagner
+Fakultät Wirtschaftsinformatik und Angewandte Informatik
+Otto-Friedrich-Universität Bamberg
+
+![center width:150px](../assets/qr-open-source-project.png)
 
 ---
 
