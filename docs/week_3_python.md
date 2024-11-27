@@ -25,9 +25,9 @@ If you have any questions during or after the sessions, we're here to assist. We
 | **Materials**       | **Link**                                                                                                  |
 |----------------------|---------------------------------------------------------------------------------------------------------|
 | Slides session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"} |
-| Notebook session 1   | [![Open Notebook in Codespaces](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
+| Notebook session 1   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
 | Python session 2     | [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"} |
-| Notebook session 2   | [![Open Notebook in Codespaces](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_2.html) |
+| Notebook session 2   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_2.html) |
 
 <!-- 
  [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
