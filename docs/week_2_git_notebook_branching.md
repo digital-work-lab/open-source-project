@@ -276,9 +276,9 @@ git commit -n -m 'update docs for quality_model'
 
 **Question**: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?
 
-<details>**Check:**
+<details><b>Check:</b>
 
-**Answer**
+<b>Answer</b>
 
 The commit object always contains the commit author and date. If they are different, Git generates a different commit SHA from the content and metadata.
 
