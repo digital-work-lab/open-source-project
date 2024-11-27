@@ -44,11 +44,9 @@ Otto-Friedrich-Universität Bamberg
 
 # Start the Codespace
 
-Open the[ notebook for practicing Python](https://digital-work-lab.github.io/open-source-project/docs/week_3_python_notebook_1.html).
+Open the Notebook: [![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_3_python_notebook_1.html)
 
 Start the Codespace in the `tutorial_python` branch of the CoLRev upstream repository.
-
-<!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-python) -->
 
 The setup can run in the background, while we focus on the concepts.
 

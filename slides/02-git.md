@@ -84,9 +84,7 @@ In the practice sessions:
 
 Open the notebook for practicing Git branching:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
-
-The setup can run in the background, while we focus on the concepts.
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_branching.html)
 
 ---
 
@@ -144,11 +142,7 @@ blockquote {
 
 Open the notebook for practicing Git branching:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
-
-<br>
-
-![width:600px center](../assets/codespaces_startup_screenshot.png)
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_branching.html)
 
 ---
 
@@ -204,7 +198,7 @@ To undo changes that are not yet committed, it is important to understand whethe
 
 Open the notebook for practicing Git committing:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_committing.html)
 
 ---
 
@@ -234,7 +228,7 @@ Illustrate on the whiteboard : new/alternative commit with the same parent, all 
 
 Open the notebook for practicing the resolution of Git merge conflicts (related to branching and committing):
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_merge_conflict.html)
 
 ---
 
@@ -339,7 +333,7 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 
 # Practice: Collaborating
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=digital-work-lab/practice-git)
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_collaboration.html)
 
 ---
 
