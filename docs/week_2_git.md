@@ -7,7 +7,11 @@ nav_order: 3
 
 # Week 2: Introduction to Git
 
-Learning Git, especially branching, committing, and collaborating, is essential for effective group work when contributing to the CoLRev Python package. Git enables multiple contributors to work on different parts of the project simultaneously through branching, allowing for experimentation without affecting the main codebase. By committing regularly, team members maintain a history of their changes, making it easier to track progress and revert mistakes. Collaboration features, like pull requests and merging, streamline the process of integrating code from different contributors while minimizing conflicts. Mastering these Git skills ensures smooth, organized teamwork and enhances the quality of contributions to the CoLRev package.
+Learning Git, especially branching, committing, and collaborating, is essential for effective group work when contributing to the CoLRev Python package.
+Git enables multiple contributors to work on different parts of the project simultaneously through branching, allowing for experimentation without affecting the main codebase.
+By committing regularly, team members maintain a history of their changes, making it easier to track progress and revert mistakes.
+Collaboration features, like pull requests and merging, streamline the process of integrating code from different contributors while minimizing conflicts.
+Mastering these Git skills ensures smooth, organized teamwork and enhances the quality of contributions to the CoLRev package.
 
 {: .objective }
 In this session, our goal is to understand how to use Git to develop software in teams by covering the areas of branching, committing, and collaborating.
@@ -15,7 +19,10 @@ In this session, our goal is to understand how to use Git to develop software in
 | **Material** | **Links** |
 | ------------ | --------- |
 | Slides | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/02-git.pdf){: target="_blank"} |
-| Notebook | [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-git){: target="_blank"} |
+| Notebook: Git Branching   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_2_git_notebook_branching.html) |
+| Notebook: Git Committing   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_2_git_notebook_committing.html) |
+| Notebook: Git Collaborating   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_2_git_notebook_collaboration.html) |
+| Notebook: Git Merge Conflicts   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_2_git_notebook_merge_conflict.html) |
 
 <!-- 
 
