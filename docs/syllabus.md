@@ -124,8 +124,8 @@ Deliverables are summarized on the [main page](../index.html). Each deliverable 
 
 possibly a “how to succeed” section
 
-- Embrace the challenge and adopt a problem solving mindset
-- Take full responsibility to set up your programming environment
+- Embrace the challenge and adopt a problem-solving mindset
+- Take full responsibility for setting up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT because you would risk copyright infringement
 - Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
@@ -138,15 +138,33 @@ possibly a “how to succeed” section
 
 - **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package. This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance. Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
 
-- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued. We create a positive learning atmosphere, encouraging questions and contributions from everyone. We encourage diversity and actively work to ensure that every student has equal opportunities to succeed and contribute.
+- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued. We create a positive learning atmosphere, encouraging questions and contributions from everyone. We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
 
-- **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently. This ensures that students are aware of how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts. In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
+- **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently. This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts. In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
 
 <!-- - link to pedagogical foundations -->
 
 ## Materials
 
-- Slides and notebooks are available on the sub-pages.
+- Slides:
+
+  - [Topics]({{ site.baseurl }}/output/01-topics.html)
+  - [Git]({{ site.baseurl }}/output/02-git.html)
+  - [Python 1]({{ site.baseurl }}/output/03-python_1.html)
+  - [Python 2]({{ site.baseurl }}/output/04-python_2.html)
+  - [Best Practices]({{ site.baseurl }}/output/05-best_practice.html)
+  - [Code Review]({{ site.baseurl }}/output/06-code_review.html)
+
+- Notebooks:
+
+  - [Git Branching]({{ site.baseurl }}/docs/week_2_git_notebook_branching.html)
+  - [Git Committing]({{ site.baseurl }}/docs/week_2_git_notebook_committing.html}
+  - [Git Collaborating]({{ site.baseurl }}/docs/week_2_git_notebook_collaboration.html}
+  - [Git Merge Conflicts]({{ site.baseurl }}/docs/week_2_git_notebook_merge_conflict.html}
+
+  - [Python 1]({{ site.baseurl }}/docs/week_3_python_notebook_1.html}
+  - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html}
+
 - Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/){: target="_blank"}, in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html){: target="_blank"} pages.
 
 ## References
