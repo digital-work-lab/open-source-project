@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Best-practice session'
+header: 'Open-Source Project: Best-practice session'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true

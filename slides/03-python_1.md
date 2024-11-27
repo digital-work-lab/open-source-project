@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Introduction to Python'
+header: 'Open-Source Project: Introduction to Python'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
@@ -10,9 +10,9 @@ paginate: true
 
 <!-- _class: centered -->
 
-## Project: Introduction to Python (1)
+# WI-Project: Open-Source Project
 
-## Topics
+## Introduction to Python (1)
 
 Prof. Dr. Gerit Wagner
 Fakultät Wirtschaftsinformatik und Angewandte Informatik

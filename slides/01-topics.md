@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project'
+header: 'Open-Source Project: Topics'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true

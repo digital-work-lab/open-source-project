@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Introduction to Git'
+header: 'Open-Source Project: Introduction to Git'
 theme: ub-theme
 paginate: true
 ---
