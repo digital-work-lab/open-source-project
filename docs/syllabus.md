@@ -158,12 +158,12 @@ possibly a “how to succeed” section
 - Notebooks:
 
   - [Git Branching]({{ site.baseurl }}/docs/week_2_git_notebook_branching.html)
-  - [Git Committing]({{ site.baseurl }}/docs/week_2_git_notebook_committing.html}
-  - [Git Collaborating]({{ site.baseurl }}/docs/week_2_git_notebook_collaboration.html}
-  - [Git Merge Conflicts]({{ site.baseurl }}/docs/week_2_git_notebook_merge_conflict.html}
+  - [Git Committing]({{ site.baseurl }}/docs/week_2_git_notebook_committing.html)
+  - [Git Collaborating]({{ site.baseurl }}/docs/week_2_git_notebook_collaboration.html)
+  - [Git Merge Conflicts]({{ site.baseurl }}/docs/week_2_git_notebook_merge_conflict.html)
 
-  - [Python 1]({{ site.baseurl }}/docs/week_3_python_notebook_1.html}
-  - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html}
+  - [Python 1]({{ site.baseurl }}/docs/week_3_python_notebook_1.html)
+  - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html)
 
 - Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/){: target="_blank"}, in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html){: target="_blank"} pages.
 
