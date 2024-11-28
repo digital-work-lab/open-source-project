@@ -84,7 +84,9 @@ def check_html_links(file_path):
         # Replace .html with .md
         md_link = html_link.replace('.html', '.md')
         
-        if "{{ site.baseurl }}/" in md_link:
+        if md_link.startswith("http"):
+            pass
+        elif "{{ site.baseurl }}/" in md_link:
             md_file_path = base_dir / Path(md_link.replace("{{ site.baseurl }}/", ""))
         else:
             # Create the corresponding .md file path relative to the current file
