@@ -955,3 +955,5 @@ TeamPlay
 maintainer's
 learngitbranching
 rebases
+js
+choosealicense
