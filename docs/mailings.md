@@ -237,8 +237,7 @@ English Version:
 > 
 > Laureen Thurner
 
-
-## Evaluation <a id="evaluation"></a>
+## Evaluation
 
 Updates, course evaluation und upcoming events
 
