@@ -88,13 +88,13 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 ## Week 4: Group work (no session)
 
-- [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
-- [ ] Send out the [prep-best-practices mailing](mailings.html#prep-best-practice)
+- [x] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+- [x] Send out the [prep-best-practices mailing](mailings.html#prep-best-practice)
 - [ ] In the issue feeds, ask students to link their fork
 
 ## Week 5: Best practices <a id="best-practices"></a>
 
-- [ ] Review responses from the survey and prepare the session
+- [x] Review responses from the survey and prepare the session
 
 ## Week 7
 

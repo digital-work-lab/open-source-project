@@ -15,7 +15,7 @@ search_exclude: true
 - TOC
 {:toc}
 
-## Advertising the project <a id="advertising"></a>
+## Advertising the project<a id="advertising"></a>
 
 VC post (advertise the project in the lecture):
 
@@ -45,7 +45,7 @@ English Version:
 > 
 > Gerit Wagner
 
-## Welcome and information <a id="welcome"></a>
+## Welcome and information<a id="welcome"></a>
 
 VC post:
 
@@ -79,7 +79,7 @@ English Version:
 > 
 > Gerit Wagner
 
-## Comment-on-issues  <a id="comment-issues"></a>
+## Comment-on-issues
 
 VC post (21.10.25)
 
@@ -113,7 +113,7 @@ English Version:
 > 
 > Laureen Thurner
 
-## Prep-best-practice <a id="prep-best-practice"></a>
+## Prep-best-practice
 
 <!-- 
 > Liebe Studierende,
@@ -173,7 +173,7 @@ English Version:
 > Laureen Thurner
 
 
-## Hacking sessions <a id="hacking-sessions"></a>
+## Hacking sessions
 
 Encourage students to attend hacking sessions
 
@@ -205,7 +205,7 @@ English Version:
 > Laureen Thurner
 
 
-## Pull-request <a id="pull-request"></a>
+## Pull-request
 
 Reminder for pull-request and code review session
 
@@ -288,7 +288,7 @@ English Version:
 > Gerit Wagner
 
 
-## Code review session <a id="code-review-session"></a>
+## Code review session
 
 Information on the code-review session
 
