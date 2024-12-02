@@ -24,8 +24,8 @@ nav_order: 1
 {: .highlight }
 > **FlexNow**
 >
-> Registration in FlexNow is not required to participate in the seminar.
-> After submitting your work, we will register you for the seminar and enter your grade in FlexNow.
+> Registration in FlexNow is not required to participate in the project.
+> After submitting your work, we will register you for the project and enter your grade in FlexNow.
 
 In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies. Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%. As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git. Today, Git is an integral part of scaling extensive and highly distributed software development projects.
 
