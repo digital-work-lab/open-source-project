@@ -21,10 +21,10 @@ nav_order: 1
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend participating in the project after the 3rd semester. The following courses are required: *Inf-Einf-B Einführung in die Informatik* or *DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software*, and *DSG-JaP-B Java Programmierung*.
 
-{: .highlight }
+{: .info }
 > **FlexNow**
 >
-> Registration in FlexNow is not required to participate in the project.
+> Registration in FlexNow is **not required** to participate in the project.
 > After submitting your work, we will register you for the project and enter your grade in FlexNow.
 
 In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies. Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%. As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git. Today, Git is an integral part of scaling extensive and highly distributed software development projects.
