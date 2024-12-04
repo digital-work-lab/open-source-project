@@ -25,7 +25,7 @@ Struggling with errors is part of the process.
 At the same time, if you continue to struggle with the same error for more than three days, please make an appointment, and let's see how to solve it.
 We are here to help and make sure that you achieve steady progress throughout the group work phase.
 
-{: .highlight }
+{: .info }
 > If you have questions about your code or error encounter errors, please share a link to the fork/branch containing the code.
 
 We encourage you to open the pull request early.
