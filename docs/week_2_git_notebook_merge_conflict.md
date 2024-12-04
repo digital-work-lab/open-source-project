@@ -11,9 +11,9 @@ has_toc: true
 [![Offered at: Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20Lab%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
+<img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
 
-We  <img src="assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_merge_conflicts.ipynb" target="_blank">suggestions</a> on this notebook!
+We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_merge_conflicts.ipynb" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -33,7 +33,7 @@ With this notebook, you can practice merging and resolving merge conflicts.
 |  4       | [Wrap-up](#wrap-up)                                     |  2         |
 |          | Overall                                                 | 40         |
 
-<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
+<img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
 
 <br>
 
@@ -42,7 +42,7 @@ With this notebook, you can practice merging and resolving merge conflicts.
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:800px;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
-    <img src="assets/images/codespace-shell.png" width="800"/>
+    <img src="../assets/images/codespace-shell.png" width="800"/>
 </div>
 
 Git is highly efficient in creating branches and merging them. This is a useful property for software development projects in which programmers implement different features, fix bugs, and refactor the codebase. These changes are typically implemented in separate branches, which are not affected by coding activities in other parts of the codebase (other branches). When developers decide that the work from their branch should be integrated into a target branch (often the main branch), the `git merge other_branch_name` command starts the merge operation. In this operation, Git uses heuristics to determine whether the changes in both branches are compatible. When developers have changed unrelated parts of the codebase, the branches are merged automatically.
