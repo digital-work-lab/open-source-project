@@ -140,7 +140,9 @@ We decide that the changes in the `README.md` file should be **staged** for the 
 
 This means that changes in the README.md are **staged** (to be committed).
 
-**Check:**
+<details>
+
+<b>Check:</b>
 
 The `git status` should now display 
 
@@ -154,6 +156,8 @@ Changes to be committed:
 
 ```
 
+</details>
+
 To **commit** the changes, we run
 
 
@@ -164,7 +168,9 @@ git commit -m 'add contributor'
 
 The `-m 'add contributor'` adds a short summary message, which is expected for every commit.
 
-**Check:**
+<details>
+
+<b>Check:</b>
 
 `git status` should reflect your expected state of files in the three Git sections.
 
@@ -189,7 +195,9 @@ We decide to discard our changes.
 
 **Task**: Use the commands suggested by `git status` to do that.
 
-**Check:**
+<details>
+
+<b>Check:</b>
 
 The `git status` should show the following:
 
@@ -197,7 +205,7 @@ The `git status` should show the following:
 On branch main
 nothing to commit, working tree clean
 ```
-
+</details>
 
 To analyze the specific changes, open the Git GUI:
 
@@ -212,41 +220,51 @@ Also check the commit message (short summary at the beginning). Does the message
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/a0c9043784f9342136d2ab214513688769669199" target="_blank">Commit 1</a>
 
-**Check:**
+<details>
 
-**Solution**: Atomic commit, ok.
+<b>Check:</b>
+
+<b>Solution:</b>Atomic commit, ok.
 
 </details>
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/5288e92083b6df546d7c8fd590df3e968a909114" target="_blank">Commit 2</a>
 
-**Check:**
+<details>
 
-**Solution**: Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
+<b>Check:</b>
+
+<b>Solution:</b> Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
 
 </details>
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/ba08d4242f48ec96b4fa8cfd053ee3781e32231f" target="_blank">Commit 3</a>
 
-**Check:**
+<details>
 
-**Solution**: Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
+<b>Check:</b>
+
+<b>Solution:</b> Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
 
 </details>
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/ce9850f805a140692866970c92557833e6befa0b" target="_blank">Commit 4</a>
 
-**Check:**
+<details>
 
-**Solution**: Many files changed, but the changes belong together. ok.
+<b>Check:</b>
+
+<b>Solution:</b> Many files changed, but the changes belong together. ok.
 
 </details>
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/93fc7e851d2ba3fc95cc3190b6b71dc4a907c96b" target="_blank">Commit 5</a>
 
-**Check:**
+<details>
 
-**Solution**: Atomic commit, ok.
+<b>Check:</b>
+
+<b>Solution:</b> Atomic commit, ok.
 
 It is ok to combine functionality, tests, and docs that belong together in one commit!
 
@@ -295,7 +313,6 @@ If you have the time, try the different undo operations in the session.
     <strong>Info</strong> Once you have committed changes, Git takes takes care of the data and it is very hard to lose the data. Uncommitted data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
 </div>
 
-<br>
 
 ## Wrap-up  <a id="wrap-up"></a>
 

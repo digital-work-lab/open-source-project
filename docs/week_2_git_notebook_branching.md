@@ -50,7 +50,9 @@ Hints:
 - You can always type `undo` to undo the last command
 - You can run `git commit` without specifying a commit message.
 
-**Check:**
+<details>
+
+<b>Check:</b>
 
 The following commands produce this particular graph:
 
@@ -77,7 +79,7 @@ git checkout bugFix
 git rebase main
 
 ```
-
+</details>
 
 <!--
 To start the tutorial, run the following code cell and confirm the environment.
@@ -98,8 +100,8 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 <div style="clear: both;"></div>
 
 <br>
-
-**Check:**
+<details>
+<b>Check:</b>
 
 The following commands produce this particular graph:
 
@@ -125,7 +127,7 @@ git checkout main
 git merge dev
 
 ```
-
+</details>
 
 ## Part 2: Branching strategies <a id="branch"></a>
 
@@ -140,9 +142,10 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 <div style="clear:both;"></div>
 
-**Check:**
+<details>
+<b>Check:</b>
 
-**Solution**</b></p>**
+<b>Solution</b>
 
 - The project has two parallel branches: **main** and **develop**. **main** has stable releases and urgent hotfixes (e.g., to fix bugs).
 - The **development** branch contains the development activity, more complex tasks are completed in separate **feature branches** (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the development branch.
@@ -258,9 +261,10 @@ git commit -n -m 'update docs for quality_model'
 
 **Task**: Compare the three Git graphs and the commit IDs. What are the differences between the three methods in terms of the contents of commits and their metadata?
 
-<details>**Check:**
+<details>
+<b>Check:</b>
 
-**Solution**
+<b>Solution</b>
 
 - In method 1 (merge commit), there is one merge commit with two predecessors.
 - In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.
@@ -268,7 +272,7 @@ git commit -n -m 'update docs for quality_model'
 - The contents of the last commit are identical across all three methods.
 - Each of the new commits has your account as the author, and the current date.
 
-**Note**: All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
+<b>Note:</b> All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
 
 <img src="img/overview-task_solution.png" width="800"/>
 
@@ -276,7 +280,8 @@ git commit -n -m 'update docs for quality_model'
 
 **Question**: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?
 
-<details><b>Check:</b>
+<details>
+<b>Check:</b>
 
 <b>Answer</b>
 
