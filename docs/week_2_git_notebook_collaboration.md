@@ -44,7 +44,7 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 ## Part 1: Work in a shared repository <a id="simple"></a>
 
-In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) instead.
+In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files){: target="_blank"} instead.
 
 **Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository){: target="_blank"} and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects){: target="_blank"} the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
 
