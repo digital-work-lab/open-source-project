@@ -44,9 +44,9 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 ## Part 1: Work in a shared repository <a id="simple"></a>
 
-In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but (edit the files directly on GitHub)[https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files] instead.
+In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub[(https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) instead.
 
-**Task**: Select one **maintainer**, who creates a new remote repository on (GitHub)[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository] and (invites)[https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects] the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
+**Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects) the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
 
 <h2 style="margin-bottom: 3px; font-family: monospace; font-size: 1em;">README.md</h2>
 
@@ -62,17 +62,17 @@ In the first part, we will create a simple **shared repository**setup. Every tea
 
 After creating the `README.md`, the team decides to add more contents, working in parallel branches, and using pull-requests to discuss and integrate the changes.
 
-**Task Contributor A**: Create a branch `license`, adding the (MIT License)[https://choosealicense.com/licenses/mit/] in a file named `LICENCSE`.
+**Task Contributor A**: Create a branch `license`, adding the [MIT License](https://choosealicense.com/licenses/mit/) in a file named `LICENCSE`.
 
-**Task Contributor B**: Create a branch `contributing`, adding the (contributing guidelines)[https://github.com/CoLRev-Environment/colrev/blob/main/CONTRIBUTING.md] in a file named `CONTRIBUTING.md`.
+**Task Contributor B**: Create a branch `contributing`, adding the [contributing guidelines](https://github.com/CoLRev-Environment/colrev/blob/main/CONTRIBUTING.md) in a file named `CONTRIBUTING.md`.
 
-**Task Contributor C**: Create a branch `code_of_conduct`, adding the (code of conduct)[https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md] in a file named `CODE_OF_CONDUCT.md`.
+**Task Contributor C**: Create a branch `code_of_conduct`, adding the [code of conduct](https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md) in a file named `CODE_OF_CONDUCT.md`.
 
 Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whether the changes are adequate and merge them using the rebase option.
 
 ## Part 2: Work in a fork <a id="fork"></a>
 
-In this part, we work with a fork of an existing project. The (CoLRev)[https://github.com/CoLRev-Environment/colrev] repository serves as the **upstream/origin**. Your group creates a **fork**and edits the data on Codespaces (or a local repository).
+In this part, we work with a fork of an existing project. The [CoLRev](https://github.com/CoLRev-Environment/colrev) repository serves as the **upstream/origin**. Your group creates a **fork**and edits the data on Codespaces (or a local repository).
 
 <img src="img/git-remote-fork.png" style="width: 500px;">
 
@@ -99,7 +99,7 @@ In this part, we work with a fork of an existing project. The (CoLRev)[https://g
   </tbody>
 </table>
 
-**Step 1: Maintainer Forks the Project**: The maintainer forks the  (CoLRev repository)[https://github.com/CoLRev-Environment/colrev], creating their own copy of the project. They invite contributors to collaborate on this fork.
+**Step 1: Maintainer Forks the Project**: The maintainer forks the  [CoLRev repository](https://github.com/CoLRev-Environment/colrev), creating their own copy of the project. They invite contributors to collaborate on this fork.
 
 **Step 2: Contributors Open the Project in Codespaces**: Contributors open the maintainer's forked repository in GitHub Codespaces. This action effectively clones the remote repository to a development environment. Contributors can now work on this forked version directly.
 
@@ -111,7 +111,7 @@ In this part, we work with a fork of an existing project. The (CoLRev)[https://g
 
 **Step 6: Synchronize Codespaces with the Main Branch**: After the maintainer merges changes, contributors need to sync their Codespace environment with the latest version of the fork's main branch. This ensures that they are working with the most up-to-date version of the project.
 
-**Step 7: Maintainer Opens Pull Request to Original Repository**: Once the fork has accumulated significant changes, the maintainer opens a pull request from the fork to the original (CoLRev repository)[https://github.com/CoLRev-Environment/colrev ], proposing that the updates in the fork be integrated into the main project. After review, the pull request is either merged or closed.
+**Step 7: Maintainer Opens Pull Request to Original Repository**: Once the fork has accumulated significant changes, the maintainer opens a pull request from the fork to the original [CoLRev repository](https://github.com/CoLRev-Environment/colrev), proposing that the updates in the fork be integrated into the main project. After review, the pull request is either merged or closed.
 
 <!--
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: fit-content;  width: 800px;">
