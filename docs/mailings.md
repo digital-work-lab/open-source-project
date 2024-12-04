@@ -235,7 +235,7 @@ English Version:
 
 ## Evaluation
 
-Updates, course evaluation and upcoming events
+Updates, course evaluation, and upcoming events (13.01.2025)
 
 > Liebe Studierende,
 > 
