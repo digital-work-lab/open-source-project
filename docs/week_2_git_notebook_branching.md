@@ -91,7 +91,7 @@ IFrame('https://learngitbranching.js.org/', width=1400, height=800)
 
 If you have completed Part 1 quickly, you may continue practicing with the following challenge.
 
-**Task**: To continue practicing, create the following tree, which resembles a typical setup of git branches. To do this, you can open [learngitbranching](https://learngitbranching.js.org/?locale=en_EN) in a separate window.
+**Task**: To continue practicing, create the following tree, which resembles a typical setup of git branches. To do this, you can open [learngitbranching](https://learngitbranching.js.org/?locale=en_EN){: target="_blank"} in a separate window.
 
 <img src="img/git-branches.png" style="width: 600px;" alt="Git branches"/>
 
