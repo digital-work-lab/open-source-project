@@ -198,7 +198,7 @@ English Version:
 >
 > We would like to draw your attention once again to the hacking sessions on offer.
 >
-> You can easily book these under this link.
+> You can easily book these using this link.
 >
 > Best regards and continued success with the project
 >
@@ -209,15 +209,13 @@ English Version:
 
 Reminder for pull-request and code review session
 
-VC post (16.12.24)
+VC post (12.12.24)
 
 > Liebe Studierende,
 > 
-> ich möchte Sie kurz an die Abgabe am 20. Dezember erinnern. Um Ihren Code einzureichen, müssten Sie wie besprochen einen Pull Request erstellen.
-> 
-> Dieser Code kann nach dem erstellen des Pull Requests noch geändert werden bis spätestens 12. Januar, ab diesem Zeitpunkt werden Änderungen nicht mehr evaluiert.
+> ich möchte Sie kurz an das Erstellen des Pull-Requests am 20. Dezember erinnern. Der Code kann nach dem erstellen des Pull Requests noch geändert werden bis spätestens 12. Januar, ab diesem Zeitpunkt werden Änderungen nicht mehr evaluiert.
 >
-> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am TBA statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
+> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am 17. Januar zwischen 13 und 15 Uhr im	ISM Lab 1.094 statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
 > 
 > Beste Grüße und viel Erfolg beim Endspurt
 > 
@@ -227,9 +225,7 @@ English Version:
 
 > Dear students,
 > 
-> I would like to briefly remind you of the submission deadline on December 20. To submit your code, you would need to create a pull request as discussed.
-> 
-> > This code can still be changed after the pull request has been created until January 12 at the latest, after which time changes will no longer be evaluated.
+> I would like to briefly remind you to create a pull request by December 20. You can continue to work on your code until January 12 at the latest, after which time changes will no longer be evaluated.
 >
 > We have also set the date for the code review session. This will take place at the TBA. You can book the exact time yourself this week in a survey here in the VC. Please note that only one member per team can book a slot so that all deadlines can be met. The code review session, including the subsequent discussion, will last a maximum of 1 hour.
 > 
@@ -239,7 +235,7 @@ English Version:
 
 ## Evaluation
 
-Updates, course evaluation und upcoming events
+Updates, course evaluation and upcoming events
 
 > Liebe Studierende,
 > 
