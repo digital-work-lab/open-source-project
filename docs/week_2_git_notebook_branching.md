@@ -91,7 +91,7 @@ IFrame('https://learngitbranching.js.org/', width=1400, height=800)
 
 If you have completed Part 1 quickly, you may continue practicing with the following challenge.
 
-**Task**: To continue practicing, create the following tree, which resembles a typical setup of git branches. To do this, you can open [learngitbranching](https://learngitbranching.js.org/?locale=en_EN){: target="_blank"} in a separate window.
+**Task**: To continue practicing, create the following tree, which resembles a typical setup of Git branches. To do this, you can open [learngitbranching](https://learngitbranching.js.org/?locale=en_EN){: target="_blank"} in a separate window.
 
 <img src="img/git-branches.png" style="width: 600px;" alt="Git branches"/>
 
@@ -146,7 +146,7 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 - The project has two parallel branches: **main** and **develop**. **main** has stable releases and urgent hotfixes (e.g., to fix bugs).
 - The **development** branch contains the development activity, more complex tasks are completed in separate **feature branches** (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the development branch.
-- To release new versions, the developers create a branch from **develop**, do some pre-release work, and eventually merge it into main.
+- To release new versions, the developers create a branch from **develop**, do some pre-release work, and eventually merge it into `main`.
 - This setup ensures that the main branch is stable and not affected by untested code.
 
 </details>
@@ -165,7 +165,7 @@ When running `git merge other-branch`, there are two options:
 
 <img src="img/merge-commit.gif" width="800px">
 
-In addition to git merge, users also have the option to **rebase**changes.
+In addition to `git merge`, users also have the option to **rebase**changes.
 This preserves a **linear** version history* in the target branch instead of cluttering it with an array of merge commits:
 
 <!-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing -->
