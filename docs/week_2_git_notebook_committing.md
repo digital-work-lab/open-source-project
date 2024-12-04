@@ -11,9 +11,9 @@ has_toc: true
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<img src="img/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
+<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!
+We  <img src="assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -35,7 +35,7 @@ With this notebook, you can practice committing changes in Git.
 |  6       | [Wrap-up](#wrap-up)                               |  2         |
 |          | Overall                                           | 40         |
 
-<img src="img/iconmonstr-help-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
+<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
 
 <br>
 
@@ -44,7 +44,7 @@ With this notebook, you can practice committing changes in Git.
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; max-width: 800px; width: 100%;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
-    <img src="img/codespace-shell.png" style="max-width: 100%; border-radius: 5px;">
+    <img src="assets/images/codespace-shell.png" style="max-width: 100%; border-radius: 5px;">
 </div>
 
 
@@ -86,7 +86,7 @@ The repository has been downloaded to our machine (i.e., the Codespace environme
 code -a /workspaces/colrev
 ```
 
-<img src="img/codespace-reopen.png" width="820px"/>
+<img src="assets/images/codespace-reopen.png" width="820px"/>
 
 The status command provides an overview of the current state of the project and the files in the three sections. Therefore, you will need to run `git status` regularly.
 
@@ -209,7 +209,7 @@ nothing to commit, working tree clean
 
 To analyze the specific changes, open the Git GUI:
 
-<img src="img/codespace-git-viewer.png" width="820"/>
+<img src="assets/images/codespace-git-viewer.png" width="820"/>
 
 ## Part 4: Create atomic commits <a id="atomic"></a>
 

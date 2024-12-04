@@ -11,9 +11,9 @@ has_toc: true
 [![Offered at: Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20Lab%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<img src="img/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
+<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>.
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_merge_conflicts.ipynb" target="_blank">suggestions</a> on this notebook!
+We  <img src="assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_merge_conflicts.ipynb" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -34,7 +34,7 @@ With this notebook, we practice collaborating with Git in small groups.
 |  3       | [Wrap-up](#wrap-up)                                     |  2         |
 |          | Overall                                                 | 20         |
 
-<img src="img/iconmonstr-help-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
+<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
 
 <br>
 
@@ -44,7 +44,7 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 ## Part 1: Work in a shared repository <a id="simple"></a>
 
-In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub[(https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) instead.
+In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) instead.
 
 **Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository){: target="_blank"} and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects){: target="_blank"} the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
 
@@ -74,7 +74,7 @@ Afterwards, each contributor opens a pull-request to integrate the changes. Revi
 
 In this part, we work with a fork of an existing project. The [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} repository serves as the **upstream/origin**. Your group creates a **fork**and edits the data on Codespaces (or a local repository).
 
-<img src="img/git-remote-fork.png" style="width: 500px;">
+<img src="assets/images/git-remote-fork.png" style="width: 500px;">
 
 <table style="width: 760px; border-collapse: collapse; margin: 20px; border: 1px solid #ddd; text-align: left;">
   <thead>

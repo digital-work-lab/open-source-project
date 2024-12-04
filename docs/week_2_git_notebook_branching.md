@@ -11,9 +11,9 @@ has_toc: true
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><img src="img/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>. The interactive visualization and tutorial are based on the amazing <a href="https://github.com/pcottle/learnGitBranching">learnGitBranching</a> repository.</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>. The interactive visualization and tutorial are based on the amazing <a href="https://github.com/pcottle/learnGitBranching">learnGitBranching</a> repository.</p>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!</p>
+<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We  <img src="assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!</p>
 
 ---
 
@@ -33,7 +33,7 @@ With this notebook, you can practice branching in Git.
 |  4       | [Wrap-up](#wrap-up)                         | 2          |
 |          | **Overall**                                 | **70**     |
 
-<img src="img/iconmonstr-help-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
+<img src="assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
 
 <br>
 
@@ -95,7 +95,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 **Task**: To continue practicing, create the following tree, which resembles a typical setup of Git branches. To do this, you can open [learngitbranching](https://learngitbranching.js.org/?locale=en_EN){: target="_blank"} in a separate window.
 
-<img src="img/git-branches.png" style="width: 600px;" alt="Git branches"/>
+<img src="assets/images/git-branches.png" style="width: 600px;" alt="Git branches"/>
 
 <div style="clear: both;"></div>
 
@@ -138,7 +138,7 @@ Analyze the Git graph with the different branches. Explain what happens as the p
 https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git-branching-strategies/
 -->
 
-<img src="img/git-flow.png" width="800"/>
+<img src="assets/images/git-flow.png" width="800"/>
 
 <div style="clear:both;"></div>
 
@@ -162,18 +162,18 @@ When running `git merge other-branch`, there are two options:
 
 - If two branches have <b>not diverged</b>, Git will perform a <b>fast-forward merge</b>:
 
-<img src="img/fast-forward-merge.gif" width="800px">
+<img src="assets/images/fast-forward-merge.gif" width="800px">
 
 - A more common case is when two branches have **diverged**, i.e., each branch has commits that the other branch does not have. In this case, Git will create a merge commit:
 
-<img src="img/merge-commit.gif" width="800px">
+<img src="assets/images/merge-commit.gif" width="800px">
 
 In addition to `git merge`, users also have the option to **rebase**changes.
 This preserves a **linear** version history* in the target branch instead of cluttering it with an array of merge commits:
 
 <!-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing -->
 
-<img src="img/merge-rebase.gif" width="800px">
+<img src="assets/images/merge-rebase.gif" width="800px">
 
 <!-- 
 - Squash the changes (not available as a learngitbranching animation)
@@ -190,7 +190,7 @@ We will now practice the different methods in a real Git repository.
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:800px;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
-    <img src="img/codespace-shell.png" width="800"/>
+    <img src="assets/images/codespace-shell.png" width="800"/>
 </div>
 
 **Task**: Clone the CoLRev repository and set up the `quality_model_docs` branch, using the following commands.
@@ -218,13 +218,13 @@ git switch -c quality_model_docs
 git remote remove origin
 ```
 
-**Task**: Go through the following options, and run the commands. Take notes on the Git graph, i.e., the structure and IDs of commits, by completing the three Git graphs (you can open the page as a <a href="img/overview-task.pdf">PDF</a>):
+**Task**: Go through the following options, and run the commands. Take notes on the Git graph, i.e., the structure and IDs of commits, by completing the three Git graphs (you can open the page as a <a href="assets/images/overview-task.pdf">PDF</a>):
 
-<img src="img/overview-task.png" width="800"/>
+<img src="assets/images/overview-task.png" width="800"/>
 
 To analyze the specific changes, open the Git GUI:
 
-<img src="img/codespace-git-viewer-rebase.png" width="800"/>
+<img src="assets/images/codespace-git-viewer-rebase.png" width="800"/>
 
 ### Option 1: Merge commit
 
@@ -274,7 +274,7 @@ git commit -n -m 'update docs for quality_model'
 
 <b>Note:</b> All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
 
-<img src="img/overview-task_solution.png" width="800"/>
+<img src="assets/images/overview-task_solution.png" width="800"/>
 
 </details>
 
@@ -291,7 +291,7 @@ The commit object always contains the commit author and date. If they are differ
 
 **Note**: You can use the merge methods in a Codespace environment (as you just did), in a local Git repository, and even online on GitHub:
 
-<img src="img/pull-request-options.png" width="800"/>
+<img src="assets/images/pull-request-options.png" width="800"/>
 
 ## Wrap-up  <a id="wrap-up"></a>
 
