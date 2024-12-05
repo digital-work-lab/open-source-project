@@ -23,7 +23,7 @@ has_toc: true
 
 ## Unit tests
 
-Unit tests for SearchSources can be added to the [tests/3_packages_search](https://github.com/CoLRev-Environment/colrev/tree/main/tests/3_packages_search) directory.
+Unit tests for SearchSources can be added to the [tests/3_packages_search](https://github.com/CoLRev-Environment/colrev/tree/main/tests/3_packages_search){: target="_blank"} directory.
 Tests for API searches should be added to the `api_search_test.py` and those for DB searches to the `db_search_load_prep_test.py` (together with the required data).
 
 To run tests, use the following command in the top-level colrev directory:
