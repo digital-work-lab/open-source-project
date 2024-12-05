@@ -8,17 +8,14 @@ search_exclude: true
 
 # Week 5: Best Practices (Teaching Notes)
 
-| Time (start) | Duration | Topic                 | Additional materials                                              |
-|--------------|----------|-----------------------|-------------------------------------------------------------------|
-| 00:00        | 10       | Introduction          |                                                                   |
-| 00:10        | 10       | Warm-up questions     |                                                                   |
-| 00:20        | 10       | Environment setup     |                                                                   |
-| 00:30        | 10       | Branching strategy    |                                                                   |
-| 00:40        | 10       | How to organize       |                                                                   |
-| 00:50        | 10       | Best practices        |                                                                   |
-| 01:00        | 10       | Open questions        |                                                                   |
-| 01:10        | 10       | Wrap-up               |                                                                   |
-| 01:10        | 80       | Overall               |                                                                   |
+| Time (start) | Duration | Topic                 | 
+|--------------|----------|-----------------------|
+| 00:00        | 10       | Introduction          |
+| 00:10        | 20       | Technical setup       |
+| 00:20        | 20       | Programming           |
+| 00:30        | 20       | Teamwork              |
+| 01:10        | 10       | Wrap-up               |
+| 01:10        | 80       | Overall               |
 
 {: .info }
 > - We should take notes on the work status discussion
