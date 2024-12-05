@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Codespaces and Setup"
+title: "Codespaces"
 parent: "Week 1: Topics"
 nav_order: 2
 has_toc: true
 ---
 
-# Codespaces and Setup
+# Codespaces
 
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/codespaces.md" target="_blank">suggestions</a> on this notebook!
+We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_1_codespaces.md" target="_blank">suggestions</a> on this notebook!
 
 ---
 
