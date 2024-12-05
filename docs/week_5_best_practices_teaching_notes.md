@@ -19,6 +19,7 @@ search_exclude: true
 
 {: .info }
 > - We should take notes on the work status discussion
+> - Rationale to proceed from technical to teamwork: Helping students overcome technical issues is one of the preconditions to working together in a team.
 
 <div class="page-break"></div>
 
