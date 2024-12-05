@@ -209,8 +209,6 @@ When learning Git, this is surprising for many: A branch gives you a completely 
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b> 
@@ -222,8 +220,6 @@ Over 500 files changed. But mostly in the `docs` directory and mostly whitespace
 <a href="https://github.com/CoLRev-Environment/colrev/commit/8b14c4ef" target="_blank">Commit 2</a>
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
@@ -237,8 +233,6 @@ Many changes throughout the codebase. This <b>may raise merge conflicts</b> when
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b> 
@@ -250,8 +244,6 @@ Many files changed, but mostly "dead code". This is <b>unlikely to raise merge c
 <a href="https://github.com/CoLRev-Environment/colrev/commit/689b7603" target="_blank">Commit 4</a>
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
@@ -265,8 +257,6 @@ Many changes (+- 6,000 lines) in many central parts of the codebase. This has a 
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b> 
@@ -278,8 +268,6 @@ Single line change in a config file. <b>Very unlikely to create a merge conflict
 <a href="https://github.com/CoLRev-Environment/colrev/commit/b52f52e94c2685920bd46effbac8b75dca7a04a2" target="_blank">Commit 6</a>
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 

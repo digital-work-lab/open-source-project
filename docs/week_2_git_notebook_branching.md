@@ -48,7 +48,7 @@ Hints:
 
 <details>
 
-<b>Check:</b>
+<summary>Check:</summary>
 
 The following commands produce this particular graph:
 
@@ -98,9 +98,10 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 <div style="clear: both;"></div>
 
 <br>
+
 <details>
 
-<b>Check:</b>
+<summary>Check:</summary>
 
 The following commands produce this particular graph:
 
@@ -267,8 +268,6 @@ git commit -n -m 'update docs for quality_model'
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution</b>
@@ -290,8 +289,6 @@ git commit -n -m 'update docs for quality_model'
 **Question**: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 

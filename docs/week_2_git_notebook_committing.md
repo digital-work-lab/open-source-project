@@ -60,8 +60,6 @@ git clone https://github.com/CoLRev-Environment/colrev
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 The clone command should print something like the following (the number of objects may differ):
@@ -102,8 +100,6 @@ git status
 ```
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
@@ -146,8 +142,6 @@ This means that changes in the README.md are **staged** (to be committed).
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <p>The <code>git status</code> should now display:</p>
@@ -177,8 +171,6 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <code>git status</code> should reflect your expected state of files in the three Git sections.
@@ -205,8 +197,6 @@ We decide to discard our changes.
 **Task**: Use the commands suggested by `git status` to do that.
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
@@ -236,8 +226,6 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b>
@@ -249,8 +237,6 @@ Atomic commit, ok.
 <a href="https://github.com/CoLRev-Environment/colrev/commit/5288e92083b6df546d7c8fd590df3e968a909114" target="_blank">Commit 2</a>
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
@@ -264,8 +250,6 @@ Relatively atomic. There are a few changes beyond `compute_language()`. May be i
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b> 
@@ -278,8 +262,6 @@ Many files changed. Changes not related to each other. Message refers to refacto
 
 <details>
 
-<b>Check:</b>
-
 <summary>Check:</summary>
 
 <b>Solution:</b> 
@@ -291,8 +273,6 @@ Many files changed, but the changes belong together. ok.
 <a href="https://github.com/CoLRev-Environment/colrev/commit/93fc7e851d2ba3fc95cc3190b6b71dc4a907c96b" target="_blank">Commit 5</a>
 
 <details>
-
-<b>Check:</b>
 
 <summary>Check:</summary>
 
