@@ -53,21 +53,19 @@ Hints:
 The following commands produce this particular graph:
 
 <pre class="highlight">
+git commit
+git commit
 
-1:
-git commit
-git commit
-2:
 git branch bugFix
 git checkout bugFix
-3:
+
 git branch bugFix
 git checkout bugFix
 git commit -m "Commit c2 on bugFix"
 git checkout main
 git commit -m "Commit c3 on main"
 git merge bugFix -m "Merge bugFix into main"
-4:
+
 git checkout -b bugFix
 git commit -m "Commit c2 on bugFix"
 git checkout main
