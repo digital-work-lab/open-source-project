@@ -143,9 +143,7 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 <div style="clear:both;"></div>
 
 <details>
-
-<b>Check:</b>
-
+<summary>Check:</summary>
 
 <b>Solution</b>
 
