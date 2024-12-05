@@ -143,6 +143,7 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 <div style="clear:both;"></div>
 
 <details>
+
 <summary>Check:</summary>
 
 <b>Solution</b>
@@ -268,6 +269,7 @@ git commit -n -m 'update docs for quality_model'
 
 <b>Check:</b>
 
+<summary>Check:</summary>
 
 <b>Solution</b>
 
@@ -291,6 +293,7 @@ git commit -n -m 'update docs for quality_model'
 
 <b>Check:</b>
 
+<summary>Check:</summary>
 
 <b>Answer</b>
 

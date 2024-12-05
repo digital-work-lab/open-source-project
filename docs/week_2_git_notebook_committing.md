@@ -58,7 +58,11 @@ cd /workspaces
 git clone https://github.com/CoLRev-Environment/colrev
 ```
 
-<details><summary>Check</summary>
+<details>
+
+<b>Check:</b>
+
+<summary>Check:</summary>
 
 The clone command should print something like the following (the number of objects may differ):
 
@@ -97,7 +101,11 @@ cd /workspaces/colrev
 git status
 ```
 
-<details><summary>Check</summary>
+<details>
+
+<b>Check:</b>
+
+<summary>Check:</summary>
 
 <p>The <code>git status</code> command should print something like the following:</p>
 
@@ -140,6 +148,8 @@ This means that changes in the README.md are **staged** (to be committed).
 
 <b>Check:</b>
 
+<summary>Check:</summary>
+
 <p>The <code>git status</code> should now display:</p>
 
 <pre class="highlight">
@@ -169,6 +179,8 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 <b>Check:</b>
 
+<summary>Check:</summary>
+
 <code>git status</code> should reflect your expected state of files in the three Git sections.
 
 </details>
@@ -195,6 +207,8 @@ We decide to discard our changes.
 <details>
 
 <b>Check:</b>
+
+<summary>Check:</summary>
 
 <p>The <code>git status</code> should show the following:</p>
 
@@ -224,7 +238,11 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <b>Check:</b>
 
-<b>Solution:</b>Atomic commit, ok.
+<summary>Check:</summary>
+
+<b>Solution:</b>
+
+Atomic commit, ok.
 
 </details>
 
@@ -234,7 +252,11 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <b>Check:</b>
 
-<b>Solution:</b> Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
+<summary>Check:</summary>
+
+<b>Solution:</b> 
+
+Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
 
 </details>
 
@@ -244,7 +266,11 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <b>Check:</b>
 
-<b>Solution:</b> Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
+<summary>Check:</summary>
+
+<b>Solution:</b> 
+
+Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
 
 </details>
 
@@ -254,7 +280,11 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <b>Check:</b>
 
-<b>Solution:</b> Many files changed, but the changes belong together. ok.
+<summary>Check:</summary>
+
+<b>Solution:</b> 
+
+Many files changed, but the changes belong together. ok.
 
 </details>
 
@@ -264,7 +294,11 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <b>Check:</b>
 
-<b>Solution:</b> Atomic commit, ok.
+<summary>Check:</summary>
+
+<b>Solution:</b> 
+
+Atomic commit, ok.
 
 It is ok to combine functionality, tests, and docs that belong together in one commit!
 
