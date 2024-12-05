@@ -35,8 +35,6 @@ With this notebook, you can practice merging and resolving merge conflicts.
 
 <img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
 
-<br>
-
 ---
 
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:730px;">
@@ -53,10 +51,11 @@ However, if the branches introduce changes to the same parts of the codebase, th
 
 To create and resolve a merge conflict in a simple hello-world project, run the following commands in the (GitHub Codespace) shell below:
 
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: fit-content;  width: 800px;">
+<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: fit-content;  width: 730px;">
     <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
 </div>
 
+<br>
 
 ```python
 cd /workspaces
@@ -110,7 +109,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 To analyze and resolve the conflict, open the `app.py` file (VisualStudio highlights files with merge conflicts in red). It should highlight the conflicting part as follows:
 
-![Conflict](img/conflict.png)
+![Conflict](../assets/images/conflict.png)
 
 Note that there are two areas between the `<<<<<<`, the `=====` and the `>>>>>>>` (the conflict markers).
 
@@ -269,7 +268,7 @@ When learning Git, this is surprising for many: A branch gives you a completely 
 </details>
 
 
-<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; width: 800px; margin: 20px;">
+<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; width: 730px; margin: 20px;">
     <strong>Warning: Misleading Assumption!</strong> <br/>
     <p>Working on a separate Git branch can create the illusion that you can radically reorganize the codebase without any consequences. While it's true that changes made in a branch are isolated, remember that these changes will eventually be merged into the main codebase. If you drastically reorganize files or the structure, it could create significant merge conflicts, and disrupt team workflows.</p>
     <p><strong>Catch yourself if you're thinking:</strong> "I'm on my own branch, so I'll just reorganize the codebase before creating my feature."</p>

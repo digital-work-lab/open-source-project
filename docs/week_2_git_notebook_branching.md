@@ -11,17 +11,15 @@ has_toc: true
 [![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/open-source-project/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;"><img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>. The interactive visualization and tutorial are based on the amazing <a href="https://github.com/pcottle/learnGitBranching">learnGitBranching</a> repository.</p>
+<p style="max-width: 730px; margin-left: 0; margin-right: 0; text-align: justify;"><img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="16" height="16">  The notebook builds on our peer-reviewed <a href="https://digital-work-lab.github.io/rethink-git-teaching/">pedagogical foundations</a>. The interactive visualization and tutorial are based on the amazing <a href="https://github.com/pcottle/learnGitBranching">learnGitBranching</a> repository.</p>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!</p>
+<p style="max-width: 730px; margin-left: 0; margin-right: 0; text-align: justify;">We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/practice-git/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/practice-git/edit/main/notebooks/git_committing.ipynb" target="_blank">suggestions</a> on this notebook!</p>
 
 ---
 
 <div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
     <strong>Concepts: Git branching</strong> <br><br>The slides explaining Git branching are <a href="../output/02-git.html#part-1-branching" target="_blank">here</a>.
 </div>
-
-<br>
 
 With this notebook, you can practice branching in Git.
 
@@ -34,8 +32,6 @@ With this notebook, you can practice branching in Git.
 |          | **Overall**                                 | **70**     |
 
 <img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
-
-<br>
 
 ---
 
@@ -56,7 +52,7 @@ Hints:
 
 The following commands produce this particular graph:
 
-<code>
+<pre class="highlight">
 
 1:
 git commit
@@ -79,7 +75,8 @@ git commit -m "Commit c3 on main"
 git checkout bugFix
 git rebase main
 
-</code>
+</pre>
+
 </details>
 
 <!--
@@ -106,7 +103,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 The following commands produce this particular graph:
 
-<code>
+<pre class="highlight">
 
 git commit
 git commit
@@ -128,7 +125,7 @@ git merge feature
 git checkout main
 git merge dev
 
-</code>
+</pre>
 </details>
 
 ## Part 2: Branching strategies <a id="branch"></a>
@@ -149,10 +146,12 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 <b>Solution</b>
 
-- The project has two parallel branches: **main** and **develop**. **main** has stable releases and urgent hotfixes (e.g., to fix bugs).
-- The **development** branch contains the development activity, more complex tasks are completed in separate **feature branches** (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the development branch.
-- To release new versions, the developers create a branch from **develop**, do some pre-release work, and eventually merge it into `main`.
-- This setup ensures that the main branch is stable and not affected by untested code.
+<ul>
+  <li>The project has two parallel branches: <strong>main</strong> and <strong>develop</strong>. <strong>main</strong> has stable releases and urgent hotfixes (e.g., to fix bugs).</li>
+  <li>The <strong>develop</strong> branch contains the development activity, more complex tasks are completed in separate <strong>feature branches</strong> (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the develop branch.</li>
+  <li>To release new versions, the developers create a branch from <strong>develop</strong>, do some pre-release work, and eventually merge it into <code>main</code>.</li>
+  <li>This setup ensures that the main branch is stable and not affected by untested code.</li>
+</ul>
 
 </details>
 
@@ -164,25 +163,25 @@ When running `git merge other-branch`, there are two options:
 
 - If two branches have <b>not diverged</b>, Git will perform a <b>fast-forward merge</b>:
 
-<img src="../assets/images/fast-forward-merge.gif" width="800px">
+<img src="../assets/images/fast-forward-merge.gif" width="730px">
 
 - A more common case is when two branches have **diverged**, i.e., each branch has commits that the other branch does not have. In this case, Git will create a merge commit:
 
-<img src="../assets/images/merge-commit.gif" width="800px">
+<img src="../assets/images/merge-commit.gif" width="730px">
 
 In addition to `git merge`, users also have the option to **rebase**changes.
 This preserves a **linear** version history* in the target branch instead of cluttering it with an array of merge commits:
 
 <!-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing -->
 
-<img src="../assets/images/merge-rebase.gif" width="800px">
+<img src="../assets/images/merge-rebase.gif" width="730px">
 
 <!-- 
 - Squash the changes (not available as a learngitbranching animation)
 
 Note: GitHub offers these options to merge pull requests:
 
-<img src="img/github-pull-request.png" width="800px">
+<img src="img/github-pull-request.png" width="730px">
 -->
 
 There is another option: to **squash** changes from another branch. This effectively combines all changes from the other branch in a single commit, which is added on top of the target branch.
@@ -197,10 +196,11 @@ We will now practice the different methods in a real Git repository.
 
 **Task**: Clone the CoLRev repository and set up the `quality_model_docs` branch, using the following commands.
 
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width: 800px;">
+<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:730px;">
     <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
 </div>
 
+<br>
 
 ```python
 cd /workspaces && git clone https://github.com/CoLRev-Environment/colrev
