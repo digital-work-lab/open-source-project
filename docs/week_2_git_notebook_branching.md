@@ -43,7 +43,7 @@ With this notebook, you can practice branching in Git.
 
 We have covered `git commit`, as well as `git branch`, `git switch`, and `git merge` operations in the lecture.
 
-**Task**: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the [learngitbranching](https://learngitbranching.js.org/?locale=en_EN) tutorial.
+**Task**: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the [learngitbranching](https://learngitbranching.js.org/?locale=en_EN){: target="_blank"} tutorial.
 
 Hints:
 
