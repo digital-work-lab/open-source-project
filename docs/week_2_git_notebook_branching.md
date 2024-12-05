@@ -99,6 +99,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 <br>
 <details>
+
 <b>Check:</b>
 
 The following commands produce this particular graph:
@@ -142,7 +143,9 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 <div style="clear:both;"></div>
 
 <details>
+
 <b>Check:</b>
+
 
 <b>Solution</b>
 
@@ -264,7 +267,9 @@ git commit -n -m 'update docs for quality_model'
 **Task**: Compare the three Git graphs and the commit IDs. What are the differences between the three methods in terms of the contents of commits and their metadata?
 
 <details>
+
 <b>Check:</b>
+
 
 <b>Solution</b>
 
@@ -285,7 +290,9 @@ git commit -n -m 'update docs for quality_model'
 **Question**: Why does the merge commit always have a different ID if another student creates it or if you run the same commands a few seconds later?
 
 <details>
+
 <b>Check:</b>
+
 
 <b>Answer</b>
 
