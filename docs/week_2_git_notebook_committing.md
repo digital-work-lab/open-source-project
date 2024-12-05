@@ -18,7 +18,7 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
 ---
 
 <div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
-    <strong>Concepts: Git areas</strong> <br><br>The slides explaining the Git areas are <a href="https://digital-work-lab.github.io/open-source-project/output/02-git.html#10" target="_blank">here</a>.
+    <strong>Concepts: Git areas</strong> <br><br>The slides explaining the Git areas are <a href="../output/02-git.html#part-2-committing" target="_blank">here</a>.
 </div>
 
 <br>
@@ -58,19 +58,18 @@ cd /workspaces
 git clone https://github.com/CoLRev-Environment/colrev
 ```
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+<details><summary>Check</summary>
 
 The clone command should print something like the following (the number of objects may differ):
 
-```python
-
+<pre>
 Cloning into 'colrev'...
 remote: Counting objects: 100% (125/125), done.
 remote: Total 22225 (delta 41), reused 54 (delta 27), pack-reused 22100
 Receiving objects: 100% (22225/22225), 10.11 MiB | 2.37 MiB/s, done.
 Resolving deltas: 100% (18519/18519), done.
+</pre>
 
-```
 </details>
 
 The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and to check the status.
@@ -80,7 +79,6 @@ The repository has been downloaded to our machine (i.e., the Codespace environme
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:730px;">
     <strong>Info</strong> The code -a ... command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
 </div>
-
 
 ```python
 code -a /workspaces/colrev
@@ -92,29 +90,27 @@ The status command provides an overview of the current state of the project and 
 
 **Note**: The comments after the hashtag (#) are ignored.
 
-
 ```python
-
 # Enter the directory of the colrev project
 cd /workspaces/colrev
 # Check the status of the project
 git status
 ```
 
-<details><summary {style='color:green;font-weight:bold'}>Check</summary>
+<details><summary>Check</summary>
 
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The `git status` command should print something like the following:</p>
+<p>The <code>git status</code> command should print something like the following:</p>
 
-```python
-
+<pre>
+<code>
 On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+</code>
+</pre>
 
-```
-
-<p style="max-width: 800px; margin-left: 0; margin-right: 0; text-align: justify;">The last line indicates that there are no changes in the staging area (nothing to commit). The working directory has the same content as the last version in the git repository (working tree clean).</p>
+The last line indicates that there are no changes in the staging area (nothing to commit). The working directory has the same content as the last version in the git repository (working tree clean).
 
 </details>
 
@@ -144,17 +140,18 @@ This means that changes in the README.md are **staged** (to be committed).
 
 <b>Check:</b>
 
-The `git status` should now display 
+<p>The <code>git status</code> should now display:</p>
 
-```python
+<pre>
+<code>
 On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
+  (use "git restore --staged &lt;file&gt;..." to unstage)
 	modified:   README.md
-
-```
+</code>
+</pre>
 
 </details>
 
@@ -172,7 +169,7 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 <b>Check:</b>
 
-`git status` should reflect your expected state of files in the three Git sections.
+<code>git status</code> should reflect your expected state of files in the three Git sections.
 
 </details>
 
@@ -199,12 +196,15 @@ We decide to discard our changes.
 
 <b>Check:</b>
 
-The `git status` should show the following:
+<p>The <code>git status</code> should show the following:</p>
 
-```
+<pre>
+<code>
 On branch main
 nothing to commit, working tree clean
-```
+</code>
+</pre>
+
 </details>
 
 To analyze the specific changes, open the Git GUI:

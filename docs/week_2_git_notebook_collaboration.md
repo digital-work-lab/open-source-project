@@ -18,10 +18,8 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
 ---
 
 <div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
-    <strong>Concepts: Git collaborating</strong> <br><br>The slides explaining Git collaborating are <a href="https://digital-work-lab.github.io/open-source-project/output/02-git.html#18" target="_blank">here</a>.
+    <strong>Concepts: Git collaborating</strong> <br><br>The slides explaining Git collaborating are <a href="../output/02-git.html#collaborating" target="_blank">here</a>.
 </div>
-
-<br>
 
 <br>
 
@@ -35,8 +33,6 @@ With this notebook, we practice collaborating with Git in small groups.
 |          | Overall                                                 | 20         |
 
 <img src="../assets/images/iconmonstr-certificate-6.svg" alt="Edit" width="12" height="12"> We are here to help if errors or questions come up!
-
-<br>
 
 ---
 
@@ -58,7 +54,7 @@ In the first part, we will create a simple **shared repository**setup. Every tea
   <p style="margin: 10px 0; color: black;">Anna Maintainer</p>
 </div>
 
-**Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main**branch), adding her/his name.
+**Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main** branch), adding her/his name.
 
 After creating the `README.md`, the team decides to add more contents, working in parallel branches, and using pull-requests to discuss and integrate the changes.
 
@@ -76,28 +72,11 @@ In this part, we work with a fork of an existing project. The [CoLRev](https://g
 
 <img src="../assets/images/git-remote-fork.png" style="width: 500px;">
 
-<table style="width: 760px; border-collapse: collapse; margin: 20px; border: 1px solid #ddd; text-align: left;">
-  <thead>
-    <tr style="background-color: #f4f4f4;">
-      <th style="border: 1px solid #ddd; padding: 8px;">Term</th>
-      <th style="border: 1px solid #ddd; padding: 8px;">Definition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><strong>remote/origin</strong></td>
-      <td style="border: 1px solid #ddd; padding: 8px;"><code>origin</code> is the default name Git gives to the remote repository when it's cloned. It typically refers to the source repository from which your local repository is cloned.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><strong>upstream</strong></td>
-      <td style="border: 1px solid #ddd; padding: 8px;"><code>upstream</code> refers to the primary repository from which a fork is created. It is the main project that your local or forked repository is tracking.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><strong>fork</strong></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">A <code>fork</code> is a copy of a repository that is created under a different user's account. It allows you to freely experiment with changes without affecting the original repository.</td>
-    </tr>
-  </tbody>
-</table>
+| Term              | Definition                                                                                                                                            |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **remote/origin** | `origin` is the default name Git gives to the remote repository when it's cloned. It typically refers to the source repository from which your local repository is cloned. |
+| **upstream**      | `upstream` refers to the primary repository from which a fork is created. It is the main project that your local or forked repository is tracking.   |
+| **fork**          | A `fork` is a copy of a repository that is created under a different user's account. It allows you to freely experiment with changes without affecting the original repository. |
 
 **Step 1: Maintainer Forks the Project**: The maintainer forks the  [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, creating their own copy of the project. They invite contributors to collaborate on this fork.
 

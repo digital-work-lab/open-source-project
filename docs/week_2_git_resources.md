@@ -18,3 +18,6 @@ has_toc: true
 - **Pull Request**: A request to merge changes from one branch into another, often used for code review in open-source workflows.
 - **Git Reset vs. Revert**: Techniques for undoing commits, either by removing them or by creating a new commit to reverse changes.
 - **Atomic Commits**: Small, focused commits that group related changes together to improve clarity and history tracking.
+- **Remote/origin**: `origin` is the default name Git gives to the remote repository when it's cloned. It typically refers to the source repository from which your local repository is cloned.
+- **Upstream**: `upstream` refers to the primary repository from which a fork is created. It is the main project that your local or forked repository is tracking.
+- **Fork**: A `fork` is a copy of a repository that is created under a different user's account. It allows you to freely experiment with changes without affecting the original repository.
