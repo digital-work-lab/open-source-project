@@ -17,7 +17,7 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
 
 ---
 
-<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:800px;">
+<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
     <strong>Transfer Challenge</strong>: Git merges occur when two branches are integrated. Merge conflicts require you to resolve competing file changes. <br>
 </div>
 
@@ -39,7 +39,7 @@ With this notebook, you can practice merging and resolving merge conflicts.
 
 ---
 
-<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:800px;">
+<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:730px;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
     <img src="../assets/images/codespace-shell.png" width="800"/>

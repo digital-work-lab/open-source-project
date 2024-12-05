@@ -17,8 +17,8 @@ has_toc: true
 
 ---
 
-<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:800px;">
-    <strong>Concepts: Git branching</strong> <br><br>The slides explaining Git branching are <a href="https://digital-work-lab.github.io/open-source-project/output/02-git.html#6" target="_blank">here</a>.
+<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
+    <strong>Concepts: Git branching</strong> <br><br>The slides explaining Git branching are <a href="../output/02-git.html#part-1-branching" target="_blank">here</a>.
 </div>
 
 <br>
@@ -43,7 +43,7 @@ With this notebook, you can practice branching in Git.
 
 We have covered `git commit`, as well as `git branch`, `git switch`, and `git merge` operations in the lecture.
 
-**Task**: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the [learngitbranching] (https://learngitbranching.js.org/?locale=en_EN) tutorial.
+**Task**: To practice branching and manipulating the Git graph, complete level 1 (introduction) of the [learngitbranching](https://learngitbranching.js.org/?locale=en_EN) tutorial.
 
 Hints:
 
@@ -56,7 +56,8 @@ Hints:
 
 The following commands produce this particular graph:
 
-```text
+<code>
+
 1:
 git commit
 git commit
@@ -78,7 +79,7 @@ git commit -m "Commit c3 on main"
 git checkout bugFix
 git rebase main
 
-```
+</code>
 </details>
 
 <!--
@@ -105,7 +106,8 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 The following commands produce this particular graph:
 
-```text
+<code>
+
 git commit
 git commit
 git checkout c1
@@ -126,7 +128,7 @@ git merge feature
 git checkout main
 git merge dev
 
-```
+</code>
 </details>
 
 ## Part 2: Branching strategies <a id="branch"></a>
@@ -187,7 +189,7 @@ There is another option: to **squash** changes from another branch. This effecti
 
 We will now practice the different methods in a real Git repository.
 
-<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:800px;">
+<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:730px;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
     <img src="../assets/images/codespace-shell.png" width="800"/>
@@ -266,13 +268,15 @@ git commit -n -m 'update docs for quality_model'
 
 <b>Solution</b>
 
-- In method 1 (merge commit), there is one merge commit with two predecessors.
-- In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.
-- In method 3 (squash), all changes from the original quality branch are combined in a single commit, which is added on top of the main branch.
-- The contents of the last commit are identical across all three methods.
-- Each of the new commits has your account as the author, and the current date.
+<ul>
+  <li>In method 1 (merge commit), there is one merge commit with two predecessors.</li>
+  <li>In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.</li>
+  <li>In method 3 (squash), all changes from the original quality branch are combined in a single commit, which is added on top of the main branch.</li>
+  <li>The contents of the last commit are identical across all three methods.</li>
+  <li>Each of the new commits has your account as the author, and the current date.</li>
+</ul>
 
-<b>Note:</b> All three methods change the state of the `main` branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
+<b>Note:</b> All three methods change the state of the <code>main</code> branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
 
 <img src="../assets/images/overview-task_solution.png" width="800"/>
 

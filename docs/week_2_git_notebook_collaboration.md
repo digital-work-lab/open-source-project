@@ -17,7 +17,7 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
 
 ---
 
-<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:800px;">
+<div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
     <strong>Concepts: Git collaborating</strong> <br><br>The slides explaining Git collaborating are <a href="https://digital-work-lab.github.io/open-source-project/output/02-git.html#18" target="_blank">here</a>.
 </div>
 
