@@ -25,29 +25,43 @@ search_exclude: true
 
 <div class="page-break"></div>
 
-Problems with group/team
+Approach:
 
-- no clear roles - which roles should exist?
-- ask for challenges, offer help
-- mention that we will check Git contribution (fair effort of all team members)
-- usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
+- Discuss where students searched, and how to proceed (do not provide easy solutions)
+- Ask students to explain how they currently understand the task, and where they would search
+- Key task: facilitate self-organizing, understanding code
 
 ## Introduction
 
 - We encourage you to share challenges/errors/lessons-learned (without evaluation or judgment)
-- we will not hold errors against you - on the contrary, it we recognize it as a contribution if you articulate challenges, or share solutions
+- We will not hold errors against you - on the contrary, we recognize it as a contribution if you articulate challenges or share solutions
 
-## Warm-up questions
-
-- Discuss where students searched, how to proceed (do not provide easy solutions)
-- Ask students to explain how they currently understand the task, where they would search
-- Key task: facilitate self-organizing, understanding code
-
-## Environment setup
+## Technical setup
 
 TBD.
 
-## Branching strategy
+{: .info }
+> ## Open questions
+> 
+> See rustpad suggestions
+
+## Programming
+
+- A walk-through explaining colrev search and SearchSources (showing the changes in settings and records retrieved), and guidelines in testing code would be helpful.
+
+{: .info }
+> ## Open questions
+> 
+> See rustpad suggestions
+
+## Teamwork
+
+- pre-commit hooks (code quality) and tests (check whether it runs on all branches)
+- Commit practices (atomic, no unrelated materials)
+- Remember to sync regularly between remotes/origin and your fork
+- Refresh skills related to Git, gitk, fork, using of branches/pull-requests, issues, and merging.
+
+**Branching strategy**
 
 Task-Splitting strategy
 
@@ -68,30 +82,17 @@ if __name__ == "main":
     search()
 ```
 
-## How to organize
+**Problems within teams**
 
-TBD.
+- no clear roles - which roles should exist?
+- ask for challenges, offer help
+- mention that we will check Git contribution (fair effort of all team members)
+- usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
 
-## Best practices
-
-- Based on student feedback
-
-- pre-commit hooks (code quality) and tests (check whether it runs on all branches)
-- Commit practices (atomic, no unrelated materials)
-- Remember to sync regularly between remotes/origin and your fork
-
-- Option: ask students to refactor their code in parallel (e.g., docstrings, variable naming, typing, breaking down methods) and merge (start from new branches)
-Notes:
-
-- A walk-through explaining colrev search and SearchSources (showing the changes in settings and records retrieved), and guidelines in testing code would be helpful.
-- Refresh skills related to Git, gitk, fork, using of branches/pull-requests, issues, and merging.
-- Additional resources (e.g., links to interactive tutorials)
-- Explanations for gitk and Linux shell commands (ls, cs, ...)
-- Workflow utilities (such as storing custom commands in bash_aliases) may be helpful.
-
-## Open questions
-
-- See rustpad suggestions
+{: .info }
+> ## Open questions
+> 
+> See rustpad suggestions
 
 ## Wrap-up
 
