@@ -71,15 +71,26 @@ Task-Splitting strategy
 - docs
 
 ```
-def load(self, options) -> dict:
-    options = {"query": "term"}
-    print('Started search')
+class XY:
 
-    return {...}
+    def __init__(self, ...):
+        ...
 
-
-if __name__ == "main":
-    search()
+    def add_endpoint(self, ...):
+        ...
+    
+    def load(self, options) -> dict:
+        options = {"query": "term"}
+        print('Started search')
+    
+        return {...}
+    
+    def search(self, ...) :
+    
+        ...
+    
+    if __name__ == "main":
+        search()
 ```
 
 **Problems within teams**
