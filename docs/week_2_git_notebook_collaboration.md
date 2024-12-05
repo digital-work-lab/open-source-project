@@ -21,8 +21,6 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
     <strong>Concepts: Git collaborating</strong> <br><br>The slides explaining Git collaborating are <a href="../output/02-git.html#collaborating" target="_blank">here</a>.
 </div>
 
-<br>
-
 With this notebook, we practice collaborating with Git in small groups.
 
 | Practice | Label                                                   | Time (min) |
@@ -40,9 +38,9 @@ Form small groups of 3-5 students and solve the following tasks together.
 
 ## Part 1: Work in a shared repository <a id="simple"></a>
 
-In the first part, we will create a simple **shared repository**setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull-requests. We will not download the repository, but [edit the files directly on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files){: target="_blank"} instead.
+In the first part, we will create a simple **shared repository** setup. Every team member will have access to the same repository, committing directly to `main`, or creating branches and pull fvrequests. We will not download the repository, but [edit the files directly on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files){: target="_blank"} instead.
 
-**Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository){: target="_blank"} and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects){: target="_blank"} the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, choosing a project name and creating a contributor section similar to the following:
+**Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository){: target="_blank"} and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects){: target="_blank"} the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, chooses a project name and creates a contributor section similar to the following:
 
 <h2 style="margin-bottom: 3px; font-family: monospace; font-size: 1em;">README.md</h2>
 
@@ -56,7 +54,7 @@ In the first part, we will create a simple **shared repository**setup. Every tea
 
 **Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main** branch), adding her/his name.
 
-After creating the `README.md`, the team decides to add more contents, working in parallel branches, and using pull-requests to discuss and integrate the changes.
+After creating the `README.md`, the team decides to add more content, working in parallel branches, and using pull requests to discuss and integrate the changes.
 
 **Task Contributor A**: Create a branch `license`, adding the [MIT License](https://choosealicense.com/licenses/mit/){: target="_blank"} in a file named `LICENCSE`.
 
@@ -64,13 +62,16 @@ After creating the `README.md`, the team decides to add more contents, working i
 
 **Task Contributor C**: Create a branch `code_of_conduct`, adding the [code of conduct](https://github.com/CoLRev-Environment/colrev/blob/main/CODE_OF_CONDUCT.md){: target="_blank"} in a file named `CODE_OF_CONDUCT.md`.
 
-Afterwards, each contributor opens a pull-request to integrate the changes. Review each other's changes, add a commend to confirm whether the changes are adequate and merge them using the rebase option.
+Afterward, each contributor opens a pull request to integrate the changes. Review each other's changes, add a comment to confirm whether the changes are adequate, and merge them using the rebase option.
 
 ## Part 2: Work in a fork <a id="fork"></a>
 
-In this part, we work with a fork of an existing project. The [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} repository serves as the **upstream/origin**. Your group creates a **fork**and edits the data on Codespaces (or a local repository).
+In this part, we work with a fork of an existing project. The [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} repository serves as the **upstream/origin**.
+Your group creates a **fork** and edits the data on Codespaces (or a local repository).
 
-<img src="../assets/images/git-remote-fork.png" style="width: 500px;">
+<div style="text-align: center;">
+  <img src="../assets/images/git-remote-fork.png" style="width: 500px;">
+</div>
 
 | Term              | Definition                                                                                                                                            |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -111,7 +111,7 @@ git reset --hard 8c9c2b1d26ed5d9e079d5a46c349d73032970075
 
 To improve the code, try to implement these two changes:
 
-- Instead of `print()` statement, it is recommended to use the `ReviewManager`'s logger.
+- Instead of using `print()` statements, it is recommended to use the `ReviewManager`'s logger.
 - Instead of using the record dicts, it is recommended to work with the `Record` class and its `update_field()` method.
 
 To checkout the **solution**, run:

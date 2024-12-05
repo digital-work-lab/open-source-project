@@ -152,7 +152,7 @@ Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target
 
 Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file. Remember to store the `records.bib` in the **project directory**.
 
-Afterwards, loop over the records (`for ...`) and print the title of each record.
+Afterward, loop over the records (`for ...`) and print the title of each record.
 
 ### Code quality
 

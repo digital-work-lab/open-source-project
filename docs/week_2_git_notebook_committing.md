@@ -72,7 +72,7 @@ Resolving deltas: 100% (18519/18519), done.
 
 </details>
 
-The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and to check the status.
+The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and check the status.
 
 **Note**: To create an empty git project, you would run `git init`.
 
@@ -116,7 +116,7 @@ The last line indicates that there are no changes in the staging area (nothing t
 
 ## Part 2: Create, stage, and commit changes <a id="commit"></a>
 
-Next, we modify files (state: **untracked**/**modified**), mark them to be in the next commit (state: **staged**) and create the first version (state: **committed**). This corresponds to the three sections of a Git project.
+Next, we modify files (state: **untracked**/**modified**), mark them to be in the next commit (state: **staged**), and create the first version (state: **committed**). This corresponds to the three sections of a Git project.
 
 **Task**: Open the `README.md` file in the colrev repository (`shift` + double click to open in a separate tab) and add your name to the project citation (`# Citing CoLRev`section).
 
@@ -216,7 +216,7 @@ To analyze the specific changes, open the Git GUI:
 It is good practice to create **atomic commits**, i.e., small changes that belong together. One should avoid large commits that modify many unrelated parts of the code base and pursue different objectives.
 
 Analyze the following commits and discuss which ones are atomic and which ones combine changes that do not belong together (i.e., should be in separate commits).
-Also check the commit message (short summary at the beginning). Does the message clearly summarize the changes?
+In addition, check the commit message (short summary at the beginning). Does the message clearly summarize the changes?
 
 <a href="https://github.com/CoLRev-Environment/colrev/commit/a0c9043784f9342136d2ab214513688769669199" target="_blank">Commit 1</a>
 
@@ -295,7 +295,7 @@ In the following, we would like to add **only** the changes in lines related to 
 git add -p colrev/dataset.py
 ```
 
-**Task**: Check whether the correct lines were added! Create a commit containing the relevant changes. Afterwards, discard the remaining changes.
+**Task**: Check whether the correct lines were added! Create a commit containing the relevant changes. Afterward, discard the remaining changes.
 
 ## Part 5: Undo changes (advanced) <a id="undo"></a>
 
@@ -307,10 +307,10 @@ To **undo committed changes**, there several options:
 
 If you have the time, try the different undo operations in the session.
 
-(*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
+(*) Important: only amend commits that are not yet shared with the team. Otherwise, a revert is preferred.
 
 <div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:730px;">
-    <strong>Info</strong> Once you have committed changes, Git takes takes care of the data and it is very hard to lose the data. Uncommitted data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
+    <strong>Info</strong> Once you have committed changes, Git takes care of the data and it is very hard to lose the data. Uncommitted data can be lost more easily. Therefore, commit often!<br><br> Even if you run <code>git reset --hard ...</code>, you can still recover commits using <code>git reflog</code>. Committed data will only be lost permanently if you run <code>git reflog expire --expire=now --all</code> and <code>git gc --prune=now --aggressive</code>. If the commits are already on GitHub, you would need <code>git push --force</code> and the changes may also be synchronized in other local repositories. <br><br>Avoid options like <code>--force</code>, <code>--hard</code>, or <code>--aggressive</code>. Use them only if you know what you are doing.
 </div>
 
 

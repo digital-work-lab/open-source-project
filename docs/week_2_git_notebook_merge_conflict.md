@@ -21,8 +21,6 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
     <strong>Transfer Challenge</strong>: Git merges occur when two branches are integrated. Merge conflicts require you to resolve competing file changes. <br>
 </div>
 
-<br>
-
 With this notebook, you can practice merging and resolving merge conflicts.
 
 | Practice | Label                                                   | Time (min) |
@@ -107,7 +105,7 @@ CONFLICT (add/add): Merge conflict in app.py
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-To analyze and resolve the conflict, open the `app.py` file (VisualStudio highlights files with merge conflicts in red). It should highlight the conflicting part as follows:
+To analyze and resolve the conflict, open the `app.py` file (VisualStudio highlights files with merge conflicts in red). It should highlight the conflicting parts as follows:
 
 ![Conflict](../assets/images/conflict.png)
 
@@ -190,7 +188,7 @@ cp -f /workspaces/practice-git/cli.py colrev/ui_cli/cli.py
 git status
 ```
 
-Note: for simplicity, we worked in the same repository. But the merge conflict would be identical if the branches were shared in a remote repository. In fact, if GitHub encounters a merge conflict, it suggests that users download the branches and resolve the merge conflict locally (like we just did).
+Note: for simplicity, we worked in the same repository. However, the merge conflict would be identical if the branches were shared in a remote repository. In fact, if GitHub encounters a merge conflict, it suggests that users download the branches and resolve the merge conflict locally (like we just did).
 
 ## Part 3: Understand how to prevent merge conflicts <a id="prevent"></a>
 
@@ -199,7 +197,7 @@ Although merge conflicts are not necessarily a bad thing, it is recommended to a
 
 - Understand whether changes are likely to create merge conflicts
 - Communicate with other contributors to understand who is working on which parts of the codebase or read the codebase if there is no personal contact with the other developers
-- Avoid problematic changes, such as code formatting and restructuring that affects the whole codebase. Coordinate development if they are necessary.
+- Avoid problematic changes, such as code formatting and restructuring that affect the whole codebase. Coordinate development if they are necessary.
 - Avoid long-running branches by merging often
 - Create atomic commits
 

@@ -169,7 +169,7 @@ When running `git merge other-branch`, there are two options:
 
 <img src="../assets/images/merge-commit.gif" width="730px">
 
-In addition to `git merge`, users also have the option to **rebase**changes.
+In addition to `git merge`, users also have the option to **rebase** changes.
 This preserves a **linear** version history* in the target branch instead of cluttering it with an array of merge commits:
 
 <!-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing -->
