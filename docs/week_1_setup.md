@@ -20,10 +20,9 @@ In this exercise, you will run a series of checks to verify that your programmin
 Instead, this exercise ensures everything is configured and functioning as expected.
 
 
-
 ## Part 1: Git Configuration
 
-1. **Check your global Git configuration:**
+ **Check your global Git configuration:**
 
 Verify that your Git name and email are correctly configured.
 
@@ -77,7 +76,7 @@ Verify that the Location field points to the editable project location (e.g., /w
 Check your system’s PATH:
 
 ```bash
-echo $PATH | grep :/home/codespace/.local/bin:
+echo $PATH
 ```
 
 Confirm that /home/codespace/.local/bin is included in the PATH.
