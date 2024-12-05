@@ -39,7 +39,7 @@ Approach:
 TBD.
 
 {: .info }
-> # Open questions
+> **Open questions**
 > 
 > See rustpad suggestions
 
@@ -48,7 +48,7 @@ TBD.
 - A walk-through explaining colrev search and SearchSources (showing the changes in settings and records retrieved), and guidelines in testing code would be helpful.
 
 {: .info }
-> # Open questions
+> **Open questions**
 > 
 > See rustpad suggestions
 
@@ -99,7 +99,7 @@ class XY:
 - usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
 
 {: .info }
-> # Open questions
+> **Open questions**
 > 
 > See rustpad suggestions
 
