@@ -17,6 +17,8 @@ We  <img src="../assets/images/iconmonstr-favorite-2.svg" alt="Edit" width="12" 
 
 ---
 
+This notebook is not part of the **Git session** and is intended for you to work on independently at home. If you have any questions, feel free to bring them up at the beginning of the next Python session. We’ll be happy to discuss them then!
+
 <div style="border-left: 4px solid #026e57; background-color: #d0f0e4; padding: 15px; margin: 10px 0; color: #026e57; border-radius: 5px; width:730px;">
     <strong>Concepts: Git collaborating</strong> <br><br>The slides explaining Git collaborating are <a href="../output/02-git.html#collaborating" target="_blank">here</a>.
 </div>

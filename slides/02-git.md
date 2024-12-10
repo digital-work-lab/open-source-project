@@ -333,6 +333,8 @@ Note: pull requests are just pointers (like branches/HEAD, they move with the br
 
 # Practice: Collaborating
 
+This notebook is not part of the Git session and is intended for you to work on independently at home. If you have any questions, feel free to bring them up at the beginning of the next Python session. We’ll be happy to discuss them then!
+
 [![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_collaboration.html)
 
 ---

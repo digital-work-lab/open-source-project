@@ -16,7 +16,7 @@ search_exclude: true
 | 02:15          | 5         | Break                                     |                                                                                                                                                     |
 | 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
 | 02:45          | 5         | Break                                     |                                                                                                                                                     |
-| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
+| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
 {: .objective }
@@ -181,6 +181,8 @@ If you have the time, try the different undo operations in the session.
 <div class="page-break"></div>
 
 ## Part 3: Collaborating <a id="collaborating"></a>
+
+-> this notebook is optional to do as a "homework"
 
 - In the fork, it is recommended to create working branches instead of committing to the `main` branch.
 - It is good practice to regularly **sync** the `main` branches (on GitHub), and merge the changes into your working branches (locally or on GitHub).
