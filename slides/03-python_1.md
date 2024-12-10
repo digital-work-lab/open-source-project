@@ -36,9 +36,10 @@ Otto-Friedrich-Universität Bamberg
 - Learn good debugging and development practices
 - Understand how to extend a Python package (CoLRev)
 
-# Groups
+# Information on this session:
 
-- Form groups of three to four, solve the tasks together, and discuss your solutions.
+- Form groups of three to four participants to collaborate on the tasks, solve them together, and engage in meaningful discussions about your solutions.
+- Over the course of two sessions, we will focus on refining a single module using the colrev run command, progressively enhancing it with each iteration.
 
 ---
 

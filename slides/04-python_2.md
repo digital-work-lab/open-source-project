@@ -22,6 +22,13 @@ Otto-Friedrich-Universität Bamberg
 
 ---
 
+# Information on this session:
+
+- Form groups of three to four participants to collaborate on the tasks, solve them together, and engage in meaningful discussions about your solutions.
+- Over the course of two sessions, we will focus on refining a single module using the colrev run command, progressively enhancing it with each iteration.
+
+---
+
 # Start our development environment on GitHub Codespaces
 
 Resume the [Codespace started in the previous session](https://github.com/CoLRev-Environment/colrev)
