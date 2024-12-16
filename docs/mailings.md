@@ -229,7 +229,7 @@ English Version:
 >
 > We have also set the date for the code review session. This will take place at the TBA. You can book the exact time yourself this week in a survey here in the VC. Please note that only one member per team can book a slot so that all deadlines can be met. The code review session, including the subsequent discussion, will last a maximum of 1 hour.
 > 
-> Best regards and good luck with the final spurt
+> Best regards and good luck with the final stretch!
 > 
 > Laureen Thurner
 
