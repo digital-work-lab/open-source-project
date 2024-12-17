@@ -15,7 +15,7 @@ paginate: true
 ## The Review Session
 
 Prof. Dr. Gerit Wagner
-Fakultät Wirtschaftsinformatik und Angewandte Informatik
+Faculty Information Systems and Applied Computer Sciences
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
