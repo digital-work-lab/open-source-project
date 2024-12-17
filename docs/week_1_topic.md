@@ -9,17 +9,19 @@ nav_order: 2
 
 In week 1, we start with the introductory session, covering the project outline and goals, explaining how groups will form and how contributions will be evaluated.
 We will start exploring the context of open-source projects and discuss any questions that may come up.
-There is no need to register for the session or project in advance.
+You do not need to register for the session or project in advance.
 We look forward to meeting you!
 
 {: .objective }
-> In this session, our goal is to familiarize with open-source projects on GitHub.
+> In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
 
 | **Material**         | **Link**                                                                                                                           |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/01-topics.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/01-topics.pdf){: target="_blank"} |
 
-Tasks to complete in this week:
+<iframe src="../output/01-topics.html" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>
+
+Tasks to complete this week:
 
 {: .deliverable }
 ![tasks logo](../assets/iconmonstr-clipboard-5.svg)Create a [GitHub account](https://github.com/signup){: target="_blank"}.
