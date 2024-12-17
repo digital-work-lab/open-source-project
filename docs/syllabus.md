@@ -31,7 +31,7 @@ In software development, open-source development environments and open-source wo
 
 Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration). Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams. The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
 
-At the beginning of the project, three block events are planned: (1) an overview of the open-source project and the sub-projects with subsequent topic assignment, (2) an introduction to Git, and (3) an introduction to Python. The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups. The code review session will take place in the last weeks of the lecture period. At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
+At the beginning of the project, three block events are planned: (1) an overview of the open-source project and the sub-projects with subsequent topic assignments, (2) an introduction to Git, and (3) an introduction to Python. The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups. The code review session will take place in the last weeks of the lecture period. At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
 
 ## Instructor
 
@@ -60,7 +60,7 @@ I use the Calendly tool to schedule meetings. It gives you an up-to-date overvie
 
 ## Course outline
 
-The detailed course outline is available on the [main page](../index.html). We cover the following sessions and work tasks:
+We cover the following sessions and work tasks (specific dates are available on the [main page](../index.html)):
 
 **Week 1, Session 01: Organization and Topics**
 
@@ -84,10 +84,10 @@ The detailed course outline is available on the [main page](../index.html). We c
 **Weeks 6-11: Individual Hacking Sessions**
 
 - One-on-one or group sessions to address specific issues and progress.
-- Tasks: Create and submit pull requests, code evaluation.
+- Tasks: Create a pull request.
 
 **Week 12: Session 06: Code Review Session**
-- Comprehensive review of submitted code.
+- Review the code submitted by another group.
 - Tasks: Implement feedback from the code review.
 
 ## Assessment and grading criteria
@@ -99,7 +99,7 @@ The detailed course outline is available on the [main page](../index.html). We c
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as suggested by pylint and the pre-commit hooks defined in the repository.
+- Adherence to Python coding standards, as suggested by Pylint and the pre-commit hooks defined in the repository.
 - Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
 - Appropriate code structure and readability, with a logical organization of code into modules and functions, use of meaningful variable and function names, and clear and concise comments explaining complex sections.
 
@@ -140,13 +140,21 @@ possibly a “how to succeed” section
 
 ## Teaching approach
 
-- **Complex Skill Development**: The project focuses on teaching complex skills necessary for modern software development. This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using tools such as Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools. To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
+- **Complex Skill Development**: The project focuses on teaching complex skills necessary for modern software development.
+  This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using tools such as Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
+  To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
 
-- **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package. This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance. Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
+- **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
+  This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance.
+  Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
 
-- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued. We create a positive learning atmosphere, encouraging questions and contributions from everyone. We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
+- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
+  We create a positive learning atmosphere, encouraging questions and contributions from everyone.
+  We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
 
-- **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently. This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts. In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
+- **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
+  This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts.
+  In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
 
 <!-- - link to pedagogical foundations -->
 
@@ -178,6 +186,6 @@ possibly a “how to succeed” section
 <div class="references">
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
     <p>Luciano, R. (2015). Fluent Python: Clear, Concise, and Effective Programming. O'Reilly Media.</p>
-    <p>Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
+    <p>Wagner, G., and Thurner, L. (2025) "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
 </div>
 
