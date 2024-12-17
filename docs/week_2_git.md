@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 3
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Week 2: Introduction to Git
 
 Learning Git, especially branching, committing, and collaborating, is essential for effective group work when contributing to the CoLRev Python package.

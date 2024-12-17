@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 6
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Weeks 6-11: Group work and hacking sessions
 
 In weeks 6 to 11, the groups focus on completing their project work.

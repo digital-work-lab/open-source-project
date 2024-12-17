@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 4
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Week 3: Introduction to Python
 
 In the two Python sessions, we will start to program in Python and explore the CoLRev Python package.

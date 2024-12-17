@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 2
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Week 1: Topics
 
 In week 1, we start with the introductory session, covering the project outline and goals, explaining how groups will form and how contributions will be evaluated.

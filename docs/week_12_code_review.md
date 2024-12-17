@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 7
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Week 12: Code review
 
 In this session, we ask you to review the code of another group, i.e., their pull request.

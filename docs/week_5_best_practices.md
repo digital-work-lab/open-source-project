@@ -5,6 +5,12 @@ has_toc: true
 nav_order: 5
 ---
 
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
 # Week 5: Git and coding best practices
 
 In this session, we learn essential Git and coding best practices.
