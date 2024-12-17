@@ -13,7 +13,7 @@ gh_edit_branch: 'main'
 gh_edit_view_mode: 'tree'
 
 mermaid:
-  version: "11.1.0"
+  version: "11.4.0"
 
 callouts:
   warning:
