@@ -15,10 +15,14 @@ We look forward to meeting you!
 {: .objective }
 > In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
 
+<br>
+
 <iframe src="../output/01-topics.html" 
-        style="width: 100%; aspect-ratio: 16 / 9; border: 0;" 
+        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
         allowfullscreen>
 </iframe>
+
+<br>
 
 | **Material**         | **Link**                                                                                                                           |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------|
