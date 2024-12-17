@@ -13,6 +13,9 @@ nav_order: 6
 
 # Weeks 6-11: Group work and hacking sessions
 
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 In weeks 6 to 11, the groups focus on completing their project work.
 We offer hacking sessions to discuss current progress and help solve challenges.
 

@@ -13,6 +13,9 @@ nav_order: 5
 
 # Week 5: Git and coding best practices
 
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 In this session, we learn essential Git and coding best practices.
 This will help your ability to write clean, maintainable code and use Git effectively for version control.
 The session also includes practical examples and guidelines that will help you develop better workflows for collaborative coding projects.

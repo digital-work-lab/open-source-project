@@ -13,6 +13,9 @@ nav_order: 7
 
 # Week 12: Code review
 
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 In this session, we ask you to review the code of another group, i.e., their pull request.
 You will adopt the perspective of a **maintainer**, i.e., a gatekeeper who takes responsibility for an open-source project by screening, improving, and integrating code contributions.
 

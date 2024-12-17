@@ -13,6 +13,9 @@ nav_order: 3
 
 # Week 2: Introduction to Git
 
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 Learning Git, especially branching, committing, and collaborating, is essential for effective group work when contributing to the CoLRev Python package.
 Git enables multiple contributors to work on different parts of the project simultaneously through branching, allowing for experimentation without affecting the main codebase.
 By committing regularly, team members maintain a history of their changes, making it easier to track progress and revert mistakes.

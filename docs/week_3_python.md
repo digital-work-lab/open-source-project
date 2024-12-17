@@ -13,6 +13,9 @@ nav_order: 4
 
 # Week 3: Introduction to Python
 
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 In the two Python sessions, we will start to program in Python and explore the CoLRev Python package.
 You do not have to bring prior experience with Python, but we assume that you are familiar with an object-orient programming language (like Java or C).
 
