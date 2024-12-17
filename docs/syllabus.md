@@ -147,20 +147,20 @@ possibly a “how to succeed” section
 ## Teaching approach
 
 - **Complex Skill Development**: The project focuses on teaching complex skills necessary for modern software development.
-  This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using tools such as Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
+  This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
   To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
 
 - **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
   This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance.
   Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
 
-- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
-  We create a positive learning atmosphere, encouraging questions and contributions from everyone.
-  We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
-
 - **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
   This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts.
   In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
+
+- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
+  We create a positive learning atmosphere, encouraging questions and contributions from everyone.
+  We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
 
 <!-- - link to pedagogical foundations -->
 
