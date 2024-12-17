@@ -22,6 +22,8 @@ If you have any questions during or after the sessions, we're here to assist. We
 > - Understand how to use other Python modules and libraries
 > - Prepare for extending the functionality of the CoLRev package
 
+## Session 1
+
 <br>
 
 <iframe src="../output/03-python_1.html" 
@@ -35,6 +37,8 @@ If you have any questions during or after the sessions, we're here to assist. We
 |----------------------|---------------------------------------------------------------------------------------------------------|
 | Slides session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"} |
 | Notebook session 1   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
+
+## Session 2
 
 <br>
 
