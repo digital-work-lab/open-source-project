@@ -16,6 +16,15 @@ Mastering these Git skills ensures smooth, organized teamwork and enhances the q
 {: .objective }
 In this session, our goal is to understand how to use Git to develop software in teams by covering the areas of branching, committing, and collaborating.
 
+<br>
+
+<iframe src="../output/02-git.html" 
+        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
+        allowfullscreen>
+</iframe>
+
+<br>
+
 | **Material** | **Links** |
 | ------------ | --------- |
 | Slides | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/02-git.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/02-git.pdf){: target="_blank"} |

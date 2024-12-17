@@ -22,6 +22,15 @@ As a group, your goals are to:
 
 Keep in mind that your review should be constructive and respectful, encouraging the contributors to revise their work and continue to be part of the community.
 
+<br>
+
+<iframe src="../output/06-code_review.html" 
+        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
+        allowfullscreen>
+</iframe>
+
+<br>
+
 | **Materials**              | **Link**                                                                                                                                |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/06-code_review.pdf){: target="_blank"} |
