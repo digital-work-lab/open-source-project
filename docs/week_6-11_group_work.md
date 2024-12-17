@@ -26,7 +26,7 @@ Hacking sessions can be in-person ([WE5 1.081](https://www.openstreetmap.org/?ml
 To make an appointment, simply schedule a meeting using the Calendly tool:
 
 {: .text-center}
-[Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
+[Schedule a hacking session](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
 {: .text-center}
 
 We expect you to try hard to solve the challenges yourself.
