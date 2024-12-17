@@ -15,11 +15,12 @@ We look forward to meeting you!
 {: .objective }
 > In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
 
+<iframe src="../output/01-topics.html" width="100%" frameborder="0" allowfullscreen></iframe>
+
 | **Material**         | **Link**                                                                                                                           |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-HTML%20Slides-orange?logo=html5)](../output/01-topics.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/01-topics.pdf){: target="_blank"} |
 
-<iframe src="../output/01-topics.html" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>
 
 Tasks to complete this week:
 
