@@ -69,6 +69,13 @@ Useful links and resources for learning Python are available [here](../docs/reso
 
 ---
 
+### Deliverable: Merge
+
+- Merge should be done in one of the first hacking session meetings
+- The merge should already be within your project and should make sense
+- It will be together with us to prevent problems or solve them with you right away
+
+---
 # We value your feedback and suggestions
 
 We encourage you to share your feedback and suggestions on this slide deck:

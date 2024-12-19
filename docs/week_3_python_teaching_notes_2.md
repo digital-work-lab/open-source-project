@@ -57,6 +57,12 @@ search_exclude: true
 
 ## Wrap-up <a id="wrap-up"></a>
 
+**Deliverable: Merge**
+
+- Merge should be done in one of the first hacking session meetings
+- The merge should already be within your project and should make sense
+- It will be together with us to prevent problems or solve them with you right away
+
 **Next: Best practice and hacking sessions (per group)**
 
 - Suggest pair-programming
