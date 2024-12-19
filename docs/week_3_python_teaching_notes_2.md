@@ -59,7 +59,7 @@ search_exclude: true
 
 **Deliverable: Merge**
 
-- Merge should be done in one of the first hacking session meetings
+- The merge should be done in one of the first hacking session meetings
 - Students should prepare the merge by selecting suitable branches and explaining why they should be merged
 - We will complete the merge together with the students to prevent and solve problems
 
