@@ -4,15 +4,17 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch
+      - main
   pull_request:
     branches:
-      - main  # Trigger the workflow on pull request targeting the main branch
+      - main
 
 jobs:
   install-and-run:
     runs-on: ubuntu-latest  # Use the latest Ubuntu environment
-    
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,6 +28,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install git+https://github.com/digital-work-lab/labot.git
+          pip install colrev
+
+      - name: Set Git user name and email
+        run: |
+          git config --global user.name "Labot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global url.https://github.com/.insteadOf git://github.com/
 
       - name: Run labot.repository.main()
         run: |
