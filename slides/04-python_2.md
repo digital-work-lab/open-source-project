@@ -69,6 +69,13 @@ Useful links and resources for learning Python are available [here](../docs/reso
 
 ---
 
+### Deliverable: Merge
+
+- The merge should be done in one of the first hacking session meetings
+- Students should prepare the merge by selecting suitable branches and explaining why they should be merged
+- We will complete the merge together with the students to prevent and solve problems
+
+---
 # We value your feedback and suggestions
 
 We encourage you to share your feedback and suggestions on this slide deck:
