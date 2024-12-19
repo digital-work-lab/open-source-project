@@ -47,26 +47,26 @@ search_exclude: true
 
 ![Solution](../assets/python_solution_8.png)
 
-## Merging Exercise (moved to later time point)
+## Merging Exercise (moved to a later time point)
 
 **Until the 10th of November**
 
 - explain to the students what the merging exercise is about 
 - tell them about the survey and that it is important to fill it out for the best practice session
-- maybe create even a slide for the to look it up again
+- maybe create even a slide for students to look it up again
 
 ## Wrap-up <a id="wrap-up"></a>
 
 **Deliverable: Merge**
 
 - Merge should be done in one of the first hacking session meetings
-- The merge should already be within your project and should make sense
-- It will be together with us to prevent problems or solve them with you right away
+- Students should prepare the merge by selecting suitable branches and explaining why they should be merged
+- We will complete the merge together with the students to prevent and solve problems
 
 **Next: Best practice and hacking sessions (per group)**
 
 - Suggest pair-programming
-- Which CoLRev-objects or libraries will be needed, which steps are required
+- Which CoLRev-objects or libraries will be needed, and which steps are required
 - Create a fork for the team, give access to team members, and add a note to the issue feed
 - Check the resources provided with the issue, discuss the project, and make plans
 
