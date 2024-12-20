@@ -36,9 +36,16 @@ Git plays a central role in this context. Since its release in 2005, the market 
 As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git.
 Today, Git is an integral part of scaling extensive and highly distributed software development projects.
 
-Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration). Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams. The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
+Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration).
+Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams.
+The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
 
-At the beginning of the project, three block events are planned: (1) an overview of the open-source project and the sub-projects with subsequent topic assignments, (2) an introduction to Git, and (3) an introduction to Python. The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups. The code review session will take place in the last weeks of the lecture period. At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
+At the beginning of the project, three block events are planned:
+(1) an overview of the open-source project and the sub-projects with subsequent topic assignments,
+(2) an introduction to Git, and (3) an introduction to Python.
+The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups.
+The code review session will take place in the last weeks of the lecture period.
+At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
 
 {: .info }
 > **FlexNow**
@@ -48,7 +55,8 @@ At the beginning of the project, three block events are planned: (1) an overview
 
 ## Instructor
 
-My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others. In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}. 
+My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving programming puzzles, and building tools that are useful for others.
+In this project, I invite you to contribute to one of my most significant packages: [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}. 
 
 <img src="../assets/gerit_wagner.jpg" alt="Gerit Wagner (Foto: Tim Kipphan)" style="height: 220px; float: left; padding-right: 10px;">
 
@@ -58,7 +66,9 @@ My name is Gerit Wagner, and I am your instructor. I enjoy coding, solving progr
 
 <br style="clear:both">
 
-I use the Calendly tool to schedule meetings. It gives you an up-to-date overview of available slots in my schedule, and your reservations are immediately added to my calendar (no need to go back and forth via e-mail). We can meet in person or online, whatever works best for you.
+I use the Calendly tool to schedule meetings.
+It gives you an up-to-date overview of available slots in my schedule, and your reservations are immediately added to my calendar (no need to go back and forth via e-mail).
+We can meet in person or online, whatever works best for you.
 
 {: .text-center}
 [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
