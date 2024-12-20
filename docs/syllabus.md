@@ -26,18 +26,25 @@ nav_order: 1
 - **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend participating in the project after the 3rd semester. The following courses are required: *Inf-Einf-B Einführung in die Informatik* or *DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software*, and *DSG-JaP-B Java Programmierung*.
+- **Contact for administrative questions**: Prof. Dr. Gerit Wagner ( [gerit.wagner (at) uni-bamberg.de](gerit.wagner (at) uni-bamberg.de)
+- **Questions related to contents**: Please open an issue in the [CoLRev project](https://github.com/CoLRev-Environment/colrev) or your own fork and mention `@geritwagner`.
+
+**Summary**
+
+In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies.
+Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%.
+As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git.
+Today, Git is an integral part of scaling extensive and highly distributed software development projects.
+
+Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration). Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams. The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
+
+At the beginning of the project, three block events are planned: (1) an overview of the open-source project and the sub-projects with subsequent topic assignments, (2) an introduction to Git, and (3) an introduction to Python. The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups. The code review session will take place in the last weeks of the lecture period. At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
 
 {: .info }
 > **FlexNow**
 >
 > Registration in FlexNow is **not required** to participate in the project.
 > After submitting your work, we will register you for the project and enter your grade in FlexNow.
-
-In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies. Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%. As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git. Today, Git is an integral part of scaling extensive and highly distributed software development projects.
-
-Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration). Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams. The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
-
-At the beginning of the project, three block events are planned: (1) an overview of the open-source project and the sub-projects with subsequent topic assignments, (2) an introduction to Git, and (3) an introduction to Python. The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups. The code review session will take place in the last weeks of the lecture period. At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
 
 ## Instructor
 
