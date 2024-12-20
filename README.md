@@ -38,6 +38,7 @@ Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Pr
 
 - [Python Programming for Data Scie](https://www.tomasbeuzen.com/python-programming-for-data-science)
 - [Python Packages](https://py-pkgs.org/)
+- [Python: Creating a pip installable package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)
 
 ## Citation
 
