@@ -34,6 +34,11 @@ To reuse the materials, you can copy individual elements or [fork](https://githu
 
 Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". *Journal of Information Systems Education*, 36(1). (see [summary](https://digital-work-lab.github.io/rethink-git-teaching/))
 
+## Related resources
+
+- [Python Programming for Data Scie](https://www.tomasbeuzen.com/python-programming-for-data-science)
+- [Python Packages](https://py-pkgs.org/)
+
 ## Citation
 
 Wagner, G., Thurner, L., Tang, C., and Ott, S. (2024). The Open-Source Project. Zenodo. https://doi.org/10.5281/zenodo.13871275
