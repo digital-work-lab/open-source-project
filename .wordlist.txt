@@ -1,4 +1,4 @@
-htmlattribute
+7htmlattribute
 htmlcontent
 DOI
 Zenodo
@@ -960,3 +960,5 @@ choosealicense
 workspaces
 distro
 numpy
+Scie
+installable
