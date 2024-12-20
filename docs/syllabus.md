@@ -27,7 +27,7 @@ nav_order: 1
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend participating in the project after the 3rd semester. The following courses are required: *Inf-Einf-B Einführung in die Informatik* or *DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software*, and *DSG-JaP-B Java Programmierung*.
 - **Contact for administrative questions**: Prof. Dr. Gerit Wagner ( [gerit.wagner (at) uni-bamberg.de](gerit.wagner (at) uni-bamberg.de)
-- **Questions related to contents**: Please open an issue in the [CoLRev project](https://github.com/CoLRev-Environment/colrev) or your own fork and mention `@geritwagner`.
+- **Questions related to contents**: Please open an issue in the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"} or your own fork and mention `@geritwagner`.
 
 **Summary**
 
