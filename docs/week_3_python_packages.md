@@ -27,7 +27,7 @@ graph LR
 
 ## Basics
 
-To create a Python package, it is essential to follow a clear structure that complies with best practices, such as those outlined in [PEP 517](https://peps.python.org/pep-0517/) and [PEP 518](https://peps.python.org/pep-0518/).
+To create a Python package, it is essential to follow a clear structure that complies with best practices, such as those outlined in [PEP 517](https://peps.python.org/pep-0517/){: target="_blank"} and [PEP 518](https://peps.python.org/pep-0518/){: target="_blank"}.
 The structure ensures that the package is maintainable, pip-installable, and ready for distribution.
 Below is an example of a typical package structure for CoLRev (Python) packages:
 
@@ -51,7 +51,7 @@ colrev-package
 
 ### Managing CoLRev Packages
 
-To manage CoLRev packages, we use [Poetry](https://python-poetry.org/), a modern dependency and packaging tool.
+To manage CoLRev packages, we use [Poetry](https://python-poetry.org/){: target="_blank"}, a modern dependency and packaging tool.
 Poetry simplifies the creation and management of Python projects by centralizing metadata and dependency specifications in a pyproject.toml file.
 
 Below is an example pyproject.toml file for a CoLRev package:
@@ -197,7 +197,7 @@ Documentation is an essential part of any Python package.
 It ensures that users can understand and effectively use your package while providing developers with a reference for maintaining or extending it.
 Start with a clear and concise `README.md` file that outlines the purpose, features, installation instructions, and usage examples of your package. 
 
-The documentation of individual CoLRev packages should be made available in the [overview](https://colrev-environment.github.io/colrev/manual/packages.html).
+The documentation of individual CoLRev packages should be made available in the [overview](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
 To accomplish this, CoLRev maintainers will run
 
 ```
@@ -208,7 +208,7 @@ colrev env --update_package_list
 
 Making Python packages availbale on PyPI allows others to install the package using the simple command `pip install package_name`.
 Publishing a Package to PyPI requires an account and authentication.
-We recommend a publishing workflow based on GitHub actions, which are triggered every time a new release is published (see [publish_pypi.yml](https://github.com/CoLRev-Environment/colrev/blob/main/.github/workflows/publish_pypi.yml)).
+We recommend a publishing workflow based on GitHub actions, which are triggered every time a new release is published (see [publish_pypi.yml](https://github.com/CoLRev-Environment/colrev/blob/main/.github/workflows/publish_pypi.yml){: target="_blank"}).
 
 {: .blue }
 > Currenlty, built-in CoLRev packages are published and distributed with the CoLRev core package.
