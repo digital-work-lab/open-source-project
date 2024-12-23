@@ -44,7 +44,7 @@ colrev-package
 └── pyproject.toml
 ```
 
-{: .note }
+{: .blue }
 > The `__init__.py` file marks a directory as a Python package, making its modules importable.
 > It can also include initialization code for the package.
 > For instance, it might define a package-wide variable or import frequently used modules to simplify access.
@@ -83,7 +83,8 @@ requires = ["poetry-core>=1.0.0", "cython<3.0"]
 build-backend = "poetry.core.masonry.api"
 ```
 
-e.g., cli-entrypoint
+{: .blue }
+> The `tool.poetry.scripts` defines cli entrypoints. In this case, running `example-cli` in the shell would call the `main_function()` in the `package.module` module.
 
 ### Setting up the Package
 
@@ -110,7 +111,7 @@ This allows you to make changes to the package code and see the updates immediat
 When using a package, it’s important to distinguish between the data directory and the package directory.
 While "pure users" of the package may not know where the code resides, developers have installed it from a specific *package location* when running `pip install -e .`.
 
-{: .note }
+{: .blue }
 > In GitHub Codespaces, it is necessary to create a separate data directory and open it in VisualStudio:
 > 
 > ```
@@ -166,7 +167,7 @@ Once the functionality matures, it may be called through the CoLRev cli. For exa
 colrev search -a colrev.example_package
 ```
 
-{: .note }
+{: .blue }
 > **Advanced testing strategy for ColRev**
 > 
 > Given that CoLRev packages create new commits in the data directory, it can be helpful to get the SHA of the initial commit and combine the tests with `git reset --hard COMMIT-SHA`.
@@ -209,7 +210,7 @@ Making Python packages availbale on PyPI allows others to install the package us
 Publishing a Package to PyPI requires an account and authentication.
 We recommend a publishing workflow based on GitHub actions, which are triggered every time a new release is published (see [publish_pypi.yml](https://github.com/CoLRev-Environment/colrev/blob/main/.github/workflows/publish_pypi.yml)).
 
-{: .note }
+{: .blue }
 > Currenlty, built-in CoLRev packages are published and distributed with the CoLRev core package.
 > In the future, they will be published as separate packages on PyPI.
 

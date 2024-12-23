@@ -27,6 +27,8 @@ callouts:
   feedback:
     title: Student feedback
     color: blue
+  blue:
+    color: blue
   objective:
     title: Learning objective
     color: blue
