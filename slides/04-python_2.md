@@ -51,21 +51,18 @@ colrev package --init
 
 This command assists you in setting up a new CoLRev package interactively.
 
-More information on package development is available in the [documentation](https://colrev-environment.github.io/colrev/dev_docs/packages.html).
-
----
-
-# Resources
-
-Useful links and resources for learning Python are available [here](../docs/resources).
+More information on package development is available [here](../docs/week_3_python_packages) and in the [documentation](https://colrev-environment.github.io/colrev/dev_docs/packages.html).
 
 ---
 
 # Next: Best practice and hacking sessions (per group)
 
+- Study the [overview of Python and CoLRev packages](../docs/week_3_python_packages)
 - Read the CoLRev-Enhancement Proposal on SearchSources [CEP-002](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html), and raise questions in the issue feed (if any)
 - Take notes on key challenges and questions (for the best practice session)
 - Schedule consultation sessions as needed via [Calendly](https://calendly.com/gerit-wagner/30min?month=2023-10)
+
+Useful links and resources for learning Python are available [here](../docs/resources).
 
 ---
 
