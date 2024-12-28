@@ -963,3 +963,4 @@ numpy
 Scie
 installable
 Jupyter
+pypi
