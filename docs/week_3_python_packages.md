@@ -206,12 +206,12 @@ colrev env --update_package_list
 
 ## Publishing
 
-Making Python packages availbale on PyPI allows others to install the package using the simple command `pip install package_name`.
+Making Python packages available on PyPI allows others to install the package using the simple command `pip install package_name`.
 Publishing a Package to PyPI requires an account and authentication.
 We recommend a publishing workflow based on GitHub actions, which are triggered every time a new release is published (see [publish_pypi.yml](https://github.com/CoLRev-Environment/colrev/blob/main/.github/workflows/publish_pypi.yml){: target="_blank"}).
 
 {: .blue }
-> Currenlty, built-in CoLRev packages are published and distributed with the CoLRev core package.
+> Currently, built-in CoLRev packages are published and distributed with the CoLRev core package.
 > In the future, they will be published as separate packages on PyPI.
 
 <!-- https://hatch.pypa.io/latest/intro/#setup -->
