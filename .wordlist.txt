@@ -962,3 +962,4 @@ distro
 numpy
 Scie
 installable
+Jupyter
