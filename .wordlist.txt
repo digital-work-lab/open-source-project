@@ -964,3 +964,4 @@ Scie
 installable
 Jupyter
 pypi
+pytest
