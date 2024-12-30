@@ -11,7 +11,10 @@ nav_order: 8
   }
 </style>
 
-## Week 13: Project completion
+# Week 13: Project completion
+
+![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
 After receiving the review, please incorporate the feedback to ensure your contribution is merged and the project is completed.
 During this stage, we will oversee the process to help you finish the project by week 13.
