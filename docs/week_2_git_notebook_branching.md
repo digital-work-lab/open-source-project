@@ -142,9 +142,9 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 <ul>
   <li>The project has two parallel branches: <strong>Main</strong> and <strong>Develop</strong>. <strong>Main</strong> has stable releases and urgent hotfixes (e.g., to fix bugs).</li>
-  <li>The <strong>Develop</strong> branch contains the development activity, more complex tasks are completed in separate <strong>Feature</strong> branches (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the <strong>Develop</strong>strong> branch.</li>
-  <li>To release new versions, the developers create a branch from <strong>Develop</strong>, do some pre-release work, and eventually merge it into <code>Main</code>.</li>
-  <li>This setup ensures that the <strong>Main</strong>strong> branch is stable and unaffected by untested code.</li>
+  <li>The <strong>Develop</strong> branch contains the development activity, more complex tasks are completed in separate <strong>Feature</strong> branches (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the <strong>Develop</strong> branch.</li>
+  <li>To release new versions, the developers create a branch from <strong>Develop</strong>, do some pre-release work, and eventually merge it into <strong>Main</strong>.</li>
+  <li>This setup ensures that the <strong>Main</strong> branch is stable and unaffected by untested code.</li>
 </ul>
 
 </details>
