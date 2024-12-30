@@ -60,7 +60,7 @@ git clone https://github.com/CoLRev-Environment/colrev
 
 <details>
 
-<summary>Check:</summary>
+<summary>Check</summary>
 
 The clone command should print something like the following (the number of objects may differ):
 
@@ -101,7 +101,7 @@ git status
 
 <details>
 
-<summary>Check:</summary>
+<summary>Check</summary>
 
 <p>The <code>git status</code> command should print something like the following:</p>
 
@@ -142,7 +142,7 @@ This means that changes in the README.md are **staged** (to be committed).
 
 <details>
 
-<summary>Check:</summary>
+<summary>Check</summary>
 
 <p>The <code>git status</code> should now display:</p>
 
@@ -171,7 +171,7 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 <details>
 
-<summary>Check:</summary>
+<summary>Check</summary>
 
 <code>git status</code> should reflect your expected state of files in the three Git sections.
 
@@ -198,7 +198,7 @@ We decide to discard our changes.
 
 <details>
 
-<summary>Check:</summary>
+<summary>Check</summary>
 
 <p>The <code>git status</code> should show the following:</p>
 
@@ -226,9 +226,7 @@ In addition, check the commit message (short summary at the beginning). Does the
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution:</b>
+<summary>Solution</summary>
 
 Atomic commit, ok.
 
@@ -238,9 +236,7 @@ Atomic commit, ok.
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution:</b> 
+<summary>Solution</summary>
 
 Relatively atomic. There are a few changes beyond `compute_language()`. May be improved.
 
@@ -250,9 +246,7 @@ Relatively atomic. There are a few changes beyond `compute_language()`. May be i
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution:</b> 
+<summary>Solution</summary>
 
 Many files changed. Changes not related to each other. Message refers to refactoring and testing, but the commit also adds functionality.
 
@@ -262,9 +256,7 @@ Many files changed. Changes not related to each other. Message refers to refacto
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution:</b> 
+<summary>Solution</summary>
 
 Many files changed, but the changes belong together. ok.
 
@@ -274,9 +266,7 @@ Many files changed, but the changes belong together. ok.
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution:</b> 
+<summary>Solution</summary>
 
 Atomic commit, ok.
 
@@ -290,7 +280,6 @@ To create atomic commits, you may need to **add specific lines of code that shou
 
 The changes are provided in the `rec_dict.patch` file, which must be placed in the project's working directory. To apply it, run:
 
-
 ```python
 # Suggests to rename the method but also introduces unrelated changes.
 git apply /workspaces/practice-git/notebooks/rec_dict.patch
@@ -301,7 +290,6 @@ git status
 **Task**: Use the Git GUI to check the changes that were introduced by the patch.
 
 In the following, we would like to add **only** the changes in lines related to the `load_records_dict` method and the `skip_notification` parameter (using `-p` for a partial `git add`):
-
 
 ```python
 # Add specific lines of code from the colrev/dataset.py

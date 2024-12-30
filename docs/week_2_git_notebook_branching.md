@@ -48,7 +48,7 @@ Hints:
 
 <details>
 
-<summary>Check:</summary>
+<summary>Solution</summary>
 
 The following commands produce this particular graph:
 
@@ -96,7 +96,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 <details>
 
-<summary>Check:</summary>
+<summary>Solution</summary>
 
 The following commands produce this particular graph:
 
@@ -136,9 +136,7 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution</b>
+<summary>Solution</summary>
 
 <ul>
   <li>The project has two parallel branches: <strong>Main</strong> and <strong>Develop</strong>. <strong>Main</strong> has stable releases and urgent hotfixes (e.g., to fix bugs).</li>
@@ -259,9 +257,7 @@ git commit -n -m 'update docs for quality_model'
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Solution</b>
+<summary>Solution</summary>
 
 <ul>
   <li>In method 1 (merge commit), there is one merge commit with two predecessors.</li>
@@ -281,9 +277,7 @@ git commit -n -m 'update docs for quality_model'
 
 <details>
 
-<summary>Check:</summary>
-
-<b>Answer</b>
+<summary>Solution</summary>
 
 The commit object always contains the commit author and date. If they differ, Git generates a different commit SHA from the content and metadata.
 
