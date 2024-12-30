@@ -52,8 +52,7 @@ Hints:
 
 The following commands produce this particular graph:
 
-<pre class="highlight">
-git commit
+<pre class="highlight">git commit
 git commit
 
 git branch bugFix
@@ -71,9 +70,7 @@ git commit -m "Commit c2 on bugFix"
 git checkout main
 git commit -m "Commit c3 on main"
 git checkout bugFix
-git rebase main
-
-</pre>
+git rebase main</pre>
 
 </details>
 
@@ -103,9 +100,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 
 The following commands produce this particular graph:
 
-<pre class="highlight">
-
-git commit
+<pre class="highlight">git commit
 git commit
 git checkout c1
 git checkout-b hotfix
@@ -123,9 +118,7 @@ git commit
 git checkout dev
 git merge feature
 git checkout main
-git merge dev
-
-</pre>
+git merge dev</pre>
 </details>
 
 ## Part 2: Branching strategies <a id="branch"></a>
