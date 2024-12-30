@@ -23,10 +23,16 @@ details > summary {
   font-weight: bold;
   padding: 5px;
   border-radius: 3px;
+  margin-bottom: 0;
+}
+
+details[open] > summary {
+  margin-bottom: 15px;
 }
 
 details > summary:hover {
-  background-color: #e0f7fa;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 details[open] {
