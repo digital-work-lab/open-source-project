@@ -10,8 +10,8 @@
   }
 }
 
-/* Style for the details container */
-.details-container {
+/* Style for the <details> container */
+details {
   border: 2px solid #ccc; /* Gray border */
   border-radius: 5px;
   padding: 10px;
@@ -19,8 +19,26 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the content inside details */
-.details-content {
+/* Style for the <summary> element */
+details > summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #e0f7fa; /* Light teal background */
+  border-radius: 3px;
+}
+
+/* Hover effect for the <summary> element */
+details > summary:hover {
+  background-color: #b2ebf2; /* Darker teal on hover */
+}
+
+/* Style for the expanded content inside <details> */
+details[open] {
+  padding: 10px;
+}
+
+details[open] > div {
   padding: 10px;
   background-color: #f9f9f9; /* Light gray background */
   border-top: 1px solid #ddd; /* Separate border for content */
