@@ -148,17 +148,17 @@ https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git
 <b>Solution</b>
 
 <ul>
-  <li>The project has two parallel branches: <strong>main</strong> and <strong>develop</strong>. <strong>main</strong> has stable releases and urgent hotfixes (e.g., to fix bugs).</li>
-  <li>The <strong>develop</strong> branch contains the development activity, more complex tasks are completed in separate <strong>feature branches</strong> (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the develop branch.</li>
-  <li>To release new versions, the developers create a branch from <strong>develop</strong>, do some pre-release work, and eventually merge it into <code>main</code>.</li>
-  <li>This setup ensures that the main branch is stable and not affected by untested code.</li>
+  <li>The project has two parallel branches: <strong>Main</strong> and <strong>Develop</strong>. <strong>Main</strong> has stable releases and urgent hotfixes (e.g., to fix bugs).</li>
+  <li>The <strong>Develop</strong> branch contains the development activity, more complex tasks are completed in separate <strong>Feature</strong> branches (one has been merged, another may be under development or be stalled.) Hotfixes are also integrated into the <strong>Develop</strong>strong> branch.</li>
+  <li>To release new versions, the developers create a branch from <strong>Develop</strong>, do some pre-release work, and eventually merge it into <code>Main</code>.</li>
+  <li>This setup ensures that the <strong>Main</strong>strong> branch is stable and unaffected by untested code.</li>
 </ul>
 
 </details>
 
 ## Part 3: Merge methods <a id="merge"></a>
 
-In this part, we focus on different methods to integrate changes from one branch into another (aka. "merge methods").
+This part focuses on different methods to integrate changes from one branch into another (aka. "merge methods").
 
 When running `git merge other-branch`, there are two options:
 
@@ -275,10 +275,10 @@ git commit -n -m 'update docs for quality_model'
   <li>In method 2 (rebase), the individual commits from the quality branch are "replayed" on top of the main branch.</li>
   <li>In method 3 (squash), all changes from the original quality branch are combined in a single commit, which is added on top of the main branch.</li>
   <li>The contents of the last commit are identical across all three methods.</li>
-  <li>Each of the new commits has your account as the author, and the current date.</li>
+  <li>Each of the new commits has your account as the author and the current date.</li>
 </ul>
 
-<b>Note:</b> All three methods change the state of the <code>main</code> branch. None changes the state of the `quality` branch. The commit-IDs in your solution will differ.
+<b>Note:</b> All three methods change the state of the <code>main</code> branch. None changes the state of the <code>quality</code> branch. The commit IDs in your solution will differ.
 
 <img src="../assets/images/overview-task_solution.png" width="800"/>
 
@@ -292,7 +292,7 @@ git commit -n -m 'update docs for quality_model'
 
 <b>Answer</b>
 
-The commit object always contains the commit author and date. If they are different, Git generates a different commit SHA from the content and metadata.
+The commit object always contains the commit author and date. If they differ, Git generates a different commit SHA from the content and metadata.
 
 </details>
 
