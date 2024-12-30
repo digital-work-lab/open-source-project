@@ -9,3 +9,22 @@
     page-break-before: always;
   }
 }
+
+/* Style for the details container */
+.details-container {
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the content inside details */
+.details-content {
+  padding: 10px;
+  background-color: #f9f9f9; /* Light gray background */
+  border-top: 1px solid #ddd; /* Separate border for content */
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
