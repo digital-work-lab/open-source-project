@@ -45,15 +45,3 @@ Keep in mind that your review should be constructive and respectful, encouraging
 | Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/06-code_review.pdf){: target="_blank"} |
 
 Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/){: target="_blank"}
-
-## Project completion in week 13
-
-After receiving the review, please incorporate the feedback to ensure your contribution is merged and the project is completed.
-During this stage, we will oversee the process to help you finish the project by week 13.
-This may involve determining which revisions are essential and which can be skipped.
-
-{: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg) Implement the feedback provided in the pull request ([deadline](../index.html#deliverables)).
-
-Upon completion, we celebrate the accomplishments of our students in the [hall of fame](hall_of_fame.html) and the official [list of contributors](https://github.com/CoLRev-Environment/colrev?tab=readme-ov-file#contributors){: target="_blank"} 🎉 🍾 🎈
-

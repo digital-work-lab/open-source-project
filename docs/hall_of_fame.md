@@ -2,7 +2,7 @@
 layout: default
 title: Hall of Fame
 has_toc: true
-nav_order: 10
+nav_order: 11
 ---
 
 # Hall-of-fame
