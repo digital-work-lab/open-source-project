@@ -127,7 +127,6 @@ Analyze the Git graph with the different branches. Explain what happens as the p
 
 <!--
 - Branching strategies (have students examine repositories with different branching strategies)
-https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/git-branching-strategies/
 -->
 
 <img src="../assets/images/git-flow.png" width="800"/>
