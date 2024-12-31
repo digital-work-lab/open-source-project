@@ -91,7 +91,7 @@ search_exclude: true
 > wir möchten Sie daran erinnern, bis zur nächsten Session einen Kommentar in den Issue-Feeds zu hinterlassen.  
 >  
 > Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeed signalisieren:  
-> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9).  
+> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9){: target="_blank"}.  
 >  
 > Ein einfaches “I would like to work on this issue 🙋” reicht völlig aus.  
 >  
@@ -107,7 +107,7 @@ search_exclude: true
 > This is a friendly reminder to leave a comment in the issue feeds before the next session.  
 >  
 > You can signal your interest in the sub-topics here:  
-> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9).  
+> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9){: target="_blank"}.  
 >  
 > A simple “I would like to work on this issue 🙋” is sufficient.  
 >  
@@ -262,12 +262,12 @@ VC post (27.11.24)
 > ✉️ Die Evaluation des WI-Projekts haben Sie per E-Mail erhalten. Wir würden uns freuen, wenn Sie sich einen Moment Zeit nehmen, um uns Ihr Feedback zu geben. Ihre Rückmeldungen helfen uns, zukünftige Projekte weiter zu verbessern.  
 >  
 > 💡 Parallel dazu haben wir Verbesserungsvorschläge für das kommende Semester in folgendem Issue gesammelt:  
-> [Verbesserungsvorschläge](https://github.com/digital-work-lab/open-source-project/issues/8)  
+> [Verbesserungsvorschläge](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"}  
 >  
 > Ich lade Sie herzlich ein, Ihre Ideen und Anregungen dort zu ergänzen.  
 >  
 > 🎓 Heute haben Sie außerdem die Gelegenheit, uns bei der **Choose-a-Chair Messe** persönlich zu treffen. Gerne sprechen wir mit Ihnen über mögliche Abschlussarbeitsthemen:  
-> [Themen für Abschlussarbeiten](https://digital-work-lab.github.io/theses/docs/topics.html)  
+> [Themen für Abschlussarbeiten](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
 >  
 > Mit besten Grüßen,  
 > Gerit Wagner  
@@ -283,12 +283,12 @@ VC post (27.11.24)
 > ✉️ You should have received the WI project evaluation via email. We would greatly appreciate it if you could take a moment to provide your feedback. Your insights are invaluable in helping us improve future projects.  
 >  
 > 💡 In parallel, we’ve gathered suggestions for the next semester in this GitHub issue:  
-> [Suggestions for Improvement](https://github.com/digital-work-lab/open-source-project/issues/8)  
+> [Suggestions for Improvement](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"}  
 >  
 > You are warmly invited to contribute your ideas and suggestions there.  
 >  
 > 🎓 Additionally, today’s **Choose-a-Chair Fair** offers a chance to meet us in person. Feel free to discuss potential thesis topics with us:  
-> [Thesis Topics](https://digital-work-lab.github.io/theses/docs/topics.html)  
+> [Thesis Topics](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
 >  
 > Best regards,  
 > Gerit Wagner  
@@ -303,7 +303,7 @@ VC post (27.11.24)
 > ich möchte Ihnen einige wichtige Informationen zur **Code-Review Session** zukommen lassen:  
 >  
 > 📋 Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:  
-> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html)  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html){: target="_blank"}  
 >  
 > 💡 Die Hauptidee ist es, die Perspektive eines Maintainers einzunehmen und Ihr im Projekt erworbenes Wissen auf ein ähnliches Thema anzuwenden. Dabei können Sie:  
 > - Ihre Kenntnisse in **Git, Python und CoLRev** demonstrieren,  
@@ -329,7 +329,7 @@ VC post (27.11.24)
 > Here are some important details about the **Code Review Session**:  
 >  
 > 📋 The procedure is described on the slides, accessible via the following link:  
-> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html)  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html){: target="_blank"}  
 >  
 > 💡 The primary idea is to adopt the perspective of a maintainer and apply the knowledge you’ve gained in the project to a similar topic. During the session, you will:  
 > - Demonstrate your skills in **Git, Python, and CoLRev**,  
