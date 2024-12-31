@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Mailing"
+title: "Mailings"
 nav_exclude: true
 has_toc: true
 search_exclude: true
@@ -15,103 +15,107 @@ search_exclude: true
 - TOC
 {:toc}
 
-## Advertising the project<a id="advertising"></a>
+## Advertising the Project <a id="advertising"></a>
 
-VC post (advertise the project in the lecture):
+### VC Post (German)
 
-> Liebe Studierende,
-> 
-> ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.
-> 
-> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne noch kurzfristig dazukommen. Mit git und GitHub sind Sie ja schon vertraut und die Einführung in Python findet nächste Woche statt (Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003), Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)). Schicken Sie mir bei Interesse gerne eine E-Mail.
-> 
-> Alles Gute für das WS 24/25!
-> 
-> Mit besten Grüßen
-> 
-> Gerit Wagner
+> Liebe Studierende,  
+> ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.  
+>  
+> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, Git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne kurzfristig dazukommen. Mit Git und GitHub sind Sie ja schon vertraut, und die Einführung in Python findet nächste Woche statt:  
+> - 📅 Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003)  
+> - 📅 Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)  
+>  
+> ✉️ Bei Interesse senden Sie mir bitte eine E-Mail.  
+>  
+> Alles Gute für das Wintersemester 24/25! 🍁  
+>  
+> Mit besten Grüßen,  
+> Gerit Wagner  
 
-English Version:
+### VC Post (English)
 
-> Dear students,
-> 
-> I hope you had a restful time after the exams and that you have returned to the semester safely.
-> 
-> In the current semester (as well as in the coming summer semester) I am offering a WI project in which we work with Python, git and the GitHub open source workflow. If you have not yet taken the WI project, you are welcome to join at short notice. You are already familiar with git and GitHub and the introduction to Python will take place next week (Tuesday, 28.10.2024, 08:00 - 12:00 (WE5/01.003), Thursday, 30.10.2024, 14:00 - 18:00 (WE5/01.003)). Please send me an e-mail if you are interested.
-> 
-> All the best for WS 24/25!
-> 
-> With best regards
-> 
-> Gerit Wagner
+> Dear Students,  
+> I hope you had a restful time after the exams and that you’ve settled well into the semester.  
+>  
+> This semester (and in the upcoming summer semester), I’m offering a WI project focusing on Python, Git, and the GitHub Open-Source Workflow. If you haven’t enrolled yet, you are welcome to join at short notice. You’re already familiar with Git and GitHub, and the Python introduction will take place next week:  
+> - 📅 Tuesday, 28.10.2024, 08:00 – 12:00 (WE5/01.003)  
+> - 📅 Thursday, 30.10.2024, 14:00 – 18:00 (WE5/01.003)  
+>  
+> ✉️ Please email me if interested.  
+>  
+> All the best for Winter Semester 24/25! 🍁  
+>  
+> Best regards,  
+> Gerit Wagner  
 
-## Welcome and information<a id="welcome"></a>
+## Welcome and Information <a id="welcome"></a>
 
-VC post:
+### VC Post (German)
 
-> Sehr geehrte Studierende,
-> 
-> herzlich willkommen zum WI-Projekt der Juniorprofessur für Digital Work.
-> 
-> Sie finden alle administrativen Informationen sowie Unterlagen hier im VC-Kurs. Bitte beachten Sie, dass sämtliche schriftliche Kommunikation sowie alle Informationen hier im VC-Kurs erfolgt bzw. zur Verfügung gestellt wird.
-> 
-> Bei Fragen zur Veranstaltung können Sie sich gern an mich (gerit.wagner@uni-bamberg.de) wenden.
-> 
-> Ich wünsche Ihnen eine erfolgreiche Veranstaltung.
-> 
-> Mit besten Grüßen
-> 
-> Gerit Wagner
+> Sehr geehrte Studierende,  
+>  
+> Herzlich willkommen zum WI-Projekt der Juniorprofessur für Digital Work!  🎉
+>  
+> Sie finden alle administrativen Informationen sowie Unterlagen hier im VC-Kurs. Bitte beachten Sie, dass sämtliche schriftliche Kommunikation sowie alle Informationen hier im VC-Kurs erfolgen bzw. zur Verfügung gestellt werden.  
+>  
+> Bei Fragen zur Veranstaltung können Sie sich gern an mich (gerit.wagner@uni-bamberg.de) wenden.  
+>  
+> Ich wünsche Ihnen eine erfolgreiche Veranstaltung und viel Freude am Projekt! 🚀  
+>  
+> Mit besten Grüßen,  
+> Gerit Wagner  
 
-English Version:
+### VC Post (English)
 
-> Dear students,
+> Dear Students,  
+>  
+> Welcome to the WI project of the Junior Professorship for Digital Work!  🎉
+>  
+> You will find all administrative information and documents here in the VC course. Please note that all written communication and information will be provided here in the VC course.  
 > 
-> Welcome to the WI project of the Junior Professorship for Digital Work.
-> 
-> You will find all administrative information and documents here in the VC course. Please note that all written communication and information will be provided here in the VC course.
-> 
-> If you have any questions about the course, please contact me (gerit.wagner@uni-bamberg.de).
-> 
-> I wish you a successful event.
-> 
-> With best regards
-> 
-> Gerit Wagner
+> If you have any questions about the course, please feel free to contact me (gerit.wagner@uni-bamberg.de).  
+>  
+> Wishing you a successful and enjoyable project! 🚀  
+>  
+> Best regards,  
+> Gerit Wagner  
 
-## Comment-on-issues
 
-VC post (21.10.25)
+## Comment on Issues <a id="comment-issues"></a>
 
-> Liebe Studierende,
-> 
-> wir möchten Sie daran erinnern, dass Sie bis zur nächsten Session einen Kommentar in den Issue-Feeds hinterlassen.
->
-> Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeeds signalisieren: https://github.com/CoLRev-Environment/colrev/milestone/9.
-> 
-> Ein einfaches “I would like to work on this issue 🙋” wäre ausreichend.
-> 
-> Bei Fragen können wir gerne weiterhelfen.
-> 
-> Mit besten Grüßen
-> 
-> Ihr Digital Work Team
+### VC Post (German)
 
-English Version:
+> Liebe Studierende,  
+>  
+> wir möchten Sie daran erinnern, bis zur nächsten Session einen Kommentar in den Issue-Feeds zu hinterlassen.  
+>  
+> Ihr Interesse an den Teilthemen können Sie hier im Diskussionsfeed signalisieren:  
+> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9).  
+>  
+> Ein einfaches “I would like to work on this issue 🙋” reicht völlig aus.  
+>  
+> Bei Fragen stehen wir Ihnen gerne zur Verfügung.  
+>  
+> Mit besten Grüßen,  
+> Ihr Digital Work Team  
 
-> Dear students,
-> 
-> We would like to remind you to leave a comment in the issue feeds before the next session.
->
-> > You can signal your interest in the sub-topics here in the discussion feeds: https://github.com/CoLRev-Environment/colrev/milestone/9.
-> 
-> A simple “I would like to work on this issue 🙋” would be sufficient.
-> 
-> If you have any questions, we will be happy to help.
-> 
-> With best regards
-> 
-> Laureen Thurner
+### VC Post (English)
+
+> Dear Students,  
+>  
+> This is a friendly reminder to leave a comment in the issue feeds before the next session.  
+>  
+> You can signal your interest in the sub-topics here:  
+> [GitHub Discussion](https://github.com/CoLRev-Environment/colrev/milestone/9).  
+>  
+> A simple “I would like to work on this issue 🙋” is sufficient.  
+>  
+> If you have any questions, feel free to reach out.  
+>  
+> Best regards,  
+> Laureen Thurner  
+
 
 ## Prep-best-practice
 
@@ -145,204 +149,218 @@ English Version:
 
 Mailing: Survey covering questions and challenges to be discussed in the session
 
-> Liebe Studierende,
->
-> zur Vorbereitung der Best Practice Session würden wir Sie bitten, die Umfrage die über diesen Link zur verfügung steht auszufüllen.
->
->
-> Somit können wir in der Session gezielt auf Ihre Fragen und Herausforderungen eingehen.
->
+### Mailing (German)
+
+> Liebe Studierende,  
+>  
+> zur Vorbereitung der Best Practice Session bitten wir Sie, die Umfrage auszufüllen, die über diesen Link erreichbar ist:  
+> [Umfrage-Link]  
+>  
+> Dadurch können wir in der Session gezielt auf Ihre Fragen und Herausforderungen eingehen.  
+>  
 > Wir freuen uns auf die nächste Session mit Ihnen am 13. November!
->
-> Beste Grüße und eine erfolgreiche Woche
->
-> Laureen Thurner
+>  
+> Beste Grüße und eine erfolgreiche Woche,  
+> Laureen Thurner  
 
-English Version:
+### Mailing (English)
 
-> Dear students,
->
-> In preparation for the Best Practice Session, we would ask you to do the survey under this Link.
->
-> This will allow us to address your questions and challenges in the session.
->
+> Dear Students,  
+>  
+> In preparation for the Best Practice Session, please complete the survey available via this link:  
+> [Survey Link]  
+>  
+> This will help us address your questions and challenges effectively in the session.  
+>  
 > We look forward to the next session with you on November 13!
->
-> Best wishes and have a successful week
->
-> Laureen Thurner
+>  
+> Best wishes and have a successful week,  
+> Laureen Thurner  
 
 
 ## Hacking sessions
 
-Encourage students to attend hacking sessions
+### VC Post (German)
 
 VC post (27.11.24)
 
 {: .info }
 > TODO: reminder: by now, you should have a code skeleton, should be able to retrieve records from the api - make an appointment if you don't.
 
-> Liebe Studierende,
->
-> wir möchten Sie nochmals auf das Angebot der Hacking Sessions verweisen.
->
-> Diese können Sie einfach unter diesem Link buchen.
->
-> Beste Grüße und weiterhin Viel Erfolg beim Projekt
->
-> Laureen Thurner
+> Liebe Studierende,  
+>  
+> wir möchten Sie nochmals auf das Angebot der Hacking Sessions hinweisen. 🚀  
+>  
+> Diese können Sie ganz einfach über diesen Link buchen: [Buchungs-Link]  
+>  
+> Viel Erfolg beim Projekt – und denken Sie daran: Falls Sie Unterstützung benötigen, stehen wir Ihnen gerne zur Verfügung! 🙌  
+>  
+> Beste Grüße,  
+> Laureen Thurner  
 
-English Version:
+### VC Post (English)
 
-> Dear students,
->
-> We would like to draw your attention once again to the hacking sessions on offer.
->
-> You can easily book these using this link.
->
-> Best regards and continued success with the project
->
-> Laureen Thurner
-
-
-## Pull-request
-
-Reminder for pull-request and code review session
-
-VC post (12.12.24)
-
-> Liebe Studierende,
-> 
-> ich möchte Sie kurz an das Erstellen des Pull-Requests am 20. Dezember erinnern. Der Code kann nach dem erstellen des Pull Requests noch geändert werden bis spätestens 12. Januar, ab diesem Zeitpunkt werden Änderungen nicht mehr evaluiert.
->
-> Zudem haben wir den Termin für die Code-Review Session festgelegt. Diese findet am 17. Januar zwischen 13 und 15 Uhr im	ISM Lab 1.094 statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen. Bitte beachten Sie, dass nur ein Mitglied pro Team einen Slot bucht, damit alle Termine eingehalten werden können. Die Code-Review Session wird inklusive des anschließenden Gesprächs maximal 1 Stunde dauern.
-> 
-> Beste Grüße und viel Erfolg beim Endspurt
-> 
-> Laureen Thurner
-
-English Version:
-
-> Dear students,
-> 
-> I would like to briefly remind you to create a pull request by December 20. You can continue to work on your code until January 12 at the latest, after which time changes will no longer be evaluated.
->
-> We have also set the date for the code review session. This will take place at the TBA. You can book the exact time yourself this week in a survey here in the VC. Please note that only one member per team can book a slot so that all deadlines can be met. The code review session, including the subsequent discussion, will last a maximum of 1 hour.
-> 
-> Best regards and good luck with the final stretch!
-> 
-> Laureen Thurner
-
-## Evaluation
-
-Updates, course evaluation, and upcoming events (13.01.2025)
-
-> Liebe Studierende,
-> 
-> vielen Dank für Ihre Arbeit am Projekt und die Pull-Requests. Ich habe zum Abschluss jew. ein paar Verbesserungsvorschläge gemacht, die schnell umsetzbar sein sollten und teilweise schon erledigt wurden.
-> 
-> Zur Erinnerung: Die letzte Session findet am 9. Juli mit dem Code-Review statt. Fast alle Gruppen haben bereits einen Termin über VC gebucht.
-> 
-> Die Evaluation des WI-Projekts sollten Sie per E-Mail erhalten haben. Wir hoffen sehr, dass Sie mit dem Projekt zufrieden waren und dass Sie sich an der Evaluation beteiligen.
-> 
-> Parallel dazu haben wir Verbesserungsvorschläge für das kommende Semester im folgenden Issue gesammelt:
-> 
-> https://github.com/digital-work-lab/open-source-project/issues/8.
-> 
-> Ich lade Sie herzlich ein, weitere Ideen und Vorschläge dort zu ergänzen.
-> 
-> Heute findet zudem die Choose-a-Chair Messe statt, bei der wir die Möglichkeit haben, persönlich ins Gespräch zu kommen, zum Beispiel über Abschlussarbeiten:
-> 
-> https://digital-work-lab.github.io/theses/docs/topics.html
-> 
-> Mit besten Grüßen
-> 
-> Gerit Wagner
-
-English Version:
-
-> Dear students,
-> 
-> Thank you very much for your work on the project and the pull requests. At the end, I made a few suggestions for improvement, some of which could be implemented quickly and some of which have already been implemented.
-> 
-> As a reminder: The last session will take place on July 9th with the code review. Almost all groups have already booked an appointment via VC.
-> 
-> You should have received the evaluation of the WI project by e-mail. We very much hope that you were satisfied with the project and that you will participate in the evaluation.
-> 
-> At the same time, we have collected suggestions for improvement for the coming semester in the following issue:
-> 
-> > https://github.com/digital-work-lab/open-source-project/issues/8.
-> 
-> I cordially invite you to add further ideas and suggestions there.
-> 
-> > Today is also the Choose-a-Chair fair, where we have the opportunity to talk in person, for example about Bachelor's theses:
-> 
-> https://digital-work-lab.github.io/theses/docs/topics.html
-> 
-> With best regards
-> 
-> Gerit Wagner
+> Dear Students,  
+>  
+> We would like to draw your attention once again to the hacking sessions on offer. 🚀  
+>  
+> You can easily book these using this link: [Booking Link]  
+>  
+> Wishing you continued success with the project – and remember, we’re here to support you if needed! 🙌  
+>  
+> Best regards,  
+> Laureen Thurner  
 
 
-## Code review session
+## Pull Request and Code Review Session <a id="pull-request"></a>
 
-Information on the code-review session
+### VC Post (German)
 
-> Liebe Studierende,
-> 
-> ich möchte Ihnen noch ein paar Informationen zur Code-Review Session zukommen lassen. Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:
-> 
-> https://digital-work-lab.github.io/open-source-project/output/06-code_review.html
-> 
-> Grundsätzlich ist die Idee, die Maintainer-Perspektive einzunehmen und Ihr Wissen aus dem Projekt auf ein sehr ähnliches Thema zu übertragen.
-> 
-> Idealerweise können Sie dabei Ihre erworbenen Kenntnisse (Git, Python, CoLRev) zeigen und durch den Perspektivwechsel ergänzen. Zudem können Sie am Ende konstruktive Vorschläge zur Verbesserung des zugelosten Projekts einbringen. Die entsprechende Zuordnung der Gruppen/Pull-Request geben wir in der Session bekannt.
-> 
-> Wir begleiten die Session, indem wir bei Bedarf Tipps geben oder Fragen stellen. Die Session findet im ISM Labor 1.094 statt. Die Zuordnung der Gruppen zu Terminen wurde über die VC-Abstimmung abgeschlossen:
-> 
-> -  9.00 - 10.00 Uhr: XXXXXXXXXXXXXXXXXx
-> 
-> Es wäre hilfreich, wenn Sie einen HDMI-fähigen Laptop bzw. einen entsprechenden Adapter mitbringen.
-> 
-> Ich freue mich auf den erfolgreichen Projektabschluss mit Ihnen!
-> 
-> Mit besten Grüßen
-> 
-> Gerit Wagner
+> Liebe Studierende,  
+>  
+> eine kurze Erinnerung: Bitte erstellen Sie bis spätestens **20. Dezember** Ihren Pull-Request.
+>  
+> Der Code kann nach Erstellung des Pull-Requests noch bis zum **12. Januar** angepasst werden. Danach werden keine Änderungen mehr evaluiert.  
+>  
+> 📅 Die Code-Review-Session findet am **17. Januar** zwischen 13 und 15 Uhr im **ISM Lab 1.094** statt. Die genaue Uhrzeit können Sie diese Woche selbst in einer Umfrage hier im VC buchen.  
+>  
+> ⚠️ Bitte beachten Sie: Pro Team darf nur ein Mitglied einen Slot buchen, damit alle Termine eingehalten werden können. Die Session inklusive Gespräch dauert maximal 1 Stunde.  
+>  
+> Viel Erfolg beim Endspurt! 🚀  
+>  
+> Beste Grüße,  
+> Laureen Thurner  
 
-English Version:
+### VC Post (English)
 
-> Dear students,
-> 
-> I would like to send you some more information about the code review session. The procedure is described on the slides and can be accessed via the following link:
-> 
-> https://digital-work-lab.github.io/open-source-project/output/06-code_review.html
-> 
-> Basically, the idea is to take the maintainer perspective and transfer your knowledge from the project to a very similar topic.
-> 
-> Ideally, you can demonstrate the knowledge you have acquired (Git, Python, CoLRev) and add to it by changing your perspective. You can also make constructive suggestions for improving the assigned project at the end. We will announce the corresponding assignment of the groups/pull request in the session.
-> 
-> We will accompany the session by giving tips or asking questions if necessary. The session will take place in ISM Lab 1.094. The assignment of the groups to dates was finalized via the VC vote:
-> 
-> - 9.00 - 10.00 a.m.: XXXXXXXXXXXXXXXXXXXXXx
-> 
-> It would be helpful if you could bring an HDMI-capable laptop or an appropriate adapter.
-> 
-> I look forward to successfully completing the project with you!
-> 
-> With best regards
-> 
-> Gerit Wagner
+> Dear Students,  
+>  
+> A quick reminder: Please create your pull request by **December 20**. 
+>  
+> You can continue to work on your code until **January 12**, after which changes will no longer be evaluated.  
+>  
+> 📅 The code review session is scheduled for **January 17** between 1:00 and 3:00 PM in **ISM Lab 1.094**. You can book the exact time this week via a survey in the VC.  
+>  
+> ⚠️ Note: Only one member per team should book a slot to ensure all deadlines are met. The session, including the discussion, will last a maximum of 1 hour.  
+>  
+> Good luck with the final stretch! 🚀  
+>  
+> Best regards,  
+> Laureen Thurner  
 
 
-## Other mailings (archive)
+## Evaluation, Updates, and Upcoming Events <a id="evaluation"></a>
 
-> Liebe Studierende,
-> 
-> Die ersten Pull-Requests sind gemerged. Sie können gerne einen Blick auf meine abschließenden Änderungen werfen. Sprechen Sie mich bei Interesse an der Nutzung oder Weiterentwicklung von CoLRev, z.B. im Rahmen einer Abschlussarbeit, gerne an!
-> 
-> Die Evaluation sollten Sie ebenfalls erhalten haben - ich würde mich freuen, wenn Sie sich die Zeit nehmen und mir ein Feedback zur Veranstaltung geben.
-> 
-> Mit den besten Wünschen für eine erfolgreiche Klausurenzeit und eine erholsame vorlesungsfreie Zeit,
-> 
-> Gerit Wagner
+### VC Post (German)
+
+> Liebe Studierende,  
+>  
+> vielen Dank für Ihre engagierte Arbeit am Projekt und die eingereichten Pull-Requests! Zum Abschluss habe ich einige Verbesserungsvorschläge hinterlassen, die größtenteils leicht umsetzbar sind – einige wurden bereits erfolgreich umgesetzt.
+>  
+> 📅 Zur Erinnerung: Die letzte Session findet am **9. Juli** mit dem Code-Review statt. Die meisten Gruppen haben ihren Termin bereits über VC gebucht.  
+>  
+> ✉️ Die Evaluation des WI-Projekts haben Sie per E-Mail erhalten. Wir würden uns freuen, wenn Sie sich einen Moment Zeit nehmen, um uns Ihr Feedback zu geben. Ihre Rückmeldungen helfen uns, zukünftige Projekte weiter zu verbessern.  
+>  
+> 💡 Parallel dazu haben wir Verbesserungsvorschläge für das kommende Semester in folgendem Issue gesammelt:  
+> [Verbesserungsvorschläge](https://github.com/digital-work-lab/open-source-project/issues/8)  
+>  
+> Ich lade Sie herzlich ein, Ihre Ideen und Anregungen dort zu ergänzen.  
+>  
+> 🎓 Heute haben Sie außerdem die Gelegenheit, uns bei der **Choose-a-Chair Messe** persönlich zu treffen. Gerne sprechen wir mit Ihnen über mögliche Abschlussarbeitsthemen:  
+> [Themen für Abschlussarbeiten](https://digital-work-lab.github.io/theses/docs/topics.html)  
+>  
+> Mit besten Grüßen,  
+> Gerit Wagner  
+
+### VC Post (English)
+
+> Dear Students,  
+>  
+> Thank you for your dedicated work on the project and for submitting your pull requests! I’ve left some final suggestions for improvement, most of which are straightforward to implement – and some have already been successfully addressed.
+>  
+> 📅 A quick reminder: The final session will take place on **July 9th** with the code review. Most groups have already booked their slots via VC.  
+>  
+> ✉️ You should have received the WI project evaluation via email. We would greatly appreciate it if you could take a moment to provide your feedback. Your insights are invaluable in helping us improve future projects.  
+>  
+> 💡 In parallel, we’ve gathered suggestions for the next semester in this GitHub issue:  
+> [Suggestions for Improvement](https://github.com/digital-work-lab/open-source-project/issues/8)  
+>  
+> You are warmly invited to contribute your ideas and suggestions there.  
+>  
+> 🎓 Additionally, today’s **Choose-a-Chair Fair** offers a chance to meet us in person. Feel free to discuss potential thesis topics with us:  
+> [Thesis Topics](https://digital-work-lab.github.io/theses/docs/topics.html)  
+>  
+> Best regards,  
+> Gerit Wagner  
+
+
+## Code Review Session <a id="code-review-session"></a>
+
+### VC Post (German)
+
+> Liebe Studierende,  
+>  
+> ich möchte Ihnen einige wichtige Informationen zur **Code-Review Session** zukommen lassen:  
+>  
+> 📋 Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html)  
+>  
+> 💡 Die Hauptidee ist es, die Perspektive eines Maintainers einzunehmen und Ihr im Projekt erworbenes Wissen auf ein ähnliches Thema anzuwenden. Dabei können Sie:  
+> - Ihre Kenntnisse in **Git, Python und CoLRev** demonstrieren,  
+> - Ihre Fähigkeiten durch den Perspektivwechsel erweitern, und  
+> - am Ende konstruktive Verbesserungsvorschläge für das zugewiesene Projekt einbringen.  
+>  
+> 📅 Die Session findet im **ISM Labor 1.094** statt. Die Gruppenzuordnung wurde über die VC-Abstimmung abgeschlossen:  
+> - **9:00 - 10:00 Uhr**: XXXXXXXXXXXXXXXXXXX  
+>  
+> 🔌 Bitte bringen Sie einen **HDMI-fähigen Laptop** oder einen entsprechenden Adapter mit.  
+>  
+> Wir begleiten die Session und stehen bei Bedarf mit Tipps und Antworten auf Ihre Fragen zur Verfügung.  
+>  
+> Ich freue mich darauf, das Projekt gemeinsam erfolgreich abzuschließen! 🚀  
+>  
+> Mit besten Grüßen,  
+> Gerit Wagner  
+
+### VC Post (English)
+
+> Dear Students,  
+>  
+> Here are some important details about the **Code Review Session**:  
+>  
+> 📋 The procedure is described on the slides, accessible via the following link:  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html)  
+>  
+> 💡 The primary idea is to adopt the perspective of a maintainer and apply the knowledge you’ve gained in the project to a similar topic. During the session, you will:  
+> - Demonstrate your skills in **Git, Python, and CoLRev**,  
+> - Expand your abilities by shifting perspectives, and  
+> - Provide constructive suggestions for improving the assigned project.  
+>  
+> 📅 The session will take place in **ISM Lab 1.094**, and group assignments were finalized via the VC vote:  
+> - **9:00 - 10:00 a.m.**: XXXXXXXXXXXXXXXXXXX  
+>  
+> 🔌 Please bring an **HDMI-capable laptop** or the appropriate adapter.  
+>  
+> We will guide the session and provide tips or answer questions as needed.  
+>  
+> I look forward to successfully completing the project with you! 🚀  
+>  
+> Best regards,  
+> Gerit Wagner  
+
+
+## Other Mailings (Archive) <a id="other-mailings"></a>
+
+### VC Post (German)
+
+> Liebe Studierende,  
+>  
+> Die ersten **Pull-Requests** sind gemerged! Sie können gerne einen Blick auf meine abschließenden Änderungen werfen.  
+>  
+> Wenn Sie Interesse an der Nutzung oder Weiterentwicklung von **CoLRev** haben, z. B. im Rahmen einer Abschlussarbeit, sprechen Sie mich gerne an! 📚  
+>  
+> ✉️ Die Evaluation der Veranstaltung sollten Sie ebenfalls per E-Mail erhalten haben. Ich würde mich freuen, wenn Sie sich die Zeit nehmen und mir ein Feedback geben. Ihre Rückmeldungen sind für uns sehr wertvoll!  
+>  
+> Mit den besten Wünschen für eine erfolgreiche Klausurenzeit und eine erholsame vorlesungsfreie Zeit,  
+>  
+> Gerit Wagner  
