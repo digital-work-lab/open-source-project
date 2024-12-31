@@ -17,7 +17,7 @@ search_exclude: true
 
 ## Advertising the Project <a id="advertising"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 > ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.  
@@ -33,7 +33,7 @@ search_exclude: true
 > Mit besten Grüßen,  
 > Gerit Wagner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 > I hope you had a restful time after the exams and that you’ve settled well into the semester.  
@@ -51,7 +51,7 @@ search_exclude: true
 
 ## Welcome and Information <a id="welcome"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Sehr geehrte Studierende,  
 >  
@@ -66,7 +66,7 @@ search_exclude: true
 > Mit besten Grüßen,  
 > Gerit Wagner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -84,7 +84,7 @@ search_exclude: true
 
 ## Comment on Issues <a id="comment-issues"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
@@ -100,7 +100,7 @@ search_exclude: true
 > Mit besten Grüßen,  
 > Ihr Digital Work Team  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -149,7 +149,7 @@ English Version:
 
 Mailing: Survey covering questions and challenges to be discussed in the session
 
-### Mailing (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
@@ -163,7 +163,7 @@ Mailing: Survey covering questions and challenges to be discussed in the session
 > Beste Grüße und eine erfolgreiche Woche,  
 > Laureen Thurner  
 
-### Mailing (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -180,7 +180,7 @@ Mailing: Survey covering questions and challenges to be discussed in the session
 
 ## Hacking sessions
 
-### VC Post (German)
+**VC Post (German)**
 
 VC post (27.11.24)
 
@@ -198,7 +198,7 @@ VC post (27.11.24)
 > Beste Grüße,  
 > Laureen Thurner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -214,7 +214,7 @@ VC post (27.11.24)
 
 ## Pull Request and Code Review Session <a id="pull-request"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
@@ -231,7 +231,7 @@ VC post (27.11.24)
 > Beste Grüße,  
 > Laureen Thurner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -251,7 +251,7 @@ VC post (27.11.24)
 
 ## Evaluation, Updates, and Upcoming Events <a id="evaluation"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
@@ -272,7 +272,7 @@ VC post (27.11.24)
 > Mit besten Grüßen,  
 > Gerit Wagner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -296,7 +296,7 @@ VC post (27.11.24)
 
 ## Code Review Session <a id="code-review-session"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
@@ -322,7 +322,7 @@ VC post (27.11.24)
 > Mit besten Grüßen,  
 > Gerit Wagner  
 
-### VC Post (English)
+**VC Post (English)**
 
 > Dear Students,  
 >  
@@ -351,7 +351,7 @@ VC post (27.11.24)
 
 ## Other Mailings (Archive) <a id="other-mailings"></a>
 
-### VC Post (German)
+**VC Post (German)**
 
 > Liebe Studierende,  
 >  
