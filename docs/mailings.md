@@ -26,7 +26,7 @@ search_exclude: true
 > - 📅 Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003)  
 > - 📅 Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)  
 >  
-> ✉️ Bei Interesse senden Sie mir bitte eine E-Mail.  
+> ✉️ Bei Interesse senden Sie mir bitte eine E-Mail und fassen Sie Ihre Vorschläge in einer Word- oder PowerPoint Datei zusammen.
 >  
 > Alles Gute für das Wintersemester 24/25! 🍁  
 >  
