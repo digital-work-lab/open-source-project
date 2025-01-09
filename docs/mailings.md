@@ -98,7 +98,7 @@ search_exclude: true
 > Bei Fragen stehen wir Ihnen gerne zur Verfügung.  
 >  
 > Mit besten Grüßen,  
-> Ihr Digital Work Team  
+> Laureen Thurner
 
 **VC Post (English)**
 
@@ -114,8 +114,7 @@ search_exclude: true
 > If you have any questions, feel free to reach out.  
 >  
 > Best regards,  
-> Laureen Thurner  
-
+> Laureen Thurner
 
 ## Prep-best-practice
 
