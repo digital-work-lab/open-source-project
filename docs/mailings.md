@@ -250,6 +250,13 @@ VC post (27.11.24)
 
 ## Evaluation, Updates, and Upcoming Events <a id="evaluation"></a>
 
+{: .highlight }
+> 🎓 Heute haben Sie außerdem die Gelegenheit, uns bei der **Choose-a-Chair Messe** persönlich zu treffen. Gerne sprechen wir mit Ihnen über mögliche Abschlussarbeitsthemen:  
+> [Themen für Abschlussarbeiten](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
+>
+> 🎓 Additionally, today’s **Choose-a-Chair Fair** offers a chance to meet us in person. Feel free to discuss potential thesis topics with us:  
+> [Thesis Topics](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
+
 **VC Post (German)**
 
 > Liebe Studierende,  
@@ -264,9 +271,6 @@ VC post (27.11.24)
 > [Verbesserungsvorschläge](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"}  
 >  
 > Ich lade Sie herzlich ein, Ihre Ideen und Anregungen dort zu ergänzen.  
->  
-> 🎓 Heute haben Sie außerdem die Gelegenheit, uns bei der **Choose-a-Chair Messe** persönlich zu treffen. Gerne sprechen wir mit Ihnen über mögliche Abschlussarbeitsthemen:  
-> [Themen für Abschlussarbeiten](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
 >  
 > Mit besten Grüßen,  
 > Gerit Wagner  
@@ -284,10 +288,7 @@ VC post (27.11.24)
 > 💡 In parallel, we’ve gathered suggestions for the next semester in this GitHub issue:  
 > [Suggestions for Improvement](https://github.com/digital-work-lab/open-source-project/issues/8){: target="_blank"}  
 >  
-> You are warmly invited to contribute your ideas and suggestions there.  
->  
-> 🎓 Additionally, today’s **Choose-a-Chair Fair** offers a chance to meet us in person. Feel free to discuss potential thesis topics with us:  
-> [Thesis Topics](https://digital-work-lab.github.io/theses/docs/topics.html){: target="_blank"}  
+> You are warmly invited to contribute your ideas and suggestions there. 
 >  
 > Best regards,  
 > Gerit Wagner  
