@@ -17,20 +17,20 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 
 With this notebook, you can familiarize yourself with Python syntax, create and run a Python package command, create and modify a dictionary data structure, and use an external library to read BibTeX records as dictionaries.
 
-| Part | Label                              | Time (min) |
-|------|------------------------------------|------------|
-|  1   | [Setup](#setup)                    |     25     |
-|  2   | [Data items](#data)                |     30     |
-|  3   | [External libraries](#libraries)   |     30     |
-|  4   | [Functions](#functions)            |     60     |
-|      | [Wrap-up](#wrap-up)                |      2     |
-|      | Overall                            |    174     |
+| Part       | Label                              | Time (min) |
+|------------|------------------------------------|------------|
+|  Part I    | [Setup](#setup)                    |     25     |
+|  Part II   | [Data items](#data)                |     30     |
+|  Part III  | [External libraries](#libraries)   |     30     |
+|  Part IV   | [Functions](#functions)            |     60     |
+|            | [Wrap-up](#wrap-up)                |      2     |
+|            | Overall                            |    174     |
 
 <br>
 
-<img src="img/python_overview_1.PNG" width="820"/>
+<img src="img/python_overview_session_1.PNG" width="820"/>
 
-## Part 1: Setup <a id="setup"></a>
+## Part I: Setup <a id="setup"></a>
 
 **"How do I write and use Python code?"**
 
@@ -70,7 +70,7 @@ colrev run
 -  Create the `run.py` module (module: file containing Python code) and the function that should be called. The function should print `Start simple colrev run`. Note that calling `colrev.ops.run.main()` means that colrev will try to import and run the `main()` function in the `/workspaces/colrev/colrev/ops/run.py` module.
 - Check the other functions in the module `/workspaces/colrev/colrev/ui_cli/cli.py`, and other modules in the `/workspaces/colrev/colrev` directory if necessary.
 
-## Part 2: Data items <a id="data"></a>
+## Part II: Data items <a id="data"></a>
 
 **"How do I create and modify data items?"**
 
@@ -111,7 +111,7 @@ To checkout the **solution**, run:
 git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
 ```
 
-## Part 3: External libraries <a id="libraries"></a>
+## Part III: External libraries <a id="libraries"></a>
 
 **"How do I use external libraries?"**
 
@@ -164,7 +164,7 @@ To checkout the **solution**, run:
 git reset --hard f07be92d3c51ab8421caf57b77895dcb35395709
 ```
 
-## Part 4: Functions <a id="functions"></a>
+## Part IV: Functions <a id="functions"></a>
 
 Next, we would like to create a function, which adds the `journal_impact_factor` based on the following table:
 

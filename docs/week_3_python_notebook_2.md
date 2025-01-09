@@ -18,18 +18,18 @@ We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12"> 
 With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.
 
 
-| Part | Label                                   | Time (min) |
-|------|-----------------------------------------|------------|
-|      | [Set up the example repository](#setup) |     10     |
-|  4   | [Object-oriented code](#object)         |     60     |
-|  5   | [Programmatic use of CoLRev](#colrev)   |     30     |
-|  6   | [Save and commit changes](#save-commit) |     10     |
-|      | [Wrap-up](#wrap-up)                     |     10     |
-|      | Overall                                 |    120     |
+| Part      | Label                                   | Time (min) |
+|-----------|-----------------------------------------|------------|
+|           | [Set up the example repository](#setup) |     10     |
+|  Part V   | [Object-oriented code](#object)         |     60     |
+|  Part VI  | [Programmatic use of CoLRev](#colrev)   |     30     |
+|  Part VII | [Save and commit changes](#save-commit) |     10     |
+|           | [Wrap-up](#wrap-up)                     |     10     |
+|           | Overall                                 |    120     |
 
 <br>
 
-<img src="img/python_overview_4.PNG" width="800">
+<img src="img/python_overview_session_2.PNG" width="800">
 
 <br>
 
@@ -70,7 +70,7 @@ colrev status
 > 
 > ![Codespace directories](../assets/codespace-package-vs-project.png)
 
-## Part 4. Object-oriented code <a id="object"></a>
+## Part V. Object-oriented code <a id="object"></a>
 
 **"How do I write object-oriented code?"**
 
@@ -89,7 +89,7 @@ To checkout the **solution**, run:
 git reset --hard 4590842765078886554108360b3c3c685ac8b24a
 ```
 
-## Part 5: Programmatic use of CoLRev <a id="colrev"></a>
+## Part VI: Programmatic use of CoLRev <a id="colrev"></a>
 
 **"How do I use CoLRev infrastructure?"**
 
@@ -120,7 +120,7 @@ To checkout the **solution**, run:
 git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
 ```
 
-## Part 6: Save and commit <a id="save-commit"></a>
+## Part VII: Save and commit <a id="save-commit"></a>
 
 **"How do I save and commit changes?"**
 

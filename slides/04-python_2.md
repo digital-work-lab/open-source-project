@@ -33,7 +33,7 @@ Otto-Friedrich-Universität Bamberg
 
 Resume the [Codespace started in the previous session](https://github.com/CoLRev-Environment/colrev)
 
-![width:700px center](../assets/python_overview_4.PNG)
+![width:700px center](../assets/python_overview_all.PNG)
 
 ---
 
@@ -66,7 +66,7 @@ Useful links and resources for learning Python are available [here](../docs/reso
 
 ---
 
-### Deliverable: Merge
+# Deliverable: Merge
 
 - The merge should be done in one of the first hacking session meetings
 - Students should prepare the merge by selecting suitable branches and explaining why they should be merged
