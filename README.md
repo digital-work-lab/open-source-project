@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Project Logo" src="https://raw.githubusercontent.com/digital-work-lab/open-source-project/main/assets/images/open-source-project.png" width="600px">
+    <img alt="Project Logo" src="https://raw.githubusercontent.com/digital-work-lab/open-source-project/main/assets/open-source-project.png" width="600px">
 </p>
 
 <div align="center">

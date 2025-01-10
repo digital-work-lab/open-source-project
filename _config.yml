@@ -38,7 +38,7 @@ callouts:
 
 exclude: ['session_5_presentations']
 
-logo: "/assets/images/open-source-project.png"
+logo: "/assets/open-source-project.png"
 
 aux_links:
   "Repository":

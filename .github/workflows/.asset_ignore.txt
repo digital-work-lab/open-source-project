@@ -17,12 +17,12 @@ assets/template/background.jpg
 assets/sources-of-errors.pptx
 assets/git-remote-branch.pptx
 assets/evaluation/072022_Bewertungssheet_Final Pitch.xlsx
-assets/images/open-source-project.png
+assets/open-source-project.png
 assets/template/theme.css
-assets/images/logo-1.png
-assets/images/logo-2.png
-assets/images/logo-3.png
-assets/images/logo-4.png
+assets/logo-1.png
+assets/logo-2.png
+assets/logo-3.png
+assets/logo-4.png
 assets/evaluation/Makefile
 assets/git-remote.pptx
 assets/python_overview.pptx
