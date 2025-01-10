@@ -36,13 +36,14 @@ jobs:
           git config --global user.email "actions@users.noreply.github.com"
           git config --global url.https://github.com/.insteadOf git://github.com/
 
+      - name: workaround for detached HEAD
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+          git checkout ${GITHUB_HEAD_REF#refs/heads/} || git checkout -b ${GITHUB_HEAD_REF#refs/heads/} && git pull
+
       - name: Run labot.repository.main()
         run: |
           python -m labot.repository
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
-          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
-          GITHUB_EVENT_NAME: ${{ github.event_name }}
-          GITHUB_REF: ${{ github.ref }}
-          GITHUB_HEAD_REF: ${{ github.head_ref }}
-          GITHUB_BASE_REF: ${{ github.base_ref }}
