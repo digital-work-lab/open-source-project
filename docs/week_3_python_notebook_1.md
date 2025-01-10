@@ -11,7 +11,7 @@ has_toc: true
 ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_1.md" target="_blank">suggestions</a> on this notebook!
+We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_1.md" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -28,7 +28,7 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 <br>
 
-<img src="img/python_overview_session_1.PNG" width="820"/>
+<img src="../assets/python_overview_session_1.PNG" width="820"/>
 
 ## Part I: Setup <a id="setup"></a>
 
@@ -202,4 +202,4 @@ In this notebook, we have learned to
 To continue using your work in the next session, <b>stop</b> your Codespace [here](https://github.com/codespaces){: target="_blank"}.
 In contrast to deleting a Codespace (which removes all files, changes, settings, etc.), stopping the Codespace preserves the current state of your work and does not consume computational resources.
 
-<img src="img/codespace-stop.gif"  loop="1" width="800"/>
+<img src="../assets/codespace-stop.gif"  loop="1" width="800"/>

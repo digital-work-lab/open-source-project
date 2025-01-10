@@ -11,7 +11,7 @@ has_toc: true
 ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-We  <img src="img/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_2.md" target="_blank">suggestions</a> on this notebook!
+We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_2.md" target="_blank">suggestions</a> on this notebook!
 
 ---
 
@@ -29,13 +29,13 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 
 <br>
 
-<img src="img/python_overview_session_2.PNG" width="800">
+<img src="../assets/python_overview_session_2.PNG" width="800">
 
 <br>
 
 To continue working on your [Codespace](https://github.com/codespaces){: target="_blank"}, resume it as follows:
 
-<img src="img/codespace-start.gif"  loop="1" width="800"/>
+<img src="../assets/codespace-start.gif"  loop="1" width="800"/>
 
 To checkout the **starting point** (commit), run:
 

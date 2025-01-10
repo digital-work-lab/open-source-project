@@ -172,7 +172,7 @@ This preserves a **linear** version history* in the target branch instead of clu
 
 Note: GitHub offers these options to merge pull requests:
 
-<img src="img/github-pull-request.png" width="730px">
+<img src="../assets/github-pull-request.png" width="730px">
 -->
 
 There is another option: to **squash** changes from another branch. This effectively combines all changes from the other branch in a single commit, which is added on top of the target branch.
