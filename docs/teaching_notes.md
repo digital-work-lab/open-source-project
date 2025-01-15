@@ -98,19 +98,18 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 ## Week 7
 
-- [ ] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
+- [x] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
 
 ## Week 10
 
-- [ ] Send out [pull-request mailing](mailings.html#pull-request)
+- [x] Send out [pull-request mailing](mailings.html#pull-request)
 - [ ] Send out [evaluation mailing](mailings.html#evaluation)
 
 ## Week 12: Code review <a id="code-review"></a>
 
 - [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
-- [ ] Check whether connectors (e.g., HDMI) are required and provide them
+- [x] Check whether connectors (e.g., HDMI) are required and provide them
 - [ ] If projects require access tokens (API keys), provide them to the group
-- [ ] Send out the [code-review-session mailing](mailings.html#code-review-session)
 - [ ] Remind students to complete the evaluation
 
 After the session:
