@@ -43,6 +43,19 @@ pytest tests/3_packages_search/api_search_test.py
 pytest tests/3_packages_search/api_search_test.py -k test_eric
 ```
 
+## Virtual environments
+
+When running code locally, it is good practice to use virtual environments ([venv](https://realpython.com/python-virtual-environments-a-primer/){: target="_blank"}).
+
+```
+# sudo apt-get install python3-venv
+python -m venv venv
+source venv/bin/activate
+# python -m pip install --upgrade pip
+# python -m pip install -e .
+deactivate
+```
+
 ## Learning resources
 
 Introductory:
