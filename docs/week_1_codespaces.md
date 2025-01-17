@@ -32,7 +32,7 @@ For this project, any modern computer with internet access will work. The actual
 
 We recommend the usage of Google Chrome or any Chromium-based browser with the following settings:
 - Create a new profile for this project in Google Chrome, to separate your private browsing history from the project. Click on the "round profile icon" in the top right corner &rarr; click "Add new profile" &rarr; name it "Open Source Project"
-- In Google Chrome open this [settings page](chrome://settings/languages) and move "English" to the top in "Preferred languages" list, if you prefer to use GitHub in English
+- In Google Chrome copy and open this page "chrome://settings/languages" and move "English" to the top in "Preferred languages" list, if you prefer to use GitHub in English
 - Allow access for the clipboard, if any notifications shall pop up
 
 ## GitHub account <a id="account"></a>
