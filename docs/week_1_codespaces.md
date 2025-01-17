@@ -19,12 +19,20 @@ With this notebook, we briefly explain how to work with GitHub Codespaces.
 
 | Part | Label                                 |
 |------|---------------------------------------|
+|  0   | [Hardware and tools](#tools)          |
 |  1   | [GitHub account](#account)            |
 |  2   | [Start](#start)                       |
 |  3   | [Stop](#stop)                         |
 |  4   | [Delete](#delete)                     |
 
 ---
+
+## Hardware requirements and recommended tools <a id="tools"></a>
+For this project, any modern computer with Internet access will work. The actual processing is done on a remote server.
+
+We recommend the usage of Google Chrome or any Chromium-based browser with the following settings:
+- Create a new profile "Open Source Project" for this project in Google Chrome (round profile icon top right &rarr; "Add new Profile"), to separate your private browsing history from the project
+- In Google Chrome open this [settings page](chrome://settings/languages){: target="_blank"}: and move English to the top in "Preferred languages" list, if you prefer to use GitHub in English
 
 ## GitHub account <a id="account"></a>
 
