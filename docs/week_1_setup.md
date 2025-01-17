@@ -31,12 +31,6 @@ git config --global user.name
 git config --global user.email
 ```
 
-Verify your Git credential helper:
-
-```bash
-git config --global credential.helper
-```
-
 ## Part 2: Pre-commit Hook
 
 Run all pre-commit hooks:
