@@ -107,14 +107,17 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 ## Week 12: Code review <a id="code-review"></a>
 
-- [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
+{: .highlight }
+> The code review session should be in my office (with a Computer screen connected via a long HDMI cable).
+
+- [x] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
 - [x] Check whether connectors (e.g., HDMI) are required and provide them
-- [ ] If projects require access tokens (API keys), provide them to the group
-- [ ] Remind students to complete the evaluation
+- [x] If projects require access tokens (API keys), provide them to the group
+- [x] Remind students to complete the evaluation
 
 After the session:
 
-- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or add suggestions)
+- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or adding suggestions)
 - [ ] Notify students about the option to observe the merge and release process (Zoom meeting)
 
 After feedback was implemented by the students
