@@ -117,7 +117,22 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 After the session:
 
-- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or adding suggestions)
+- [x] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or adding suggestions)
+- [x] Include a summary of todos in the pull request
+
+```
+Hello @x, @y,
+
+following up on the code review session, I took the following notes. Please address them by **XXXXXX**:
+
+- [ ] Fix the pre-commit warnings (the line-too-long warnings can be ignored in the test files)
+- [ ] Reduce information printed when running  `colrev search` (ideally, one line per record)
+- [ ] Add the volume/number fields (if possible)
+- [ ] Remove unnecessary files/changes from pull request (e.g., `.pre-commit-conig.yaml`, `colrev/ops/search.py`, or the `search` submodule)
+
+If there is anything I can help with, please let me know 👏
+```
+
 - [ ] Notify students about the option to observe the merge and release process (Zoom meeting)
 
 After feedback was implemented by the students
