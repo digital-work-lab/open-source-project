@@ -152,20 +152,38 @@ Open the notebook for practicing Git branching:
 
 ---
 
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
+
 # The working directory and .git repository
 
 All working file contents reside in the working directory; staged and committed file contents are stored in the `.git` directory (a subfolder of the working directory).
+
+- With **git init**, the `.git` directory is created.
 
 Git allows us to stage (select) specific file contents for the next commit.
 
 - With **git add \<file-name\>**, contents of an *untracked or modified* file are copied to the `.git` repository and added to the staging area, i.e., explicitly marked for inclusion in the next commit.
 - With **git commit**, *staged* files contents are included in a *commit*.
 
-The **git init** command creates the `.git` directory.
-
 ![bg right:38% width:500px](../assets/git-areas-1.png)
 
+> \* Note: Git only keeps track of files that are explicitly *added*. *Untracked* files are not part of the `.git` repository, i.e., not included in the version history and not shared when the repository is synchronized. Files must be *untracked* explicitly, as shown on the next slide. Git only keeps track of files, not (empty) directories.
+
 ---
+
+<style>
+blockquote {
+    border-top: 0.1em;
+    font-size: 60%;
+    margin-top: auto;
+}
+</style>
 
 # The three states of a file
 
@@ -177,9 +195,10 @@ Files in the working directory can reside in three states:
 - With *git add*, the file contents are staged again, and the file becomes **unmodified**.
 - With *git rm*, files are no longer tracked.
 
-Note: *git add* and *git rm* do not change the contents of the file in the working directory.
 
 ![bg right:38% width:500px](../assets/git-areas-2.png)
+
+> \* Note: *git add* and *git rm* do not change the contents of the file in the working directory.
 
 ---
 

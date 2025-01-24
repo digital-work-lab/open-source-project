@@ -19,6 +19,9 @@ search_exclude: true
 | 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
 | 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
+{: .highlight }
+> Carefully prepare the explanation of the "three states of a file" (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
+
 {: .objective }
 > - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas)
 > - We work with the CLI.
