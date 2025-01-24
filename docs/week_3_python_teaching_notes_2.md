@@ -57,11 +57,13 @@ search_exclude: true
 
 ## Wrap-up <a id="wrap-up"></a>
 
-**Deliverable: Merge**
+**Deliverables**
 
 - The merge should be done in one of the first hacking session meetings
 - Students should prepare the merge by selecting suitable branches and explaining why they should be merged
 - We will complete the merge together with the students to prevent and solve problems
+
+Note: "synchronizing with upstream" would be one example of a merge.
 
 **Next: Best practice and hacking sessions (per group)**
 

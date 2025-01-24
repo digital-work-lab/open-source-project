@@ -98,7 +98,7 @@ We cover the following sessions and work tasks (specific dates are available on 
 **Week 3, Session 03 and 04: Introduction to Python (I, II)**
 
 - Basics of Python programming and advanced Python concepts related to Python package development and CoLRev.
-- Tasks: Contribute code to a fork, create branches, and synchronize with upstream.
+- Tasks: Contribute code to a fork, create branches, and merge code.
 
 **Week 5, Session 05: Best Practices**
 

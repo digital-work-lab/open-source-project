@@ -78,4 +78,4 @@ You will also need to create a separate project directory in the Codespace (as e
 Try to run the operations presented in the [asciinema recording](https://colrev-environment.github.io/colrev/){: target="_blank"} in the CoLRev documentation and analyze how the data in the project (Git) repository changes.
 
 {: .deliverable }
-![tasks logo](../assets/iconmonstr-clipboard-5.svg)Contribute code to a fork, create branches and synchronize with upstream ([deadline](../index.html#deliverables)).
+![tasks logo](../assets/iconmonstr-clipboard-5.svg)Contribute code to a fork, create branches and merge code ([deadline](../index.html#deliverables)).

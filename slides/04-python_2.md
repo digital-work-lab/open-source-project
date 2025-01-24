@@ -66,7 +66,9 @@ Useful links and resources for learning Python are available [here](../docs/reso
 
 ---
 
-# Deliverable: Merge
+# Deliverables
+
+Contribute code to a fork, create branches and merge code (see [deadline](index.html#deliverables)).
 
 - The merge should be done in one of the first hacking session meetings
 - Students should prepare the merge by selecting suitable branches and explaining why they should be merged
