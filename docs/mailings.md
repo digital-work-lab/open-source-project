@@ -293,7 +293,6 @@ VC post (27.11.24)
 > Best regards,  
 > Gerit Wagner  
 
-
 ## Code Review Session <a id="code-review-session"></a>
 
 **VC Post (German)**
@@ -348,9 +347,7 @@ VC post (27.11.24)
 > Best regards,  
 > Gerit Wagner  
 
-
-
-# Announcement: End of Implementation Phase and Next Steps  
+## Projektabschluss / Project completion <a id="completion-post"></a>
 
 ## VC Post (German)  
 
