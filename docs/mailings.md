@@ -349,6 +349,45 @@ VC post (27.11.24)
 > Gerit Wagner  
 
 
+
+# Announcement: End of Implementation Phase and Next Steps  
+
+## VC Post (German)  
+
+> Liebe Studierende,  
+> 
+> die Implementierungsphase des Projekts ist nun abgeschlossen, und ich werde damit beginnen, die Pull Requests zu integrieren. Ein herzliches Dankeschön für Ihren Code-Beitrag und die Teilnahme am Open-Source-Projekt!  
+> 
+> Die Noten tragen wir Anfang der Woche in FlexNow in.
+> 
+> Ihr Feedback aus der letzten Session und die Weiterentwicklung des Open-Source-Projekts können Sie hier nachverfolgen bzw. weiterhin mit Vorschlägen ergänzen: 
+> 
+> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10)  
+>
+> Es hat mir viel Spaß gemacht, Ihre Arbeit zu begleiten und Ich freue mich sehr, dass Ihr Code in Kürze von CoLRev-NutzerInnen verwendet werden kann 🚀
+> 
+> Mit besten Grüßen,
+> 
+> Gerit Wagner  
+
+## VC Post (English)  
+
+> Dear Students,
+> 
+> The implementation phase of the project is now complete, and I will begin integrating the pull requests. A heartfelt thank you for your code contributions and participation in the open-source project!
+> 
+> Grades will be entered into FlexNow at the beginning of the week.
+> 
+> You can track your feedback from the last session and the further development of the open-source project here, and continue to contribute suggestions:
+> 
+> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10)  
+> 
+> It has been a pleasure to guide your work, and I am thrilled that your code will soon be available for CoLRev users 🚀
+> 
+> Best regards,
+> 
+> Gerit Wagner
+
 ## Other Mailings (Archive) <a id="other-mailings"></a>
 
 **VC Post (German)**
