@@ -51,6 +51,7 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 ## Week 1: Topics <a id="topics"></a>
 
 - [x] Send out [welcome and information mailing](mailings.html#welcome) before the first session
+- [x] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, summarize our improvements from last semester
 
 ## Week 2: Git  <a id="git"></a>
 
@@ -103,7 +104,7 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 ## Week 10
 
 - [x] Send out [pull-request mailing](mailings.html#pull-request)
-- [ ] Send out [evaluation mailing](mailings.html#evaluation)
+- [x] Send out [evaluation mailing](mailings.html#evaluation)
 
 ## Week 12: Code review <a id="code-review"></a>
 
@@ -133,9 +134,8 @@ following up on the code review session, I took the following notes. Please addr
 If there is anything I can help with, please let me know 👏
 ```
 
-- [ ] Notify students about the option to observe the merge and release process (Zoom meeting)
-
 After feedback was implemented by the students
 
+- [x] Send out [project completion mailing](mailings.html#completion-post)
+- [x] Notify students about the option to observe the merge and release process (Zoom meeting)
 - [ ] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
-- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, link in the [improvement section](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} - starting from our [goals](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"}, mention our teaching cases, and encourage students to contribute their feedback
