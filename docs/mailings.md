@@ -362,7 +362,7 @@ VC post (27.11.24)
 > 
 > Ihr Feedback aus der letzten Session und die Weiterentwicklung des Open-Source-Projekts können Sie hier nachverfolgen bzw. weiterhin mit Vorschlägen ergänzen: 
 > 
-> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10)  
+> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10){: target="_blank"}  
 >
 > Es hat mir viel Spaß gemacht, Ihre Arbeit zu begleiten und Ich freue mich sehr, dass Ihr Code in Kürze von CoLRev-NutzerInnen verwendet werden kann 🚀
 > 
@@ -380,7 +380,7 @@ VC post (27.11.24)
 > 
 > You can track your feedback from the last session and the further development of the open-source project here, and continue to contribute suggestions:
 > 
-> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10)  
+> 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10){: target="_blank"}  
 > 
 > It has been a pleasure to guide your work, and I am thrilled that your code will soon be available for CoLRev users 🚀
 > 
