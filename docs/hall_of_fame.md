@@ -40,5 +40,7 @@ Student contributors to the Open-Source project [CoLRev](https://github.com/CoLR
 - pmao0907
 - MingxinJiang
 - JohannesDiel
+- julialopezmarti
+- olgagirona
 
 See complete overview of [contributors](https://github.com/CoLRev-Environment/colrev/graphs/contributors){: target="_blank"}.
