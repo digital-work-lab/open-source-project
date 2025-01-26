@@ -42,5 +42,8 @@ Student contributors to the Open-Source project [CoLRev](https://github.com/CoLR
 - JohannesDiel
 - julialopezmarti
 - olgagirona
+- komashevska
+- trathienphuc-tran
+- ammar-uni
 
 See complete overview of [contributors](https://github.com/CoLRev-Environment/colrev/graphs/contributors){: target="_blank"}.
