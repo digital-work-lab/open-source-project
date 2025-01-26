@@ -138,4 +138,4 @@ After feedback was implemented by the students
 
 - [x] Send out [project completion mailing](mailings.html#completion-post)
 - [x] Notify students about the option to observe the merge and release process (Zoom meeting)
-- [ ] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
+- [x] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
