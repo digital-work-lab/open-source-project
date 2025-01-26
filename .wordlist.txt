@@ -968,3 +968,5 @@ pytest
 venv
 todos
 Projektabschluss
+julialopezmarti
+olgagirona
