@@ -23,7 +23,6 @@ permalink: /
 ![Completion](https://img.shields.io/badge/Enrollment-29%20students-green)
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
-[![GitHub stars](https://img.shields.io/github/stars/digital-work-lab/open-source-project.svg?style=social&label=Star)](https://github.com/digital-work-lab/open-source-project/stargazers)
 
 Welcome!
 The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
