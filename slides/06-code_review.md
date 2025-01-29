@@ -4,6 +4,7 @@ header: 'Open-Source Project: Code Review Session'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/06-code_review.md' target='_blank'>⚙️</a>"
 ---
 
 <!-- paginate: true -->

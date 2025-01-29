@@ -4,6 +4,7 @@ header: 'Open-Source Project: Best-practice session'
 footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/05-best_practice.md' target='_blank'>⚙️</a>"
 ---
 
 <!-- paginate: true -->

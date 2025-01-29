@@ -1,9 +1,9 @@
 ---
 marp: true
 header: 'Open-Source Project: Topics'
-footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md' target='_blank'>⚙️</a>"
 ---
 
 <!-- paginate: true -->

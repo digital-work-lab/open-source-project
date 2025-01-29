@@ -3,6 +3,7 @@ marp: true
 header: 'Open-Source Project: Introduction to Git'
 theme: ub-theme
 paginate: true
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/02-git.md' target='_blank'>⚙️</a>"
 ---
 
 <!-- paginate: true -->
