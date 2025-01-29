@@ -1,7 +1,6 @@
 ---
 marp: true
 header: 'Open-Source Project: Introduction to Python'
-footer: 'Prof. Dr. Gerit Wagner'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/03-python_1.md' target='_blank'>⚙️</a>"
