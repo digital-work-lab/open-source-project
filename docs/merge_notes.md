@@ -18,4 +18,4 @@ search_exclude: true
 Copy the changes to the student's pull request and discard the all-contributors branch (otherwise, merge the pull requests into `main` - the all-contributors pull request cannot be redirected to the student's pull request, which originates from another repository/fork).
 
 - [ ] Add student contributors to the [hall of fame](hall_of_fame.html)
-- [ ] Close issue(s) in [CoLRev](https://github.com/CoLRev-Environment/colrev/issues)
+- [ ] Close issue(s) in [CoLRev](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"}
