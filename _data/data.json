@@ -1,0 +1,8 @@
+{
+  "semesters": [
+    { "ID": 4, "name": "WiSe 2024/25", "participants": 5, "evaluation_average": 4.9 },
+    { "ID": 3, "name": "SuSe 2024", "participants": 12, "evaluation_average": 4.9 },
+    { "ID": 2, "name": "WiSe 2023/24", "participants": 3, "evaluation_average": 4.3 },
+    { "ID": 1, "name": "SuSe 2023", "participants": 14, "evaluation_average": 4.4 }
+  ]
+}
