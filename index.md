@@ -20,6 +20,7 @@ permalink: /
   {% assign total_students = total_students | plus: semester.participants %}
 {% endfor %}
 
+{% assign average_of_averages = total_average | divided_by: count %}
 {% assign rounded_avg_x10 = average_of_averages | times: 10 %}
 {% assign rounded_avg_floor = rounded_avg_x10 | floor %}
 {% assign average_of_averages_rounded = rounded_avg_floor | divided_by: 10.0 %}
@@ -33,8 +34,7 @@ permalink: /
 [![Language](https://img.shields.io/badge/Language-Sessions%20in%20German,%20Materials%20in%20English-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Format](https://img.shields.io/badge/Format-Sessions%20on--site%20,%20Group--work%20anywhere-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)<br>
 <!-- ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue) -->
-[![Evaluations](https://img.shields.io/badge/Rating-★★★★★%20(3.5%20/%205)-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html) 
-<!-- {{ average_of_averages_rounded }} -->
+[![Evaluations](https://img.shields.io/badge/Rating-★★★★★%20({{ average_of_averages_rounded }}%20/%205)-yellow)](https://digital-work-lab.github.io/open-source-project/docs/evaluations.html) 
 ![Completion](https://img.shields.io/badge/Enrollment-{{ total_students }}%20students-green)
 [![Peer-Reviewed Quality](https://img.shields.io/badge/Pedagogical%20Foundations-Peer%20Reviewed-green)](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"}
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
