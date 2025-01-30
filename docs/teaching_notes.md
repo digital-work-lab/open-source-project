@@ -97,6 +97,13 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 - [x] Review responses from the survey and prepare the session
 
+## Weeks 6-11: Group work / Hacking sessions
+
+Guidelines for the hacking sessions:
+
+- Ask questions instead of offering solutions
+- Suggest the use of Iterators for API retrieval
+
 ## Week 7
 
 - [x] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
