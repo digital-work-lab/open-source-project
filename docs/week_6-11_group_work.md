@@ -43,3 +43,7 @@ In fact, starting pull requests early is good practice to allow for some time fo
 
 {: .deliverable }
 ![tasks logo](../assets/iconmonstr-clipboard-5.svg) Create the pull request ([deadline](../index.html#deliverables)). We will evaluate the code four days before the code review session.
+
+Remember that everyone is expected to contribute equally.
+If there are any concerns related to fair contributions, it is essential to raise them early.
+We reserve the right to adjust the grades as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
