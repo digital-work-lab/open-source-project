@@ -26,6 +26,7 @@ nav_order: 1
 - **Dates, rooms, and tasks**: Listed on the [Main page](../index.html)
 - **Registration**: If you would like to participate, please attend the introductory session. Details regarding registration and topic assignment will be announced during this session.
 - **Prerequisites**: We recommend participating in the project after the 3rd semester. The following courses are required: *Inf-Einf-B Einführung in die Informatik* or *DSG-EiAPS-B Einführung in Algorithmen, Programmierung und Software*, and *DSG-JaP-B Java Programmierung*.
+- **Grades**: Typically one grade per group (exceptions possible).
 - **Contact for administrative questions**: Prof. Dr. Gerit Wagner ( [gerit.wagner (at) uni-bamberg.de](gerit.wagner (at) uni-bamberg.de) )
 - **Questions related to contents**: Please open an issue in the [CoLRev project](https://github.com/CoLRev-Environment/colrev){: target="_blank"} or your own fork and mention `@geritwagner`.
 
@@ -114,6 +115,10 @@ We cover the following sessions and work tasks (specific dates are available on 
 - Tasks: Implement feedback from the code review.
 
 ## Assessment and grading criteria
+
+Our process is designed to ensure that all group members contribute fairly. Typically, a single grade is given to the entire group.
+However, if any issues arise, it is essential to raise any concerns early.
+We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
 
 **Code: Functionality**
 
