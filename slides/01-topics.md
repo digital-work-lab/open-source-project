@@ -167,11 +167,12 @@ blockquote {
 }
 </style>
 
-# Until next session
+# Until the next session
 
 **Familiarize yourself with the CoLRev documentation**
 
 - An overview of the [process](https://colrev-environment.github.io/colrev/manual/operations.html) and the [workflow](https://colrev-environment.github.io/colrev/manual/workflow.html) are available in the documentation.
+- Watch the [demo](https://www.youtube.com/watch?v=yfGGraQC6vs) to understand the use of CoLRev.
 
 **Find a topic**
 
