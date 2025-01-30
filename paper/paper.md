@@ -1,12 +1,5 @@
 ---
 title: "Teaching Python package development: A structured course with learning resources and an instructor's guide"
-project:
-  abbreviation: teapad
-  manuscriptrepository: https://github.com/digital-work-lab/teapad
-  started: 2024-09-10
-  area: work_practices
-  status: writing
-  improvement_status: pending
 tags:
   - Python
   - Packages and libraries
