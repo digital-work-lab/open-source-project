@@ -179,12 +179,6 @@ When merging the contributions, we include students as contributors of the packa
 
 # Teaching materials
 
-<!--
-Options:
-- instructional design
-- teaching experience
--->
-
 The delivery of the course is designed to foster active learning 
 through a blend of in-person sessions, individual group work, and interactive hacking sessions, 
 all facilitated by the instructor.
@@ -215,62 +209,7 @@ while emphasizing practical applications that enhance both technical skills and 
 \end{tabular}
 \end{table}
 
-<!-- | Resource                                                                                          | Description and focus                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| [Landing page](https://digital-work-lab.github.io/open-source-project/) | 
-Provides an accessible overview of the course, aimed to engage students. |
-| [Syllabus](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html) | 
-Offers a structured, detailed overview of course objectives, content, and pedagogical approach, 
-complementing the landing page with broader course context. |
-| [Slides](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html#materials) | 
-Slides in Markdown (Marp) format. |
-| [Notebooks](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html#materials) | 
-Designed to engage directly with the Python package, using `git reset` to access solutions, 
-supporting a smooth, practical learning flow. |
-| [Teaching notes](https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html) | 
-The teaching notes contain preparation checklists, scheduled mailings, session readers, and a concept. |
-
-Table: Materials -->
-
 # Pedagogical considerations
-
-<!-- 
-Teaching Python package development requires a structured approach that balances simplicity with depth, 
-ensuring students build a solid foundation before progressing to more advanced topics.
-The course design is informed by key pedagogical principles aimed at reducing cognitive load, 
-promoting gradual learning progression, and encouraging active participation.
-Below, we outline three core principles that shape the design of our educational resources.
-
-1. **Select and Simplify**
-
-To reduce cognitive overload and potential errors, we prioritize simplicity in both tools and workflows.
-For instance, we use GitHub Codespaces as the development environment to standardize setups across all learners, 
-thereby eliminating issues related to different operating systems and environment configurations.
-Additionally, we streamline the package management system by focusing on poetry, 
-rather than offering multiple options like *hatch*, *PDM*, *uv*, or *pipenv*.
-This focused approach aligns with cognitive load theory [@Sweller1988], 
-helping students concentrate on core concepts without unnecessary distractions.
-
-2. **Gradually Progress in Complexity**
-
-The course is structured to ensure students gradually progress from foundational to more complex topics.
-Starting with basic Python and Git skills, the material builds incrementally, 
-introducing concepts like dependency management and package distribution only after learners have mastered simpler tasks.
-This approach ensures that students develop a robust understanding of each topic before moving on, 
-reducing the risk of overwhelming them [@Anderson2001].
-
-3. **Learn interactively and in groups**
-
-Interactive and collaborative learning plays a crucial role in student engagement and knowledge retention [@Guzdial1998].
-The course incorporates live coding sessions, and group-based exercises to make practices as accessible as possible 
-and encourage active participation [@VialNegoita2018].
-We build on the principles of active learning to promote deeper understanding through hands-on practice and peer collaboration.
-In particular, group problem-solving can foster a collaborative environment where learners can exchange ideas, 
-learn from one another, and build confidence in their coding skills [@Freeman2014].
-
-**LT:**
--->
 
 Teaching Python package development requires a structured approach that balances simplicity with depth, ensuring students build a solid foundation before progressing to more advanced topics. 
 The course design is informed by key pedagogical principles:
@@ -316,97 +255,7 @@ This provides flexibility while maintaining the core benefits of a standardized 
 By enabling students to work in a consistent environment regardless of their operating system, 
 we ensure that everyone has access to the same tools, configurations, and workflows. 
 It also ensures equal opportunities, 
-as students are not disadvantaged by their choice of operating system and can collaborate effectively without technical barriers. 
-
-<!-- 
-**LT:**
-Our recommended setup for Python package development is GitHub Codespaces, a cloud-based solution that offers a consistent and fully configured development environment. 
-By eliminating variability in local setups, Codespaces ensures that all learners work within a standardized framework, promoting inclusivity and reducing technical barriers.
-
-For students who prefer local development setups, options like Windows Subsystem for Linux (WSL) are also available, ensuring flexibility while maintaining a standardized approach. 
-These solutions ensure equal opportunities for all learners, regardless of their operating system or hardware capabilities.
-**LT**
-Further details:
-
-- Add Chrome settings that can prevent errors
-- Mention similar experiences (see [1](https://www.reddit.com/r/devops/comments/12m5jad/opinion_github_codespaces_is_the_best_thing_to/))
-
-## Challenge
-
-How can students participate regardless of the underlying operating system. 
-Varying knowledge and skill of CLI between students. 
-What is important from a usability standpoint for a seamless and painless usage. 
-Solutions needed to reduce the processing stress on hardware. 
-Promote to work and develop in an open source environment.
-
-### VirtualBox with Ubuntu 22.04 LTS
-
-The students were required to install VirtualBox, 
-download and import the Ubuntu image with CoLRev, 
-setup the SSH connection between the Ubuntu virtual machine and the GitHub server. 
-This approach is resource heavy. 
-Depending on the hardware used, graphical glitches in general usage can happen. 
-A lot of components are running in the background which are not essential for the programming task at hand. 
-For example the default GUI of Ubuntu (called the desktop environment "GNOME") is taxing on the underlying hardware. 
-It also takes up a lot of storage space due to a lot of excess programs. 
-The usage of a complete desktop environment within a virtual machine is taxing on the hardware. 
-Students running mobile PCs complained about loud fans and hot temperatures of the CPU. 
-Advantages is the complete separation of host system and guest system.
-
-### Running WSL2 with Ubuntu 22.04 LTS
-
-The usage of WSL2 is running next to the underlying Windows operating system. 
-The installation is fairly simple as only one command needs to be executed within PowerShell as administrator. 
-Inside WSL2 students need to run several commands, 
-which can be copy and pasted from the CoLRev developer setup documentation. 
-A common pitfall was Docker Desktop for Windows not running in the background. 
-The performance is significantly better, 
-because only essential components of Ubuntu 22.04 LTS are loaded.
-
-WSL2 is deeply integrated into Windows and not strictly separated from the operating system. 
-Any commands run inside can potentially harm Windows system files when run with privileged rights (sudo).
-Initially WSL2 only provides a command line interface.
-If needed, programs with a GUI such as gitk or Nautilus file explorer can be called directly from CLI.
-
-### Going online with GitHub Codespaces and Ubuntu 22.04 LTS
-
-Students from the University of Bamberg have access to GitHub Pro.
-They can run virtual machines from within the browser.
-This is a "specialized" server solution provided by GitHub.
-The students have access to a VSC environment completely running in the browser.
-Since VSC is a electron app (browser program by nature), glitches do not happen.
-The browser only approach with VSC does not allow the usage of plugins (though they can be installed).
-SSH is not needed, as anything happens within the browser.
-If anything fails, students can terminate and delete an exising Codespaces instance.
-
-Performance is only limited by the computers ability to render a webpage and the connection speed provided by the ISP.
-All computational tasks are run directly on the servers provided by GitHub.
-Different types of servers can be created depending on the processing powers needed.
-The smallest CPU is already sufficient for a seamless workflow with CoLRev in the cloud.
-Problems can occur, when machines are not turned off.
-This needs to be done manually, otherwise the free contingent will be reached and warning via mail will be sent.
-
-Students aiming to use a local IDE can use Visual Studio Code.
-As GitHub and Visual Studio Code are both owned by Microsoft, a respecive plugin for VSC is available.
-Using the GitHub Codespaces within a local installation requires the user to log in with their GitHub credentials. 
-Any SSH setup is not needed and handled by the plugin.
-The terminal shown in VSC while Codespaces plugin is running is the bash session running on GitHub servers.
-Regular plugins (e.g. Git Graph) can be combined with Codespaces, when VSC is running on bare metal.
-
-## Future outlook
-
-None of the presented solutions is perfect.
-Compatibility is directly linked to performance.
-Another approach would be dual booting Linux and Windows.
-Running the linux kernel on bare metal provides the best performance.
-Plans to provide students with a virtual machine hosted from the Rechenzentrum were abondaned as our request was not answered.
-External cloud providers such as Linode or AWS can provide virtual private servers (VPS) for development.
-
-Respective images with CoLRev can be created beforehand, but setting up the SSH connection is not trivial.
-Registration and usage is free within a specific range, e.g. AWS offers a free tier for 1 year, but requires a complete registration with banking credentials.
-Students unwilling to dual-boot their system can be provided with an external SSD with Ubuntu 24.04 LTS and CoLRev pre-installed.
-
--->
+as students are not disadvantaged by their choice of operating system and can collaborate effectively without technical barriers.
 
 # Reuse and modification of materials
 
