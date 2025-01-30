@@ -21,28 +21,6 @@ has_toc: true
 - **Code Versioning**: Managing Python scripts and projects using Git to track changes and facilitate collaboration.
 - **Jupyter Notebook**: An interactive computing environment that allows users to combine live code, equations, visualizations, and text.
 
-## Unit tests
-
-Unit tests for SearchSources can be added to the [tests/3_packages_search](https://github.com/CoLRev-Environment/colrev/tree/main/tests/3_packages_search){: target="_blank"} directory.
-Tests for API searches should be added to the `api_search_test.py` and those for DB searches to the `db_search_load_prep_test.py` (together with the required data).
-
-To run tests, use the following command in the top-level colrev directory:
-
-```
-# Run all tests
-pytest tests
-
-# Run tests with verbose output
-pytest tests -v
-pytest tests -vv
-
-# Run a selected test
-pytest tests/3_packages_search/api_search_test.py
-
-# Run a selected test function
-pytest tests/3_packages_search/api_search_test.py -k test_eric
-```
-
 ## Virtual environments
 
 When running code locally, it is good practice to use virtual environments ([venv](https://realpython.com/python-virtual-environments-a-primer/){: target="_blank"}).
