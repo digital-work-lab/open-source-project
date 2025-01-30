@@ -183,10 +183,21 @@ def test_example_function():
     assert result == "expected result"
 ```
 
-Run all tests using:
+To run all tests, use the following command in the top-level colrev directory:
 
 ```
-pytest test
+# Run all tests
+pytest tests
+
+# Run tests with verbose output
+pytest tests -v
+pytest tests -vv
+
+# Run a selected test
+pytest tests/3_packages_search/api_search_test.py
+
+# Run a selected test function
+pytest tests/3_packages_search/api_search_test.py -k test_eric
 ```
 
 This will execute all test cases in the `tests/` directory and provide a detailed report of the results.
