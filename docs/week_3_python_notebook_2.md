@@ -51,7 +51,13 @@ To use the typical CoLRev environments (objects), we clone an existing CoLRev pr
 cd /workspaces
 git clone https://github.com/CoLRev-Environment/example.git
 code -a /workspaces/example
-```
+```0
+
+<details markdown="block">
+<summary>Opening the data (example) directory in a separate tab</summary>
+
+Instead of running <code>code -a /workspaces/example</code>, you can also open the directory in a separate tab (hover over the path).
+</details>
 
 The project directory `example` should now be displayed. Let's navigate to the directory and check the status:
 
