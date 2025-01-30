@@ -51,7 +51,7 @@ To use the typical CoLRev environments (objects), we clone an existing CoLRev pr
 cd /workspaces
 git clone https://github.com/CoLRev-Environment/example.git
 code -a /workspaces/example
-```0
+```
 
 <details markdown="block">
 <summary>Opening the data (example) directory in a separate tab</summary>
