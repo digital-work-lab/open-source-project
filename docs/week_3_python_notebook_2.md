@@ -75,6 +75,9 @@ colrev status
 > It is important to modify the code in the Python package directory and run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`):
 > 
 > ![Codespace directories](../assets/codespace-package-vs-project.png)
+>
+> Having a separate package directory is only necessary when modifying the code of the Python package.
+> Once the development is completed, other users of CoLRev can simply install it with `pip install colrev` and use it in any given project directory.
 
 ## Part V. Object-oriented code <a id="object"></a>
 
