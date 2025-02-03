@@ -3,7 +3,7 @@ marp: true
 header: 'Open-Source Project: Introduction to Python'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/04-python_2.md' target='_blank'>⚙️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/literature-review-seminar/edit/main/slides/04-python_2.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- paginate: true -->
@@ -73,17 +73,3 @@ Contribute code to a fork, create branches and merge code (see [deadline](index.
 - The merge should be done in one of the first hacking session meetings
 - Students should prepare the merge by selecting suitable branches and explaining why they should be merged
 - We will complete the merge together with the students to prevent and solve problems
-
----
-
-# We value your feedback and suggestions
-
-We encourage you to share your feedback and suggestions on this slide deck:
-
-[![width:20px height:20px](../assets/iconmonstr-pencil-lined.svg)](https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md) Suggest specific changes by directly modifying the content
-
-[![width:20px height:20px](../assets/iconmonstr-info-12.svg)](https://github.com/digital-work-lab/open-source-project/issues/new) Provide feedback by submitting an issue
-
-Your feedback plays a crucial role in helping us align with our core goals of **impact in research, teaching, and practice**. By contributing your suggestions, you help us further our commitment to **rigor**, **openness** and **participation**. Together, we can continuously enhance our work by contributing to **continuous learning** and collaboration across our community.
-
-Visit this [page](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html) to learn more about our goals: 🚀 🛠️ ♻️ 🙏 🧑‍🎓️.

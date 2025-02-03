@@ -3,7 +3,7 @@ marp: true
 header: 'Open-Source Project: Topics'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md' target='_blank'>⚙️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- paginate: true -->
@@ -191,12 +191,15 @@ blockquote {
 
 # We value your feedback and suggestions
 
-We encourage you to share your feedback and suggestions on this slide deck:
+We encourage you to share your feedback and suggestions on our teaching materials. You can find the following links in the footer of each slide:
 
-[![width:20px height:20px](../assets/iconmonstr-pencil-lined.svg)](https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md) Suggest specific changes by directly modifying the content
+<br>
 
-[![width:20px height:20px](../assets/iconmonstr-info-12.svg)](https://github.com/digital-work-lab/open-source-project/issues/new) Provide feedback by submitting an issue
+<a href="https://github.com/digital-work-lab/open-source-project/issues/new" target="_blank"> ♻️ </a> Provide feedback by submitting an issue
+<a href="https://github.com/digital-work-lab/open-source-project/edit/main/slides/00-orga.md" target="_blank"> 🛠️ </a> Suggest specific changes by directly modifying the content
+
+<br>
 
 Your feedback plays a crucial role in helping us align with our core goals of **impact in research, teaching, and practice**. By contributing your suggestions, you help us further our commitment to **rigor**, **openness** and **participation**. Together, we can continuously enhance our work by contributing to **continuous learning** and collaboration across our community.
 
-Visit this [page](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html) to learn more about our goals: 🚀 🛠️ ♻️ 🙏 🧑‍🎓️.
+Visit this <a href="https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html" target="_blank">page</a> to learn more about our goals:  🚀 🛠️ ♻️ 🙏 🧑‍🎓️ . 

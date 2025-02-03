@@ -68,22 +68,10 @@ section.lead::after {
   color: transparent;
 }
 
-
-/* pages */
-section::after {
-  position: absolute;
-  left: 50px;
-  right: 50px;
-  height: 10px;
-  bottom:5px;
-
-  color:black;
-}
-
 footer {
   position: fixed;
-  bottom: 18px;
-  left: 600px;
+  bottom: 17px;
+  left: 1px;
   font-size: 20px;
   color: #333;
   text-align: left;
@@ -104,4 +92,25 @@ footer a:hover {
   footer {
     display: none;  /* Hides the footer when printing or exporting to PDF */
   }
+}
+
+/* pages */
+section::after {
+  position: absolute;
+  left: 120px;
+  right: 40px;
+  height: 10px;
+  bottom:5px;
+
+  color:black;
+}
+
+.edit-link {
+  font-size: 0.8em;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
 }

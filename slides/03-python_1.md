@@ -3,7 +3,7 @@ marp: true
 header: 'Open-Source Project: Introduction to Python'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/03-python_1.md' target='_blank'>⚙️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/03-python_1.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- paginate: true -->
@@ -124,17 +124,3 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 - Take notes on the CoLRev-objects or libraries that will be needed.
 
 Note: These [tutorials](https://www.codecademy.com/catalog/language/python?g_network=g&g_productchannel=&g_adid=624888211335&g_locinterest=&g_keyword=codecademy%27s%20learn%20python&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-2259230975260&g_ifcreative=&g_campaign=account&g_locphysical=9042755&g_adgroupid=128133971748&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-2259230975260:ag_128133971748:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%27s%20learn%20python&utm_campaign=INTL_Brand_Phrase&utm_content=624888211335&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwzIK1BhAuEiwAHQmU3t-FhdTeqJcFCUfaU1x1cvYdKGfh9vdxz1b8ll5Tl_2wcSc8wgMNhRoCJqoQAvD_BwE) may be helpful to continue practicing Python
-
----
-
-# We value your feedback and suggestions
-
-We encourage you to share your feedback and suggestions on this slide deck:
-
-[![width:20px height:20px](../assets/iconmonstr-pencil-lined.svg)](https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md) Suggest specific changes by directly modifying the content
-
-[![width:20px height:20px](../assets/iconmonstr-info-12.svg)](https://github.com/digital-work-lab/open-source-project/issues/new) Provide feedback by submitting an issue
-
-Your feedback plays a crucial role in helping us align with our core goals of **impact in research, teaching, and practice**. By contributing your suggestions, you help us further our commitment to **rigor**, **openness** and **participation**. Together, we can continuously enhance our work by contributing to **continuous learning** and collaboration across our community.
-
-Visit this [page](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html) to learn more about our goals: 🚀 🛠️ ♻️ 🙏 🧑‍🎓️.
