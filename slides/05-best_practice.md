@@ -3,7 +3,7 @@ marp: true
 header: 'Open-Source Project: Best-practice session'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/literature-review-seminar/edit/main/slides/05-best_practice.md' target='_blank'>🛠️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/05-best_practice.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- paginate: true -->

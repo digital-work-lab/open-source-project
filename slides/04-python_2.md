@@ -3,7 +3,7 @@ marp: true
 header: 'Open-Source Project: Introduction to Python'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/literature-review-seminar/edit/main/slides/04-python_2.md' target='_blank'>🛠️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/04-python_2.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- paginate: true -->
