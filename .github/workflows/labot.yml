@@ -8,6 +8,10 @@ on:
   pull_request:
     branches:
       - main
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
 
 jobs:
   install-and-run:
