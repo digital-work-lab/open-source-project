@@ -25,7 +25,7 @@ permalink: /
 {% assign rounded_avg_floor = rounded_avg_x10 | floor %}
 {% assign average_of_averages_rounded = rounded_avg_floor | divided_by: 10.0 %}
 
-![Course Status](https://img.shields.io/badge/Current%20course-Winter%20semester%202024/25-yellow)
+<!-- ![Course Status](https://img.shields.io/badge/Current%20course-Winter%20semester%202024/25-yellow) -->
 ![Course Status](https://img.shields.io/badge/Upcoming%20course-Summer%20semester%202025-green)<br>
 [![Level](https://img.shields.io/badge/Level-Bachelor-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 [![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM-blue)](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
