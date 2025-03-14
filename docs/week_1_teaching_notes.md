@@ -81,7 +81,7 @@ Ask students why Google, AirBnB etc. would publish code?
 - We will discuss the current progress and next steps
 - We will help you solve the challenging tasks (we will not solve them for you)
 - Be prepared for the meeting: be able to explain the problem, describe and evaluate the different options you know
-- The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us!
+- The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us! In the hacking sessions, we will not tell you the solution directly, but we will work on it together. After the session, you will have solved teh issue and/or know how to continue. (**TODO: require issues**)
 
 **If you are stuck for more than 2 days, schedule a meeting with us.**
 
