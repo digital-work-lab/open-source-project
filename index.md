@@ -76,21 +76,21 @@ The outline for sessions is below:
 
 | Week | Session                                              | Date and Time                                         | Location                  |
 | ---- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------- |
-| 1    | [Finding the topic](docs/week_1_topic.html)          | October 16, 14.00-16.00                               | WE5 1.003                 |
-| 2    | [Introduction to Git](docs/week_2_git.html)          | October 23, 14.00-18.00                               | WE5 1.003                 |
-| 3    | [Introduction to Python](docs/week_3_python.html)    | October 28, 8.00-12.00  <br> October 30, 14.00-18.00  | WE5 1.003  <br> WE5 1.003 |
-| 5    | [Best practices](docs/week_5_best_practices.html)    | November 13, 14.00-16.00                              | WE5 1.003                 |
-| 6-11 | [Group work](docs/week_6-11_group_work.html) with hacking sessions | On demand                               | WE5 1.081 or online       |
-| 12   | [Code review session](docs/week_12_code_review.html) | January 17, 13.00-15.00                               | ISM Lab 1.094             |
+| 1    | [Finding the topic](docs/week_1_topic.html)          | April 23, 12.00-14.00                                 | WE5 04.003                |
+| 2    | [Introduction to Git](docs/week_2_git.html)          | May 2, 08.00-12.00                                    | WE5 01.003                |
+| 3    | [Introduction to Python](docs/week_3_python.html)    | May 8, 12.00-14.00  <br> May 8, 14.00-16.00           | WE5 01.004 <br> WE5 01.003|
+| 5    | [Best practices](docs/week_5_best_practices.html)    | May 9, 08.00-12.00                                    | WE5 01.003                |
+| 6-11 | [Group work](docs/week_6-11_group_work.html) with hacking sessions | On demand                               | tba                       |
+| 12   | [Code review session](docs/week_12_code_review.html) | May 22, 12.00-14.00                                   | WE5 01.004                |
 
 ## Deliverables
 
 | Deliverable                                                                           | Date            |
 | ------------------------------------------------------------------------------------- | --------------- |
-| Create a GitHub account and contribute to issue discussions to form teams             | October 22      |
-| Contribute code to a fork, create branches and merge code                             | November 10     |
-| Create the pull request (code is evaluated on January 12)                             | December 20     |
-| Implement the feedback provided in the pull request                                   | January 24      |
+| Create a GitHub account and contribute to issue discussions to form teams             | tba             |
+| Contribute code to a fork, create branches and merge code                             | tba             |
+| Create the pull request (code is evaluated on January 12)                             | tba             |
+| Implement the feedback provided in the pull request                                   | tba             |
 
 ## Instructor
 
