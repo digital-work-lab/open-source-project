@@ -19,7 +19,7 @@ search_exclude: true
 | 80-90      | 10        | [Next steps](#next-steps)                                                      |                                                |
 
 {: .objective }
-> In this session, our goal is to familiarize with open-source projects on GitHub.
+> In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
 
 <div class="page-break"></div>
 
@@ -32,7 +32,7 @@ Introduce myself/instructor
 - Git/Python/R: for my research projects
 - Enjoyment/challenge/making an impact: that's what I want you to experience in this project.
 
-Introduce Teaching assistant
+Introduce the teaching assistant
 
 Learn about students
 
@@ -68,7 +68,7 @@ Ask students why Google, AirBnB etc. would publish code?
 
 - Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
 - Ask students: who has already completed a literature review?
-- Mention that our approach currently focuses on the command line. What are possible reasons?
+- Mention that our approach currently focuses on the command line. What are the possible reasons?
 - Git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
 
 <div class="page-break"></div>
@@ -77,11 +77,11 @@ Ask students why Google, AirBnB etc. would publish code?
 
 - Outline the sessions
 - Highlight that we offer in-person hacking sessions in the main work phase (week 6-11)
-- Very easy to schedule (Calendly), on short notice, online or in-person, whole team or part of it
+- Very easy to schedule (Calendly), on short notice, online or in-person, the whole team or part of it
 - We will discuss the current progress and next steps
 - We will help you solve the challenging tasks (we will not solve them for you)
 - Be prepared for the meeting: be able to explain the problem, describe and evaluate the different options you know
-- The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us! In the hacking sessions, we will not tell you the solution directly, but we will work on it together. After the session, you will have solved teh issue and/or know how to continue. (**TODO: require issues**)
+- The hacking sessions should ensure a steady development flow. If you get stuck for more than a couple of days, meet with us! In the hacking sessions, we will not tell you the solution directly, but we will work on it together. After the session, you will have solved the issue and/or know how to continue. (**TODO: require issues**)
 
 **If you are stuck for more than 2 days, schedule a meeting with us.**
 
@@ -100,14 +100,14 @@ Organize ...
 
 Sign-up
 
-- You can only contribute to a group if you have signalled your intent in the issue discussion before.
+- You can only contribute to a group if you have signaled your intent in the issue discussion before.
 - Your participation will be confirmed and your account will be linked to the project issue.
 
 Prior experience:
 
 - The process has worked very well in previous semesters.
 - Please let us know if there are any problems in finding a group.
-- We reserve the right to change group (use fixed assignments) if needed.
+- We reserve the right to change groups (use fixed assignments) if needed.
 
 We have several **incentives to start contributing early** instead of creating a large commit at the end.
 
@@ -133,7 +133,7 @@ See slides
 
 Small groups web research task ("scavanger hunt")
 
-- Assessing open-source projects and finding things is an important skill.
+- Assessing open-source projects and finding things are important skills.
 
 After 12-15 mins: ask whether students have completed the task (give more time if necessary).
 
@@ -153,7 +153,7 @@ These are issues that users of CoLRev may ask themselves (or we when we select l
 
 Discuss software selection criteria (for open-source projects) more broadly. What would you look for? Nr commits/issues,... Why?
 
-Discuss / explain the git/open-source community structure
+Discuss/explain the git/open-source community structure
 
 ## Until next session <a id="next-steps"></a>
 
