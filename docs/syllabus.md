@@ -71,9 +71,6 @@ I use the Calendly tool to schedule meetings.
 It gives you an up-to-date overview of available slots in my schedule, and your reservations are immediately added to my calendar (no need to go back and forth via e-mail).
 We can meet in person or online, whatever works best for you.
 
-{: .text-center}
-[Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"}
-
 ## Goal and learning objectives
 
 - Use Git and GitHub to develop code in small teams
@@ -135,7 +132,7 @@ We reserve the right to adjust the grading policy as needed, including assigning
 **Code: Quality**
 
 - Comply with Python coding standards enforced by the repository’s pre-commit hooks.
-- Include comprehensive documentation: docstrings for all functions and classes, and a README with setup and usage instructions.
+- Include comprehensive documentation: docstrings for all functions and classes and a README with setup and usage instructions.
 - Ensure clear code structure and maintain high readability.
 
 <!-- 
@@ -143,7 +140,7 @@ We reserve the right to adjust the grading policy as needed, including assigning
 
 - Proper use of Git conventions for commit messages and branching.
 - Clear and descriptive pull requests with proper documentation.
-- Properly addressing and incorporating feedback from code reviews.
+- Properly address and incorporate feedback from code reviews.
 - Code review: Participating in the community by reviewing others' code and providing constructive feedback.
 - Ability to explain and defend your code.
 - Responding to and incorporating feedback from the review session.
