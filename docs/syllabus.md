@@ -86,22 +86,22 @@ We can meet in person or online, whatever works best for you.
 
 We cover the following sessions and work tasks (specific dates are available on the [main page](../index.html)):
 
-**Week 1, Session 01: Organization and Topics**
+**Week 1, Session 1: Organization and Topics**
 
 - Introduction to the course and project topics.
 - Tasks: Sign up for the VC course room, create a GitHub account, form groups, and set up a development environment.
 
-**Week 2, Session 02: Introduction to Git**
+**Week 2, Session 2: Introduction to Git**
 
 - Overview of Git and version control practices.
 - Tasks: Set up your programming environment as per CoLRev documentation.
 
-**Week 3, Session 03 and 04: Introduction to Python (I, II)**
+**Week 3, Sessions 3 and 4: Introduction to Python (I, II)**
 
 - Basics of Python programming and advanced Python concepts related to Python package development and CoLRev.
 - Tasks: Contribute code to a fork, create branches, and merge code.
 
-**Week 5, Session 05: Best Practices**
+**Week 5, Session 5: Best Practices**
 
 - Discussion on coding standards and best practices in open-source development.
 
@@ -110,7 +110,7 @@ We cover the following sessions and work tasks (specific dates are available on 
 - One-on-one or group sessions to address specific issues and progress.
 - Tasks: Create a pull request.
 
-**Week 12: Session 06: Code Review Session**
+**Week 12: Session 6: Code Review Session**
 - Review the code submitted by another group.
 - Tasks: Implement feedback from the code review.
 
