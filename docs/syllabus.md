@@ -116,21 +116,29 @@ We cover the following sessions and work tasks (specific dates are available on 
 
 ## Assessment and grading criteria
 
-Our process is designed to ensure that all group members contribute fairly. Typically, a single grade is given to the entire group.
+Our process is designed to ensure that all group members contribute fairly.
+Typically, a single grade is given to the entire group.
 However, if any issues arise, it is essential to raise any concerns early.
 We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
 
+**Process: Open-Source Practices**
+
+- Follow established Git conventions for commit messages, branching, and pull requests.
+- Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
+- Contribute professionally to project discussions, issues, and decision-making.
+
 **Code: Functionality**
 
-- Correctly implementing the specified features and functionalities, validating input parameters, and handling edge cases appropriately.
-- Unit tests covering critical parts of the code.
+- Implement all required features via a command-line interface (CLI) with input validation.
+- Provide unit tests that cover all critical functionality.
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as suggested by Pylint and the pre-commit hooks defined in the repository.
-- Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
-- Appropriate code structure and readability, with a logical organization of code into modules and functions, use of meaningful variable and function names, and clear and concise comments explaining complex sections.
+- Comply with Python coding standards enforced by the repository’s pre-commit hooks.
+- Include comprehensive documentation: docstrings for all functions and classes, and a README with setup and usage instructions.
+- Ensure clear code structure and maintain high readability.
 
+<!-- 
 **Process: Open-Source Practices**
 
 - Proper use of Git conventions for commit messages and branching.
@@ -141,7 +149,6 @@ We reserve the right to adjust the grading policy as needed, including assigning
 - Responding to and incorporating feedback from the review session.
 - Maintaining an active and professional presence in project discussions and issues.
 
-<!-- 
 ## Additional Guidelines
 
 - **Problem-Solving Mindset**: Embrace challenges and approach problems methodically, making use of available resources and seeking help when necessary.

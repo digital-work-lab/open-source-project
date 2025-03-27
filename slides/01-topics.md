@@ -111,22 +111,22 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 # Evaluation criteria
 
+**Process: Open-Source Practices**
+
+- Follow established Git conventions for commit messages, branching, and pull requests.
+- Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
+- Contribute professionally to project discussions, issues, and decision-making.
+
 **Code: Functionality**
 
-- Correct implementation of the specified features in a CLI interface, which validates input parameters.
-- Unit tests covering critical parts of the code.
+- Implement all required features via a command-line interface (CLI) with input validation.
+- Provide unit tests that cover all critical functionality.
 
 **Code: Quality**
 
-- Adherence to Python coding standards, as defined in the pre-commit hooks in the repository.
-- Documentation, with detailed docstrings for all functions and classes, and a README explaining the setup, and usage.
-- Code structure and readability.
-
-**Process: Open-Source Practices**
-
-- Proper use of Git conventions for commit messages, branching, and pull requests.
-- Participating in the community by reviewing others' code, providing constructive feedback, and incorporating feedback.
-- Maintaining an active and professional presence in project discussions and issues.
+- Comply with Python coding standards enforced by the repository’s pre-commit hooks.
+- Include comprehensive documentation: docstrings for all functions and classes, and a README with setup and usage instructions.
+- Ensure clear code structure and maintain high readability.
 
 ---
 
