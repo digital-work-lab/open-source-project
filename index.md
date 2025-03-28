@@ -48,7 +48,6 @@ You can find all information about this project in our [syllabus](docs/syllabus.
 > **Info**
 > We are currently updating the contents for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
 
-
 [![Completion Rate](https://img.shields.io/badge/Completion%20Rate-95%25-brightgreen)](https://example.com){: target="_blank"}
 
 [![5 Stars](https://img.shields.io/badge/Rating-★★★★★-yellow)](https://example.com){: target="_blank"}
