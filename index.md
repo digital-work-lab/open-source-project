@@ -46,7 +46,7 @@ You can find all information about this project in our [syllabus](docs/syllabus.
 <!-- 
 {: .info }
 > **Info**
-> We are currently updating the contents for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
+> We are currently updating the content for the upcoming winter semester (2024/25). You can find the dates and times for the sessions in the table below.
 
 
 [![Completion Rate](https://img.shields.io/badge/Completion%20Rate-95%25-brightgreen)](https://example.com){: target="_blank"}
@@ -72,7 +72,7 @@ Sign up for our VC course: [![Course Registration](https://img.shields.io/badge/
 
 ## Outline
 
-The outline for sessions is below:
+The outline for the sessions is below:
 
 | Week | Session                                              | Date and Time                                         | Location                  |
 | ---- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------- |
