@@ -74,6 +74,7 @@ Sign up for our VC course: [![Course Registration](https://img.shields.io/badge/
 
 The outline for the sessions is below:
 
+<!-- 
 | Week | Session                                              | Date and Time                                         | Location                  | Status |
 | ---- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------- | ------ |
 | 1    | [Finding the topic](docs/week_1_topic.html)          | April 23, 12.00-14.00                                 | WE5 04.003                |{% assign d='2025-04-23' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
@@ -82,6 +83,7 @@ The outline for the sessions is below:
 | 5    | [Best practices](docs/week_5_best_practices.html)    | May 22, 12.00-14.00                                   | WE5 01.004                |{% assign d='2025-05-09' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 6-11 | [Group work](docs/week_6-11_group_work.html)         | On demand                                             | WE5 01.081                |{% assign d='2025-05-22' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 12   | [Code review session](docs/week_12_code_review.html) | TBA                                                   | TBA                       |{% assign d='2025-07-10' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
+-->
 
 | Week | Session | Date and Time | Location | Status |
 |------|---------|----------------|----------|--------|
