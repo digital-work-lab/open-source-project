@@ -116,7 +116,7 @@ We cover the following sessions and work tasks (specific dates are available on 
 Our process is designed to ensure that all group members contribute fairly.
 Typically, a single grade is given to the entire group.
 However, if any issues arise, it is essential to raise any concerns early.
-We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
+We reserve the right to assign different grades within the group and give extra points to those who make exceptional contributions.
 
 **Process: Open-Source Practices**
 
@@ -170,11 +170,6 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 - **Ethical Considerations**: Avoid the use of generative AI tools like ChatGPT for coding tasks to prevent potential copyright issues and ensure the originality of your work.
 - **Open-Source Approach**: Work publicly, communicate in English, and create a professional profile on platforms like GitHub.
 
-Not required: ... -->
-
-Deliverables are summarized on the [main page](../index.html). Each deliverable is an opportunity to demonstrate your proficiency with Git, Python, and CoLRev.
-
-<!-- 
 ## Student responsibilities
 
 possibly a “how to succeed” section
@@ -224,7 +219,6 @@ possibly a “how to succeed” section
   - [Git Committing]({{ site.baseurl }}/docs/week_2_git_notebook_committing.html)
   - [Git Collaborating]({{ site.baseurl }}/docs/week_2_git_notebook_collaboration.html)
   - [Git Merge Conflicts]({{ site.baseurl }}/docs/week_2_git_notebook_merge_conflict.html)
-
   - [Python 1]({{ site.baseurl }}/docs/week_3_python_notebook_1.html)
   - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html)
 
