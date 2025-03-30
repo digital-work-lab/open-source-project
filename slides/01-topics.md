@@ -119,7 +119,7 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 **Code: Functionality**
 
-- Implement all required features via a command-line interface (CLI) with input validation.
+- Implement all required features with input validation.
 - Provide unit tests that cover all critical functionality.
 
 **Code: Quality**

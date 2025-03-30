@@ -126,7 +126,7 @@ We reserve the right to adjust the grading policy as needed, including assigning
 
 **Code: Functionality**
 
-- Implement all required features via a command-line interface (CLI) with input validation.
+- Implement all required features with input validation.
 - Provide unit tests that cover all critical functionality.
 
 **Code: Quality**
