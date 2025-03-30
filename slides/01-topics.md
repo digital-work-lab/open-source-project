@@ -132,24 +132,21 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 # Evaluation scope
 
-Not considered for the evaluation
+Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables).
+
+## Evaluation Components
+
+- **Code Review Session (30%)**  
+  Focus on collaboration, version control practices, and understanding of code.
+
+- **Project Code (70%)**  
+  Assessment of functionality, overall code quality, and implementation of feedback.
+
+## Not Considered in the Evaluation
 
 - Training sessions (Topics, Git, Python)
 - Hacking sessions
 <!-- TBD: excep for cheating/ -->
-
-- **Code Review Session (30%)**  
-  Assessed based on demonstrated competencies in:
-  - Code functionality and structure  
-  - Code quality and readability  
-  - Use of Git for version control  
-  - Python programming practices
-
-- **Project Code (70%)**  
-  Evaluated based on:
-  - Overall functionality and correctness  
-  - Code efficiency and quality  
-  - Adherence to best practices
 
 ---
 

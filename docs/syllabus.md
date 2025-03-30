@@ -135,6 +135,23 @@ We reserve the right to adjust the grading policy as needed, including assigning
 - Include comprehensive documentation: docstrings for all functions and classes and a README with setup and usage instructions.
 - Ensure clear code structure and maintain high readability.
 
+**Evaluation scope**
+
+Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables).
+
+**Evaluation Components**
+
+- **Code Review Session (30%)**  
+  Focus on collaboration, version control practices, and understanding of code.
+
+- **Project Code (70%)**  
+  Assessment of functionality, overall code quality, and implementation of feedback.
+
+**Not Considered in the Evaluation**
+
+- Training sessions (Topics, Git, Python)
+- Hacking sessions
+
 <!-- 
 **Process: Open-Source Practices**
 

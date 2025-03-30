@@ -97,6 +97,7 @@ The outline for the sessions is below:
 | Create a GitHub account and contribute to issue discussions to form teams             | End of week 1   |
 | Contribute code to a fork, create branches, and merge code                            | End of week 6   |
 | Create the pull request (code is evaluated in week 12)                                | End of week 10  |
+| Attend the code review session                                                        | Week 12         |
 | Implement the feedback provided in the pull request                                   | End of week 13  |
 
 ## Instructor
