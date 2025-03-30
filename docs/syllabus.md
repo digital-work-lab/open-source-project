@@ -137,7 +137,7 @@ We reserve the right to adjust the grading policy as needed, including assigning
 
 **Evaluation scope**
 
-Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables).
+Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables){: target="_blank"}.
 
 **Evaluation Components**
 
