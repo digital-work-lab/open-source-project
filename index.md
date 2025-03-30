@@ -80,8 +80,22 @@ The outline for the sessions is below:
 | 2    | [Introduction to Git](docs/week_2_git.html)          | May 2, 08.00-12.00                                    | WE5 01.003                |{% assign d='2025-05-02' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 3    | [Introduction to Python](docs/week_3_python.html)    | May 8, 12.00-16.00  <br> May 9, 08.00-12.00           | WE5 01.004 <br> WE5 01.003 <br> WE5 01.003|{% assign d='2025-05-08' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 5    | [Best practices](docs/week_5_best_practices.html)    | May 22, 12.00-14.00                                   | WE5 01.004                |{% assign d='2025-05-09' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
-| 6-11 | [Group work](docs/week_6-11_group_work.html) with hacking sessions | On demand                               | WE5 01.081                |{% assign d='2025-05-22' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
+| 6-11 | [Group work](docs/week_6-11_group_work.html)         | On demand                                             | WE5 01.081                |{% assign d='2025-05-22' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 12   | [Code review session](docs/week_12_code_review.html) | TBA                                                   | TBA                       |{% assign d='2025-07-10' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
+
+| Week | Session | Date and Time | Location | Status |
+|------|---------|----------------|----------|--------|
+{% for s in site.data.data.current_semester.sessions %}
+  {% assign session_ts = s.date | date: "%s" %}
+  {% assign now_ts = "now" | date: "%s" %}
+  {% if session_ts <= now_ts %}
+    {% assign status = "🟢 Completed" %}
+  {% else %}
+    {% assign status = "⚪ Upcoming" %}
+  {% endif %}
+| {{ s.week }} | [{{ s.title }}]({{ s.link }}) | {{ s.date_formatted }} | {{ s.location }} | {{ status }} |
+{% endfor %}
+
 
 ## Deliverables
 
