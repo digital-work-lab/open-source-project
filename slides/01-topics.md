@@ -26,7 +26,7 @@ Otto-Friedrich-Universität Bamberg
 
 - Prof. Dr. Gerit Wagner
 - At Bamberg University since October 2022
-- I work with Git, Python, and R since 2014
+- I have worked with Git, Python, and R since 2014
 - I enjoy coding, solving programming puzzles, and building tools
 - My latest and most significant project: **CoLRev**
 
@@ -72,9 +72,9 @@ Collaborative Literature Reviews (CoLRev) is an open-source environment for coll
 
 The following features stand out:
 
-- Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval, and preparation, and synthesis
+- Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval, preparation, and synthesis
 - An open platform based on shared data and process standards
-- Builds on git and its transparent collaboration model for the entire literature review process
+- It builds on git and its transparent collaboration model for the entire literature review process
 - Focus: command-line interface
 
 ![bg right:30% width:300px](../assets/colrev-logo.png)
@@ -101,7 +101,7 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 You **assign yourself to a group** when you contribute code, following these steps:
 1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestones), before the **Git Session**, for two topics at most).
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 5 people** will be accepted per group.
-3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team member's contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
+3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team members' contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
 This process ensures that **all group members contribute fairly**, as typically, **a single grade is given for the entire group**. However, if issues arise, it's essential to raise concerns early. We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
 
@@ -125,7 +125,7 @@ This process ensures that **all group members contribute fairly**, as typically,
 **Code: Quality**
 
 - Comply with Python coding standards enforced by the repository’s pre-commit hooks.
-- Include comprehensive documentation: docstrings for all functions and classes, and a README with setup and usage instructions.
+- Include comprehensive documentation: docstrings for all functions and classes and a README with setup and usage instructions.
 - Ensure clear code structure and maintain high readability.
 
 ---
@@ -171,9 +171,9 @@ Form groups of three and try to find the following information in 10 minutes:
 2. How does CoLRev compare to related tools? Which tool would you choose and why?
 3. Where is the documentation, and how can I install CoLRev?
 4. What is the license, and where can we find information on how to contribute to the project?
-5. What information should be provided for bug reports, where can I open a feature request?
+5. What information should be provided for bug reports? Where can I open a feature request?
 6. How many issues are open vs. closed? How many pull requests are open vs. closed?
-7. How long do workflows with tests or code formatting run, when did the last one fail?
+7. How long do workflows with tests or code formatting run? When did the last one fail?
 8. What is "unpaywall" used for in the project?
 9. Where can we find the features planned for the next milestone?
 
