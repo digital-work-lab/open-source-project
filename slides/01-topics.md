@@ -130,6 +130,29 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 ---
 
+# Evaluation scope
+
+Not considered for the evaluation
+
+- Training sessions (Topics, Git, Python)
+- Hacking sessions
+<!-- TBD: excep for cheating/ -->
+
+- **Code Review Session (30%)**  
+  Assessed based on demonstrated competencies in:
+  - Code functionality and structure  
+  - Code quality and readability  
+  - Use of Git for version control  
+  - Python programming practices
+
+- **Project Code (70%)**  
+  Evaluated based on:
+  - Overall functionality and correctness  
+  - Code efficiency and quality  
+  - Adherence to best practices
+
+---
+
 # How you can make the project a success
 
 - Embrace the challenge and adopt a problem-solving mindset
