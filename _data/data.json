@@ -24,14 +24,14 @@
       },
       {
         "week": 3,
-        "title": "Introduction to Python – Part 1",
+        "title": "Introduction to Python (I)",
         "date": "2025-05-08",
         "date_formatted": "May 8, 12.00–16.00",
-        "location": "WE5 01.004"
+        "location": "WE5 01.004 WE5 01.003"
       },
       {
         "week": 3,
-        "title": "Introduction to Python – Part 2",
+        "title": "Introduction to Python (II)",
         "date": "2025-05-09",
         "date_formatted": "May 9, 08.00–12.00",
         "location": "WE5 01.003"
