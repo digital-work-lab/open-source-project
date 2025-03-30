@@ -85,9 +85,7 @@ The outline for the sessions is below:
 
 | Week | Session | Date and Time | Location | Status |
 |------|---------|----------------|----------|--------|
-{% for s in site.data.data.current_semester.sessions %}
-  {% assign session_ts = s.date | date: "%s" %}{% assign now_ts = "now" | date: "%s" %}{% if session_ts <= now_ts %}{% assign status = "🟢 Completed" %}{% else %}{% assign status = "⚪ Upcoming" %}{% endif %}| {{ s.week }} | [{{ s.title }}]({{ s.link }}) | {{ s.date_formatted }} | {{ s.location }} | {{ status }} |
-{% endfor %}
+{% for s in site.data.data.current_semester.sessions %}{% assign session_ts = s.date | date: "%s" %}{% assign now_ts = "now" | date: "%s" %}{% if session_ts <= now_ts %}{% assign status = "🟢 Completed" %}{% else %}{% assign status = "⚪ Upcoming" %}{% endif %}| {{ s.week }} | [{{ s.title }}]({{ s.link }}) | {{ s.date_formatted }} | {{ s.location }} | {{ status }} |{% endfor %}
 
 ## Deliverables
 
