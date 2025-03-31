@@ -201,7 +201,7 @@ blockquote {
 
 **Complete the setup**
 
-- Register for VC course: [here](https://digital-work-lab.github.io/open-source-project/#participate)
+- Register for VC course: [here](https://digital-work-lab.github.io/open-source-project/#participate) (password: OSP25#stud)
 - Create a GitHub account (using your student e-mail address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
 - Read [how to use Codespaces](https://digital-work-lab.github.io/open-source-project/docs/week_1_codespaces.html)
 
