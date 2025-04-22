@@ -57,10 +57,13 @@ Otto-Friedrich-Universität Bamberg
 
 # What you will learn (III): Open-Sourcing
 
-- Work with the Open-Source workflows of GitHub
-- Make a first contribution to a public Open-Source project
-- Adopt the role of a maintainer and review the code of your peers
-- Have an opportunity to create your *developer portfolio*
+- Open-source software plays a major role in the industry (see [HBS working paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)) and firms start to use open-source principles to organize their work (see [innersource](https://github.com/resources/articles/software-development/innersource))
+- You will
+
+  - Work with the Open-Source workflows of GitHub
+  - Make a first contribution to a public Open-Source project
+  - Adopt the role of a maintainer and review the code of your peers
+  - Have an opportunity to create your *developer portfolio*
 
 ![bg right:35% width:350px](../assets/github-contributors.png)
 
@@ -99,7 +102,7 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 # How groups will form
 
 You **assign yourself to a group** when you contribute code, following these steps:
-1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/milestones), before the **Git Session**, for two topics at most).
+1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22%20%20label%3Asearch_source), before the **Git Session**, for two topics at most).
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 5 people** will be accepted per group.
 3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team members' contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
@@ -111,7 +114,7 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 # Evaluation criteria
 
-**Process: Open-Source Practices**
+**Process: Open-Source practices**
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
 - Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
@@ -134,15 +137,15 @@ This process ensures that **all group members contribute fairly**, as typically,
 
 Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables).
 
-## Evaluation Components
+**Evaluation components**
 
-- **Code Review Session (30%)**  
+- **Code review session (30%)**  
   Focus on collaboration, version control practices, and understanding of code.
 
-- **Project Code (70%)**  
+- **Project code (70%)**  
   Assessment of functionality, overall code quality, and implementation of feedback.
 
-## Not Considered in the Evaluation
+**Not considered in the evaluation**
 
 - Training sessions (Topics, Git, Python)
 - Hacking sessions
@@ -161,7 +164,7 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 
 ---
 
-# Finding things in an Open Source project
+# Finding things in an open-source project
 
 Go to the [CoLRev project repository](https://github.com/CoLRev-Ecosystem/colrev).
 
@@ -196,7 +199,7 @@ blockquote {
 
 **Find a topic**
 
-- Go to the upcoming [milestone](https://github.com/CoLRev-Environment/colrev/milestones) and read the open issues (available topics).
+- Go to the [issue tracker](https://github.com/CoLRev-Environment/colrev/issues) and read the open issues tagged as `#good first issue` and `#search_source` (available topics).
 - Comment on the issues to find others who are interested in the same topic.
 
 **Complete the setup**
@@ -207,6 +210,41 @@ blockquote {
 
 > Challenge (optional): You can **set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html)). This requires you to install and configure Git, Docker, pre-commit hooks, and venv. It will give you more control over and a deeper understanding of your programming environment.
 
+---
+
+<style>
+.references {
+    font-size: 0.6em;
+    margin-top: 0.3em;
+    margin-bottom: 0.9em;
+    margin-left: 4em;
+}
+
+.references p {
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+    margin: 0.5em 0;
+}
+</style>
+
+# 🛠️ We work hard to improve the course for you
+
+- We run evaluations at the end of each semester and make the results publicly available ([view results](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#evaluation-results)).
+- We document how we implement your feedback and continuously improve the course ([see ongoing updates](https://github.com/digital-work-lab/open-source-project/issues?q=is%3Aissue%20Evaluation%20)).
+- We invite you to contribute directly to our teaching materials by submitting an issue ♻️ or suggesting edits 🛠️.
+- We actively engage in the pedagogical discourse in Information Systems by sharing teaching tips and inviting feedback from peers:
+
+<div class="references">
+  <p>Wagner, G., and Thurner, L. 2025. "Rethinking How We Teach Git: Pedagogical Recommendations and Practical Strategies for the Information Systems Curriculum". <em>Journal of Information Systems Education</em>, 36(1). <a href="https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.html">link</a></p>
+  <p>Wagner, G., Thurner, L., Tang, C., Ott, S. "Teaching Python Package Development: A structured course with learning resources and an instructor's guide". Submitted to <em>The Journal of Open Source Education</em>. <a href="https://github.com/openjournals/jose-reviews/issues/275">link</a></p>
+  <p>Thurner, L. and Wagner, G. "CONTRIBUTE: A pedagogical framework for Open-Source capstone projects". Under review at the <em>Communications of the Association for Information Systems</em>.</p>
+</div>
+
+We value feedback — please let us know what works and how we can improve ♡
+
+![bg right:32% width:400px](../assets/evaluation_results.png)
+
+<!-- 
 ---
 
 # We value your feedback and suggestions
@@ -223,3 +261,5 @@ We encourage you to share your feedback and suggestions on our teaching material
 Your feedback plays a crucial role in helping us align with our core goals of **impact in research, teaching, and practice**. By contributing your suggestions, you help us further our commitment to **rigor**, **openness** and **participation**. Together, we can continuously enhance our work by contributing to **continuous learning** and collaboration across our community.
 
 Visit this <a href="https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html" target="_blank">page</a> to learn more about our goals:  🚀 🛠️ ♻️ 🙏 🧑‍🎓️ . 
+
+-->
