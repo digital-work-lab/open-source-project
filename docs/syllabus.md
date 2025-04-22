@@ -83,10 +83,10 @@ We can meet in person or online, whatever works best for you.
 
 We cover the following sessions and work tasks (specific dates are available on the [main page](../index.html)):
 
-**Week 1, Session 1: Organization and Topics**
+**Week 1, Session 1: Organization and topics**
 
 - Introduction to the course and project topics.
-- Tasks: Sign up for the VC course room, create a GitHub account, form groups, and set up a development environment.
+- Tasks: Sign up for the VC course room, create a GitHub account, comment on issues.
 
 **Week 2, Session 2: Introduction to Git**
 
@@ -98,16 +98,16 @@ We cover the following sessions and work tasks (specific dates are available on 
 - Basics of Python programming and advanced Python concepts related to Python package development and CoLRev.
 - Tasks: Contribute code to a fork, create branches, and merge code.
 
-**Week 5, Session 5: Best Practices**
+**Week 5, Session 5: Best practices**
 
 - Discussion on coding standards and best practices in open-source development.
 
-**Weeks 6-11: Individual Hacking Sessions**
+**Weeks 6-11: Individual hacking sessions**
 
 - One-on-one or group sessions to address specific issues and progress.
 - Tasks: Create a pull request.
 
-**Week 12: Session 6: Code Review Session**
+**Week 12: Session 6: Code review session**
 - Review the code submitted by another group.
 - Tasks: Implement feedback from the code review.
 
@@ -118,7 +118,7 @@ Typically, a single grade is given to the entire group.
 However, if any issues arise, it is essential to raise any concerns early.
 We reserve the right to assign different grades within the group and give extra points to those who make exceptional contributions.
 
-**Process: Open-Source Practices**
+**Process: Open-Source practices**
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
 - Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
@@ -139,15 +139,15 @@ We reserve the right to assign different grades within the group and give extra 
 
 Evaluation is contingent on completing the deliverables listed [here](https://digital-work-lab.github.io/open-source-project/#deliverables){: target="_blank"}.
 
-**Evaluation Components**
+**Evaluation components**
 
-- **Code Review Session (30%)**  
+- **Code review session (30%)**  
   Focus on collaboration, version control practices, and understanding of code.
 
-- **Project Code (70%)**  
+- **Project code (70%)**  
   Assessment of functionality, overall code quality, and implementation of feedback.
 
-**Not Considered in the Evaluation**
+**Not considered in the evaluation**
 
 - Training sessions (Topics, Git, Python)
 - Hacking sessions
@@ -184,19 +184,19 @@ possibly a “how to succeed” section
 
 ## Teaching approach
 
-- **Complex Skill Development**: The project focuses on teaching complex skills necessary for modern software development.
+- **Complex skill development**: The project focuses on teaching complex skills necessary for modern software development.
   This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
   To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
 
-- **Real-World Impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
+- **Real-world impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
   This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance.
   Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
 
-- **Transparent Evaluation and Improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
+- **Transparent evaluation and improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
   This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts.
   In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
 
-- **Diversity, Equity, and Inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
+- **Diversity, equity, and inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
   We create a positive learning atmosphere, encouraging questions and contributions from everyone.
   We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
 
