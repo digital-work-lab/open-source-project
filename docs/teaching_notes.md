@@ -28,7 +28,7 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 - [ ] Advertise the project in the lecture or other courses based on the [mailing](mailings.html#advertising) - check if not applicable
 - [x] Update dates and rooms for sessions
 - [x] Update the rating average in the badge (change the badge-link on index.md) and participation
-- [ ] Review the [pedagogical concept](pedagogy.html) in preparation of the project
+- [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
 - [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
 - [ ] Check whether `colrev package --init` works
 
