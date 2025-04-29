@@ -40,7 +40,6 @@ colrev-package
 │   └── __init__.py
 ├── LICENSE
 ├── README.md
-└── poetry.lock
 └── pyproject.toml
 ```
 
@@ -51,44 +50,45 @@ colrev-package
 
 ### Managing CoLRev Packages
 
-To manage CoLRev packages, we use [Poetry](https://python-poetry.org/){: target="_blank"}, a modern dependency and packaging tool.
-Poetry simplifies the creation and management of Python projects by centralizing metadata and dependency specifications in a pyproject.toml file.
+To manage CoLRev packages, we use [uv](https://github.com/astral-sh/uv){: target="_blank"}, a modern dependency and packaging tool.
+*uv* simplifies the creation and management of Python projects by centralizing metadata and dependency specifications in a pyproject.toml file.
 
 Below is an example pyproject.toml file for a CoLRev package:
 
 ```
-[tool.poetry]
+[project]
 name = "colrev-package-name"  # Package name
 version = "0.1.0"  # Initial version
 description = "A short description of the package."
 authors = [
     { name = "Author Name", email = "author@example.com" }
 ]
+license = { file = "LICENSE" }
+requires-python = ">=3.8, <4"
+dependencies = [
+   "click>=8.1.6", # Example dependency
+]
+
+[project.urls]
 homepage = "https://example.com"
 repository = "https://github.com/username/repo"
 documentation = "https://example.com/docs"
 bug-tracker = "https://github.com/username/repo/issues"
-license = { file = "LICENSE" }
-readme = "README.md"
 
-[tool.poetry.dependencies]
-python = ">=3.10, <3.13" # Python version
-click = "^8.1.6" # Example dependency
-
-[tool.poetry.scripts]
+[project.scripts]
 example-cli = "package.module:main_function"  # CLI entry point (example)
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "cython<3.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 ```
 
 {: .blue }
-> The `tool.poetry.scripts` defines cli entrypoints. In this case, running `example-cli` in the shell would call the `main_function()` in the `package.module` module.
+> The `project.scripts` defines cli entrypoints. In this case, running `example-cli` in the shell would call the `main_function()` in the `package.module` module.
 
 ### Setting up the Package
 
-Instead of the generic `poetry init` to create a new project, CoLRev provides a dedicated utility to streamline the process:
+Instead of the generic `uv init` to create a new project, CoLRev provides a dedicated utility to streamline the process:
 
 ```
 colrev package --init
@@ -122,13 +122,13 @@ While "pure users" of the package may not know where the code resides, developer
 
 ### Adding Dependencies
 
-Adding dependencies to your project is straightforward with Poetry. For example, to add the `requests` library, use:
+Adding dependencies to your project is straightforward with *uv*. For example, to add the `requests` library, use:
 
 ```
-poetry add requests
+uv add requests
 ```
 
-Poetry ensures that all dependencies are properly versioned and recorded in the `pyproject.toml` file and the `poetry.lock` file.
+*uv* ensures that all dependencies are properly versioned and recorded in the `pyproject.toml` file.
 
 ### Checking the package
 
