@@ -6,8 +6,6 @@ paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md' target='_blank'>🛠️</a>"
 ---
 
-<!-- paginate: true -->
-
 <!-- _class: centered -->
 
 # WI-Project: Open-Source Project
@@ -203,7 +201,7 @@ blockquote {
 
 **Complete the setup**
 
-- Register for VC course: [here](https://digital-work-lab.github.io/open-source-project/#participate) (password: OSP25#stud)
+- Register for the course on the *Virtual Campus* platform: [here](https://digital-work-lab.github.io/open-source-project/#participate) (password: OSP25#stud)
 - Create a GitHub account (using your student e-mail address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
 - Read [how to use Codespaces](https://digital-work-lab.github.io/open-source-project/docs/week_1_codespaces.html)
 

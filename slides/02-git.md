@@ -6,8 +6,6 @@ paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/02-git.md' target='_blank'>🛠️</a>"
 ---
 
-<!-- paginate: true -->
-
 <!-- _class: centered -->
 
 # WI-Project: Open-Source Project

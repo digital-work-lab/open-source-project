@@ -62,7 +62,7 @@ If you would like to participate, please attend the introductory session.
 Details regarding registration and topic assignment will be announced during this session.
 We look forward to meeting you!
 
-Sign up for our VC course: [![Course Registration](https://img.shields.io/badge/Sign%20up%20-Click%20Here-blue)](https://vc.uni-bamberg.de/course/view.php?id=71962)
+Sign up for the course on the *Virtual Campus* platform: [![Course Registration](https://img.shields.io/badge/Sign%20up%20-Click%20Here-blue)](https://vc.uni-bamberg.de/course/view.php?id=71962)
 
 ## Goals
 
