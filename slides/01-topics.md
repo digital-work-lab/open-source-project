@@ -118,7 +118,6 @@ This process ensures that **all group members contribute fairly** abd typically 
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
 - Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
-- Contribute professionally to project discussions, issues, and decision-making.
 
 **Code: Functionality**
 
