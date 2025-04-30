@@ -140,11 +140,11 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 
 **Evaluation components**
 
+- **Code submitted in the pull request (70%)**  
+  Assessment of functionality, overall code quality, and implementation of feedback.
+
 - **Code review session (30%)**  
   Focus on collaboration, version control practices, and understanding of code.
-
-- **Project code (70%)**  
-  Assessment of functionality, overall code quality, and implementation of feedback.
 
 **Not considered in the evaluation**
 
