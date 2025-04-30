@@ -127,7 +127,7 @@ This process ensures that **all group members contribute fairly** abd typically 
 **Code: Quality**
 
 - Comply with Python coding standards enforced by the repository’s pre-commit hooks.
-- Include comprehensive documentation: docstrings for all functions and classes and a README with setup and usage instructions.
+- Include documentation, including docstrings and a README with setup and usage instructions.
 - Ensure clear code structure and maintain high readability.
 
 ---

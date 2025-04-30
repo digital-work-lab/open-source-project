@@ -131,7 +131,7 @@ We reserve the right to assign different grades within the group and give extra 
 **Code: Quality**
 
 - Comply with Python coding standards enforced by the repository’s pre-commit hooks.
-- Include comprehensive documentation: docstrings for all functions and classes and a README with setup and usage instructions.
+- Include documentation, including docstrings and a README with setup and usage instructions.
 - Ensure clear code structure and maintain high readability.
 
 **Evaluation scope**
