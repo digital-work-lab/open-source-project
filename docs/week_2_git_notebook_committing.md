@@ -43,7 +43,7 @@ With this notebook, you can practice committing changes in Git.
 
 ## Part 1: Set up the repository <a id="clone"></a>
 
-**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev).
+**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}.
 
 **Note**: To create an empty git project, you would run `git init`.
 

@@ -152,7 +152,7 @@ There is another option: to **squash** changes from another branch. This effecti
 We will now practice the different methods in a real Git repository.
 
 
-**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev) and set up the `quality_model_docs` branch, using the following commands.
+**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"} and set up the `quality_model_docs` branch, using the following commands.
 
 ```python
 cd /workspaces/colrev
