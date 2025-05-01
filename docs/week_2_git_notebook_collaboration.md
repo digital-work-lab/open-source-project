@@ -44,22 +44,12 @@ In the first part, we will create a simple **shared repository** setup. Every te
 
 **Task**: Select one **maintainer**, who creates a new remote repository on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository){: target="_blank"} and [invites](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects){: target="_blank"} the other team members as contributors. You can work on a public or private repository. In addition, the maintainer creates a `README.md` file, chooses a project name and creates a contributor section similar to the following:
 
-<h2 style="margin-bottom: 3px; font-family: monospace; font-size: 1em;">README.md</h2>
-
-<div style="border: 2px solid white; padding: 20px; color: black; max-width: 760px; text-align: left; background-color: #eee; font-family: monospace;">
-  <h1 style="margin: 0 0 20px; font-size: 1.2em; color: black;"># TeamPlay - A Prototype</h1>
-
-  <h2 style="margin: 0 0 20px; font-size: 1.1em; color: black;">## Contributors</h2>
-
-  <p style="margin: 10px 0; color: black;">Anna Maintainer</p>
-</div>
-
 ```
 # TeamPlay - A Prototype
 
 ## Contributors
 
-Anna Maintainer
+- Anna Maintainer
 
 ```
 
