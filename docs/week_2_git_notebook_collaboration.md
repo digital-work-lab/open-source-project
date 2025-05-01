@@ -50,7 +50,6 @@ In the first part, we will create a simple **shared repository** setup. Every te
 ## Contributors
 
 - Anna Maintainer
-
 ```
 
 **Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main** branch), adding her/his name.
