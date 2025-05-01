@@ -54,6 +54,15 @@ In the first part, we will create a simple **shared repository** setup. Every te
   <p style="margin: 10px 0; color: black;">Anna Maintainer</p>
 </div>
 
+```
+# TeamPlay - A Prototype
+
+## Contributors
+
+Anna Maintainer
+
+```
+
 **Task**: Next, each team member edits the `README.md` directly on GitHub (on the **main** branch), adding her/his name.
 
 After creating the `README.md`, the team decides to add more content, working in parallel branches, and using pull requests to discuss and integrate the changes.
@@ -75,10 +84,10 @@ Your group creates a **fork** and edits the data on Codespaces (or a local repos
   <img src="../assets/git-remote-fork.png" style="width: 500px;">
 </div>
 
-| Term              | Definition                                                                                                                                            |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **remote/origin** | `origin` is the default name Git gives to the remote repository when it's cloned. It typically refers to the source repository from which your local repository is cloned. |
-| **upstream**      | `upstream` refers to the primary repository from which a fork is created. It is the main project that your local or forked repository is tracking.   |
+| Term              | Definition                                                                                                                                                                      |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **remote/origin** | `origin` is the default name Git gives to the remote repository when it's cloned. It typically refers to the source repository from which your local repository is cloned.      |
+| **upstream**      | `upstream` refers to the primary repository from which a fork is created. It is the main project that your local or forked repository is tracking.                              |
 | **fork**          | A `fork` is a copy of a repository that is created under a different user's account. It allows you to freely experiment with changes without affecting the original repository. |
 
 **Step 1: Maintainer Forks the Project**: The maintainer forks the  [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, creating their own copy of the project. They invite contributors to collaborate on this fork.
@@ -100,7 +109,6 @@ Your group creates a **fork** and edits the data on Codespaces (or a local repos
     <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
 </div>
 -->
-
 
 ## Wrap-up <a id="wrap-up"></a>
 

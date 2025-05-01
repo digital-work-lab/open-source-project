@@ -46,41 +46,12 @@ Hints:
 - You can always type `undo` to undo the last command
 - You can run `git commit` without specifying a commit message.
 
-<details>
-
-<summary>Solution</summary>
-
-The following commands produce this particular graph:
-
-<pre class="highlight">git commit
-git commit
-
-git branch bugFix
-git checkout bugFix
-
-git branch bugFix
-git checkout bugFix
-git commit -m "Commit c2 on bugFix"
-git checkout main
-git commit -m "Commit c3 on main"
-git merge bugFix -m "Merge bugFix into main"
-
-git checkout -b bugFix
-git commit -m "Commit c2 on bugFix"
-git checkout main
-git commit -m "Commit c3 on main"
-git checkout bugFix
-git rebase main</pre>
-
-</details>
-
 <!--
 To start the tutorial, run the following code cell and confirm the environment.
 from IPython.display import IFrame
 
 IFrame('https://learngitbranching.js.org/', width=1400, height=800)
 -->
-
 
 ### Optional Challenge
 
@@ -101,6 +72,7 @@ If you have completed Part 1 quickly, you may continue practicing with the follo
 The following commands produce this particular graph:
 
 <pre class="highlight">git commit
+git commit
 git commit
 git checkout c1
 git checkout-b hotfix
@@ -179,29 +151,8 @@ There is another option: to **squash** changes from another branch. This effecti
 
 We will now practice the different methods in a real Git repository.
 
-<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:730px;">
-    <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
-    <div style="clear: both;"></div>
-    <img src="../assets/codespace-shell.png" width="800"/>
-</div>
 
-**Task**: Clone the CoLRev repository and set up the `quality_model_docs` branch, using the following commands.
-
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:730px;">
-    <strong>Info</strong> The last command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
-</div>
-
-<br>
-
-```python
-cd /workspaces && git clone https://github.com/CoLRev-Environment/colrev
-code -a /workspaces/colrev
-```
-
-After the restart of your Codespace, complete the setup.
-
-The **colrev** repository should now be displayed in the Explorer (on the left).
-
+**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev) and set up the `quality_model_docs` branch, using the following commands.
 
 ```python
 cd /workspaces/colrev
@@ -210,6 +161,12 @@ git switch -c quality_model_docs
 # Remove the origin for better readability of the Git viewer
 git remote remove origin
 ```
+
+<div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; width: fit-content; width:730px;">
+    <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
+    <div style="clear: both;"></div>
+    <img src="../assets/codespace-shell.png" width="800"/>
+</div>
 
 **Task**: Go through the following options, and run the commands. Take notes on the Git graph, i.e., the structure and IDs of commits, by completing the three Git graphs (you can open the page as a <a href="../assets/overview-task.pdf">PDF</a>):
 

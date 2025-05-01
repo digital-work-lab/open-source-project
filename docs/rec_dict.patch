@@ -1,0 +1,79 @@
+diff --git a/colrev/dataset.py b/colrev/dataset.py
+index f075eeed..aa0ae816 100644
+--- a/colrev/dataset.py
++++ b/colrev/dataset.py
+@@ -8,6 +8,7 @@ import time
+ import typing
+ from pathlib import Path
+ from random import randint
++import requests
+ 
+ import git
+ from git import GitCommandError
+@@ -167,6 +168,7 @@ class Dataset:
+         self,
+         *,
+         header_only: bool = False,
++        skip_notification: bool = False,
+     ) -> dict:
+         """Load the records
+ 
+@@ -180,9 +182,9 @@ class Dataset:
+         'colrev_data_provenance': {Fields.AUTHOR:{"source":"...", "note":"..."}}},
+         }
+         """
+-
+-        if self.review_manager.notified_next_operation is None:
+-            raise colrev_exceptions.ReviewManagerNotNotifiedError()
++        if not skip_notification:
++            if self.review_manager.notified_next_operation is None:
++                raise colrev_exceptions.ReviewManagerNotNotifiedError()
+ 
+         if header_only:
+             # Note : currently not parsing screening_criteria to settings.ScreeningCriterion
+@@ -207,6 +209,18 @@ class Dataset:
+ 
+         return records_dict
+ 
++    def load_records_from_api(
++        self,
++        *,
++        api_path: str,
++    ) -> dict:
++        """TODO"""
++
++        records = requests.get(api_path, headers={})
++        # Hm... we don't get a dictionary as a return:
++        print(records)
++        input("Stop here. The previous code should work before we continue")
++
+     def save_records_dict_to_file(self, records: dict) -> None:
+         """Save the records dict"""
+         # Note : this classmethod function can be called by CoLRev scripts
+@@ -287,7 +301,7 @@ class Dataset:
+         """Read records (Iterator) based on condition"""
+ 
+         # Note : matches conditions connected with 'OR'
+-        records = self.load_records_dict()
++        records = self.load_records_dict(skip_notification=True)
+ 
+         records_list = []
+         for _, record in records.items():
+@@ -305,7 +319,7 @@ class Dataset:
+ 
+         colrev.ops.check.CheckOperation(self.review_manager)  # to notify
+         quality_model = self.review_manager.get_qm()
+-        records = self.load_records_dict()
++        records = self.load_records_dict(skip_notification=True)
+         for record_dict in records.values():
+             if Fields.STATUS not in record_dict:
+                 return {
+@@ -356,7 +370,7 @@ class Dataset:
+             id_pattern=self.review_manager.settings.project.id_pattern,
+             skip_local_index=self.review_manager.settings.is_curated_masterdata_repo(),
+         )
+-        records = self.load_records_dict()
++        records = self.load_records_dict(skip_notification=True)
+         updated_records = id_setter.set_ids(
+             records=records,
+             selected_ids=selected_ids,

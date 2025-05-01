@@ -41,60 +41,23 @@ With this notebook, you can practice committing changes in Git.
 
 ---
 
+## Part 1: Set up the repository <a id="clone"></a>
+
+**Task**: Start GitHub Codespaces from the [CoLRev repository](https://github.com/CoLRev-Environment/colrev).
+
+**Note**: To create an empty git project, you would run `git init`.
+
 <div style="border: 2px solid #ff9800; padding: 10px; background-color: #ffe0b2; color: #e65100; border-radius: 5px; display: inline-block; max-width: 800px; width: 100%;">
     <strong>Important:</strong> Make sure to copy the commands and enter them in the shell as shown in the screenshot. It is not possible to run the cells in this notebook.
     <div style="clear: both;"></div>
     <img src="../assets/codespace-shell.png" style="max-width: 100%; border-radius: 5px;">
 </div>
 
-
-## Part 1: Clone the repository <a id="clone"></a>
-
-In this part, we work with an existing project. To download the example, run the following commands:
-
-
-```python
-cd /workspaces
-git clone https://github.com/CoLRev-Environment/colrev
-```
-
-<details>
-
-<summary>Check</summary>
-
-The clone command should print something like the following (the number of objects may differ):
-
-<pre class="highlight">
-Cloning into 'colrev'...
-remote: Counting objects: 100% (125/125), done.
-remote: Total 22225 (delta 41), reused 54 (delta 27), pack-reused 22100
-Receiving objects: 100% (22225/22225), 10.11 MiB | 2.37 MiB/s, done.
-Resolving deltas: 100% (18519/18519), done.
-</pre>
-
-</details>
-
-The repository has been downloaded to our machine (i.e., the Codespace environment). Let's enter the directory and check the status.
-
-**Note**: To create an empty git project, you would run `git init`.
-
-<div style="border: 2px solid #03a9f4; padding: 10px; background-color: #b3e5fc; color: #01579b; border-radius: 5px; display: inline-block; width:730px;">
-    <strong>Info</strong> The code -a ... command will reopen the codespace window and add the new project to the explorer sidebar. You will have to navigate to this notebook again.
-</div>
-
-```python
-code -a /workspaces/colrev
-```
-
-<img src="../assets/codespace-reopen.png" width="820px"/>
-
 The status command provides an overview of the current state of the project and the files in the three sections. Therefore, you will need to run `git status` regularly.
 
 **Note**: The comments after the hashtag (#) are ignored.
 
 ```python
-# Enter the directory of the colrev project
-cd /workspaces/colrev
 # Check the status of the project
 git status
 ```
@@ -278,11 +241,11 @@ It is ok to combine functionality, tests, and docs that belong together in one c
 
 To create atomic commits, you may need to **add specific lines of code that should go into a commit**, leaving other changes in the working directory.
 
-The changes are provided in the `rec_dict.patch` file, which must be placed in the project's working directory. To apply it, run:
+The changes are provided in the [rec_dict.patch](rec_dict.patch) file, which must be placed in the project's working directory. To apply it, run:
 
 ```python
 # Suggests to rename the method but also introduces unrelated changes.
-git apply /workspaces/practice-git/notebooks/rec_dict.patch
+git apply rec_dict.patch
 # Different files were modified by the patch
 git status
 ```
