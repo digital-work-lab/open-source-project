@@ -10,21 +10,17 @@ search_exclude: true
 
 | Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                                                |
 |----------------|-----------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})         |
+| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](week_2_git_notebook_branching){: target="_blank"})         |
 | 01:30          | 5         | Break                                     |                                                                                                                                                     |
-| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
+| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](week_2_git_notebook_committing){: target="_blank"})        |
 | 02:15          | 5         | Break                                     |                                                                                                                                                     |
-| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})   |
+| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](week_2_git_notebook_merge_conflict){: target="_blank"})   |
 | 02:45          | 5         | Break                                     |                                                                                                                                                     |
-| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](https://github.com/digital-work-lab/practice-git?tab=readme-ov-file){: target="_blank"})        |
+| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](week_2_git_notebook_collaboration){: target="_blank"})        |
 | 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
-{: .highlight }
+{: .info }
 > Carefully prepare the explanation of the "three states of a file" (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
-
-{: .objective }
-> - **Goal**: figure out how to accomplish the tasks (the instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas)
-> - We work with the CLI.
 
 <div class="page-break"></div>
 
@@ -43,8 +39,12 @@ Check whether students are forming groups, whether there are any challenges.
 Today, we want to understand how to use Git for software development in teams.
 This session is divided into three parts.
 
-- We’ll start with **branching**, then move on to **committing**, and finally, we'll look at **collaborating**.
-- Each of these parts includes **concepts** that will be discussed, along with **related exercises**.
+{: .objective }
+>- We will start with **branching**, then move on to **committing**, and finally, we'll look at **collaborating**.
+> - Each of these parts includes **concepts** that will be discussed, along with **related exercises**.
+
+- Our goal is to figure out how to accomplish the tasks. The instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas.
+- We work with the CLI.
 
 Start the codespaces on Github
 
@@ -104,20 +104,17 @@ Commits can have multiple parents, each commit can have multiple children (branc
 Branches are useful for developing features, testing code, or fixing bugs without interfering with the main branch
 - Branches are highly efficient: It only takes a few bytes to create a branch of a large repository 
 
-- parents: lines of development
-- branches: two commits have the same parent
-- merge: one commit has two parents
+- Connection to **parent commits**: create "lines of development"
+- Branches are basically **two commits that have the same parent**
+- Merge: one commit has **two parents**
 -> DAG (we don't travel back in time - so there are no cycles)
 
 Branches: pointers (more efficient than referring to sha-commit-ids)
 -> allow us to separate development (typically: main/dev/features; but: very flexible)
 
-
-Explain Codespace/Jupyter notebook
-Furthermore explain where to find what in the jupyter Notebook
-
 {: .info }
-> Notebook: [practice-git / branching](https://github.com/digital-work-lab/practice-git){: target="_blank"}
+> - Have students open the [codespace in colrev repo](https://github.com/CoLRev-Environment/colrev){: target="_blank"} and the [Jupyter notebook](week_2_git){: target="_blank"}.
+> - Briefly explain how to navigate the Codespace.
 
 <div class="page-break"></div>
 
@@ -129,7 +126,7 @@ Highlight: we focus on local repositories only in this part!
 
 ASK for concentration
 
-- How should a versioning system look like? - Area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [AREAS AUFZEICHNEN]
+- How should a versioning system look like? - Area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [Draw the three AREAS]
 - There is also a staging area [DRAW IN THE CENTER]. 
 - Now imagine that we have created our Git project, so there is the working directory and the git directory. And we have now created various files, e.g. program code, tests, documentation, and notes. [ADD FILES TO WORKING DIRECTORY].
 - The first question that arises is: how do I create a new version? We want to have the program code and the tests in the new version. The documentation is not yet ready and the notes should not be included in the version. And this is where the staging area comes into play. Everything that is to be included in the next version must first be placed in the staging area, marked for the next version or the next commit, so to speak.
@@ -176,7 +173,7 @@ If you have the time, try the different undo operations in the session.
 (*) Important: only amend commits that are not yet shared with the team. Otherwise, revert is preferred.
 
 {: .info }
-> Notebook: [practice-git / committing](https://github.com/digital-work-lab/practice-git){: target="_blank"} and [practice-git / merge-conflicts](https://github.com/digital-work-lab/practice-git){: target="_blank"}
+> Notebook: [committing](week_2_git_notebook_committing){: target="_blank"} and [notebook: merge-conflicts](week_2_git_notebook_merge_conflict){: target="_blank"}
 
 {: .warning }
 > The **complex merge conflict** is optional (it can be a *do-at-home* exercise or we can cover it in the best-practice session). Check whether it can be completed in 2:30 h.
@@ -192,7 +189,7 @@ If you have the time, try the different undo operations in the session.
 - Syncing changes may be necessary to get bugfixes from the original repository, and to prevent diverging histories (potential merge conflicts in the pull request).
 
 {: .info }
-> Notebook: [practice-git / collaborating](https://github.com/digital-work-lab/practice-git){: target="_blank"}
+> Notebook: [collaborating](week_2_git_notebook_collaboration){: target="_blank"}
 
 ### Best practice branching strategy:
 

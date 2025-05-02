@@ -24,8 +24,8 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 
 ## Preparation
 
-- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
-- [ ] Advertise the project in the lecture or other courses based on the [mailing](mailings.html#advertising) - check if not applicable
+- [x] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
+- [x] Advertise the project in the lecture or other courses based on the [mailing](mailings.html#advertising) - check if not applicable
 - [x] Update dates and rooms for sessions
 - [x] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
