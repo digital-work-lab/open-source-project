@@ -8,26 +8,24 @@ search_exclude: true
 
 # Week 2: Git (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                                                |
-|----------------|-----------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](week_2_git_notebook_branching){: target="_blank"})         |
-| 01:30          | 5         | Break                                     |                                                                                                                                                     |
-| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](week_2_git_notebook_committing){: target="_blank"})        |
-| 02:15          | 5         | Break                                     |                                                                                                                                                     |
-| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](week_2_git_notebook_merge_conflict){: target="_blank"})   |
-| 02:45          | 5         | Break                                     |                                                                                                                                                     |
-| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](week_2_git_notebook_collaboration){: target="_blank"})        |
-| 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
+| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                     |
+|----------------|-----------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](week_2_git_notebook_branching){: target="_blank"})                    |
+| 01:30          | 5         | Break                                     |                                                                                                                          |
+| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](week_2_git_notebook_committing){: target="_blank"})                  |
+| 02:15          | 5         | Break                                     |                                                                                                                          |
+| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](week_2_git_notebook_merge_conflict){: target="_blank"})         |
+| 02:45          | 5         | Break                                     |                                                                                                                          |
+| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](week_2_git_notebook_collaboration){: target="_blank"})  |
+| 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                          |
+
+<div class="page-break"></div>
 
 {: .info }
-> - Start the timer at the beginning.
-> - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
-
-Create a cheatsheet: how would you internalize it? Ask yourself: if you were to answer the tasks without having the slide/explanation, what should you have on your brief cheatsheet/what should you be able to reproduce from memory? 
-
-## Check-in: Group formation
-
-Check whether students are forming groups, whether there are any challenges.
+> - Check-in: Group formation (any challenges?)
+> - Ask students to sit in groups of three and work together/help each other
+> - Start the timer at the beginning
+> - Suggest creating a cheatsheet on the important commands
 
 ## Learning objectives
 
