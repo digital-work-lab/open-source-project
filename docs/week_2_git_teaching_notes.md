@@ -20,11 +20,6 @@ search_exclude: true
 | 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                                                     |
 
 {: .info }
-> Carefully prepare the explanation of the "three states of a file" (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
-
-<div class="page-break"></div>
-
-{: .info }
 > - Start the timer at the beginning.
 > - Ask students to sit in groups of three (for the group exercise at the end) and work together/help each other.
 
@@ -46,7 +41,7 @@ This session is divided into three parts.
 - Our goal is to figure out how to accomplish the tasks. The instructions are more detailed at the beginning, you need to remember the commands/use and annotate the git cheatsheet. You will have to use the commands again, know what they do, and how the changes and commands are situated in the three areas.
 - We work with the CLI.
 
-Start the codespaces on Github
+<div class="page-break"></div>
 
 ## Part 1: Branching <a id="branching"></a>
 
@@ -56,8 +51,7 @@ Start the codespaces on Github
 - Identifying objects with SHA fingerprints
 - Commit: Contents (tree), Metadata (message, author/committer, date, parent) and SHA
 
-<!-- 
-
+<!--
 Demo:
 
 - setup a git repository, create a file (explain the working directory), add the changes (explain the staging area), create a commit
@@ -113,7 +107,7 @@ Branches: pointers (more efficient than referring to sha-commit-ids)
 -> allow us to separate development (typically: main/dev/features; but: very flexible)
 
 {: .info }
-> - Have students open the [codespace in colrev repo](https://github.com/CoLRev-Environment/colrev){: target="_blank"} and the [Jupyter notebook](week_2_git){: target="_blank"}.
+> - Have students start the [codespace in colrev repo](https://github.com/CoLRev-Environment/colrev){: target="_blank"} and open the [Jupyter notebook](week_2_git){: target="_blank"}.
 > - Briefly explain how to navigate the Codespace.
 
 <div class="page-break"></div>

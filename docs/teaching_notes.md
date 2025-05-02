@@ -56,7 +56,8 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 ## Week 2: Git  <a id="git"></a>
 
 - [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
-- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
+- [ ] Carefully prepare the explanation of branching and committing (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
+- [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
 - [ ] Send out [comment-on-issues mailing](mailings.html#comment-issues)
 
 ## Week 3: Python <a id="python"></a>
