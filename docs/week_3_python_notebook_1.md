@@ -47,7 +47,7 @@ pip install poetry
 Next, we reset the state of the repository to the beginning of the tutorial:
 
 ```python
-git reset --hard c9c915792f920e7198fed463ef7199cc84bb2264
+git reset --hard 8fa941d167503d20659ea87ec6169affbf6574c3
 ```
 
 - As the session progresses, you can checkout the current commits
@@ -108,7 +108,7 @@ Start simple colrev run
 To checkout the **solution**, run:
 
 ```python
-git reset --hard 98a0db7aac2ba174989362594532b2128f4167fc
+git reset --hard dbd583c499da9fe0945ce75f98c32c7babaddd4d
 ```
 
 ## Part III: External libraries <a id="libraries"></a>
@@ -138,7 +138,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard 859b02536acd0173cc4263a5e97a602826d8051f
+git reset --hard c9d89be988d9ec8ab18b2841af74996bf2ad5b43
 cd /workspaces/colrev
 pip install -e .[dev]
 ```
@@ -161,7 +161,7 @@ Create a commit, and observe how the code quality checks are triggered ([pre-com
 To checkout the **solution**, run:
 
 ```python
-git reset --hard f07be92d3c51ab8421caf57b77895dcb35395709
+git reset --hard 1de25efdeb8c330c87ea7ad7adeb1378f1f88a5b
 ```
 
 ## Part IV: Functions <a id="functions"></a>
@@ -183,7 +183,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard 0487d824ede2d36c4c011bfe46869d2aa9ed016b
+git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
 ---

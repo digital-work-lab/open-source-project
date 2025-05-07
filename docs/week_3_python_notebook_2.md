@@ -40,7 +40,7 @@ To continue working on your [Codespace](https://github.com/codespaces){: target=
 To checkout the **starting point** (commit), run:
 
 ```python
-git reset --hard 0487d824ede2d36c4c011bfe46869d2aa9ed016b
+git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
 ### Set up the `example` repository <a id="setup"></a>
@@ -95,7 +95,7 @@ To checkout the **solution**, run:
 
 
 ```python
-git reset --hard 4590842765078886554108360b3c3c685ac8b24a
+git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
 ```
 
 ## Part VI: Programmatic use of CoLRev <a id="colrev"></a>
@@ -113,7 +113,7 @@ To use the CoLRev infrastructure, take a look at the [API reference](https://col
 To checkout the **solution**, run:
 
 ```python
-git reset --hard 8c9c2b1d26ed5d9e079d5a46c349d73032970075
+git reset --hard 29e5cf28e3c96940e19e5af470977092ef3b8d47
 ```
 
 ## Optional challenge
@@ -126,7 +126,7 @@ To improve the code, try to implement these two changes:
 To checkout the **solution**, run:
 
 ```python
-git reset --hard 2d9adbf3fa803e8122ee1b2e92fa8e8b1a9b2516
+git reset --hard 8a4d064771f2b527b6479ac967bde0a5aabd9b19
 ```
 
 ## Part VII: Save and commit <a id="save-commit"></a>
@@ -142,7 +142,7 @@ Review the commit and its content.
 To checkout the **solution**, run:
 
 ```python
-git reset --hard b3ae06d564773f9db6611deeb3ee0507ea54d6b0
+git reset --hard 99f4477aabd4dfd5eaec7ddefefab2b632ef95e0
 ```
 
 ---

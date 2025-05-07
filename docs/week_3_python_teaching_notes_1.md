@@ -30,17 +30,14 @@ search_exclude: true
 > - Students can ignore the warning displayed when committing (cannot push due to a lack of permissions)
 > - It can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
 
+Before switching to tutorial/after the tutorial: run
+
+```
+pip3 install -e .
+
+to take code from the right repository.
+
 <div class="page-break"></div>
-
-# Preparation
-
-- [ ] Update git-commit SHAs in the notebooks
-- [ ] Test the tutorial in Codespaces
-
-<!-- 
-- before switching to tutorial/after the tutorial:
-run pip3 install -e . (to take code from the right repository)
- -->
 
 # Group formation <a id="groups"></a>
 

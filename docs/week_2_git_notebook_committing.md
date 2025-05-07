@@ -142,7 +142,7 @@ The `-m 'add contributor'` adds a short summary message, which is expected for e
 
 ## Part 3: Undo committed changes <a id="undo"></a>
 
-To undo the last commit, we can simply run:<
+To undo the last commit, we can simply run:
 
 
 ```python

@@ -29,8 +29,8 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 - [x] Update dates and rooms for sessions
 - [x] Update the rating average in the badge (change the badge-link on index.md) and participation
 - [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
-- [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
-- [ ] Check whether `colrev package --init` works
+- [x] Check whether `pre-commit run --all` runs without errors in Codespaces
+- [x] Check whether `colrev package --init` works
 
 <details markdown="block">
 <summary>Student communication notes</summary>
@@ -50,19 +50,19 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 
 ## Week 1: Topics <a id="topics"></a>
 
-- [ ] Send out [welcome and information mailing](mailings.html#welcome) before the first session
-- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, summarize our improvements from last semester
+- [x] Send out [welcome and information mailing](mailings.html#welcome) before the first session
+- [x] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, summarize our improvements from last semester
 
 ## Week 2: Git  <a id="git"></a>
 
-- [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
-- [ ] Carefully prepare the explanation of branching and committing (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
+- [x] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+- [x] Carefully prepare the explanation of branching and committing (focusing on the **states of a file** and explaining the commands and state changes based on the workflow).
 - [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
-- [ ] Send out [comment-on-issues mailing](mailings.html#comment-issues)
+- [x] Send out [comment-on-issues mailing](mailings.html#comment-issues)
 
 ## Week 3: Python <a id="python"></a>
 
-- [ ] Prepare the `tutorial_python` branch and update the commit-SHAs in the notebooks
+- [x] Prepare the `tutorial_python` branch and update the commit-SHAs in the notebooks
 
 <details markdown="block">
 <summary>Python prep</summary>
@@ -71,15 +71,18 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 git checkout tutorial_python
 git branch tutorial_backup
 git rebase -i HEAD~16
-# edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml / poetry update to update poetry.lock
+# edit the "update click" commit (before the tutorial starts) with the latest pyproject.toml
 git rebase main
 git push -f
 ```
 
-When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
+When the pyproject.toml fail: checkout --ours pyproject.toml, poetry add bibtexparser
 </details>
 
-- [ ] Create a list of topics and students (first/second choice) and facilitate issue discussions
+- [x] Update git-commit SHAs in the notebooks
+- [ ] Test the tutorial in Codespaces
+
+- [x] Create a list of topics and students (first/second choice) and facilitate issue discussions
 
 <details markdown="block">
 <summary>Facilitating issue discussions</summary>

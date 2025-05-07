@@ -361,7 +361,7 @@ This notebook is not part of the Git session and is intended for you to work on 
 
 We have prepared a tutorial for CoLRev:
 
-- [colrev-tutorial](https://github.com/CoLRev-Environment/colrev-tutorial). It contains a notebook (`.devcontainer/tutorial.ipynb `) explaining how to set up a CoLRev repository, complete the different steps, and analyze how the dataset changes. 
+- [colrev-tutorial](https://github.com/CoLRev-Environment/colrev-tutorial). You can run it in a Codespace environment. It contains a notebook (`.devcontainer/tutorial.ipynb `) explaining how to set up a CoLRev repository, complete the different steps, and analyze how the dataset changes. 
 - In addition, a brief overview is available on [YouTube](https://www.youtube.com/watch?v=yfGGraQC6vs).
 
 We invite you to work through the notebook before the next session.

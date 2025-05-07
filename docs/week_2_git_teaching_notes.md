@@ -84,11 +84,9 @@ Git gives us the option of working with branches, i.e. separate development bran
 - Explain HEAD (TO WHICH BRANCH should commits be added?) and git switch branch_name
 - Explain merge (common ancestor required, ideally: fast-forward (very efficient compared to other systems), otherwise: raise merge conflict)
 
-As soon as we have a git repository, we can see and modify everything in our copy.
-
-Commits can have multiple parents, each commit can have multiple children (branch / merge commits) - but there are no circles!
-
 ### The DAG, branches, and HEAD
+
+DAG: Commits can have multiple parents, each commit can have multiple children (branch / merge commits) - but there are no circles!
 
 - Development typically focuses on the **main branch**, which often contains the latest stable version of the project
 - The **git switch** command moves the **HEAD** pointer to the selected branch and copies its contents to your project directory
@@ -116,14 +114,16 @@ Branches: pointers (more efficient than referring to sha-commit-ids)
 
 Highlight: we focus on local repositories only in this part!
 
+As soon as we have a git repository, we can see and modify everything in our copy.
+
 ASK for concentration
 
 - How should a versioning system look like? - Area where you have the project files that you work with, and a separate "version database". Git calls it the "working directory" and the git directory. It has operations to create new versions from the files in your working directory. And it also has operations to retrieve files from the "version database" or the "history". That's what we will focus on for now (local operations). [Draw the three AREAS]
 - There is also a staging area [DRAW IN THE CENTER]. 
 - Now imagine that we have created our Git project, so there is the working directory and the git directory. And we have now created various files, e.g. program code, tests, documentation, and notes. [ADD FILES TO WORKING DIRECTORY].
-- The first question that arises is: how do I create a new version? We want to have the program code and the tests in the new version. The documentation is not yet ready and the notes should not be included in the version. And this is where the staging area comes into play. Everything that is to be included in the next version must first be placed in the staging area, marked for the next version or the next commit, so to speak.
+- The first question that arises is: how do I create a new version? We want to have the program code and the tests in the new version. The documentation is not yet ready and the notes should not be included in the version. And this is where the staging area comes into play. Everything that is to be included in the next version must first be placed in the staging area, marked for the next version or the next commit.
 - So: all files are initially in the working directory and you can select what you want to include in the staging area. This is the “git add ...” command. So you enter “git add code.py” and “git add tests.py” and then the current version of the selected files moves to the staging area [MOVE COPY OF FILES and WRITE GIT ADD ON ARROW].
-- - To create a commit from the files in the staging area, we simply enter “git commit” [COMBINE FILES INTO ONE COMMIT]. The process is as simple as that. You will see that the STAGING AREA is empty again and that you still have the same files in the working directory. So now there is no difference between the three areas.
+- To create a commit from the files in the staging area, we simply enter “git commit” [COMBINE FILES INTO ONE COMMIT]. The process is as simple as that. You will see that the STAGING AREA is empty again and that you still have the same files in the working directory. So now there is no difference between the three areas.
 - Let's take another look at the staging area. What is the staging area useful for? I could simply say that the files should be committed immediately. [IDEAS?] - the staging area gives us the opportunity to select specific file changes. For example, we also had the notes and the unfinished documentation here. They are in the same folder, but should not be included in the next commit. If we execute git add ... we have the option of adding individual files to the staging area. With programming projects in particular, you often try out different implementations and some work and others don't work. And if you have that moment during programming when you say - Yess! now it finally works! Then add your changes to the staging area. So git add.
 Then you might take care of the code formatting, the associated tests and the documentation and add this step-by-step to the staging area. This means that if you are working on a specific functionality, you can spend a few hours filling the staging area. And when you have the feeling - now it's perfect, now it works reliably, the tests and the documentation fit, then go to git commit. The staging area can therefore help you to write high-quality code. It also makes it much easier to leave file changes that are not part of the problem in the working directory and not include them in the new version.
 - So we have looked at the three areas and how to transfer file changes to the staging area and create a new commit. Are there any questions?
