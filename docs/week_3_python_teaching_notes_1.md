@@ -34,6 +34,7 @@ Before switching to tutorial/after the tutorial: run
 
 ```
 pip3 install -e .
+```
 
 to take code from the right repository.
 
@@ -96,8 +97,9 @@ Setup for the data directory:
 shell:
 cd ..
 mkdir data
-Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
-open two separate shells
+code -a /workspace/data
+# or: Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
+# open two separate shells
 ```
 
 # Setup <a id="setup"></a>
