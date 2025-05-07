@@ -30,13 +30,6 @@ search_exclude: true
 > - Students can ignore the warning displayed when committing (cannot push due to a lack of permissions)
 > - It can be helpful to make mistakes on purpose (e.g., indentation, etc.) to read and interpret the error messages with students.
 
-Before switching to tutorial/after the tutorial: run
-
-```
-pip3 install -e .
-```
-
-to take code from the right repository.
 
 <div class="page-break"></div>
 
@@ -46,6 +39,14 @@ to take code from the right repository.
 - Facilitate group formation, highlight cases where groups are overbooked (ask students to switch)
 
 <div class="page-break"></div>
+
+Before switching to tutorial/after the tutorial: run
+
+```
+pip3 install -e .
+```
+
+to take code from the right repository.
 
 # Python  <a id="python-basics"></a>
 
@@ -74,7 +75,7 @@ word+count # raises TypeError (searches for addition-operation for two strings a
 word+str(count) + "test2"
 # think: count = "2"
 if False:
-  cound+word # not error - never executed (dynamically typed, i.e., only evaluated at runtime)
+  cound+word # not error - never executed (dynamically typed/only evaluated at runtime)
 if True:
   cound+word # error
 ```
@@ -166,7 +167,9 @@ def change_journal(journal: str) -> None:
 
 journal = "MIS Quarterly"
 change_journal(journal)
-print(journal) # prints MIS Quarterly (not Nature) due to call-by-value for simple/immutable data types in Python
+print(journal)
+# prints MIS Quarterly (not Nature)
+# due to call-by-value for simple/immutable data types in Python
 
 # call-by-reference
 
@@ -178,7 +181,9 @@ record = {
   "jornal": "MIS Quarterly"
 }
 change_journal(record)
-print(record) # prints Nature because record is passed as an object reference (mutable type in Python) and modified in the function
+print(record)
+# prints Nature because record is passed as an object reference
+# (mutable type in Python) and modified in the function
 ```
 
 Show input() when iterating over the results
@@ -195,7 +200,7 @@ Pylint example.
 ```
 example:
 ************* Module colrev.ops.built_in.search_sources.aisel
-colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+colrev/ops/built_in/search_sources/aisel.py:225:19: W3101: Missing timeout argument ...
 ```
 
 ![Solution](../assets/python_solution_4.png)
