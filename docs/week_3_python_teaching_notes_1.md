@@ -48,6 +48,8 @@ pip3 install -e .
 
 to take code from the right repository.
 
+<div class="page-break"></div>
+
 # Python  <a id="python-basics"></a>
 
 - Object-oriented
