@@ -38,10 +38,10 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 Navigate to the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, select the `tutorial_python` branch and start Codespaces.
 
-As a first step, we install the package dependency manager **Poetry**, which will be used in [part 3](#libraries):
+As a first step, we install the package dependency manager **uv**, which will be used in [part 3](#libraries):
 
 ```
-pip install poetry
+pip install uv
 ```
 
 Next, we reset the state of the repository to the beginning of the tutorial:
@@ -129,7 +129,7 @@ To add it as a dependency of CoLRev and make it available for users of the CoLRe
 
 
 ```python
-poetry add bibtexparser
+uv add bibtexparser
 ```
 
 <b>Task</b>: Check the changes and create a commit.
