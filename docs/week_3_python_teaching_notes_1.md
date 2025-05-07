@@ -38,7 +38,7 @@ search_exclude: true
 - Who forked/leads
 - Facilitate group formation, highlight cases where groups are overbooked (ask students to switch)
 
-<div class="page-break"></div>
+<br>
 
 Before switching to tutorial/after the tutorial: run
 
