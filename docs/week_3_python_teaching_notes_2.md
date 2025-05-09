@@ -29,10 +29,10 @@ search_exclude: true
 > 
 > **Clearly demonstrate to students how to set both up in explorer and bash.**
 
-Setup for the data directory:
+Setup for the data directory (code: see [setup in notebook](week_3_python_notebook_2.html#set-up-the-example-repository))
 
 ```
-shell:
+# generally: in shell:
 cd ..
 mkdir data
 code -a /workspace/data
@@ -46,6 +46,33 @@ code -a /workspace/data
 ## Object-oriented programming <a id="object"></a>
 
 - Encourage students to program using objects (instead of procedurally)
+- Show simple object syntax
+
+```python
+# Define a class
+class Dog:
+    # Constructor method
+    def __init__(self, name, age):
+        self.name = name  # instance variable
+        self.age = age
+
+    # Instance method
+    def bark(self):
+        print(f"{self.name} says woof!")
+
+    def birthday(self):
+        self.age += 1
+        print(f"{self.name} is now {self.age} years old!")
+
+# Create objects (instances) of the class
+dog1 = Dog("Buddy", 3)
+dog2 = Dog("Luna", 5)
+
+# Call methods on the objects
+dog1.bark()        # Output: Buddy says woof!
+dog2.birthday()    # Output: Luna is now 6 years old!
+```
+
 - Notice: when creating the `run()` method, the jif_labeler_instance switches to "self".
 
 ![Solution](../assets/python_solution_5.png)

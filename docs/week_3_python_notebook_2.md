@@ -43,7 +43,7 @@ To checkout the **starting point** (commit), run:
 git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
-### Set up the `example` repository <a id="setup"></a>
+### Set up the `example` repository<a id="setup"></a>
 
 To use the typical CoLRev environments (objects), we clone an existing CoLRev project:
 

@@ -177,7 +177,7 @@ print(record)
 
 Show input() when iterating over the results
 
-Explain difference between positional and keyword arguments
+**Explain difference between positional and keyword arguments**
 
 Google
 - "mypy no-untyped-def"
