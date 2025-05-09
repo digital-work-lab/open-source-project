@@ -56,7 +56,6 @@ class Dog: # Define a class
 
     def bark(self): # Instance method
         print(f"{self.name} says woof!")
-
     def birthday(self):
         self.age += 1
         print(f"{self.name} is now {self.age} years old!")
@@ -64,7 +63,6 @@ class Dog: # Define a class
 # Create objects (instances) of the class
 dog1 = Dog("Buddy", 3)
 dog2 = Dog("Luna", 5)
-
 # Call methods on the objects
 dog1.bark()        # Output: Buddy says woof!
 dog2.birthday()    # Output: Luna is now 6 years old!
@@ -91,6 +89,8 @@ dog2.birthday()    # Output: Luna is now 6 years old!
 - Remind students that this is something they should have seen in the CoLRev tutorial.
 
 ![Solution](../assets/python_solution_8.png)
+
+<div class="page-break"></div>
 
 ## Merging Exercise (moved to a later time point)
 
