@@ -33,14 +33,13 @@ Setup for the data directory (code: see [setup in notebook](week_3_python_notebo
 
 ```
 # generally: in shell:
-cd ..
-mkdir data
+cd .. &&  mkdir data
 code -a /workspace/data
 # or: Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
 # open two separate shells
 ```
 
-{: .highlight }
+{: .info }
 > Also show the history of the example colrev project.
 
 ## Object-oriented programming <a id="object"></a>
@@ -49,15 +48,13 @@ code -a /workspace/data
 - Show simple object syntax
 
 ```python
-# Define a class
-class Dog:
+class Dog: # Define a class
     # Constructor method
     def __init__(self, name, age):
         self.name = name  # instance variable
         self.age = age
 
-    # Instance method
-    def bark(self):
+    def bark(self): # Instance method
         print(f"{self.name} says woof!")
 
     def birthday(self):
