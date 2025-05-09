@@ -80,7 +80,7 @@ When the pyproject.toml fail: checkout --ours pyproject.toml, poetry add bibtexp
 </details>
 
 - [x] Update git-commit SHAs in the notebooks
-- [ ] Test the tutorial in Codespaces
+- [x] Test the tutorial in Codespaces
 
 - [x] Create a list of topics and students (first/second choice) and facilitate issue discussions
 

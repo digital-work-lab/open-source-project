@@ -24,12 +24,33 @@ search_exclude: true
 
 <div class="page-break"></div>
 
+{: .warning }
+> It is important to run colrev in a separate data directory.
+> 
+> **Clearly demonstrate to students how to set both up in explorer and bash.**
+
+Setup for the data directory:
+
+```
+shell:
+cd ..
+mkdir data
+code -a /workspace/data
+# or: Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
+# open two separate shells
+```
+
+{: .highlight }
+> Also show the history of the example colrev project.
+
 ## Object-oriented programming <a id="object"></a>
 
 - Encourage students to program using objects (instead of procedurally)
 - Notice: when creating the `run()` method, the jif_labeler_instance switches to "self".
 
 ![Solution](../assets/python_solution_5.png)
+
+<div class="page-break"></div>
 
 ## Using CoLRev infrastructure <a id="colrev"></a>
 

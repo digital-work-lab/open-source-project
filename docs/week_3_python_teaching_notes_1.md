@@ -90,20 +90,7 @@ Highlight:
 - Use google/Stackoverflow on any error/challenge that comes up!
 - Using Code quality checkers and tests
 
-
-{: .warning }
-> It is important to run colrev in a separate data directory.
-
-Setup for the data directory:
-
-```
-shell:
-cd ..
-mkdir data
-code -a /workspace/data
-# or: Datei: Ordner zum Arbeitsbereich hinzufügen (select workspace/data)
-# open two separate shells
-```
+Note: we work in a single directory. In session 2, we will distinguish the code and data directories.
 
 # Setup <a id="setup"></a>
 
@@ -126,7 +113,7 @@ Optional additional challenge: use the constants as keys (package development do
 
 # External libraries <a id="libraries"></a>
 
-after 2-3 minutes: write BibtexParser on the blackboard
+After 2-3 minutes: write BibtexParser on the blackboard
 
 {: .warning }
 > **Important: bibtexparser version has changed**
