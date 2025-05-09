@@ -37,7 +37,7 @@ Resume the [Codespace started in the previous session](https://github.com/CoLRev
 
 # Package setup
 
-To create a new Python package, you can use package and dependency management tools, such as [Poetry](https://python-poetry.org/) and `poetry init`.
+To create a new Python package, you can use package and dependency management tools, such as [uv](https://github.com/astral-sh/uv) and `uv init`.
 
 If you work on existing CoLRev packages, you can extend the existing code available in the [internal packages directory](https://github.com/CoLRev-Environment/colrev/tree/main/colrev/packages).
 
