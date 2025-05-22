@@ -21,13 +21,13 @@ search_exclude: true
 > - We should take notes on the work status discussion
 > - Rationale to proceed from technical to teamwork: Helping students overcome technical issues is one of the preconditions to working together in a team.
 
-<div class="page-break"></div>
-
 Approach:
 
 - Discuss where students searched, and how to proceed (do not provide easy solutions)
 - Ask students to explain how they currently understand the task, and where they would search
 - Key task: facilitate self-organizing, understanding code
+
+<div class="page-break"></div>
 
 ## Introduction
 
@@ -36,7 +36,7 @@ Approach:
 
 ## Technical setup
 
-TBD.
+Address questions as they come up (extend this part of the documentation for recurring issues).
 
 {: .info }
 > **Open questions**
@@ -63,12 +63,12 @@ TBD.
 
 Task-Splitting strategy
 
-- Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning, and calling the script using __name__ == "main")
-- trying options
-- Split: search / load / add_endpoint
-- docs
+- Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning)
+- Use branches to test different options
+- Possible task splitting strategy: search / load / add_endpoint
+- Update the docs
 
-```
+```python
 class XY:
 
     def __init__(self, ...):
@@ -91,12 +91,15 @@ class XY:
         search()
 ```
 
+{: .highlight }
+> Call the module as a script using `__name__ == "main"` and `python module_name.py`
+
 **Problems within teams**
 
-- no clear roles - which roles should exist?
-- ask for challenges, offer help
-- mention that we will check Git contribution (fair effort of all team members)
-- usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
+- No clear roles - which roles should exist?
+- Ask for challenges, offer help
+- Mention that we will check Git contribution (fair effort of all team members)
+- Usually, we give one grade per group, but groups can raise challenges (allow us to help - last resort: different grades for group members, giving a bonus to those who do more)
 
 {: .info }
 > **Open questions**
@@ -114,4 +117,4 @@ Encouragement (remember):
 
 ## TO DO after the session
 
-Groups to "fix" main (git reset --hard && git push -f): ADD_HERE
+Help groups to "fix" main when necessary, using `git reset --hard` and `git push -f`
