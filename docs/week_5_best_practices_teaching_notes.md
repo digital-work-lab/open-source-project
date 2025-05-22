@@ -59,9 +59,7 @@ Address questions as they come up (extend this part of the documentation for rec
 - Remember to sync regularly between remotes/origin and your fork
 - Refresh skills related to Git, gitk, fork, using of branches/pull-requests, issues, and merging.
 
-**Branching strategy**
-
-Task-Splitting strategy
+**Branching strategy (= task-splitting strategy)**
 
 - Skeleton (existing or new package?) - draft method signatures (e.g., accepting a dictionary, defining a dictionary at the beginning)
 - Use branches to test different options
@@ -91,7 +89,7 @@ class XY:
         search()
 ```
 
-{: .highlight }
+{: .info }
 > Call the module as a script using `__name__ == "main"` and `python module_name.py`
 
 **Problems within teams**
@@ -105,6 +103,8 @@ class XY:
 > **Open questions**
 > 
 > See rustpad suggestions
+
+<div class="page-break"></div>
 
 ## Wrap-up
 
