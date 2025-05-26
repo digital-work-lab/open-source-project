@@ -8,16 +8,17 @@ search_exclude: true
 
 # Week 2: Git (Teaching notes)
 
-| Time (start)   | Duration  | Topic                                     | Additional materials                                                                                                     |
-|----------------|-----------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| 00:00          | 90        | [Branching](#branching)                   | Concepts + Hands-on practice ([branching notebook](week_2_git_notebook_branching){: target="_blank"})                    |
-| 01:30          | 5         | Break                                     |                                                                                                                          |
-| 01:35          | 40        | [Committing](#committing)                 | Concepts + Hands-on practice ([committing notebook](week_2_git_notebook_committing){: target="_blank"})                  |
-| 02:15          | 5         | Break                                     |                                                                                                                          |
-| 02:20          | 25        | [Transfer: Conflicts](#transfer-conflicts)| Conflict resolution task ([conflict-resolution notebook](week_2_git_notebook_merge_conflict){: target="_blank"})         |
-| 02:45          | 5         | Break                                     |                                                                                                                          |
-| 02:50          | 15        | [Collaborating](#collaborating)           | Concepts + Group practice (do at home) ([collaborating notebook](week_2_git_notebook_collaboration){: target="_blank"})  |
-| 03:00          | 10        | [Wrap-up](#wrap-up)                       |                                                                                                                          |
+| **Time (start)** | **Duration** | **Topic**                                   | **Additional materials**                                                                                                 |
+|------------------|--------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 00:00            | 90 min       | [Branching](#branching)                     | Concepts + Hands-on practice ([branching notebook](week_2_git_notebook_branching){: target="_blank"})                    |
+| 01:30            | 5 min        | Break                                       |                                                                                                                          |
+| 01:35            | 40 min       | [Committing](#committing)                   | Concepts + Hands-on practice ([committing notebook](week_2_git_notebook_committing){: target="_blank"})                  |
+| 02:15            | 5 min        | Break                                       |                                                                                                                          |
+| 02:20            | 25 min       | [Transfer: Conflicts](#transfer-conflicts)  | Conflict resolution task ([conflict-resolution notebook](week_2_git_notebook_merge_conflict){: target="_blank"})         |
+| 02:45            | 5 min        | Break                                       |                                                                                                                          |
+| 02:50            | 15 min       | [Collaborating](#collaborating)             | Concepts + Group practice (do at home) ([collaborating notebook](week_2_git_notebook_collaboration){: target="_blank"})  |
+| 03:05            | 10 min       | [Wrap-up](#wrap-up)                         |                                                                                                                          |
+| **03:15**        | **185 min**  | **Overall**                                 |                                                                                                                          |
 
 <div class="page-break"></div>
 

@@ -8,14 +8,14 @@ search_exclude: true
 
 # Week 5: Best Practices (Teaching Notes)
 
-| Time (start) | Duration | Topic                 | 
-|--------------|----------|-----------------------|
-| 00:00        | 10       | Introduction          |
-| 00:10        | 20       | Technical setup       |
-| 00:20        | 20       | Programming           |
-| 00:30        | 20       | Teamwork              |
-| 01:10        | 10       | Wrap-up               |
-| 01:10        | 80       | Overall               |
+| Time (start) | Duration     | Topic                 | 
+|--------------|--------------|-----------------------|
+| 00:00        | 10 min       | Introduction          |
+| 00:10        | 20 min       | Technical setup       |
+| 00:20        | 20 min       | Programming           |
+| 00:30        | 20 min       | Teamwork              |
+| 01:10        | 10 min       | Wrap-up               |
+| **01:20**    | **80 min**   | **Overall**           |
 
 {: .info }
 > - We should take notes on the work status discussion

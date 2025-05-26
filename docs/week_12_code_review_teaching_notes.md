@@ -8,10 +8,12 @@ search_exclude: true
 
 # Week 12: Code Review (Teaching Notes)
 
-| Time (start) | Duration | Topic                 | Additional materials                                              |
-|--------------|----------|-----------------------|-------------------------------------------------------------------|
-| 00:00        | 10       | Introduction          |                                                                   |
-| 01:10        | 80       | Overall               |                                                                   |
+| Time (start) | Duration     | Topic                 |
+|--------------|--------------|-----------------------|
+| 00:00        | 10 min       | Introduction          |
+| 00:10        | 40 min       | Code review           |
+| 00:50        | 10 min       | Wrap-up               |
+| **01:00**    | **80 min**   | **Overall**           |
 
 
 {: highlight }

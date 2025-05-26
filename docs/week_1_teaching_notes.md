@@ -8,15 +8,16 @@ search_exclude: true
 
 # Week 1: Topics (Teaching notes)
 
-| Time (min) | Duration  | Topic                                                                          | Additional materials                           |
-|------------|-----------|--------------------------------------------------------------------------------|------------------------------------------------|
-| 0-10       | 5         | [Intro and instructor background](#intro)                                      |                                                |
-| 10-25      | 15        | [What you will learn](#what-you-will-learn)                                    |                                                |
-| 25-30      | 5         | [The project: CoLRev](#the-project-colrev)                                     |                                                |
-| 30-40      | 10        | [Agenda, groups, criteria](#agenda-groups-criteria)                            |                                                |
-| 40-50      | 5         | [How to make the project a success](#how-to-success)                           |                                                |
-| 50-80      | 40        | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
-| 80-90      | 10        | [Next steps](#next-steps)                                                      |                                                |
+| Time (start) | Duration  | Topic                                                                          | Additional materials                           |
+|--------------|-----------|--------------------------------------------------------------------------------|------------------------------------------------|
+| 00:00        | 10 min    | [Intro and instructor background](#intro)                                      |                                                |
+| 00:10        | 15 min    | [What you will learn](#what-you-will-learn)                                    |                                                |
+| 00:25        | 5 min     | [The project: CoLRev](#the-project-colrev)                                     |                                                |
+| 00:30        | 10 min    | [Agenda, groups, criteria](#agenda-groups-criteria)                            |                                                |
+| 00:40        | 10 min    | [How to make the project a success](#how-to-success)                           |                                                |
+| 00:50        | 30 min    | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
+| 01:20        | 10 min    | [Next steps](#next-steps)                                                      |                                                |
+| **01:30**    | **90 min**| **Overall**                                                                    |                                                |
 
 {: .objective }
 > In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
