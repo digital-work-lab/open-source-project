@@ -23,11 +23,11 @@ Otto-Friedrich-Universität Bamberg
 
 # Learning objectives
 
-Our objectives for today are discuss and overcome current challenges related to:
+Our objectives for today are to discuss and overcome current challenges related to:
 
-- [Technical setup](#technical-setup): Git, Codespaces, and local setup
+- [Technical setup](#technical-setup): Git, Codespaces, or local setup
 - [Programming](#programming): Python, Python packages, and CoLRev
-- [Teamwork](#teamwork): Task distribution, fork and branches, and roles in the team
+- [Teamwork](#teamwork): Task distribution, forks, branches, and roles in the team
 
 <!-- 
 - Discuss current challenges and how they can be addressed
