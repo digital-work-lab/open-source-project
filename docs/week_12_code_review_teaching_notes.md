@@ -86,4 +86,4 @@ Evaluation bei ungleichen Beiträgen:
 
 ## Backup/Notes
 
-- weitere Python ressources mitgeben (zB. how to build a ... with python) https://github.com/codecrafters-io/build-your-own-x?ref=hackernoon.com
+- weitere Python resources mitgeben (zB. how to build a ... with python) https://github.com/codecrafters-io/build-your-own-x?ref=hackernoon.com
