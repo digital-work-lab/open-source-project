@@ -6,10 +6,10 @@ authors:
   orcid: "https://orcid.org/0000-0003-3926-7717"
 - family-names: "Thurner"
   given-names: "Laureen"
-- family-names: "Carlo"
-  given-names: ""Tang
-- family-names: "Stella"
-  given-names: "Ott"
+- family-names: "Tang"
+  given-names: "Carlo"
+- family-names: "Ott"
+  given-names: "Stella"
 title: "digital-work-lab/open-source-project"
 version: 0.1.0
 identifiers:

@@ -171,7 +171,6 @@ zur
 codecrafters
 hackernoon
 mitgeben
-ressources
 weitere
 zB
 Bachelorprojekt
