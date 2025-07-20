@@ -228,7 +228,7 @@ possibly a “how to succeed” section
 >
 > The Open-Source Project is rooted in our own peer-reviewed contributions and pedagogical principles. This includes
 >
-> - our [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/) (Wagner and Thurner, 2025),
+> - our [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"} (Wagner and Thurner, 2025),
 > - an overarching pedagogical framework for teaching open-source projects (Thurner and Wagner, under review), and
 > - our online materials for teaching Python package development (Wagner et al., under review).
 
