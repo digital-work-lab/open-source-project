@@ -181,26 +181,6 @@ possibly a “how to succeed” section
 - Reach out and schedule individual hacking sessions via [calendly](https://calendly.com/gerit-wagner/30min){: target="_blank"} to discuss challenges and get feedback
 -->
 
-## Teaching approach
-
-- **Complex skill development**: The project focuses on teaching complex skills necessary for modern software development.
-  This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
-  To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
-
-- **Real-world impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
-  This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance.
-  Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
-
-- **Transparent evaluation and improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
-  This ensures that students know how their work is assessed and how the course evolves based on feedback and ongoing refinement efforts.
-  In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
-
-- **Diversity, equity, and inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
-  We create a positive learning atmosphere, encouraging questions and contributions from everyone.
-  We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
-
-<!-- - link to pedagogical foundations -->
-
 ## Materials
 
 - Slides:
@@ -222,6 +202,31 @@ possibly a “how to succeed” section
   - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html)
 
 - Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/){: target="_blank"}, in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html){: target="_blank"} pages.
+
+## Teaching approach
+
+- **Complex skill development**: The project focuses on teaching complex skills necessary for modern software development.
+  This includes tackling challenging problems, collaborative coding in teams, and managing a complex development environment using Python, Git, Continuous Integration, Testing Environments, and Code Quality Tools.
+  To ensure a rich learning experience, we support students throughout the process by asking the right questions and providing the necessary input without removing the inherent challenges.
+
+- **Real-world impact**: We aim to empower students to make a meaningful impact by contributing to a real-world, publicly accessible Python package.
+  This hands-on experience not only enhances technical skills but also provides a sense of accomplishment and relevance.
+  Additionally, students can add this valuable experience to their CV, showcasing their practical contributions and teamwork skills to potential employers.
+
+- **Transparent evaluation and improvement**: Our [evaluation criteria](syllabus.html#assessment-and-grading-criteria), [course evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"} and [improvement efforts](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.22.improvements.html){: target="_blank"} are documented transparently.
+  This ensures that students understand how their work is evaluated and how the course progresses based on feedback and ongoing refinement efforts.
+  In addition, we develop peer-reviewed teaching materials to solicit feedback from educators outside our program.
+
+- **Diversity, equity, and inclusion**: We are committed to creating a safe and inclusive learning environment where all students feel respected and valued.
+  We create a positive learning atmosphere, encouraging questions and contributions from everyone.
+  We promote diversity and actively work to ensure every student has equal opportunities to succeed and contribute.
+
+<!-- - link to pedagogical foundations -->
+
+{: .highlight }
+> **Peer-reviewed contents and pedagogy**
+>
+> The *Open-Source Project* is based on peer-reviewed contents and pedagogical principles. This includes a [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/) (Wagner and Thurner, 2025), an overarching pedagogical framework for teaching open-source projects (currently under review at CAIS), and the online materials for teaching Python package development (currently under review at [JOSE](https://github.com/openjournals/jose-reviews/issues/292)).
 
 ## References
 
