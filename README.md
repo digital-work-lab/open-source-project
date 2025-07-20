@@ -9,7 +9,9 @@
 ![Links Fix](https://github.com/digital-work-lab/open-source-project/actions/workflows/links_fix.yml/badge.svg)
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/open-source-project/pages.yml?label=documentation)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
-[![DOI](https://zenodo.org/badge/697812022.svg)](https://doi.org/10.5281/zenodo.13871275)
+[![DOI](https://zenodo.org/badge/697812022.svg)](https://doi.org/10.5281/zenodo.13871275)<br>
+[![JISE](https://img.shields.io/badge/JISE-10.62273%2FBTKM5634-green)](https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.html)
+[![CAIS](https://img.shields.io/badge/CAIS-under_review-orange)](https://aisel.aisnet.org/cais/)
 [![status](https://jose.theoj.org/papers/cc49b9604b9fd10bc8524d1539620be6/status.svg)](https://jose.theoj.org/papers/cc49b9604b9fd10bc8524d1539620be6)
 
 </div>
