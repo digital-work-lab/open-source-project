@@ -226,7 +226,11 @@ possibly a “how to succeed” section
 {: .info }
 > **Peer-reviewed contents and pedagogy**
 >
-> The *Open-Source Project* is based on peer-reviewed contents and pedagogical principles. This includes a [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/) (Wagner and Thurner, 2025), an overarching pedagogical framework for teaching open-source projects (currently under review at CAIS), and the online materials for teaching Python package development (currently under review at [JOSE](https://github.com/openjournals/jose-reviews/issues/292)).
+> The Open-Source Project is rooted in our own peer-reviewed contributions and pedagogical principles. This includes
+>
+> - Our [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/) (Wagner and Thurner, 2025),
+> - an overarching pedagogical framework for teaching open-source projects (Thurner and Wagner, under review), and
+> - our online materials for teaching Python package development (Wagner et al., under review).
 
 ## References
 
@@ -234,5 +238,7 @@ possibly a “how to succeed” section
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
     <p>Luciano, R. (2015). Fluent Python: Clear, Concise, and Effective Programming. O'Reilly Media.</p>
     <p>Wagner, G., and Thurner, L. (2025) "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
+    <p>Thurner, L., and Wagner, G. (under review). "CONTRIBUTE: A pedagogical framework for Open-Source capstone projects". <i>Communications of the Association for Information Systems</i>.</p>
+    <p>Wagner, G., Thurner, L., Tang, C., Ott, S. (under review). "Teaching Python Package Development: A structured course with learning resources and an instructor’s guide". <i>The Journal of Open Source Education</i>. <a href="https://github.com/openjournals/jose-reviews/issues/292">link</a></p>
 </div>
 
