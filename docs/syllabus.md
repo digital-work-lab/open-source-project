@@ -226,7 +226,7 @@ possibly a “how to succeed” section
 {: .info }
 > **Peer-reviewed contents and pedagogy**
 >
-> The *Open-Source Project* is based on peer-reviewed contents and pedagogical principles. This includes a [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/) (Wagner and Thurner, 2025), an overarching pedagogical framework for teaching open-source projects (currently under review at CAIS), and the online materials for teaching Python package development (currently under review at [JOSE](https://github.com/openjournals/jose-reviews/issues/292)).
+> The *Open-Source Project* is based on peer-reviewed contents and pedagogical principles. This includes a [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"} (Wagner and Thurner, 2025), an overarching pedagogical framework for teaching open-source projects (currently under review at CAIS), and the online materials for teaching Python package development (currently under review at [JOSE](https://github.com/openjournals/jose-reviews/issues/292){: target="_blank"}).
 
 ## References
 
