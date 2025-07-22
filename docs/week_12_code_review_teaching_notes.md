@@ -33,6 +33,7 @@ If students test the code in Codespaces, the workspace should be started early.
 ## Setup:
 
 - Maintainer tasks: review PRs, but also take ownership for the project as a whole (guidelines for documentation, code quality, scope, contributors, community)
+- Announce that using ChatGPT is permitted (explain how/why you plan to use it before)
 
 ## Review session
 
@@ -52,9 +53,18 @@ git checkout --track coworker/foo
 
 - If some of the students do not actively contribute, ask the group to switch (inactive students taking the lead on the laptop)
 - Fetch/switch: clone from the right remote (forked) repository
-- Remember to run pip install -e . (to actually execute code from the other group)
+- Remember to run `pip install -e .` (to actually execute code from the other group)
 
 **TODO**: should be completed in groups of two
+
+## AI-based code review
+
+- Ask Copilot for a review in the pull request
+- Ask students to critically discuss the differences between their feedback and the pull-request comments of Copilot
+
+## Reflection part
+
+- Did you use AI to understand or generate code? What was helpful/effective?
 
 ## Concluding Feedback
 
