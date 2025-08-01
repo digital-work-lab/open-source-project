@@ -110,9 +110,35 @@ Guidelines for the hacking sessions:
 
 To offer more specific help (when needed), it may be useful to give specific code pointers (after developing/testing the next steps or full solution):
 
-<!-- https://github.com/ChloeT17/colrev/commit/1326242a54b92a75a68e5d6383faed7ae945dc24 -->
+```diff
 
-<pre> ```diff --- old-file.txt +++ new-file.txt @@ -1,3 +1,3 @@ -Old line of code +New line of code Some unchanged line Another unchanged line ``` </pre>
+def _simple_api_search(self, query: str) -> None:
++    # Note: run the following in the command line to set the API key:
++    # export SCOPUS_API_KEY='your_api_key_here'
+      
+     api_key = os.getenv("SCOPUS_API_KEY")
+     if not api_key:
+          self.review_manager.logger.info("No API key found - using DB search instead")
+         return
+   try:
+      url = "https://api.elsevier.com/content/search/scopus"
++     # TODO: make sure the query is set properly
+      params = {
+           "query": query,
+-           "count": 50,
++           # The response.text showed that the count was too high.
++           # To retrieve all results, you might need to paginate (using 'start' and 'count').
++           "count": 10,
++           "start": 0,
+             "apiKey": api_key,
+         }
+      response = requests.get(url, params=params, timeout=30)
++      # For debugging purposes, you can uncomment the next line to see the raw response
++      # print(response.json())
+      
+      if response.status_code == 200:
+         data = response.json()
+```
 
 ## Week 7
 
