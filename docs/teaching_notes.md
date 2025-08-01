@@ -108,6 +108,12 @@ Guidelines for the hacking sessions:
 - Ask questions instead of offering solutions
 - Suggest the use of Iterators for API retrieval
 
+To offer more specific help (when needed), it may be useful to give specific code pointers (after developing/testing the next steps or full solution):
+
+<!-- https://github.com/ChloeT17/colrev/commit/1326242a54b92a75a68e5d6383faed7ae945dc24 -->
+
+<pre> ```diff --- old-file.txt +++ new-file.txt @@ -1,3 +1,3 @@ -Old line of code +New line of code Some unchanged line Another unchanged line ``` </pre>
+
 ## Week 7
 
 - [ ] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
