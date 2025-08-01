@@ -111,7 +111,6 @@ Guidelines for the hacking sessions:
 To offer more specific help (when needed), it may be useful to give specific code pointers (after developing/testing the next steps or full solution):
 
 ```diff
-
 def _simple_api_search(self, query: str) -> None:
 +    # Note: run the following in the command line to set the API key:
 +    # export SCOPUS_API_KEY='your_api_key_here'
