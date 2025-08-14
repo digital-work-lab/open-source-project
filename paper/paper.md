@@ -25,7 +25,7 @@ bibliography: paper.bib
 
 Although there are many open online courses aimed at teaching Python programming, 
 few educational resources focus on the specific skills required for understanding and developing Python packages.
-Existing materials typically emphasize programming basics, but the development of Python packages, an essential skill for contributing to the open-source community 
+Existing materials typically emphasize programming basics, but the development of Python packages, an essential skill for contributing to the open source community 
 requires deeper knowledge of packaging infrastructure, dependency management, development environments, and best coding practices. 
 This gap leaves learners unprepared for the practicalities of structuring packages, managing dependencies, implementing version control, and ensuring code quality.
 
@@ -37,7 +37,7 @@ Additionally, we provide a detailed playbook for instructors to guide course del
 Informed by iterations and refinements over four semesters, 
 these resources provide a well-structured and engaging learning experience.
 
-The course materials were developed as part of the "Open-Source Project" 
+The course materials were developed as part of the "Open Source Project" 
 offered by the Digital Work Lab at Otto-Friedrich-Universität Bamberg.
 The [course repository](https://github.com/digital-work-lab/open-source-project) consists of a Jekyll-based website, 
 featuring course pages, instructor notes, slides, and practice notebooks.
@@ -57,7 +57,7 @@ emphasizing foundational skills like using libraries.
 These courses are frequently structured around paid certificates and follow conventional formats, 
 making them popular among learners seeking basic programming knowledge or career-oriented credentials.
 However, these MOOCs rarely delve into more advanced topics like Python package development, 
-leaving a noticeable gap for learners aiming to contribute to the open-source ecosystem.
+leaving a noticeable gap for learners aiming to contribute to the open source ecosystem.
 
 In contrast, the limited resources available for teaching Python package development primarily target self-learners.
 Materials like those offered by [PyOpenSci](https://www.pyopensci.org/) 
@@ -115,7 +115,7 @@ Generally, Python package development can be helpful for a range of purposes:
   but ensuring stability and reproducibility requires a more comprehensive approach.
   One element are cross-platform and cross-Python-version testing strategies 
   to verify that a Python package functions consistently across different environments. 
-4. **Version control, collaborative development, and open-source contribution**
+4. **Version control, collaborative development, and open source contribution**
   Version control systems, such as Git, are used for managing changes in Python package development.
   They allow developers to track modifications, revert to previous states, 
   and maintain a clear history of their work.
@@ -125,7 +125,7 @@ Generally, Python package development can be helpful for a range of purposes:
   introduce students to essential practices such as pull requests, code reviews, and issue tracking.
   These tools not only streamline teamwork but also teach students 
   how to contribute effectively to shared projects.
-  By engaging in open-source contributions, students gain additional experience 
+  By engaging in open source contributions, students gain additional experience 
   in a community-driven environment, where their work can be reused, improved, and expanded by others.
   Ideally, this exposure may foster an appreciation for collaborative coding 
   and emphasizes the importance of building packages that are maintainable, accessible, 
@@ -154,8 +154,8 @@ The specific learning objectives for the capstone project are:
   and ensuring compatibility across various project setups.
   This includes understanding the role of code quality tools, the importance of semantic versioning, 
   and maintaining stable software releases.
-3. **Contribute to open-source Python packages and collaborate in package development**
-  Students will gain hands-on experience contributing to open-source Python projects 
+3. **Contribute to open source Python packages and collaborate in package development**
+  Students will gain hands-on experience contributing to open source Python projects 
   by collaborating on GitHub, creating pull requests, resolving issues, 
   and following community-driven development standards.
   They will also learn how to write documentation and test their packages to ensure quality and usability.

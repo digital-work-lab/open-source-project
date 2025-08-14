@@ -92,7 +92,7 @@ a Creative Commons Attribution 4.0 International License (CC BY
   skills required for understanding and developing Python packages.
   Existing materials typically emphasize programming basics, but the
   development of Python packages, an essential skill for contributing to
-  the open-source community requires deeper knowledge of packaging
+  the open source community requires deeper knowledge of packaging
   infrastructure, dependency management, development environments, and
   best coding practices. This gap leaves learners unprepared for the
   practicalities of structuring packages, managing dependencies,
@@ -106,7 +106,7 @@ a Creative Commons Attribution 4.0 International License (CC BY
   detailed playbook for instructors to guide course delivery. Informed
   by iterations and refinements over four semesters, these resources
   provide a well-structured and engaging learning experience.</p>
-  <p>The course materials were developed as part of the “Open-Source
+  <p>The course materials were developed as part of the “Open Source
   Project” offered by the Digital Work Lab at Otto-Friedrich-Universität
   Bamberg. The
   <ext-link ext-link-type="uri" xlink:href="https://github.com/digital-work-lab/open-source-project">course
@@ -131,7 +131,7 @@ a Creative Commons Attribution 4.0 International License (CC BY
   among learners seeking basic programming knowledge or career-oriented
   credentials. However, these MOOCs rarely delve into more advanced
   topics like Python package development, leaving a noticeable gap for
-  learners aiming to contribute to the open-source ecosystem.</p>
+  learners aiming to contribute to the open source ecosystem.</p>
   <p>In contrast, the limited resources available for teaching Python
   package development primarily target self-learners. Materials like
   those offered by
@@ -286,10 +286,10 @@ a Creative Commons Attribution 4.0 International License (CC BY
       package functions consistently across different environments.</p>
     </list-item>
     <list-item>
-      <p><bold>Version control, collaborative development, and
-      open-source contribution</bold> Version control systems, such as
-      Git, are used for managing changes in Python package development.
-      They allow developers to track modifications, revert to previous
+      <p><bold>Version control, collaborative development, and open
+      source contribution</bold> Version control systems, such as Git,
+      are used for managing changes in Python package development. They
+      allow developers to track modifications, revert to previous
       states, and maintain a clear history of their work. Beyond
       individual use, Git facilitates collaboration by enabling multiple
       contributors to work on the same package simultaneously while
@@ -298,7 +298,7 @@ a Creative Commons Attribution 4.0 International License (CC BY
       students to essential practices such as pull requests, code
       reviews, and issue tracking. These tools not only streamline
       teamwork but also teach students how to contribute effectively to
-      shared projects. By engaging in open-source contributions,
+      shared projects. By engaging in open source contributions,
       students gain additional experience in a community-driven
       environment, where their work can be reused, improved, and
       expanded by others. Ideally, this exposure may foster an
@@ -343,9 +343,9 @@ a Creative Commons Attribution 4.0 International License (CC BY
       and maintaining stable software releases.</p>
     </list-item>
     <list-item>
-      <p><bold>Contribute to open-source Python packages and collaborate
+      <p><bold>Contribute to open source Python packages and collaborate
       in package development</bold> Students will gain hands-on
-      experience contributing to open-source Python projects by
+      experience contributing to open source Python projects by
       collaborating on GitHub, creating pull requests, resolving issues,
       and following community-driven development standards. They will
       also learn how to write documentation and test their packages to
