@@ -259,11 +259,14 @@ as students are not disadvantaged by their choice of operating system and can co
 
 # Reuse and modification of materials
 
-The materials provided in this course are designed for easy reuse and modification by other instructors.
-While the course uses the CoLRev Python package [@WagnerPrester2024] as the example context, the materials allow instructors to adapt the content to focus on different Python packages.
-The learning environment, hosted on GitHub and built with the Just-the-Docs framework, can be cloned, enabling instructors to replicate the entire setup.
-All instructional content, including slides and practice notebooks, are automatically generated and updated via GitHub Actions, ensuring the materials remain up-to-date.
+The materials provided in this course were developed over four semesters[^3] and are designed for easy reuse and modification by other instructors.
+While the course uses the CoLRev Python package [@WagnerPrester2024] as the example context, instructors can adapt the materials to focus on different Python packages.
+The learning environment, hosted on GitHub and built with the Just-the-Docs framework, can be forked, enabling instructors to replicate and modify the entire setup.
+In addition, the pedagogical concept and teaching notes[^2] serve as a starting point for adapting the instructional design.
+All contents, including slides and practice notebooks, are automatically generated and updated via GitHub Actions, ensuring the materials remain up-to-date.
 
 [^1]: Local VirtualBox images were too slow on most student machines, and resources for self-hosted virtual machines were not available.
+[^2]: https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html
+[^3]: https://digital-work-lab.github.io/open-source-project/docs/evaluations.html
 
 # References
