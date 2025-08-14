@@ -81,6 +81,8 @@ In the practice sessions:
 
 # Start the Codespace
 
+Start a Codespace for CoLRev [here](https://github.com/CoLRev-Environment/colrev).
+
 Open the notebook for practicing Git branching:
 
 [![Open Notebook](https://img.shields.io/badge/Open-Jupyter%20Notebook-blue)](https://digital-work-lab.github.io/open-source-project/docs/week_2_git_notebook_branching.html)
