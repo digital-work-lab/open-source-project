@@ -20,7 +20,7 @@ search_exclude: true
 | **01:30**    | **90 min**| **Overall**                                                                    |                                                |
 
 {: .objective }
-> In this session, our goal is to familiarize ourselves with open-source projects on GitHub.
+> In this session, our goal is to familiarize ourselves with open source projects on GitHub.
 
 <div class="page-break"></div>
 
@@ -38,7 +38,7 @@ Introduce the teaching assistant
 Learn about students
 
 - Degree program (WI/ISM?)
-- Experience in programming, in git/python, open-source development? - always helpful
+- Experience in programming, in git/python, open s ource development? - always helpful
 - We "only" need InfEinf or EiAPS and JaP (after the Winter Term of 2024/2025). If you have not completed these, participate in the project in the next semester(s)
 
 ## What you will learn <a id="what-you-will-learn"></a>
@@ -67,7 +67,7 @@ Ask students why Google, AirBnB etc. would publish code?
 
 ## The project: CoLRev <a id="the-project-colrev"></a>
 
-- Ambition: Open-source environment for literature reviews (like R for statistics, or Python for ML)
+- Ambition: Open source environment for literature reviews (like R for statistics, or Python for ML)
 - Ask students: who has already completed a literature review?
 - Mention that our approach currently focuses on the command line. What are the possible reasons?
 - Git as an inspiration: rapid adoption (not because there were shiny interfaces, but because the data management was very efficient, reliable, and scalable to large teams)
@@ -94,7 +94,7 @@ Show the Calendly tool (how to book a session)
 - You have to **signal your intent to contribute** by contributing to the issue discussions.
 - Choose issues strategically - **only the first 5 contributors will be accepted** for the group.
 
-The process resembles open-source projects, involving self-selection (instead of fixed assignment to groups), communicating in public issues, creating pull requests
+The process resembles open source projects, involving self-selection (instead of fixed assignment to groups), communicating in public issues, creating pull requests
 You can select the topics that you are interested in by contributing code.
 
 Organize ...
@@ -134,7 +134,7 @@ See slides
 
 Small groups web research task ("scavanger hunt")
 
-- Assessing open-source projects and finding things are important skills.
+- Assessing open source projects and finding things are important skills.
 
 After 12-15 mins: ask whether students have completed the task (give more time if necessary).
 
@@ -145,16 +145,16 @@ Solutions
 - Documentation link
 - License and CONTRIBUTING.md
 - Issue template
-- Issues / Pull-requests tabs (e.g., good-first-issue label as a typical starting point when joining an open-source project)
+- Issues / Pull-requests tabs (e.g., good-first-issue label as a typical starting point when joining an open source project)
 - Actions with log
 - Unpaywall: search in the docs
 - Issues -> Milestones
 
 These are issues that users of CoLRev may ask themselves (or we when we select libraries)
 
-Discuss software selection criteria (for open-source projects) more broadly. What would you look for? Nr commits/issues,... Why?
+Discuss software selection criteria (for open source projects) more broadly. What would you look for? Nr commits/issues,... Why?
 
-Discuss/explain the git/open-source community structure
+Discuss/explain the git/open source community structure
 
 ## Until next session <a id="next-steps"></a>
 

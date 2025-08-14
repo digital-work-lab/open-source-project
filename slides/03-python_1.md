@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project: Introduction to Python'
+header: 'Open Source Project: Introduction to Python'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/03-python_1.md' target='_blank'>🛠️</a>"
@@ -8,7 +8,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project
+# WI-Project: Open Source Project
 
 ## Introduction to Python (1)
 

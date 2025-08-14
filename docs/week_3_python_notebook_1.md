@@ -119,7 +119,7 @@ git reset --hard dbd583c499da9fe0945ce75f98c32c7babaddd4d
 
 Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.
 
-We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser){: target="_blank"} package, which is developed actively and available under an Open-Source license.
+We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser){: target="_blank"} package, which is developed actively and available under an Open Source license.
 
 ```python
 pip install bibtexparser

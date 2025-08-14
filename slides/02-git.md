@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project: Introduction to Git'
+header: 'Open Source Project: Introduction to Git'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/02-git.md' target='_blank'>🛠️</a>"
@@ -8,7 +8,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project
+# WI-Project: Open Source Project
 
 ## Introduction to Git
 
@@ -293,7 +293,7 @@ git push origin main
 
 This model works if you are a maintainer of the remote/origin, i.e., if you have write access.
 
-- In Open-Source projects, write-access is restricted to a few maintainers
+- In Open Source projects, write-access is restricted to a few maintainers
 - At the same time, it should be possible to integrate contributions from the community
 - **Forks** are remote copies of the upstream repository
 - Contributors can create forks at any time and push changes

@@ -15,7 +15,7 @@ has_toc: true
 - **Branch**: Movable pointer to a specific commit, allowing you to work on separate lines of development.
 - **Merge**: Process of combining changes from one branch into another.
 - **Merge Conflict**: Occurs when changes from different branches conflict with one another during merging, requiring manual resolution.
-- **Pull Request**: A request to merge changes from one branch into another, often used for code review in open-source workflows.
+- **Pull Request**: A request to merge changes from one branch into another, often used for code review in open source workflows.
   Pull requests can refer to branches in the same repository or in a fork.
 - **Git Reset vs. Revert**: Commands for undoing commits, either by removing them or by creating a new commit to reverse changes.
 - **Atomic Commits**: Small, focused commits that group related changes together to improve clarity and history tracking.

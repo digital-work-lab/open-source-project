@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project: Code Review Session'
+header: 'Open Source Project: Code Review Session'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/06-code_review.md' target='_blank'>🛠️</a>"
@@ -8,7 +8,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project
+# WI-Project: Open Source Project
 
 ## The Review Session
 
@@ -23,7 +23,7 @@ Otto-Friedrich-Universität Bamberg
 
 # The Review Session
 
-In this session, you will **adopt the perspective of a maintainer**, i.e., a gatekeeper who takes responsibility for an open-source project by screening, improving, and integrating code contributions.
+In this session, you will **adopt the perspective of a maintainer**, i.e., a gatekeeper who takes responsibility for an open source project by screening, improving, and integrating code contributions.
 
 As a group, your goals are:
 
@@ -79,12 +79,12 @@ Your feedback for us
 - You will be added as a contributor on GitHub (to opt out, e-mail me)
 - Consider mentioning the contribution in your CV:
 
-**Open-Source Contributions**
-CoLRev - An open-source environment for Collaborative Literature Reviews
+**Open Source Contributions**
+CoLRev - An open source environment for Collaborative Literature Reviews
 
 - Role: Contributor/Developer
 - Date: 2024
-- Description: Contributed to the development of CoLRev, an open-source environment designed to facilitate collaborative literature reviews. Implemented the package extension *unpaywall* (insert your project).
+- Description: Contributed to the development of CoLRev, an open source environment designed to facilitate collaborative literature reviews. Implemented the package extension *unpaywall* (insert your project).
 - Repository: [CoLRev on GitHub](https://github.com/CoLRev-Environment/colrev)
 - DOI: 10.5281/zenodo.11668338
 

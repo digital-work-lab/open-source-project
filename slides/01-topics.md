@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project: Topics'
+header: 'Open Source Project: Topics'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/01-topics.md' target='_blank'>🛠️</a>"
@@ -8,7 +8,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project
+# WI-Project: Open Source Project
 
 ## Topics
 
@@ -37,7 +37,7 @@ Otto-Friedrich-Universität Bamberg
 - Use git and GitHub for versioning and collaboration
 - Git quickly established itself as the most popular version control system
 - As a prominent example, Microsoft has acquired GitHub and moved the source code of Windows to Git ([1](https://www.golem.de/news/gvfs-windows-team-nutzt-fast-vollstaendig-git-1705-128039.html))
-- Many companies have public GitHub programs and share parts of their work as Open-Source (e.g., [Google](https://github.com/google) or [Meta](https://github.com/facebook)) 
+- Many companies have public GitHub programs and share parts of their work as Open Source (e.g., [Google](https://github.com/google) or [Meta](https://github.com/facebook)) 
 
 ![bg right:40% width:350px](../assets/git-diffusion.png)
 
@@ -55,11 +55,11 @@ Otto-Friedrich-Universität Bamberg
 
 # What you will learn (III): Open-Sourcing
 
-- Open-source software plays a major role in the industry (see [HBS working paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)) and firms start to use open-source principles to organize their work (see [innersource](https://github.com/resources/articles/software-development/innersource))
+- Open source software plays a major role in the industry (see [HBS working paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)) and firms start to use open source principles to organize their work (see [innersource](https://github.com/resources/articles/software-development/innersource))
 - You will
 
-  - Work with the Open-Source workflows of GitHub
-  - Make a first contribution to a public Open-Source project
+  - Work with the Open source workflows of GitHub
+  - Make a first contribution to a public Open Source project
   - Adopt the role of a maintainer and review the code of your peers
   - Have an opportunity to create your *developer portfolio*
 
@@ -69,7 +69,7 @@ Otto-Friedrich-Universität Bamberg
 
 # The project: CoLRev
 
-Collaborative Literature Reviews (CoLRev) is an open-source environment for collaborative literature reviews. It integrates with different synthesis tools, takes care of the data, and facilitates Git-based collaboration.
+Collaborative Literature Reviews (CoLRev) is an open source environment for collaborative literature reviews. It integrates with different synthesis tools, takes care of the data, and facilitates Git-based collaboration.
 
 The following features stand out:
 
@@ -112,7 +112,7 @@ This process ensures that **all group members contribute fairly** abd typically 
 
 # Evaluation criteria
 
-**Process: Open-Source practices**
+**Process: Open Source practices**
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
 - Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
@@ -156,12 +156,12 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 - Take full responsibility for setting up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT (risk of copyright infringement)
-- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
+- Adopt an Open Source approach (work publicly, communicate in English, create a profile)
 - Reach out and schedule individual hacking sessions via [Calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
 ---
 
-# Finding things in an open-source project
+# Finding things in an open source project
 
 Go to the [CoLRev project repository](https://github.com/CoLRev-Ecosystem/colrev).
 
@@ -234,7 +234,7 @@ blockquote {
 <div class="references">
   <p>Wagner, G., and Thurner, L. 2025. "Rethinking How We Teach Git: Pedagogical Recommendations and Practical Strategies for the Information Systems Curriculum". <em>Journal of Information Systems Education</em>, 36(1). <a href="https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.html">link</a></p>
   <p>Wagner, G., Thurner, L., Tang, C., Ott, S. "Teaching Python Package Development: A structured course with learning resources and an instructor's guide". Submitted to <em>The Journal of Open Source Education</em>. <a href="https://github.com/openjournals/jose-reviews/issues/275">link</a></p>
-  <p>Thurner, L. and Wagner, G. "CONTRIBUTE: A pedagogical framework for Open-Source capstone projects". Under review at the <em>Communications of the Association for Information Systems</em>.</p>
+  <p>Thurner, L. and Wagner, G. "CONTRIBUTE: A pedagogical framework for Open Source capstone projects". Under review at the <em>Communications of the Association for Information Systems</em>.</p>
 </div>
 
 We value feedback — please let us know what works and how we can improve ♡

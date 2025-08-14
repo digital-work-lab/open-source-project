@@ -9,7 +9,7 @@ nav_order: 11
 
 On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈
 
-Student contributors to the Open-Source project [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} with the following GitHub accounts:
+Student contributors to the Open Source project [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} with the following GitHub accounts:
 
 - dengdenglele
 - MalouSchmidt

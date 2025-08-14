@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open-Source Project: Best-practice session'
+header: 'Open Source Project: Best-practice session'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/05-best_practice.md' target='_blank'>🛠️</a>"
@@ -8,7 +8,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open-Source Project
+# WI-Project: Open Source Project
 
 ## Best Practice Session
 

@@ -1,5 +1,5 @@
 ---
-title: "Open-Source project: Evaluation sheet"
+title: "Open Source project: Evaluation sheet"
 nav_exclude: true
 ---
 
@@ -27,7 +27,7 @@ Criterion,Score (1-5)
 "1. Competence to use git",
 "2. Competence to write Python code and  contribute to a Python package",
 "3. Quality of code (concise, passing linters and tests)",
-"4. Open-Source organizing (e.g., atomic commits, use of branches and pull requests to review, discuss, revise, and test the code)",
+"4. Open Source organizing (e.g., atomic commits, use of branches and pull requests to review, discuss, revise, and test the code)",
 "5. Code can be merged",
 "6. Documentation (in the code or separately)",
 "7. Quality (as evaluated in the last session)",

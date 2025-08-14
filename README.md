@@ -16,9 +16,9 @@
 
 </div>
 
-# The Open-Source Project
+# The Open Source Project
 
-Welcome! The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
+Welcome! The Open Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
 You can find more information on the following pages:
 
 - [Project page](https://digital-work-lab.github.io/open-source-project/)
@@ -45,7 +45,7 @@ Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Pr
 
 ## Citation
 
-Wagner, G., Thurner, L., Tang, C., and Ott, S. (2024). The Open-Source Project. Zenodo. https://doi.org/10.5281/zenodo.13871275
+Wagner, G., Thurner, L., Tang, C., and Ott, S. (2024). The Open Source Project. Zenodo. https://doi.org/10.5281/zenodo.13871275
 
 ## License
 

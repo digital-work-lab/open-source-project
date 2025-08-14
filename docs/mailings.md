@@ -22,7 +22,7 @@ search_exclude: true
 > Liebe Studierende,  
 > ich hoffe, Sie hatten nach den Klausuren eine erholsame Zeit und sind wieder gut im Semester angekommen.  
 >  
-> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, Git und dem GitHub Open-Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne kurzfristig dazukommen. Mit Git und GitHub sind Sie ja schon vertraut, und die Einführung in Python findet nächste Woche statt:  
+> Im aktuellen Semester (sowie im kommenden Sommersemester) biete ich ein WI-Projekt an, bei dem wir mit Python, Git und dem GitHub Open Source Workflow arbeiten. Wenn Sie das WI-Projekt noch nicht belegt haben, können Sie gerne kurzfristig dazukommen. Mit Git und GitHub sind Sie ja schon vertraut, und die Einführung in Python findet nächste Woche statt:  
 > - 📅 Dienstag, 28.10.2024, 08:00 – 12:00 Uhr (WE5/01.003)  
 > - 📅 Donnerstag, 30.10.2024, 14:00 – 18:00 Uhr (WE5/01.003)  
 >  
@@ -38,7 +38,7 @@ search_exclude: true
 > Dear Students,  
 > I hope you had a restful time after the exams and that you’ve settled well into the semester.  
 >  
-> This semester (and in the upcoming summer semester), I’m offering a WI project focusing on Python, Git, and the GitHub Open-Source Workflow. If you haven’t enrolled yet, you are welcome to join at short notice. You’re already familiar with Git and GitHub, and the Python introduction will take place next week:  
+> This semester (and in the upcoming summer semester), I’m offering a WI project focusing on Python, Git, and the GitHub Open Source Workflow. If you haven’t enrolled yet, you are welcome to join at short notice. You’re already familiar with Git and GitHub, and the Python introduction will take place next week:  
 > - 📅 Tuesday, 28.10.2024, 08:00 – 12:00 (WE5/01.003)  
 > - 📅 Thursday, 30.10.2024, 14:00 – 18:00 (WE5/01.003)  
 >  
@@ -353,11 +353,11 @@ VC post (27.11.24)
 
 > Liebe Studierende,  
 > 
-> die Implementierungsphase des Projekts ist nun abgeschlossen, und ich werde damit beginnen, die Pull Requests zu integrieren. Ein herzliches Dankeschön für Ihren Code-Beitrag und die Teilnahme am Open-Source-Projekt!  
+> die Implementierungsphase des Projekts ist nun abgeschlossen, und ich werde damit beginnen, die Pull Requests zu integrieren. Ein herzliches Dankeschön für Ihren Code-Beitrag und die Teilnahme am Open Source-Projekt!  
 > 
 > Die Noten tragen wir Anfang der Woche in FlexNow in.
 > 
-> Ihr Feedback aus der letzten Session und die Weiterentwicklung des Open-Source-Projekts können Sie hier nachverfolgen bzw. weiterhin mit Vorschlägen ergänzen: 
+> Ihr Feedback aus der letzten Session und die Weiterentwicklung des Open Source-Projekts können Sie hier nachverfolgen bzw. weiterhin mit Vorschlägen ergänzen: 
 > 
 > 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10){: target="_blank"}  
 >
@@ -371,11 +371,11 @@ VC post (27.11.24)
 
 > Dear Students,
 > 
-> The implementation phase of the project is now complete, and I will begin integrating the pull requests. A heartfelt thank you for your code contributions and participation in the open-source project!
+> The implementation phase of the project is now complete, and I will begin integrating the pull requests. A heartfelt thank you for your code contributions and participation in the open source project!
 > 
 > Grades will be entered into FlexNow at the beginning of the week.
 > 
-> You can track your feedback from the last session and the further development of the open-source project here, and continue to contribute suggestions:
+> You can track your feedback from the last session and the further development of the open source project here, and continue to contribute suggestions:
 > 
 > 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10){: target="_blank"}  
 > 

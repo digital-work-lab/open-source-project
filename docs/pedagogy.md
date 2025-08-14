@@ -11,8 +11,8 @@ search_exclude: true
 ## Philosophy
 
 The educational philosophy guiding this project aligns with progressive and humanistic principles, particularly those outlined by Dewey, Rogers, and Maslow.
-Dewey’s **progressivism** advocates for experiential, hands-on learning, which is central to understanding open-source workflows and version control systems like Git.
-This approach mirrors the collaborative, real-world challenges that students encounter in open-source software projects, where teamwork and practical problem-solving are essential.
+Dewey’s **progressivism** advocates for experiential, hands-on learning, which is central to understanding open source workflows and version control systems like Git.
+This approach mirrors the collaborative, real-world challenges that students encounter in open source software projects, where teamwork and practical problem-solving are essential.
 Through such tasks, students actively engage in a social learning process, fostering critical thinking and collaboration.
 
 **Humanism** further informs the project by emphasizing student-centered learning and individual agency.
@@ -22,7 +22,7 @@ This framework prioritizes intrinsic motivation and self-directed learning, reso
 
 The course’s structure—a combination of block sessions, group work, and collaborative hacking sessions—is designed to support students through progressive stages of learning, from introductory overviews to focused project work.
 By understanding Git, Python, and other core tools, students build the foundational skills needed to work within Git-based platforms like GitHub, mirroring industry practices in tech companies.
-The project culminates in a final code review, where students’ contributions are integrated into the larger open-source project, emphasizing the value of their collaborative efforts and technical growth.
+The project culminates in a final code review, where students’ contributions are integrated into the larger open source project, emphasizing the value of their collaborative efforts and technical growth.
 This hands-on experience enables students to not only gain practical skills but also develop a mindset oriented towards problem solving, continuous learning and community-driven improvement.
 
 ## Objectives

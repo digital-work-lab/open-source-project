@@ -32,21 +32,21 @@ nav_order: 1
 
 **Summary**
 
-In software development, open-source development environments and open-source workflows are gaining importance and are embraced by large tech companies.
+In software development, open source development environments and open source workflows are gaining importance and are embraced by large tech companies.
 Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%.
 As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git.
 Today, Git is an integral part of scaling extensive and highly distributed software development projects.
 
-Against this background, the goal of this project is to understand and use Git-based open-source workflows and development environments (e.g., pull requests, forks, and continuous integration).
-Within the framework of an existing open-source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams.
+Against this background, the goal of this project is to understand and use Git-based open source workflows and development environments (e.g., pull requests, forks, and continuous integration).
+Within the framework of an existing open source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams.
 The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
 
 At the beginning of the project, three block events are planned:
-(1) an overview of the open-source project and the sub-projects with subsequent topic assignments,
+(1) an overview of the open source project and the sub-projects with subsequent topic assignments,
 (2) an introduction to Git, and (3) an introduction to Python.
 The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups.
 The code review session will take place in the last weeks of the lecture period.
-At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open-source project (merged or advanced pull request).
+At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open source project (merged or advanced pull request).
 
 {: .info }
 > **FlexNow**
@@ -75,7 +75,7 @@ We can meet in person or online, whatever works best for you.
 
 - Use Git and GitHub to develop code in small teams
 - Write Python code and contribute to a Python package
-- Familiarize with open-source development as a contributor and maintainer
+- Familiarize with open source development as a contributor and maintainer
 
 <!-- Mention CV -->
 
@@ -100,7 +100,7 @@ We cover the following sessions and work tasks (specific dates are available on 
 
 **Week 5, Session 5: Best practices**
 
-- Discussion on coding standards and best practices in open-source development.
+- Discussion on coding standards and best practices in open source development.
 
 **Weeks 6-11: Individual hacking sessions**
 
@@ -118,7 +118,7 @@ Typically, a single grade is given to the entire group.
 However, if any issues arise, it is essential to raise any concerns early.
 We reserve the right to assign different grades within the group and give extra points to those who make exceptional contributions.
 
-**Process: Open-Source practices**
+**Process: Open Source practices**
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
 - Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
@@ -152,7 +152,7 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 - Hacking sessions
 
 <!-- 
-**Process: Open-Source Practices**
+**Process: Open Source Practices**
 
 - Proper use of Git conventions for commit messages and branching.
 - Clear and descriptive pull requests with proper documentation.
@@ -167,7 +167,7 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 - **Problem-Solving Mindset**: Embrace challenges and approach problems methodically, making use of available resources and seeking help when necessary.
 - **Preparation and Responsibility**: Be well-prepared for meetings and reviews, understand your code, and be able to explain your approach and decisions.
 - **Ethical Considerations**: Avoid the use of generative AI tools like ChatGPT for coding tasks to prevent potential copyright issues and ensure the originality of your work.
-- **Open-Source Approach**: Work publicly, communicate in English, and create a professional profile on platforms like GitHub.
+- **Open Source Approach**: Work publicly, communicate in English, and create a professional profile on platforms like GitHub.
 
 ## Student responsibilities
 
@@ -177,7 +177,7 @@ possibly a “how to succeed” section
 - Take full responsibility for setting up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT because you would risk copyright infringement
-- Adopt an Open-Source approach (work publicly, communicate in English, create a profile)
+- Adopt an Open Source approach (work publicly, communicate in English, create a profile)
 - Reach out and schedule individual hacking sessions via [calendly](https://calendly.com/gerit-wagner/30min){: target="_blank"} to discuss challenges and get feedback
 -->
 
@@ -226,10 +226,10 @@ possibly a “how to succeed” section
 {: .info }
 > **Peer-reviewed contents and pedagogy**
 >
-> The Open-Source Project is rooted in our own peer-reviewed contributions and pedagogical principles. This includes
+> The Open Source Project is rooted in our own peer-reviewed contributions and pedagogical principles. This includes
 >
 > - our [novel approach to teaching Git](https://digital-work-lab.github.io/rethink-git-teaching/){: target="_blank"} (Wagner and Thurner, 2025),
-> - an overarching pedagogical framework for teaching open-source projects (Thurner and Wagner, under review), and
+> - an overarching pedagogical framework for teaching open source projects (Thurner and Wagner, under review), and
 > - our online materials for teaching Python package development (Wagner et al., under review).
 
 ## References
@@ -238,7 +238,7 @@ possibly a “how to succeed” section
     <p>Hogbin Westby, E. J. (2015). Git for teams: a user-centered approach to creating efficient workflows in Git. O'Reilly Media.</p>
     <p>Luciano, R. (2015). Fluent Python: Clear, Concise, and Effective Programming. O'Reilly Media.</p>
     <p>Wagner, G., and Thurner, L. (2025) "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
-    <p>Thurner, L., and Wagner, G. (under review). "CONTRIBUTE: A pedagogical framework for Open-Source capstone projects". <i>Communications of the Association for Information Systems</i>.</p>
+    <p>Thurner, L., and Wagner, G. (under review). "CONTRIBUTE: A pedagogical framework for Open Source capstone projects". <i>Communications of the Association for Information Systems</i>.</p>
     <p>Wagner, G., Thurner, L., Tang, C., Ott, S. (under review). "Teaching Python Package Development: A structured course with learning resources and an instructor’s guide". <i>The Journal of Open Source Education</i>. <a href="https://github.com/openjournals/jose-reviews/issues/292">link</a></p>
 </div>
 

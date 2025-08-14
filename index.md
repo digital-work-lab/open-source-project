@@ -6,7 +6,7 @@ description: "Welcome"
 permalink: /
 ---
 
-# The Open-Source Project
+# The Open Source Project
 
 <br>
 
@@ -40,7 +40,7 @@ permalink: /
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
 Welcome!
-The Open-Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
+The Open Source Project is organized by the digital work lab (Prof. Dr. Gerit Wagner) at Otto-Friedrich-Universität Bamberg.
 You can find all information about this project in our [syllabus](docs/syllabus.html).
 
 <!-- 
@@ -66,9 +66,9 @@ Sign up for the course on the *Virtual Campus* platform: [![Course Registration]
 
 ## Goals
 
-- **Hands-on experience** as a contributor and maintainer of a real open-source project.
+- **Hands-on experience** as a contributor and maintainer of a real open source project.
 - **Python coding** with emphasis on Python **packages**, **code quality** and **continuous integration**.
-- **Collaborative teamwork** using modern open-source workflows through Git and GitHub.
+- **Collaborative teamwork** using modern open source workflows through Git and GitHub.
 
 ## Outline
 
