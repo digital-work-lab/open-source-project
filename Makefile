@@ -25,3 +25,10 @@ output/%.html: slides/%.md assets/template/theme.css
 
 output/%.pdf: slides/%.md assets/template/theme.css
 	docker run --rm --init -v "$(shell pwd)":/home/marp/app/ -v "$(shell pwd)/assets":/home/marp/app/assets -v "$(shell pwd)/assets":/home/marp/app/assets -e LANG=$(LANG) -e MARP_USER=$(shell id -u):$(shell id -g) marpteam/marp-cli:v3.4.0 /home/marp/app/$< --theme-set /home/marp/app/assets/template/theme.css --pdf --allow-local-files -o /home/marp/app/$@
+
+pdf:
+	docker run --rm \
+    --volume "`pwd`/paper:/data" \
+    --user `id -u`:`id -g` \
+    --env JOURNAL=jose \
+    openjournals/inara
