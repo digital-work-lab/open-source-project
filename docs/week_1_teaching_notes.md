@@ -38,7 +38,7 @@ Introduce the teaching assistant
 Learn about students
 
 - Degree program (WI/ISM?)
-- Experience in programming, in git/python, open s ource development? - always helpful
+- Experience in programming, in git/python, open source development? - always helpful
 - We "only" need InfEinf or EiAPS and JaP (after the Winter Term of 2024/2025). If you have not completed these, participate in the project in the next semester(s)
 
 ## What you will learn <a id="what-you-will-learn"></a>
