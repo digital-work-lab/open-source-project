@@ -45,5 +45,7 @@ Student contributors to the Open Source project [CoLRev](https://github.com/CoLR
 - komashevska
 - trathienphuc-tran
 - ammar-uni
+- Lea-Chaoui
+- ChloeT17
 
 See complete overview of [contributors](https://github.com/CoLRev-Environment/colrev/graphs/contributors){: target="_blank"}.
