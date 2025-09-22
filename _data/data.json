@@ -6,46 +6,46 @@
     { "ID": 1, "name": "SuSe 2023", "participants": 14, "evaluation_average": 4.4 }
   ],
   "current_semester": {
-    "name": "SuSe 2025",
+    "name": "WiSe 2025/26",
     "sessions": [
       {
         "week": 1,
         "title": "Finding the topic",
-        "date": "2025-04-30",
-        "date_formatted": "April 30, 16.15-17.30",
-        "location": "WE5 1.094",
+        "date": "2025-10-13",
+        "date_formatted": "October 13, 10.00–12.00",
+        "location": "WE5/01.003",
         "details_url": "docs/week_1_topic.html"
       },
       {
         "week": 2,
         "title": "Introduction to Git",
-        "date": "2025-05-02",
-        "date_formatted": "May 2, 08.00–12.00",
-        "location": "WE5 01.003",
+        "date": "2025-10-17",
+        "date_formatted": "October 17, 08.00–12.00",
+        "location": "WE5/01.003",
         "details_url": "docs/week_2_git.html"
       },
       {
         "week": 3,
         "title": "Introduction to Python (I)",
-        "date": "2025-05-08",
-        "date_formatted": "May 8, 12.00–16.00",
-        "location": "WE5 01.004 <br> WE5 01.003",
+        "date": "2025-10-20",
+        "date_formatted": "October 20, 08.00–12.00",
+        "location": "WE5/01.003",
         "details_url": "docs/week_3_python.html"
       },
       {
         "week": 3,
         "title": "Introduction to Python (II)",
-        "date": "2025-05-09",
-        "date_formatted": "May 9, 08.00–12.00",
-        "location": "WE5 01.003",
+        "date": "2025-10-24",
+        "date_formatted": "October 24, 08.00–12.00",
+        "location": "WE5/01.003",
         "details_url": "docs/week_3_python.html"
       },
       {
         "week": 5,
         "title": "Best practices",
-        "date": "2025-05-22",
-        "date_formatted": "May 22, 12.00–14.00",
-        "location": "WE5 01.004",
+        "date": "2025-11-21",
+        "date_formatted": "November 21, 10.00–12.00",
+        "location": "WE5/01.003",
         "details_url": "docs/week_5_best_practices.html"
       },
       {
@@ -59,8 +59,8 @@
       {
         "week": 12,
         "title": "Code review session",
-        "date": "2025-07-23",
-        "date_formatted": "July 23, (12.00-13.00)",
+        "date": "2026-01-12",
+        "date_formatted": "January 12, (TBA)",
         "location": "WE5/1.094",
         "details_url": "docs/week_12_code_review.html"
       }
