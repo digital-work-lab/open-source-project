@@ -74,7 +74,14 @@ Sign up for the course on the *Virtual Campus* platform: [![Course Registration]
 
 The outline for the sessions is below:
 
+| Week | Session | Date and Time | Location | Status |
+|------|---------|----------------|----------|--------|
+{% for s in site.data.data.current_semester.sessions %}{% assign session_ts = s.date | date: "%s" %}{% assign now_ts = "now" | date: "%s" %}{% if session_ts <= now_ts %}{% assign status = "🟢 Completed" %}{% else %}{% assign status = "⚪ Upcoming" %}{% endif %}| {{ s.week }} | [{{ s.title }}]({{ s.details_url }}) | {{ s.date_formatted }} | {{ s.location }} | {{ status }} |
+{% endfor %}
+
 <!-- 
+Note: update the dates here: https://github.com/digital-work-lab/open-source-project/blob/main/_data/data.json
+
 | Week | Session                                              | Date and Time                                         | Location                  | Status |
 | ---- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------- | ------ |
 | 1    | [Finding the topic](docs/week_1_topic.html)          | April 23, 12.00-14.00                                 | WE5 04.003                |{% assign d='2025-04-23' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
@@ -84,11 +91,6 @@ The outline for the sessions is below:
 | 6-11 | [Group work](docs/week_6-11_group_work.html)         | On demand                                             | WE5 01.081                |{% assign d='2025-05-22' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 | 12   | [Code review session](docs/week_12_code_review.html) | TBA                                                   | TBA                       |{% assign d='2025-07-10' | date: "%s" %}{% assign now='now' | date: "%s" %}{% if d <= now %}🟢 Completed{% else %}⚪ Upcoming{% endif %} |
 -->
-
-| Week | Session | Date and Time | Location | Status |
-|------|---------|----------------|----------|--------|
-{% for s in site.data.data.current_semester.sessions %}{% assign session_ts = s.date | date: "%s" %}{% assign now_ts = "now" | date: "%s" %}{% if session_ts <= now_ts %}{% assign status = "🟢 Completed" %}{% else %}{% assign status = "⚪ Upcoming" %}{% endif %}| {{ s.week }} | [{{ s.title }}]({{ s.details_url }}) | {{ s.date_formatted }} | {{ s.location }} | {{ status }} |
-{% endfor %}
 
 ## Deliverables
 
