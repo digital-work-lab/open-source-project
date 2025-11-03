@@ -31,6 +31,12 @@ If you have any questions during or after the sessions, we're here to assist. We
 > - Understand how to use other Python modules and libraries
 > - Prepare for extending the functionality of the CoLRev package
 
+> [!NOTE]  
+> Plans for the revision:
+> This page will be based on the [colrev-python-tutorial](https://github.com/CoLRev-Environment/colrev-python-tutorial) repository.
+> Students will run the code outside of a Python package, using `python script.py` (instead of colrev run).
+> For simplicity, data and source code will be in the same directory.
+
 ## Session 1
 
 <br>
@@ -76,6 +82,19 @@ After you have used CoLRev in the last notebook, it is instructive to create a p
 To do this, we recommend starting a Codespace from the fork of your group.
 You will also need to create a separate project directory in the Codespace (as explained in the notebooks).
 Try to run the operations presented in the [asciinema recording](https://colrev-environment.github.io/colrev/){: target="_blank"} in the CoLRev documentation and analyze how the data in the project (Git) repository changes.
+
+---
+
+## Session 3
+
+<br>
+
+> [!NOTE]  
+> Plans for the revision:
+> Session 3 will be dedicated to Python packaging. Students will work in the [colrev-python-package-tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial) and create a colrev package "from scratch". Here, we should introduce the distinction between data and src directories (by running pip install ..., the package can be called without specifying a path).
+> TODO: Convert the Python packaging page to a presentation and create a corresponding practice notebook.
+
+---
 
 {: .deliverable }
 ![tasks logo](../assets/iconmonstr-clipboard-5.svg)Contribute code to a fork, create branches and merge code ([deadline](../index.html#deliverables)).
