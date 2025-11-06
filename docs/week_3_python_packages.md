@@ -55,7 +55,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # For Windows (Powershell)
 irm https://astral.sh/uv/install.ps1 | iex
 ```
-![alt text](../assets/uv_install.png)
 After installation, close and reopen your terminal. Verify it was installed correctly by running:
 
 ```bash
@@ -63,7 +62,7 @@ uv --version
 ```
 
 You should see the installed version number printed.
-![alt text](../assets/uv_version.png)
+
 ### Installing `pytest`
 
 `pytest` is the framework we will use to write and run tests for our code. While we could install it globally like `uv`, it's a best practice to install testing tools as **development dependencies** for each project. We will do this in Step 3.5.
