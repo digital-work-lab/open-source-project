@@ -6,223 +6,231 @@ nav_order: 4
 has_toc: true
 ---
 
-# Python packages
+# Creating Your First Python Package
 
 ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
 ```mermaid
-graph LR
-    A["Python Packaging"] --> B0[<a href="#python-packages">Basics</a>] 
-    A --> B1[<a href="#testing">Testing</a>]
-    A --> B2[<a href="#documentation">Documentation</a>]
-    A --> B3[<a href="#publishing">Publishing</a>]
+graph TD
+    A["<b>Goal:</b> Create a sharable Python tool"] --> B["<b>1.</b> Learn the Anatomy of a Package"];
+    B --> C["<b>2.</b> Initialize Project with <code>uv init</code>"];
+    C --> D["<b>3.</b> Create the Directory Structure"];
+    D --> E["<b>4.</b> Install in Editable Mode"];
+    E --> F["<b>5.</b> Add a Function and a Test"];
+    F --> G["<b>6.</b> Manage Dependencies"];
+    G --> H["<b>Result:</b> A foundational, working package"];
+
 
     style A fill:#a2a2e2,stroke:#000,stroke-width:1px,color:#000
-    style B1 fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
-    style B2 fill:#83cfc9,stroke:#000,stroke-width:1px,color:#000
-    style B3 fill:#a5d3f2,stroke:#000,stroke-width:1px,color:#000
-    style B0 fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style B fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style C fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style D fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style E fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style F fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style G fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
+    style H fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
 ```
 
-## Basics
+## 1. Introduction: What is a Python Package?
 
-To create a Python package, it is essential to follow a clear structure that complies with best practices, such as those outlined in [PEP 517](https://peps.python.org/pep-0517/){: target="_blank"} and [PEP 518](https://peps.python.org/pep-0518/){: target="_blank"}.
-The structure ensures that the package is maintainable, pip-installable, and ready for distribution.
-Below is an example of a typical package structure for CoLRev (Python) packages:
+A Python **package** is a standardized way to bundle and distribute reusable code so that others (or your future self) can easily install and use it with a simple `pip install` command.
+
+In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `Colrev`. This will give you the foundational skills needed to later build your own `Colrev` plugins.
+
+## 1b. Prerequisites: Setting Up Your Tools
+
+Before we begin, we need to ensure you have the necessary command-line tools. These do not come with Python and must be installed separately.
+
+### Installing `uv`
+
+`uv` is a modern, extremely fast tool for managing Python packages and projects. We will use it to initialize our project and handle dependencies.
+
+Open your terminal or command prompt and run the following command:
+
+```bash
+# For macOS, Linux, and Windows WSL
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# For Windows (Powershell)
+irm https://astral.sh/uv/install.ps1 | iex
+```
+![alt text](../assets/uv_install.png)
+After installation, close and reopen your terminal. Verify it was installed correctly by running:
+
+```bash
+uv --version
+```
+
+You should see the installed version number printed.
+![alt text](../assets/uv_version.png)
+### Installing `pytest`
+
+`pytest` is the framework we will use to write and run tests for our code. While we could install it globally like `uv`, it's a best practice to install testing tools as **development dependencies** for each project. We will do this in Step 3.5.
+
+## 2. The Anatomy of a Modern Python Package
+
+A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
 
 ```
-colrev-package
-├── src
-│   └── module.py
-│   └── __init__.py
-├── tests
-│   └── __init__.py
+colrev-journal-formatter/
+├── src/
+│   └── colrev_journal_formatter/
+│       ├── __init__.py
+│       └── main.py
+├── tests/
+│   └── test_main.py
 ├── LICENSE
 ├── README.md
 └── pyproject.toml
 ```
 
-{: .blue }
-> The `__init__.py` file marks a directory as a Python package, making its modules importable.
-> It can also include initialization code for the package.
-> For instance, it might define a package-wide variable or import frequently used modules to simplify access.
+*   `pyproject.toml`: The **control center**. It contains the package name, version, dependencies, and build instructions.
+*   `src/colrev_journal_formatter/`: The **source folder**. Your actual Python code lives here. Using `src` is a modern best practice that prevents many common import errors.
+*   `tests/`: The **testing folder**. Contains code that automatically checks if your source code works correctly.
+*   `README.md` & `LICENSE`: Your project's documentation and legal rules.
 
-### Managing CoLRev Packages
+## 3. Step-by-Step Guide to Creating Your Package
 
-To manage CoLRev packages, we use [uv](https://github.com/astral-sh/uv){: target="_blank"}, a modern dependency and packaging tool.
-*uv* simplifies the creation and management of Python projects by centralizing metadata and dependency specifications in a pyproject.toml file.
+Let's build a package named `colrev-journal-formatter`.
 
-Below is an example pyproject.toml file for a CoLRev package:
+### Step 3.1: Initialize the Project with `uv`
 
+First, create a directory and initialize the project.
+
+```bash
+mkdir colrev-journal-formatter
+cd colrev-journal-formatter
+uv init
 ```
+
+This creates your `pyproject.toml` file. Let's examine every line:
+
+```toml
 [project]
-name = "colrev-package-name"  # Package name
-version = "0.1.0"  # Initial version
-description = "A short description of the package."
-authors = [
-    { name = "Author Name", email = "author@example.com" }
-]
-license = { file = "LICENSE" }
-requires-python = ">=3.8, <4"
-dependencies = [
-   "click>=8.1.6", # Example dependency
-]
-
-[project.urls]
-homepage = "https://example.com"
-repository = "https://github.com/username/repo"
-documentation = "https://example.com/docs"
-bug-tracker = "https://github.com/username/repo/issues"
-
-[project.scripts]
-example-cli = "package.module:main_function"  # CLI entry point (example)
+name = "colrev-journal-formatter"
+version = "0.1.0"
+description = "A short description of the project."
+authors = [ { name = "Your Name", email = "you@example.com" } ]
+requires-python = ">=3.8"
+dependencies = []
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 ```
 
-{: .blue }
-> The `project.scripts` defines cli entrypoints. In this case, running `example-cli` in the shell would call the `main_function()` in the `package.module` module.
+*   **`[project]`**: A standard section holding all your project's metadata.
+*   **`name`**: The name used to install your package (`pip install colrev-journal-formatter`).
+*   **`version`**: The current version. You should increment this with each new release.
+*   **`dependencies = []`**: A list of other packages that your package needs to function. `uv add` will populate this list for you.
+*   **`[build-system]`**: This section tells `pip` *how* to build your package. It specifies the "build backend" (`hatchling`) which acts as a "factory" to assemble your code into a distributable format.
 
-### Setting up the Package
+### Step 3.2: Create the Directory Structure
 
-Instead of the generic `uv init` to create a new project, CoLRev provides a dedicated utility to streamline the process:
+Now, let's create the necessary files and folders for our code.
 
+```bash
+mkdir -p src/colrev_journal_formatter tests
+touch src/colrev_journal_formatter/__init__.py
+touch src/colrev_journal_formatter/formatter.py
+touch tests/test_formatter.py
 ```
-colrev package --init
-```
 
-This command sets up the essential files and folder structure tailored to CoLRev projects, ensuring compliance with the platform's standards.
+Note that Python package names often use underscores (`_`) instead of hyphens (`-`).
 
-### Installing a Package
+### Step 3.3: Install the Package in Editable Mode
 
-Once the package structure is set up, it can be installed locally in editable mode using pip:
+Install your package locally so you can use and test it as you develop. **Run this from the project's root directory.**
 
-```
+```bash
 pip install -e .
 ```
 
-This allows you to make changes to the package code and see the updates immediately without reinstalling.
+The `-e` or `--editable` flag is essential for development. It creates a link to your source code instead of copying it. This means any changes you make to your Python files are immediately usable without needing to reinstall.
 
-### Using a Package
+### Step 3.4: Add Your Core Logic
 
-When using a package, it’s important to distinguish between the data directory and the package directory.
-While "pure users" of the package may not know where the code resides, developers have installed it from a specific *package location* when running `pip install -e .`.
+Let's add our core logic. Open `src/colrev_journal_formatter/formatter.py` and add this code:
 
-{: .blue }
-> In GitHub Codespaces, it is necessary to create a separate data directory and open it in VisualStudio:
-> 
-> ```
-> cd ..
-> mkdir project
-> code -a /workspaces/project
-> ```
+```python
+# src/colrev_journal_formatter/formatter.py
 
-### Adding Dependencies
-
-Adding dependencies to your project is straightforward with *uv*. For example, to add the `requests` library, use:
-
-```
-uv add requests
-```
-
-*uv* ensures that all dependencies are properly versioned and recorded in the `pyproject.toml` file.
-
-### Checking the package
-
-To check the setup of a CoLRev package, run
-
-```
-colrev package --check
+def standardize_journal_name(name: str) -> str:
+    """
+    Standardizes a journal name by replacing common abbreviations.
+    """
+    abbreviations = {
+        "J": "Journal",
+        "Comput": "Computing",
+        "Syst": "Systems",
+        "Sci": "Science",
+    }
+    
+    words = name.split()
+    standardized_words = [abbreviations.get(word, word) for word in words]
+    
+    return " ".join(standardized_words)
 ```
 
-## Testing
 
-Initial testing of package modules is often done by running them directly as Python scripts.
-This can be accomplished by including the following structure in your module:
 
-```
-# filename: module.py
 
-# Code to test ...
+### Step 3.5: Add `pytest` and Write Your First Test
 
-if __name__ == "__main__":
-    # Code to execute when the module is run directly
-    print("This module is being run directly!")
+Now we'll add `pytest` as a dependency.
+
+```bash
+uv add pytest
 ```
 
-To run the module as a Python script:
+This command adds `pytest` to the `[project.dependencies]` section in your `pyproject.toml`, installing it as one of your dependencies.
 
-```
-python module.py
-```
+Next, open `tests/test_formatter.py` and add your tests:
 
-This allows you to execute specific functions or test code when the module is called directly, but it will not execute if the module is imported elsewhere.
+```python
+# tests/test_formatter.py
+from colrev_journal_formatter.formatter import standardize_journal_name
 
-Once the functionality matures, it may be called through the CoLRev cli. For example, by running:
+def test_standardize_journal_name():
+    """Tests that abbreviations are correctly expanded."""
+    input_name = "J of Comput Syst"
+    expected_name = "Journal of Computing Systems"
+    assert standardize_journal_name(input_name) == expected_name
 
-```
-colrev search -a colrev.example_package
-```
-
-{: .blue }
-> **Advanced testing strategy for ColRev**
-> 
-> Given that CoLRev packages create new commits in the data directory, it can be helpful to get the SHA of the initial commit and combine the tests with `git reset --hard COMMIT-SHA`.
-> This ensures that your testing always starts from the same commit (the *COMMIT-SHA*).
-
-Unit tests verify that individual components of your package function as expected.
-Using pytest, you can write and run tests for your modules. Here’s an example of a test file structure:
-
-```
-# tests/test_module.py
-def test_example_function():
-    result = example_function()
-    assert result == "expected result"
+def test_no_abbreviations():
+    """Tests that a name with no abbreviations remains unchanged."""
+    input_name = "Journal of Modern Science"
+    assert standardize_journal_name(input_name) == input_name
 ```
 
-To run all tests, use the following command in the top-level colrev directory:
+Finally, run the tests:
 
-```
-# Run all tests
-pytest tests
-
-# Run tests with verbose output
-pytest tests -v
-pytest tests -vv
-
-# Run a selected test
-pytest tests/3_packages_search/api_search_test.py
-
-# Run a selected test function
-pytest tests/3_packages_search/api_search_test.py -k test_eric
+```bash
+pytest
 ```
 
-This will execute all test cases in the `tests/` directory and provide a detailed report of the results.
+## 4. Applying Your Skills: The `Colrev` Plugin Context
 
-## Documentation
+You have just built a complete, tested Python package. This is the exact skill set needed to create a `Colrev` plugin. A `Colrev` plugin is simply a standard Python package that is designed to interact with the `Colrev` framework.
 
-Documentation is an essential part of any Python package.
-It ensures that users can understand and effectively use your package while providing developers with a reference for maintaining or extending it.
-Start with a clear and concise `README.md` file that outlines the purpose, features, installation instructions, and usage examples of your package. 
+The `standardize_journal_name` function you wrote is a perfect example of a data cleaning operation that a `colrev` `prep` package might perform. To turn your package into a real plugin, you would add more `Colrev`-specific code to register it and have it process bibliographic records. The core work of writing clean, testable functions and packaging them, is exactly what you have just learned.
 
-The documentation of individual CoLRev packages should be made available in the [overview](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
-To accomplish this, CoLRev maintainers will run
+## 5. Conclusion and Further Steps
 
-```
-colrev env --update_package_list
-```
+Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You've learned the fundamental skills of a modern Python developer:
 
-## Publishing
+*   **Structuring a project** with `pyproject.toml` and a `src` layout.
+*   **Initializing a project** with `uv init`.
+*   **Developing efficiently** using an editable install (`pip install -e .`).
+*   **Ensuring code quality** with automated tests using `pytest`.
+*   **Managing dependencies** declaratively with `uv add`.
 
-Making Python packages available on PyPI allows others to install the package using the simple command `pip install package_name`.
-Publishing a Package to PyPI requires an account and authentication.
-We recommend a publishing workflow based on GitHub actions, which are triggered every time a new release is published (see [publish_pypi.yml](https://github.com/CoLRev-Environment/colrev/blob/main/.github/workflows/publish_pypi.yml){: target="_blank"}).
+These are the universal building blocks of sharable and maintainable Python code.
 
-{: .blue }
-> Currently, built-in CoLRev packages are published and distributed with the CoLRev core package.
-> In the future, they will be published as separate packages on PyPI.
+### Further Steps
 
-<!-- https://hatch.pypa.io/latest/intro/#setup -->
+Your journey as a package developer is just beginning. The logical next steps in a package's lifecycle are:
+
+*   **Documentation:** A good `README.md` is essential. For larger projects, tools like **Sphinx** or **MkDocs** can build a full documentation website from your code's docstrings. Clear documentation is what separates a good project from a great one.
+*   **Publishing:** To share your package with the world, you can publish it to the **Python Package Index (PyPI)**. This makes it available to anyone via `pip install your-package-name`. This process is typically automated using GitHub Actions.
