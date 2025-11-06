@@ -34,9 +34,6 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 **"How do I write and use Python code?"**
 
-### Switch branch
-
-Navigate to the [CoLRev repository](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, select the `tutorial_python` branch and start Codespaces.
 
 As a first step, we install the package dependency manager **uv**, which will be used in [part 3](#libraries):
 
@@ -47,28 +44,25 @@ pip install uv
 Next, we reset the state of the repository to the beginning of the tutorial:
 
 ```python
-git reset --hard 8fa941d167503d20659ea87ec6169affbf6574c3
+git reset --hard f0a13be2494181d56eb71a2f1aee8b4511f65919
 ```
 
 - As the session progresses, you can checkout the current commits
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 
-### Setting up entrypoints
+### Setting up a Python script
 
-We implement a simple version of CoLRev that should be available through a separate command:
+We implement a simple Pyhton script, `run.py`, which should be available through the following command:
 
-```python
-colrev run
+```
+python run.py
 ```
 
-{: .info }
-> The previous command will initially create a `ModuleNotFoundError`. We will create this module in the next step.
+**Task**: Create the script, have it print "Hello World" and test the `python run.py` call.
 
-**Tasks:**
-
-- Check the last commit and the changes that were introduced. Which function does our new `run` command call?
--  Create the `run.py` module (module: file containing Python code) and the function that should be called. The function should print `Start simple colrev run`. Note that calling `colrev.ops.run.main()` means that colrev will try to import and run the `main()` function in the `/workspaces/colrev/colrev/ops/run.py` module.
-- Check the other functions in the module `/workspaces/colrev/colrev/ui_cli/cli.py`, and other modules in the `/workspaces/colrev/colrev` directory if necessary.
+```python
+git reset --hard 1778473e75718277ad2a1b623cde99c4fff674c0
+```
 
 ## Part II: Data items <a id="data"></a>
 
@@ -87,7 +81,7 @@ In this part, we focus on the data structure of dictionaries, which are often us
 }
 ```
 
-**Task**: Create a dictionary containing these data fields and print it when `colrev run` is called.
+**Task**: Create a dictionary containing these data fields and print it when `python run.py` is called.
 
 You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
 
@@ -108,7 +102,7 @@ Start simple colrev run
 To checkout the **solution**, run:
 
 ```python
-git reset --hard dbd583c499da9fe0945ce75f98c32c7babaddd4d
+git reset --hard 728a2dbe5a3c0f15e989eac4faab7b877b2f3a0c
 ```
 
 ## Part III: External libraries <a id="libraries"></a>
@@ -125,43 +119,21 @@ We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtex
 pip install bibtexparser
 ```
 
-To add it as a dependency of CoLRev and make it available for users of the CoLRev package, we run
-
-
-```python
-uv add bibtexparser
-```
-
-<b>Task</b>: Check the changes and create a commit.
-
-To checkout the **solution**, run:
-
-
-```python
-git reset --hard c9d89be988d9ec8ab18b2841af74996bf2ad5b43
-cd /workspaces/colrev
-pip install -e .[dev]
-```
-
 ### Using external libraries
 
-Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target="_blank"} and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev`.
+Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target="_blank"} and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev-python-tutorial`.
 
 {: .info }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
 
-Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file. Remember to store the `records.bib` in the **project directory**.
+Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file.
 
 Afterward, loop over the records (`for ...`) and print the title of each record.
-
-### Code quality
-
-Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/){: target="_blank"}). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/){: target="_blank"}-related issues together.
 
 To checkout the **solution**, run:
 
 ```python
-git reset --hard 1de25efdeb8c330c87ea7ad7adeb1378f1f88a5b
+git reset --hard a84c9be1fb215f9cda8920bcdb86ff529bfc83d2
 ```
 
 ## Part IV: Functions <a id="functions"></a>
@@ -173,17 +145,10 @@ Next, we would like to create a function, which adds the `journal_impact_factor`
 | MIS Quarterly            |                    8.3|
 | Information & Management |                  10.3 |
 
-Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
-
-```python
-pre-commit run --all
-```
-
 To checkout the **solution**, run:
 
-
 ```python
-git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
+git reset --hard bc94da869184485f7805dba2b9f8e32af0ff2dfb
 ```
 
 ---
@@ -194,7 +159,7 @@ git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 
 In this notebook, we have learned to
 
-- Write and execute Python code in Python packages and modules
+- Write and execute Python code in a Python script
 - Create and modify data items, such as dictionaries
 - Install and use external libraries
 - Write modular code by using functions
