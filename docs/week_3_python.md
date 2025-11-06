@@ -87,12 +87,24 @@ Try to run the operations presented in the [asciinema recording](https://colrev-
 
 ## Session 3
 
-<br>
-
 > [!NOTE]  
 > Plans for the revision:
 > Session 3 will be dedicated to Python packaging. Students will work in the [colrev-python-package-tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial) and create a colrev package "from scratch". Here, we should introduce the distinction between data and src directories (by running pip install ..., the package can be called without specifying a path).
 > TODO: Convert the Python packaging page to a presentation and create a corresponding practice notebook.
+
+<br>
+
+<iframe src="../output/04-python_3.html" 
+        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
+        allowfullscreen>
+</iframe>
+
+<br>
+
+| **Materials**       | **Link**                                                                                                  |
+|----------------------|---------------------------------------------------------------------------------------------------------|
+| Python session 3     | [![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_3.pdf){: target="_blank"} |
+| Notebook session 3   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_3.html) |
 
 ---
 

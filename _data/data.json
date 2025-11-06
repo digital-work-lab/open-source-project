@@ -41,6 +41,14 @@
         "details_url": "docs/week_3_python.html"
       },
       {
+        "week": 4,
+        "title": "Introduction to Python (III)",
+        "date": "2025-11-04",
+        "date_formatted": "November 4, 08.00–12.00",
+        "location": "WE5/01.003",
+        "details_url": "docs/week_3_python.html"
+      },
+      {
         "week": 5,
         "title": "Best practices",
         "date": "2025-11-21",

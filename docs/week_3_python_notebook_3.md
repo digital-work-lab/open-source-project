@@ -8,5 +8,9 @@ has_toc: true
 
 # Exercise notebook: Python 3 (packages)
 
+contents:
 
-cover pre-commit to the package tutorial part
+- package setup (pyproject.toml)
+- unit tests
+- pre-commit to the package tutorial part
+- plugin for colrev (pyproject.toml, base-classes, colrev env --update-package-list)
