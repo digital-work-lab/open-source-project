@@ -225,7 +225,7 @@ Congratulations! You have successfully created, installed, and tested a complete
 *   **Ensuring code quality** with automated tests using `pytest`.
 *   **Managing dependencies** declaratively with `uv add`.
 
-These are the universal building blocks of sharable and maintainable Python code.
+These are the universal building blocks of shareable and maintainable Python code.
 
 ### Further Steps
 
