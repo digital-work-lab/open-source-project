@@ -13,7 +13,7 @@ has_toc: true
 
 ```mermaid
 graph TD
-    A["<b>Goal:</b> Create a sharable Python tool"] --> B["<b>1.</b> Learn the Anatomy of a Package"];
+    A["<b>Goal:</b> Create a shareable Python tool"] --> B["<b>1.</b> Learn the Anatomy of a Package"];
     B --> C["<b>2.</b> Initialize Project with <code>uv init</code>"];
     C --> D["<b>3.</b> Create the Directory Structure"];
     D --> E["<b>4.</b> Install in Editable Mode"];
