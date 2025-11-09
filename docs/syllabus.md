@@ -189,6 +189,7 @@ possibly a “how to succeed” section
   - [Git]({{ site.baseurl }}/output/02-git.html)
   - [Python 1]({{ site.baseurl }}/output/03-python_1.html)
   - [Python 2]({{ site.baseurl }}/output/04-python_2.html)
+  - [Python 3]({{ site.baseurl }}/output/04-python_3.html)
   - [Best Practices]({{ site.baseurl }}/output/05-best_practice.html)
   - [Code Review]({{ site.baseurl }}/output/06-code_review.html)
 
@@ -200,6 +201,7 @@ possibly a “how to succeed” section
   - [Git Merge Conflicts]({{ site.baseurl }}/docs/week_2_git_notebook_merge_conflict.html)
   - [Python 1]({{ site.baseurl }}/docs/week_3_python_notebook_1.html)
   - [Python 2]({{ site.baseurl }}/docs/week_3_python_notebook_2.html)
+  - [Python 3]({{ site.baseurl }}/docs/week_3_python_notebook_3.html)
 
 - Another important resource is the [documentation of CoLRev](https://colrev-environment.github.io/colrev/){: target="_blank"}, in particular the [environment setup](https://colrev-environment.github.io/colrev/dev_docs/setup.html){: target="_blank"} and the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html){: target="_blank"} pages.
 

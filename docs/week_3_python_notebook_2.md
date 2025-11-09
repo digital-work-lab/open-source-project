@@ -43,6 +43,14 @@ To checkout the **starting point** (commit), run:
 git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
+## Install colrev
+
+In the following, we start to work with the CoLRev library. To install it, run
+
+```
+uv install colrev
+```
+
 ### Set up the `example` repository<a id="setup"></a>
 
 To use the typical CoLRev environments (objects), we clone an existing CoLRev project:
