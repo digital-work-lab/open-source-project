@@ -259,14 +259,26 @@ as students are not disadvantaged by their choice of operating system and can co
 
 # Reuse and modification of materials
 
-The materials provided in this course were developed over four semesters[^3] and are designed for easy reuse and modification by other instructors.
-While the course uses the CoLRev Python package [@WagnerPrester2024] as the example context, instructors can adapt the materials to focus on different Python packages.
-The learning environment, hosted on GitHub and built with the Just-the-Docs framework, can be forked, enabling instructors to replicate and modify the entire setup.
-In addition, the pedagogical concept and teaching notes[^2] serve as a starting point for adapting the instructional design.
-All contents, including slides and practice notebooks, are automatically generated and updated via GitHub Actions, ensuring the materials remain up-to-date.
+The materials provided in this course are designed for easy reuse and modification by other instructors.
+While the course uses the CoLRev Python package [@WagnerPrester2024] as the example context, the materials allow instructors to adapt the content to focus on different Python packages.
+The learning environment, hosted on GitHub and built with the Just-the-Docs framework, can be cloned, enabling instructors to replicate the entire setup.
+All instructional content, including slides and practice notebooks, are automatically generated and updated via GitHub Actions, ensuring the materials remain up-to-date.
+
+# Story of the project
+
+This project was developed at Otto-Friedrich-Universität of Bamberg, where Gerit Wagner initiated a new team-based course to provide students with hands-on experiences in programming and software development.
+While other project courses in the program had a stronger focus on management topics, this initiative—launched in 2023—was designed to help students engage with realistic open source software engineering practices.
+The goal was for participants not merely to write short, standalone Python scripts, but to contribute collaboratively to public, functional, maintainable, and open source software packages.
+
+Building on Gerit's role as lead developer of the CoLRev open source environment, the course adopted CoLRev as a learning platform.
+Students developed small extensions or plugins for the system, allowing them to reuse existing functionality (e.g., for loading bibliographic data or interacting with APIs) and extend it by implementing new features such as API wrappers or automation tools.
+This setup provided an authentic context for learning how to organize projects in teams using Git and GitHub, manage dependencies, write tests, and produce corresponding documentation.
+
+Over time, the course evolved substantially through iterative refinement based on student feedback.
+Early cohorts found the technical scope challenging, prompting the integration of more scaffolding, structured guidance, and formative feedback.
+Since then, the course has grown into a well-established project with high student satisfaction and recommendation rates.
+Five cohorts of students have contributed to CoLRev and related open source packages, many continuing their engagement through bachelor’s theses on extensions such as the search-query [@EckhardtEtAl2025] or bib-dedupe [@Wagner2024] packages.
 
 [^1]: Local VirtualBox images were too slow on most student machines, and resources for self-hosted virtual machines were not available.
-[^2]: https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html
-[^3]: https://digital-work-lab.github.io/open-source-project/docs/evaluations.html
 
 # References
