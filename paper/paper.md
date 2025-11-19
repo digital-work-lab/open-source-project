@@ -59,11 +59,11 @@ making them popular among learners seeking basic programming knowledge or career
 However, these MOOCs rarely delve into more advanced topics like Python package development, 
 leaving a noticeable gap for learners aiming to contribute to the open source ecosystem.
 
-In contrast, the limited resources available for teaching Python package development primarily target self-learners.
+In contrast, resources available for teaching Python package development primarily target self-learners.
 Materials like those offered by [PyOpenSci](https://www.pyopensci.org/) 
 or the book of @BeuzenTimbers2020 provide valuable insights into creating reusable, distributable Python libraries.
 However, these materials often lack the structured, interactive learning experience offered by formal courses.
-Consequently, while existing resources equip motivated individuals with practical tools for package development, 
+Consequently, while existing resources equip individual learners with practical tools for package development, 
 they do not cater to a broader audience.
 Addressing this gap requires tailored educational materials that combine accessibility 
 with the depth necessary to teach Python package development.
@@ -220,7 +220,7 @@ For example, we use GitHub Codespaces to standardize setups, eliminating issues 
 A focused approach aligns with cognitive load theory [@Sweller1988], helping students concentrate on core concepts.
 
 2. **Gradually Progress in Complexity**
-Starting with basic Python and Git skills, the material builds incrementally, introducing concepts like dependency management and package distribution after foundational skills are mastered. 
+Starting with basic Python and Git skills, the material builds incrementally, introducing concepts like dependency management and package distribution after students have developed sufficient familiarity with foundational skills. 
 This approach reduces the risk of overwhelming learners [@Anderson2001].
 
 3. **Learn interactively and in groups**
@@ -255,7 +255,7 @@ This provides flexibility while maintaining the core benefits of a standardized 
 By enabling students to work in a consistent environment regardless of their operating system, 
 we ensure that everyone has access to the same tools, configurations, and workflows. 
 It also ensures equal opportunities, 
-as students are not disadvantaged by their choice of operating system and can collaborate effectively without technical barriers.
+regardless of students' choice of operating system and enables them to collaborate effectively without technical barriers.
 
 # Reuse and modification of materials
 
@@ -268,14 +268,14 @@ All instructional content, including slides and practice notebooks, are automati
 
 This project was developed at Otto-Friedrich-Universität of Bamberg, where Gerit Wagner initiated a new team-based course to provide students with hands-on experiences in programming and software development.
 While other project courses in the program had a stronger focus on management topics, this initiative—launched in 2023—was designed to help students engage with realistic open source software engineering practices.
-The goal was for participants not merely to write short, standalone Python scripts, but to contribute collaboratively to public, functional, maintainable, and open source software packages.
+The goal was to move beyond short, standalone Python scripts, and contribute collaboratively to public, functional, maintainable, and open source software packages.
 
 Building on Gerit's role as lead developer of the CoLRev open source environment, the course adopted CoLRev as a learning platform.
 Students developed small extensions or plugins for the system, allowing them to reuse existing functionality (e.g., for loading bibliographic data or interacting with APIs) and extend it by implementing new features such as API wrappers or automation tools.
 This setup provided an authentic context for learning how to organize projects in teams using Git and GitHub, manage dependencies, write tests, and produce corresponding documentation.
 
 Over time, the course evolved substantially through iterative refinement based on student feedback.
-Early cohorts found the technical scope challenging, prompting the integration of more scaffolding, structured guidance, and formative feedback.
+Early cohorts found the technical scope demanding, prompting the integration of more scaffolding, structured guidance, and formative feedback.
 Since then, the course has grown into a well-established project with high student satisfaction and recommendation rates.
 Five cohorts of students have contributed to CoLRev and related open source packages, many continuing their engagement through bachelor’s theses on extensions such as the search-query [@EckhardtEtAl2025] or bib-dedupe [@Wagner2024] packages.
 
