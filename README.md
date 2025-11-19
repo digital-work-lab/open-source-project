@@ -27,7 +27,7 @@ You can find more information on the following pages:
 
 ## Feedback
 
-Feedback and suggestions for improvement are always welcome. Please open issues or pull requests as you see fit.
+Feedback and suggestions for improvement are always welcome (see our [CONTRIBUTING.md](CONTRIBUTING.md)). Please open issues or pull requests as you see fit.
 
 ## Reusing materials (instructors)
 
