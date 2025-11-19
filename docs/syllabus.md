@@ -32,18 +32,33 @@ nav_order: 1
 
 **Summary**
 
-In software development, open source development environments and open source workflows are gaining importance and are embraced by large tech companies.
-Git plays a central role in this context. Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%.
-As a result, Git-based platforms such as GitHub and GitLab have largely displaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git.
-Today, Git is an integral part of scaling extensive and highly distributed software development projects.
+In software development, open source development environments and open source workflows are gaining importance and are now widely embraced by large tech companies.
+Git plays a central role in this context.
+Since its release in 2005, the market share of the decentralized and collaborative version control system has gained a market share of approximately 90%.
+As a result, Git-based platforms such as GitHub and GitLab have largely replaced alternatives like SourceForge (Subversion), and even large projects like the development of the Windows operating system have migrated to Git.
+Today, Git and open source workflows are an integral part of professional software development projects.
 
 Against this background, the goal of this project is to understand and use Git-based open source workflows and development environments (e.g., pull requests, forks, and continuous integration).
 Within the framework of an existing open source project, [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"}, selected functionalities will be developed and contributed in small teams.
 The sub-projects will be presented in the first session of the course, and preferences for topics will be taken into account when forming groups.
 
+In contrast to many MOOCs and introductory programming courses—which focus primarily on basic Python syntax, libraries, and beginner-friendly exercises—this project emphasizes Python package development as a core competency.
+While large-scale online courses (e.g., those on Coursera or edX) offer accessible introductions and certificate-oriented learning paths, they rarely cover topics such as dependency management, cross-platform testing, or collaborative development workflows.
+Our approach fills this gap by directly integrating structured, real-world package development into the learning experience.
+
+Python package development is valuable for several reasons.
+It promotes reusability, enabling students to structure code so it can be shared and applied across multiple projects. 
+It provides access to Python packaging infrastructure and ecosystems such as the PyPI.
+We also touch on dependency management, including strategies for maintaining stable environments and ensuring reproducibility across Python versions and operating systems.
+Finally, package development supports scalability and maintainability, making it useful to structure larger applications into modular, testable components supported by continuous integration workflows.
+
 At the beginning of the project, three block events are planned:
-(1) an overview of the open source project and the sub-projects with subsequent topic assignments,
-(2) an introduction to Git, and (3) an introduction to Python.
+
+- (1) an overview of the open source project and the sub-projects with subsequent topic assignments,
+- (2) an introduction to Git,
+- (3) an introduction to Python programming, and
+- (4) a focused session on Python packages.
+
 The subsequent work phase will be accompanied by targeted code markers for orientation in the project and by offering hacking sessions in groups.
 The code review session will take place in the last weeks of the lecture period.
 At that time, a completed sub-project will be reported, the results of which have been incorporated into the overarching open source project (merged or advanced pull request).
