@@ -25,9 +25,79 @@ You can find more information on the following pages:
 - [Syllabus](https://digital-work-lab.github.io/open-source-project/docs/syllabus.html)
 - [Teaching notes](https://digital-work-lab.github.io/open-source-project/docs/teaching_notes.html)
 
+## Statement of need
+
+A broad range of Python learning resources is accessible online, 
+reflecting its prominence as a programming language across industries.
+Massive Open Online Courses (MOOCs), such as those offered by Coursera and edX, 
+cater to vast audiences with substantial enrollment figures.
+For instance, Harvard’s CS50’s Introduction to Programming with Python 
+and IBM’s Python for Data Science, AI and Development highlight beginner-friendly content, 
+emphasizing foundational skills like using libraries.
+These courses are frequently structured around paid certificates and follow conventional formats, 
+making them popular among learners seeking basic programming knowledge or career-oriented credentials.
+However, these MOOCs rarely delve into more advanced topics like Python package development, 
+leaving a noticeable gap for learners aiming to contribute to the open source ecosystem.
+
+In contrast, resources available for teaching Python package development primarily target self-learners.
+Existing materials often lack the structured, interactive learning experience offered by formal courses.
+Consequently, while existing resources equip individual learners with practical tools for package development, 
+they do not cater to a broader audience.
+Addressing this gap requires tailored educational materials that combine accessibility 
+with the depth necessary to teach Python package development.
+
+Generally, Python package development can be helpful for a range of purposes:
+
+1. **Reusability**
+  Writing Python code from scratch is time-consuming and error-prone.
+  Many tasks, especially in fields like data science, web development, and automation, 
+  have well-established solutions in existing Python packages.
+  Learning how to develop packages enables students to make existing code available for reuse, 
+  and it also develops understanding and skills related to the use of existing packages.
+2. **Access to specialized functionality**
+  Considering that the Python core only includes general-purpose built-in functionality, 
+  packages are often required to provide specialized functionality.
+  For instance, this includes tasks like machine learning (TensorFlow, Scikit-learn), 
+  scientific computing (SciPy), or web development (Flask, Django).
+  Understanding these packages allows students to access to a wide range of tools and resources 
+  that extend Python’s functionality for specific purposes.
+3. **Dependency management**
+  Python packages often rely on external libraries that are updated over time 
+  to introduce new features or address security vulnerabilities.
+  Managing these dependencies effectively is an important skill, 
+  as different packages may require specific versions of the same library, leading to potential conflicts.
+  Tools like pip and virtual environments provide mechanisms for isolating dependencies, 
+  but ensuring stability and reproducibility requires a more comprehensive approach.
+  One element are cross-platform and cross-Python-version testing strategies 
+  to verify that a Python package functions consistently across different environments. 
+4. **Version control, collaborative development, and open source contribution**
+  Version control systems, such as Git, are used for managing changes in Python package development.
+  They allow developers to track modifications, revert to previous states, 
+  and maintain a clear history of their work.
+  Beyond individual use, Git facilitates collaboration by enabling multiple contributors 
+  to work on the same package simultaneously while managing conflicts and merging changes. 
+  Collaborative workflows, often supported by platforms like GitHub or GitLab, 
+  introduce students to essential practices such as pull requests, code reviews, and issue tracking.
+  These tools not only streamline teamwork but also teach students 
+  how to contribute effectively to shared projects.
+  By engaging in open source contributions, students gain additional experience 
+  in a community-driven environment, where their work can be reused, improved, and expanded by others.
+  Ideally, this exposure may foster an appreciation for collaborative coding 
+  and emphasizes the importance of building packages that are maintainable, accessible, 
+  and aligned with community standards.
+5. **Scalability and maintainability of projects**
+  As a project grows in complexity, managing code becomes difficult without proper structure.
+  Packages help modularize code, separating it into manageable units, 
+  and using continuous integration tools to maintain code quality.
+  Understanding package development ensures that code is scalable and maintainable.
+  This is essential when building large-scale applications where different parts of the software 
+  can be independently developed, tested, and maintained.
+
+Our target audience is Bachelor students in Information Systems with initial programming experience.
+
 ## Feedback
 
-Feedback and suggestions for improvement are always welcome. Please open issues or pull requests as you see fit.
+Feedback and suggestions for improvement are always welcome (see our [CONTRIBUTING.md](CONTRIBUTING.md)). Please open issues or pull requests as you see fit.
 
 ## Reusing materials (instructors)
 
