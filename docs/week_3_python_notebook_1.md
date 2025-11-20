@@ -34,7 +34,7 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 **"How do I write and use Python code?"**
 
-Start a Codespace in the [colrev-python-tutorial](https://github.com/CoLRev-Environment/colrev-python-tutorial) repository.
+Start a Codespace in the [colrev-python-tutorial](https://github.com/CoLRev-Environment/colrev-python-tutorial){: target="_blank"} repository.
 
 As a first step, we install the package dependency manager **uv**, which will be used in [part 3](#libraries):
 
