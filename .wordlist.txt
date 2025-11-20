@@ -999,3 +999,12 @@ lifecycle
 declaratively
 backend
 distributable
+Coursera
+MOOCs
+edX
+Reusability
+SciPy
+Scikit
+reproducibility
+Scalability
+modularize
