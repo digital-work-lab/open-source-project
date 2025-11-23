@@ -10,7 +10,7 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 # WI-Project: Open Source Project
 
-## Introduction to Python (3): Creating a Python Package
+## Introduction to Python (3): Creating a Python package
 
 Prof. Dr. Gerit Wagner
 Faculty Information Systems and Applied Computer Sciences
@@ -53,16 +53,15 @@ After installing, restart your terminal and check the version: `uv --version`
 
 ---
 
-# The Anatomy of a Modern Python Package
+# The anatomy of a Python package
 
 A standard structure is key for tools and collaborators to understand your project.
 
 ```
 colrev-journal-formatter/
 ├── src/
-│   └── colrev_journal_formatter/
-│       ├── __init__.py
-│       └── formatter.py
+│   ├── __init__.py
+│   └── formatter.py
 ├── tests/
 │   └── test_formatter.py
 └── pyproject.toml
@@ -74,7 +73,7 @@ colrev-journal-formatter/
 
 ---
 
-# Step 1: Initialize the Project with `uv`
+# Step 1: Initialize the project with `uv`
 
 The `uv init` command creates the `pyproject.toml` file, which is the heart of your package.
 
@@ -88,7 +87,7 @@ This file contains your package's name, version, dependencies, and build instruc
 
 ---
 
-# Step 2: Install in Editable Mode
+# Step 2: Install in editable mode
 
 To test your code as you write it, install your package in "editable" mode.
 
@@ -100,7 +99,7 @@ The `-e` flag creates a link to your source files. Any changes you make to the c
 
 ---
 
-# Step 3: Add Code and Tests
+# Step 3: Add code and tests
 
 1.  **Add your function** in `src/colrev_journal_formatter/formatter.py`.
 2.  **Add `pytest`** as a development dependency:

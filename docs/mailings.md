@@ -302,7 +302,7 @@ VC post (27.11.24)
 > ich möchte Ihnen einige wichtige Informationen zur **Code-Review Session** zukommen lassen:  
 >  
 > 📋 Der Ablauf ist auf den Folien beschrieben und über folgenden Link zugänglich:  
-> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html){: target="_blank"}  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/07-code_review.html){: target="_blank"}  
 >  
 > 💡 Die Hauptidee ist es, die Perspektive eines Maintainers einzunehmen und Ihr im Projekt erworbenes Wissen auf ein ähnliches Thema anzuwenden. Dabei können Sie:  
 > - Ihre Kenntnisse in **Git, Python und CoLRev** demonstrieren,  
@@ -328,7 +328,7 @@ VC post (27.11.24)
 > Here are some important details about the **Code Review Session**:  
 >  
 > 📋 The procedure is described on the slides, accessible via the following link:  
-> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/06-code_review.html){: target="_blank"}  
+> [Code Review Details](https://digital-work-lab.github.io/open-source-project/output/07-code_review.html){: target="_blank"}  
 >  
 > 💡 The primary idea is to adopt the perspective of a maintainer and apply the knowledge you’ve gained in the project to a similar topic. During the session, you will:  
 > - Demonstrate your skills in **Git, Python, and CoLRev**,  

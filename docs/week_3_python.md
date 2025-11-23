@@ -80,7 +80,7 @@ If you have any questions during or after the sessions, we're here to assist. We
 
 <br>
 
-<iframe src="../output/07-python_3.html" 
+<iframe src="../output/05-python_3.html" 
         style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
         allowfullscreen>
 </iframe>
@@ -89,7 +89,7 @@ If you have any questions during or after the sessions, we're here to assist. We
 
 | **Materials**       | **Link**                                                                                                  |
 |----------------------|---------------------------------------------------------------------------------------------------------|
-| Python session 3     | [![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/07-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/07-python_3.pdf){: target="_blank"} |
+| Python session 3     | [![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-python_3.pdf){: target="_blank"} |
 | Notebook session 3   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
 
 After you have used CoLRev in the last notebook, it is instructive to create a project and run through the operations to understand how CoLRev works.

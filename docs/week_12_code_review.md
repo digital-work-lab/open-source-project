@@ -34,7 +34,7 @@ Keep in mind that your review should be constructive and respectful, encouraging
 
 <br>
 
-<iframe src="../output/06-code_review.html" 
+<iframe src="../output/07-code_review.html" 
         style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
         allowfullscreen>
 </iframe>
@@ -43,6 +43,6 @@ Keep in mind that your review should be constructive and respectful, encouraging
 
 | **Materials**              | **Link**                                                                                                                                |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/06-code_review.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/06-code_review.pdf){: target="_blank"} |
+| Slides  | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/07-code_review.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/07-code_review.pdf){: target="_blank"} |
 
 Resources: [GitHub Best Practices for Maintainers](https://opensource.guide/best-practices/){: target="_blank"}

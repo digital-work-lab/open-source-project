@@ -3,7 +3,7 @@ marp: true
 header: 'Open Source Project: Code Review Session'
 theme: ub-theme
 paginate: true
-footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/06-code_review.md' target='_blank'>🛠️</a>"
+footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/07-code_review.md' target='_blank'>🛠️</a>"
 ---
 
 <!-- _class: centered -->

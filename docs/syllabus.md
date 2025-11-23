@@ -204,9 +204,9 @@ possibly a “how to succeed” section
   - [Git]({{ site.baseurl }}/output/02-git.html)
   - [Python 1]({{ site.baseurl }}/output/03-python_1.html)
   - [Python 2]({{ site.baseurl }}/output/04-python_2.html)
-  - [Python 3]({{ site.baseurl }}/output/04-python_3.html)
-  - [Best Practices]({{ site.baseurl }}/output/05-best_practice.html)
-  - [Code Review]({{ site.baseurl }}/output/06-code_review.html)
+  - [Python 3]({{ site.baseurl }}/output/05-python_3.html)
+  - [Best Practices]({{ site.baseurl }}/output/06-best_practice.html)
+  - [Code Review]({{ site.baseurl }}/output/07-code_review.html)
 
 - Notebooks:
 
