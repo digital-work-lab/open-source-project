@@ -32,13 +32,13 @@ graph TD
     style H fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
 ```
 
-## 1. Introduction: What is a Python Package?
+## 1. Introduction: What is a Python package?
 
-A Python **package** is a standardized way to bundle and distribute reusable code so that others (or your future self) can easily install and use it with a simple `pip install` command.
+A Python **package** is a standardized way to bundle and distribute reusable code so that others (or your future self) can easily install and use it with a simple `pip install ...` command.
 
-In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `Colrev`. This will give you the foundational skills needed to later build your own `Colrev` plugins.
+In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `colrev`. In the last part, we will learn how to make the new package available as a plugin to `colrev`.
 
-## 1b. Prerequisites: Setting Up Your Tools
+## 1b. Prerequisites: Setting up your tools
 
 Before we begin, we need to ensure you have the necessary command-line tools. These do not come with Python and must be installed separately.
 
@@ -67,7 +67,7 @@ You should see the installed version number printed.
 
 `pytest` is the framework we will use to write and run tests for our code. While we could install it globally like `uv`, it's a best practice to install testing tools as **development dependencies** for each project. We will do this in Step 3.5.
 
-## 2. The Anatomy of a Modern Python Package
+## 2. The anatomy of a modern Python package
 
 A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
 
@@ -89,11 +89,11 @@ colrev-journal-formatter/
 *   `tests/`: The **testing folder**. Contains code that automatically checks if your source code works correctly.
 *   `README.md` & `LICENSE`: Your project's documentation and legal rules.
 
-## 3. Step-by-Step Guide to Creating Your Package
+## 3. Step-by-step guide to creating your package
 
 Let's build a package named `colrev-journal-formatter`.
 
-### Step 3.1: Initialize the Project with `uv`
+### Step 3.1: Initialize the project with `uv`
 
 First, create a directory and initialize the project.
 
@@ -125,7 +125,7 @@ build-backend = "hatchling.build"
 *   **`dependencies = []`**: A list of other packages that your package needs to function. `uv add` will populate this list for you.
 *   **`[build-system]`**: This section tells `pip` *how* to build your package. It specifies the "build backend" (`hatchling`) which acts as a "factory" to assemble your code into a distributable format.
 
-### Step 3.2: Create the Directory Structure
+### Step 3.2: Create the directory structure
 
 Now, let's create the necessary files and folders for our code.
 
@@ -138,7 +138,7 @@ touch tests/test_formatter.py
 
 Note that Python package names often use underscores (`_`) instead of hyphens (`-`).
 
-### Step 3.3: Install the Package in Editable Mode
+### Step 3.3: Install the package in editable mode
 
 Install your package locally so you can use and test it as you develop. **Run this from the project's root directory.**
 
@@ -148,7 +148,7 @@ pip install -e .
 
 The `-e` or `--editable` flag is essential for development. It creates a link to your source code instead of copying it. This means any changes you make to your Python files are immediately usable without needing to reinstall.
 
-### Step 3.4: Add Your Core Logic
+### Step 3.4: Add your core logic
 
 Let's add our core logic. Open `src/colrev_journal_formatter/formatter.py` and add this code:
 
@@ -172,10 +172,7 @@ def standardize_journal_name(name: str) -> str:
     return " ".join(standardized_words)
 ```
 
-
-
-
-### Step 3.5: Add `pytest` and Write Your First Test
+### Step 3.5: Add `pytest` and write your first test
 
 Now we'll add `pytest` as a dependency.
 
@@ -209,13 +206,52 @@ Finally, run the tests:
 pytest
 ```
 
-## 4. Applying Your Skills: The `Colrev` Plugin Context
 
-You have just built a complete, tested Python package. This is the exact skill set needed to create a `Colrev` plugin. A `Colrev` plugin is simply a standard Python package that is designed to interact with the `Colrev` framework.
 
-The `standardize_journal_name` function you wrote is a perfect example of a data cleaning operation that a `colrev` `prep` package might perform. To turn your package into a real plugin, you would add more `Colrev`-specific code to register it and have it process bibliographic records. The core work of writing clean, testable functions and packaging them, is exactly what you have just learned.
+### TODO: Code quality
 
-## 5. Conclusion and Further Steps
+Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/){: target="_blank"}). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/){: target="_blank"}-related issues together.
+
+
+
+Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
+
+```python
+pre-commit run --all
+```
+
+
+## 4. Applying your skills: The `colrev` plugin context
+
+You have just built a complete, tested Python package. This is the exact skill set needed to create a `colrev` plugin. A `colrev` plugin is simply a standard Python package that is designed to interact with the `colrev` framework.
+
+The `standardize_journal_name` function you wrote is a perfect example of a data cleaning operation that a `colrev` `prep` package might perform. To turn your package into a real plugin, you would add more `colrev`-specific code to register it and have it process bibliographic records. The core work of writing clean, testable functions and packaging them, is exactly what you have just learned.
+
+```toml
+[project]
+name = "colrev-journal-formatter"
+description = "Journal formatter plugin for CoLRev"
+
+...
+
+[tool.colrev]
+colrev_doc_description = "Journal name formatter"
+colrev_doc_link = "README.md"
+search_types = []
+
+[project.entry-points.colrev]
+prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
+
+[build-system]
+...
+```
+
+{: .info }
+> **Note**
+> 
+> To validate the package setup in the context of CoLRev, you can run `colrev package --check` in the package directory. Once your CoLRev plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues) to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html).
+
+## 5. Conclusion and further steps
 
 Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You've learned the fundamental skills of a modern Python developer:
 
