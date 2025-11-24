@@ -249,7 +249,7 @@ prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
 {: .info }
 > **Note**
 > 
-> To validate the package setup in the context of CoLRev, you can run `colrev package --check` in the package directory. Once your CoLRev plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues) to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html).
+> To validate the package setup in the context of CoLRev, you can run `colrev package --check` in the package directory. Once your CoLRev plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"} to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
 
 ## 5. Conclusion and further steps
 
