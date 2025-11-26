@@ -15,7 +15,13 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-With this notebook, you can familiarize yourself with Python syntax, create and run a Python package command, create and modify a dictionary data structure, and use an external library to read BibTeX records as dictionaries.
+With this notebook, you can familiarize yourself with Python syntax, create and run a Python package command, create and modify a dictionary data structure, and use an external library to read BibTeX records as dictionaries. Specifically, we will cover the following learning objectives:
+
+{: .objective } 
+> - Learn how to write and use Python code
+> - Create and modify data items
+> - Learn how to use external libraries
+> - Learn how to use functions
 
 | Part       | Label                              | Time (min) |
 |------------|------------------------------------|------------|
@@ -27,8 +33,6 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 |            | Overall                            |    174     |
 
 <br>
-
-<img src="../assets/python_overview_session_1.PNG" width="820"/>
 
 ## Part I: Setup <a id="setup"></a>
 

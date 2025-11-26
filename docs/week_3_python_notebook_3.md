@@ -11,34 +11,33 @@ has_toc: true
 ![Offered by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Offered%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
-```mermaid
-graph TD
-    A["<b>Goal:</b> Create a shareable Python tool"] --> B["<b>1.</b> Learn the Anatomy of a Package"];
-    B --> C["<b>2.</b> Initialize Project with <code>uv init</code>"];
-    C --> D["<b>3.</b> Create the Directory Structure"];
-    D --> E["<b>4.</b> Install in Editable Mode"];
-    E --> F["<b>5.</b> Add a Function and a Test"];
-    F --> G["<b>6.</b> Manage Dependencies"];
-    G --> H["<b>Result:</b> A foundational, working package"];
+We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_2.md" target="_blank">suggestions</a> on this notebook!
 
+---
 
-    style A fill:#a2a2e2,stroke:#000,stroke-width:1px,color:#000
-    style B fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style C fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style D fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style E fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style F fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style G fill:#f2d08b,stroke:#000,stroke-width:1px,color:#000
-    style H fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
-```
+This notebook guides you through creating a small but fully functional Python package. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future. Specifically, we will cover the following learning objectives:
 
-## 1. Introduction: What is a Python package?
+{: .objective } 
+> - Learn how to set up a Python package using uv
+> - Extend CoLRev by making the package available as a plugin
+
+| Part        | Label                                                                      | Time (min) |
+|-------------|----------------------------------------------------------------------------|------------|
+|             | [Setup: Tools & environment](#prerequisites-setting-up-your-tools)         |     10     |
+|  Part VIII  | [Creating a package](#part-viii-creating-a-package)                        |    110     |
+|  Part IX    | [CoLRev plugin context](#part-ix-colrev-plugin-context)                    |    40      |
+|             | [Conclusion and further steps](#5-conclusion-and-further-steps)            |    20      |
+|             | Overall                                                                    |    180     |
+
+## Setup
+
+**What is a Python package?**
 
 A Python **package** is a standardized way to bundle and distribute reusable code so that others (or your future self) can easily install and use it with a simple `pip install ...` command.
 
 In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `colrev`. In the last part, we will learn how to make the new package available as a plugin to `colrev`.
 
-## 1b. Prerequisites: Setting up your tools
+## Prerequisites: Setting up your tools
 
 Before we begin, we need to ensure you have the necessary command-line tools. These do not come with Python and must be installed separately.
 
@@ -67,7 +66,7 @@ You should see the installed version number printed.
 
 `pytest` is the framework we will use to write and run tests for our code. While we could install it globally like `uv`, it's a best practice to install testing tools as **development dependencies** for each project. We will do this in Step 3.5.
 
-## 2. The anatomy of a modern Python package
+## The anatomy of a modern Python package
 
 A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
 
@@ -89,11 +88,11 @@ colrev-journal-formatter/
 *   `tests/`: The **testing folder**. Contains code that automatically checks if your source code works correctly.
 *   `README.md` & `LICENSE`: Your project's documentation and legal rules.
 
-## 3. Step-by-step guide to creating your package
+## Part VIII: Creating a package
 
 Let's build a package named `colrev-journal-formatter`.
 
-### Step 3.1: Initialize the project with `uv`
+### Step 1: Initialize the project with `uv`
 
 First, create a directory and initialize the project.
 
@@ -125,7 +124,7 @@ build-backend = "hatchling.build"
 *   **`dependencies = []`**: A list of other packages that your package needs to function. `uv add` will populate this list for you.
 *   **`[build-system]`**: This section tells `pip` *how* to build your package. It specifies the "build backend" (`hatchling`) which acts as a "factory" to assemble your code into a distributable format.
 
-### Step 3.2: Create the directory structure
+### Step 2: Create the directory structure
 
 Now, let's create the necessary files and folders for our code.
 
@@ -138,7 +137,7 @@ touch tests/test_formatter.py
 
 Note that Python package names often use underscores (`_`) instead of hyphens (`-`).
 
-### Step 3.3: Install the package in editable mode
+### Step 3: Install the package in editable mode
 
 Install your package locally so you can use and test it as you develop. **Run this from the project's root directory.**
 
@@ -148,7 +147,7 @@ pip install -e .
 
 The `-e` or `--editable` flag is essential for development. It creates a link to your source code instead of copying it. This means any changes you make to your Python files are immediately usable without needing to reinstall.
 
-### Step 3.4: Add your core logic
+### Step 4: Add your core logic
 
 Let's add our core logic. Open `src/colrev_journal_formatter/formatter.py` and add this code:
 
@@ -172,7 +171,7 @@ def standardize_journal_name(name: str) -> str:
     return " ".join(standardized_words)
 ```
 
-### Step 3.5: Add `pytest` and write your first test
+### Step 5: Add `pytest` and write your first test
 
 Now we'll add `pytest` as a dependency.
 
@@ -206,12 +205,11 @@ Finally, run the tests:
 pytest
 ```
 
+### Step 6: Code quality
 
-
-### TODO: Code quality
+**TODO**
 
 Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/){: target="_blank"}). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/){: target="_blank"}-related issues together.
-
 
 
 Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
@@ -221,7 +219,7 @@ pre-commit run --all
 ```
 
 
-## 4. Applying your skills: The `colrev` plugin context
+## Part IX: CoLRev plugin context
 
 You have just built a complete, tested Python package. This is the exact skill set needed to create a `colrev` plugin. A `colrev` plugin is simply a standard Python package that is designed to interact with the `colrev` framework.
 

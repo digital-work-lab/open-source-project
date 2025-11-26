@@ -15,21 +15,19 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.
+With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.  Specifically, we will cover the following learning objectives:
 
+{: .objective } 
+> - Learn how to write object-oriented code
+> - Learn how to use CoLRev infrastructure
+> - Learn how to save and commit changes
 
-| Part      | Label                                   | Time (min) |
-|-----------|-----------------------------------------|------------|
-|           | [Set up the example repository](#setup) |     10     |
-|  Part V   | [Object-oriented code](#object)         |     60     |
-|  Part VI  | [Programmatic use of CoLRev](#colrev)   |     30     |
-|  Part VII | [Save and commit changes](#save-commit) |     10     |
-|           | [Wrap-up](#wrap-up)                     |     10     |
-|           | Overall                                 |    120     |
-
-<br>
-
-<img src="../assets/python_overview_session_2.PNG" width="800">
+| Part      | Label                                                        | Time (min) |
+|-----------|--------------------------------------------------------------|------------|
+|  Part III | [Step-by-step: create your package](#3-step-by-step-guide)   |    120     |
+|  Part IV  | [Applying your skills: CoLRev plugin context](#4-applying-your-skills-the-colrev-plugin-context) |    40      |
+|  Part V   | [Conclusion and further steps](#5-conclusion-and-further-steps) |    20      |
+|           | Overall                                                      |    180     |
 
 <br>
 
