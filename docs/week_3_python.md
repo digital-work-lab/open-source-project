@@ -32,12 +32,14 @@ If you have any questions during or after the sessions, we're here to assist. We
 > - Prepare for extending the functionality of the CoLRev package
 
 
+<div class="text-center">
+
 ```mermaid
 
 graph TD
-    A["<b>Goal:</b> From Python basics to a CoLRev plugin-ready package"] --> S1["<b>Session 1:</b><br/>Data items<br>External libraries<br>Functions"];
-    S1 --> S2["<b>Session 2:</b><br/>Object-oriented code<br>CoLRev infrastructure<br>Save & commit"];
-    S2 --> S3["<b>Session 3:</b><br/>Creating a package<br>CoLRev plugin context"];
+    A["<b>Goal:</b> From Python basics to a CoLRev plugin-ready package"] --> S1["<b>Python Session 1:</b><br/>Data items<br>External libraries<br>Functions"];
+    S1 --> S2["<b>Python Session 2:</b><br/>Object-oriented code<br>CoLRev infrastructure<br>Save & commit"];
+    S2 --> S3["<b>Python Session 3:</b><br/>Creating a package<br>CoLRev plugin context"];
     S3 --> R["<b>Result:</b> Tested package + CoLRev plugin foundations"];
 
     style A fill:#a2a2e2,stroke:#000,stroke-width:1px,color:#000
@@ -47,6 +49,8 @@ graph TD
     style R fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
 
 ```
+
+</div>
 
 ## Session 1
 
