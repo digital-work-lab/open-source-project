@@ -31,8 +31,7 @@ If you have any questions during or after the sessions, we're here to assist. We
 > - Understand how to use other Python modules and libraries
 > - Prepare for extending the functionality of the CoLRev package
 
-
-<div class="text-center">
+{: .text-center }
 
 ```mermaid
 
@@ -49,8 +48,6 @@ graph TD
     style R fill:#d199f1,stroke:#000,stroke-width:1px,color:#000
 
 ```
-
-</div>
 
 ## Session 1
 
