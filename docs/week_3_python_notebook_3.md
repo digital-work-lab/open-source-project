@@ -258,7 +258,7 @@ class JournalAbbreviationPrep(colrev.ops.prep.Prep):
         return " ".join(standardized_words)
 ```
 
-By inheriting from `Prep` and placing our logic inside the `prepare()` method, we are ensuring that `colrev` can discover and run our code correctly. You can explore all the different base classes in the [CoLRev developer documentation](https://colrev-environment.github.io/colrev/dev_docs/packages/package_base_classes.html).
+By inheriting from `Prep` and placing our logic inside the `prepare()` method, we are ensuring that `colrev` can discover and run our code correctly. You can explore all the different base classes in the [CoLRev developer documentation](https://colrev-environment.github.io/colrev/dev_docs/packages/package_base_classes.html){: target="_blank"}.
 
 ---
 
