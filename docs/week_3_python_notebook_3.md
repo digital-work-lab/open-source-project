@@ -205,21 +205,87 @@ Finally, run the tests:
 pytest
 ```
 
-### Step 6: Code quality
 
-**TODO**
-
-Create a commit, and observe how the code quality checks are triggered ([pre-commit hooks](https://pre-commit.com/){: target="_blank"}). Remember that you have to create the commit in the colrev repository. If there are any code quality problems, these checks will fail and prevent the commit. Try to resolve linting errors (if any). We will address the [typing](https://realpython.com/python-type-checking/){: target="_blank"}-related issues together.
+## Part X: Understanding `colrev` Base Classes: From Function to Plugin
 
 
-Add your changes to the staging area, run the pre-commit hooks, and address the warnings:
+So far, we have written a standalone function, `standardize_journal_name`. This is great for a simple script, but how does a function like this become a true, integrated part of a large application like `colrev`? The answer is through **base classes**.
+
+**What is a Base Class?**
+
+Think of a base class as a **template or a contract**. In a large project, you don't build plugins from a blank file. Instead, you create a new class that **inherits** from a specific `colrev` base class. This contract ensures that all plugins of a certain type (e.g., all data preparation plugins) have a consistent structure and methods that the main `colrev` application knows how to use.
+
+**A Conceptual Example**
+
+Our `standardize_journal_name` function is a data preparation task. In a real-world scenario, this logic would live inside a class that inherits from `colrev.ops.prep.Prep`, which is the base class for all preparation operations.
+
+To illustrate, here is what that would look like conceptually. **You do not need to write this code for the tutorial**, but understanding it is key to seeing the bigger picture:
 
 ```python
+# A conceptual example of a real colrev plugin.
+
+import colrev.ops.prep
+
+# Our new class inherits from the 'Prep' base class, fulfilling the contract.
+class JournalAbbreviationPrep(colrev.ops.prep.Prep):
+
+    def __init__(self, prep_operation, settings):
+        super().__init__(prep_operation, settings)
+
+    # By implementing the 'prepare' method, our class can be called by colrev.
+    def prepare(self, record: colrev.record.Record) -> colrev.record.Record:
+        """Standardizes journal names in a CoLRev record"""
+
+        if 'journal' in record.data:
+            journal = record.data['journal']
+            # We call our original function from within the required method.
+            standardized_journal = self.standardize_journal_name(journal)
+            record.update_field(
+                key='journal', 
+                value=standardized_journal, 
+                source='journal_abbreviation_prep'
+            )
+        return record
+
+    def standardize_journal_name(self, name: str) -> str:
+        """Our original function lives here."""
+        abbreviations = {
+            "J": "Journal", "Comput": "Computing",
+            "Syst": "Systems", "Sci": "Science",
+        }
+        words = name.split()
+        standardized_words = [abbreviations.get(word, word) for word in words]
+        return " ".join(standardized_words)
+```
+
+By inheriting from `Prep` and placing our logic inside the `prepare()` method, we are ensuring that `colrev` can discover and run our code correctly. You can explore all the different base classes in the [CoLRev developer documentation](https://colrev-environment.github.io/colrev/dev_docs/packages/package_base_classes.html).
+
+---
+
+## Part XI: A Note on Code Quality in Real-World Projects
+
+In a collaborative open-source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, mature projects use automated tools to enforce quality standards.
+
+**An Example: The `pre-commit` Framework**
+
+A very common tool for this is called **`pre-commit`**. It works by setting up "hooks" that automatically run checks on your code every time you try to make a `git commit`. These hooks can:
+*   Automatically reformat your code to a consistent style.
+*   Check for common programming errors or bugs (linting).
+*   Ensure documentation is up to date.
+
+In a project that uses this tool (like the main `colrev` repository or the repository for this course itself), a developer would use the following command to manually run all the checks:
+
+```bash
+# This is an example of a command run in a mature, configured project.
 pre-commit run --all
 ```
 
+If any of the checks fail, the commit is blocked until the developer fixes the issues. This acts as an automated gatekeeper, ensuring high quality for all code added to the project.
 
-## Part IX: CoLRev plugin context
+**You do not need to run this for your small tutorial package**, as setting up a `pre-commit` system is an advanced topic. However, it is a key part of the modern development workflow, and you will see it in almost any established open-source project you contribute to in the future.
+
+
+## Part XII: CoLRev plugin context
 
 You have just built a complete, tested Python package. This is the exact skill set needed to create a `colrev` plugin. A `colrev` plugin is simply a standard Python package that is designed to interact with the `colrev` framework.
 
@@ -249,7 +315,7 @@ prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
 > 
 > To validate the package setup in the context of CoLRev, you can run `colrev package --check` in the package directory. Once your CoLRev plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"} to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
 
-## 5. Conclusion and further steps
+## Conclusion and further steps
 
 Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You've learned the fundamental skills of a modern Python developer:
 
