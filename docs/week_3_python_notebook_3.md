@@ -23,7 +23,7 @@ This notebook guides you through creating a small but fully functional Python pa
 
 | Part        | Label                                                                      | Time (min) |
 |-------------|----------------------------------------------------------------------------|------------|
-|             | [Setup: Tools & environment](#prerequisites-setting-up-your-tools)         |     10     |
+|             | [Setup](#setup)                                                            |     10     |
 |  Part VIII  | [Creating a package](#part-viii-creating-a-package)                        |    110     |
 |  Part IX    | [CoLRev plugin context](#part-ix-colrev-plugin-context)                    |    40      |
 |             | [Conclusion and further steps](#5-conclusion-and-further-steps)            |    20      |
@@ -37,7 +37,7 @@ A Python **package** is a standardized way to bundle and distribute reusable cod
 
 In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `colrev`. In the last part, we will learn how to make the new package available as a plugin to `colrev`.
 
-## Prerequisites: Setting up your tools
+## Setting up your tools
 
 Before we begin, we need to ensure you have the necessary command-line tools. These do not come with Python and must be installed separately.
 
@@ -50,9 +50,6 @@ Open your terminal or command prompt and run the following command:
 ```bash
 # For macOS, Linux, and Windows WSL
 curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# For Windows (Powershell)
-irm https://astral.sh/uv/install.ps1 | iex
 ```
 After installation, close and reopen your terminal. Verify it was installed correctly by running:
 
@@ -62,20 +59,14 @@ uv --version
 
 You should see the installed version number printed.
 
-### Installing `pytest`
-
-`pytest` is the framework we will use to write and run tests for our code. While we could install it globally like `uv`, it's a best practice to install testing tools as **development dependencies** for each project. We will do this in Step 3.5.
-
 ## The anatomy of a modern Python package
 
 A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
 
 ```
 colrev-journal-formatter/
-├── src/
-│   └── colrev_journal_formatter/
-│       ├── __init__.py
-│       └── main.py
+│   ├── __init__.py
+│   └── main.py
 ├── tests/
 │   └── test_main.py
 ├── LICENSE
@@ -84,7 +75,7 @@ colrev-journal-formatter/
 ```
 
 *   `pyproject.toml`: The **control center**. It contains the package name, version, dependencies, and build instructions.
-*   `src/colrev_journal_formatter/`: The **source folder**. Your actual Python code lives here. Using `src` is a modern best practice that prevents many common import errors.
+*   `colrev_journal_formatter/`: The **source folder**. Your actual Python code lives here.
 *   `tests/`: The **testing folder**. Contains code that automatically checks if your source code works correctly.
 *   `README.md` & `LICENSE`: Your project's documentation and legal rules.
 
@@ -108,7 +99,7 @@ This creates your `pyproject.toml` file. Let's examine every line:
 [project]
 name = "colrev-journal-formatter"
 version = "0.1.0"
-description = "A short description of the project."
+description = "The package supports formatting of journal names."
 authors = [ { name = "Your Name", email = "you@example.com" } ]
 requires-python = ">=3.8"
 dependencies = []
@@ -129,9 +120,9 @@ build-backend = "hatchling.build"
 Now, let's create the necessary files and folders for our code.
 
 ```bash
-mkdir -p src/colrev_journal_formatter tests
-touch src/colrev_journal_formatter/__init__.py
-touch src/colrev_journal_formatter/formatter.py
+mkdir -p colrev_journal_formatter tests
+touch colrev_journal_formatter/__init__.py
+touch colrev_journal_formatter/formatter.py
 touch tests/test_formatter.py
 ```
 
@@ -149,10 +140,10 @@ The `-e` or `--editable` flag is essential for development. It creates a link to
 
 ### Step 4: Add your core logic
 
-Let's add our core logic. Open `src/colrev_journal_formatter/formatter.py` and add this code:
+Let's add our core logic. Open `colrev_journal_formatter/formatter.py` and add this code:
 
 ```python
-# src/colrev_journal_formatter/formatter.py
+# colrev_journal_formatter/formatter.py
 
 def standardize_journal_name(name: str) -> str:
     """
@@ -173,10 +164,11 @@ def standardize_journal_name(name: str) -> str:
 
 ### Step 5: Add `pytest` and write your first test
 
-Now we'll add `pytest` as a dependency.
+`pytest` is the framework we will use to write and run tests for our code. 
+Let's add `pytest` as a development dependency.
 
 ```bash
-uv add pytest
+uv add --dev pytest
 ```
 
 This command adds `pytest` to the `[project.dependencies]` section in your `pyproject.toml`, installing it as one of your dependencies.
@@ -204,7 +196,6 @@ Finally, run the tests:
 ```bash
 pytest
 ```
-
 
 ## Part X: Understanding `colrev` Base Classes: From Function to Plugin
 
@@ -296,8 +287,6 @@ The `standardize_journal_name` function you wrote is a perfect example of a data
 name = "colrev-journal-formatter"
 description = "Journal formatter plugin for CoLRev"
 
-...
-
 [tool.colrev]
 colrev_doc_description = "Journal name formatter"
 colrev_doc_link = "README.md"
@@ -305,9 +294,6 @@ search_types = []
 
 [project.entry-points.colrev]
 prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
-
-[build-system]
-...
 ```
 
 {: .info }
@@ -319,7 +305,7 @@ prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
 
 Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You've learned the fundamental skills of a modern Python developer:
 
-*   **Structuring a project** with `pyproject.toml` and a `src` layout.
+*   **Structuring a project** with `pyproject.toml` and a `modules` layout.
 *   **Initializing a project** with `uv init`.
 *   **Developing efficiently** using an editable install (`pip install -e .`).
 *   **Ensuring code quality** with automated tests using `pytest`.

@@ -99,7 +99,6 @@ Our next goal is to implement the previous example (adding the journal impact fa
 
 To checkout the **solution**, run:
 
-
 ```python
 git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
 ```
