@@ -30,10 +30,12 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 
 | Part      | Label                                                        | Time (min) |
 |-----------|--------------------------------------------------------------|------------|
-|  Part III | [Step-by-step: create your package](#3-step-by-step-guide)   |    120     |
-|  Part IV  | [Applying your skills: CoLRev plugin context](#4-applying-your-skills-the-colrev-plugin-context) |    40      |
-|  Part V   | [Conclusion and further steps](#5-conclusion-and-further-steps) |    20      |
-|           | Overall                                                      |    180     |
+|           | Setup                                                        | 10         |
+| Part 1    | [Object-oriented programming](#object)                       | 30         |
+| Part 2    | [Programmatic use of CoLRev](#colrev)                        | 40         |
+| Part 3    | [Save and commit changes](#save-commit)                      | 30         |
+|           | Wrap-up                                                      | 10         |
+|           | Overall                                                      | 120        |
 
 <br>
 
@@ -47,53 +49,7 @@ To checkout the **starting point** (commit), run:
 git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
-## Install colrev
-
-In the following, we start to work with the CoLRev library. To install it, run
-
-```
-uv install colrev
-```
-
-### Set up the `example` repository<a id="setup"></a>
-
-To use the typical CoLRev environments (objects), we clone an existing CoLRev project:
-
-```python
-cd /workspaces
-git clone https://github.com/CoLRev-Environment/example.git
-code -a /workspaces/example
-```
-
-<details markdown="block">
-<summary>Opening the data (example) directory in a separate tab</summary>
-
-Instead of running <code>code -a /workspaces/example</code>, you can also open the directory in a separate tab (hover over the path).
-</details>
-
-The project directory `example` should now be displayed. Let's navigate to the directory and check the status:
-
-
-```python
-cd /workspaces/example
-colrev status
-```
-
-**Task**: Briefly check the last commits of the project.
-
-{: .info }
-> **Important**
-> 
-> It is important to modify the code in the Python package directory and run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`):
-> 
-> ![Codespace directories](../assets/codespace-package-vs-project.png)
->
-> Having a separate package directory is only necessary when modifying the code of the Python package.
-> Once the development is completed, other users of CoLRev can simply install it with `pip install colrev` and use it in any given project directory.
-
-## Part V. Object-oriented code <a id="object"></a>
-
-**"How do I write object-oriented code?"**
+## Part 1. Object-oriented code <a id="object"></a>
 
 ### Object-oriented programming
 
@@ -109,11 +65,15 @@ To checkout the **solution**, run:
 git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
 ```
 
-## Part VI: Programmatic use of CoLRev <a id="colrev"></a>
-
-**"How do I use CoLRev infrastructure?"**
+## Part 2: Programmatic use of CoLRev <a id="colrev"></a>
 
 ### Using CoLRev infrastructure
+
+In the following, we start to work with the CoLRev library. To install it, run
+
+```
+uv install colrev
+```
 
 To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
 
@@ -140,9 +100,7 @@ To checkout the **solution**, run:
 git reset --hard 8a4d064771f2b527b6479ac967bde0a5aabd9b19
 ```
 
-## Part VII: Save and commit <a id="save-commit"></a>
-
-**"How do I save and commit changes?"**
+## Part 3: Save and commit <a id="save-commit"></a>
 
 ### Save and commit changes
 

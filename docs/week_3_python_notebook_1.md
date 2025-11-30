@@ -31,16 +31,16 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 | Part       | Label                              | Time (min) |
 |------------|------------------------------------|------------|
-|  Part I    | [Setup](#setup)                    |     25     |
-|  Part II   | [Data items](#data)                |     30     |
-|  Part III  | [External libraries](#libraries)   |     30     |
-|  Part IV   | [Functions](#functions)            |     60     |
+|  Part 1    | [Setup](#setup)                    |     25     |
+|  Part 2    | [Data items](#data)                |     30     |
+|  Part 3    | [External libraries](#libraries)   |     30     |
+|  Part 4    | [Functions](#functions)            |     60     |
 |            | [Wrap-up](#wrap-up)                |      2     |
 |            | Overall                            |    174     |
 
 <br>
 
-## Part I: Setup <a id="setup"></a>
+## Part 1: Setup <a id="setup"></a>
 
 **"How do I write and use Python code?"**
 
@@ -75,7 +75,7 @@ python run.py
 git reset --hard 1778473e75718277ad2a1b623cde99c4fff674c0
 ```
 
-## Part II: Data items <a id="data"></a>
+## Part 2: Data items <a id="data"></a>
 
 **"How do I create and modify data items?"**
 
@@ -116,7 +116,7 @@ To checkout the **solution**, run:
 git reset --hard 728a2dbe5a3c0f15e989eac4faab7b877b2f3a0c
 ```
 
-## Part III: External libraries <a id="libraries"></a>
+## Part 3: External libraries <a id="libraries"></a>
 
 **"How do I use external libraries?"**
 
@@ -147,7 +147,7 @@ To checkout the **solution**, run:
 git reset --hard a84c9be1fb215f9cda8920bcdb86ff529bfc83d2
 ```
 
-## Part IV: Functions <a id="functions"></a>
+## Part 4: Functions <a id="functions"></a>
 
 Next, we would like to create a function, which adds the `journal_impact_factor` based on the following table:
 

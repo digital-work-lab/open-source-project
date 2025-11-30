@@ -342,6 +342,47 @@ prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
 ```
 
 TODO : pip install -e . + test; show how colrev uses the plugin at runtime?
+-> this will require the distinction of data directory (see following code in comments)!
+
+<!-- 
+    ### Set up the `example` repository<a id="setup"></a>
+
+    To use the typical CoLRev environments (objects), we clone an existing CoLRev project:
+
+    ```python
+    cd /workspaces
+    git clone https://github.com/CoLRev-Environment/example.git
+    code -a /workspaces/example
+    ```
+
+    <details markdown="block">
+    <summary>Opening the data (example) directory in a separate tab</summary>
+
+    Instead of running <code>code -a /workspaces/example</code>, you can also open the directory in a separate tab (hover over the path).
+    </details>
+
+    The project directory `example` should now be displayed. Let's navigate to the directory and check the status:
+
+
+    ```python
+    cd /workspaces/example
+    colrev status
+    ```
+
+    **Task**: Briefly check the last commits of the project.
+
+    {: .info }
+    > **Important**
+    > 
+    > It is important to modify the code in the Python package directory and run all project-specific commands (`colrev ...`) in the project directory (in this case, `example`):
+    > 
+    > ![Codespace directories](../assets/codespace-package-vs-project.png)
+    >
+    > Having a separate package directory is only necessary when modifying the code of the Python package.
+    > Once the development is completed, other users of CoLRev can simply install it with `pip install colrev` and use it in any given project directory.
+
+ -->
+
 
 {: .info }
 > **Note**
