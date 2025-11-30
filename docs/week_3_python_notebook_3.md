@@ -15,19 +15,23 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-This notebook guides you through creating a small but fully functional Python package. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future. Specifically, we will cover the following learning objectives:
+This notebook guides you through creating a small but fully functional Python package and turning it into a plugin of CoLRev. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future. Specifically, we will cover the following learning objectives:
 
 {: .objective } 
 > - Learn how to set up a Python package using uv
 > - Extend CoLRev by making the package available as a plugin
 
-| Part        | Label                                                                      | Time (min) |
-|-------------|----------------------------------------------------------------------------|------------|
-|             | [Setup](#setup)                                                            |     10     |
-|  Part VIII  | [Creating a package](#part-viii-creating-a-package)                        |    110     |
-|  Part IX    | [CoLRev plugin context](#part-ix-colrev-plugin-context)                    |    40      |
-|             | [Conclusion and further steps](#5-conclusion-and-further-steps)            |    20      |
-|             | Overall                                                                    |    180     |
+| Part   | Label                                      | Time (min) |
+|--------|--------------------------------------------|------------|
+|        | Setup                                      | 10         |
+| Part 1 | Initialization                             | 20         |
+| Part 2 | Structure & Code                           | 20         |
+| Part 3 | Editable Install                           | 10         |
+| Part 4 | Testing                                    | 20         |
+| Part 5 | Code Quality                               | 20         |
+| Part 6 | Base Classes & CoLRev Plugin Context       | 70         |
+|        | Wrap-up                                    | 10         |
+|        | **Overall**                                | **180**    |
 
 ## Setup
 
@@ -59,9 +63,11 @@ uv --version
 
 You should see the installed version number printed.
 
-## The anatomy of a modern Python package
+## Part 1: Initialization
 
+Let's start with the anatomy of a Python package.
 A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
+A typical package could be structured as follows:
 
 ```
 colrev-journal-formatter/
@@ -79,17 +85,18 @@ colrev-journal-formatter/
 *   `tests/`: The **testing folder**. Contains code that automatically checks if your source code works correctly.
 *   `README.md` & `LICENSE`: Your project's documentation and legal rules.
 
-## Part VIII: Creating a package
-
 Let's build a package named `colrev-journal-formatter`.
 
-### Step 1: Initialize the project with `uv`
-
-First, create a directory and initialize the project.
+First, create a directory and navigate into it.
 
 ```bash
 mkdir colrev-journal-formatter
 cd colrev-journal-formatter
+```
+
+Now, we use `uv` to initialize the project. This automatically creates the `pyproject.toml` file, which is the control center for modern Python packages.
+
+```bash
 uv init
 ```
 
@@ -115,7 +122,14 @@ build-backend = "hatchling.build"
 *   **`dependencies = []`**: A list of other packages that your package needs to function. `uv add` will populate this list for you.
 *   **`[build-system]`**: This section tells `pip` *how* to build your package. It specifies the "build backend" (`hatchling`) which acts as a "factory" to assemble your code into a distributable format.
 
-### Step 2: Create the directory structure
+> **Breakpoint:** If you are stuck or want to jump to the solution for this step, run the command below.
+
+TODO:
+```bash
+git checkout bbb9546aefa1e866fa5f50801c32001a75b240b1 -- colrev-journal-formatter pyproject.toml
+```
+
+## Part 2: Structure & Code
 
 Now, let's create the necessary files and folders for our code.
 
@@ -127,18 +141,6 @@ touch tests/test_formatter.py
 ```
 
 Note that Python package names often use underscores (`_`) instead of hyphens (`-`).
-
-### Step 3: Install the package in editable mode
-
-Install your package locally so you can use and test it as you develop. **Run this from the project's root directory.**
-
-```bash
-pip install -e .
-```
-
-The `-e` or `--editable` flag is essential for development. It creates a link to your source code instead of copying it. This means any changes you make to your Python files are immediately usable without needing to reinstall.
-
-### Step 4: Add your core logic
 
 Let's add our core logic. Open `colrev_journal_formatter/formatter.py` and add this code:
 
@@ -162,7 +164,24 @@ def standardize_journal_name(name: str) -> str:
     return " ".join(standardized_words)
 ```
 
-### Step 5: Add `pytest` and write your first test
+> **Breakpoint:** Jump to the solution for Step 2.
+
+TODO
+```bash
+git checkout 974cd38c90c7b34346f9f7fe3f3803d131438b37 -- colrev-journal-formatter pyproject.toml
+```
+
+## Part 3: Editable Install
+
+To install the package locally so changes are reflected immediately, we use `pip` with the `-e` flag (editable). This creates a link to your source code instead of copying it. This means you don't need to reinstall the package every time you change a line of code. **Run this from the project's root directory.**
+
+```bash
+pip install -e .
+```
+
+TODO: how to run the code?
+
+## Part 4: Testing
 
 `pytest` is the framework we will use to write and run tests for our code. 
 Let's add `pytest` as a development dependency.
@@ -173,7 +192,8 @@ uv add --dev pytest
 
 This command adds `pytest` to the `[project.dependencies]` section in your `pyproject.toml`, installing it as one of your dependencies.
 
-Next, open `tests/test_formatter.py` and add your tests:
+Now we write a test file. We import our function and use `assert` to check if it returns the expected result.
+Open `tests/test_formatter.py` and add your tests:
 
 ```python
 # tests/test_formatter.py
@@ -197,10 +217,49 @@ Finally, run the tests:
 pytest
 ```
 
-## Part X: Understanding `colrev` Base Classes: From Function to Plugin
+> **Breakpoint:** Jump to the solution for Step 4.
 
+TODO
+```bash
+git checkout be0e2d09b34edca2d0df3b77161d07f4ab8bade9 -- colrev-journal-formatter pyproject.toml
+```
 
-So far, we have written a standalone function, `standardize_journal_name`. This is great for a simple script, but how does a function like this become a true, integrated part of a large application like `colrev`? The answer is through **base classes**.
+## Part 5: Code Quality
+
+In a collaborative open-source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, mature projects use automated tools to enforce quality standards.
+
+A very common framework for this is called **`pre-commit`**. It works by setting up "hooks" that automatically run checks on your code every time you try to make a `git commit`. These hooks can:
+*   Automatically reformat your code to a consistent style.
+*   Check for common programming errors or bugs (linting).
+*   Ensure documentation is up to date.
+
+TODO: add example pre-commit hook and install
+
+In a project that uses this tool (like the main `colrev` repository or the repository for this course itself), a developer would use the following command to manually run all the checks:
+
+```bash
+# This is an example of a command run in a mature, configured project.
+pre-commit run --all
+```
+
+If any of the checks fail, the commit is blocked until the developer fixes the issues. This acts as an automated gatekeeper, ensuring high quality for all code added to the project.
+
+<!-- 
+**You do not need to run this for your small tutorial package**, as setting up a `pre-commit` system is an advanced topic. However, it is a key part of the modern development workflow, and you will see it in almost any established open-source project you contribute to in the future.
+ -->
+
+> **Breakpoint:** Jump to the solution for Step 5.
+
+TODO
+```bash
+git checkout <COMMIT_HASH-5> -- colrev-journal-formatter pyproject.toml [could be removed, too]
+```
+
+## Part 6: Base Classes & CoLRev Plugin Context
+
+To turn our package into a CoLRev plugin, we need to inherit from the `colrev` Base Classes and specify the entry-point in our `pyproject.toml`.
+
+So far, we have written a standalone function, `standardize_journal_name`. This is great for a simple package, but how does a function like this become a true, integrated part of a large application like `colrev`? The answer is through **base classes**.
 
 **What is a Base Class?**
 
@@ -215,10 +274,10 @@ To illustrate, here is what that would look like conceptually. **You do not need
 ```python
 # A conceptual example of a real colrev plugin.
 
-import colrev.ops.prep
+import colrev.package_manager.package_base_classes as base_classes
 
-# Our new class inherits from the 'Prep' base class, fulfilling the contract.
-class JournalAbbreviationPrep(colrev.ops.prep.Prep):
+# Our new class inherits from the 'PrepPackageBaseClass' base class, fulfilling the contract.
+class JournalAbbreviationPrep(base_classes.PrepPackageBaseClass):
 
     def __init__(self, prep_operation, settings):
         super().__init__(prep_operation, settings)
@@ -249,44 +308,24 @@ class JournalAbbreviationPrep(colrev.ops.prep.Prep):
         return " ".join(standardized_words)
 ```
 
-By inheriting from `Prep` and placing our logic inside the `prepare()` method, we are ensuring that `colrev` can discover and run our code correctly. You can explore all the different base classes in the [CoLRev developer documentation](https://colrev-environment.github.io/colrev/dev_docs/packages/package_base_classes.html){: target="_blank"}.
+By inheriting from `PrepPackageBaseClass` and placing our logic inside the `prepare()` method, we are ensuring that `colrev` can discover and run our code correctly. You can explore all the different base classes in the [CoLRev developer documentation](https://colrev-environment.github.io/colrev/dev_docs/packages/package_base_classes.html){: target="_blank"}.
 
----
+**Task**: change the current code to inherit from `PrepPackageBaseClass`.
 
-## Part XI: A Note on Code Quality in Real-World Projects
+> **Breakpoint:** Jump to the solution.
 
-In a collaborative open-source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, mature projects use automated tools to enforce quality standards.
-
-**An Example: The `pre-commit` Framework**
-
-A very common tool for this is called **`pre-commit`**. It works by setting up "hooks" that automatically run checks on your code every time you try to make a `git commit`. These hooks can:
-*   Automatically reformat your code to a consistent style.
-*   Check for common programming errors or bugs (linting).
-*   Ensure documentation is up to date.
-
-In a project that uses this tool (like the main `colrev` repository or the repository for this course itself), a developer would use the following command to manually run all the checks:
-
+TODO
 ```bash
-# This is an example of a command run in a mature, configured project.
-pre-commit run --all
+git checkout <COMMIT_HASH-6> -- colrev-journal-formatter pyproject.toml [could be removed, too.]
 ```
 
-If any of the checks fail, the commit is blocked until the developer fixes the issues. This acts as an automated gatekeeper, ensuring high quality for all code added to the project.
+As a last step, we need to specify how `colrev` will interact with our package.
 
-**You do not need to run this for your small tutorial package**, as setting up a `pre-commit` system is an advanced topic. However, it is a key part of the modern development workflow, and you will see it in almost any established open-source project you contribute to in the future.
+The `standardize_journal_name` function you wrote is a perfect example of a data cleaning operation that a `colrev prep` package might perform. To turn your package into a plugin, you would add more `colrev`-specific code to register it and have it process bibliographic records. The core work of writing clean, testable functions and packaging them, is exactly what you have just learned.
 
-
-## Part XII: CoLRev plugin context
-
-You have just built a complete, tested Python package. This is the exact skill set needed to create a `colrev` plugin. A `colrev` plugin is simply a standard Python package that is designed to interact with the `colrev` framework.
-
-The `standardize_journal_name` function you wrote is a perfect example of a data cleaning operation that a `colrev` `prep` package might perform. To turn your package into a real plugin, you would add more `colrev`-specific code to register it and have it process bibliographic records. The core work of writing clean, testable functions and packaging them, is exactly what you have just learned.
+To make the package available as a plugin, the following two sections must be added to our `pyprojec.toml`:
 
 ```toml
-[project]
-name = "colrev-journal-formatter"
-description = "Journal formatter plugin for CoLRev"
-
 [tool.colrev]
 colrev_doc_description = "Journal name formatter"
 colrev_doc_link = "README.md"
@@ -296,22 +335,31 @@ search_types = []
 prep = "colrev_journal_formatter.formatter:JournalFormatterPrep"
 ```
 
+TODO : pip install -e . + test; show how colrev uses the plugin at runtime?
+
 {: .info }
 > **Note**
 > 
 > To validate the package setup in the context of CoLRev, you can run `colrev package --check` in the package directory. Once your CoLRev plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"} to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
 
-## Conclusion and further steps
+## Wrap-up
 
-Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You've learned the fundamental skills of a modern Python developer:
+🎉 Congratulations! You have built your first Python package and made it available as a CoLRev plugin!
+
+
+Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You have learned some of the fundamental skills of a Python package developer:
 
 *   **Structuring a project** with `pyproject.toml` and a `modules` layout.
 *   **Initializing a project** with `uv init`.
 *   **Developing efficiently** using an editable install (`pip install -e .`).
 *   **Ensuring code quality** with automated tests using `pytest`.
 *   **Managing dependencies** declaratively with `uv add`.
+*   **Turning a package into a plugin** to extend exising Python packages, such as `colrev`.
 
 These are the universal building blocks of shareable and maintainable Python code.
+
+**Next Steps:**
+Navigate back to the root directory and remember to **stop your Codespace** to save resources.
 
 ### Further Steps
 
