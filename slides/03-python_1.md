@@ -67,7 +67,9 @@ The setup can run in the background, while we focus on the concepts.
 
 # What we will learn in the Python session(s)
 
-![width:700px center](../assets/python_overview_all.PNG)
+<br>
+
+![width:350px center](../assets/session_overview.png)
 
 ---
 

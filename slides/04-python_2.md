@@ -31,7 +31,9 @@ Otto-Friedrich-Universität Bamberg
 
 Resume the [Codespace started in the previous session](https://github.com/CoLRev-Environment/colrev)
 
-![width:700px center](../assets/python_overview_all.PNG)
+<br>
+
+![width:350px center](../assets/session_overview.png)
 
 ---
 
