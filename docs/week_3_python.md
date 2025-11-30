@@ -49,67 +49,6 @@ graph TD
 
 ```
 
-## Session 1
-
-<br>
-
-<iframe src="../output/03-python_1.html" 
-        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
-        allowfullscreen>
-</iframe>
-
-<br>
-
-| **Materials**       | **Link**                                                                                                  |
-|----------------------|---------------------------------------------------------------------------------------------------------|
-| Slides session 1     | [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"} |
-| Notebook session 1   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
-
-<br>
-
----
-
-## Session 2
-
-<br>
-
-<iframe src="../output/04-python_2.html" 
-        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
-        allowfullscreen>
-</iframe>
-
-<br>
-
-| **Materials**       | **Link**                                                                                                  |
-|----------------------|---------------------------------------------------------------------------------------------------------|
-| Python session 2     | [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"} |
-| Notebook session 2   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_2.html) |
-
-<!-- 
- [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
- [![Open Notebook in Codespaces](https://img.shields.io/badge/Open%20in%20Codespaces-blue?logo=github)](https://codespaces.new/digital-work-lab/practice-python){: target="_blank"}
--->
-
-<br>
-
----
-
-## Session 3: Creating a Python Package
-
-<br>
-
-<iframe src="../output/05-python_3.html" 
-        style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ccc; border-radius: 5px;" 
-        allowfullscreen>
-</iframe>
-
-<br>
-
-| **Materials**       | **Link**                                                                                                  |
-|----------------------|---------------------------------------------------------------------------------------------------------|
-| Python session 3     | [![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-python_3.pdf){: target="_blank"} |
-| Notebook session 3   | [![Open Notebook](https://img.shields.io/badge/Notebook-blue?logo=github)](week_3_python_notebook_1.html) |
-
 After you have used CoLRev in the last notebook, it is instructive to create a project and run through the operations to understand how CoLRev works.
 To do this, we recommend starting a Codespace from the fork of your group.
 You will also need to create a separate project directory in the Codespace (as explained in the notebooks).
