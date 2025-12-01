@@ -20,7 +20,7 @@ In this session, we create a small but fully functional Python package and turni
 {: .objective } 
 > - Learn how to set up a Python package using uv
 > - Include tests, manage dependencies, and maintain code quality
-> - Extend `colrev` by making the package available as a plugin
+> - Extend colrev by making the package available as a plugin
 
 <br>
 
@@ -400,8 +400,7 @@ Your journey as a package developer is just beginning. The next steps in a packa
 ## Wrap-up
 
 🎉 Congratulations! You have built your first Python package and made it available as a `colrev` plugin!
-
-Congratulations! You have successfully created, installed, and tested a complete Python package from scratch. You have learned some of the fundamental skills of a Python package developer:
+You have successfully created, installed, and tested a complete Python package from scratch. You have learned some of the fundamental skills of a Python package developer:
 
 - **Structuring a project** with `pyproject.toml` and a `modules` layout.
 - **Initializing a project** with `uv init`.
