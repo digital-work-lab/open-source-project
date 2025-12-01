@@ -15,7 +15,7 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-In this session, we create a small but fully functional Python package and turning it into a plugin of `colrev`. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future.
+In this session, we create a small but fully functional Python package and turn it into a plugin of `colrev`. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future.
 
 {: .objective } 
 > - Learn how to set up a Python package using uv
@@ -24,7 +24,7 @@ In this session, we create a small but fully functional Python package and turni
 
 <br>
 
-📑 Session Slides: ➡️ [View online](../output/05-python_3.html){: target="_blank"} · ⬇️ [Download PDF](../output/05-python_3.pdf){: target="_blank"}
+📑 Session slides: ➡️ [View online](../output/05-python_3.html){: target="_blank"} · ⬇️ [Download PDF](../output/05-python_3.pdf){: target="_blank"}
 
 <br>
 
@@ -179,7 +179,7 @@ def standardize_journal_name(name: str) -> str:
     return " ".join(standardized_words)
 ```
 
-**Breakpoint:** Jump to the solution for Step 2.
+**Breakpoint:** Jump to the solution for step 2.
 
 ```bash
 git reset --hard 97791b296408f1869b22920cb00e810f0d4e3a37
@@ -240,7 +240,7 @@ Finally, run the tests:
 pytest
 ```
 
-**Breakpoint:** Jump to the solution for Step 4.
+**Breakpoint:** Jump to the solution for step 4.
 
 ```bash
 git reset --hard b4bf67e8de8026d2f7dd845c5c459211e938e107
@@ -282,7 +282,7 @@ pre-commit run --all
 
 If any of the checks fail, the commit is blocked until the developer fixes the issues. This acts as an automated gatekeeper, ensuring high quality for all code added to the project.
 
-**Breakpoint:** Jump to the solution for Step 5.
+**Breakpoint:** Jump to the solution for step 5.
 
 ```bash
 git reset --hard 6566a670a8888ef3177232e8e4b9b322c2529afd
@@ -290,9 +290,9 @@ pip install pre-commit
 pre-commit install
 ```
 
-## Part 6: CoLRev plugins <a id="plugins"></a>
+## Part 6: colrev plugins <a id="plugins"></a>
 
-To turn our package into a `colrev` plugin, we need to inherit from the `colrev` base classes and specify the entry-point in our `pyproject.toml`.
+To turn our package into a `colrev` plugin, we need to inherit from the `colrev` base classes and specify the entry point in our `pyproject.toml`.
 
 Start by installing `colrev`:
 
@@ -358,7 +358,7 @@ By inheriting from `PrepPackageBaseClass` and placing our logic inside the `prep
 git reset --hard 044c1d985b0a14df6c8842afefe6027f3579a0f7
 ```
 
-As a last step, we need to specify how `colrev` will discover with our package.
+As a last step, we need to specify how `colrev` will discover our package.
 
 The `JournalAbbreviationPrep` class you wrote is a perfect example of a data preparation task that a `colrev prep` package might invoke. To turn your package into a plugin, you would add more `colrev`-specific code to register it and have it process bibliographic records. 
 
@@ -402,7 +402,7 @@ Your journey as a package developer is just beginning. The next steps in a packa
 🎉 Congratulations! You have built your first Python package and made it available as a `colrev` plugin!
 You have successfully created, installed, and tested a complete Python package from scratch. You have learned some of the fundamental skills of a Python package developer:
 
-- **Structuring a project** with `pyproject.toml` and a `modules` layout.
+- **Structuring a project** with `pyproject.toml` and a modules layout.
 - **Initializing a project** with `uv init`.
 - **Developing efficiently** using an editable installation (`pip install -e .`).
 - **Ensuring code quality** with automated tests using `pytest`.
@@ -413,4 +413,4 @@ These are the universal building blocks of shareable and maintainable Python cod
 
 {: .info } 
 > **Delete your Codespace**
-> Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.
+> Remember to delete your [Codespace](https://github.com/codespaces){: target="_blank"} after the session.

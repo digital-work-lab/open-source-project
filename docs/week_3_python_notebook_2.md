@@ -15,7 +15,7 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-With this notebook, you can refactor to object-oriented code, switch to a real `colrev` project and load the records using the `colrev` classes, and save changes to create a commit.
+With this notebook, you can refactor to object-oriented code, switch to a real `colrev` project, load the records using the `colrev` classes, and save changes to create a commit.
 
 {: .objective } 
 > - Learn how to write object-oriented code
@@ -24,7 +24,7 @@ With this notebook, you can refactor to object-oriented code, switch to a real `
 
 <br>
 
-📑 Session Slides: ➡️ [View online](../output/04-python_2.html){: target="_blank"} · ⬇️ [Download PDF](../output/04-python_2.pdf){: target="_blank"}
+📑 Session slides: ➡️ [View online](../output/04-python_2.html){: target="_blank"} · ⬇️ [Download PDF](../output/04-python_2.pdf){: target="_blank"}
 
 <br>
 
@@ -40,7 +40,7 @@ With this notebook, you can refactor to object-oriented code, switch to a real `
 <br>
 
 {: .info }
-> Continue working on your [Codespace](https://github.com/codespaces){: target="_blank"} started in the previous session.
+> Continue working on your [codespace](https://github.com/codespaces){: target="_blank"} started in the previous session.
 
 Resume the codespace as follows:
 
@@ -56,11 +56,11 @@ git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 
 ### Object-oriented programming
 
-Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the `colrev` infrastructure.
+Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects and methods, and using the `colrev` infrastructure.
 
 **Task**: Create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp){: target="_blank"}). Run and revise the code (if necessary).
 
-**Hint** Also adapt the path of the records to `data/records.bib`. This is where `colrev` projects store the main records file.
+**Hint**: Also adapt the path of the records to `data/records.bib`. This is where `colrev` projects store the main records file.
 
 To select the **solution**, run:
 
@@ -68,19 +68,19 @@ To select the **solution**, run:
 git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
 ```
 
-## Part 2: Programmatic use of CoLRev <a id="colrev"></a>
+## Part 2: Programmatic use of colrev <a id="colrev"></a>
 
-### Using CoLRev infrastructure
+### Using colrev infrastructure
 
-In the following, we start to work with the CoLRev library. To install it, run
+In the following, we start to work with the `colrev` library. To install it, run:
 
-```
+```bash
 uv install colrev
 ```
 
 To use the `colrev` infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
 
-**Task**: Rewrite the code in `run.py` to use `colrev` classes and methods. Upon instantiating the `JIFLabeler`, instantiate a `ReviewManager` object and keep it as an object variable. When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
+**Task**: Rewrite the code in `run.py` to use `colrev` classes and methods. When instantiating the `JIFLabeler`, instantiate a `ReviewManager` object and keep it as an object variable. When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
 
 **Hint**: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.
 
@@ -94,8 +94,8 @@ git reset --hard 29e5cf28e3c96940e19e5af470977092ef3b8d47
 
 To improve the code, try to implement these two changes:
 
-- Instead of using `print()` statements, it is recommended to use the `ReviewManager`'s logger.
-- Instead of using the record dicts, it is recommended to work with the `Record` class and its `update_field()` method.
+- Instead of using `print()` statements, use the `ReviewManager`'s logger.
+- Instead of using the record dicts, work with the `Record` class and its `update_field()` method.
 
 To select the **solution**, run:
 
@@ -121,9 +121,9 @@ git reset --hard 99f4477aabd4dfd5eaec7ddefefab2b632ef95e0
 
 ## Wrap-up <a id="wrap-up"></a>
 
-🎉🎈 You have completed the Python commit notebook - good work! 🎈🎉
+🎉🎈 You have completed the Python commit notebook – good work! 🎈🎉
 
-In this notebook, we have learned to
+In this notebook, we have learned to:
 
 - Write object-oriented code in Python
 - Use `colrev` programmatically
@@ -131,5 +131,5 @@ In this notebook, we have learned to
 - Use stop and resume in GitHub Codespaces
 
 {: .info } 
-> **Delete your Codespace**
+> **Delete your codespace**
 > Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.

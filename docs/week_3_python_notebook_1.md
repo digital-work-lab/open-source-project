@@ -25,7 +25,7 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 <br>
 
-📑 Session Slides: ➡️ [View online](../output/03-python_1.html){: target="_blank"} · ⬇️ [Download PDF](../output/03-python_1.pdf){: target="_blank"}
+📑 Session slides: ➡️ [View online](../output/03-python_1.html){: target="_blank"} · ⬇️ [Download PDF](../output/03-python_1.pdf){: target="_blank"}
 
 <br>
 
@@ -59,18 +59,18 @@ Next, we reset the state of the repository to the beginning of the tutorial:
 git reset --hard f0a13be2494181d56eb71a2f1aee8b4511f65919
 ```
 
-- As the session progresses, you can select the current commits
+- As the session progresses, you can select the current commits.
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 
 ### Setting up a Python script
 
-We implement a simple Pyhton script, `run.py`, which should be available through the following command:
+We implement a simple Python script, `run.py`, which should be available through the following command:
 
 ```
 python run.py
 ```
 
-**Task**: Create the script, have it print "Hello World" and test the `python run.py` call.
+**Task**: Create the script, have it print "Hello World," and test the `python run.py` call.
 
 ```bash
 git reset --hard 1778473e75718277ad2a1b623cde99c4fff674c0
@@ -80,9 +80,9 @@ git reset --hard 1778473e75718277ad2a1b623cde99c4fff674c0
 
 **"How do I create and modify data items?"**
 
-###  Data types
+### Data types
 
-In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures, which can be used to handle bibliographic records, such as the following (in BibTeX format):
+In this part, we focus on the data structure of dictionaries, which are often used in CoLRev. Dictionaries are efficient data structures that can be used to handle bibliographic records, such as the following (in BibTeX format):
 
 ```Tex
 @article{Pare2023,
@@ -95,16 +95,15 @@ In this part, we focus on the data structure of dictionaries, which are often us
 
 **Task**: Create a dictionary containing these data fields and print it when `python run.py` is called.
 
-You can find the syntax for Python dictionaries (and many other data types) in the [W3School](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
+You can find the syntax for Python dictionaries (and many other data types) in the [W3Schools](https://www.w3schools.com/python/python_dictionaries.asp){: target="_blank"}.
 
-**Challenge (optional)**: If you have completed the previous tasks, try to use the CoLRev constants for fields like `title`, `author`, etc.. In many cases, using constants like these is preferable to so-called "magic strings".
+**Challenge (optional)**: If you have completed the previous tasks, try to use the CoLRev constants for fields like `title`, `author`, etc. In many cases, using constants like these is preferable to so-called "magic strings."
 
 ### Changing data
 
 Next, we need a field indicating the record's status throughout the [process](https://colrev-environment.github.io/colrev/manual/operations.html){: target="_blank"}.
 
 Add a `colrev_status` field to the dictionary, and set its value to `md_imported`. Create a commit once the command prints the following:
-
 
 ```python
 Start simple colrev run
@@ -125,7 +124,7 @@ git reset --hard 728a2dbe5a3c0f15e989eac4faab7b877b2f3a0c
 
 Next, we decide to load (parse) a BibTeX file stored in the project. Search for an appropriate Python library to parse BibTeX files. Try to figure out how to install it and how to use it.
 
-We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser){: target="_blank"} package, which is developed actively and available under an Open Source license.
+We decide to use the [BibtexParser](https://github.com/sciunto-org/python-bibtexparser){: target="_blank"} package, which is actively developed and available under an open source license.
 
 ```python
 pip install bibtexparser
@@ -133,12 +132,12 @@ pip install bibtexparser
 
 ### Using external libraries
 
-Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target="_blank"} and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev-python-tutorial`.
+Go to the [bibtexparser tutorial](https://bibtexparser.readthedocs.io/){: target="_blank"} and figure out how to load a BibTeX file. An example `records.bib` file is available [here](../assets/records.bib). To use the file in your Codespace, it needs to be uploaded. You can simply drag and drop the `records.bib` into `/workspaces/colrev-python-tutorial`.
 
 {: .info }
 > Bibtexparser has a pre-release (version 2), but for this session, we use version 1 of bibtexparser.
 
-Instead of defining the dictionary in the `run.py`, use the bibtexparser to load the `records.bib` file.
+Instead of defining the dictionary in `run.py`, use bibtexparser to load the `records.bib` file.
 
 Afterward, loop over the records (`for ...`) and print the title of each record.
 
@@ -150,7 +149,7 @@ git reset --hard a84c9be1fb215f9cda8920bcdb86ff529bfc83d2
 
 ## Part 4: Functions <a id="functions"></a>
 
-Next, we would like to create a function, which adds the `journal_impact_factor` based on the following table:
+Next, we would like to create a function that adds the `journal_impact_factor` based on the following table:
 
 | journal                  | journal_impact_factor |
 | ------------------------ | ----------------------|
@@ -183,4 +182,4 @@ In contrast to deleting a Codespace (which removes all files, changes, settings,
 
 {: .info } 
 > **Stop your Codespace**
-> Remember to stop your [codespace](https://github.com/codespaces){: target="_blank"} after the session. This will preserve your data without consuming computational resources.
+> Remember to stop your [Codespace](https://github.com/codespaces){: target="_blank"} after the session. This will preserve your data without consuming computational resources.
