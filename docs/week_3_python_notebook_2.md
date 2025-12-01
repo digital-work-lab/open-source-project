@@ -15,11 +15,11 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.  Specifically, we will cover the following learning objectives:
+With this notebook, you can refactor to object-oriented code, switch to a real `colrev` project and load the records using the `colrev` classes, and save changes to create a commit.  Specifically, we will cover the following learning objectives:
 
 {: .objective } 
 > - Learn how to write object-oriented code
-> - Learn how to use CoLRev infrastructure
+> - Learn how to use `colrev` infrastructure
 > - Learn how to save and commit changes
 
 <br>
@@ -32,7 +32,7 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 |-----------|--------------------------------------------------------------|------------|
 |           | Setup                                                        | 10         |
 | Part 1    | [Object-oriented programming](#object)                       | 30         |
-| Part 2    | [Programmatic use of CoLRev](#colrev)                        | 40         |
+| Part 2    | [Programmatic use of colrev](#colrev)                        | 40         |
 | Part 3    | [Save and commit changes](#save-commit)                      | 30         |
 |           | Wrap-up                                                      | 10         |
 |           | Overall                                                      | 120        |
@@ -56,11 +56,11 @@ git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 
 ### Object-oriented programming
 
-Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the CoLRev infrastructure.
+Our next goal is to implement the previous example (adding the journal impact factor to the records) using Python objects/methods, and using the `colrev` infrastructure.
 
 **Task**: Create the `JIFLabeler` class, instantiate an object, and add the `add_jif()` method (based on the [Python objects/methods syntax](https://www.w3schools.com/python/python_classes.asp){: target="_blank"}). Run and revise the code (if necessary).
 
-**Hint** Also adapt the path of the records to `data/records.bib`. This is where CoLRev projects store the main records file.
+**Hint** Also adapt the path of the records to `data/records.bib`. This is where `colrev` projects store the main records file.
 
 To select the **solution**, run:
 
@@ -78,9 +78,9 @@ In the following, we start to work with the CoLRev library. To install it, run
 uv install colrev
 ```
 
-To use the CoLRev infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
+To use the `colrev` infrastructure, take a look at the [API reference](https://colrev-environment.github.io/colrev/dev_docs/api.html){: target="_blank"} and find the classes and methods that can be used to load and save records.
 
-**Task**: Rewrite the code in `run.py` to use CoLRev classes and methods. Upon instantiating the `JIFLabeler`, instantiate a `ReviewManager` object and keep it as an object variable. When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
+**Task**: Rewrite the code in `run.py` to use `colrev` classes and methods. Upon instantiating the `JIFLabeler`, instantiate a `ReviewManager` object and keep it as an object variable. When calling the `main` method, the records should be loaded by using the `ReviewManager`'s dataset methods.
 
 **Hint**: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.
 
@@ -126,8 +126,8 @@ git reset --hard 99f4477aabd4dfd5eaec7ddefefab2b632ef95e0
 In this notebook, we have learned to
 
 - Write object-oriented code in Python
-- Use CoLRev programmatically
-- Save and commit changes in a CoLRev project
+- Use `colrev` programmatically
+- Save and commit changes in a `colrev` project
 - Use stop and resume in GitHub Codespaces
 
 {: .info } 
