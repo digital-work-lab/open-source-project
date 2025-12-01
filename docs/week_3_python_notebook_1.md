@@ -181,3 +181,7 @@ To continue using your work in the next session, <b>stop</b> your Codespace [her
 In contrast to deleting a Codespace (which removes all files, changes, settings, etc.), stopping the Codespace preserves the current state of your work and does not consume computational resources.
 
 <img src="../assets/codespace-stop.gif"  loop="1" width="800"/>
+
+{: .info } 
+> **Stop your Codespace**
+> Remember to stop your [codespace](https://github.com/codespaces){: target="_blank"} after the session. This will preserve your data without consuming computational resources.

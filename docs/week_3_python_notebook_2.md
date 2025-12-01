@@ -130,4 +130,6 @@ In this notebook, we have learned to
 - Save and commit changes in a CoLRev project
 - Use stop and resume in GitHub Codespaces
 
-Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.
+{: .info } 
+> **Delete your Codespace**
+> Remember to delete your [codespace](https://github.com/codespaces){: target="_blank"} after the session.
