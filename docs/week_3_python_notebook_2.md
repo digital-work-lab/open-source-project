@@ -15,7 +15,7 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-With this notebook, you can refactor to object-oriented code, switch to a real `colrev` project and load the records using the `colrev` classes, and save changes to create a commit.  Specifically, we will cover the following learning objectives:
+With this notebook, you can refactor to object-oriented code, switch to a real `colrev` project and load the records using the `colrev` classes, and save changes to create a commit.
 
 {: .objective } 
 > - Learn how to write object-oriented code

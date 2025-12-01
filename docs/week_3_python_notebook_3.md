@@ -15,10 +15,11 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-This notebook guides you through creating a small but fully functional Python package and turning it into a plugin of `colrev`. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future. Specifically, we will cover the following learning objectives:
+In this session, we create a small but fully functional Python package and turning it into a plugin of `colrev`. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future.
 
 {: .objective } 
 > - Learn how to set up a Python package using uv
+> - Include tests, manage dependencies, and maintain code quality
 > - Extend `colrev` by making the package available as a plugin
 
 <br>
@@ -54,7 +55,7 @@ git reset --hard 60e191517b9e0e68892bac5fb61aec33a01c5543
 
 A Python **package** is a standardized way to bundle and distribute reusable code so that others (or your future self) can easily install and use it with a simple `pip install ...` command.
 
-In this module, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `colrev`. In the last part, we will learn how to make the new package available as a plugin to `colrev`.
+In this session, you will learn the fundamentals by building a complete, working package from scratch. Our goal is to demystify the process and understand the **why** behind each step. We will build a simple but practical utility package that standardizes journal names in bibliographic data, which is a core task in literature review tools like `colrev`. In the last part, we will make the new package available as a plugin to `colrev`.
 
 ## Setting up your tools
 
@@ -62,15 +63,16 @@ Before we begin, we need to ensure you have the necessary command-line tools. Th
 
 ### Installing `uv`
 
-`uv` is a modern, extremely fast tool for managing Python packages and projects. We will use it to initialize our project and handle dependencies.
+`uv` is a modern, extremely fast tool for managing Python packages and projects. We will use it to initialize our package and handle dependencies.
 
-Open your terminal or command prompt and run the following command:
+Run the following command in your Codespace terminal:
 
 ```bash
 # For macOS, Linux, and Windows WSL
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
-After installation, close and reopen your terminal. Verify it was installed correctly by running:
+
+Verify it was installed correctly by running:
 
 ```bash
 uv --version
@@ -81,15 +83,15 @@ You should see the installed version number printed.
 ## Part 1: Initialization <a id="initialization"></a>
 
 Let's start with the anatomy of a Python package.
-A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
+A consistent structure is key because it allows automated tools and other developers to understand your project instantly.
 A typical package could be structured as follows:
 
 ```
 colrev-journal-formatter/
 │   ├── __init__.py
-│   └── main.py
+│   └── formatter.py
 ├── tests/
-│   └── test_main.py
+│   └── test_formatter.py
 ├── LICENSE
 ├── README.md
 └── pyproject.toml
@@ -109,7 +111,7 @@ mkdir colrev-journal-formatter
 cd colrev-journal-formatter
 ```
 
-Now, we use `uv` to initialize the project. This automatically creates the `pyproject.toml` file, which is the control center for modern Python packages.
+Now, we use `uv` to initialize the project. This automatically creates the `pyproject.toml` file:
 
 ```bash
 uv init
@@ -372,7 +374,13 @@ search_types = []
 prep = "colrev_journal_formatter.formatter:JournalAbbreviationPrep"
 ```
 
-To validate the package setup in the context of `colrev`, you can run `colrev package --check` in the package directory. Once your `colrev` plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"} to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
+To validate the package setup in the context of `colrev`, you can run
+
+```bash
+colrev package --check
+```
+
+Once your `colrev` plugin is completed and published, open an issue in the [colrev repository](https://github.com/CoLRev-Environment/colrev/issues){: target="_blank"} to have it listed in the [overview of packages](https://colrev-environment.github.io/colrev/manual/packages.html){: target="_blank"}.
 
 **Breakpoint:** Jump to the solution.
 
