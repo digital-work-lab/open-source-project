@@ -30,12 +30,12 @@ This notebook guides you through creating a small but fully functional Python pa
 | Part   | Label                                      | Time (min) |
 |--------|--------------------------------------------|------------|
 |        | Setup                                      | 10         |
-| Part 1 | Initialization                             | 20         |
-| Part 2 | Structure & Code                           | 20         |
-| Part 3 | Editable Install                           | 10         |
-| Part 4 | Testing                                    | 20         |
-| Part 5 | Code Quality                               | 20         |
-| Part 6 | Base Classes & CoLRev Plugin Context       | 70         |
+| Part 1 | [Initialization](#initialization)          | 20         |
+| Part 2 | [Structure and code](#structure_and_code)  | 20         |
+| Part 3 | [Editable installation](#editable_install) | 10         |
+| Part 4 | [Testing](#testing)                        | 20         |
+| Part 5 | [Code quality](#code_quality)              | 20         |
+| Part 6 | [CoLRev plugins](#plugins)                 | 70         |
 |        | Wrap-up                                    | 10         |
 |        | **Overall**                                | **180**    |
 
@@ -72,7 +72,7 @@ uv --version
 
 You should see the installed version number printed.
 
-## Part 1: Initialization
+## Part 1: Initialization <a id="initialization"></a>
 
 Let's start with the anatomy of a Python package.
 A consistent structure is key. It allows automated tools and other developers to understand your project instantly.
@@ -138,7 +138,7 @@ TODO:
 git checkout bbb9546aefa1e866fa5f50801c32001a75b240b1 -- colrev-journal-formatter pyproject.toml
 ```
 
-## Part 2: Structure & Code
+## Part 2: Structure and code <a id="structure_and_code"></a>
 
 Now, let's create the necessary files and folders for our code.
 
@@ -180,7 +180,7 @@ TODO
 git checkout 974cd38c90c7b34346f9f7fe3f3803d131438b37 -- colrev-journal-formatter pyproject.toml
 ```
 
-## Part 3: Editable Install
+## Part 3: Editable installation <a id="editable_install"></a>
 
 To install the package locally so changes are reflected immediately, we use `pip` with the `-e` flag (editable). This creates a link to your source code instead of copying it. This means you don't need to reinstall the package every time you change a line of code. **Run this from the project's root directory.**
 
@@ -190,7 +190,7 @@ pip install -e .
 
 TODO: how to run the code?
 
-## Part 4: Testing
+## Part 4: Testing <a id="testing"></a>
 
 `pytest` is the framework we will use to write and run tests for our code. 
 Let's add `pytest` as a development dependency.
@@ -233,7 +233,7 @@ TODO
 git checkout be0e2d09b34edca2d0df3b77161d07f4ab8bade9 -- colrev-journal-formatter pyproject.toml
 ```
 
-## Part 5: Code Quality
+## Part 5: Code quality <a id="code_quality"></a>
 
 In a collaborative open-source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, mature projects use automated tools to enforce quality standards.
 
@@ -264,17 +264,17 @@ TODO
 git checkout <COMMIT_HASH-5> -- colrev-journal-formatter pyproject.toml [could be removed, too]
 ```
 
-## Part 6: Base Classes & CoLRev Plugin Context
+## Part 6: CoLRev plugins <a id="plugins"></a>
 
 To turn our package into a CoLRev plugin, we need to inherit from the `colrev` Base Classes and specify the entry-point in our `pyproject.toml`.
 
 So far, we have written a standalone function, `standardize_journal_name`. This is great for a simple package, but how does a function like this become a true, integrated part of a large application like `colrev`? The answer is through **base classes**.
 
-**What is a Base Class?**
+**What is a base class?**
 
 Think of a base class as a **template or a contract**. In a large project, you don't build plugins from a blank file. Instead, you create a new class that **inherits** from a specific `colrev` base class. This contract ensures that all plugins of a certain type (e.g., all data preparation plugins) have a consistent structure and methods that the main `colrev` application knows how to use.
 
-**A Conceptual Example**
+**A conceptual example**
 
 Our `standardize_journal_name` function is a data preparation task. In a real-world scenario, this logic would live inside a class that inherits from `colrev.ops.prep.Prep`, which is the base class for all preparation operations.
 
@@ -401,17 +401,17 @@ Congratulations! You have successfully created, installed, and tested a complete
 
 *   **Structuring a project** with `pyproject.toml` and a `modules` layout.
 *   **Initializing a project** with `uv init`.
-*   **Developing efficiently** using an editable install (`pip install -e .`).
+*   **Developing efficiently** using an editable installation (`pip install -e .`).
 *   **Ensuring code quality** with automated tests using `pytest`.
 *   **Managing dependencies** declaratively with `uv add`.
 *   **Turning a package into a plugin** to extend existing Python packages, such as `colrev`.
 
 These are the universal building blocks of shareable and maintainable Python code.
 
-**Next Steps:**
+**Next steps:**
 Navigate back to the root directory and remember to **stop your Codespace** to save resources.
 
-### Further Steps
+### Further steps
 
 Your journey as a package developer is just beginning. The logical next steps in a package's lifecycle are:
 
