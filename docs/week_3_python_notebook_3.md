@@ -38,7 +38,7 @@ In this session, we create a small but fully functional Python package and turni
 | Part 5 | [Code quality](#code_quality)              | 20         |
 | Part 6 | [colrev plugins](#plugins)                 | 70         |
 |        | Wrap-up                                    | 10         |
-|        | **Overall*-                              | **180*-  |
+|        | Overall                                    | 180        |
 
 {: .info }
 > Start a Codespace in the [colrev-python-package tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial){: target="_blank"} repository.
