@@ -22,7 +22,8 @@ This notebook guides you through creating a small but fully functional Python pa
 > - Extend CoLRev by making the package available as a plugin
 
 📑 Session Slides
-➡️ [![View online](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-python_3.html){: target="_blank"} · ⬇️ [![Download PDF](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-python_3.pdf){: target="_blank"}
+
+➡️ [View online](../output/05-python_3.html){: target="_blank"} · ⬇️ [Download PDF](../output/05-python_3.pdf){: target="_blank"}
 
 | Part   | Label                                      | Time (min) |
 |--------|--------------------------------------------|------------|

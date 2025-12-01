@@ -25,7 +25,8 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 > - Learn how to use functions
 
 📑 Session Slides
-➡️ [![View online](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} · ⬇️ [![Download PDF](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"}
+
+➡️ [View online](../output/03-python_1.html){: target="_blank"} · ⬇️ [Download PDF](../output/03-python_1.pdf){: target="_blank"}
 
 | Part       | Label                              | Time (min) |
 |------------|------------------------------------|------------|
