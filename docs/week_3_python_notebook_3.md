@@ -253,7 +253,7 @@ A very common framework for this is called **`pre-commit`**. It works by setting
 *   Check for common programming errors or bugs (linting).
 *   Ensure documentation is up to date.
 
-Create a `.pre-commit-config.yaml` configuration file with the following content, which adds the [black](https://github.com/psf/black) code formatter:
+Create a `.pre-commit-config.yaml` configuration file with the following content, which adds the [black](https://github.com/psf/black){: target="_blank"} code formatter:
 
 ```yaml
 repos:
