@@ -138,7 +138,7 @@ Generally, Python package development can be helpful for a range of purposes:
   This is essential when building large-scale applications where different parts of the software 
   can be independently developed, tested, and maintained.
 
-Our target audience is Bachelor students in Information Systems with initial programming experience.
+Our target audience is second- to third-year Bachelor students who already have some foundational programming skills.
 
 # Learning objectives and outline
 
@@ -175,7 +175,7 @@ Code improvements are implemented within a week,
 and student reflections are discussed at the end.
 When merging the contributions, we include students as contributors of the package.
 
-![Course timeline with sessions and group work activities](figures/TeaPaD.png)
+![Course timeline with sessions and group work activities](figures/session_overview.png)
 
 # Teaching materials
 
