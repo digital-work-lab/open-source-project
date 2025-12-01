@@ -42,6 +42,8 @@ This notebook guides you through creating a small but fully functional Python pa
 {: .info }
 > Start a Codespace in the [colrev-python-package tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial){: target="_blank"} repository.
 
+Run the following git reset at the beginning:
+
 ```bash
 git reset --hard 60e191517b9e0e68892bac5fb61aec33a01c5543
 ```
@@ -121,7 +123,7 @@ name = "colrev-journal-formatter"
 version = "0.1.0"
 description = "The package supports formatting of journal names."
 authors = [ { name = "Your Name", email = "you@example.com" } ]
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 dependencies = []
 
 [build-system]
@@ -129,17 +131,18 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 ```
 
+Adapt the sections as you see fit (e.g., update the `authors` and add the `build-system`).
+
 *   **`[project]`**: A standard section holding all your project's metadata.
-*   **`name`**: The name used to install your package (`pip install colrev-journal-formatter`).
+*   **`name`**: The name that users specify to install your package (`pip install colrev-journal-formatter`).
 *   **`version`**: The current version. You should increment this with each new release.
 *   **`dependencies = []`**: A list of other packages that your package needs to function. `uv add` will populate this list for you.
 *   **`[build-system]`**: This section tells `pip` *how* to build your package. It specifies the "build backend" (`hatchling`) which acts as a "factory" to assemble your code into a distributable format.
 
-> **Breakpoint:** If you are stuck or want to jump to the solution for this step, run the command below.
+**Breakpoint:** If you are stuck or want to jump to the solution for this step, run the command below.
 
-TODO:
 ```bash
-git checkout bbb9546aefa1e866fa5f50801c32001a75b240b1 -- colrev-journal-formatter pyproject.toml
+git reset --hard 49384a9e5b11912f3b182bd2a44f44b12f2dfb1c
 ```
 
 ## Part 2: Structure and code <a id="structure_and_code"></a>
@@ -147,10 +150,9 @@ git checkout bbb9546aefa1e866fa5f50801c32001a75b240b1 -- colrev-journal-formatte
 Now, let's create the necessary files and folders for our code.
 
 ```bash
-mkdir -p colrev_journal_formatter tests
+mkdir -p colrev_journal_formatter
 touch colrev_journal_formatter/__init__.py
 touch colrev_journal_formatter/formatter.py
-touch tests/test_formatter.py
 ```
 
 Note that Python package names often use underscores (`_`) instead of hyphens (`-`).
@@ -158,8 +160,6 @@ Note that Python package names often use underscores (`_`) instead of hyphens (`
 Let's add our core logic. Open `colrev_journal_formatter/formatter.py` and add this code:
 
 ```python
-# colrev_journal_formatter/formatter.py
-
 def standardize_journal_name(name: str) -> str:
     """
     Standardizes a journal name by replacing common abbreviations.
@@ -177,11 +177,10 @@ def standardize_journal_name(name: str) -> str:
     return " ".join(standardized_words)
 ```
 
-> **Breakpoint:** Jump to the solution for Step 2.
+**Breakpoint:** Jump to the solution for Step 2.
 
-TODO
 ```bash
-git checkout 974cd38c90c7b34346f9f7fe3f3803d131438b37 -- colrev-journal-formatter pyproject.toml
+git reset --hard 97791b296408f1869b22920cb00e810f0d4e3a37
 ```
 
 ## Part 3: Editable installation <a id="editable_install"></a>
@@ -192,7 +191,16 @@ To install the package locally so changes are reflected immediately, we use `pip
 pip install -e .
 ```
 
-TODO: how to run the code?
+To test whether it works, we can import and run the code in a Python shell (type `python` + ENTER in the terminal and `exit()` to close):
+
+```python
+from colrev_journal_formatter.formatter import standardize_journal_name
+
+print(standardize_journal_name('J of Comput Syst'))
+# Should print "Journal of Computing Systems"
+```
+
+Update the `standardize_journal_name()` function to replace `Int` with `International` and test it in the Python shell.
 
 ## Part 4: Testing <a id="testing"></a>
 
@@ -230,11 +238,10 @@ Finally, run the tests:
 pytest
 ```
 
-> **Breakpoint:** Jump to the solution for Step 4.
+**Breakpoint:** Jump to the solution for Step 4.
 
-TODO
 ```bash
-git checkout be0e2d09b34edca2d0df3b77161d07f4ab8bade9 -- colrev-journal-formatter pyproject.toml
+git reset --hard b4bf67e8de8026d2f7dd845c5c459211e938e107
 ```
 
 ## Part 5: Code quality <a id="code_quality"></a>
@@ -261,16 +268,18 @@ If any of the checks fail, the commit is blocked until the developer fixes the i
 **You do not need to run this for your small tutorial package**, as setting up a `pre-commit` system is an advanced topic. However, it is a key part of the modern development workflow, and you will see it in almost any established open-source project you contribute to in the future.
  -->
 
-> **Breakpoint:** Jump to the solution for Step 5.
+**Breakpoint:** Jump to the solution for Step 5.
 
 TODO
 ```bash
-git checkout <COMMIT_HASH-5> -- colrev-journal-formatter pyproject.toml [could be removed, too]
+git reset --hard XXXXXX
 ```
 
 ## Part 6: CoLRev plugins <a id="plugins"></a>
 
 To turn our package into a CoLRev plugin, we need to inherit from the `colrev` Base Classes and specify the entry-point in our `pyproject.toml`.
+
+**TODO: install colrev !**
 
 So far, we have written a standalone function, `standardize_journal_name`. This is great for a simple package, but how does a function like this become a true, integrated part of a large application like `colrev`? The answer is through **base classes**.
 
@@ -325,11 +334,11 @@ By inheriting from `PrepPackageBaseClass` and placing our logic inside the `prep
 
 **Task**: change the current code to inherit from `PrepPackageBaseClass`.
 
-> **Breakpoint:** Jump to the solution.
+**Breakpoint:** Jump to the solution.
 
 TODO
 ```bash
-git checkout <COMMIT_HASH-6> -- colrev-journal-formatter pyproject.toml [could be removed, too.]
+git reset --hard b4bf67e8de8026d2f7dd845c5c459211e938e107
 ```
 
 As a last step, we need to specify how `colrev` will interact with our package.
