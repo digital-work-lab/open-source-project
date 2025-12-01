@@ -48,7 +48,7 @@ Resume the codespace as follows:
 
 To select the **starting point** (commit), run:
 
-```python
+```bash
 git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
 ```
 
@@ -64,7 +64,7 @@ Our next goal is to implement the previous example (adding the journal impact fa
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
 ```
 
@@ -86,7 +86,7 @@ To use the CoLRev infrastructure, take a look at the [API reference](https://col
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard 29e5cf28e3c96940e19e5af470977092ef3b8d47
 ```
 
@@ -99,7 +99,7 @@ To improve the code, try to implement these two changes:
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard 8a4d064771f2b527b6479ac967bde0a5aabd9b19
 ```
 
@@ -113,7 +113,7 @@ Review the commit and its content.
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard 99f4477aabd4dfd5eaec7ddefefab2b632ef95e0
 ```
 

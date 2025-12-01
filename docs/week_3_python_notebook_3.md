@@ -42,6 +42,10 @@ This notebook guides you through creating a small but fully functional Python pa
 {: .info }
 > Start a Codespace in the [colrev-python-package tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial){: target="_blank"} repository.
 
+```bash
+git reset --hard 60e191517b9e0e68892bac5fb61aec33a01c5543
+```
+
 ## Setup
 
 **What is a Python package?**

@@ -56,7 +56,7 @@ pip install uv
 
 Next, we reset the state of the repository to the beginning of the tutorial:
 
-```python
+```bash
 git reset --hard f0a13be2494181d56eb71a2f1aee8b4511f65919
 ```
 
@@ -73,7 +73,7 @@ python run.py
 
 **Task**: Create the script, have it print "Hello World" and test the `python run.py` call.
 
-```python
+```bash
 git reset --hard 1778473e75718277ad2a1b623cde99c4fff674c0
 ```
 
@@ -114,7 +114,7 @@ Start simple colrev run
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard 728a2dbe5a3c0f15e989eac4faab7b877b2f3a0c
 ```
 
@@ -145,7 +145,7 @@ Afterward, loop over the records (`for ...`) and print the title of each record.
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard a84c9be1fb215f9cda8920bcdb86ff529bfc83d2
 ```
 
@@ -160,7 +160,7 @@ Next, we would like to create a function, which adds the `journal_impact_factor`
 
 To select the **solution**, run:
 
-```python
+```bash
 git reset --hard bc94da869184485f7805dba2b9f8e32af0ff2dfb
 ```
 
