@@ -110,8 +110,11 @@ Wagner, G., and Thurner, L. "Rethinking How We Teach Git: Recommendations and Pr
 ## Related resources
 
 - [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science)
-- [Python Packages](https://py-pkgs.org/)
+- [py-pkgs](https://py-pkgs.org/welcome)
 - [Python: Creating a pip installable package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)
+- [py-rse — Packaging Python Projects](https://third-bit.com/py-rse/packaging.html)
+- [Alice in Python Projectland (Vicki Boykis)](https://vickiboykis.com/2017/09/26/alice-in-python-projectland/)
+- [Software Carpentry: Intermediate Software Development (Packaging Code for Release and Distribution)](https://carpentries-incubator.github.io/python-intermediate-development/43-software-release.html)
 
 ## Citation
 
