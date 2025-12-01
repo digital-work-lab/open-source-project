@@ -15,17 +15,13 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-## Slides
-
-[![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-python_3.pdf){: target="_blank"}
-
----
-
 This notebook guides you through creating a small but fully functional Python package and turning it into a plugin of CoLRev. Step by step, you will set up a clean project structure, write reusable code, add automated tests, and manage dependencies using modern tooling. By the end, you will have a shareable package that follows current best practices—and a solid foundation for developing more advanced tools in the future. Specifically, we will cover the following learning objectives:
 
 {: .objective } 
 > - Learn how to set up a Python package using uv
 > - Extend CoLRev by making the package available as a plugin
+
+Complementary session slides are available here: [![View Slides Part 3](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/05-python_3.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/05-python_3.pdf){: target="_blank"}
 
 | Part   | Label                                      | Time (min) |
 |--------|--------------------------------------------|------------|
@@ -38,6 +34,9 @@ This notebook guides you through creating a small but fully functional Python pa
 | Part 6 | Base Classes & CoLRev Plugin Context       | 70         |
 |        | Wrap-up                                    | 10         |
 |        | **Overall**                                | **180**    |
+
+{: .info }
+> Start a Codespace in the [colrev-python-package tutorial](https://github.com/CoLRev-Environment/colrev-python-package-tutorial){: target="_blank"} repository.
 
 ## Setup
 

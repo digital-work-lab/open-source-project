@@ -15,18 +15,14 @@ We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height=
 
 ---
 
-## Slides
-
-[![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"}
-
----
-
 With this notebook, you can refactor to object-oriented code, switch to a real CoLRev project and load the records using the CoLRev classes, and save changes to create a commit.  Specifically, we will cover the following learning objectives:
 
 {: .objective } 
 > - Learn how to write object-oriented code
 > - Learn how to use CoLRev infrastructure
 > - Learn how to save and commit changes
+
+Complementary session slides are available here: [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"}
 
 | Part      | Label                                                        | Time (min) |
 |-----------|--------------------------------------------------------------|------------|
@@ -39,11 +35,14 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 
 <br>
 
-To continue working on your [Codespace](https://github.com/codespaces){: target="_blank"}, resume it as follows:
+{: .info }
+> Continue working on your [Codespace](https://github.com/codespaces){: target="_blank"} started in the previous session.
+
+Resume the codespace as follows:
 
 <img src="../assets/codespace-start.gif"  loop="1" width="800"/>
 
-To checkout the **starting point** (commit), run:
+To select the **starting point** (commit), run:
 
 ```python
 git reset --hard f859208f8ddaf5651f5c2b378e7e07543ca7cdd1
@@ -59,7 +58,7 @@ Our next goal is to implement the previous example (adding the journal impact fa
 
 **Hint** Also adapt the path of the records to `data/records.bib`. This is where CoLRev projects store the main records file.
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard 670c56408684f8b3b466c22f25a62fe2bed88bd1
@@ -81,7 +80,7 @@ To use the CoLRev infrastructure, take a look at the [API reference](https://col
 
 **Hint**: Remember to import the required modules. Test your code, run the linters, and try to address potential warnings.
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard 29e5cf28e3c96940e19e5af470977092ef3b8d47
@@ -94,7 +93,7 @@ To improve the code, try to implement these two changes:
 - Instead of using `print()` statements, it is recommended to use the `ReviewManager`'s logger.
 - Instead of using the record dicts, it is recommended to work with the `Record` class and its `update_field()` method.
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard 8a4d064771f2b527b6479ac967bde0a5aabd9b19
@@ -108,7 +107,7 @@ git reset --hard 8a4d064771f2b527b6479ac967bde0a5aabd9b19
 
 Review the commit and its content.
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard 99f4477aabd4dfd5eaec7ddefefab2b632ef95e0

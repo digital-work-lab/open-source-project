@@ -13,11 +13,6 @@ has_toc: true
 
 We  <img src="../assets/iconmonstr-favorite-2.svg" alt="Edit" width="12" height="12">  your <a href="https://github.com/digital-work-lab/open-source-project/issues/new/choose" target="_blank">feedback</a> and <a href="https://github.com/digital-work-lab/open-source-project/edit/main/docs/week_3_python_notebook_1.md" target="_blank">suggestions</a> on this notebook!
 
----
-
-## Slides
-
-[![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"}
 
 ---
 
@@ -28,6 +23,8 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 > - Create and modify data items
 > - Learn how to use external libraries
 > - Learn how to use functions
+
+Complementary session slides are available here: [![View Slides Part 1](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/03-python_1.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/03-python_1.pdf){: target="_blank"}
 
 | Part       | Label                              | Time (min) |
 |------------|------------------------------------|------------|
@@ -40,11 +37,12 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 
 <br>
 
+{: .info }
+> Start a Codespace in the [colrev-python-tutorial](https://github.com/CoLRev-Environment/colrev-python-tutorial){: target="_blank"} repository.
+
 ## Part 1: Setup <a id="setup"></a>
 
 **"How do I write and use Python code?"**
-
-Start a Codespace in the [colrev-python-tutorial](https://github.com/CoLRev-Environment/colrev-python-tutorial){: target="_blank"} repository.
 
 As a first step, we install the package dependency manager **uv**, which will be used in [part 3](#libraries):
 
@@ -58,7 +56,7 @@ Next, we reset the state of the repository to the beginning of the tutorial:
 git reset --hard f0a13be2494181d56eb71a2f1aee8b4511f65919
 ```
 
-- As the session progresses, you can checkout the current commits
+- As the session progresses, you can select the current commits
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 
 ### Setting up a Python script
@@ -110,7 +108,7 @@ Start simple colrev run
 {'ID': 'Pare2023', 'title': 'On writing literature reviews', 'journal': 'MIS Quarterly', 'year': '2023', 'author': 'Pare, Guy', 'colrev_status': 'md_imported'}
 ```
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard 728a2dbe5a3c0f15e989eac4faab7b877b2f3a0c
@@ -141,7 +139,7 @@ Instead of defining the dictionary in the `run.py`, use the bibtexparser to load
 
 Afterward, loop over the records (`for ...`) and print the title of each record.
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard a84c9be1fb215f9cda8920bcdb86ff529bfc83d2
@@ -156,7 +154,7 @@ Next, we would like to create a function, which adds the `journal_impact_factor`
 | MIS Quarterly            |                    8.3|
 | Information & Management |                  10.3 |
 
-To checkout the **solution**, run:
+To select the **solution**, run:
 
 ```python
 git reset --hard bc94da869184485f7805dba2b9f8e32af0ff2dfb
