@@ -24,9 +24,11 @@ With this notebook, you can familiarize yourself with Python syntax, create and 
 > - Learn how to use external libraries
 > - Learn how to use functions
 
-📑 Session Slides
+<br>
 
-➡️ [View online](../output/03-python_1.html){: target="_blank"} · ⬇️ [Download PDF](../output/03-python_1.pdf){: target="_blank"}
+📑 Session Slides: ➡️ [View online](../output/03-python_1.html){: target="_blank"} · ⬇️ [Download PDF](../output/03-python_1.pdf){: target="_blank"}
+
+<br>
 
 | Part       | Label                              | Time (min) |
 |------------|------------------------------------|------------|

@@ -21,9 +21,11 @@ This notebook guides you through creating a small but fully functional Python pa
 > - Learn how to set up a Python package using uv
 > - Extend CoLRev by making the package available as a plugin
 
-📑 Session Slides
+<br>
 
-➡️ [View online](../output/05-python_3.html){: target="_blank"} · ⬇️ [Download PDF](../output/05-python_3.pdf){: target="_blank"}
+📑 Session Slides: ➡️ [View online](../output/05-python_3.html){: target="_blank"} · ⬇️ [Download PDF](../output/05-python_3.pdf){: target="_blank"}
+
+<br>
 
 | Part   | Label                                      | Time (min) |
 |--------|--------------------------------------------|------------|

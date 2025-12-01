@@ -22,10 +22,11 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 > - Learn how to use CoLRev infrastructure
 > - Learn how to save and commit changes
 
-📑 Session Slides
+<br>
 
-➡️ [View online](../output/04-python_2.html){: target="_blank"} · ⬇️ [Download PDF](../output/04-python_2.pdf){: target="_blank"}
+📑 Session Slides: ➡️ [View online](../output/04-python_2.html){: target="_blank"} · ⬇️ [Download PDF](../output/04-python_2.pdf){: target="_blank"}
 
+<br>
 
 | Part      | Label                                                        | Time (min) |
 |-----------|--------------------------------------------------------------|------------|
