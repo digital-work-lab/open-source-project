@@ -401,7 +401,7 @@ Congratulations! You have successfully created, installed, and tested a complete
 *   **Developing efficiently** using an editable install (`pip install -e .`).
 *   **Ensuring code quality** with automated tests using `pytest`.
 *   **Managing dependencies** declaratively with `uv add`.
-*   **Turning a package into a plugin** to extend exising Python packages, such as `colrev`.
+*   **Turning a package into a plugin** to extend existing Python packages, such as `colrev`.
 
 These are the universal building blocks of shareable and maintainable Python code.
 
