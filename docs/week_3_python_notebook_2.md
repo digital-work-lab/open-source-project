@@ -22,7 +22,9 @@ With this notebook, you can refactor to object-oriented code, switch to a real C
 > - Learn how to use CoLRev infrastructure
 > - Learn how to save and commit changes
 
-Complementary session slides are available here: [![View Slides Part 2](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} [![View PDF Slides](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"}
+📑 Session Slides
+➡️ [![View online](https://img.shields.io/badge/View-Slides-orange?logo=html5)](../output/04-python_2.html){: target="_blank"} · ⬇️ [![Download PDF](https://img.shields.io/badge/Download-PDF-orange?logo=adobe)](../output/04-python_2.pdf){: target="_blank"}
+
 
 | Part      | Label                                                        | Time (min) |
 |-----------|--------------------------------------------------------------|------------|
