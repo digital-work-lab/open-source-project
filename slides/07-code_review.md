@@ -8,12 +8,12 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open Source Project
+# WI-Project: Open source project
 
-## The Review Session
+## The review session
 
-Prof. Dr. Gerit Wagner
-Faculty Information Systems and Applied Computer Sciences
+Prof. Dr. Gerit Wagner  
+Faculty of Information Systems and Applied Computer Sciences  
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
@@ -21,29 +21,29 @@ Otto-Friedrich-Universität Bamberg
 ---
 <!-- paginate: true -->
 
-# The Review Session
+# The review session
 
 In this session, you will **adopt the perspective of a maintainer**, i.e., a gatekeeper who takes responsibility for an open source project by screening, improving, and integrating code contributions.
 
 As a group, your goals are:
 
-1. Download the code from the pull request (fork) to your local machine or Codespace
-2. Test whether the code works as expected
-3. Debug and improve the code (if necessary)
-4. Document your assessment in the pull request on GitHub and suggest merging, revising, or rejecting the contribution
+1. Download the code from the pull request (fork) to your local machine or Codespace.
+2. Test whether the code works as expected.
+3. Debug and improve the code (if necessary).
+4. Document your assessment in the pull request on GitHub and suggest merging, revising, or rejecting the contribution.
 
 ---
 
-# The Process
+# The process
 
-1. Group is assigned to a pull requests
+1. Group is assigned to a pull request.
 2. Review session:
     - Stage 1 (10 min)
-    - Opportunity to ask questions
+    - Opportunity to ask questions.
     - Stage 2 (10 min)
-    - Opportunity to ask questions
+    - Opportunity to ask questions.
     - Stage 3 (10 min)
-3. Short summary of the code review (2-5 min)
+3. Short summary of the code review (2-5 min).
 
 ![bg right:30% width:300px](../assets/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg)
 
@@ -59,16 +59,16 @@ As a group, your goals are:
 
 # Feedback
 
-Our feedback for you
+Our feedback for you:
 
-- On the code contribution
-- On the project
+- On the code contribution.
+- On the project.
 
-Your feedback for us
+Your feedback for us:
 
-- Let us know how we can improve
-- We have a [GitHub issue](https://github.com/digital-work-lab/open-source-project/issues) to document and track improvements
-- You should have received the evaluation survey
+- Let us know how we can improve.
+- We have a [GitHub issue](https://github.com/digital-work-lab/open-source-project/issues) to document and track improvements.
+- You should have received the evaluation survey.
 
 ![bg right:50% width:350px](../assets/feedback.jpg)
 
@@ -76,11 +76,11 @@ Your feedback for us
 
 # Summary (I)
 
-- You will be added as a contributor on GitHub (to opt out, e-mail me)
+- You will be added as a contributor on GitHub (to opt out, e-mail me).
 - Consider mentioning the contribution in your CV:
 
-**Open Source Contributions**
-CoLRev - An open source environment for Collaborative Literature Reviews
+**Open source contributions**  
+CoLRev - An open source environment for collaborative literature reviews.
 
 - Role: Contributor/Developer
 - Date: 2024
@@ -105,7 +105,7 @@ CoLRev - An open source environment for Collaborative Literature Reviews
 
 # Summary (II)
 
-**Thank you for your contribution!**
+**Thank you for your contribution!**  
 Remember - your work helps researchers. Many have already commended CoLRev, including Guy Paré, Piers Steel, and Blair Wang 🎉 🙌 🎊
 
 - Grades will be entered in FlexNow.

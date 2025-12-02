@@ -54,7 +54,7 @@ Finally, package development supports scalability and maintainability, making it
 
 At the beginning of the project, three block events are planned:
 
-- (1) an overview of the open source project and the sub-projects with subsequent topic assignments,
+- (1) an overview of the Open Source Project and the sub-projects with subsequent topic assignments,
 - (2) an introduction to Git,
 - (3) an introduction to Python programming, and
 - (4) a focused session on Python packages.

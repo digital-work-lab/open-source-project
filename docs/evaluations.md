@@ -8,7 +8,7 @@ nav_order:  10
 # Evaluations
 
 {: .info }
-> **Your Feedback Matters: Help Us Improve!**
+> **Your feedback matters: Help us improve!**
 > 
 > We kindly invite you to participate in the upcoming course evaluation.
 > Your feedback is voluntary and anonymous.
@@ -62,9 +62,9 @@ xychart-beta
     line [{{ y_participation }}]
 ```
 
-## What Our Students Say
+## What our students say
 
-We are delighted to share the feedback from students who have participated in our open source project in previous semesters. Their experiences and insights help us continually improve and ensure a valuable learning journey for all.
+We are delighted to share the feedback from students who have participated in our Open Source Project in previous semesters. Their experiences and insights help us continually improve and ensure a valuable learning journey for all.
 
 > I consider that the methodology used and the sessions held at the beginning of the semester, as well as the Hacking sessions in the rest of the semester are well organised. And it helps the student to be independent when developing the project, which in my case helps me to understand everything well without having a time limit to do x thing. Always with the help of the instructor.
 
@@ -84,8 +84,8 @@ We are delighted to share the feedback from students who have participated in ou
 
 > The support I received throughout the project was particularly good, as was the opportunity to deal with topics that were not previously available at the university, but which can be extremely important for your professional life.
 
-Note: the feedback is translated based on the [evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"}.
+Note: The feedback is translated based on the [evaluations](https://digital-work-lab.github.io/handbook/docs/30-teaching/30_processes/30.21.evaluations.html#prior-evaluations){: target="_blank"}.
 
-## How Our Students Continue to Be Involved
+## How our students continue to be involved
 
 Several students have decided to build on the project and write their [thesis](https://digital-work-lab.github.io/theses/){: target="_blank"} in the context of CoLRev.

@@ -15,7 +15,7 @@ search_exclude: true
 | 00:25        | 5 min     | [The project: CoLRev](#the-project-colrev)                                     |                                                |
 | 00:30        | 10 min    | [Agenda, groups, criteria](#agenda-groups-criteria)                            |                                                |
 | 00:40        | 10 min    | [How to make the project a success](#how-to-success)                           |                                                |
-| 00:50        | 30 min    | [Orientation in Open Source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
+| 00:50        | 30 min    | [Orientation in open source projects](#orientation-in-open-source-projects)    | Group task, discussing solutions afterwards    |
 | 01:20        | 10 min    | [Next steps](#next-steps)                                                      |                                                |
 | **01:30**    | **90 min**| **Overall**                                                                    |                                                |
 
@@ -130,7 +130,7 @@ See slides
 
 - Highlight: your contribution will be public/used by others!
 
-## Finding things in an Open Source project <a id="orientation-in-open-source-projects"></a>
+## Finding things in an open source project <a id="orientation-in-open-source-projects"></a>
 
 Small groups web research task ("scavanger hunt")
 

@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Open Source Project: Best-practice session'
+header: 'Open source project: Best-practice session'
 theme: ub-theme
 paginate: true
 footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues/new?template=Blank+issue' target='_blank'>♻️</a> <a href='https://github.com/digital-work-lab/open-source-project/edit/main/slides/06-best_practice.md' target='_blank'>🛠️</a>"
@@ -8,12 +8,12 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open Source Project
+# WI-Project: Open source project
 
-## Best Practice Session
+## Best practice session
 
-Prof. Dr. Gerit Wagner
-Faculty Information Systems and Applied Computer Sciences
+Prof. Dr. Gerit Wagner  
+Faculty of Information Systems and Applied Computer Sciences  
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
@@ -35,7 +35,7 @@ Our objectives for today are to discuss and overcome current challenges related 
 
 The focus is on **helping teams organize their work effectively**. To this end, we
 
-- Encourage you to share challenges, errors or lessons learned
+- Encourage you to share challenges, errors, or lessons learned
 - Do not introduce new commands, except when you ask for them or when they are useful for your work
 
 ![bg right:33% width:320px](../assets/puzzle.png)
@@ -46,7 +46,7 @@ The focus is on **helping teams organize their work effectively**. To this end, 
 
 - Does everyone have a working setup?
 - Are you working on Codespaces or in a local environment?
-- What are the errors and challenges that came up?
+- What errors and challenges have come up?
 
 <!-- 
 - What are your best practices for the setup?
@@ -61,12 +61,12 @@ Summarize the work status per group:
 
 # Technical setup: Sources of errors
 
-- Errors may be raised only in specific settings, i.e., versions of operating systems, Python, package managers, dependencies, and CoLRev
+- Errors may arise only in specific settings, i.e., versions of operating systems, Python, package managers, dependencies, and CoLRev.
 - What we do to identify and fix errors: 
 
     - Run [matrix tests](https://github.com/CoLRev-Environment/colrev/actions/workflows/tests.yml) covering 16 different environments
     - Reduce dependencies
-    - Fix errors that are reported
+    - Fix reported errors
 
 - What you can do to avoid errors:
 
@@ -99,26 +99,25 @@ Raise them directly or add them below (anonymously):
 
 - Are you confident with your programming environment, i.e., do you know how to modify and run your code?
 - Do you know how to execute pre-commit hooks to evaluate and improve code quality?
-- Do you know where and how to contribute your code, i.e., the modules, classes to use or create?
+- Do you know where and how to contribute your code, i.e., the modules and classes to use or create?
 - Are there any questions related to Python packages or CoLRev?
 
 ---
 
 # Programming: Best practices
 
-- [Search](https://github.com/search), [read](https://www.turing.com/kb/start-reading-code-the-right-way) and understand your code and the code in related projects
-- Check and fix code quality regularly (at least: before creating a commit):
+- [Search](https://github.com/search), [read](https://www.turing.com/kb/start-reading-code-the-right-way), and understand your code and the code in related projects
+- Check and fix code quality regularly (at least before creating a commit):
 
 ```
 pre-commit run --all
 ```
 
-- Understanding of CoLRev
+- Understanding of CoLRev:
 
-    - **User workflow**: Start with the [video](https://colrev-environment.github.io/colrev/) and check ``gitk`` after each step
+    - **User workflow**: Start with the [video](https://colrev-environment.github.io/colrev/) and check `gitk` after each step
     - **Architecture**: Starting point: [API chart and reference](https://colrev-environment.github.io/colrev/dev_docs/api.html) and [modules](https://github.com/CoLRev-Environment/colrev/tree/main/colrev)
     - **Package development and SearchSources**: Starting point: [package development resources](https://colrev-environment.github.io/colrev/dev_docs/packages.html), [CEP 003 - SearchSources](https://colrev-environment.github.io/colrev/foundations/cep/cep003_search_sources.html)
-
 
 ---
 
@@ -169,10 +168,9 @@ blockquote {
 
 Recommended branch setup in your fork:
 
-1. Work on a shared **feature branch**, such as ``unpaywall_search``. This is where your latest, working version is developed
-2. Do not commit directly to ``remotes/fork/main``. This branch should be kept in-sync with ``remotes/origin/main``
-3. Regularly merge ``remotes/origin/main`` into ``remotes/fork/main`` and ``remotes/fork/main`` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#work-in-a-forked-repository), which will fast-forward, ``git fetch``, ``git switch feature_branch`` and ``git merge main``)
-
+1. Work on a shared **feature branch**, such as `unpaywall_search`. This is where your latest, working version is developed.
+2. Do not commit directly to `remotes/fork/main`. This branch should be kept in sync with `remotes/origin/main`.
+3. Regularly merge `remotes/origin/main` into `remotes/fork/main` and `remotes/fork/main` into your feature branch using merge commits (i.e., [sync](https://digital-work-lab.github.io/open-source-project/output/02-git.html#work-in-a-forked-repository), which will fast-forward, `git fetch`, `git switch feature_branch`, and `git merge main`).
 <!-- Note: the branching strategy is part of the best-practice session because it is useful when students have already thought about how to organize tasks. In the Git session, it would be too early in the group formation process. -->
 
 Optional: Merging into a target branch, i.e., your shared feature branch:
@@ -181,9 +179,9 @@ Optional: Merging into a target branch, i.e., your shared feature branch:
 - Rebase if you would like to preserve a simple linear history
 - Merge commit otherwise
 
-Optional: When tasks are distributed, and you work alone, work in local non-shared branches (e.g., ``api_retrieval``):
+Optional: When tasks are distributed, and you work alone, work in local non-shared branches (e.g., `api_retrieval`):
 
-- Rebase on (parent) feature branch to keep your branch "up-to-date" (``git rebase unpaywall_search``)
+- Rebase on (parent) feature branch to keep your branch "up-to-date" (`git rebase unpaywall_search`)
 - Once the branch is online, use merge commits
 
 ---
@@ -225,9 +223,9 @@ blockquote {
 
 After the introductory sessions, the stage is yours.
 
-- You have six weeks to complete the project
+- You have six weeks to complete the project.
 - Remember: We are here to support you! 
-- To discuss your plans, current challenges, and next steps, schedule a hacking-session:
+- To discuss your plans, current challenges, and next steps, schedule a hacking session:
 
 <br>
 

@@ -8,12 +8,12 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open Source Project
+# WI-Project: Open source project
 
 ## Introduction to Python (1)
 
-Prof. Dr. Gerit Wagner
-Faculty Information Systems and Applied Computer Sciences
+Prof. Dr. Gerit Wagner  
+Faculty of Information Systems and Applied Computer Sciences  
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
@@ -22,22 +22,22 @@ Otto-Friedrich-Universität Bamberg
 
 # Project: Groups, forks and setup
 
-- Groups formed in the issue feeds
+- Groups formed in the issue feeds.
 - Forks were created.
-- Further questions related to GitHub or the setup?
+- Any further questions related to GitHub or the setup?
 
 ---
 
-# Learning objectives:
+# Learning objectives
 
-- Familiarize with Python syntax
-- Learn good debugging and development practices
-- Understand how to extend a Python package (CoLRev)
+- Familiarize yourself with Python syntax.
+- Learn good debugging and development practices.
+- Understand how to extend a Python package (CoLRev).
 
-# Information on this session:
+# Information on this session
 
 - Form groups of three to four participants to collaborate on the tasks, solve them together, and engage in meaningful discussions about your solutions.
-- Over the course of two sessions, we will focus on refining a single module using the colrev run command, progressively enhancing it with each iteration.
+- Over the course of two sessions, we will focus on refining a single module using the `colrev run` command, progressively enhancing it with each iteration.
 
 ---
 
@@ -47,18 +47,18 @@ Open the Notebook: [![Open Notebook](https://img.shields.io/badge/Open-Jupyter%2
 
 Start the Codespace in the `tutorial_python` branch of the CoLRev upstream repository.
 
-The setup can run in the background, while we focus on the concepts.
+The setup can run in the background while we focus on the concepts.
 
 ---
 
 # Python
 
-- Supports multiple paradigms: object-oriented, procedural, or functional
-- Python is an interpreted language: no need to compile (build jars) before running
-- Uses indentation instead of brackets to separate blocks (such as if statements)
-- Is strongly, dynamically typed
+- Supports multiple paradigms: object-oriented, procedural, or functional.
+- Python is an interpreted language: no need to compile (build jars) before running.
+- Uses indentation instead of brackets to separate blocks (such as if statements).
+- Is strongly and dynamically typed.
 - Provides access to many packages on [PyPI](https://pypi.org/), covering machine learning, data science, web scraping, etc.
-- Python is actively developed, with new versions introducing changes in functionality and old versions no longer receiving security updates
+- Python is actively developed, with new versions introducing changes in functionality and old versions no longer receiving security updates:
   - Python 3.6 (2016): [Introduction of f-strings](https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/)
   - Python 3.7 (2018): [Dictionaries are now ordered](https://www.geeksforgeeks.org/are-python-dictionaries-ordered/)
   - ...
@@ -74,7 +74,6 @@ The setup can run in the background, while we focus on the concepts.
 ---
 
 # Writing and running Python code
-
 
 ![width:700px center](../assets/python_code_run.PNG)
 
@@ -98,7 +97,7 @@ git checkout tutorial_2024_04
 git reset --hard ca9902e666518af1d33a368adf055c9809004433
 ```
 
-- As the session progresses, you can checkout the current commits.
+- As the session progresses, you can check out the current commits.
 - Whenever you see a `git reset --hard ...` command on the following slides, you can use it to set your repository to the required state (commit).
 -->
 
@@ -106,12 +105,12 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 
 # Best practices
 
-- Carefully read tutorials, vignettes, and code examples (e.g., on GitHub) 
-- Start with small code segments, try whether they work, and extend them
-- Add or commit working code frequently
-- Use code linters to ensure high code quality (run `pre-commit run --all`)
-- To debug code, check whether variables have the expected values (use assert or print statements)
-- When exceptions are thrown, read the Traceback:
+- Carefully read tutorials, vignettes, and code examples (e.g., on GitHub).
+- Start with small code segments, test whether they work, and extend them.
+- Add or commit working code frequently.
+- Use code linters to ensure high code quality (run `pre-commit run --all`).
+- To debug code, check whether variables have the expected values (use assert or print statements).
+- When exceptions are thrown, read the traceback:
 
 ![width:500px center](../assets/python-exception-trace.png)
 
@@ -120,10 +119,10 @@ git reset --hard ca9902e666518af1d33a368adf055c9809004433
 # Next steps
 
 - Read the [package development](https://colrev-environment.github.io/colrev/dev_docs/packages.html) documentation.
-- Study code of related CoLRev packages.
-- Take notes on the CoLRev-objects or libraries that will be needed.
-- Remember to **stop the codespace** ([Codespaces overview](https://github.com/codespaces))
+- Study the code of related CoLRev packages.
+- Take notes on the CoLRev objects or libraries that will be needed.
+- Remember to **stop the Codespace** ([Codespaces overview](https://github.com/codespaces)).
 
 ![bg right:40% width:400px](../assets/codespace-stop.png)
 
-Note: These [tutorials](https://www.codecademy.com/catalog/language/python?g_network=g&g_productchannel=&g_adid=624888211335&g_locinterest=&g_keyword=codecademy%27s%20learn%20python&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-2259230975260&g_ifcreative=&g_campaign=account&g_locphysical=9042755&g_adgroupid=128133971748&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-2259230975260:ag_128133971748:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%27s%20learn%20python&utm_campaign=INTL_Brand_Phrase&utm_content=624888211335&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwzIK1BhAuEiwAHQmU3t-FhdTeqJcFCUfaU1x1cvYdKGfh9vdxz1b8ll5Tl_2wcSc8wgMNhRoCJqoQAvD_BwE) may be helpful to continue practicing Python
+Note: These [tutorials](https://www.codecademy.com/catalog/language/python?g_network=g&g_productchannel=&g_adid=624888211335&g_locinterest=&g_keyword=codecademy%27s%20learn%20python&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-2259230975260&g_ifcreative=&g_campaign=account&g_locphysical=9042755&g_adgroupid=128133971748&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-2259230975260:ag_128133971748:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%27s%20learn%20python&utm_campaign=INTL_Brand_Phrase&utm_content=624888211335&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwzIK1BhAuEiwAHQmU3t-FhdTeqJcFCUfaU1x1cvYdKGfh9vdxz1b8ll5Tl_2wcSc8wgMNhRoCJqoQAvD_BwE) may be helpful to continue practicing Python.

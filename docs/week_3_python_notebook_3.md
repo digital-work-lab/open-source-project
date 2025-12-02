@@ -248,7 +248,7 @@ git reset --hard b4bf67e8de8026d2f7dd845c5c459211e938e107
 
 ## Part 5: Code quality <a id="code_quality"></a>
 
-In a collaborative open-source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, it is good practice to rely on automated tools to maintain quality standards.
+In a collaborative open source project like `colrev`, ensuring that all contributions are clean, consistent, and error-free is essential. It makes the code easier for everyone to read, maintain, and build upon. To achieve this, it is good practice to rely on automated tools to maintain quality standards.
 
 A common framework for this is called **`pre-commit`**. It works by setting up "hooks" that automatically run checks on your code every time you make a `git commit`. These hooks can also run online in a GitHub repository. These hooks can:
 

@@ -8,12 +8,12 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open Source Project
+# WI-Project: Open source project
 
 ## Introduction to Python (3): Creating a Python package
 
-Prof. Dr. Gerit Wagner
-Faculty Information Systems and Applied Computer Sciences
+Prof. Dr. Gerit Wagner  
+Faculty of Information Systems and Applied Computer Sciences  
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
@@ -39,7 +39,7 @@ Otto-Friedrich-Universität Bamberg
 
 `uv` is a modern, fast tool for managing Python projects. It does not come with Python.
 
-**To Install `uv`:**
+**To install `uv`:**  
 (Only needs to be done once)
 
 ```bash
@@ -122,4 +122,4 @@ You now have the fundamental skills to create any Python package.
 
 - A `Colrev` plugin **is** a standard Python package.
 - The functions you write (like data cleaning or formatting) are the core logic of a plugin.
-- By learning this, you've learned the most important skill for extending existing tools like `Colrev`.
+- By learning this, you've acquired the most important skill for extending existing tools like `Colrev`.

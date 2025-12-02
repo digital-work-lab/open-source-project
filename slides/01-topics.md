@@ -8,12 +8,12 @@ footer: "<a href='https://github.com/digital-work-lab/open-source-project/issues
 
 <!-- _class: centered -->
 
-# WI-Project: Open Source Project
+# WI-Project: Open source project
 
 ## Topics
 
-Prof. Dr. Gerit Wagner
-Faculty Information Systems and Applied Computer Sciences
+Prof. Dr. Gerit Wagner  
+Faculty of Information Systems and Applied Computer Sciences  
 Otto-Friedrich-Universität Bamberg
 
 ![center width:150px](../assets/qr-open-source-project.png)
@@ -34,10 +34,10 @@ Otto-Friedrich-Universität Bamberg
 
 # What you will learn (I): Git/GitHub
 
-- Use git and GitHub for versioning and collaboration
+- Use Git and GitHub for versioning and collaboration
 - Git quickly established itself as the most popular version control system
 - As a prominent example, Microsoft has acquired GitHub and moved the source code of Windows to Git ([1](https://www.golem.de/news/gvfs-windows-team-nutzt-fast-vollstaendig-git-1705-128039.html))
-- Many companies have public GitHub programs and share parts of their work as Open Source (e.g., [Google](https://github.com/google) or [Meta](https://github.com/facebook)) 
+- Many companies have public GitHub programs and share parts of their work as open source (e.g., [Google](https://github.com/google) or [Meta](https://github.com/facebook)) 
 
 ![bg right:40% width:350px](../assets/git-diffusion.png)
 
@@ -53,13 +53,13 @@ Otto-Friedrich-Universität Bamberg
 
 ---
 
-# What you will learn (III): Open-Sourcing
+# What you will learn (III): Open-sourcing
 
-- Open source software plays a major role in the industry (see [HBS working paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)) and firms start to use open source principles to organize their work (see [innersource](https://github.com/resources/articles/software-development/innersource))
+- Open source software plays a major role in the industry (see [HBS working paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)) and firms are starting to use open source principles to organize their work (see [innersource](https://github.com/resources/articles/software-development/innersource))
 - You will
 
-  - Work with the Open source workflows of GitHub
-  - Make a first contribution to a public Open Source project
+  - Work with the open source workflows of GitHub
+  - Make a first contribution to a public open source project
   - Adopt the role of a maintainer and review the code of your peers
   - Have an opportunity to create your *developer portfolio*
 
@@ -73,9 +73,9 @@ Collaborative Literature Reviews (CoLRev) is an open source environment for coll
 
 The following features stand out:
 
-- Supports all literature review steps: problem formulation, search, dedupe, (pre)screen, pdf retrieval, preparation, and synthesis
+- Supports all literature review steps: problem formulation, search, deduplication, (pre)screening, PDF retrieval, preparation, and synthesis
 - An open platform based on shared data and process standards
-- It builds on git and its transparent collaboration model for the entire literature review process
+- It builds on Git and its transparent collaboration model for the entire literature review process
 - Focus: command-line interface
 
 ![bg right:30% width:300px](../assets/colrev-logo.png)
@@ -87,8 +87,8 @@ The following features stand out:
 <style>
     img[alt~="center"] {
         display: block;
-  margin: 0 auto;
-}
+        margin: 0 auto;
+    }
 </style>
 
 ![width:750px center](../assets/agenda.png)
@@ -100,22 +100,22 @@ Dates and rooms are available [online](https://digital-work-lab.github.io/open-s
 # How groups will form
 
 You **assign yourself to a group** when you contribute code, following these steps:
-1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22%20%20label%3Asearch_source), before the **Git Session**, for two topics at most).
+1. **Signal your intent** to contribute by joining the issue discussion on GitHub (in the [issue discussion](https://github.com/CoLRev-Environment/colrev/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22%20%20label%3Asearch_source), before the **Git session**, for two topics at most).
 2. **Organize your work**, meet potential group members, and select a project leader (in the following sessions). Keep in mind that **no more than 5 people** will be accepted per group.
-3. **Officially sign up for a group** by contributing a non-trivial code part (\*). Team members' contributions must be made in separate commits. Select a project lead who sends your GitHub-ID together with a link to your code contribution, your student ID, and e-mail address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
+3. **Officially sign up for a group** by contributing a non-trivial code part (*). Team members' contributions must be made in separate commits. Select a project lead who sends your GitHub ID together with a link to your code contribution, your student ID, and email address to [gerit.wagner@uni-bamberg.de](mailto:gerit.wagner@uni-bamberg.de).
 
-This process ensures that **all group members contribute fairly** abd typically **a single grade is given for the entire group**. However, if issues arise, it is essential to raise concerns early. We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
+This process ensures that **all group members contribute fairly** and typically **a single grade is given for the entire group**. However, if issues arise, it is essential to raise concerns early. We reserve the right to adjust the grading policy as needed, including assigning different grades within the group and awarding a bonus to those who make exceptional contributions.
 
-> \* You can only contribute to a group if you have signalled your intent in the issue discussion before.
+> * You can only contribute to a group if you have signaled your intent in the issue discussion beforehand.
 
 ---
 
 # Evaluation criteria
 
-**Process: Open Source practices**
+**Process: Open source practices**
 
 - Follow established Git conventions for commit messages, branching, and pull requests.
-- Actively engage in the community by reviewing code, providing and incorporating constructive feedback.
+- Actively engage in the community by reviewing code and providing and incorporating constructive feedback.
 
 **Code: Functionality**
 
@@ -146,7 +146,7 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 
 - Training sessions (Topics, Git, Python)
 - Hacking sessions
-<!-- TBD: excep for cheating/ -->
+<!-- TBD: except for cheating/ -->
 
 ---
 
@@ -156,7 +156,7 @@ Evaluation is contingent on completing the deliverables listed [here](https://di
 - Take full responsibility for setting up your programming environment
 - Be prepared. Know your code, be able to explain it, and ask prepared questions (Google it, consider different options)
 - Do not use generative AI such as ChatGPT (risk of copyright infringement)
-- Adopt an Open Source approach (work publicly, communicate in English, create a profile)
+- Adopt an open source approach (work publicly, communicate in English, create a profile)
 - Reach out and schedule individual hacking sessions via [Calendly](https://calendly.com/gerit-wagner/30min) to discuss challenges and get feedback
 
 ---
@@ -202,7 +202,7 @@ blockquote {
 **Complete the setup**
 
 - Register for the course on the *Virtual Campus* platform: [here](https://digital-work-lab.github.io/open-source-project/#participate) (password: OSP25#stud)
-- Create a GitHub account (using your student e-mail address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
+- Create a GitHub account (using your student email address) to use [Codespaces](https://github.com/features/codespaces) in the next sessions
 - Read [how to use Codespaces](https://digital-work-lab.github.io/open-source-project/docs/week_1_codespaces.html)
 
 > Challenge (optional): You can **set up your programming environment** (see instructions in the [CoLRev documentation](https://colrev-environment.github.io/colrev/dev_docs/setup.html)). This requires you to install and configure Git, Docker, pre-commit hooks, and venv. It will give you more control over and a deeper understanding of your programming environment.
@@ -232,9 +232,9 @@ blockquote {
 - We actively engage in the pedagogical discourse in Information Systems by sharing teaching tips and inviting feedback from peers:
 
 <div class="references">
-  <p>Wagner, G., and Thurner, L. 2025. "Rethinking How We Teach Git: Pedagogical Recommendations and Practical Strategies for the Information Systems Curriculum". <em>Journal of Information Systems Education</em>, 36(1). <a href="https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.html">link</a></p>
-  <p>Wagner, G., Thurner, L., Tang, C., Ott, S. "Teaching Python Package Development: A structured course with learning resources and an instructor's guide". Submitted to <em>The Journal of Open Source Education</em>. <a href="https://github.com/openjournals/jose-reviews/issues/275">link</a></p>
-  <p>Thurner, L. and Wagner, G. "CONTRIBUTE: A pedagogical framework for Open Source capstone projects". Under review at the <em>Communications of the Association for Information Systems</em>.</p>
+  <p>Wagner, G., and Thurner, L. 2025. "Rethinking how we teach Git: Pedagogical recommendations and practical strategies for the Information Systems curriculum". <em>Journal of Information Systems Education</em>, 36(1). <a href="https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.html">link</a></p>
+  <p>Wagner, G., Thurner, L., Tang, C., Ott, S. "Teaching Python package development: A structured course with learning resources and an instructor's guide". Submitted to <em>The Journal of Open Source Education</em>. <a href="https://github.com/openjournals/jose-reviews/issues/275">link</a></p>
+  <p>Thurner, L. and Wagner, G. "CONTRIBUTE: A pedagogical framework for open source capstone projects". Under review at the <em>Communications of the Association for Information Systems</em>.</p>
 </div>
 
 We value feedback — please let us know what works and how we can improve ♡

@@ -371,11 +371,11 @@ VC post (27.11.24)
 
 > Dear Students,
 > 
-> The implementation phase of the project is now complete, and I will begin integrating the pull requests. A heartfelt thank you for your code contributions and participation in the open source project!
+> The implementation phase of the project is now complete, and I will begin integrating the pull requests. A heartfelt thank you for your code contributions and participation in the Open Source Project!
 > 
 > Grades will be entered into FlexNow at the beginning of the week.
 > 
-> You can track your feedback from the last session and the further development of the open source project here, and continue to contribute suggestions:
+> You can track your feedback from the last session and the further development of the Open Source Project here, and continue to contribute suggestions:
 > 
 > 👉 [Improvement Issue](https://github.com/digital-work-lab/open-source-project/issues/10){: target="_blank"}  
 > 
