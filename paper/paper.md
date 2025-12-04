@@ -175,7 +175,7 @@ Code improvements are implemented within a week,
 and student reflections are discussed at the end.
 When merging the contributions, we include students as contributors of the package.
 
-![Course timeline with sessions and group work activities](figures/session_overview.png)
+![Course timeline with sessions and group work activities](figures/agenda.png)
 
 # Teaching materials
 
